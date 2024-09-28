@@ -3,7 +3,7 @@ import requests
 cfg = ConfigParser()
 
 #a = 'D:\\SteamLibrary\\steamapps\\common\\Deadlock'
-a = input('Введите путь до папки игры (Пример: D:/SteamLibrary/steamapps/common/Deadlock ): ').strip()
+a = input('Введите путь до папки игры\n(Пример: D:/SteamLibrary/steamapps/common/Deadlock)\n').strip()
 if a[-2:-1]=='\\' or a[-2:-1]=='/':
     a += 'game/citadel/resource'
 else: a += '/game/citadel/resource'
