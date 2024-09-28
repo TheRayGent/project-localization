@@ -13,9 +13,9 @@ config_text=requests.get('https://raw.githubusercontent.com/TheRayGent/project-l
 cfg.read_string(config_text)
 
 for i in cfg.items('EditFiles'):
-    c =i[1]
-    b = f'{a}{requests.get(f'https://raw.githubusercontent.com/TheRayGent/project-localization/refs/heads/main{c}')}'
-    print(c)
+    b = a+i[1]
+    c = requests.get('https://raw.githubusercontent.com/TheRayGent/project-localization/refs/heads/main'+i[1]).text
+    print(open(b))
 
 
 
