@@ -19,7 +19,14 @@ for i in cfg.items('EditFiles'):
     print(b)
     txt = open(a+i[1], encoding='utf_8_sig', mode='w')
     txt.write(c)
-
+    txt = open(a+i[1], encoding='utf_8_sig')
+    c1=''
+    for j in txt.readlines():
+        if '\ufeff' in j: c1+=j.replace('\ufeff','')
+        else: c1+=j
+    txt = open(a+i[1], encoding='utf_8_sig', mode='w')
+    txt.write(c1)
+    
 
 
 '''with open('ChromeCacheView.cfg', 'w') as config_file:
