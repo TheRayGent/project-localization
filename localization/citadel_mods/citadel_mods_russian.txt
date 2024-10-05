@@ -898,5 +898,6 @@
 		//crow_mask_936_comment
 		//crow_mask_937_comment
 		//crow_mask_938_comment
+		"upgrade_melee_charge_desc"				" Ваша следующая <span class=\"highlight\">тяжелая рукопашная атака</span> по врагу <span class=\"highlight\">наносит увеличенный урон</span> и либо <span class=\"highlight\" >мгновенно перезарядите свое оружие</span> или получите до <span class=\"highlight\">+100 % бонусных боеприпасов</span>. <br>Активируется только тогда, когда бонусные боеприпасы не заполнены."
 	}
 }
