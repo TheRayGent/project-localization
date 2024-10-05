@@ -899,5 +899,6 @@
 		//crow_mask_937_comment
 		//crow_mask_938_comment
 		"upgrade_melee_charge_desc"				" Ваша следующая <span class=\"highlight\">тяжелая рукопашная атака</span> по врагу <span class=\"highlight\">наносит увеличенный урон</span> и либо <span class=\"highlight\" >мгновенно перезарядите свое оружие</span> или получите до <span class=\"highlight\">+100 % бонусных боеприпасов</span>. <br>Активируется только тогда, когда бонусные боеприпасы не заполнены."
+		"upgrade_ammo_scavenger_desc"		"Каждый раз, когда вы получаете или отбираете Душу у сущности, вы <span class=\"highlight\">возвращаете боеприпасы</span> и получаете суммируемую <span class=\"highlight\">Силу Духа</span>."
 	}
 }
