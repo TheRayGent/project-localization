@@ -1331,9 +1331,9 @@
 		"EShopFilterMovement"					"Движение"
 		"EShopFilterNone"						"Нет"
 
-		"CitadelCategoryWeapon"					"Оружие"
-		"CitadelCategoryArmor"					"Живучесть"
-		"CitadelCategoryTech"					"Спиритизм"
+		"CitadelCategoryWeapon"					"Weapon"
+		"CitadelCategoryArmor"					"Vitality"
+		"CitadelCategoryTech"					"Spirit"
 		"CitadelCategoryFlex"					"Универсальные"
 		"CitadelCategoryBuilds"					"Сборка"
 		"CitadelCategorySuggested"				"Рекомендованное"
