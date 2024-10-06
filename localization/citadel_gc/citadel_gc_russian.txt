@@ -178,7 +178,7 @@
 
 		"Steam_RP_hero_warden"			"Warden"
 		"Steam_RP_hero_yamato"			"Yamato"
-		"Steam_RP_hero_inferno"			"Inferno"
+		"Steam_RP_hero_inferno"			"Infernus"
 		"Steam_RP_hero_gigawatt"			"Seven"
 		"Steam_RP_hero_hornet"			"Vindicta"
 		"Steam_RP_hero_orion"			"Grey Talon"
@@ -203,7 +203,7 @@
 		"hero_warden"			"Warden"
 		"hero_assassin"			"Убийца"
 		"hero_yamato"			"Yamato"
-		"hero_inferno"			"Inferno"
+		"hero_inferno"			"Infernus"
 		"hero_test"				"Тестовый герой"
 		"hero_gigawatt"			"Seven"
 		"hero_hornet"			"Vindicta"
