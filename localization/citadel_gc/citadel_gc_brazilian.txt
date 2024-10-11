@@ -189,7 +189,7 @@
 		"Steam_Citadel_RP_MM_Tutorial"							"Tutorial"
 		"Steam_Citadel_RP_MM_Sandbox"							"modo de testes"
 		
-		"Steam_Citadel_InGame_Sandbox"		"Testando {%param2%} no modo de testes"
+		"Steam_Citadel_InGame_Sandbox"		"Jogando com {%param2%} no modo de testes"
 		"Steam_Citadel_InGame_Hero"			"Jogando {%param1%} como {%param2%} por %param0% min"
 		"Steam_Citadel_InGame"				"Jogando {%param1%} por %param0% min"
 		"Steam_Citadel_Spectating"			"Assistindo a {%param1%} por %param0% min"
@@ -245,6 +245,8 @@
 		"hero_synth"			"Mala"
 		"hero_mirage"			"Miragem"
 		"hero_targetdummy"		"Boneco"
+		"hero_shieldguy"		"Shield Guy"
+
 		//-----------------------------------------------------------------------------
 		// Upgrades: Weapon
 		//-----------------------------------------------------------------------------
@@ -283,7 +285,7 @@
 		"upgrade_tech_bleed"					"Reverberação Mística"
 		"upgrade_toxic_bullets"					"Balas Tóxicas"
 		//"upgrade_attack_speed_2"				"Improved Fire Rate"
-		"upgrade_tech_overflow"					"Transcedência Espiritual"
+		"upgrade_tech_overflow"					"Transcendência Espiritual"
 		//"upgrade_drum_magazine"					"Drum Magazine"
 		"upgrade_ricochet"						"Ricochete"
 		//"upgrade_height_advantage"				"Height Advantage"
@@ -454,7 +456,7 @@
 		"upgrade_superior_stamina"					"Vigor Superior"
 		"upgrade_improved_stamina"					"Vigor Adicional"
 		"upgrade_cardio_calibrator"					"Velocidade Resiliente"
-		"upgrade_health_nova"						"Cura Estelar"
+		"upgrade_health_nova"						"Aura de Cura"
 		//"upgrade_reload_speed"						"Fast Reload"
 		//"upgrade_cloaking_device"					"Cloaking Device"
 		"upgrade_cloaking_device_active"			"Trama Sombria"

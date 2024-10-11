@@ -36,7 +36,15 @@
 
 		//Hunter's Aura
 		"upgrade_bullet_armor_reduction_aura_desc"		"근처 적군의 <span class=\"highlight\">총탄 저항 및 연사 속도</span>가 감소합니다. 근처에 적군 영웅이 단 한 명만 있는 경우, <span class=\"highlight\">효과가 3배</span>로 증가합니다."
-//"BonusBaseDamage_label"			"Base Bullet and Melee Damage"
+		//"modifier_bullet_armor_reduction"							"Bullet Resist Reduced"
+		//"upgrade_bullet_armor_reduction_aura/modifier_bullet_armor_reduction_aura/modifier_bullet_armor_reduction"	"Bullet Armor Reduced"
+
+		//Adrenaline Rush
+		//"upgrade_nearby_enemy_boost_desc"	"Gain bonus <span class=\"highlight\">Weapon Damage</span> and <span class=\"highlight\">Fire Rate</span> when there are two or more enemy heroes nearby."
+
+		//Heroic Aura
+		"upgrade_dps_aura_active_desc"	"자신과 근처 아군에게 보너스 <span class=\"highlight\">이동 속도</span>와 <span class=\"highlight\">연사 속도</span>를 부여합니다."
+		//"BonusBaseDamage_label"			"Base Bullet and Melee Damage"
 		"BonusBaseDamage_postfix"		"%"
 "WarpStoneRange_postfix"		"m"
 		"CasterBuffDuration_label"	"강화 지속 시간"
@@ -45,45 +53,35 @@
 		"CasterSlowPercent_postfix"	"%"
 
 		//Torment Pulse
-		"upgrade_tech_damage_pulse_desc"	"가장 가까이 있는 적 2명에게 지속적으로 <span class=\"highlight\">마력 피해</span>를 줍니다."
-"MagicShockDamage_postfix"	"%"
+		"upgrade_tech_damage_pulse_desc"	"가장 가까이 있는 적군 2명에게 지속적으로 <span class=\"highlight\">마법 피해</span>를 입힙니다."
+"MagicBurstDamage_label"		"보너스 피해"
+"MagicShockDamage_label"		"최대 체력 보너스 피해"
+		"MagicShockDamage_postfix"	"%"
 
 		//Mystic Reverb
-		"upgrade_tech_bleed_desc" "대상의 주변 반경에 <span class=\"highlight\">둔화</span>를 적용하는 능력을 부여하고, 잠시 후 대상 주변의 적에게 <span class=\"highlight\">입힌 피해의 일부(%)를 추가</span>로 입힙니다."
+		"upgrade_tech_bleed_desc" "대상의 주변 반경에 <span class=\"highlight\">둔화</span>를 적용하는 능력을 부여하고, 잠시 후 대상 주변의 적군에게 <span class=\"highlight\">입힌 피해의 일부(%)를 추가</span>로 입힙니다."
 //"upgrade_hemorrhage_buildup"					"Eviscerator building..."
 		//"upgrade_bleeding_bullets/modifier_item_bleeding_bullets_active/modifier_item_bleeding_bullets_damageovertime"		"Serrated Bullets"
 		//"modifier_hemorrhage"																								"Eviscerator Rounds"
 		"modifier_item_burning_bullets_damageovertime" 	"출혈"
-		//Improved Fire Rate
-		//"upgrade_attack_speed_2_desc"	"Increases your <span class=\"highlight\">Fire Rate</span>."
-
-		//Spiritual Overflow
-		"upgrade_tech_overflow_desc"	"적군 영웅을 <span class=\"highlight\">연속 사격</span>하면 보너스 <span class=\"highlight\">마력</span>을 얻습니다."
-		"OverflowTechPower_label"		"마력"
+"OverflowTechPower_label"		"마력"
 		//"OverflowBonusDamage_label"     "Bonus Spirit Damage"
 		"OverflowBonusDamage_postfix"	"%"
 "RicochetDamagePercent_postfix"					"%"
 		"RicochetRadius_postfix"							"m"
 "ProcBonusMagicDamage_label"	"마법 피해"
-"BulletResistReduction_postfix"	"%"
+"BulletResistReduction_label"		"총탄 저항 감소"
+		"BulletResistReduction_postfix"	"%"
 		"MagicResistReduction_label"		"마법 저항 감소"
 		"MagicResistReduction_postfix"	"%"
 "FervorTechResist_postfix"  "%"
-
-		//Old Frenzy
-		//"upgrade_frenzy_vampire_desc"	"Your <span class=\"highlight\">bullets heal you</span> for a percentage of the damage they deal to enemies.<br><br>When an enemy is below {s:LowHealthPercentThreshold}% health you gain an additional <span class=\"highlight\">{s:LowHealthLifeStealPercent}% Bullet Lifesteal</span> against them."
-		//"upgrade_frenzy_aura_desc"		"Nearby enemies take <span class=\"highlight\">increased damage</span> from bullets.<br><br>If an enemy hero dies under this aura, you gain <span class=\"highlight\">+{s:KillBonusMoveSpeedPerStack} m/s</span>. This effect <span class=\"highlight\">lasts until you die</span> and can be stacked up to {s:MaxKillBonusMoveSpeedStack} times."
-		//"upgrade_frenzy/modifier_frenzy_lowhealth"		"Low HP Frenzy"
-		//"upgrade_frenzy/modifier_frenzy_aura/modifier_frenzy_kill"		"Killed Frenzy"
-
-		//Soul Shredder Bullets
-		"upgrade_tech_defense_shredders_desc"	"총탄이 대상에게 <span class=\"highlight\">영혼 피해</span>가 증폭하는 약화를 적용하고 해당 대상에게 <span class=\"highlight\">영혼 체력 흡수</span>을 적용합니다."
-		"ShreddersTechAmp_label"				"마력 증폭"
+"ShreddersTechAmp_label"				"마법 증폭"
 		"ShreddersTechAmp_postfix"			"%"
 "BaseAttackDamagePercentBonus_label"	"무기 피해"
 		"BaseAttackDamagePercentBonus_prefix"	"+"
 		"BaseAttackDamagePercentBonus_postfix"	"%"
-"ActiveBonusLifesteal_postfix"	"%"
+"ActiveBonusLifesteal_label"		"총탄 체력 흡수"
+		"ActiveBonusLifesteal_postfix"	"%"
 "HealthSteal_label"						"총탄당 최대 체력 흡수"
 "BonusReloadSpeed_Postfix"						"%"		
 		//"OverdriveClipDuration_label"					"Clip Duration"
@@ -94,7 +92,10 @@
 		//"upgrade_burst_fire_actuator_desc"				"Your weapon <span class=\"highlight\"> fires an additional percentage of your gun's starting clip as a burst</span>.  If all bullets in a burst connect with an enemy Hero, <span class=\"highlight\">gain temporary Base Bullet Damage</span> for the rest of the clip."
 		//"BurstFireShotsFromClipPercent_label"			"ammo Burst"
 		"BurstFireShotsFromClipPercent_Postfix"			"%"
-"BonusHeadshotDamage_postfix"					"%"
+		//"PerfectBurstWeaponPower_label"					"Perfect Burst Bonus Weapon Damage"
+		//"modifier_burst_fire_actuator"					"Burst Actuator"
+		"BonusHeadshotDamage_label"						"보너스 헤드샷 피해"
+		"BonusHeadshotDamage_postfix"					"%"
 		//"BaseBonusWeaponPower_label"					"Courage"
 		"BaseBonusWeaponPower_prefix"					"+"
 //"BonusMeleeSpeed_label"							"Melee Speed"
@@ -129,10 +130,12 @@
 		"ShootDurationForMax_postfix"							"초"
 "MaxArmorStacks_label"				"최대 총탄 저항"
 		"MaxArmorStacks_postfix"				"%"
+		"BulletResistPerStack_label"				"중첩당 총탄 저항"
 		"BulletResistPerStack_postfix"			"%"
 		"BulletResistDuration_label"				"중첩 지속 시간"
 		"BulletResistDuration_postfix"			"초"
-"CritDamagePercent_postfix"			"%"
+"CritDamagePercent_label"				"보너스 피해"
+		"CritDamagePercent_postfix"			"%"
 "VeilWalker_MoveSpeed_postfix"		"m(초당)"
 
 
@@ -174,7 +177,7 @@
 "BonusBaseWeaponDamageTaken_prefix"		"+"
 		"BonusBaseWeaponDamageTaken_label"		"무기 피해"
 		"BonusBaseWeaponDamageTaken_postfix"	"%"
-"MagicAmp_label"					"마력 증폭"
+"MagicAmp_label"					"마법 증폭"
 		"MagicAmp_postfix"					"%"
 		"WitheringWhipDisarmDuration_label"	"지속 시간"
 		"WitheringWhipDisarmDuration_postfix"	"초"
@@ -191,7 +194,9 @@
 		
 		//Refresher
 		"upgrade_ability_refresher_desc"	"모든 능력의 <span class=\"highlight\">쿨다운 초기화</span> 및 <span class=\"highlight\">모든 충전 회복</span>을 얻습니다."
-"upgrade_bullet_resist_shredder/modifier_bullet_armor_shredder_proc/modifier_bullet_armor_shredder" "약화된 방탄복"
+//Bullet Resist Shredder
+		"upgrade_bullet_resist_shredder_desc"	"적군에게 <span class=\"highlight\">마법 피해</span>를 입히면 적군의 <span class=\"highlight\">총탄 저항</span>이 감소합니다."
+		"upgrade_bullet_resist_shredder/modifier_bullet_armor_shredder_proc/modifier_bullet_armor_shredder" "약화된 방탄복"
 
 		//Weapon Eater
 		//"upgrade_weapon_eater_desc"				"Reduces Courage by <span class=\"highlight_weapon\">{s:BaseBonusCounter}</span>. <br>Gain <span class=\"highlight_weapon\">{s:WeaponPowerPerKill} Courage</span> (Up to <span class=\"highlight_weapon\">{s:MaxWeaponPower}</span>) for <span class=\"highlight\">killing an enemy Hero</span> but lose <span class=\"highlight_weapon\">{s:WeaponPowerPerDeath} gained Courage</span> on <span class=\"highlight\">Death</span>. Bonus applied if damage was done within {s:KillWindow}s of enemy killed. "
@@ -213,8 +218,17 @@
 		"upgrade_infuser_desc"			"<span class=\"highlight\">마력</span> 및 <span class=\"highlight\">마법 체력 흡수</span>를 얻습니다."
 "SpiritDamage_label"						"마법 피해"
 "MeleeDistanceScale_postfix"			"%"
+		"BonusHeavyMeleeDamage_prefix"			"+"
 		"BonusHeavyMeleeDamage_postfix"			"%"
+
+		//Charmed Wraps
+		//"upgrade_charmed_wraps_desc"			"Your abilities get their <span class=\"highlight\">cooldowns reduced</span> when you perform a <span class=\"highlight\">heavy melee</span> attack against a hero (or <span class=\"highlight\">two light melee</span> attacks within {s:LightMeleeTimeWindow}s)."
+
+		//Clarity
+		//"upgrade_magic_clarity_desc"			"On ability or item use, gain a <span class=\"highlight\">move speed</span> bonus for {s:AbilityDuration}s.  Your next ability cast will remove the move speed bonus and apply a <span class=\"highlight\">Spirit</span> bonus to that ability."
+		"ClarityBonusSpirit_prefix"				"{s:sign}"
 "MagicCarpetMoveSpeed_prefix"			"+"
+		"MagicCarpetMoveSpeed_label"			"보너스 비행 속도"
 		"MagicCarpetMoveSpeed_postfix"			"m(초당)"
 		"MagicCarpetShieldDuration_postfix"		"초"
 
@@ -236,7 +250,7 @@
 		//"upgrade_health_regen_1_desc"					"Increases <span class=\"highlight\">health regen</span>."
 
 		//Healing Rite
-		"upgrade_health_stimpak_desc"					"대상에게 <span class=\"highlight\">재생</span> 및 <span class=\"highlight\">질주 속도</span>를 부여합니다. 적군 영웅이나 주요 목표물의 공격으로 피해를 입으면 효과가 중단됩니다. 자신에게 시전할 수 있습니다."
+		"upgrade_health_stimpak_desc"					"대상에 <span class=\"highlight\">재생</span> 및 <span class=\"highlight\">질주 속도</span>를 부여합니다. 적군 영웅이나 주요 목표물의 공격으로 피해를 입으면 효과가 중단됩니다. 자신에게 시전할 수 있습니다."
 "SaviorMagicShieldHealth_label"		"마법 방어막"
 		"BuffDuration_label"					"지속 시간"
 		"BuffDuration_postfix"				"초"
@@ -244,7 +258,10 @@
 		//"upgrade_high_impact_armor_desc"				"Provides protection against high-damage bullets. Any <span class=\"highlight\">bullet damage</span> portion above the threshold is reduced by {s:DamageReduction}%."
 		//"damage_reduction_label"						"Damage Reduction"
 		"damage_reduction_postfix"						"%"
-//"modifier_citadel_rupture"				"Ruptured - Don't Move"
+
+		//Decay
+		"upgrade_rupture_desc"				"표적이 된 적군이 받는 <span class=\"highlight\">치유</span>가 감소하고 현재 체력에 <span class=\"highlight\">지속적인 피해</span>를 입힙니다.<br>부패로 인한 피해는 치명적이지 않습니다."
+		//"modifier_citadel_rupture"				"Ruptured - Don't Move"
 
 		//Discord
 		//"upgrade_discord_desc"						"Apply an aura around enemy or friendly target that <span class=\"highlight\">damages enemies in the radius and suppresses their healing by {s:HealAmpReceivePenaltyPercent}%</span>. If cast on a friendly, it also heals them."
@@ -259,6 +276,7 @@
 		"SpawnTimePenalty_postfix"				"초"
 //"BarrierDuration_label"					"Shield Duration"
 		"BarrierDuration_postfix"				"초"
+		"PhantomStrikeDebuffDuration_label"		"무장 해제 및 둔화 지속 시간"
 		"PhantomStrikeDebuffDuration_postfix"		"초"
 "ActiveFireRate_label"						"연사 속도"
 		"ActiveFireRate_postfix"						"%"
@@ -304,10 +322,10 @@
 		"HealOnlevelHealAmount_label"	"치유량"
 		"upgrade_heal_on_level/heal_on_level_buff"			"레벨별 치유"
 
-		//crow_mask_934_comment
-		//crow_mask_935_comment
-		//crow_mask_936_comment
-		//crow_mask_937_comment
 		//crow_mask_938_comment
+		//crow_mask_939_comment
+		//crow_mask_940_comment
+		//crow_mask_941_comment
+		//crow_mask_942_comment
 	}
 }

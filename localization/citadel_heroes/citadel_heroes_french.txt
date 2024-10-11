@@ -38,7 +38,7 @@
 		"citadel_ability_bull_leap_desc"		"<span class=\"highlight\">Saute dans les airs</span> et retombe à l'emplacement ciblé. Quand {s:hero_name} touche le sol, <span class=\"highlight\">toutes les unités ennemies dans la zone subissent des dégâts et sont étourdies</span>.<br>Appuyez sur [{s:iv_attack}] pour retomber plus tôt."
 		//"modifier_citadel_bull_leap"			"Boosting"
 		"citadel_ability_bull_leap_t2_desc"		"Gagne {s:BonusMaxHealthPerHero} PV max. et {s:BonusFireRatePerHero} % de cadence de tir par unité occultiste touchée. Dure {s:LandingBonusesDuration} s."
-		"citadel_ability_bull_leap_t3_desc"		"À l'incantation, <span class=\"highlight\">ne peut être étourdi, réduit au silence, endormi, enraciné ou désarmé</span>. Expire {s:ImmunityDuration} s après l'atterrissage."
+		"citadel_ability_bull_leap_t3_desc"		"À l'incantation, <span class=\"highlight\">ne peut être étourdi, réduit au silence, endormi, enraciné ou désarmé</span>. Expire {s:ImmunityDuration} s après l'atterrissage"
 		"AbilityButtonHint_BullLeapCrash"			"Retomber"
 		//"modifier_abrams_immunity"				"Immunity"
 
@@ -86,7 +86,7 @@
 		"citadel_ability_storm_cloud_desc"		"Canalise un orage magnétique grandissant autour de {s:hero_name} qui <span class=\"highlight\">inflige des dégâts à toutes les unités ennemies</span> dans son rayon. Ces dernières ne subissent pas de dégâts si elles sont hors du champ de vision. Augmente la <span class=\"highlight\">résistance aux balles</span> pendant la canalisation."
 		"citadel_ability_storm_cloud_t1_desc"		"<span class=\"highlight\">+{s:BulletResistOnActive} % de résistance aux balles</span> lors de la canalisation"
 		"citadel_ability_storm_cloud_t2_desc"		"<span class=\"highlight\">+{s:AbilityChannelTime} s</span> de canalisation et <span class=\"highlight\">+{s:Radius} m</span> de rayon"
-		"citadel_ability_storm_cloud_t3_desc"		"+{s:DPS} DPS."
+		"citadel_ability_storm_cloud_t3_desc"		"+{s:DPS} DPS"
 
 		//"ExpandTime_label"					"Expand time"
 		"ExpandTime_postfix"					" s"
@@ -181,7 +181,6 @@
 		"citadel_ability_shieldedsentry"		"Minitourelle"
 		"citadel_ability_shieldedsentry_quip"	"Déploie une tourelle automatisée"
 		"citadel_ability_shieldedsentry_desc"	"Déploie une minitourelle qui <span class=\"highlight\">tire automatiquement sur les unités ennemies</span>. La tourelle disparait après un certain temps.<br>Les tourelles ont {s:TurretHealthScaling} % des PV max. de {s:hero_name} et {s:TechResist} % de sa résistance spirituelle. Elles infligent des dégâts réduits aux troupiers et aux objectifs."
-		"citadel_ability_shieldedsentry_t1_desc"	"<span class=\"highlight\">+{s:AbilityCharges}</span> charge de capacité ; les tourelles appliquent <span class=\"highlight\">{s:MoveSlowPercent} %</span> de ralentissement"
 		"citadel_ability_shieldedsentry_t2_desc"	"<span class=\"highlight\">+{s:TurretAttackRange} m</span> de portée d'attaque et <span class=\"highlight\">+{s:AttackSpeedMult} %</span> de cadence de tir pour les tourelles"
 
 		//"citadel_ability_shieldedsentry/modifier_bullet_resist_reduction_stack"		"Sentry Bullet Resist Debuff"
@@ -383,7 +382,7 @@
 		"citadel_ability_chrono_pulse_grenade"			"Grenade à impulsion"
 		"citadel_ability_chrono_pulse_grenade_quip"		"Lance une grenade qui inflige des dégâts et ralentit à chaque impulsion"
 		"citadel_ability_chrono_pulse_grenade_desc"		"Lance une grenade qui émet des impulsions à l'impact. Chaque impulsion <span class=\"highlight\">inflige des dégâts, ralentit et amplifie de manière cumulative les dégâts</span> que {s:hero_name} inflige à la cible."
-		"citadel_ability_chrono_pulse_grenade_t3_desc"		"<span class=\"highlight\">+{s:PulseDamage}</span> de dégâts d'impulsion et <span class=\"highlight\">+{s:PulseGrenadeDamageAmplificationPerStack} %</span> d'amplification des dégâts par charge."
+		"citadel_ability_chrono_pulse_grenade_t3_desc"		"<span class=\"highlight\">+{s:PulseDamage} de dégâts d'impulsion et <span class=\"highlight\">+{s:RadiusIncreasePerPulse} m de rayon par impulsion"
 		"Pulses_label"                           			 "Impulsions"
 		"InitialDamage_label"									"Dégâts initiaux"
 		"PulseDamage_label"									"Dégâts d'impulsion"
@@ -705,11 +704,6 @@
 		//-----------------------------------------------------------------------------
 		// Haze
 		//-----------------------------------------------------------------------------
-		//"citadel_ability_poison_bullets"			"Tranquilizer Bullets"
-		//"citadel_ability_poison_bullets_desc"		"Apply tranquilizer to your victim until they fall asleep. Sleeping victims cannot act and take damage when they wake up."
-		//"modifier_citadel_posion_bullets_shot_watcher"	"Tranquilizer Bullets"
-		//"modifier_citadel_posion_bullets_poisoned"	"Asleep"
-		//"modifier_citadel_posion_bullets_poison_buildup"	"Sleepy"
 
 		"ability_sleep_dagger"			"Dague de sommeil"
 		"ability_sleep_dagger_quip"		"Endort une unité ennemie"
@@ -756,10 +750,10 @@
 
 		"ability_bullet_flurry"			"Danse balistique"
 		"ability_bullet_flurry_quip"	"Lance une salve de balles autour d'elle"
-		"ability_bullet_flurry_desc"	"<span class=\"highlight\">Tire une salve de balles</span> sur les unités ennemies proches avec une <span class=\"highlight\">précision parfaite</span>.  Pendant la capacité, {s:hero_name} gagne de la cadence de tir et évite certains tirs."
-		//"ability_bullet_flurry/modifier_citadel_bullet_flurry"		"Bullet Flurry"
+"BonusWeaponDamage_prefix"				"+"
 		"BonusWeaponDamage_label"				"Dégâts balistiques"
-
+		"DanceMoveSpeed_label"			"Vitesse de danse"
+		"DanceMoveSpeed_postfix"		" m/s"
 		//-----------------------------------------------------------------------------
 		// Sumo // dynamo
 		//-----------------------------------------------------------------------------
@@ -767,7 +761,7 @@
 		"citadel_ability_stomp_quip"			"Libère une impulsion au sol qui projette les cibles ennemies en l'air"
 		"citadel_ability_stomp_desc"			"Libère une impulsion d'énergie qui projette les cibles ennemies en l'air."
 		"citadel_ability_stomp_t1_desc"			"Les cibles perdent <span class=\"highlight\">{s:SlowPercent} %</span> de <span class=\"highlight\">cadence de tir et de vitesse de déplacement</span> pendant <span class=\"highlight\">{s:SlowDuration} s</span>"
-		"citadel_ability_stomp_t2_desc"			"{s:hero_name} inflige <span class=\"highlight\">+{s:BulletArmorReduction} % de dégâts des armes</span> aux cibles pendant <span class=\"highlight\">{s:BulletArmorReductionDuration} s</span>"
+		"citadel_ability_stomp_t2_desc"			"{s:hero_name} inflige <span class=\"highlight\">+{s:BulletArmorReduction} % de dégâts balistiques</span> aux cibles pendant <span class=\"highlight\">{s:BulletArmorReductionDuration} s</span>"
 		"StompRange_label"						"Portée de piétinement"
 		"StompRange_postfix"					" m"
 		//"stomp_buff_modifier"						"+Fire Rate"
@@ -780,7 +774,7 @@
 		"citadel_ability_void_sphere"				"Intrication quantique"
 		"citadel_ability_void_sphere_quip"		"Disparait brièvement pour se téléporter"
 		"citadel_ability_void_sphere_desc"		"{s:hero_name} <span class=\"highlight\">disparait brièvement</span>, puis réapparait quelques mètres plus loin. Quand il réapparait, son arme est <span class=\"highlight\">rechargée</span> et un <span class=\"highlight\">bonus de cadence de tir</span> s'applique au prochain chargeur (pendant {s:FireRateBonusDurationMax} s max.). Appuyez sur [{s:key_alt_cast}] pour attirer les unités alliées proches et leur accorder la moitié du bonus de cadence de tir."
-		"citadel_ability_void_sphere_t3_desc"		"<span class=\"highlight\">+{s:BonusClipSizePercent} %</span> de munitions de base à la réapparition"
+		"citadel_ability_void_sphere_t3_desc"		"<span class=\"highlight\">{s:AbilityCooldown} s</span> de réduction du tps. de récupération de la capacité et <span class=\"highlight\">+{s:BonusClipSizePercent} %</span> de munitions de base à la réapparition"
 		"modifier_void_sphere"					"Intrication quantique"
 		//"modifier_voidsphere_buff"				"Void Sphere +Fire Rate"
 		"AllyDistance_label"						"Distance unités alliées"
@@ -1133,7 +1127,7 @@
 
 		"ability_ice_dome"				"Dôme gelé"
 		"ability_ice_dome_quip"			"Crée un dôme de soins impénétrable"
-		"ability_ice_dome_desc"			"{s:hero_name} gèle l'air ambiant et crée un <span class=\"highlight\">dôme impénétrable</span> autour de lui. Les unités alliées dans le dôme <span class=\"highlight\">régénèrent leurs PV</span> rapidement, tandis que les unités ennemies sont <span class=\"highlight\">ralenties</span>."
+		"ability_ice_dome_desc"			"{s:hero_name} gèle l'air ambiant et crée un <span class=\"highlight\">dôme impénétrable</span> autour de lui. Les unités alliées dans le dôme <span class=\"highlight\">régénèrent leurs PV</span> rapidement, tandis que les unités ennemies sont <span class=\"highlight\">ralenties</span>.<br>Les objectifs deviennent invulnérables et gèlent sous le dôme gelé."
 		"ability_ice_dome_t1_desc"		"<span class=\"highlight\">+{s:FireRateSlow} %</span> de réduction de la cadence de tir"
 		"ability_ice_dome_t3_desc"		"<span class=\"highlight\">+{s:BonusHealthRegen}</span> de régénération de PV (augmente selon le pouvoir spirituel)"
 		"ability_ice_dome/modifier_ice_dome/modifier_debuff"						"Dôme gelé"
@@ -1146,7 +1140,7 @@
 		//-----------------------------------------------------------------------------
 		"citadel_ability_uppercut"				"Uppercut explosif"
 		"citadel_ability_uppercut_quip"			"Projette les unités à proximité dans les airs"
-		"citadel_ability_uppercut_desc"			"Inflige des <span class=\"highlight\">dégâts de mêlée légers</span> aux unités à proximité et les <span class=\"highlight\">projette dans les airs</span>. Celles-ci infligent des <span class=\"highlight\">dégâts de zone</span> là où elles atterrissent. N'inflige pas de dégâts aux unités alliées."
+		"citadel_ability_uppercut_desc"			"Inflige des <span class=\"highlight\">dégâts de mêlée légers</span> aux unités à proximité et les <span class=\"highlight\">projette dans les airs</span>. Celles-ci infligent des <span class=\"highlight\">dégâts de zone</span> et une <span class=\"highlight\">réduction de la cadence de tir</span> là où elles atterrissent. N'inflige pas de dégâts aux unités alliées."
 		"citadel_ability_uppercut_t2_desc"		"Unité occultiste adverse touchée : <span class=\"highlight\">accélère le temps de réarmement, double la portée et gagne {s:BuffBaseWeaponPct} % de dég. bal.</span> pendant {s:UppercutBuffOnHit} s"
 		"citadel_ability_uppercut_t3_desc"		"Unité occultiste adverse touchée : fixe à <span class=\"highlight\">0 le temps de récupération de Crochet</span> et accorde <span class=\"highlight\">{s:ClipSizeBonus} % de balles</span> au chargeur actuel"
 		//"modifier_citadel_enemy_uppercutted"	"Uppercutted!"
@@ -1160,10 +1154,12 @@
 		"StunOnLand_postfix"					" s"
 		//"UppercutBuffOnHit_label"				"Boost Duration"
 		"UppercutBuffOnHit_postfix"				" s"
+		"ExplodeDebuffDuration_label"			"Durée du ralent. de la cadence de tir"
+		"ExplodeDebuffDuration_postfix"			" s"
 
 		"citadel_ability_sticky_bomb"			"Bombe collante"
 		"citadel_ability_sticky_bomb_quip"		"Pose une bombe sur une unité"
-		"citadel_ability_sticky_bomb_desc"		"Pose une bombe sur une cible proche qui inflige des <span class=\"highlight\">dégâts d'explosion</span> après un court laps de temps. <br>Accorde <span class=\"highlight\">{s:BonusDamagePctPerPlayerHit} % de dégâts des bombes</span> pour chaque unité occultiste ennemie touchée. <br>Maintenez [{s:key_alt_cast}] pour lancer Bombe collante sur vous-même."
+		"citadel_ability_sticky_bomb_desc"		"Pose une bombe sur une cible proche qui inflige des <span class=\"highlight\">dégâts d'explosion</span> après un court laps de temps. <br>Obtient une charge qui inflige <span class=\"highlight\">+{s:BonusDamagePctPerPlayerHit} % de dégâts des bombes</span> pour chaque unité occultiste ennemie touchée ({s:BonusMaxStacks} charges au max.). <br>Maintenez [{s:key_alt_cast}] pour lancer Bombe collante sur vous-même."
 		"modifier_citadel_sticky_bomb_attached"	"Bombe collée"
 		"citadel_ability_sticky_bomb_t3_desc"	"Quand elle est posée, la bombe <span class=\"highlight\">désarme</span> la cible pendant <span class=\"highlight\">{s:DebuffDuration} s</span>"
 		"StunTargetOnExplode_label"				"Durée"
@@ -1336,11 +1332,11 @@
 
 		
 		"ability_nano_pounce"						"Bond"
-		"ability_nano_pounce_quip"				"Bondissez sur une cible"
-		"ability_nano_pounce_desc"				"{s:hero_name} <span class=\"highlight\">bondit</span> sur une cible et lui inflige de <span class=\"highlight\">légers dégâts de mêlée</span>. Si la cible est une unité ennemie, les unités ennemies proches seront <span class=\"highlight\">ralenties</span>. Si la cible est une unité alliée, ses temps de récupération et de rechargement seront réduits."
+		"ability_nano_pounce_quip"				"Bondit sur ses adversaires"
+		"ability_nano_pounce_desc"				"{s:hero_name} <span class=\"highlight\">bondit</span> sur une cible et lui inflige de <span class=\"highlight\">légers dégâts de mêlée</span> ainsi qu'un <span class=\"highlight\">ralentissement</span> aux unités proches.<br>Vous pouvez lancer <span class=\"highlight\">Bond sur une deuxième cible</span> dans un intervalle de <span class=\"highlight\">{s:DoublePounceTime} s</span> après le premier lancer."
 		"ability_nano_pounce_t1_desc"			"<span class=\"highlight\">+{s:SlowDuration} s</span> de durée de ralentissement"
-		"ability_nano_pounce_t2_desc"			"<span class=\"highlight\">+{s:FireRateSlow} %</span> de ralentissement de la cadence de tir et <span class=\"highlight\">+{s:PounceDebuffRadius} m</span> de rayon de ralentissement"
-		"ability_nano_pounce_t3_desc"			"<span class=\"highlight\">+{s:AbilityCharges}</span> charge de capacité ; recharge jusqu'à <span class=\"highlight\">{s:ActiveReloadPercent} %</span> de vos munitions"
+		"ability_nano_pounce_t2_desc"			"Recharge jusqu'à <span class=\"highlight\">{s:ActiveReloadPercent} %</span> de vos munitions et inflige <span class=\"highlight\">+{s:FireRateSlow} %</span> de réduction de cadence de tir."
+		"ability_nano_pounce_t3_desc"			"<span class=\"highlight\">+{s:Damage}</span> de dégâts et <span class=\"highlight\">+{s:AbilityCharges}</span> charges."
 		"PounceDebuffRadius_label"					"Rayon du ralent."
 		"PounceDebuffRadius_postfix"					" m"
 		
@@ -1348,10 +1344,11 @@
 		"PounceFriendlyRechargeTime_postfix"			" s"
 		"PounceFriendlyTargetCD_label"				"Temps de récupération alliée"
 		"PounceFriendlyTargetCD_postfix"			" s"
+		"pounce_double_notify"					"Double Bond"
 
-		"ability_nano_proximity_ritual"			"Prédateur perché"
+		"ability_nano_proximity_ritual"			"Ava"
 		"ability_nano_proximity_ritual_quip"	"Déploie son familier pour attaquer les adversaires"
-		"ability_nano_proximity_ritual_desc"	"{s:hero_name} envoie <span class=\"highlight\">Ava</span> : elle <span class=\"highlight\">cible</span> une unité ennemie à proximité. Les unités ennemies ciblées voient leurs soins réduits et une partie de leurs PV est transférée à {s:hero_name} quand elles subissent des dégâts. Ava est active uniquement quand {s:hero_name} est à proximité.<br>Si {s:hero_name} est près d'Ava, appuyez sur [3] pour la rappeler. Ava récupère ses PV pendant le rappel."
+		"ability_nano_proximity_ritual_desc"	"{s:hero_name} envoie <span class=\"highlight\">Ava</span> : elle <span class=\"highlight\">cible</span> une unité ennemie. Les unités ennemies ciblées voient leurs soins réduits et <span class=\"highlight\">soignent Ava et {s:hero_name}</span> quand elles subissent des dégâts. <span class=\"highlight\">Ava est active uniquement quand {s:hero_name} est à proximité</span>. <br>Appuyez sur <span class=\"highlight\">[3]</span> pour rappeler Ava.<br><span class=\"highlight\">Lancez l'[Utilisation secondaire]</span> pour vous téléporter vers Ava avant de la rappeler.<br>Plus Ava est loin, plus la durée d'incantation est longue. Ava récupère ses PV pendant le rappel."
 		"StatueLifetime_label"					"Délai avant rappel automatique"
 		"StatueLifetime_postfix"				" s"
 		"StatueHeldRegen_label"						"Régénération d'Ava pendant le rappel"
@@ -1359,24 +1356,27 @@
 		"StatueLifesteal_postfix"				" %"
 		"StatueLifestealNonHero_label"			"Vol de vie (non-occultistes)"
 		"StatueLifestealNonHero_postfix"		" %"
-		"StatueActivateRange_label"				"Portée d'activation"
+		"StatueActivateRange_label"				"Portée"
 		"StatueActivateRange_postfix"			" m"
 		"StatueHealth_label"					"Ava (normalisée)"
 		"StatueHealth_postfix"					"PV"
-		"ability_nano_proximity_ritual_t1_desc"  "<span class=\"highlight\">+{s:StatueHealth}</span> PV pour Ava"
-		//"ability_nano_proximity_ritual_t2_desc"  "Victims receive <span class=\"highlight\">{s:FireRateSlow}%</span> Fire Rate Slow and <span class=\"highlight\">+{s:ActiveRadius}m</span> Active Radius"
+		"StatueVictimDamageReduction_label"					"Réduction des dégâts"
+		"StatueVictimDamageReduction_postfix"				" %"
+
+		"ability_nano_proximity_ritual_t1_desc"  "<span class=\"highlight\">+{s:StatueLifesteal} %</span> de vol de vie"
+		"ability_nano_proximity_ritual_t2_desc"  "<span class=\"highlight\">+{s:DPS}</span> de DPS et les victimes infligent <span class=\"highlight\">{s:StatueVictimDamageReduction} %</span> de dégâts en moins à {s:hero_name}"
 		"ability_nano_proximity_ritual_t3_desc"  "<span class=\"highlight\">+{s:DamageAmplification} %</span> d'amplification des dégâts et {s:HealAmpReceivePenaltyPercent} % de réduction de soins des cibles."
 		"ability_nano_proximity_ritual_trigger"		"Rappeler Ava"
 
 		"AvaRecallCooldown_label"				"Temps de récupération du rappel"
 		"AvaRecallCooldown_postfix"				" s"
-		"AvaResummonCooldown_label"				"Temps de récupération"
-		"AvaResummonCooldown_postfix"			" s"
 		"AbilityButtonHint_AvaRecall"			"Rappeler Ava"
+		"AbilityButtonHint_AvaWarp"			"Se téléporter vers Ava"
+		"CITADEL_ABILITY_NO_HEALTH_RESOURCE"	"Non disponible"
 
-		"ability_nano_ult_shadow"				"Reine des ombres"
-		"ability_nano_ult_shadow_desc"			"{s:hero_name} se dissimule dans l'ombre et devient <span class=\"highlight\">invisible</span>. Les attaques ne mettent pas fin à l'invisibilité, mais révèlent temporairement {s:hero_name}. Infliger des <span class=\"highlight\">dégâts de mêlée</span> à des unités ennemies réduit leur résistance aux balles ; l'effet peut se cumuler."
-		"modifier_nano_ult_shadow"			"Reine des ombres"
+		"ability_nano_shadow_step"				"Soubresaut écliptique"
+		"ability_nano_shadow_step_desc"			"{s:hero_name} se dissimule dans l'ombre. Ses attaques gagnent en puissance et ses élans la rendent <span class=\"highlight\">invisible</span>. Infliger des <span class=\"highlight\">dégâts de mêlée</span> à des unités ennemies réduit leur résistance aux balles. Effet cumulable."
+		"modifier_nano_shadow_step"			"Soubresaut écliptique"
 		"NanoShadowBulletArmorReductionLight_prefix"	"–"
 		"NanoShadowBulletArmorReductionLight_label"	"Résist. aux balles (atq. légère)"
 		"NanoShadowBulletArmorReductionHeavy_prefix"	"–"
@@ -1391,9 +1391,8 @@
 
 		"modifier_nano_shadow_debuff"		"–Résist. aux balles"
 		
-		"ability_nano_ult_shadow_t2_desc"	"À l'incantation, dissipe tous les effets négatifs"
-		"ability_nano_ult_shadow_t3_desc"	"Les attaques de mêlée lourde <span class=\"highlight\">réduisent au silence</span> pendant {s:SilenceOnHeavyDuration} s"
-
+		"ability_nano_shadow_step_t2_desc"	"<span class=\"highlight\">+{s:SlowResistancePercent} %</span> de résistance aux ralentissements lorsque la capacité est activée"
+		"ability_nano_shadow_step_t3_desc"	"Les attaques de mêlée lourde <span class=\"highlight\">réduisent au silence</span> pendant {s:SilenceOnHeavyDuration} s"
 
 		//-----------------------------------------------------------------------------
 		// Grey Talon (previous names: Archer / Orion)
@@ -1450,7 +1449,7 @@
 
 		"ability_life_drain"				"Transfert vital"
 		"ability_life_drain_quip"			"Vole les PV d'une cible ennemie au fil du temps"
-		"ability_life_drain_desc"			"Crée un lien qui <span class=\"highlight\">draine les PV d'une cible ennemie au fil du temps</span> et <span class=\"highlight\">soigne</span> {s:hero_name}. La cible doit être dans le champ de vision et à portée pour que le vol de vie fonctionne. {s:hero_name} peut tirer et utiliser ses autres capacités pendant ce temps, mais sa vitesse de déplacement est divisée par deux. Appuyez sur [{s:in_ability2}] pour interrompre la capacité."
+		"ability_life_drain_desc"			"Crée un lien qui <span class=\"highlight\">draine les PV d'une cible ennemie au fil du temps</span> et <span class=\"highlight\">soigne</span> {s:hero_name}. La cible doit être dans le champ de vision et à portée pour que le vol de vie fonctionne. {s:hero_name} peut tirer et utiliser ses autres capacités pendant ce temps, mais sa vitesse de déplacement est divisée par deux. <br><span class=\"highlight\">L'utilisation secondaire accorde des PV aux occultistes de l'équipe</span>. Appuyez sur [{s:in_ability2}]</span> pour interrompre la capacité."
 		"ability_life_drain/modifier_life_drain" "Transfert vital"
 		"ability_life_drain/modifier_life_drain_caster" "Transfert vital"
 		"modifier_life_drain_silence"		"Silence"
@@ -1637,12 +1636,6 @@
 		"DamageHealMultNonHero_postfix"		" ×"
 		"modifier_intimidate_debuff"		"Intimidation"
 
-		//"ability_pounce"				"Pounce"
-		//"ability_pounce_desc"			"{s:hero_name} leaps forward, creates an explosion on landing and damages enemies in an area."
-
-		//"ability_ooc_health_regen"			"Out of Combat Health Regen"
-		//"ability_ooc_health_regen_desc"		""
-
 		"ability_throw_sand"			"Jet de sable"
 		"ability_throw_sand_quip"		"Désarme les adversaires en face"
 		"ability_throw_sand_desc"		"{s:hero_name} jettent du sable qui <span class=\"highlight\">désarme</span> les unités ennemies en face d'eux et leur inflige des <span class=\"highlight\">dégâts</span>."
@@ -1650,19 +1643,17 @@
 
 		"ability_throw_sand_t3_desc"	"Ralentit les cibles de <span class=\"highlight\">{s:SlowPercent} %</span>"
 
-		//"citadel_ability_kineticcharge"			"Kinetic Charge"
-		//"citadel_ability_kineticcharge_desc"	"{s:hero_name} creates a shield which absorbs all incoming damage. After the duration expires or the shield is destroyed, explodes and returns the damage absorbed to all enemies around him."
-		//"modifier_citadel_kineticcharge"		"Absorbing Damage"
-
 		"ability_ult_combo"				"Dérouillée"
 		"ability_ult_combo_quip"		"Immobilise l'unité occultiste adverse pour la rouer de coups"
 		"ability_ult_combo_desc"		"Immobilise l'occultiste adverse, <span class=\"highlight\">l'étourdit et lui inflige des dégâts</span> pendant toute la durée de la canalisation. Si la capacité fait une victime, accorde un bonus permanent de PV max."
+		"ability_ult_combo_t1_desc"		"<span class=\"highlight\">+{s:ComboBulletResist} %</span> de résistance aux balles pendant la dérouillée"
 		"ability_ult_combo_t2_desc"		"<span class=\"highlight\">+{s:AbilityChannelTime} s</span> de durée"
 		"ability_ult_combo_t3_desc"		"<span class=\"highlight\">+{s:DPS}</span> de DPS et <span class=\"highlight\">{s:LifeStealPercentOnHit} % de vol de vie</span>"
 		"LifestealPercentOnHit_label"		"Vol de vie"
 		"LifestealPercentOnHit_postfix"	" %"
 		"BonusHealthOnKill_label"			"Bonus de PV max. par victime"
-
+		"ComboBulletResist_label"		"Résistance aux balles pendant la capacité"
+		"ComboBulletResist_postfix"		" %"
 		//"GrabExtraTargetRange_label"		"Extra Target Range"
 		"GrabExtraTargetRange_postfix"	" m"
 
@@ -1767,7 +1758,7 @@
 		"MovementSlow_postfix"	" %"
 
 		//-----------------------------------------------------------------------------
-		// Hero: Pocket
+		// Pocket // synth
 		//-----------------------------------------------------------------------------
 		"synth_plasma_flux"			"Redingote volante"
 		"synth_plasma_flux_quip"		"Lance une redingote qui inflige des dégâts et vers laquelle il est possible de se téléporter"
@@ -1810,7 +1801,7 @@
 		"synth_barrage"				"Tirs de couverture"
 		"synth_barrage_quip"			"Plane dans les airs et tire une série de projectiles"
 		"synth_barrage_desc"			"{s:hero_name} canalise ses pouvoirs et tire des projectiles qui <span class=\"highlight\">infligent des dégâts</span> et <span class=\"highlight\">ralentissent</span> dans un rayon à l'impact. Chaque projectile qui atteint une unité occultiste ennemie accorde <span class=\"highlight\">une charge qui amplifie tous les dégâts infligés par {s:hero_name}</span>.<br>Activez la capacité en plein vol pour <span class=\"highlight\">planer</span> à votre vitesse de déplacement actuelle."
-
+		"synth_barrage_t3_desc"			"<span class=\"highlight\">+{s:AmpPercentPerStack} %</span> d'amp. par charge et <span class=\"highlight\">{s:Radius} m</span> de rayon"
 		"DamagePerProjectile_label"	"Dégâts par projectile"
 		"ProjectileAmount_label"		"Nombre de projectiles"
 		"ProjectileInterval_label"	"Intervalle entre les projectiles"
@@ -1881,8 +1872,9 @@
 		"mirage_sand_phantom_quip"		"Applique des charges de dégâts croissants"
 		"mirage_sand_phantom_desc"		"Actif : <span class=\"highlight\">consomme le multiplicateur</span> de Marque de Djinn pour infliger les dégâts immédiatement."
 		"mirage_sand_phantom_passive_desc"	"Passif : vos tirs <span class=\"highlight\">appliquent un multiplicateur croissant</span> à la cible. Quand le multiplicateur sur une cible est au max., elle subit des <span class=\"highlight\">dégâts spirituels</span> et sa position est brièvement <span class=\"highlight\">révélée sur la minicarte</span>. Les dégâts finaux correspondent aux dégâts de base multipliés par le multiplicateur."
-		"mirage_sand_phantom_t1_desc"	"Chaque augmentation du multiplicateur ralentit les cibles de {s:MovementSpeedSlow} % pendant {s:SlowDuration} s"
+		"mirage_sand_phantom_t1_desc"	"Applique {s:MovementSpeedSlow} % de ralentissement pendant {s:SlowDuration} s à chaque application d'un multiplicateur 2x ou supérieur"
 		"mirage_sand_phantom_t2_desc"	"+{s:VictimStackDuration} s de durée du multiplicateur et +{s:ProcDamageBase} de dégâts de base"
+		"mirage_sand_phantom_t3_desc"	"{s:SandPhantomProcCooldown} s de temps de récupération entre les multiplicateurs et +{s:MirageDjinnsMarkMaxStacks} multiplicateurs max."
 		"modifier_mirage_sand_phantom_passive_victim"	"Marque de Djinn : multiplicateur"
 		"ProcDamageBase_label"		"Dégâts de base"
 		"VictimStackDuration_label"		"Durée du multiplicateur"
@@ -1893,7 +1885,7 @@
 		"MirageDjinnsMarkMaxStacks_label"	"Multiplicateur max."
 		"MirageDjinnsMarkMaxStacks_postfix"	" ×"
 
-		"SandPhantomProcCooldown_label"		"Temps de récupération entre les augmentations du multiplicateur"
+		"SandPhantomProcCooldown_label"		"Temps de récupération entre les multiplicateurs"
 		"SandPhantomProcCooldown_postfix"	" s"
 		"ProcBonusMagicDamageEscalation_prefix"	"{s:sign}"
 		"ProcBonusMagicDamageEscalation_label"	"Dégâts spirituels croissants"
@@ -2014,7 +2006,7 @@
 		"citadel_ability_tengu_airlift_t1_desc"		"<span class=\"highlight\">{s:AirDropBulletArmorReduction} %</span> de résistance aux balles pour les cibles touchées pendant <span class=\"highlight\">{s:AirDropDebuff02Duration} s</span>"
 		"citadel_ability_tengu_airlift_t2_desc"		"<span class=\"highlight\">+{s:AirDropBulletShield} %</span> de bouclier balistique et <span class=\"highlight\">+{s:AirDropExplodeRadius} m</span> de rayon d'explosion"
 		"citadel_ability_tengu_airlift_t3_desc"		"Réduit les cibles touchées au <span class=\"highlight\">silence</span> pendant <span class=\"highlight\">+{s:AirDropSilenceDuration} s</span>"
-		//"modifier_airlift_ally"						"Air Drop"
+		"modifier_airlift_ally"						"Largage aérien"
 
 		"AirDropDebuffDuration_label"		"Durée de ralentissement"
 		"AirDropDebuffDuration_postfix"		" s"
@@ -2446,7 +2438,7 @@
 		"MediumChargeDamagePct_postfix"			" %"
 		"FullChargeDamage_label"				"Dégâts par charge complète"
 		"citadel_ability_power_slash_t1_desc"	"<span class=\"highlight\">+{s:BulletResist} de résistance aux balles</span> pendant la canalisation"
-		"citadel_ability_power_slash_t2_desc"	"<span class=\"highlight\">Ralentit de {s:SlowPercent} %</span> pendant <span class=\"highlight\">{s:SlowDuration} s</span>"
+		"citadel_ability_power_slash_t2_desc"	"<span class=\"highlight\">{s:AbilityCooldown} s</span> de temps de récupération et applique <span class=\"highlight\">{s:SlowPercent} %</span> de ralentissement pendant <span class=\"highlight\">{s:SlowDuration} s</span>"
 		//"StaminaToRemove_label"				"Stamina Drain"
 
 		"citadel_ability_flying_strike"			"Sabre-grappin"
@@ -2459,7 +2451,7 @@
 
 		"citadel_ability_infinity_slash"		"Transformation sépulcrale"
 		"citadel_ability_infinity_slash_quip"	"Devient invincible et gagne en puissance"
-		"citadel_ability_infinity_slash_desc"	"{s:hero_name} se transforme en esprit : elle devient <span class=\"highlight\">invincible</span>, ses capacités <span class=\"highlight\">sont réinitialisées et sont 60 % plus rapides</span>, et elle gagne de la <span class=\"highlight\">résistance aux dégâts</span> et <span class=\"highlight\">l'immunité contre les effets de statut négatifs</span>. {s:hero_name} ne peut pas mourir sous cette forme."
+		"citadel_ability_infinity_slash_desc"	"{s:hero_name} se transforme en esprit : elle devient <span class=\"highlight\">invincible</span>, ses capacités <span class=\"highlight\">sont réinitialisées et sont 60 % plus rapides</span>, et elle gagne <span class=\"highlight\">l'immunité contre les effets de statut négatifs</span>. {s:hero_name} ne peut pas mourir sous cette forme."
 		//"citadel_ability_infinity_slash_buff_header" "Per Hero Hit"	
 		"ShadowDuration_label"					"Délai de l'explosion"
 		"ShadowDuration_postfix"				" s"
@@ -2933,7 +2925,7 @@
 		"hero_yamato_lore"				"犯罪組織のボスの家に生まれた花桜梨とその兄の\n大和にとって、父の死後に「セブンスムーン」の跡目を\n継ぐのは自明のことでもあった。 そして何年もの間、\nかれらは対等の立場で組織を率いて利益と成功を\nもたらし、やがてはアメリカへの進出をも目論むように\nなった。\n\n思い描いていた計画は単純で、 大和がアメリカに渡って\n花桜梨の国際的な存在感を高め、その間花桜梨は日本に\n残って国内を統制する、といったものだった。 兄妹に\nとって不運だったのは、花桜梨が日本で指揮をとると\nいう計画を快く思わない部下たちがいたことだった。\n\nそして迅速かつ暴力的な形で、反乱は発生した。\n大和は花桜梨を守るために命を落とし、花桜梨と数人の\n忠実な部下たちは、その大和の犠牲のおかげもあって、\n日本からアメリカへと逃げ延びることに成功した。\n\nアメリカに着いた花桜梨たちを出迎えたのは、\n本来であれば大和が会う予定となっていた男であった。\n彼は日本人の名前になじみがなかったため性別の\n区別がついておらず、花桜梨のことを「ヤマト」と\n呼んだ。花桜梨は男の間違いを正そうと思ったが、\n結局そのままにした。兄の記憶を残し続けるためにも、\nその名を名乗り、その夢を受け継ぐことが最善の\n道であろうと考えたからだ。"   
 		"hero_tengu_lore"				"Quand elle revint à la vie, la gargouille n'avait aucune idée d'où elle se trouvait… seulement qu'un grand et un petit humain souffraient. Alors la gargouille s'anima impétueusement et fit fuir les agresseurs terrifiés. La petite humaine la remercia et lui demanda comment elle s'appelait. La gargouille ne le savait pas. Alors la petite lui dit « Je vais t'appeler Ivy, comme le lierre ». La gargouille qui était recouverte de lierre à ce moment-là, trouvait le nom un peu trop évident, mais décida de l'accepter pour lui faire plaisir.\n\nLes humains lui demandèrent si elle accepterait d'aller chez eux pour qu'ils puissent la remercier convenablement, alors Ivy les accompagna. Elle apprit beaucoup de choses ce soir-là : la famille s'appelait les Arroyo, la petite s'appelait Sophia, ce plat délicieux s'appelait Mofongo… Mais surtout, les méchants s'appelaient le « Syndicat Mendoza » et ils faisaient du mal aux gentils comme les Arroyo.\n\nDix-huit ans ont passé depuis le jour où les Arroyo ont amené Ivy chez eux… et elle a passé toutes ces années à démanteler le Syndicat Mendoza et à libérer le Barrio d'Harlem de son emprise. Le problème quand on consacre presque vingt ans de sa vie à une seule et même poursuite, c'est qu'on ne sait pas quoi faire une fois l'objectif accompli. Pour la première fois de sa vie, Ivy est prête à s'aventurer à l'extérieur d'Harlem et à voir si le monde peut lui offrir d'autres rôles que celui de justicière."
 		"hero_synth_lore"				"Arin Fairfax, l'héritier ainé de Fairfax Industries, vit dans la clandestinité depuis cinq ans, après avoir été abattu et laissé pour mort le jour de ses 18 ans. Arin ne sait pas qui essaie de l'empêcher de prendre le contrôle de l'entreprise de sa mère… mais au sein du nid de vipères nourries d'avarice qu'est Fairfax Industries, il pourrait s'agir de n'importe qui.\n\nSous le nom de « Pocket », Arin veut désespérément garder secrète sa véritable identité… pour sa propre protection, mais aussi pour forger sa propre identité indépendamment de celle de ses parents."
-		"hero_mirage_lore"				"Les djinns sont parmi les individus les plus étranges du monde moderne. Dotés d'une grande puissance à doses contrôlées, les djinns sont incapables de conserver leur forme corporelle pendant plus de 48 minutes sans avoir à se reposer dans un quelconque récipient. En conséquence, la plupart des djinns emploient des gardes du corps humains pour leur transport, leur protection et un peu de compagnie.\n\nMirage est l'un de ces gardes du corps. Employé par l'ambassadrice djinn Nashala Dion, Mirage est en mission diplomatique à New York. Les djinns espèrent pouvoir négocier avec le gouvernement américain la vente d'une partie du Wyoming afin d'établir une nation souveraine pour leur peuple."
+		"hero_mirage_lore"				"Les djinns comptent parmi les individus les plus étranges du monde moderne. Doués d'une grande puissance à doses contrôlées, les djinns sont incapables de conserver leur forme incarnée pendant plus de 48 minutes sans recourir à un quelconque vaisseau corporel. La plupart des djinns emploient donc des gardes du corps humains pour leur transport, leur protection et un peu de compagnie.\n\nMirage est l'un de ces gardes du corps. Employé par l'ambassadrice djinn Nashala Dion, Mirage est en mission diplomatique à New York. Les djinns espèrent pouvoir négocier avec le gouvernement américain la vente d'une partie du Wyoming afin d'établir une nation souveraine pour leur peuple."
 
 
 

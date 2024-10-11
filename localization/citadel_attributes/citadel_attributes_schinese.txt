@@ -202,6 +202,8 @@
 		"StatDesc_DebuffResist_postfix"					"%"
 		"StatDesc_HealingOutput"						"治疗增幅"
 		"StatDesc_HealingOutput_postfix"				"%"
+		"StatDesc_CritDamageBonusScale"					"暴击伤害比例"
+		"StatDesc_CritDamageBonusScale_postfix"			"%"
 
 		"StatDesc_BulletSpeed"							"子弹速度"
 		"StatDesc_BulletSpeed_postfix"					"m/s"
@@ -444,7 +446,8 @@
 		"BonusMoveSpeed_prefix"							"{s:sign}"
 		"BonusMoveSpeed_label"						"移动速度"
 		"BonusMoveSpeed_postfix"						" m/s"
-
+		
+		"TeleporterBonus"							"额外移动速度！"
 		"RunSpeed_postfix"						" m/s"
 
 		"WeaponRange_label"							"武器射程"
@@ -719,7 +722,6 @@
 		//"EvasionPercentGlider_label"					"Evasion Chance Gliding"
 		"EvasionPercentGlider_postfix"					"%"
 
-		"EvasionPercent_label"						"闪避几率"
 		"EvasionPercent_postfix"						"%"
 
 		//"MeleeDamagePercent_label"					"Melee Damage Bonus"
@@ -1790,9 +1792,9 @@
 		"StaminaRegenPercent_label"			"耐力恢复"
 		"StaminaRegenPercent_postfix"		"%"
 
-		//crow_mask_1824_comment
-		// crow_mask_1825_comment
-		//crow_mask_1826_comment
+		//crow_mask_1827_comment
+		// crow_mask_1828_comment
+		//crow_mask_1829_comment
 
 
 

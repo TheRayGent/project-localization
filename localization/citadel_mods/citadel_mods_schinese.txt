@@ -161,7 +161,7 @@
 		//"upgrade_attack_speed_2_desc"	"Increases your <span class=\"highlight\">Fire Rate</span>."
 
 		//Spiritual Overflow
-		"upgrade_tech_overflow_desc"	"通过命中敌方英雄进行<span class=\"highlight\">充能</span>，获取额外的<span class=\"highlight\">元灵力量</span>。"
+		"upgrade_tech_overflow_desc"	"通过向敌方英雄射击<span class=\"highlight\">充能</span>，获取额外的<span class=\"highlight\">射速</span>及<span class=\"highlight\">元灵力量</span>。"
 		"modifier_tech_overflow"		"元灵漫溢"
 		"modifier_tech_overflow_building" "正在累积元灵漫溢效果…"
 
@@ -227,6 +227,8 @@
 		//Frenzy
 		"upgrade_fervor_passive"	"当你的生命值<span class=\"highlight\">低于 {s:LowHealthThreshold}% 时</span>，你将获得属性加成。"
 		"FervorTechResist_postfix"  "%"
+		"modifier_fervor_aura_active"		"背水一战"
+
 
 		//Old Frenzy
 		//"upgrade_frenzy_vampire_desc"	"Your <span class=\"highlight\">bullets heal you</span> for a percentage of the damage they deal to enemies.<br><br>When an enemy is below {s:LowHealthPercentThreshold}% health you gain an additional <span class=\"highlight\">{s:LowHealthLifeStealPercent}% Bullet Lifesteal</span> against them."
@@ -265,6 +267,7 @@
 		"upgrade_surging_power_active"	"提供<span class=\"highlight\">吸血</span>、<span class=\"highlight\">射速</span>和<span class=\"highlight\">弹药</span>。此额外弹药不受最大弹匣容量限制。"
 		"ActiveBonusLifesteal_label"		"子弹吸血"
 		"ActiveBonusLifesteal_postfix"	"%"
+		"modifier_surging_power"		 "澎湃力量"
 		//"upgrade_surging_power/surge/windup"					"Surging Power"
 		//"upgrade_surging_power/surge/active"					"Surging Power"
 		//"upgrade_surging_power/surge"					"Surging Power"
@@ -392,7 +395,7 @@
 
 		//Escalating Exposure
 		"upgrade_escalating_exposure_desc"	"造成<span class=\"highlight\">元灵伤害</span>时会施加可叠加的<span class=\"highlight\">元灵增强</span>效果，增加你对目标的<span class=\"highlight\">元灵伤害</span>。"
-		"upgrade_escalating_exposure/modifier_proc_watcher/modifier_debuff"		"元灵护甲减少"
+		"upgrade_escalating_exposure/modifier_proc_watcher/modifier_debuff"		"伤上加伤"
 		"EscalatingExposureProcCooldown_label"	"每个目标的最高频率"
 		"EscalatingExposureProcCooldown_postfix"	"s"
 		"EscalatingExposureTechArmorDamageReduction_label"	"受到元灵伤害时的元灵抗性减少量"
@@ -472,7 +475,7 @@
 		//"upgrade_succor_desc"				"<span class=\"highlight\">Pulls</span> the targeted teammate out of battle and brings them next to you."
 		
 		//Slowing Hex
-		"upgrade_containment_desc"			"造成<span class=\"highlight\">元灵伤害</span>并<span class=\"highlight\">降低</span>目标的移动速度和冲刺速度。对<span class=\"highlight\">基于移动的物品和技能施加眩晕效果</span>。<br>不会影响目标的耐力使用。"
+		"upgrade_containment_desc"			"造成<span class=\"highlight\">元灵伤害</span>并<span class=\"highlight\">降低</span>目标的移动速度和冲刺速度。同时<span class=\"highlight\">使目标基于移动的物品和技能沉默</span>。<br>不会影响目标的耐力使用。"
 
 		//Withering Whip
 		"upgrade_withering_whip_desc"		"瞄准一名敌人，施加<span class=\"highlight\">射速减慢</span>效果，并降低其<span class=\"highlight\">子弹抗性</span>。"
@@ -485,7 +488,7 @@
 		"SpiritPower_prefix"					"+"
 
 		//Ethereal Shift
-		"upgrade_self_bubble_desc"			"你进入虚空状态，在短时间内<span class=\"highlight\">无法成为目标并变得无敌</span>，在此期间你无法移动或执行任何操作。之后，你会<span class=\"highlight\">立即重新装填</span>并获得额外的<span class=\"highlight\">元灵力量</span>。<br>可提前取消。"
+		"upgrade_self_bubble_desc"			"你进入虚空状态，在短时间内<span class=\"highlight\">无法成为目标并变得无敌</span>，在此期间你无法移动或执行任何操作。之后，你会<span class=\"highlight\">立即重新装填</span>并获得额外的<span class=\"highlight\">元灵力量</span>。"
 		"ShiftingVeilDuration_label"			"持续时间"
 		"ShiftingVeilDuration_postfix"		"s"
 		"BonusSpiritDuration_label"			"额外元灵持续时间"
@@ -588,6 +591,7 @@
 
 		//Infuser
 		"upgrade_infuser_desc"			"获得<span class=\"highlight\">元灵力量</span>和<span class=\"highlight\">元灵吸血</span>。"
+		"modifier_infuser" "灵力灌注"
 
 		//Spirit Strike
 		"upgrade_acolytes_glove_desc"			"当你对一个英雄进行<span class=\"highlight\">近战轻/重</span>攻击时，攻击会造成额外<span class=\"highlight\">元灵伤害</span>并减少目标的<span class=\"highlight\">元灵抗性</span>。"
@@ -653,7 +657,7 @@
 		//Healing Rite
 		"upgrade_health_stimpak_desc"					"赋予目标<span class=\"highlight\">生命值恢复</span>和<span class=\"highlight\">冲刺速度</span>。如果你受到敌方玩家或目标物的伤害，效果会被解除。可以自我施放。"
 		"upgrade_health_stimpak/modifier_stimpak_regen"			"治疗仪式"
-
+		"modifier_stimpak_regen" "治疗仪式"
 		//Divine Barrier
 		"upgrade_savior_desc"				"为目标提供<span class=\"highlight\">子弹护盾、元灵护盾和移动速度</span>。可以自我施放。"
 		"SaviorBulletShieldHealth_label"		"子弹护盾"
@@ -932,10 +936,10 @@
 		"HealOnlevelHealAmount_label"	"治疗量"
 		"upgrade_heal_on_level/heal_on_level_buff"			"升级时治疗"
 
-		//crow_mask_934_comment
-		//crow_mask_935_comment
-		//crow_mask_936_comment
-		//crow_mask_937_comment
 		//crow_mask_938_comment
+		//crow_mask_939_comment
+		//crow_mask_940_comment
+		//crow_mask_941_comment
+		//crow_mask_942_comment
 	}
 }

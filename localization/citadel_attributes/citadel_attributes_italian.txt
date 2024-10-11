@@ -8,10 +8,10 @@
 		// Unit states (that we want to show)
 		//-----------------------------------------------------------------------------
 
-		"MODIFIER_STATE_ROOTED"								"Immobilizzato"
+		"MODIFIER_STATE_ROOTED"								"Immobilizzazione"
 		"MODIFIER_STATE_DISARMED"							"Disarmato"
 		"MODIFIER_STATE_SILENCED"							"Silenziato"
-		"MODIFIER_STATE_STUNNED"							"Stordito"
+		"MODIFIER_STATE_STUNNED"							"Stordimento"
 		"MODIFIER_STATE_INVULNERABLE"						"Invulnerabile"
 		"MODIFIER_STATE_TECH_INVULNERABLE"					"Spirito invulnerabile"
 		//"MODIFIER_STATE_BURNING"							"Burning"
@@ -22,7 +22,7 @@
 		//"MODIFIER_STATE_BULLET_SHIELD_WEAKENED"				"Weakened Bullet Shield"
 		//"MODIFIER_STATE_IS_ASLEEP"							"Asleep"
 		//"MODIFIER_STATE_BULLET_DAMAGE_TAKEN_ALWAYS_CRITS"	"Crit Vulnerable"		 				
-		"MODIFIER_STATE_CHAINED"							"Incatenato"
+		"MODIFIER_STATE_CHAINED"							"Incatenamento"
 		//"MODIFIER_STATE_ALL_ARMOR_DISABLED"					"Armors Disabled"
 		//"MODIFIER_STATE_BULLET_INVULNERABLE"				"Bulletproof"
 		//"MODIFIER_STATE_DRONE_ATTACHED"						"Drone Attached"
@@ -38,7 +38,7 @@
 		"Citadel_StatusEffectFreeze"			"Congelamento"
 		"Citadel_StatusEffectBurn"				"Ustione"
 		"Citadel_StatusEffectBleed"				"Sanguinamento"
-		"Citadel_StatusEffectSleep"				"Addormentato"
+		"Citadel_StatusEffectSleep"				"Assopimento"
 		"Citadel_StatusEffectTethered"			"Incatenamento"
 		"Citadel_StatusEffectImmobilize" 		"Immobilizzazione"
 		"Citadel_StatusEffectDisarmed"			"Disarma"
@@ -59,15 +59,15 @@
 		"modifier_citadel_lineslow"				"Rallentato"
 		"modifier_slow_base"																		"Rallentato"
 		"modifier_damageovertime" 				"Sanguinamento"
-		"modifier_citadel_stunned" 				"Stordito"
-		"modifier_citadel_knockdown"			"Stordito"
+		"modifier_citadel_stunned" 				"Stordimento"
+		"modifier_citadel_knockdown"			"Stordimento"
 		//"modifier_citadel_delayed_stun"			"Delayed Stun"
 		//"modifier_citadel_knockdown_stumble"	"Stumble"
 		"modifier_citadel_banished"				"Bandito"
 		//"modifier_citadel_speed_boost" 			"Speed Boost"
 		//"modifier_pullaura" 					"Pulled"
 		//"modifier_healaura" 					"Healing"
-		"modifier_citadel_root"					"Immobilizzato"
+		"modifier_citadel_root"					"Immobilizzazione"
 		//"modifier_citadel_charging" 			"Charging"
 		//"modifier_invis" 						"Stealthed"
 		//"modifier_invis_start_delay" 			"Entering Stealth"
@@ -105,10 +105,10 @@
 		// Stat desc - These are the labels in the hero stats for each EStatType
 		//-----------------------------------------------------------------------------
 
-		"StatDesc_DPS"									"danni al secondo"
-		"StatDesc_MeleeDamage"							"Danni da mischia"
-		"StatDesc_LightMeleeDamage"						"Mischia leggera"
-		"StatDesc_HeavyMeleeDamage"						"Mischia pesante"
+		"StatDesc_DPS"									"Danni al secondo"
+		"StatDesc_MeleeDamage"							"Danni corpo a corpo"
+		"StatDesc_LightMeleeDamage"						"Attacchi corpo a corpo leggeri"
+		"StatDesc_HeavyMeleeDamage"						"Attacchi corpo a corpo pesanti"
 		"StatDesc_MaxHealth"							"Salute max"
 		"StatDesc_ClipSizeBonus"						"Munizioni"
 		"StatDesc_ClipSizeIncrease"						"Aumento della dimensione del caricatore"
@@ -118,7 +118,7 @@
 		"StatDesc_HealthRegen"							"Rigenerazione della salute"
 		"StatDesc_BaseHealthRegen"						"Rigenerazione della salute"
 		//"StatDesc_ExternalHealthRegen"					"External Health Regen"
-		"StatDesc_RunSpeed"								"velocità di movimento"
+		"StatDesc_RunSpeed"								"Velocità di movimento"
 		"StatDesc_RunSpeed_postfix"						" m/s"
 		"StatDesc_SprintSpeed"							"Velocità sprint"
 		"StatDesc_SprintSpeed_postfix"					" m/s"
@@ -126,7 +126,7 @@
 		//"StatDesc_SprintAcceleration"					"Sprint Acceleration"
 		"StatDesc_IncomingDamageReduction"				"Armatura"
 		//"StatDesc_IncomingDamageScale"					"Incoming Damage Scale"
-		"StatDesc_BulletArmor"							"armatura"
+		"StatDesc_BulletArmor"							"Armatura"
 		"StatDesc_BulletArmorDamageReduction"			"Resistenza alle pallottole"
 		"StatDesc_BulletArmorDamageReduction_postfix"	"%"
 		//"StatDesc_IncomingBulletDamageReduction"		"Bullet Damage Armor"
@@ -138,7 +138,7 @@
 		"StatDesc_TechArmorDamageReduction_postfix"		"%"
 		//"StatDesc_IncomingAbilityDamageReduction"		"Ability Armor"
 		//"StatDesc_IncomingAbilityDamageScale"			"Ability Damage Scale"
-		"StatDesc_TechPower"							"Potenza spirituale"
+		"StatDesc_TechPower"							"Potere spirituale"
 		//"StatDesc_ManaPerLevel"							"Energy Per Level"
 		//"StatDesc_HealthPerLevel"						"Health Per Level"
 		//"StatDesc_ManaRegenPerLevel"					"Energy Regen Per Level"
@@ -153,7 +153,7 @@
 		//"StatDesc_Technology"							"Technology"
 		//"StatDesc_Weaponry"								"Weaponry"
 		"StatDesc_WeaponPower"							"Danni da arma"
-		"StatDesc_BulletDamage"							"Danni da pallottole"
+		"StatDesc_BulletDamage"							"Danni balistici"
 		//"StatDesc_TechPowerAmp"							"Spirit"
 		//"StatDesc_EnergyMax"							"Energy Cells"
 		//"StatDesc_EnergyRegenTime"						"Energy Regen Time"
@@ -163,18 +163,18 @@
 		//"StatDesc_AirJumps"								"Air Jumps"
 		//"StatDesc_ZipLineSpeed"							"Hyperline Speed"
 		//"StatDesc_ProcModifier"							"Proc Modifier"
-		"StatDesc_TechCooldown"							"Tempo di ricarica dell'abilità"
+		"StatDesc_TechCooldown"							"Tempo di ricarica delle abilità"
 		"StatDesc_TechCooldown_postfix"					"%"
 		"StatDesc_TechCooldownBetweenCharges"			"Tempo di ricarica della carica"
 		"StatDesc_TechCooldownBetweenCharges_postfix"	"%"
-		"StatDesc_TechRange"							"Gittata dell'abilità"
+		"StatDesc_TechRange"							"Gittata delle abilità"
 		"StatDesc_TechRange_postfix"					"%"
 		"StatDesc_MaxChargesIncrease"					"Aumento delle cariche max"
 		//"StatDesc_RechargeRate"							"Recharge Rate"
-		"StatDesc_TechDuration"							"Durata dell'abilità"
+		"StatDesc_TechDuration"							"Durata delle abilità"
 		"StatDesc_TechDuration_postfix"					"%"
 		"StatDesc_WeaponPowerAttribute"					"Danni da arma"
-		"StatDesc_ArmorAttribute"						"armatura"
+		"StatDesc_ArmorAttribute"						"Armatura"
 		"StatDesc_HealthAttribute"						"Salute"
 		"StatDesc_TechDamageAttribute"					"Danni spirituali"
 		"StatDesc_FireRateAttribute"					"Frequenza di fuoco"
@@ -189,7 +189,7 @@
 		"StatDesc_TechShieldHealth"						"Scudo spirituale"
 		"StatDesc_BulletShieldHealth"					"Scudo balistico"
 		"StatDesc_ReloadSpeed_prefix"					"{s:sign}"
-		"StatDesc_ReloadSpeed"							"Riduzione della ricarica"
+		"StatDesc_ReloadSpeed"							"Riduzione del tempo di ricarica"
 		"StatDesc_ReloadSpeed_postfix"					"%"
 		"StatDesc_CritDamageReceivedScale"				"Riduzione dei danni critici"
 		"StatDesc_CritDamageReceivedScale_postfix"		"%"
@@ -202,6 +202,8 @@
 		"StatDesc_DebuffResist_postfix"					"%"
 		"StatDesc_HealingOutput"						"Amplificazione della guarigione"
 		"StatDesc_HealingOutput_postfix"				"%"
+		"StatDesc_CritDamageBonusScale"					"Scala dei danni critici bonus"
+		"StatDesc_CritDamageBonusScale_postfix"			"%"
 
 		"StatDesc_BulletSpeed"							"Velocità delle pallottole"
 		"StatDesc_BulletSpeed_postfix"					" m/s"
@@ -220,7 +222,7 @@
 		"StatDesc_TechLifesteal_postfix"				"%"
 
 		"StatDesc_TechLifestealNonHero_prefix"			"{s:sign}"
-		"StatDesc_TechLifestealNonHero"					"prosciugamento della salute spirituale (non eroi)"
+		"StatDesc_TechLifestealNonHero"					"Prosciugamento della salute spirituale (non eroi)"
 
 		"StatDesc_BulletLifesteal_prefix"					"{s:sign}"
 		"StatDesc_BulletLifesteal"						"Prosciug. salute dalle pallottole"
@@ -321,7 +323,7 @@
 		"BaseAttackDamage_label"						"Danni di base"
 
 		"BonusHealth_prefix"							"{s:sign}"
-		"BonusHealth_label"							"Salute bonus"
+		"BonusHealth_label"							"PS bonus"
 
 		"MaxHealth_prefix"							"{s:sign}"
 		"MaxHealth_label"							"Salute massima"
@@ -341,7 +343,7 @@
 		"BaseWeaponDamage_postfix"						"%"
 
 		//"LevelUpBaseWeaponDamage"					"Bullet Damage"
-		"LevelUpBaseMeleeDamage"					"Danni da mischia"
+		"LevelUpBaseMeleeDamage"					"Danni corpo a corpo"
 
 		"HealthRegen_prefix"						"{s:sign}"
 		"HealthRegen_label"						"Rigenerazione della salute"
@@ -374,10 +376,10 @@
 
 		"BonusMeleeDamagePercent_prefix"				"{s:sign}"
 		"BonusMeleeDamagePercent_postfix"				"%"
-		"BonusMeleeDamagePercent_label"				"Danni da mischia"
+		"BonusMeleeDamagePercent_label"				"Danni corpo a corpo"
 
 		"BonusMeleeDamage_prefix"						"{s:sign}"
-		"BonusMeleeDamage_label"						"Danni da mischia"
+		"BonusMeleeDamage_label"						"Danni corpo a corpo"
 
 		"FuseTime_label"								"Timer del detonatore"
 		"FuseTime_postfix"								" s"
@@ -438,13 +440,14 @@
 		"BulletDamageReduction_label"					"Armatura balistica"
 
 		"ActiveBulletDamageReduction_prefix"			"{s:sign}"
-		"ActiveBulletDamageReduction_label"			"Danni da pallottole"
+		"ActiveBulletDamageReduction_label"			"Danni balistici"
 		"ActiveBulletDamageReduction_postfix"			"%"
 
 		"BonusMoveSpeed_prefix"							"{s:sign}"
 		"BonusMoveSpeed_label"						"Velocità di movimento"
 		"BonusMoveSpeed_postfix"						" m/s"
-
+		
+		"TeleporterBonus"							"Velocità di movimento bonus!"
 		"RunSpeed_postfix"						" m/s"
 
 		"WeaponRange_label"							"Gittata dell'arma"
@@ -484,7 +487,7 @@
 		"BulletPenetrationPercent_label"				"Penetrazione delle pallottole"
 
 		"TechPower_prefix"								"{s:sign}"
-		"TechPower_label"								"Potenza spirituale"
+		"TechPower_label"								"Potere spirituale"
 		"ArmorPower_prefix"								"{s:sign}"
 		"ArmorPower_label"								"Salute di base"
 		"ArmorPower_postfix"								"%"
@@ -494,11 +497,11 @@
 		//"TechPowerAmp_postfix"							""
 
 		"SpellAmplificationPercent_prefix"				"{s:sign}"
-		"SpellAmplificationPercent_label"				"Potenza spirituale"
+		"SpellAmplificationPercent_label"				"Potere spirituale"
 		//BaseDamagePerShot_label							"Base Damage"
 		"NanoTechPerShot_label"							"Danni spirituali"
 		//"ExplosiveSplashDamage_label"						"Explode Damage"
-		"BulletDamageTotal_label"							"Danni da pallottole"
+		"BulletDamageTotal_label"							"Danni balistici"
 
 		"ChargesRestored_label"							"Cariche ripristinate"			
 
@@ -551,11 +554,11 @@
 
 		"ImbuedCooldownReduction_prefix"				"{s:sign}"
 		"ImbuedCooldownReduction_postfix"				"%"
-		"ImbuedCooldownReduction_label"					"Riduzione del tempo di ricarica dell'abilità infusa"
+		"ImbuedCooldownReduction_label"					"Riduzione del tempo di ricarica delle abilità infuse"
 
 		"NonImbuedCooldownReduction_prefix"				"{s:sign}"
 		"NonImbuedCooldownReduction_postfix"			"%"
-		"NonImbuedCooldownReduction_label"				"Riduzione del tempo di ricarica dell'abilità non infusa"
+		"NonImbuedCooldownReduction_label"				"Riduzione del tempo di ricarica delle abilità non infuse"
 
 		"CooldownReductionFlat_postfix"					" s"
 		"CooldownReductionFlat_label"					"Riduzione del tempo di ricarica"
@@ -634,7 +637,7 @@
 		"TechLifestealPercent_postfix"					"%"
 
 		"MeleeLifestealPercent_prefix"						"{s:sign}"
-		"MeleeLifestealPercent_label"					"Prosciugamento della salute da mischia"
+		"MeleeLifestealPercent_label"					"Prosciug. salute corpo a corpo"
 		"MeleeLifestealPercent_postfix"					"%"
 
 		"StunDuration_label"							"Durata dello stordimento"
@@ -719,7 +722,6 @@
 		//"EvasionPercentGlider_label"					"Evasion Chance Gliding"
 		"EvasionPercentGlider_postfix"					"%"
 
-		"EvasionPercent_label"						"Probabilità di elusività"
 		"EvasionPercent_postfix"						"%"
 
 		//"MeleeDamagePercent_label"					"Melee Damage Bonus"
@@ -769,7 +771,7 @@
 		"BonusDamagePercent_postfix"					"%"
 
 		"BulletDamagePercent_prefix"					"{s:sign}"
-		"BulletDamagePercent_label"					"Danni da pallottole"
+		"BulletDamagePercent_label"					"Danni balistici"
 		"BulletDamagePercent_postfix"					"%"
 
 		"AbilityLifestealPercent_prefix"					"{s:sign}"
@@ -831,7 +833,7 @@
 		//"WeaponRecoilReduction_label"					"Recoil Reduction"
 
 		"BonusDPSPercent_prefix"						"{s:sign}"
-		"BonusDPSPercent_label"						"Danni da pallottole"
+		"BonusDPSPercent_label"						"Danni balistici"
 		"BonusDPSPercent_postfix"						"%"
 
 		//"DroneHealth_label"							"Drone Health"
@@ -955,7 +957,7 @@
 
 		"SurgeOfPower_conditional"						"dopo aver usato l'abilità"
 
-		"SpiritStrike_conditional"						"dopo una mischia riuscita"
+		"SpiritStrike_conditional"						"dopo un attacco corpo a corpo riuscito"
 
 		"LongRangeBonusWeaponPowerMinRange_label"		"Distanza min."
 		"LongRangeBonusWeaponPowerMinRange_postfix"		" m"
@@ -970,11 +972,11 @@
 		"TechRangeMultiplier_postfix"					"%"
 
 		"ImbuedTechRangeMultiplier_prefix"				"{s:sign}"
-		"ImbuedTechRangeMultiplier_label"				"Gittata dell'abilità infusa"
+		"ImbuedTechRangeMultiplier_label"				"Gittata delle abilità infuse"
 		"ImbuedTechRangeMultiplier_postfix"				"%"
 
 		"NonImbuedTechRangeMultiplier_prefix"			"{s:sign}"
-		"NonImbuedTechRangeMultiplier_label"			"Gittata dell'abilità non infusa"
+		"NonImbuedTechRangeMultiplier_label"			"Gittata delle abilità non infuse"
 		"NonImbuedTechRangeMultiplier_postfix"			"%"
 
 		//"ThrowRange_label"								"Throw Range"
@@ -1059,7 +1061,7 @@
 		"DamageReduction_label"						"Riduzione dei danni"
 		"DamageReduction_postfix"					"%"
 
-		"MeleeDamage_label"							"Danni da mischia"
+		"MeleeDamage_label"							"Danni corpo a corpo"
 
 		//"ConvertedHealth_label"						"Trooper Health"
 
@@ -1130,11 +1132,11 @@
 		
 		
 		"NonImbuedBonusDuration_prefix"				"{s:sign}"
-		"NonImbuedBonusDuration_label"				"Durata dell'abilità non infusa"
+		"NonImbuedBonusDuration_label"				"Durata delle abilità non infuse"
 		"NonImbuedBonusDuration_postfix"			"%"		
 		
 		"ImbuedBonusDuration_prefix"					"{s:sign}"
-		"ImbuedBonusDuration_label"						"Durata dell'abilità infusa"
+		"ImbuedBonusDuration_label"						"Durata delle abilità infuse"
 		"ImbuedBonusDuration_postfix"					"%"
 
 		"MissCooldown_postfix"							" s"
@@ -1193,7 +1195,7 @@
 		//"TimeBetweenShots_postfix"						""
 
 		//"DroneDPS_label"								"Drone Damage"
-		"DroneDPS_postfix"								"danni al secondo"
+		"DroneDPS_postfix"								"Danni al secondo"
 
 		"DistanceBuff_postfix"							"%"
 		//"DistanceBuff_label"							"Increase at Max Range"
@@ -1495,7 +1497,7 @@
 		"BonusBulletDamageToEMPTargets_postfix" "%"
 		"modifier_silencer_proc_active"	"SILENZIATORE"
 
-		"BulletDamageReflectedPct_label"					"Danni da pallottole restituiti"
+		"BulletDamageReflectedPct_label"					"Danni balistici restituiti"
 		"BulletDamageReflectedPct_postfix"					"%"
 		"SpiritDamageReflectedPct_label"					"Danni spirituali restituiti"
 		"SpiritDamageReflectedPct_postfix"					"%"
@@ -1625,7 +1627,7 @@
 
 
 		"BonusSpirit_prefix"				"{s:sign}"
-		"BonusSpirit_label"				"Potenza spirituale"
+		"BonusSpirit_label"				"Potere spirituale"
 		//"modifier_power_shard_bonus"		"Echo Boost"
 
 		//"BonusDuration_label"				"Bonus Duration"
@@ -1645,7 +1647,7 @@
 		"BaseAttackDamagePercent_postfix"					"%"
 
 		"ImbuedTechPower_prefix"					"{s:sign}"
-		"ImbuedTechPower_label"						"Potenza spirituale abilità infusa"
+		"ImbuedTechPower_label"						"Potere spirituale delle abilità infuse"
 
 		"MovementSpeedBonusDuration_label"			"Durata della velocità di movimento"
 		"MovementSpeedBonusDuration_postfix"		" s"
@@ -1681,7 +1683,7 @@
 		//"Cloaked"								"Cloaked"
 
 		"zipline_boost"							"Filovia accelerata"
-		"ActiveTechPower_label"					"Potenza spirituale"
+		"ActiveTechPower_label"					"Potere spirituale"
 		"ActiveTechPower_prefix"				"+"
 
 		//"ActiveBulletShieldHealth_label"		"Active Shield Health"
@@ -1699,7 +1701,7 @@
 
 		"VeilCross_conditional"					"Attraverso un velo cosmico"
 		"modifier_veil_walker_triggered"			"Frequenza di fuoco del velo"
-		"modifier_veil_walker_stealth"			"Invisibilità della Sentinella del velo"
+		"modifier_veil_walker_stealth"			"Invisibilità del Mech del velo"
 
 		"InvisDuration_label"						"Durata dell'invisibilità"
 		"InvisDuration_postfix"					"s"
@@ -1790,9 +1792,9 @@
 		"StaminaRegenPercent_label"			"Rigenerazione della resistenza"
 		"StaminaRegenPercent_postfix"		"%"
 
-		//crow_mask_1824_comment
-		// crow_mask_1825_comment
-		//crow_mask_1826_comment
+		//crow_mask_1827_comment
+		// crow_mask_1828_comment
+		//crow_mask_1829_comment
 
 
 

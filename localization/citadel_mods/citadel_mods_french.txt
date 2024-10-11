@@ -3,7 +3,29 @@
 	"Language"		"french"
 	"Tokens"
 	{
-"AmmoPerSoul_prefix"				"+"
+
+		//-----------------------------------------------------------------------------
+		// Upgrades: Weapon
+		//-----------------------------------------------------------------------------
+
+		//Basic Magazine
+		//"upgrade_clip_size_desc"			"Increases <span class=\"highlight\">ammo</span>."
+
+		//Extended Magazine
+		//"upgrade_clip_size_fixed_desc"		"Increases <span class=\"highlight\">ammo</span>."
+
+		//Extra Large Magazine
+		//"upgrade_clip_size_fixed_t3_desc"		"Greatly Increases <span class=\"highlight\">ammo</span>."
+
+		//Big Clip
+		//"upgrade_clip_size_2_desc"			"Big Increase <span class=\"highlight\">ammo</span>."
+
+		//Extra Large Magazine
+		//"upgrade_clip_size_3_desc"			"Greatly Increases <span class=\"highlight\">ammo</span>."
+
+		//Ammo Scavenger
+		"upgrade_ammo_scavenger_desc"		"Pour chaque âme obtenue ou volée en cas de victime, vous <span class=\"highlight\">récupérez des munitions</span> et gagnez du <span class=\"highlight\">pouvoir spirituel</span> cumulable."
+		"AmmoPerSoul_prefix"				"+"
 		"AmmoPerSoul_label"					"Munitions par âme"
 		"SpiritPowerPerSoul_prefix"			"+"
 		"SpiritPowerPerSoul_label"			"Pouvoir spirituel par âme"
@@ -139,7 +161,7 @@
 		//"upgrade_attack_speed_2_desc"	"Increases your <span class=\"highlight\">Fire Rate</span>."
 
 		//Spiritual Overflow
-		"upgrade_tech_overflow_desc"	"Augmente votre <span class=\"highlight\">pouvoir spirituel</span> quand vous <span class=\"highlight\">appliquez l'effet</span> sur les occultistes adverses avec vos tirs."
+		"upgrade_tech_overflow_desc"	"Augmente votre <span class=\"highlight\">cadence de tir</span> et votre <span class=\"highlight\">pouvoir spirituel</span> en <span class=\"highlight\">chargeant</span> vos tirs sur les occultistes."
 		"modifier_tech_overflow"		"Saturation spirituelle"
 		"modifier_tech_overflow_building" "Saturation spirituelle imminente…"
 
@@ -205,6 +227,8 @@
 		//Frenzy
 		"upgrade_fervor_passive"	"Augmente vos statistiques quand vous avez <span class=\"highlight\">moins de {s:LowHealthThreshold} % de vos PV</span>."
 		"FervorTechResist_postfix"  " %"
+		"modifier_fervor_aura_active"		"Frénétique"
+
 
 		//Old Frenzy
 		//"upgrade_frenzy_vampire_desc"	"Your <span class=\"highlight\">bullets heal you</span> for a percentage of the damage they deal to enemies.<br><br>When an enemy is below {s:LowHealthPercentThreshold}% health you gain an additional <span class=\"highlight\">{s:LowHealthLifeStealPercent}% Bullet Lifesteal</span> against them."
@@ -243,6 +267,7 @@
 		"upgrade_surging_power_active"	"Confère le <span class=\"highlight\">vol de vie</span>, une augmentation de la <span class=\"highlight\">cadence de tir</span> et des <span class=\"highlight\">munitions</span>. Ces dernières ne sont pas limitées par la taille max. de votre chargeur."
 		"ActiveBonusLifesteal_label"		"Vol de vie des balles"
 		"ActiveBonusLifesteal_postfix"	" %"
+		"modifier_surging_power"		 "Puissance croissante"
 		//"upgrade_surging_power/surge/windup"					"Surging Power"
 		//"upgrade_surging_power/surge/active"					"Surging Power"
 		//"upgrade_surging_power/surge"					"Surging Power"
@@ -370,7 +395,7 @@
 
 		//Escalating Exposure
 		"upgrade_escalating_exposure_desc"	"Infliger des <span class=\"highlight\">dégâts spirituels</span> applique une <span class=\"highlight\">amplification spirituelle</span> qui se cumule et qui augmente vos <span class=\"highlight\">dégâts spirituels</span> sur la cible."
-		"upgrade_escalating_exposure/modifier_proc_watcher/modifier_debuff"		"Pare-esprit réduit"
+		"upgrade_escalating_exposure/modifier_proc_watcher/modifier_debuff"		"Exposition spirituelle"
 		"EscalatingExposureProcCooldown_label"	"Fréquence max. par cible"
 		"EscalatingExposureProcCooldown_postfix"	" s"
 		"EscalatingExposureTechArmorDamageReduction_label"	"Résistance spirituelle contre les dégâts spirituels"
@@ -463,7 +488,7 @@
 		"SpiritPower_prefix"					"+"
 
 		//Ethereal Shift
-		"upgrade_self_bubble_desc"			"Vous entrez dans le vide pour devenir brièvement <span class=\"highlight\">intouchable et invincible</span>, ce qui vous empêche de bouger ou d'agir. Ensuite, votre arme est <span class=\"highlight\">instantanément rechargée</span> et vous obtenez du <span class=\"highlight\">pouvoir spirituel</span> supplémentaire</0>.<br>Peut être annulée rapidement."
+		"upgrade_self_bubble_desc"			"Vous entrez dans un état de vide pour devenir brièvement <span class=\"highlight\">intouchable et invincible</span>, ce qui vous empêche de bouger ou d'agir. Ensuite, votre arme est <span class=\"highlight\">instantanément rechargée</span> et vous obtenez du <span class=\"highlight\">pouvoir spirituel</span> supplémentaire."
 		"ShiftingVeilDuration_label"			"Durée"
 		"ShiftingVeilDuration_postfix"		" s"
 		"BonusSpiritDuration_label"			"Durée spirituelle bonus"
@@ -566,6 +591,7 @@
 
 		//Infuser
 		"upgrade_infuser_desc"			"Vous confère du <span class=\"highlight\">pouvoir spirituel</span> et du <span class=\"highlight\">vol de vie spirituel</span>."
+		"modifier_infuser" "Second souffle"
 
 		//Spirit Strike
 		"upgrade_acolytes_glove_desc"			"Vos attaques de <span class=\"highlight\">mêlée légère ou lourde</span> infligent des <span class=\"highlight\">dégâts spirituels</span> supplémentaires aux occultistes et réduisent leur <span class=\"highlight\">résistance spirituelle</span>."
@@ -573,7 +599,7 @@
 		"modifier_acolytes_glove_triggered"		"Frappe spirituelle"
 
 		//Melee Charge
-		"upgrade_melee_charge_desc"				"Votre prochaine <span class=\"highlight\">attaque de mêlée lourde</span> contre un adversaire <span class=\"highlight\">inflige des dégâts supplémentaires</span> et <span class=\"highlight\">recharge votre arme instantanément</span> ou vous accorde jusqu'à <span class=\"highlight\">+100 % d'amure bonus</span>. <br>Ne s'active que si le chargeur n'est pas déjà plein."
+		"upgrade_melee_charge_desc"				"Votre prochaine <span class=\"highlight\">attaque de mêlée lourde</span> contre un adversaire <span class=\"highlight\">inflige des dégâts supplémentaires</span> et <span class=\"highlight\">recharge votre arme instantanément</span> ou vous accorde jusqu'à <span class=\"highlight\">+100 % d'armure bonus</span>. <br>Ne s'active que si le chargeur n'est pas déjà plein."
 		"MeleeDistanceScale_label"				"Portée d'atq. de mêlée lourde"
 		"MeleeDistanceScale_postfix"			" %"
 		"BonusHeavyMeleeDamage_prefix"			"+"
@@ -631,7 +657,7 @@
 		//Healing Rite
 		"upgrade_health_stimpak_desc"					"<span class=\"highlight\">Régénère les PV</span> et augmente la <span class=\"highlight\">vitesse de course</span> de la cible. L'effet est dissipé si la cible subit des dégâts d'occultistes ou d'objectifs adverses. Autociblage possible."
 		"upgrade_health_stimpak/modifier_stimpak_regen"			"Rite de guérison"
-
+		"modifier_stimpak_regen" "Rite de guérison"
 		//Divine Barrier
 		"upgrade_savior_desc"				"Accorde <span class=\"highlight\">un bouclier balistique, un bouclier spirituel et de la vitesse de déplacement</span> à la cible. Autociblage possible."
 		"SaviorBulletShieldHealth_label"		"Bouclier balistique"
@@ -828,7 +854,7 @@
 
 		//Health Nova
 		"upgrade_health_nova_desc"					"Vous <span class=\"highlight\">soigne</span> ainsi que vos partenaires à proximité. Bonus de soin par partenaire : {s:HeroTargetBonus} %."
-		"modifier_health_nova"					"Déflagration curative"
+		"modifier_health_nova"					"Nova curative"
 
 		//Fast Reload
 		//"upgrade_reload_speed_desc"					"Increased <span class=\"highlight\">reload speed</span>."
@@ -910,10 +936,10 @@
 		"HealOnlevelHealAmount_label"	"Soins"
 		"upgrade_heal_on_level/heal_on_level_buff"			"Soins par niveau"
 
-		//crow_mask_934_comment
-		//crow_mask_935_comment
-		//crow_mask_936_comment
-		//crow_mask_937_comment
 		//crow_mask_938_comment
+		//crow_mask_939_comment
+		//crow_mask_940_comment
+		//crow_mask_941_comment
+		//crow_mask_942_comment
 	}
 }

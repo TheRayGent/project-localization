@@ -3,7 +3,31 @@
 	"Language"		"ukrainian"
 	"Tokens"
 	{
-"AmmoPerSoul_label"					"набоям за душу"
+
+		//-----------------------------------------------------------------------------
+		// Upgrades: Weapon
+		//-----------------------------------------------------------------------------
+
+		//Basic Magazine
+		//"upgrade_clip_size_desc"			"Increases <span class=\"highlight\">ammo</span>."
+
+		//Extended Magazine
+		//"upgrade_clip_size_fixed_desc"		"Increases <span class=\"highlight\">ammo</span>."
+
+		//Extra Large Magazine
+		//"upgrade_clip_size_fixed_t3_desc"		"Greatly Increases <span class=\"highlight\">ammo</span>."
+
+		//Big Clip
+		//"upgrade_clip_size_2_desc"			"Big Increase <span class=\"highlight\">ammo</span>."
+
+		//Extra Large Magazine
+		//"upgrade_clip_size_3_desc"			"Greatly Increases <span class=\"highlight\">ammo</span>."
+
+		//Ammo Scavenger
+		"upgrade_ammo_scavenger_desc"		"Щоразу, коли ви захоплюєте чи перехоплюєте душу, <span class=\"highlight\">отримуєте назад набої</span> та поєднувану <span class=\"highlight\">духовну силу</span>."
+		"AmmoPerSoul_prefix"				"+"
+		"AmmoPerSoul_label"					"набоям за душу"
+		"SpiritPowerPerSoul_prefix"			"+"
 		"SpiritPowerPerSoul_label"			"духовній силі за душу"
 		"AmmoScavengerDuration_label"		"часу дії"
 		"AmmoScavengerDuration_postfix"		" с"
@@ -137,7 +161,7 @@
 		//"upgrade_attack_speed_2_desc"	"Increases your <span class=\"highlight\">Fire Rate</span>."
 
 		//Spiritual Overflow
-		"upgrade_tech_overflow_desc"	"Здобуває додаткову <span class=\"highlight\">духовну силу</span> шляхом <span class=\"highlight\">накопичення зарядів</span> кулями на ворожих героях."
+		"upgrade_tech_overflow_desc"	"Здобуває додаткову <span class=\"highlight\">швидкострільність</span> і <span class=\"highlight\">духовну силу</span> шляхом <span class=\"highlight\">накопичення зарядів</span> стрільбою по ворожих героях."
 		"modifier_tech_overflow"		"Духовне сповнення"
 		"modifier_tech_overflow_building" "Накопичення духовного сповнення…"
 
@@ -203,6 +227,8 @@
 		//Frenzy
 		"upgrade_fervor_passive"	"Коли ви маєте <span class=\"highlight\">менше ніж {s:LowHealthThreshold}% здоров’я</span>, то здобуваєте підвищення показників."
 		"FervorTechResist_postfix"  "%"
+		"modifier_fervor_aura_active"		"Під дією лихоманки"
+
 
 		//Old Frenzy
 		//"upgrade_frenzy_vampire_desc"	"Your <span class=\"highlight\">bullets heal you</span> for a percentage of the damage they deal to enemies.<br><br>When an enemy is below {s:LowHealthPercentThreshold}% health you gain an additional <span class=\"highlight\">{s:LowHealthLifeStealPercent}% Bullet Lifesteal</span> against them."
@@ -241,6 +267,7 @@
 		"upgrade_surging_power_active"	"Дає <span class=\"highlight\">вампіризм</span>, <span class=\"highlight\">швидкострільність</span> і <span class=\"highlight\">набої</span>. Додаткові набої не обмежуються максимальним розміром вашого магазину."
 		"ActiveBonusLifesteal_label"		"вампіризму від куль"
 		"ActiveBonusLifesteal_postfix"	"%"
+		"modifier_surging_power"		 "Потік сили"
 		//"upgrade_surging_power/surge/windup"					"Surging Power"
 		//"upgrade_surging_power/surge/active"					"Surging Power"
 		//"upgrade_surging_power/surge"					"Surging Power"
@@ -368,7 +395,7 @@
 
 		//Escalating Exposure
 		"upgrade_escalating_exposure_desc"	"Заподіяння <span class=\"highlight\">духовної шкоди</span> накладає поєднуване <span class=\"highlight\">духовне посилення</span>, яке збільшує <span class=\"highlight\">духовну шкоду</span> проти цілі."
-		"upgrade_escalating_exposure/modifier_proc_watcher/modifier_debuff"		"Зменшення духовної броні"
+		"upgrade_escalating_exposure/modifier_proc_watcher/modifier_debuff"		"Підвищення вразливості"
 		"EscalatingExposureProcCooldown_label"	"макс. частоті за ціль"
 		"EscalatingExposureProcCooldown_postfix"	" с"
 		"EscalatingExposureTechArmorDamageReduction_label"	"духовному опору від духовної шкоди"
@@ -461,7 +488,7 @@
 		"SpiritPower_prefix"					"+"
 
 		//Ethereal Shift
-		"upgrade_self_bubble_desc"			"Власник входить у стан порожнечі й на нього <span class=\"highlight\">не можна націлитися чи подолати</span> упродовж короткого проміжку часу, коли він також не може рухатися чи вчиняти будь-які дії. Опісля власник <span class=\"highlight\">миттєво перезаряджаєтеся</span> та здобуває додаткову <span class=\"highlight\">духовну силу</span>.<br>Можна скасувати раніше."
+		"upgrade_self_bubble_desc"			"Ви входите у стан порожнечі й на вас <span class=\"highlight\">не можна націлитися чи подолати</span> вас упродовж короткого проміжку часу, коли ви також не можете рухатися чи вчиняти будь-які дії. Опісля ви <span class=\"highlight\">миттєво перезаряджаєтеся</span> та здобуваєте додаткову <span class=\"highlight\">духовну силу</span>."
 		"ShiftingVeilDuration_label"			"часу дії"
 		"ShiftingVeilDuration_postfix"		" с"
 		"BonusSpiritDuration_label"			"додачі часу духу"
@@ -564,12 +591,16 @@
 
 		//Infuser
 		"upgrade_infuser_desc"			"Дає <span class=\"highlight\">духовну силу</span> та <span class=\"highlight\">духовний вампіризм</span>."
+		"modifier_infuser" "Наповнення"
 
 		//Spirit Strike
 		"upgrade_acolytes_glove_desc"			"Під час <span class=\"highlight\">легкої чи важкої атаки ближнього бою</span> завдає ворогові додаткової <span class=\"highlight\">духовної шкоди</span> та зменшує його <span class=\"highlight\">духовний опір</span>."
 		"SpiritDamage_label"						"духовному опору"
 		"modifier_acolytes_glove_triggered"		"Духовний удар"
-"MeleeDistanceScale_label"				"відстані важкої ближньої атаки"
+
+		//Melee Charge
+		"upgrade_melee_charge_desc"				"Наступна <span class=\"highlight\">важка ближня</span> атака проти ворога <span class=\"highlight\">завдає збільшеної шкоди</span> та або <span class=\"highlight\">миттєво перезаряджає зброю</span>, або дає до <span class=\"highlight\">+100% додаткових набоїв</span>. <br>Активується, лише коли заповнені не всі додаткові набої."
+		"MeleeDistanceScale_label"				"відстані важкої ближньої атаки"
 		"MeleeDistanceScale_postfix"			"%"
 		"BonusHeavyMeleeDamage_prefix"			"+"
 		"BonusHeavyMeleeDamage_label"			"додачі важкої шкоди"
@@ -626,7 +657,7 @@
 		//Healing Rite
 		"upgrade_health_stimpak_desc"					"Дає цілі <span class=\"highlight\">відновлення здоров’я</span> та <span class=\"highlight\">швидкість бігу</span>. Розвіюється, якщо власник зазнав шкоди від ворожих гравців чи ключових об’єктів. Можна застосувати на себе."
 		"upgrade_health_stimpak/modifier_stimpak_regen"			"Лікувальний обряд"
-
+		"modifier_stimpak_regen" "Лікувальний обряд"
 		//Divine Barrier
 		"upgrade_savior_desc"				"Дає цілі <span class=\"highlight\">щит від куль, духовний щит і швидкість руху</span>. Можна застосувати на себе."
 		"SaviorBulletShieldHealth_label"		"щиту від куль"
@@ -905,10 +936,10 @@
 		"HealOnlevelHealAmount_label"	"обсягу лікування"
 		"upgrade_heal_on_level/heal_on_level_buff"			"Лікування підвищенням рівня"
 
-		//crow_mask_934_comment
-		//crow_mask_935_comment
-		//crow_mask_936_comment
-		//crow_mask_937_comment
 		//crow_mask_938_comment
+		//crow_mask_939_comment
+		//crow_mask_940_comment
+		//crow_mask_941_comment
+		//crow_mask_942_comment
 	}
 }

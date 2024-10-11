@@ -202,6 +202,7 @@
 		"StatDesc_DebuffResist_postfix"					"%"
 		"StatDesc_HealingOutput"						"Посилення лікування"
 		"StatDesc_HealingOutput_postfix"				"%"
+		"StatDesc_CritDamageBonusScale_postfix"			"%"
 
 		"StatDesc_BulletSpeed"							"Швидкість куль"
 		"StatDesc_BulletSpeed_postfix"					" м/с"
@@ -444,7 +445,8 @@
 		"BonusMoveSpeed_prefix"							"{s:sign}"
 		"BonusMoveSpeed_label"						"швидкості руху"
 		"BonusMoveSpeed_postfix"						" м/с"
-
+		
+		"TeleporterBonus"							"Додача швидкості руху!"
 		"RunSpeed_postfix"						" м/с"
 
 		"WeaponRange_label"							"збройовій дальності"
@@ -719,7 +721,6 @@
 		//"EvasionPercentGlider_label"					"Evasion Chance Gliding"
 		"EvasionPercentGlider_postfix"					"%"
 
-		"EvasionPercent_label"						"шансу ухилення"
 		"EvasionPercent_postfix"						"%"
 
 		//"MeleeDamagePercent_label"					"Melee Damage Bonus"
@@ -1790,9 +1791,9 @@
 		"StaminaRegenPercent_label"			"відновленню витривалості"
 		"StaminaRegenPercent_postfix"		"%"
 
-		//crow_mask_1824_comment
-		// crow_mask_1825_comment
-		//crow_mask_1826_comment
+		//crow_mask_1827_comment
+		// crow_mask_1828_comment
+		//crow_mask_1829_comment
 
 
 

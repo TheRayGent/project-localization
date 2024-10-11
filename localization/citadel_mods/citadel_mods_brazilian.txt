@@ -161,8 +161,8 @@
 		//"upgrade_attack_speed_2_desc"	"Increases your <span class=\"highlight\">Fire Rate</span>."
 
 		//Spiritual Overflow
-		"upgrade_tech_overflow_desc"	"Concede <span class=\"highlight\">poder espiritual</span> adicional sempre que <span class=\"highlight\">carregar o efeito</span> baleando heróis inimigos."
-		"modifier_tech_overflow"		"Transcedência Espiritual"
+		"upgrade_tech_overflow_desc"	"Concede <span class=\"highlight\">taxa de disparo</span> e <span class=\"highlight\">poder espiritual</span> adicionais sempre que <span class=\"highlight\">carregar o efeito</span> ao atirar em heróis inimigos."
+		"modifier_tech_overflow"		"Transcendência Espiritual"
 		"modifier_tech_overflow_building" "Transcendendo espiritualmente..."
 
 		"OverflowTechPower_label"		"Poder espiritual"
@@ -227,6 +227,8 @@
 		//Frenzy
 		"upgrade_fervor_passive"	"Aumenta os seus atributos enquanto estiver com <span class=\"highlight\">menos de {s:LowHealthThreshold}% de vida</span>."
 		"FervorTechResist_postfix"  "%"
+		"modifier_fervor_aura_active"		"Em frenesi"
+
 
 		//Old Frenzy
 		//"upgrade_frenzy_vampire_desc"	"Your <span class=\"highlight\">bullets heal you</span> for a percentage of the damage they deal to enemies.<br><br>When an enemy is below {s:LowHealthPercentThreshold}% health you gain an additional <span class=\"highlight\">{s:LowHealthLifeStealPercent}% Bullet Lifesteal</span> against them."
@@ -265,6 +267,7 @@
 		"upgrade_surging_power_active"	"Concede <span class=\"highlight\">roubo de vida</span>, <span class=\"highlight\">taxa de disparo</span> e <span class=\"highlight\">munição</span>, que pode ultrapassar o tamanho máximo do cartucho."
 		"ActiveBonusLifesteal_label"		"Roubo de vida balístico"
 		"ActiveBonusLifesteal_postfix"	"%"
+		"modifier_surging_power"		 "Poder Crescente"
 		//"upgrade_surging_power/surge/windup"					"Surging Power"
 		//"upgrade_surging_power/surge/active"					"Surging Power"
 		//"upgrade_surging_power/surge"					"Surging Power"
@@ -392,7 +395,7 @@
 
 		//Escalating Exposure
 		"upgrade_escalating_exposure_desc"	"Causar <span class=\"highlight\">dano espiritual</span> aplica uma <span class=\"highlight\">amplificação espiritual</span> acumulável que aumenta o seu <span class=\"highlight\">dano espiritual</span> contra o alvo."
-		"upgrade_escalating_exposure/modifier_proc_watcher/modifier_debuff"		"Armadura Espiritual Reduzida"
+		"upgrade_escalating_exposure/modifier_proc_watcher/modifier_debuff"		"Exposição Crescente"
 		"EscalatingExposureProcCooldown_label"	"Frequência máxima por alvo"
 		"EscalatingExposureProcCooldown_postfix"	"s"
 		"EscalatingExposureTechArmorDamageReduction_label"	"Resistência espiritual por dano espiritual"
@@ -485,7 +488,7 @@
 		"SpiritPower_prefix"					"+"
 
 		//Ethereal Shift
-		"upgrade_self_bubble_desc"			"Você entra em um estado vazio e torna-se <span class=\"highlight\">inalvejável e invencível</span> brevemente, mas incapaz de se mover ou realizar ações. Em seguida, você <span class=\"highlight\">recarrega a arma instantaneamente</span> e ganha <span class=\"highlight\">poder espiritual</span>.<br>Pode ser cancelada antecipadamente."
+		"upgrade_self_bubble_desc"			"Você entra em um estado vazio e torna-se <span class=\"highlight\">inalvejável e invencível</span> brevemente, mas incapaz de se mover ou realizar ações. Em seguida, você <span class=\"highlight\">recarrega a arma instantaneamente</span> e ganha <span class=\"highlight\">poder espiritual</span>."
 		"ShiftingVeilDuration_label"			"Duração"
 		"ShiftingVeilDuration_postfix"		"s"
 		"BonusSpiritDuration_label"			"Duração do adicional espiritual"
@@ -588,6 +591,7 @@
 
 		//Infuser
 		"upgrade_infuser_desc"			"Concede temporariamente <span class=\"highlight\">poder espiritual</span> e <span class=\"highlight\">roubo de vida espiritual</span>."
+		"modifier_infuser" "Infusor"
 
 		//Spirit Strike
 		"upgrade_acolytes_glove_desc"			"Ao atingir um herói inimigo com um <span class=\"highlight\">golpe leve ou pesado</span>, causa <span class=\"highlight\">dano espiritual</span> adicional com o ataque e reduz a <span class=\"highlight\">resistência espiritual</span> do alvo."
@@ -653,7 +657,7 @@
 		//Healing Rite
 		"upgrade_health_stimpak_desc"					"Concede <span class=\"highlight\">regeneração</span> e <span class=\"highlight\">velocidade de corrida</span> ao alvo. O efeito é dissipado caso sofra dano de jogadores ou objetivos inimigos. Pode ser usada em si mesmo."
 		"upgrade_health_stimpak/modifier_stimpak_regen"			"Rito de Cura"
-
+		"modifier_stimpak_regen" "Rito de Cura"
 		//Divine Barrier
 		"upgrade_savior_desc"				"Concede ao alvo <span class=\"highlight\">velocidade de movimento e escudos balístico e espiritual</span>. Pode ser usada em si mesmo."
 		"SaviorBulletShieldHealth_label"		"Escudo balístico"
@@ -850,7 +854,7 @@
 
 		//Health Nova
 		"upgrade_health_nova_desc"					"<span class=\"highlight\">Cura</span> você e os aliados próximos. +{s:HeroTargetBonus}% de cura por aliado."
-		"modifier_health_nova"					"Cura Estelar"
+		"modifier_health_nova"					"Aura de Cura"
 
 		//Fast Reload
 		//"upgrade_reload_speed_desc"					"Increased <span class=\"highlight\">reload speed</span>."
@@ -930,10 +934,10 @@
 		"HealOnlevelHealAmount_label"	"Cura"
 		"upgrade_heal_on_level/heal_on_level_buff"			"Bênção Curativa"
 
-		//crow_mask_934_comment
-		//crow_mask_935_comment
-		//crow_mask_936_comment
-		//crow_mask_937_comment
 		//crow_mask_938_comment
+		//crow_mask_939_comment
+		//crow_mask_940_comment
+		//crow_mask_941_comment
+		//crow_mask_942_comment
 	}
 }

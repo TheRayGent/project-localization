@@ -161,7 +161,7 @@
 		//"upgrade_attack_speed_2_desc"	"Increases your <span class=\"highlight\">Fire Rate</span>."
 
 		//Spiritual Overflow
-		"upgrade_tech_overflow_desc"	"Mermilerinizi düşman kahramanların üzerinde <span class=\"highlight\">şarj ederek</span> bonus <span class=\"highlight\">büyü gücü</span> kazanırsınız."
+		"upgrade_tech_overflow_desc"	"Düşman kahramanları vurmak suretiyle mermilerinizi <span class=\"highlight\">şarj ederek</span> bonus <span class=\"highlight\">atış hızı</span> ve <span class=\"highlight\">büyü gücü</span> kazanırsınız."
 		"modifier_tech_overflow"		"Büyülü Coşkunluk"
 		"modifier_tech_overflow_building" "Büyülü Coşkunluk Birikiyor..."
 
@@ -227,6 +227,8 @@
 		//Frenzy
 		"upgrade_fervor_passive"	"<span class=\"highlight\">%{s:LowHealthThreshold} sağlığın altındayken</span> özellik bonusları kazanırsınız."
 		"FervorTechResist_postfix"  "%"
+		"modifier_fervor_aura_active"		"Çıldırdı"
+
 
 		//Old Frenzy
 		//"upgrade_frenzy_vampire_desc"	"Your <span class=\"highlight\">bullets heal you</span> for a percentage of the damage they deal to enemies.<br><br>When an enemy is below {s:LowHealthPercentThreshold}% health you gain an additional <span class=\"highlight\">{s:LowHealthLifeStealPercent}% Bullet Lifesteal</span> against them."
@@ -265,6 +267,7 @@
 		"upgrade_surging_power_active"	"<span class=\"highlight\">Can çalma</span>, <span class=\"highlight\">atış hızı</span> ve <span class=\"highlight\">cephane</span> verir. Eklenen bu cephane, maksimum şarjör kapasitenizle sınırlı değildir."
 		"ActiveBonusLifesteal_label"		"Mermi Can Çalması"
 		"ActiveBonusLifesteal_postfix"	"%"
+		"modifier_surging_power"		 "Gücü Arttı"
 		//"upgrade_surging_power/surge/windup"					"Surging Power"
 		//"upgrade_surging_power/surge/active"					"Surging Power"
 		//"upgrade_surging_power/surge"					"Surging Power"
@@ -392,7 +395,7 @@
 
 		//Escalating Exposure
 		"upgrade_escalating_exposure_desc"	"Hedefe <span class=\"highlight\">büyü hasarı</span> vermek, hedefe karşı olan <span class=\"highlight\">büyü hasarınızı</span> artıran ve istiflenen bir <span class=\"highlight\">büyü artırımı</span> uygular."
-		"upgrade_escalating_exposure/modifier_proc_watcher/modifier_debuff"		"Azaltılmış Büyü Zırhı"
+		"upgrade_escalating_exposure/modifier_proc_watcher/modifier_debuff"		"Artan Hassasiyet"
 		"EscalatingExposureProcCooldown_label"	"Hedef Başına Maksimum Sıklık"
 		"EscalatingExposureProcCooldown_postfix"	" sn"
 		"EscalatingExposureTechArmorDamageReduction_label"	"Büyü Hasarı Alınca Büyü Direnci"
@@ -485,7 +488,7 @@
 		"SpiritPower_prefix"					"+"
 
 		//Ethereal Shift
-		"upgrade_self_bubble_desc"			"Hiçlik durumuna girersiniz. Bu kısa süre zarfında hareket edemez ve herhangi bir eylemde bulunamazsınız, ayrıca <span class=\"highlight\">hedeflenemez ve dokunulmaz</span> olursunuz. Bu durum sona erdikten sonra <span class=\"highlight\">şarjörünüz anında değişir</span> ve bonus <span class=\"highlight\">büyü gücü</span> kazanırsınız.<br>Erkenden iptal edilebilir."
+		"upgrade_self_bubble_desc"			"Hiçlik durumuna girersiniz. Bu kısa süre zarfında hareket edemez ve herhangi bir eylemde bulunamazsınız, ayrıca <span class=\"highlight\">hedeflenemez ve dokunulmaz</span> olursunuz. Bu durum sona erdikten sonra <span class=\"highlight\">şarjörünüz anında değişir</span> ve bonus <span class=\"highlight\">büyü gücü</span> kazanırsınız."
 		"ShiftingVeilDuration_label"			"Süre"
 		"ShiftingVeilDuration_postfix"		" sn"
 		"BonusSpiritDuration_label"			"Bonus Büyü Süresi"
@@ -588,6 +591,7 @@
 
 		//Infuser
 		"upgrade_infuser_desc"			"<span class=\"highlight\">Büyü gücü</span> ve <span class=\"highlight\">büyü can çalması</span> kazanın."
+		"modifier_infuser" "Esans"
 
 		//Spirit Strike
 		"upgrade_acolytes_glove_desc"			"Bir kahramana karşı <span class=\"highlight\">hafif veya ağır yakın dövüş</span> saldırısı yaptığınızda ekstra <span class=\"highlight\">büyü hasarı</span> verirsiniz ve hedefin <span class=\"highlight\">büyü direncini</span> azaltırsınız."
@@ -653,7 +657,7 @@
 		//Healing Rite
 		"upgrade_health_stimpak_desc"					"Hedefe <span class=\"highlight\">yenilenme</span> ve <span class=\"highlight\">koşu hızı</span> verir. Düşman oyunculardan veya hedeflerden hasar alırsanız geçer. Kendi üzerinizde kullanabilirsiniz."
 		"upgrade_health_stimpak/modifier_stimpak_regen"			"İyileştirme Ayini"
-
+		"modifier_stimpak_regen" "İyileştirme Ayini"
 		//Divine Barrier
 		"upgrade_savior_desc"				"Hedefe <span class=\"highlight\">mermi kalkanı, büyü kalkanı ve hareket hızı</span> verir. Kendi üzerinizde kullanabilirsiniz."
 		"SaviorBulletShieldHealth_label"		"Mermi Kalkanı"
@@ -850,7 +854,7 @@
 
 		//Health Nova
 		"upgrade_health_nova_desc"					"Kendinizi ve etrafınızdaki dostları <span class=\"highlight\">iyileştirin</span>. Dost başına ilave %{s:HeroTargetBonus} iyileştirme yapar."
-		"modifier_health_nova"					"Sağlık Dalgası"
+		"modifier_health_nova"					"İyileştirme Dalgası"
 
 		//Fast Reload
 		//"upgrade_reload_speed_desc"					"Increased <span class=\"highlight\">reload speed</span>."
@@ -932,10 +936,10 @@
 		"HealOnlevelHealAmount_label"	"İyileştirme Miktarı"
 		"upgrade_heal_on_level/heal_on_level_buff"			"Seviye Atlama İyileştirmesi"
 
-		//crow_mask_934_comment
-		//crow_mask_935_comment
-		//crow_mask_936_comment
-		//crow_mask_937_comment
 		//crow_mask_938_comment
+		//crow_mask_939_comment
+		//crow_mask_940_comment
+		//crow_mask_941_comment
+		//crow_mask_942_comment
 	}
 }

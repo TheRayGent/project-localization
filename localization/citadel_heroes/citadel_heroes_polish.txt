@@ -153,7 +153,7 @@
 		"citadel_ability_fissure_wall"			"Widmowy Mur"
 		"citadel_ability_fissure_wall_quip"		"Przywołaj mur, który zablokuje twoich wrogów."
 		"citadel_ability_fissure_wall_desc"		"Tworzy mur, który <span class=\"highlight\">dzieli teren</span> na pół. Po utworzeniu mur <span class=\"highlight\">zadaje obrażenia</span> oraz <span class=\"highlight\">spowalnia</span> pobliskich wrogów. <br>Po rzuceniu wciśnij [{s:iv_attack}] lub [{s:in_ability3}], by postawić mur wcześniej."
-		"citadel_ability_fissure_wall_t1_desc"	"<span class=\"highlight\">Usuwa {s:StaminaReduction} pkt. wytrzymałości</span> i zwiększa obrażenia, jakie zadaje {s:hero_name} na trafionych wrogach <span class=\"highlight\">o {s:BonusDamagePercent}%</span> przez {s:DebuffDuration} s."
+		"citadel_ability_fissure_wall_t1_desc"	"<span class=\"highlight\">Usuwa {s:StaminaReduction} pkt wytrzymałości</span> i zwiększa obrażenia, jakie {s:hero_name} zadaje trafionym przez mur wrogom <span class=\"highlight\">o {s:BonusDamagePercent}%</span> na {s:DebuffDuration} s."
 		"citadel_ability_fissure_wall_t3_desc"	"Dodaje <span class=\"highlight\">{s:WallStunDuration} s ogłuszenia</span> do wrogów trafionych przez widmowy mur."
 		//"citadel_ability_fissure_wall_trigger"	"Trigger Fissure Wall"
 		//"citadel_ability_fissure_wall_cancel"		"Cancel Fissure Wall"
@@ -181,7 +181,7 @@
 		"citadel_ability_shieldedsentry"		"Miniwieżyczka"
 		"citadel_ability_shieldedsentry_quip"	"Rozstaw automatyczną wieżyczkę."
 		"citadel_ability_shieldedsentry_desc"	"Rozstaw miniwieżyczkę, która <span class=\"highlight\">automatycznie strzela do wrogów</span>. Wieżyczka wygasa po ograniczonym czasie życia.<br>Wieżyczki zyskują {s:TurretHealthScaling}% maksymalnego zdrowia {s:hero_name} i mają {s:TechResist}% odporności spirytualnej. Zadają zmniejszone obrażenia szturmowcom i celom mapy."
-		"citadel_ability_shieldedsentry_t1_desc"	"<span class=\"highlight\">+{s:AbilityCharges}</span> do liczby ładunków umiejętności i wieżyczka nakłada <span class=\"highlight\">{s:MoveSlowPercent}%</span> spowolnienia."
+		"citadel_ability_shieldedsentry_t1_desc"	"Wieżyczki nakładają <span class=\"highlight\">{s:MoveSlowPercent}%</span> spowolnienia ruchu."
 		"citadel_ability_shieldedsentry_t2_desc"	"<span class=\"highlight\">+{s:TurretAttackRange} m</span> zasięgu ataku i <span class=\"highlight\">+{s:AttackSpeedMult}%</span> szybkostrzelności wieżyczki."
 
 		//"citadel_ability_shieldedsentry/modifier_bullet_resist_reduction_stack"		"Sentry Bullet Resist Debuff"
@@ -383,7 +383,7 @@
 		"citadel_ability_chrono_pulse_grenade"			"Granat Pulsacyjny"
 		"citadel_ability_chrono_pulse_grenade_quip"		"Rzuć granat, który pulsuje, zadając obrażenia i spowalniając."
 		"citadel_ability_chrono_pulse_grenade_desc"		"Rzuć granat, który zaczyna pulsować po wylądowaniu. Każdy impuls <span class=\"highlight\">zadaje obrażenia, spowalnia ruch i nakłada kumulujące się wzmocnienie obrażeń</span>, jakie {s:hero_name} zadaje ofierze."
-		"citadel_ability_chrono_pulse_grenade_t3_desc"		"<span class=\"highlight\">+{s:PulseDamage}</span> pkt. obrażeń od pulsu i <span class=\"highlight\">+{s:PulseGrenadeDamageAmplificationPerStack}%</span> przyrostu obrażeń na instancję."
+		"citadel_ability_chrono_pulse_grenade_t3_desc"		"<span class=\"highlight\">+{s:PulseDamage}</span> pkt. obrażeń od pulsu i <span class=\"highlight\">+{s:RadiusIncreasePerPulse} m</span> promienia na puls."
 		"Pulses_label"                           			 "Liczba impulsów"
 		"InitialDamage_label"									"Początkowe obrażenia"
 		"PulseDamage_label"									"Obrażenia od impulsu"
@@ -705,11 +705,6 @@
 		//-----------------------------------------------------------------------------
 		// Haze
 		//-----------------------------------------------------------------------------
-		//"citadel_ability_poison_bullets"			"Tranquilizer Bullets"
-		//"citadel_ability_poison_bullets_desc"		"Apply tranquilizer to your victim until they fall asleep. Sleeping victims cannot act and take damage when they wake up."
-		//"modifier_citadel_posion_bullets_shot_watcher"	"Tranquilizer Bullets"
-		//"modifier_citadel_posion_bullets_poisoned"	"Asleep"
-		//"modifier_citadel_posion_bullets_poison_buildup"	"Sleepy"
 
 		"ability_sleep_dagger"			"Sztylet Uśpienia"
 		"ability_sleep_dagger_quip"		"Uśpij wroga."
@@ -756,10 +751,10 @@
 
 		"ability_bullet_flurry"			"Taniec Nabojów"
 		"ability_bullet_flurry_quip"	"Rozpętaj wokół siebie grad nabojów."
-		"ability_bullet_flurry_desc"	"Wejdź w szał, <span class=\"highlight\">strzelając ze swojej broni</span> do pobliskich wrogów z <span class=\"highlight\">perfekcyjną celnością</span>. Podczas szału {s:hero_name} zyskuje premię do szybkostrzelności i unika części pocisków wystrzelonych w jej stronę."
-		//"ability_bullet_flurry/modifier_citadel_bullet_flurry"		"Bullet Flurry"
+"BonusWeaponDamage_prefix"				"+"
 		"BonusWeaponDamage_label"				"Obrażenia od nabojów"
-
+		"DanceMoveSpeed_label"			"Szybkość ruchu podczas tańca"
+		"DanceMoveSpeed_postfix"		" m/s"
 		//-----------------------------------------------------------------------------
 		// Sumo // dynamo
 		//-----------------------------------------------------------------------------
@@ -767,7 +762,7 @@
 		"citadel_ability_stomp_quip"			"Uwolnij puls energii, który wyrzuca wrogów w powietrze."
 		"citadel_ability_stomp_desc"			"Uwolnij puls energii, który wyrzuca wrogów w powietrze."
 		"citadel_ability_stomp_t1_desc"			"Trafieni wrogowie mają <span class=\"highlight\">zmniejszoną szybkostrzelność i szybkość ruchu</span> o <span class=\"highlight\">{s:SlowPercent}%</span> na <span class=\"highlight\">{s:SlowDuration} s</span>."
-		"citadel_ability_stomp_t2_desc"			"{s:hero_name} zadaje <span class=\"highlight\">o {s:BulletArmorReduction}% więcej obrażeń od nabojów</span> trafionym bohaterom przez <span class=\"highlight\">{s:BulletArmorReductionDuration} s</span>."
+		"citadel_ability_stomp_t2_desc"			"{s:hero_name} zadaje <span class=\"highlight\">o {s:BulletArmorReduction}% więcej obrażeń od nabojów</span> trafianym bohaterom przez <span class=\"highlight\">{s:BulletArmorReductionDuration} s</span>."
 		"StompRange_label"						"Zasięg zdeptania"
 		"StompRange_postfix"					" m"
 		//"stomp_buff_modifier"						"+Fire Rate"
@@ -780,7 +775,7 @@
 		"citadel_ability_void_sphere"				"Splątanie Kwantowe"
 		"citadel_ability_void_sphere_quip"		"Wyskakuj z rzeczywistości i wskakuj do niej z powrotem."
 		"citadel_ability_void_sphere_desc"		"{s:hero_name} na krótką chwilę <span class=\"highlight\">znika w pustce</span> i pojawia się ponownie w niewielkiej odległości. Po pojawieniu się twoja broń zostaje <span class=\"highlight\">przeładowana</span> i zyskuje <span class=\"highlight\">dodatkową szybkostrzelność</span> dla następnego magazynka (trwa maksymalnie {s:FireRateBonusDurationMax} s). Można rzucić z [{s:key_alt_cast}], by zabrać ze sobą sojuszników i nadać im połowę wartości dodatkowej szybkostrzelności."
-		"citadel_ability_void_sphere_t3_desc"		"Po pojawieniu się zyskaj <span class=\"highlight\">{s:BonusClipSizePercent}%</span> amunicji bazowej."
+		"citadel_ability_void_sphere_t3_desc"		"<span class=\"highlight\">{s:AbilityCooldown} s</span> do czasu oczekiwania i <span class=\"highlight\">+{s:BonusClipSizePercent}%</span> do amunicji bazowej przy pojawieniu się."
 		"modifier_void_sphere"					"Splątanie Kwantowe"
 		//"modifier_voidsphere_buff"				"Void Sphere +Fire Rate"
 		"AllyDistance_label"						"Dystans sojusznika"
@@ -1133,7 +1128,7 @@
 
 		"ability_ice_dome"				"Mroźne Schronienie"
 		"ability_ice_dome_quip"			"Stwórz nieprzenikalną kopułę leczącą."
-		"ability_ice_dome_desc"			"{s:hero_name} zamraża powietrze dookoła, tworząc wokół siebie <span class=\"highlight\">nieprzenikalną kopułę</span>. Będący w kopule sojusznicy szybko <span class=\"highlight\">regenerują zdrowie</span>, a wrogowie są <span class=\"highlight\">spowolnieni</span>."
+		"ability_ice_dome_desc"			"{s:hero_name} zamraża powietrze dookoła, tworząc wokół siebie <span class=\"highlight\">nieprzenikalną kopułę</span>. Będący w kopule sojusznicy szybko <span class=\"highlight\">regenerują zdrowie</span>, a wrogowie są <span class=\"highlight\">spowolnieni</span>.<br>Cele wewnątrz kopuły stają się nietykalne i zamrożone."
 		"ability_ice_dome_t1_desc"		"Zmniejsza szybkostrzelność o <span class=\"highlight\">{s:FireRateSlow}%</span>."
 		"ability_ice_dome_t3_desc"		"<span class=\"highlight\">+{s:BonusHealthRegen}</span> pkt. regeneracji zdrowia. Od teraz umiejętność skaluje się z mocą spirytualną."
 		"ability_ice_dome/modifier_ice_dome/modifier_debuff"						"Mroźne Schronienie"
@@ -1146,7 +1141,7 @@
 		//-----------------------------------------------------------------------------
 		"citadel_ability_uppercut"				"Eksplodujący Podbródkowy"
 		"citadel_ability_uppercut_quip"			"Odepchnij wroga od siebie."
-		"citadel_ability_uppercut_desc"			"Zadaj obrażenia <span class=\"highlight\">lekkim atakiem wręcz</span> pobliskim jednostkom i odepchnij je <span class=\"highlight\">do tyłu</span>, powodując <span class=\"highlight\">obrażenia obszarowe</span> w miejscu lądowania. Nie zadaje obrażeń sojusznikom."
+		"citadel_ability_uppercut_desc"			"Zadaj obrażenia <span class=\"highlight\">lekkim atakiem wręcz</span> pobliskim jednostkom i <span class=\"highlight\">odrzuć je do tyłu</span>, powodując <span class=\"highlight\">obrażenia obszarowe</span> oraz <span class=\"highlight\">spowalniając szybkostrzelność</span> w miejscu lądowania. Nie zadaje obrażeń sojusznikom."
 		"citadel_ability_uppercut_t2_desc"		"Po użyciu na wrogim bohaterze zyskujesz <span class=\"highlight\">szybszy czas rozkręcania, 2× większy zasięg oraz +{s:BuffBaseWeaponPct}% obrażeń od broni</span> przez {s:UppercutBuffOnHit} s."
 		"citadel_ability_uppercut_t3_desc"		"Po użyciu na wrogim bohaterze <span class=\"highlight\">resetuje czas oczekiwania na Hak</span> i natychmiastowo <span class=\"highlight\">dodaje {s:ClipSizeBonus}% nabojów</span> do obecnego magazynka."
 		//"modifier_citadel_enemy_uppercutted"	"Uppercutted!"
@@ -1160,10 +1155,12 @@
 		"StunOnLand_postfix"					" s"
 		//"UppercutBuffOnHit_label"				"Boost Duration"
 		"UppercutBuffOnHit_postfix"				" s"
+		"ExplodeDebuffDuration_label"			"Spowolnienie szybkostrzelności"
+		"ExplodeDebuffDuration_postfix"			" s"
 
 		"citadel_ability_sticky_bomb"			"Bomba Samoprzylepna"
 		"citadel_ability_sticky_bomb_quip"		"Podłóż bombę na wrogu."
-		"citadel_ability_sticky_bomb_desc"		"Przyczepiasz do pobliskiego celu bombę samoprzylepną, która zadaje <span class=\"highlight\">obrażenia od eksplozji</span> po krótkim czasie zapłonu.<br>Zyskujesz <span class=\"highlight\">+{s:BonusDamagePctPerPlayerHit}% obrażeń od bomby</span> za każdego trafionego wrogiego bohatera. <br>Przytrzymaj [{s:key_alt_cast}], by przylepić bombę do siebie."
+		"citadel_ability_sticky_bomb_desc"		"Przyczep do pobliskiego celu bombę samoprzylepną, która zadaje <span class=\"highlight\">obrażenia od eksplozji</span> po krótkim czasie zapłonu.<br>Zyskujesz instancję bomb zadającą <span class=\"highlight\">+{s:BonusDamagePctPerPlayerHit}% obrażeń od bomby</span> za każdego trafionego wrogiego bohatera (do {s:BonusMaxStacks} instancji). Utrata {s:BonusLossPerDeath} instancji po śmierci. <br>Przytrzymaj [{s:key_alt_cast}], by przylepić bombę do siebie."
 		"modifier_citadel_sticky_bomb_attached"	"Bomba na tobie"
 		"citadel_ability_sticky_bomb_t3_desc"	"Po przyczepieniu <span class=\"highlight\">rozbraja</span> cel na <span class=\"highlight\">{s:DebuffDuration} s</span>."
 		"StunTargetOnExplode_label"				"Czas trwania"
@@ -1336,11 +1333,11 @@
 
 		
 		"ability_nano_pounce"						"Sus"
-		"ability_nano_pounce_quip"				"Rzuć się na cel."
-		"ability_nano_pounce_desc"				"<span class=\"highlight\">Rzuć się</span> na cel, by zadać <span class=\"highlight\">obrażenia od lekkiego ataku wręcz.</span>  Obranie za cel wroga spowoduje nałożenie <span class=\"highlight\">spowolnienia</span> na pobliskich wrogów.  Obranie za cel sojusznika skróci czas oczekiwania oraz odnawiania ładunków."
+		"ability_nano_pounce_quip"				"Rzuć się na swoich wrogów."
+		"ability_nano_pounce_desc"				"<span class=\"highlight\">Rzuć się</span> na cel, by zadać <span class=\"highlight\">obrażenia od lekkiego ataku wręcz</span> oraz nałożyć <span class=\"highlight\">spowolnienie</span> na pobliskich wrogów.<br>Możesz <span class=\"highlight\">naskoczyć na drugi cel</span>, jeśli użyjesz umiejętności w ciągu <span class=\"highlight\">{s:DoublePounceTime} s</span>."
 		"ability_nano_pounce_t1_desc"			"<span class=\"highlight\">+{s:SlowDuration} s</span> do czasu trwania spowolnienia."
-		"ability_nano_pounce_t2_desc"			"<span class=\"highlight\">{s:FireRateSlow}%</span> spowolnienia szybkostrzelności i <span class=\"highlight\">+{s:PounceDebuffRadius} m</span> do promienia spowolnienia."
-		"ability_nano_pounce_t3_desc"			"<span class=\"highlight\">+{s:AbilityCharges}</span> do liczby ładunków umiejętności i przeładowuje twoją broń o <span class=\"highlight\">{s:ActiveReloadPercent}%</span> amunicji."
+		"ability_nano_pounce_t2_desc"			"Przeładowuje do <span class=\"highlight\">{s:ActiveReloadPercent}%</span> twojej amunicji i nakłada <span class=\"highlight\">{s:FireRateSlow}%</span> spowolnienia szybkostrzelności."
+		"ability_nano_pounce_t3_desc"			"<span class=\"highlight\">+{s:Damage}</span> pkt. obrażeń oraz <span class=\"highlight\">+{s:AbilityCharges}</span> do liczby ładunków umiejętności."
 		"PounceDebuffRadius_label"					"Promień spowolnienia"
 		"PounceDebuffRadius_postfix"					" m"
 		
@@ -1348,10 +1345,11 @@
 		"PounceFriendlyRechargeTime_postfix"			" s"
 		"PounceFriendlyTargetCD_label"				"Czas oczekiwania (sojusznik)"
 		"PounceFriendlyTargetCD_postfix"			" s"
+		"pounce_double_notify"					"Podwójny naskok"
 
-		"ability_nano_proximity_ritual"			"Dyskretny Drapieżca"
+		"ability_nano_proximity_ritual"			"Ava"
 		"ability_nano_proximity_ritual_quip"	"Wypuść swoją towarzyszkę, by atakowała wrogów."
-		"ability_nano_proximity_ritual_desc"	"Poślij <span class=\"highlight\">Avę</span>, by <span class=\"highlight\">skupiła się</span> na pobliskim worgu. Obrani za cel wrogowie mają zredukowane leczenie, a {s:hero_name} kradnie im zdrowie, gdy dowolny sojusznik zada im obrażenia. Ava jest aktywna tylko wtedy, gdy {s:hero_name} znajduje się w pobliżu. <br>Będąc w pobliżu, wciśnij [3], by przywołać Avę. Ava odzyskuje zdrowie podczas przywoływania jej."
+		"ability_nano_proximity_ritual_desc"	"Poślij <span class=\"highlight\">Avę</span>, by <span class=\"highlight\">skupiła się</span> na pobliskim wrogu. Obrani za cel wrogowie mają zredukowane leczenie oraz <span class=\"highlight\">leczą {s:hero_name} i Avę</span>, gdy otrzymują oni obrażenia. <span class=\"highlight\">Ava jest aktywna tylko wtedy, gdy {s:hero_name} znajduje się w pobliżu.</span><br>Wciśnij <span class=\"highlight\">[3]</span>, by przywołać Avę.<br>Wciśnij <span class=\"highlight\">[alternatywny rzut]</span>, by przywołać i teleportować się do niej.<br>Im dalej znajdujesz się od Avy, tym dłużej zajmie przywołanie/teleport. Ava odzyskuje zdrowie podczas przywoływania jej."
 		"StatueLifetime_label"					"Czas automatycznego przywołania"
 		"StatueLifetime_postfix"				" s"
 		"StatueHeldRegen_label"						"Reg. zdrowia Avy przy przywołaniu"
@@ -1359,24 +1357,27 @@
 		"StatueLifesteal_postfix"				"%"
 		"StatueLifestealNonHero_label"			"Kradzież zdrowia (pozostali)"
 		"StatueLifestealNonHero_postfix"		"%"
-		"StatueActivateRange_label"				"Zasięg aktywacji"
+		"StatueActivateRange_label"				"Zasięg umiejętności"
 		"StatueActivateRange_postfix"			" m"
 		"StatueHealth_label"					"Ava (unormowane)"
 		"StatueHealth_postfix"					" pkt. zdrowia"
-		"ability_nano_proximity_ritual_t1_desc"  "<span class=\"highlight\">+{s:StatueHealth}</span> pkt. zdrowia dla Avy."
-		//"ability_nano_proximity_ritual_t2_desc"  "Victims receive <span class=\"highlight\">{s:FireRateSlow}%</span> Fire Rate Slow and <span class=\"highlight\">+{s:ActiveRadius}m</span> Active Radius"
+		"StatueVictimDamageReduction_label"					"Redukcja obrażeń"
+		"StatueVictimDamageReduction_postfix"				"%"
+
+		"ability_nano_proximity_ritual_t1_desc"  "<span class=\"highlight\">+{s:StatueLifesteal}%</span> kradzieży zdrowia."
+		"ability_nano_proximity_ritual_t2_desc"  "<span class=\"highlight\">+{s:DPS} pkt.</span> obr./s oraz zmniejszenie obrażeń, jakie {s:hero_name} otrzymuje od ofiar, <span class=\"highlight\">o {s:StatueVictimDamageReduction}%</span>."
 		"ability_nano_proximity_ritual_t3_desc"  "<span class=\"highlight\">+{s:DamageAmplification}%</span> do przyrostu obrażeń i {s:HealAmpReceivePenaltyPercent}% redukcji leczenia na ofiarach."
 		"ability_nano_proximity_ritual_trigger"		"Przywołaj Avę"
 
 		"AvaRecallCooldown_label"				"Czas oczekiwania na przywołanie"
 		"AvaRecallCooldown_postfix"				" s"
-		"AvaResummonCooldown_label"				"Czas oczekiwania na ponowny rzut"
-		"AvaResummonCooldown_postfix"			" s"
 		"AbilityButtonHint_AvaRecall"			"Przywołaj Avę"
+		"AbilityButtonHint_AvaWarp"			"Teleportuj się do Avy"
+		"CITADEL_ABILITY_NO_HEALTH_RESOURCE"	"Niedostępne"
 
-		"ability_nano_ult_shadow"				"Królowa Cieni"
-		"ability_nano_ult_shadow_desc"			"Okryj się cieniem i stań się <span class=\"highlight\">niewidzialny</span>.  Ataki nie przerywają niewidzialności, ale tymczasowo cię ujawnią. Trafienie wrogów <span class=\"highlight\">atakiem wręcz</span> zmniejszy ich odporność na naboje (efekt kumuluje się)."
-		"modifier_nano_ult_shadow"			"Królowa Cieni"
+		"ability_nano_shadow_step"				"Krok w Cień"
+		"ability_nano_shadow_step_desc"			"Okryj się cieniem, by wzmocnić swoje ataki i uczynić swój sprint <span class=\"highlight\">niewidzialnym</span>. Trafienie wrogów <span class=\"highlight\">atakiem wręcz</span> zmniejszy ich odporność na naboje (efekt kumuluje się)."
+		"modifier_nano_shadow_step"			"Krok w Cień"
 		"NanoShadowBulletArmorReductionLight_prefix"	"-"
 		"NanoShadowBulletArmorReductionLight_label"	"Odporność na naboje (lekki atak)"
 		"NanoShadowBulletArmorReductionHeavy_prefix"	"-"
@@ -1391,9 +1392,8 @@
 
 		"modifier_nano_shadow_debuff"		"-Odporność na naboje"
 		
-		"ability_nano_ult_shadow_t2_desc"	"Usunięcie wszystkich osłabień po użyciu."
-		"ability_nano_ult_shadow_t3_desc"	"Mocne ataki wręcz nakładają <span class=\"highlight\">uciszenie</span> na {s:SilenceOnHeavyDuration} s."
-
+		"ability_nano_shadow_step_t2_desc"	"<span class=\"highlight\">+{s:SlowResistancePercent}%</span> odporności na spowolnienie, gdy efekt jest aktywny."
+		"ability_nano_shadow_step_t3_desc"	"Mocne ataki wręcz nakładają <span class=\"highlight\">uciszenie</span> na {s:SilenceOnHeavyDuration} s."
 
 		//-----------------------------------------------------------------------------
 		// Grey Talon (previous names: Archer / Orion)
@@ -1450,7 +1450,7 @@
 
 		"ability_life_drain"				"Wysysanie Życia"
 		"ability_life_drain_quip"			"Okresowo kradnij zdrowie wrogowi."
-		"ability_life_drain_desc"			"Stwórz więź, która <span class=\"highlight\">okresowo wysysa zdrowie wroga</span> oraz <span class=\"highlight\">leczy cię</span>. Cel musi znajdować się w polu widzenia i w maksymalnym zasięgu, by kontynuować wysysanie. Możesz strzelać i używać innych umiejętności podczas wysysania, ale twoja szybkość ruchu jest zmniejszona o połowę. Wciśnij [{s:in_ability2}], by anulować."
+		"ability_life_drain_desc"			"Stwórz więź, która <span class=\"highlight\">okresowo wysysa zdrowie wroga</span> oraz <span class=\"highlight\">leczy cię</span>. Cel musi znajdować się w polu widzenia i w maksymalnym zasięgu, by kontynuować wysysanie. Możesz strzelać i używać innych umiejętności podczas wysysania, ale twoja szybkość ruchu jest zmniejszona o połowę.<br><span class=\"highlight\">Wciśnij [alternatywny rzut], by przekazywać zdrowie sojuszniczym bohaterom.</span><br><span class=\"highlight\">Wciśnij [{s:in_ability2}]</span>, by anulować."
 		"ability_life_drain/modifier_life_drain" "Wysysanie Życia"
 		"ability_life_drain/modifier_life_drain_caster" "Wysysanie Życia"
 		"modifier_life_drain_silence"		"Uciszono"
@@ -1637,12 +1637,6 @@
 		"DamageHealMultNonHero_postfix"		"×"
 		"modifier_intimidate_debuff"		"Pogarda"
 
-		//"ability_pounce"				"Pounce"
-		//"ability_pounce_desc"			"{s:hero_name} leaps forward, creates an explosion on landing and damages enemies in an area."
-
-		//"ability_ooc_health_regen"			"Out of Combat Health Regen"
-		//"ability_ooc_health_regen_desc"		""
-
 		"ability_throw_sand"			"Podmuch Piachu"
 		"ability_throw_sand_quip"		"Rozbrój wrogów przed sobą."
 		"ability_throw_sand_desc"		"Rozpyl piach, który <span class=\"highlight\">rozbraja</span> wrogów przed tobą i zadaje <span class=\"highlight\">obrażenia</span>."
@@ -1650,19 +1644,17 @@
 
 		"ability_throw_sand_t3_desc"	"Spowalnia wrogów o <span class=\"highlight\">{s:SlowPercent}%</span>."
 
-		//"citadel_ability_kineticcharge"			"Kinetic Charge"
-		//"citadel_ability_kineticcharge_desc"	"{s:hero_name} creates a shield which absorbs all incoming damage. After the duration expires or the shield is destroyed, explodes and returns the damage absorbed to all enemies around him."
-		//"modifier_citadel_kineticcharge"		"Absorbing Damage"
-
 		"ability_ult_combo"				"Seria"
 		"ability_ult_combo_quip"		"Przytrzymaj wrogiego bohatera w miejscu i zadawaj mu ciosy."
 		"ability_ult_combo_desc"		"Przytrzymuje cel w miejscu, <span class=\"highlight\">ogłuszając go i zadając mu obrażenia</span> podczas inkantacji. Jeżeli cel umrze podczas serii, zyskujesz trwałą premię do maksymalnego zdrowia."
+		"ability_ult_combo_t1_desc"		"<span class=\"highlight\">+{s:ComboBulletResist}%</span> odporności na naboje podczas serii."
 		"ability_ult_combo_t2_desc"		"<span class=\"highlight\">+{s:AbilityChannelTime} s</span> do czasu trwania serii."
 		"ability_ult_combo_t3_desc"		"<span class=\"highlight\">+{s:DPS}</span> pkt. obrażeń na sekundę i <span class=\"highlight\">{s:LifeStealPercentOnHit}% kradzieży zdrowia</span>."
 		"LifestealPercentOnHit_label"		"Kradzież zdrowia"
 		"LifestealPercentOnHit_postfix"	"%"
 		"BonusHealthOnKill_label"			"Dodatkowe maks. zdrowie za zabójstwo"
-
+		"ComboBulletResist_label"		"Odporność na naboje po użyciu serii"
+		"ComboBulletResist_postfix"		"%"
 		//"GrabExtraTargetRange_label"		"Extra Target Range"
 		"GrabExtraTargetRange_postfix"	" m"
 
@@ -1767,7 +1759,7 @@
 		"MovementSlow_postfix"	"%"
 
 		//-----------------------------------------------------------------------------
-		// Hero: Pocket
+		// Pocket // synth
 		//-----------------------------------------------------------------------------
 		"synth_plasma_flux"			"Latający Płaszcz"
 		"synth_plasma_flux_quip"		"Wystrzel zadający obrażenia płaszcz, do którego możesz się teleportować."
@@ -1810,7 +1802,7 @@
 		"synth_barrage"				"Salwa"
 		"synth_barrage_quip"			"Szybuj w powietrzu, wystrzeliwując wiele pocisków."
 		"synth_barrage_desc"			"Inkantacja: wystrzeliwujesz pociski, które <span class=\"highlight\">zadają obrażenia</span> oraz <span class=\"highlight\">nakładają spowolnienie</span> wokół punktu uderzenia. Każdy pocisk, który trafi w bohatera, przyznaje ci <span class=\"highlight\">kumulujące się wzmocnienie zwiększające wszystkie twoje obrażenia</span>.<br>Jeśli rzucisz umiejętność, będąc w powietrzu, to <span class=\"highlight\">będziesz się unosić</span> i zachowasz wszelki wcześniejszy pęd w poziomie."
-
+		"synth_barrage_t3_desc"			"<span class=\"highlight\">+{s:AmpPercentPerStack}%</span> przyrostu na instancję i <span class=\"highlight\">{s:Radius} m</span> do promienia."
 		"DamagePerProjectile_label"	"Obrażenia na pocisk"
 		"ProjectileAmount_label"		"Liczba pocisków"
 		"ProjectileInterval_label"	"Odstęp między pociskami"
@@ -1881,8 +1873,9 @@
 		"mirage_sand_phantom_quip"		"Nakładaj instancje rosnących obrażeń."
 		"mirage_sand_phantom_desc"		"Efekt aktywny: <span class=\"highlight\">Zużyj mnożnik</span> znaku dżina, by zadać jego obrażenia."
 		"mirage_sand_phantom_passive_desc"	"Efekt pasywny: twoje strzały <span class=\"highlight\">nakładają rosnący mnożnik</span> na cel. Po wygaśnięciu mnożnika na celu lub osiągnięciu jego maksymalnej liczby mnożnik zostaje zużyty, a cel otrzymuje <span class=\"highlight\">obrażenia spirytualne</span> i zostaje <span class=\"highlight\">ujawniony na mapie</span> na krótki czas. Na końcowe obrażenia składają się bazowe obrażenia pomnożone przez mnożnik."
-		"mirage_sand_phantom_t1_desc"	"Nałóż {s:MovementSpeedSlow}% spowolnienia na {s:SlowDuration} s po każdym zwiększeniu mnożnika."
+		"mirage_sand_phantom_t1_desc"	"Nałóż {s:MovementSpeedSlow}% spowolnienia na {s:SlowDuration} s po każdym nałożeniu 2-krotnego lub większego mnożnika."
 		"mirage_sand_phantom_t2_desc"	"+{s:VictimStackDuration} s do czasu trwania mnożnika i +{s:ProcDamageBase} pkt. bazowych obrażeń."
+		"mirage_sand_phantom_t3_desc"	"{s:SandPhantomProcCooldown} s czasu oczekiwania między mnożnikami i +{s:MirageDjinnsMarkMaxStacks} do maksymalnej wartości mnożnika."
 		"modifier_mirage_sand_phantom_passive_victim"	"Mnożnik znaku dżina"
 		"ProcDamageBase_label"		"Bazowe obrażenia"
 		"VictimStackDuration_label"		"Czas trwania mnożnika"
@@ -2014,7 +2007,7 @@
 		"citadel_ability_tengu_airlift_t1_desc"		"<span class=\"highlight\">{s:AirDropBulletArmorReduction}%</span> odporności na naboje po trafieniu wrogów na <span class=\"highlight\">{s:AirDropDebuff02Duration} s</span>."
 		"citadel_ability_tengu_airlift_t2_desc"		"<span class=\"highlight\">+{s:AirDropBulletShield} pkt.</span> tarczy kuloodpornej i <span class=\"highlight\">+{s:AirDropExplodeRadius} m</span> do promienia eksplozji."
 		"citadel_ability_tengu_airlift_t3_desc"		"Nakłada <span class=\"highlight\">uciszenie</span> na trafionych wrogów na <span class=\"highlight\">{s:AirDropSilenceDuration} s</span>."
-		//"modifier_airlift_ally"						"Air Drop"
+		"modifier_airlift_ally"						"Zrzut z Powietrza"
 
 		"AirDropDebuffDuration_label"		"Czas trwania spowolnienia"
 		"AirDropDebuffDuration_postfix"		" s"
@@ -2446,7 +2439,7 @@
 		"MediumChargeDamagePct_postfix"			"%"
 		"FullChargeDamage_label"				"Obrażenia po pełnym naładowaniu"
 		"citadel_ability_power_slash_t1_desc"	"Zyskaj <span class=\"highlight\">{s:BulletResist}% do odporności na naboje</span> podczas inkantacji."
-		"citadel_ability_power_slash_t2_desc"	"Nałóż <span class=\"highlight\">{s:SlowPercent}% spowolnienia ruchu</span> na <span class=\"highlight\">{s:SlowDuration} s</span>."
+		"citadel_ability_power_slash_t2_desc"	"<span class=\"highlight\">{s:AbilityCooldown} s</span> do czasu oczekiwania i nakłada <span class=\"highlight\">{s:SlowPercent}%</span> spowolnienia ruchu na <span class=\"highlight\">{s:SlowDuration} s</span>."
 		//"StaminaToRemove_label"				"Stamina Drain"
 
 		"citadel_ability_flying_strike"			"Uderzenie w Locie"
@@ -2459,7 +2452,7 @@
 
 		"citadel_ability_infinity_slash"		"Transformacja Cienia"
 		"citadel_ability_infinity_slash_quip"	"Stań się nietykalny i potężniejszy."
-		"citadel_ability_infinity_slash_desc"	"Zostań nasycony cienistą duszą Yamato. Po początkowej <span class=\"highlight\">nietykalnej</span> transformacji twoje <span class=\"highlight\">umiejętności zostają odświeżone i są aktywowane 60% szybciej</span> oraz zyskujesz <span class=\"highlight\">odporność na obrażenia</span> i <span class=\"highlight\">niewrażliwość na efekty negatywnych statusów</span>. Nie możesz zginąć, znajdując się w tym stanie."
+		"citadel_ability_infinity_slash_desc"	"Zostań nasycony cienistą duszą Yamato. Po początkowej <span class=\"highlight\">nietykalnej</span> transformacji twoje <span class=\"highlight\">umiejętności zostają odświeżone i są aktywowane 60% szybciej</span> oraz zyskujesz <span class=\"highlight\">niewrażliwość na efekty negatywnych statusów</span>. Nie możesz zginąć, znajdując się w tym stanie."
 		//"citadel_ability_infinity_slash_buff_header" "Per Hero Hit"	
 		"ShadowDuration_label"					"Opóźnienie eksplozji"
 		"ShadowDuration_postfix"				" s"

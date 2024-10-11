@@ -3,7 +3,31 @@
 	"Language"		"russian"
 	"Tokens"
 	{
-"AmmoPerSoul_label"					"Боезапас за душу"
+
+		//-----------------------------------------------------------------------------
+		// Upgrades: Weapon
+		//-----------------------------------------------------------------------------
+
+		//Basic Magazine
+		//"upgrade_clip_size_desc"			"Increases <span class=\"highlight\">ammo</span>."
+
+		//Extended Magazine
+		//"upgrade_clip_size_fixed_desc"		"Increases <span class=\"highlight\">ammo</span>."
+
+		//Extra Large Magazine
+		//"upgrade_clip_size_fixed_t3_desc"		"Greatly Increases <span class=\"highlight\">ammo</span>."
+
+		//Big Clip
+		//"upgrade_clip_size_2_desc"			"Big Increase <span class=\"highlight\">ammo</span>."
+
+		//Extra Large Magazine
+		//"upgrade_clip_size_3_desc"			"Greatly Increases <span class=\"highlight\">ammo</span>."
+
+		//Ammo Scavenger
+		"upgrade_ammo_scavenger_desc"		"Каждый раз, когда вы забираете душу или не отдаёте её врагу, вам <span class=\"highlight\">возвращается часть боезапаса</span> и даётся суммирующийся бонус к <span class=\"highlight\">спиритической мощи</span>."
+		"AmmoPerSoul_prefix"				"+"
+		"AmmoPerSoul_label"					"Боезапас за душу"
+		"SpiritPowerPerSoul_prefix"			"+"
 		"SpiritPowerPerSoul_label"			"Спиритическая мощь за душу"
 		"AmmoScavengerDuration_label"		"Длительность"
 		"AmmoScavengerDuration_postfix"		" с."
@@ -51,6 +75,8 @@
 		
 		//Slowing Bullets
 		"upgrade_slowing_bullets_desc"	"Ваши выстрелы накладывают <span class=\"highlight\">замедление передвижения</span>."
+		"upgrade_slowing_bullets/modifier_slowing_bullets_proc/modifier_slow_base"					"Замедление"
+
 		//Inhibitor
 		"upgrade_inhibitor_desc"	"Ваши выстрелы накладывают на цель <span class=\"highlight\">замедление передвижения</span> и уменьшают её <span class=\"highlight\">исходящий урон</span>."
 		"modifier_inhibitor_debuff"	"Ограничитель"
@@ -85,6 +111,9 @@
 		//Heroic Aura
 		"upgrade_dps_aura_active_desc"	"Увеличивает <span class=\"highlight\">скорость передвижения</span> и <span class=\"highlight\">скорострельность</span> вам и союзникам неподалёку."
 		"upgrade_dps_aura_desc"			"Увеличивает <span class=\"highlight\">скорострельность</span> призванных игроками существ неподалёку."
+		"modifier_dps_aura_active"		"Героическая аура активна"
+		"modifier_dps_aura_player"		"Героическая скорострельность"
+
 		//"BonusBaseDamage_label"			"Base Bullet and Melee Damage"
 		"BonusBaseDamage_postfix"		"%"
 
@@ -132,7 +161,7 @@
 		//"upgrade_attack_speed_2_desc"	"Increases your <span class=\"highlight\">Fire Rate</span>."
 
 		//Spiritual Overflow
-		"upgrade_tech_overflow_desc"	"От ваших пуль на вражеских героях <span class=\"highlight\">накапливается</span> эффект, повышающий вашу <span class=\"highlight\">спиритическую мощь</span>."
+		"upgrade_tech_overflow_desc"	"Стреляя во вражеских героев, вы <span class=\"highlight\">накапливаете</span> эффект, повышающий вашу <span class=\"highlight\">скорострельность</span> и <span class=\"highlight\">спиритическую мощь</span>."
 		"modifier_tech_overflow"		"Спиритическое переполнение"
 		"modifier_tech_overflow_building" "Накопление спиритического переполнения..."
 
@@ -198,6 +227,8 @@
 		//Frenzy
 		"upgrade_fervor_passive"	"Увеличивает ваши характеристики, когда у вас <span class=\"highlight\">меньше {s:LowHealthThreshold}% здоровья</span>."
 		"FervorTechResist_postfix"  "%"
+		"modifier_fervor_aura_active"		"В ярости"
+
 
 		//Old Frenzy
 		//"upgrade_frenzy_vampire_desc"	"Your <span class=\"highlight\">bullets heal you</span> for a percentage of the damage they deal to enemies.<br><br>When an enemy is below {s:LowHealthPercentThreshold}% health you gain an additional <span class=\"highlight\">{s:LowHealthLifeStealPercent}% Bullet Lifesteal</span> against them."
@@ -236,6 +267,7 @@
 		"upgrade_surging_power_active"	"Даёт бонус к <span class=\"highlight\">краже здоровья</span>, <span class=\"highlight\">скорострельности</span> и <span class=\"highlight\">боезапасу</span>. Увеличенный этим умением боезапас может превысить максимальный."
 		"ActiveBonusLifesteal_label"		"Кража здоровья пулями"
 		"ActiveBonusLifesteal_postfix"	"%"
+		"modifier_surging_power"		 "Прилив мощи"
 		//"upgrade_surging_power/surge/windup"					"Surging Power"
 		//"upgrade_surging_power/surge/active"					"Surging Power"
 		//"upgrade_surging_power/surge"					"Surging Power"
@@ -363,7 +395,7 @@
 
 		//Escalating Exposure
 		"upgrade_escalating_exposure_desc"	"Нанося врагу <span class=\"highlight\">спиритический урон</span>, вы накладываете на него суммирующийся эффект, <span class=\"highlight\">усиливающий</span> <span class=\"highlight\">спиритический урон</span>, который вы наносите цели."
-		"upgrade_escalating_exposure/modifier_proc_watcher/modifier_debuff"		"Уменьшение спиритической брони"
+		"upgrade_escalating_exposure/modifier_proc_watcher/modifier_debuff"		"Растущее воздействие"
 		"EscalatingExposureProcCooldown_label"	"Мин. интервал срабатывания за цель"
 		"EscalatingExposureProcCooldown_postfix"	" с."
 		"EscalatingExposureTechArmorDamageReduction_label"	"сопротивляемости спиритизму при нанесении спиритического урона"
@@ -448,6 +480,7 @@
 		//Withering Whip
 		"upgrade_withering_whip_desc"		"Снижает <span class=\"highlight\">скорострельность</span> и <span class=\"highlight\">сопротивляемость пулям</span> у выбранного врага."
 		"modifier_withering_whip_debuff"	"Снижение скорострельности"
+		"MagicAmp_label"					"Увеличение спиритического урона"
 		"MagicAmp_postfix"					"%"
 		"WitheringWhipDisarmDuration_label"	"Длительность"
 		"WitheringWhipDisarmDuration_postfix"	" с."
@@ -455,7 +488,7 @@
 		"SpiritPower_prefix"					"+"
 
 		//Ethereal Shift
-		"upgrade_self_bubble_desc"			"Вы входите в состояние пустоты, которое даёт вам <span class=\"highlight\">неуязвимость</span> и <span class=\"highlight\">не позволяет выбирать вас целью</span>. Во время этого действия эффекта вы не можете передвигаться или совершать какие-либо действия, а по его окончании <span class=\"highlight\">мгновенно перезаряжаетесь</span> и получаете бонус к <span class=\"highlight\">спиритической мощи</span>.<br>Можно прервать преждевременно."
+		"upgrade_self_bubble_desc"			"Вы входите в состояние пустоты, которое даёт вам <span class=\"highlight\">неуязвимость</span> и <span class=\"highlight\">запрещает выбирать вас целью</span>. Во время этого эффекта вы не можете передвигаться или совершать какие-либо действия, а после его окончания <span class=\"highlight\">мгновенно перезаряжаетесь</span> и получаете бонус к <span class=\"highlight\">спиритической мощи</span>."
 		"ShiftingVeilDuration_label"			"Длительность"
 		"ShiftingVeilDuration_postfix"		" с."
 		"BonusSpiritDuration_label"			"Длительность бонуса к спиритизму"
@@ -525,6 +558,8 @@
 
 		//Bullet Resist Shredder
 		"upgrade_bullet_resist_shredder_desc"	"Уменьшает <span class=\"highlight\">сопротивляемость пулям</span> героев, которым наносится <span class=\"highlight\">спиритический урон</span>."
+		"upgrade_bullet_resist_shredder/modifier_bullet_armor_shredder_proc/modifier_bullet_armor_shredder" "Уменьшение пулевой брони"
+
 		//Weapon Eater
 		//"upgrade_weapon_eater_desc"				"Reduces Courage by <span class=\"highlight_weapon\">{s:BaseBonusCounter}</span>. <br>Gain <span class=\"highlight_weapon\">{s:WeaponPowerPerKill} Courage</span> (Up to <span class=\"highlight_weapon\">{s:MaxWeaponPower}</span>) for <span class=\"highlight\">killing an enemy Hero</span> but lose <span class=\"highlight_weapon\">{s:WeaponPowerPerDeath} gained Courage</span> on <span class=\"highlight\">Death</span>. Bonus applied if damage was done within {s:KillWindow}s of enemy killed. "
 		//"upgrade_weapon_eater/modifier_weapon_eater_display"			"Weapon Eater"
@@ -556,12 +591,16 @@
 
 		//Infuser
 		"upgrade_infuser_desc"			"Даёт вам бонус к <span class=\"highlight\">спиритической мощи</span> и <span class=\"highlight\">краже здоровья спиритизмом</span>."
+		"modifier_infuser" "Воодушевитель"
 
 		//Spirit Strike
 		"upgrade_acolytes_glove_desc"			"Совершив <span class=\"highlight\">лёгкий или тяжёлый удар ближнего боя</span> по герою, вы нанесёте ему дополнительный <span class=\"highlight\">спиритический урон</span> и уменьшите его <span class=\"highlight\">сопротивляемость спиритизму</span>."
 		"SpiritDamage_label"						"Спиритический урон"
 		"modifier_acolytes_glove_triggered"		"Спиритический удар"
-"MeleeDistanceScale_label"				"к дальности тяжёлого удара"
+
+		//Melee Charge
+		"upgrade_melee_charge_desc"				"Следующий <span class=\"highlight\">тяжёлый удар</span> по врагу <span class=\"highlight\">нанесёт больше урона</span>, а также либо <span class=\"highlight\">мгновенно перезарядит ваше оружие</span>, либо <span class=\"highlight\">даст до 100% дополнительного боезапаса</span>. <br>Активируется только при неполном дополнительном боезапасе."
+		"MeleeDistanceScale_label"				"к дальности тяжёлого удара"
 		"MeleeDistanceScale_postfix"			"%"
 		"BonusHeavyMeleeDamage_prefix"			"+"
 		"BonusHeavyMeleeDamage_label"			"к урону тяжёлого удара"
@@ -618,7 +657,7 @@
 		//Healing Rite
 		"upgrade_health_stimpak_desc"					"Даёт цели <span class=\"highlight\">восстановление здоровья</span> и <span class=\"highlight\">скорость бега</span>. Эффект пропадает, если цель получает урон от вражеских героев или построек. Можно применить на себя."
 		"upgrade_health_stimpak/modifier_stimpak_regen"			"Обряд лечения"
-
+		"modifier_stimpak_regen" "Обряд лечения"
 		//Divine Barrier
 		"upgrade_savior_desc"				"Даёт цели <span class=\"highlight\">щиты от пуль и спиритизма, а также повышает её скорость передвижения</span>. Можно применить на себя."
 		"SaviorBulletShieldHealth_label"		"Щит от пуль"
@@ -829,6 +868,8 @@
 		//Shadow Weave
 		"upgrade_cloaking_device_active_desc"		"Даёт <span class=\"highlight\">скрытность</span>. Получение урона ненадолго раскроет вас."
 		"upgrade_cloaking_device_active_ambush_desc"	"<br>Если вы атакуете или используете умение, ваша скрытность прекращается и начинается <span class=\"highlight\">засада</span>, которая временно увеличивает вашу <span class=\"highlight\">скорострельность</span> и <span class=\"highlight\">спиритическую мощь</span>."
+		"modifier_cloaking_device_active_stealth"		"Сплетение теней: скрытность"
+		"modifier_cloaking_device_active_ambush"		"Сплетение теней: засада"
 		"AmbushBonusTechPower_prefix"					"+"
 		"AmbushBonusTechPower_label"					"к спиритической мощи в засаде"
 		"AmbushBonusFireRate_prefix"					"+"
@@ -851,6 +892,8 @@
 		
 		//Majestic Leap
 		"upgrade_rocket_booster_desc"				"<span class=\"highlight\">Подбрасывает вас</span> ввысь. Находясь в воздухе, вы можете снова применить этот предмет, чтобы ускорить падение.<br>Нельзя использовать в течение {s:InteruptCooldown} с. после того, как вас атаковал вражеский герой."
+		"upgrade_rocket_booster_drop_down"			"Сброс"
+		
 		//Smoke
 		//"upgrade_aoe_smoke_bomb_desc"				"Give you and teammates <span class=\"highlight\">invisibility</span> and a <span class=\"highlight\">movement speed</span> bonus.  Attacking or taking damage will remove the invisibility.<br>Cast delay: {s:AbilityCastDelay}s."
 		
@@ -893,12 +936,10 @@
 		"HealOnlevelHealAmount_label"	"Лечение"
 		"upgrade_heal_on_level/heal_on_level_buff"			"Лечение при повышении уровня"
 
-		//crow_mask_934_comment
-		//crow_mask_935_comment
-		//crow_mask_936_comment
-		//crow_mask_937_comment
 		//crow_mask_938_comment
-		"upgrade_melee_charge_desc"				" Ваша следующая <span class=\"highlight\">тяжелая рукопашная атака</span> по врагу <span class=\"highlight\">наносит увеличенный урон</span> и либо <span class=\"highlight\" >мгновенно перезарядите свое оружие</span> или получите до <span class=\"highlight\">+100 % бонусных боеприпасов</span>. <br>Активируется только тогда, когда бонусные боеприпасы не заполнены."
-		"upgrade_ammo_scavenger_desc"		"Каждый раз, когда вы получаете или отбираете Душу у сущности, вы <span class=\"highlight\">возвращаете боеприпасы</span> и получаете суммируемую <span class=\"highlight\">Силу Духа</span>."
+		//crow_mask_939_comment
+		//crow_mask_940_comment
+		//crow_mask_941_comment
+		//crow_mask_942_comment
 	}
 }

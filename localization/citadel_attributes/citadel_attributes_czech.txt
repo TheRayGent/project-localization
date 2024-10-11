@@ -202,6 +202,8 @@
 		"StatDesc_DebuffResist_postfix"					" %"
 		"StatDesc_HealingOutput"						"Navýšení léčení"
 		"StatDesc_HealingOutput_postfix"				" %"
+		"StatDesc_CritDamageBonusScale"					"Modifikátor kritického bonusu"
+		"StatDesc_CritDamageBonusScale_postfix"			" %"
 
 		"StatDesc_BulletSpeed"							"Rychlost střel"
 		"StatDesc_BulletSpeed_postfix"					" m/s"
@@ -444,7 +446,8 @@
 		"BonusMoveSpeed_prefix"							"{s:sign}"
 		"BonusMoveSpeed_label"						"Rychlost pohybu"
 		"BonusMoveSpeed_postfix"						" m/s"
-
+		
+		"TeleporterBonus"							"Bonus k rychlosti pohybu!"
 		"RunSpeed_postfix"						" m/s"
 
 		"WeaponRange_label"							"Dosah střel"
@@ -719,7 +722,6 @@
 		//"EvasionPercentGlider_label"					"Evasion Chance Gliding"
 		"EvasionPercentGlider_postfix"					" %"
 
-		"EvasionPercent_label"						"Šance na úhyb"
 		"EvasionPercent_postfix"						" %"
 
 		//"MeleeDamagePercent_label"					"Melee Damage Bonus"
@@ -1790,9 +1792,9 @@
 		"StaminaRegenPercent_label"			"Regenerace výdrže"
 		"StaminaRegenPercent_postfix"		" %"
 
-		//crow_mask_1824_comment
-		// crow_mask_1825_comment
-		//crow_mask_1826_comment
+		//crow_mask_1827_comment
+		// crow_mask_1828_comment
+		//crow_mask_1829_comment
 
 
 

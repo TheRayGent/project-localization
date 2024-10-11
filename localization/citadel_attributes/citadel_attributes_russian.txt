@@ -3,12 +3,32 @@
 	"Language"		"russian"
 	"Tokens"
 	{
-"MODIFIER_STATE_DISARMED"							"Обезоруживание"
+
+		//-----------------------------------------------------------------------------
+		// Unit states (that we want to show)
+		//-----------------------------------------------------------------------------
+
+		"MODIFIER_STATE_ROOTED"								"Обездвиживание"
+		"MODIFIER_STATE_DISARMED"							"Обезоруживание"
 		"MODIFIER_STATE_SILENCED"							"Безмолвие"
 		"MODIFIER_STATE_STUNNED"							"Оглушение"
 		"MODIFIER_STATE_INVULNERABLE"						"Неуязвимость"
 		"MODIFIER_STATE_TECH_INVULNERABLE"					"Спиритическая неуязвимость"
-//"MODIFIER_STATE_DISPLAY_LIFETIME"					"Life Time"
+		//"MODIFIER_STATE_BURNING"							"Burning"
+
+		// Commenting this out so it doesn't show overhead of the player your applied it to
+		//"MODIFIER_STATE_SLOWED"								"Slowed"
+
+		//"MODIFIER_STATE_BULLET_SHIELD_WEAKENED"				"Weakened Bullet Shield"
+		//"MODIFIER_STATE_IS_ASLEEP"							"Asleep"
+		//"MODIFIER_STATE_BULLET_DAMAGE_TAKEN_ALWAYS_CRITS"	"Crit Vulnerable"		 				
+		"MODIFIER_STATE_CHAINED"							"Скованность"
+		//"MODIFIER_STATE_ALL_ARMOR_DISABLED"					"Armors Disabled"
+		//"MODIFIER_STATE_BULLET_INVULNERABLE"				"Bulletproof"
+		//"MODIFIER_STATE_DRONE_ATTACHED"						"Drone Attached"
+		//"MODIFIER_STATE_WEAPON_JAMMED"						"Weapon Jammed"
+		"MODIFIER_STATE_TOXIC_BULLETS"						"Токсичность"
+		//"MODIFIER_STATE_DISPLAY_LIFETIME"					"Life Time"
 		"MODIFIER_STATE_BLINDED"							"Ослепление"
 
 		// Status Effects
@@ -19,6 +39,8 @@
 		"Citadel_StatusEffectBurn"				"Горение"
 		"Citadel_StatusEffectBleed"				"Кровотечение"
 		"Citadel_StatusEffectSleep"				"Сон"
+		"Citadel_StatusEffectTethered"			"Приковывание"
+		"Citadel_StatusEffectImmobilize" 		"Обездвиживание"
 		"Citadel_StatusEffectDisarmed"			"Обезоруживание"
 		"Citadel_StatusEffectInvisible"			"Невидимость"
 		//"Citadel_StatusEffectStacks"			"Stacks "
@@ -42,7 +64,11 @@
 		//"modifier_citadel_delayed_stun"			"Delayed Stun"
 		//"modifier_citadel_knockdown_stumble"	"Stumble"
 		"modifier_citadel_banished"				"Изгнание"
-//"modifier_citadel_charging" 			"Charging"
+		//"modifier_citadel_speed_boost" 			"Speed Boost"
+		//"modifier_pullaura" 					"Pulled"
+		//"modifier_healaura" 					"Healing"
+		"modifier_citadel_root"					"Обездвиживание"
+		//"modifier_citadel_charging" 			"Charging"
 		//"modifier_invis" 						"Stealthed"
 		//"modifier_invis_start_delay" 			"Entering Stealth"
 		//"modifier_invis_fading"					"Fading"
@@ -51,6 +77,8 @@
 		//"emp_immune"							"Silenced Immune"
 		//"modifier_citadel_muted"				"Muted"
 		"modifier_citadel_disarmed"				"Обезоруживание"
+		"modifier_citadel_tech_shield"		"Щит от спиритизма"
+
 		"modifier_item_disarmed"				"Обезоруживание"
 		"modifier_citadel_disarm_proc"			"Обезоруживание"
 		//"modifier_citadel_disarm_proc_buildup"	"Disarming..."
@@ -101,7 +129,12 @@
 		"StatDesc_BulletArmor"							"Броня"
 		"StatDesc_BulletArmorDamageReduction"			"Сопротивляемость пулям"
 		"StatDesc_BulletArmorDamageReduction_postfix"	"%"
-"StatDesc_TechArmorDamageReduction"		 		"Сопротивляемость спиритизму"
+		//"StatDesc_IncomingBulletDamageReduction"		"Bullet Damage Armor"
+		//"StatDesc_IncomingBulletDamageScale"			"Bullet Damage Scale"
+		//"StatDesc_IncomingMeleeDamageReduction"			"Melee Damage Armor"
+		//"StatDesc_IncomingMeleeDamageScale"				"Melee Damage Scale"
+		"StatDesc_TechArmor"							"Спиритическая броня"				
+		"StatDesc_TechArmorDamageReduction"		 		"Сопротивляемость спиритизму"
 		"StatDesc_TechArmorDamageReduction_postfix"		"%"
 		//"StatDesc_IncomingAbilityDamageReduction"		"Ability Armor"
 		//"StatDesc_IncomingAbilityDamageScale"			"Ability Damage Scale"
@@ -169,6 +202,8 @@
 		"StatDesc_DebuffResist_postfix"					"%"
 		"StatDesc_HealingOutput"						"Увеличение лечения"
 		"StatDesc_HealingOutput_postfix"				"%"
+		"StatDesc_CritDamageBonusScale"					"Размер критического урона"
+		"StatDesc_CritDamageBonusScale_postfix"			"%"
 
 		"StatDesc_BulletSpeed"							"Скорость пуль"
 		"StatDesc_BulletSpeed_postfix"					" м/с"
@@ -231,6 +266,7 @@
 		"SlowPercent_label"							"Замедление передвижения"
 		"SlowPercent_postfix"							"%"
 		"movement_slow"								"Замедление передвижения"
+		"SlowDurationPerStack_label"					"Длительность замедления за ед. эффекта"
 		"SlowDurationPerStack_postfix"				" с."
 
 		//"DroneLifetime_label"							"Drone Lifetime"
@@ -261,6 +297,7 @@
 		"Radius_label"								"Радиус"
 		"Radius_postfix"								" м"
 
+		"InactiveRadius_label"						"Радиус неактивного эффекта"
 		"InactiveRadius_postfix"						" м"
 
 		"ActiveRadius_label"						"Радиус активного эффекта"
@@ -313,6 +350,8 @@
 
 		"BonusRegenMaxHealthPercent_prefix"					"{s:sign}"
 		"BonusRegenMaxHealthPercent_postfix"					"%"
+		"BonusRegenMaxHealthPercent_label"						"к восстановлению от макс. здоровья"
+
 		"BonusHealthRegenOutOfCombat_prefix"			"{s:sign}"
 		//"BonusHealthRegenOutOfCombat_postfix"			""
 		//"BonusHealthRegenOutOfCombat_label"			"Health Regen Out of Combat"
@@ -383,12 +422,16 @@
 		"TechDamageScale_label"							"Спиритический урон"
 
 		"TechArmor_prefix"								"{s:sign}"
+		"TechArmor_label"								"Спиритическая броня"
+		
 		"TechResist_prefix"								"{s:sign}"
 		"TechResist_postfix"							"%"
 		"TechResist_label"								"к сопр. спиритизму"
 
 		"TechResistPerStack_prefix"						"{s:sign}"
 		"TechResistPerStack_postfix"					"%"
+		"TechResistPerStack_label"						"к спиритическому урону за ед. эффекта"
+
 		"MagicIncreasePerStack_prefix"					"{s:sign}"
 		"MagicIncreasePerStack_postfix"					"%"
 		"MagicIncreasePerStack_label"					"к спиритическому урону за эффект"
@@ -403,9 +446,11 @@
 		"BonusMoveSpeed_prefix"							"{s:sign}"
 		"BonusMoveSpeed_label"						"к скорости передвижения"
 		"BonusMoveSpeed_postfix"						" м/с"
-
+		
+		"TeleporterBonus"							"Увеличенная скорость передвижения!"
 		"RunSpeed_postfix"						" м/с"
 
+		"WeaponRange_label"							"Дальность стрельбы"
 		"WeaponRange_postfix"						" м"
 
 		"BonusMoveSpeedPercent_prefix"					"{s:sign}"
@@ -419,7 +464,12 @@
 		"AirSpeedBonus_label"						"Доп. скорость в воздухе"
 		"AirSpeedBonus_prefix"						"{s:sign}"
 		"AirSpeedBonus_postfix"						" м/с"
-"BonusClipSize_prefix"							"{s:sign}"
+		//"AscendSpeed_label"							""
+		//"DescendSpeed_label"							""
+
+		"BonusCooldownReduction_label"					"Сокращение времени перезарядки за пулю"
+
+		"BonusClipSize_prefix"							"{s:sign}"
 		"BonusClipSize_label"							"к боезапасу"
 
 		"BonusClipSizePercent_prefix"					"{s:sign}"
@@ -434,6 +484,8 @@
 		"TemporaryBonusClipSizePercent_label"			"к временному боезапасу"
 
 		"BulletPenetrationPercent_postfix"				"%"
+		"BulletPenetrationPercent_label"				"Пробивная способность пуль"
+
 		"TechPower_prefix"								"{s:sign}"
 		"TechPower_label"								"ед. к спиритической мощи"
 		"ArmorPower_prefix"								"{s:sign}"
@@ -451,6 +503,8 @@
 		//"ExplosiveSplashDamage_label"						"Explode Damage"
 		"BulletDamageTotal_label"							"Урон от пуль"
 
+		"ChargesRestored_label"							"Восстановленные заряды"			
+
 		"BonusFireRate_prefix"							"{s:sign}"
 		"BonusFireRate_postfix"							"%"
 		"BonusFireRate_label"							"к скорострельности"
@@ -465,6 +519,8 @@
 
 		"BonusFireRateNPC_prefix"							"{s:sign}"
 		"BonusFireRateNPC_postfix"							"%"
+		"BonusFireRateNPC_label"							"к скорострельности по всем, кроме героев"
+
 		"BonusMeleeAttackSpeed_prefix"					"{s:sign}"
 		"BonusMeleeAttackSpeed_postfix"					"%"
 		//"BonusMeleeAttackSpeed_label"					"Melee Speed"
@@ -489,6 +545,7 @@
 		"DotHealthPercent_label"						"Урон от кровотечения"
 		"DotHealthPercent_postfix"						"%/с."
 		
+		"FreezeDuration_label"							"Длительность заморозки"
 		"FreezeDuration_postfix"							" с."
 
 		"CooldownReduction_prefix"						"{s:sign}"
@@ -540,6 +597,8 @@
 		"StatusResistancePercent_label"				"Сопр. отриц. эффектам"
 
 		"ActiveStatusResistancePercent_postfix"			"%"
+		"ActiveStatusResistancePercent_label"			"Уменьшение эффектов"
+
 		"StatusResistanceDuration_label"				"Длительность"
 		"StatusResistanceDuration_postfix"				" с."
 
@@ -584,6 +643,7 @@
 		"StunDuration_label"							"Длительность оглушения"
 		"StunDuration_postfix"							" с."
 
+		"StunDelay_label"								"Задержка оглушения"
 		"StunDelay_postfix"								" с."
 
 		"MinStunDuration_postfix"						" с."
@@ -611,6 +671,7 @@
 		"ChainCount_label"							"Макс. отскоков"
 		"BonusPerChain_label"						"Урон при отскоке"
 
+		"RichochetChance_label"						"Шанс срабатывания"
 		"RichochetChance_postfix"						"%"
 
 		//"SlowSpeedLimit_label"						"Speed Reduced To"
@@ -645,6 +706,7 @@
 		"OutgoingDamageReduction_prefix"				"–"
 		"OutgoingDamageReduction_postfix"				"%"
 
+		"ProcHealth_label"							"Порог здоровья"
 		"ProcHealth_postfix"							"%"
 
 		//"DamageBoostFromBehind_label"					"Damage From Behind"
@@ -660,7 +722,6 @@
 		//"EvasionPercentGlider_label"					"Evasion Chance Gliding"
 		"EvasionPercentGlider_postfix"					"%"
 
-		"EvasionPercent_label"						"Шанс уклонения"
 		"EvasionPercent_postfix"						"%"
 
 		//"MeleeDamagePercent_label"					"Melee Damage Bonus"
@@ -700,11 +761,13 @@
 		"BasicReflectPercent_postfix"					"%"
 
 		"LifeDrainPerSecond_label"					"Урон в секунду"
+		"HealthPercent_label"							"Процент здоровья"
 		"HealthPercent_postfix"							"%"
 
 		//"DodgeAnimSpeedScale_label"					"Dodge Speed Multiplier"
 		"DodgeAnimSpeedScale_postfix"					"x"
 
+		"BonusDamagePercent_label"					"ед. доп. урона"
 		"BonusDamagePercent_postfix"					"%"
 
 		"BulletDamagePercent_prefix"					"{s:sign}"
@@ -737,9 +800,17 @@
 
 		"ItemInitialCharges_label"					"Заряды"
 
+		"AuraDuration_label"							"Длительность действия ауры"
 		"AuraDuration_postfix"							" с."
-"ReloadSpeedDecrease_postfix"					"%"
 
+		//"ApproachSpeed_label"							"Project Speed"
+
+		"GrenadesInVolley_label"						"Число гранат"
+
+		"ReloadSpeedDecrease_label"						"Время перезарядки"
+		"ReloadSpeedDecrease_postfix"					"%"
+
+		"AbsorbPercentage_label"						"Поглощённый урон"
 		"AbsorbPercentage_postfix"						"%"
 
 		//"HitCap_label"								"Hit Cap"
@@ -810,7 +881,10 @@
 		"WeaponPower_postfix"							"%"
 
 		"DamageIncrease_prefix"							"{s:sign}"
+		"DamageIncrease_label"						"Полученный урон"
+
 		"DamageIncreasePercent_prefix"					"{s:sign}"
+		"DamageIncreasePercent_label"					"Полученный урон"
 		"DamageIncreasePercent_postfix"					"%"
 
 		"BonusAbilitySpeed_prefix"						"{s:sign}"
@@ -836,6 +910,7 @@
 		"MoveSpeedMax_label"							"Скорость передвижения"
 		"MoveSpeedMax_postfix"						" м/с"
 
+		"BulletDamagePercentAsTechDamage_label"		"Доп. спиритический урон"
 		//"BulletDamagePercentAsTechDamage_postfix"		"% Bullet Damage "
 
 		"BonusCritDamagePercent_prefix"					"{s:sign}"
@@ -844,6 +919,8 @@
 
 		//"DPSDmgPercent_label"							"DPS as Damage"
 		"DPSDmgPercent_postfix"							"%"
+
+		"DamagePerSecond_label"						"Урон в секунду"
 
 		//"TechReduction_label"						"Spirit Reduction"
 
@@ -918,6 +995,7 @@
 		"NonImbuedTechRadiusMultiplier_postfix"					"%"
 
 		"TechRangeAdditive_prefix"						"{s:sign}"
+		"TechRangeAdditive_label"						"Дальность умения"
 		"TechRangeAdditive_postfix"						" м"
 
 		//"WindUpTime_label"								"Windup Time"
@@ -926,6 +1004,7 @@
 		//"HealthDrainedPerSecond_label"				"Health Drain"
 		"HealthDrainedPerSecond_postfix"				" в секунду"
 
+		"DebuffDurationReductionPercentage_label"		"Уменьшение длительности эффекта"
 		"DebuffDurationReductionPercentage_postfix"		"%"
 
 		//"HealthCost_label"							"Health Cost"
@@ -941,7 +1020,11 @@
 		"ZiplineJumpBonusMoveSpeed_postfix"					" м/с"
 
 		"BonusZipLineSpeed_prefix"						"{s:sign}"
-//"DeathDelay_label"							"Delay Death Duration"
+		//"BonusZipLineSpeed_label"						"Hyperline Speed"
+
+		"MaxProjectiles_label"						"Число снарядов"
+
+		//"DeathDelay_label"							"Delay Death Duration"
 
 		//"TackleDurationMax_label"						"Max Tackle Duration"
 
@@ -968,7 +1051,14 @@
 
 		//"TimeToMaxStacks_label"							"Time To Max Stacks"
 		"TimeToMaxStacks_postfix"						" с."
-"DamageReduction_label"						"Уменьшение урона"
+
+		//"DamagePerHit_label"							"Damage Per Hit"
+
+		//"FinalBlow_label"							"Final Blow Damage"
+
+		"DamageThreshold_label"						"Порог урона"
+		
+		"DamageReduction_label"						"Уменьшение урона"
 		"DamageReduction_postfix"					"%"
 
 		"MeleeDamage_label"							"Урон в ближнем бою"
@@ -986,6 +1076,7 @@
 
 		//"ConeRadius_label"							"Lightning Distance"
 		"ConeRadius_postfix"							" м"
+		"ConeAngle_label"						"Угол зоны применения"
 		"ConeAngle_postfix"						"°"
 
 		"ShockRadius_label"							"Радиус"
@@ -998,13 +1089,14 @@
 		"BurnDuration_label"							"Длительность горения"
 
 		"AbilityCooldown_postfix"						" с."
-		"AbilityCooldown_label"						"перезарядки"
+		"AbilityCooldown_label"						"Перезарядка"
 
 		"TechCooldown_postfix"						"%"
 		"TechDuration_postfix"						"%"
 		"TechLifesteal_postfix"						"%"
 		"TechRange_postfix"							"%"
 
+		"HealingPercent_label"						"Процент лечения"
 		"HealingPercent_postfix"						"%"
 
 		"AbilityCooldownBetweenCharge_label"			"Интервал зарядов"
@@ -1029,6 +1121,8 @@
 		"AbilityChannelTime_label"					"Длительность применения"
 
 		"AbilityCastDelay_postfix"					" с."
+		"AbilityCastDelay_label"					"Задержка применения"
+
 		"AbilityCharges_label"						"заряд(а)"
 		
 		
@@ -1057,6 +1151,7 @@
 		"ExplodeDelay_label"							"Задержка до взрыва"
 		"ExplodeDelay_postfix"							" с."
 		
+		"BuildUpPercentPerHit_label"					"Накопление за попадание"
 		"BuildUpPercentPerHit_postfix"					"%"
 
 		//"FreezeBuildUpTime_label"						"Freeze buildup time"
@@ -1115,6 +1210,8 @@
 
 		"TargetsPerTick_label"						"Поражённые цели за выстрел"
 		"HealthToDamage_label"						"Здоровье, трансформирующееся в урон"
+		"DamageHealPerTarget_label"						"Урон и лечение за цель"
+
 		//"DeathTaxHeal_label"							"Health Per Kill"
 
 		"ChainRadius_label"							"Радиус отскока"
@@ -1138,6 +1235,7 @@
 		"MaxExplosionRadius_label"					"Макс. радиус взрыва"
 		"MaxExplosionRadius_postfix"					" м"
 
+		"ExplosionDamage_label"						"Урон он взрыва"
 		//"MinExplosionDamage_label"						"Min Explosion Damage: "
 		//"MinExplosionDamage_postfix"					""
 
@@ -1176,17 +1274,35 @@
 		"ImmobilizeDuration_label"					"Длительность обездвиживания"
 		"ImmobilizeDuration_postfix"					" с."
 
+		"AirControlPercent_label"					"Управление в воздухе"
 		"AirControlPercent_prefix"							"{s:sign}"
 		"AirControlPercent_postfix"							"%"
-"NPCProcChance_postfix"							"%"
 
+		//"HeadStompBonusDamage_label"					"Head Stomp Damage Bonus"
+		//"HeadStompBonusDamage_postfix"					""
+
+		//"HeadStompBonusRadius_label"					"Head Stomp Radius Bonus"
+		//"HeadStompBonusRadius_postfix"					""
+
+		//"BouncePadStompCount_label"					"Max Head Stomps"
+
+		"NPCProcChance_label"							"Шанс срабатывания на солдате"
+		"NPCProcChance_postfix"							"%"
+
+		"HeroProcChance_label"						"Шанс срабатывания на герое"
 		"HeroProcChance_postfix"						"%"
 		
 		//"AbilityProjectileSpeedPercent_label"			"Speed Increase"
 		"AbilityProjectileSpeedPercent_postfix"			"%"
 		
+		"TechCleaveDamagePercent_label"				"Урон от разделения"
 		"TechCleaveDamagePercent_postfix"				"%"
-"TechCleaveRadius_postfix"						" м"
+		
+		"TechCleaveTargetCap_label"					"Дополнительные цели"
+		//"TechCleaveTargetCap_postfix"					""
+		
+		"TechCleaveRadius_label"						"Радиус разделения"
+		"TechCleaveRadius_postfix"						" м"
 
 		"InitialRadius_label"							"Начальный радиус"
 		"InitialRadius_postfix"							" м"
@@ -1212,6 +1328,7 @@
 		//"WaveStunDuration_label"						"Disarm/EMP Duration"
 		"WaveStunDuration_postfix"						" с."
 
+		"WaveLifetime_label"							"Время действия снаряда"
 		"WaveLifetime_postfix"							" с."
 
 		//"LockedRadius_label"							"Chain Length"
@@ -1223,8 +1340,10 @@
 		//"ShieldPercentage_label"						"Shield Max Health %"
 		"ShieldPercentage_postfix"						"% макс. здоровья"
 
+		"ShieldDuration_label"							"Время действия щита"
 		"ShieldDuration_postfix"						" с."
 
+		"SlowRadius_label"								"Радиус замедления"
 		"SlowRadius_postfix"							" м"
 		
 		//"SmokeDuration_label"							"Smoke Duration"
@@ -1242,6 +1361,7 @@
 		//"CloudDuration_label"							"Cloud Lifetime"
 		"CloudDuration_postfix"							" с."
 
+		"TimeSlowPercent_label"							"Время замедления"
 		"TimeSlowPercent_postfix"						"%"
 
 		//"CombatRegenPercent_label"						"Health Regen in Combat"
@@ -1293,7 +1413,9 @@
 		"DamageDuration_label"						"Длительность"
 		"DamageDuration_postfix"						" с."
 
+		"RegenWhileInvisible_label"				"Восстановление здоровья (невидимость)"
 		"RegenWhileInvisible_prefix"			"+"
+		"DamageRadius_label"						"Радиус нанесения урона"
 		"DamageRadius_postfix"						" м"
 
 		//"RestoreDelay_label"							"Restore Delay"
@@ -1308,6 +1430,8 @@
 		"TechShieldMaxHealth_label"					"к прочности щита от спиритизма"
 
 		"ActiveBulletShieldMaxHealth_prefix"		"{s:sign}"
+		"ActiveBulletShieldMaxHealth_label"			"Прочность щита от пуль"
+
 		"WeaponPowerPerKill_label"			"к урону от пуль за убийство"
 		"WeaponPowerPerKill_prefix"			"+"
 		"WeaponPowerPerKill_postfix"		"%"
@@ -1318,6 +1442,7 @@
 		"BonusZoomPercent_label"				"к приближению оружием"
 		"BonusZoomPercent_postfix"				"%"
 
+		"MaxDPS_label"						"Макс. урон в секунду"
 		//"DamageOnHit_label"					"Damage on Hit"
 		"ProcCooldown_label"					"Мин. интервал срабатывания"
 		"ProcCooldown_postfix"				" с."
@@ -1342,14 +1467,20 @@
 
 		"ActiveBonusFireRate_label"			"к скорострельности"
 		"ActiveBonusFireRate_postfix"		"%"
+		"SurgeDelay_label"					"Задержка"
 		"SurgeDelay_postfix"				" с."
-"FervorMovespeed_postfix"	" м/с"
+
+		//"upgrade_fervor/modifier_fervor/modifier_fervor_damage_stack"	"Fervor Stack"
+		//"upgrade_fervor/modifier_fervor/modifier_fervor_bonuses"	"Enrage Bonuses"
+		"FervorMovespeed_label"		"Скорость передвижения"
+		"FervorMovespeed_postfix"	" м/с"
 		"FervorFireRate_label"		"к скорострельности"
 		"FervorFireRate_postfix"	"%"
 		//"FervorDebuffResistance_label"		"Enrage Debuff Resistance"
 		"FervorDebuffResistance_postfix"	"%"
 		"FervorTechResist_label"			"к сопр. спиритизму"
 
+		"PassiveFireRate_label"		"Скорострельность"
 		"PassiveFireRate_postfix"	"%"
 
 		"TechDamagePercent_Label"	"Урон"
@@ -1366,9 +1497,11 @@
 		"BonusBulletDamageToEMPTargets_postfix" "%"
 		"modifier_silencer_proc_active"	"ГЛУШИТЕЛЬ"
 
+		"BulletDamageReflectedPct_label"					"Возвращение урона от пуль"
 		"BulletDamageReflectedPct_postfix"					"%"
 		"SpiritDamageReflectedPct_label"					"Возвращение спиритического урона"
 		"SpiritDamageReflectedPct_postfix"					"%"
+		"DamageReflectedFrequencyPct_label"				"Шанс срабатывания"
 		"DamageReflectedFrequencyPct_postfix"			"%"
 		"modifier_armor_reactive_armor"					"Обратный огонь"
 		"ReturnFireBulletResist_prefix"					"+"
@@ -1404,7 +1537,10 @@
 		"ActiveHealthChange_postfix"			" здоровья"
 		//"ActiveWeaponDamageChange_label"		"Weapon Damage Steal"
 		"ActiveWeaponDamageChange_postfix"    "%"
-//"SiphonRadius_label"					"Activate Radius"
+
+		//"modifier_upgrade_siphon_buff"		"Siphon"
+		"modifier_upgrade_siphon_debuff"		"Украдено здоровья"
+		//"SiphonRadius_label"					"Activate Radius"
 		"SiphonRadius_postfix"				" м"
 
 		"TechResistDuration_label"			"Длительность"
@@ -1413,7 +1549,10 @@
 		"BleedTechResist_label"				"Спиритическая устойчивость"
 		"BleedTechResist_prefix"				"{s:sign}"
 		"BleedTechResist_postfix"				"%"
-"StackDuration_postfix"			" с."
+
+		//"StackProcDamage_label"			"Burst Damage"
+		"StackDuration_label"				"Длительность ед. эффекта"
+		"StackDuration_postfix"			" с."
 
 		"HeadShotBonusDamage_prefix"		"{s:sign}"
 		"HeadShotBonusDamage_label"			"к урону при попадании в голову"
@@ -1424,6 +1563,8 @@
 		//"upgrade_leveler/headshot_cooldown_modifier"	"Head Shot Bonus Cooldown"
 		//"ActiveChainDuration_label"			"Tether Duration"
 		"ActiveChainDuration_postfix"		" с."
+		"ActiveBulletArmorReduction_label"	"Снижение сопротивляемости пулям"
+
 		//"modifier_galvanic_storm"				"Galvanic Storm"
 		//"BuildupPerProc_label"				"Buildup on Shock"
 		"BuildupPerProc_postfix"				"%"
@@ -1464,6 +1605,7 @@
 		//"StackLossFrequency_label"			"Resist Loss Frequency"
 		"StackLossFrequency_postfix"			" с."
 
+		"MaxBulletResist_label"				"Макс. сопротивляемость пулям"
 		"MaxBulletResist_postfix"				"%"
 
 		"upgrade_berserker/modifier_berserker/modifier_berserker_damage_stack"		"Берсерк"
@@ -1541,6 +1683,7 @@
 		//"Cloaked"								"Cloaked"
 
 		"zipline_boost"							"Ускорение на зиплайне"
+		"ActiveTechPower_label"					"Спиритическая мощь"
 		"ActiveTechPower_prefix"				"+"
 
 		//"ActiveBulletShieldHealth_label"		"Active Shield Health"
@@ -1557,6 +1700,9 @@
 		"StealDuration_postfix"					" с."
 
 		"VeilCross_conditional"					"при пересечении вселенской вуали"
+		"modifier_veil_walker_triggered"			"Скорострельность в незримом покрове"
+		"modifier_veil_walker_stealth"			"Невидимость в незримом покрове"
+
 		"InvisDuration_label"						"Длительность невидимости"
 		"InvisDuration_postfix"					" с."
 
@@ -1575,10 +1721,12 @@
 		"RespawnHealthPercent_label"				"Здоровье после перерождения"
 		"RespawnHealthPercent_postfix"			"%"
 
+		"ActiveBonusMoveSpeed_label"					"к скорости передвижения"
 		"ActiveBonusMoveSpeed_prefix"					"{s:sign}"
 		"ActiveBonusMoveSpeed_postfix"					" м/с"
 		"ActiveItemUse_conditional"					"когда активен"
 
+		"BuffMoveSpeedBonus_label"						"к скорости передвижения"
 		"BuffMoveSpeedBonus_postfix"						" м/с"
 		"BuffMoveSpeedBonus_prefix"						"{s:sign}"
 
@@ -1644,9 +1792,9 @@
 		"StaminaRegenPercent_label"			"Восстановление выносливости"
 		"StaminaRegenPercent_postfix"		"%"
 
-		//crow_mask_1824_comment
-		// crow_mask_1825_comment
-		//crow_mask_1826_comment
+		//crow_mask_1827_comment
+		// crow_mask_1828_comment
+		//crow_mask_1829_comment
 
 
 

@@ -134,7 +134,7 @@
 		//"StatDesc_IncomingMeleeDamageReduction"			"Melee Damage Armor"
 		//"StatDesc_IncomingMeleeDamageScale"				"Melee Damage Scale"
 		"StatDesc_TechArmor"							"Armure spirituelle"				
-		"StatDesc_TechArmorDamageReduction"		 		"Résist. spirituelle"
+		"StatDesc_TechArmorDamageReduction"		 		"Résist. spirit."
 		"StatDesc_TechArmorDamageReduction_postfix"		" %"
 		//"StatDesc_IncomingAbilityDamageReduction"		"Ability Armor"
 		//"StatDesc_IncomingAbilityDamageScale"			"Ability Damage Scale"
@@ -202,6 +202,8 @@
 		"StatDesc_DebuffResist_postfix"					" %"
 		"StatDesc_HealingOutput"						"Amp. des soins"
 		"StatDesc_HealingOutput_postfix"				" %"
+		"StatDesc_CritDamageBonusScale"					"Échelle de dégâts critiques bonus"
+		"StatDesc_CritDamageBonusScale_postfix"			" %"
 
 		"StatDesc_BulletSpeed"							"Vitesse des balles"
 		"StatDesc_BulletSpeed_postfix"					" m/s"
@@ -444,7 +446,8 @@
 		"BonusMoveSpeed_prefix"							"{s:sign}"
 		"BonusMoveSpeed_label"						"Vitesse de déplacement"
 		"BonusMoveSpeed_postfix"						" m/s"
-
+		
+		"TeleporterBonus"							"Vitesse de déplacement bonus !"
 		"RunSpeed_postfix"						" m/s"
 
 		"WeaponRange_label"							"Portée de l'arme"
@@ -719,7 +722,6 @@
 		//"EvasionPercentGlider_label"					"Evasion Chance Gliding"
 		"EvasionPercentGlider_postfix"					" %"
 
-		"EvasionPercent_label"						"Chances d'évasion"
 		"EvasionPercent_postfix"						" %"
 
 		//"MeleeDamagePercent_label"					"Melee Damage Bonus"
@@ -1790,9 +1792,9 @@
 		"StaminaRegenPercent_label"			"Régénération d'endurance"
 		"StaminaRegenPercent_postfix"		" %"
 
-		//crow_mask_1824_comment
-		// crow_mask_1825_comment
-		//crow_mask_1826_comment
+		//crow_mask_1827_comment
+		// crow_mask_1828_comment
+		//crow_mask_1829_comment
 
 
 

@@ -202,6 +202,8 @@
 		"StatDesc_DebuffResist_postfix"					" %"
 		"StatDesc_HealingOutput"						"Amp. de curación"
 		"StatDesc_HealingOutput_postfix"				" %"
+		"StatDesc_CritDamageBonusScale"					"Escala de críticos adicional"
+		"StatDesc_CritDamageBonusScale_postfix"			" %"
 
 		"StatDesc_BulletSpeed"							"Velocidad de las balas"
 		"StatDesc_BulletSpeed_postfix"					" m/s"
@@ -444,7 +446,8 @@
 		"BonusMoveSpeed_prefix"							"{s:sign}"
 		"BonusMoveSpeed_label"						"de vel. de movimiento"
 		"BonusMoveSpeed_postfix"						" m/s"
-
+		
+		"TeleporterBonus"							"¡Velocidad de movimiento adicional!"
 		"RunSpeed_postfix"						" m/s"
 
 		"WeaponRange_label"							"de alcance del arma"
@@ -719,7 +722,6 @@
 		//"EvasionPercentGlider_label"					"Evasion Chance Gliding"
 		"EvasionPercentGlider_postfix"					" %"
 
-		"EvasionPercent_label"						"de probabilidad de evasión"
 		"EvasionPercent_postfix"						" %"
 
 		//"MeleeDamagePercent_label"					"Melee Damage Bonus"
@@ -1008,6 +1010,7 @@
 		//"HealthCost_label"							"Health Cost"
 
 		"ZipLineSpeedPercent_prefix"					"{s:sign}"
+		"ZipLineSpeedPercent_label"						"de velocidad en la vía rápida"
 		"ZipLineSpeedPercent_postfix"					" %"
 		
 		//"ZiplineJumpBonusDuration_label"					"Jump Off Duration"
@@ -1501,6 +1504,10 @@
 		"DamageReflectedFrequencyPct_label"				"de probabilidad de activación"
 		"DamageReflectedFrequencyPct_postfix"			" %"
 		"modifier_armor_reactive_armor"					"Fuego devuelto"
+		"ReturnFireBulletResist_prefix"					"+"
+		"ReturnFireBulletResist_label"					"de resist. a balas"
+		"ReturnFireBulletResist_postfix"					" %"
+
 		//"RespawnBonusHealth_label"							"Respawn Bonus Health"
 		//"RespawnBonusHealthDuration_label"					"Respawn Bonus Health Duration"
 		"RespawnBonusHealthDuration_postfix"				" s"
@@ -1778,11 +1785,16 @@
 		"SummonDuration_postfix" 				" s"
 
 		"Reloaded"							"¡Has recargado!"
+		"BonusAmmo"							"¡Munición adicional!"
+
 		"ExplodeDamage_label"				"de daño al explotar"
 
-		//crow_mask_1824_comment
-		// crow_mask_1825_comment
-		//crow_mask_1826_comment
+		"StaminaRegenPercent_label"			"de regeneración de aguante"
+		"StaminaRegenPercent_postfix"		" %"
+
+		//crow_mask_1827_comment
+		// crow_mask_1828_comment
+		//crow_mask_1829_comment
 
 
 

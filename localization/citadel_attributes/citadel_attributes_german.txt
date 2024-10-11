@@ -169,7 +169,7 @@
 		"StatDesc_TechCooldownBetweenCharges_postfix"	" %"
 		"StatDesc_TechRange"							"Fähigkeitsreichweite"
 		"StatDesc_TechRange_postfix"					" %"
-		"StatDesc_MaxChargesIncrease"					"Zusätzliche Aufladungen"
+		"StatDesc_MaxChargesIncrease"					"zusätzliche Aufladungen"
 		//"StatDesc_RechargeRate"							"Recharge Rate"
 		"StatDesc_TechDuration"							"Fähigkeitsdauer"
 		"StatDesc_TechDuration_postfix"					" %"
@@ -202,6 +202,8 @@
 		"StatDesc_DebuffResist_postfix"					" %"
 		"StatDesc_HealingOutput"						"Heilungsverstärkung"
 		"StatDesc_HealingOutput_postfix"				" %"
+		"StatDesc_CritDamageBonusScale"					"Bonusskalierung des krit. Schadens"
+		"StatDesc_CritDamageBonusScale_postfix"			" %"
 
 		"StatDesc_BulletSpeed"							"Kugeltempo"
 		"StatDesc_BulletSpeed_postfix"					" m/s"
@@ -444,7 +446,8 @@
 		"BonusMoveSpeed_prefix"							"{s:sign}"
 		"BonusMoveSpeed_label"						"Bewegungstempo"
 		"BonusMoveSpeed_postfix"						" m/s"
-
+		
+		"TeleporterBonus"							"Bonusbewegungstempo!"
 		"RunSpeed_postfix"						" m/s"
 
 		"WeaponRange_label"							"Waffenreichweite"
@@ -719,7 +722,6 @@
 		//"EvasionPercentGlider_label"					"Evasion Chance Gliding"
 		"EvasionPercentGlider_postfix"					" %"
 
-		"EvasionPercent_label"						"Ausweichchance"
 		"EvasionPercent_postfix"						" %"
 
 		//"MeleeDamagePercent_label"					"Melee Damage Bonus"
@@ -1790,9 +1792,9 @@
 		"StaminaRegenPercent_label"			"Ausdauerregeneration"
 		"StaminaRegenPercent_postfix"		" %"
 
-		//crow_mask_1824_comment
-		// crow_mask_1825_comment
-		//crow_mask_1826_comment
+		//crow_mask_1827_comment
+		// crow_mask_1828_comment
+		//crow_mask_1829_comment
 
 
 

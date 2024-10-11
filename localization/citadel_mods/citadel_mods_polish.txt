@@ -161,7 +161,7 @@
 		//"upgrade_attack_speed_2_desc"	"Increases your <span class=\"highlight\">Fire Rate</span>."
 
 		//Spiritual Overflow
-		"upgrade_tech_overflow_desc"	"Zyskaj dodatkową <span class=\"highlight\">moc spirytualną</span> po <span class=\"highlight\">naładowaniu jej</span> przez zadawanie obrażeń od nabojów wrogim bohaterom."
+		"upgrade_tech_overflow_desc"	"Zyskaj dodatkową <span class=\"highlight\">szybkostrzelność</span> oraz <span class=\"highlight\">moc spirytualną</span> przez <span class=\"highlight\">naładowanie</span>, gdy strzelasz we wrogich bohaterów."
 		"modifier_tech_overflow"		"Spirytualny Rozlew"
 		"modifier_tech_overflow_building" "Kumulacja Spirytualnego Rozlewu…"
 
@@ -227,6 +227,8 @@
 		//Frenzy
 		"upgrade_fervor_passive"	"Gdy masz <span class=\"highlight\">mniej niż {s:LowHealthThreshold}% zdrowia</span>, zyskujesz premie do statystyk."
 		"FervorTechResist_postfix"  "%"
+		"modifier_fervor_aura_active"		"Szaleństwo"
+
 
 		//Old Frenzy
 		//"upgrade_frenzy_vampire_desc"	"Your <span class=\"highlight\">bullets heal you</span> for a percentage of the damage they deal to enemies.<br><br>When an enemy is below {s:LowHealthPercentThreshold}% health you gain an additional <span class=\"highlight\">{s:LowHealthLifeStealPercent}% Bullet Lifesteal</span> against them."
@@ -265,6 +267,7 @@
 		"upgrade_surging_power_active"	"Przyznaje <span class=\"highlight\">kradzież zdrowia</span>, <span class=\"highlight\">szybkostrzelność</span> i <span class=\"highlight\">amunicję</span>. Ta dodatkowa amunicja nie jest ograniczana przez rozmiar twojego magazynka."
 		"ActiveBonusLifesteal_label"		"Kradzież zdrowia z nabojów"
 		"ActiveBonusLifesteal_postfix"	"%"
+		"modifier_surging_power"		 "Narastająca Moc"
 		//"upgrade_surging_power/surge/windup"					"Surging Power"
 		//"upgrade_surging_power/surge/active"					"Surging Power"
 		//"upgrade_surging_power/surge"					"Surging Power"
@@ -392,7 +395,7 @@
 
 		//Escalating Exposure
 		"upgrade_escalating_exposure_desc"	"Zadawanie <span class=\"highlight\">obrażeń spirytualnych</span> nakłada kumulujące się <span class=\"highlight\">wzmocnienie spirytualne</span>, które zwiększa <span class=\"highlight\">obrażenia spirytualne</span> zadawane celowi."
-		"upgrade_escalating_exposure/modifier_proc_watcher/modifier_debuff"		"Zmniejszony pancerz spirytualny"
+		"upgrade_escalating_exposure/modifier_proc_watcher/modifier_debuff"		"Wzbierające Wystawienie"
 		"EscalatingExposureProcCooldown_label"	"Maksymalna częstotliwość na cel"
 		"EscalatingExposureProcCooldown_postfix"	" s"
 		"EscalatingExposureTechArmorDamageReduction_label"	"Odporność spirytualna po zadaniu obrażeń spirytualnych"
@@ -485,7 +488,7 @@
 		"SpiritPower_prefix"					"+"
 
 		//Ethereal Shift
-		"upgrade_self_bubble_desc"			"Przechodzisz w stan pustki i stajesz się <span class=\"highlight\">nieobieralny za cel i nietykalny</span> na krótki czas, w którym nie możesz się poruszać ani wykonywać żadnych działań. Następnie <span class=\"highlight\">natychmiastowo przeładowujesz swoją broń</span> oraz zyskujesz dodatkową <span class=\"highlight\">moc spirytualną</span>.<br>Efekt można anulować wcześniej."
+		"upgrade_self_bubble_desc"			"Przechodzisz w stan pustki i stajesz się <span class=\"highlight\">nieobieralny za cel i nietykalny</span> na krótki czas, w którym nie możesz się poruszać ani wykonywać żadnych działań. Następnie <span class=\"highlight\">natychmiastowo przeładowujesz swoją broń</span> oraz zyskujesz dodatkową <span class=\"highlight\">moc spirytualną</span>."
 		"ShiftingVeilDuration_label"			"Czas trwania"
 		"ShiftingVeilDuration_postfix"		" s"
 		"BonusSpiritDuration_label"			"Czas trwania dodatkowego spirytualizmu"
@@ -588,6 +591,7 @@
 
 		//Infuser
 		"upgrade_infuser_desc"			"Zyskujesz <span class=\"highlight\">moc spirytualną</span> i <span class=\"highlight\">spirytualną kradzież zdrowia</span>."
+		"modifier_infuser" "Napełniacz"
 
 		//Spirit Strike
 		"upgrade_acolytes_glove_desc"			"Kiedy wykonujesz <span class=\"highlight\">lekki lub mocny atak wręcz</span> przeciwko bohaterowi, zadajesz dodatkowe <span class=\"highlight\">obrażenia spirytualne</span> tym atakiem i redukujesz <span class=\"highlight\">odporność spirytualną</span> celu."
@@ -653,7 +657,7 @@
 		//Healing Rite
 		"upgrade_health_stimpak_desc"					"Przyznaj celowi <span class=\"highlight\">regenerację</span> i premię do <span class=\"highlight\">szybkości sprintu</span>. Ulega rozproszeniu, jeśli otrzymasz obrażenia od wrogich bohaterów lub celów. Można rzucić na siebie."
 		"upgrade_health_stimpak/modifier_stimpak_regen"			"Rytuał Uzdrowienia"
-
+		"modifier_stimpak_regen" "Rytuał Uzdrowienia"
 		//Divine Barrier
 		"upgrade_savior_desc"				"Przyznaj celowi <span class=\"highlight\">tarczę kuloodporną, tarczę spirytualną i premię do szybkości ruchu</span>. Można rzucić na siebie."
 		"SaviorBulletShieldHealth_label"		"Tarcza kuloodporna"
@@ -932,10 +936,10 @@
 		"HealOnlevelHealAmount_label"	"Wartość leczenia"
 		"upgrade_heal_on_level/heal_on_level_buff"			"Leczenie na poziom"
 
-		//crow_mask_934_comment
-		//crow_mask_935_comment
-		//crow_mask_936_comment
-		//crow_mask_937_comment
 		//crow_mask_938_comment
+		//crow_mask_939_comment
+		//crow_mask_940_comment
+		//crow_mask_941_comment
+		//crow_mask_942_comment
 	}
 }

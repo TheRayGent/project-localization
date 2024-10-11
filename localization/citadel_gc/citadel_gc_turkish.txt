@@ -323,6 +323,7 @@
 		"hero_slork"			"Fathom"
 		"hero_targetdummy"		"Hedef Kuklası"
 		"hero_bomber"			"Bomber"
+		"hero_shieldguy"		"Shield Guy"
 
 		//-----------------------------------------------------------------------------
 		// Upgrades: Weapon
@@ -533,7 +534,7 @@
 		"upgrade_superior_stamina"					"Üstün Kuvvet"
 		"upgrade_improved_stamina"					"Ekstra Kuvvet"
 		"upgrade_cardio_calibrator"					"Kalıcı Hız"
-		"upgrade_health_nova"						"Sağlık Dalgası"
+		"upgrade_health_nova"						"İyileştirme Dalgası"
 		//"upgrade_reload_speed"						"Fast Reload"
 		//"upgrade_cloaking_device"					"Cloaking Device"
 		"upgrade_cloaking_device_active"			"Gölge Pelerin"

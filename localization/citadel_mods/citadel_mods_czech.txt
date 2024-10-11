@@ -161,7 +161,7 @@
 		//"upgrade_attack_speed_2_desc"	"Increases your <span class=\"highlight\">Fire Rate</span>."
 
 		//Spiritual Overflow
-		"upgrade_tech_overflow_desc"	"Po <span class=\"highlight\">určitém počtu střel</span>, které zasáhnou nepřátelské hrdiny, získá vlastník <span class=\"highlight\">bonus ke spirituální síle</span>."
+		"upgrade_tech_overflow_desc"	"Po <span class=\"highlight\">určitém počtu zásahů</span> nepřátelských hrdinů získá vlastník bonusy k <span class=\"highlight\">rychlosti střelby</span> a <span class=\"highlight\">spirituální síle</span>."
 		"modifier_tech_overflow"		"Násobič spiritualismu"
 		"modifier_tech_overflow_building" "Narůstání spiritualismu..."
 
@@ -227,6 +227,8 @@
 		//Frenzy
 		"upgrade_fervor_passive"	"Když má vlastník <span class=\"highlight\">méně než {s:LowHealthThreshold} % zdraví</span>, získává bonusy k určitým statistikám."
 		"FervorTechResist_postfix"  " %"
+		"modifier_fervor_aura_active"		"Pud sebezáchovy"
+
 
 		//Old Frenzy
 		//"upgrade_frenzy_vampire_desc"	"Your <span class=\"highlight\">bullets heal you</span> for a percentage of the damage they deal to enemies.<br><br>When an enemy is below {s:LowHealthPercentThreshold}% health you gain an additional <span class=\"highlight\">{s:LowHealthLifeStealPercent}% Bullet Lifesteal</span> against them."
@@ -265,6 +267,7 @@
 		"upgrade_surging_power_active"	"Vlastník získá bonusy k <span class=\"highlight\">vampirismu</span>, <span class=\"highlight\">rychlosti střelby</span> a <span class=\"highlight\">počtu nábojů</span>. Tyto přidané náboje ignorují maximální velikost zásobníku."
 		"ActiveBonusLifesteal_label"		"Balistický vampirismus"
 		"ActiveBonusLifesteal_postfix"	" %"
+		"modifier_surging_power"		 "Nával síly"
 		//"upgrade_surging_power/surge/windup"					"Surging Power"
 		//"upgrade_surging_power/surge/active"					"Surging Power"
 		//"upgrade_surging_power/surge"					"Surging Power"
@@ -392,7 +395,7 @@
 
 		//Escalating Exposure
 		"upgrade_escalating_exposure_desc"	"Kdykoli vlastník udělí <span class=\"highlight\">spirituální poškození</span>, aplikuje na cíl <span class=\"highlight\">sečtení</span> navyšující jeho <span class=\"highlight\">spirituální poškození</span> vůči tomuto cíli."
-		"upgrade_escalating_exposure/modifier_proc_watcher/modifier_debuff"		"Redukovaná spirituální odolnost"
+		"upgrade_escalating_exposure/modifier_proc_watcher/modifier_debuff"		"Eskalující poškození"
 		"EscalatingExposureProcCooldown_label"	"Max. frekvence za cíl"
 		"EscalatingExposureProcCooldown_postfix"	" s"
 		"EscalatingExposureTechArmorDamageReduction_label"	"Odolnost při utržení spirituálního poškození"
@@ -485,7 +488,7 @@
 		"SpiritPower_prefix"					"+"
 
 		//Ethereal Shift
-		"upgrade_self_bubble_desc"			"Vlastník se obklopí prázdnotou a na krátkou dobu se stane <span class=\"highlight\">nezaměřitelným a nezranitelným</span>, nicméně během této doby se nemůže hýbat ani provádět jiné akce. Poté <span class=\"highlight\">okamžitě přebije</span> svoji zbraň a získá bonus ke <span class=\"highlight\">spirituální síle</span>.<br>Vlastník může schopnost ukončit předčasně."
+		"upgrade_self_bubble_desc"			"Vlastník se obklopí prázdnotou a na krátkou dobu se stane <span class=\"highlight\">nezaměřitelným a nezranitelným</span>, nicméně během této doby se nemůže hýbat ani provádět jiné akce. Poté <span class=\"highlight\">okamžitě přebije</span> svoji zbraň a získá bonus ke <span class=\"highlight\">spirituální síle</span>."
 		"ShiftingVeilDuration_label"			"Trvání"
 		"ShiftingVeilDuration_postfix"		" s"
 		"BonusSpiritDuration_label"			"Trvání bonusu ke spirituální síle"
@@ -588,6 +591,7 @@
 
 		//Infuser
 		"upgrade_infuser_desc"			"Vlastník získá bonusy ke <span class=\"highlight\">spirituální síle</span> a <span class=\"highlight\">spirituálnímu vampirismu</span>."
+		"modifier_infuser" "Inspirativní formule"
 
 		//Spirit Strike
 		"upgrade_acolytes_glove_desc"			"Když vlastník zasáhne nepřátelského hrdinu <span class=\"highlight\">slabým nebo silným úderem</span>, udělí mu bonusové <span class=\"highlight\">spirituální poškození</span> a redukuje jeho <span class=\"highlight\">spirituální odolnost</span>."
@@ -653,7 +657,7 @@
 		//Healing Rite
 		"upgrade_health_stimpak_desc"					"Vlastník poskytne cíli <span class=\"highlight\">regeneraci zdraví</span> a bonus k <span class=\"highlight\">rychlosti sprintu</span>. Buff je odstraněn utržením poškození od nepřátelských hráčů nebo struktur. Vlastník může schopnost seslat sám na sebe."
 		"upgrade_health_stimpak/modifier_stimpak_regen"			"Ozdravný obřad"
-
+		"modifier_stimpak_regen" "Ozdravný obřad"
 		//Divine Barrier
 		"upgrade_savior_desc"				"Vlastník poskytne cíli <span class=\"highlight\">balistický štít, spirituální štít a bonus k rychlosti pohybu</span>. Vlastník může schopnost seslat sám na sebe."
 		"SaviorBulletShieldHealth_label"		"Balistický štít"
@@ -930,10 +934,10 @@
 		"HealOnlevelHealAmount_label"	"Hodnota léčení"
 		"upgrade_heal_on_level/heal_on_level_buff"			"Léčivý dar"
 
-		//crow_mask_934_comment
-		//crow_mask_935_comment
-		//crow_mask_936_comment
-		//crow_mask_937_comment
 		//crow_mask_938_comment
+		//crow_mask_939_comment
+		//crow_mask_940_comment
+		//crow_mask_941_comment
+		//crow_mask_942_comment
 	}
 }

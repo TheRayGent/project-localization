@@ -181,7 +181,7 @@
 		"citadel_ability_shieldedsentry"		"迷你炮塔"
 		"citadel_ability_shieldedsentry_quip"	"部署一台自动炮塔"
 		"citadel_ability_shieldedsentry_desc"	"部署一个会<span class=\"highlight\">自动射击敌人</span>的小型炮塔。炮塔在有限的时间后会失效。<br>炮塔获得{s:hero_name} {s:TurretHealthScaling}% 的最大生命值，并具有 {s:TechResist}% 的元灵抗性。炮塔对步兵和目标物造成的伤害较低。"
-		"citadel_ability_shieldedsentry_t1_desc"	"<span class=\"highlight\">+{s:AbilityCharges}</span> 次技能充能，且炮塔会施加 <span class=\"highlight\">+{s:MoveSlowPercent}%</span> 移动减速"
+		"citadel_ability_shieldedsentry_t1_desc"	"炮塔会施加 <span class=\"highlight\">+{s:MoveSlowPercent}%</span> 移动减速"
 		"citadel_ability_shieldedsentry_t2_desc"	"<span class=\"highlight\">+{s:TurretAttackRange}m</span> 攻击范围，<span class=\"highlight\">+{s:AttackSpeedMult}%</span> 炮塔射速"
 
 		//"citadel_ability_shieldedsentry/modifier_bullet_resist_reduction_stack"		"Sentry Bullet Resist Debuff"
@@ -383,7 +383,7 @@
 		"citadel_ability_chrono_pulse_grenade"			"脉冲手雷"
 		"citadel_ability_chrono_pulse_grenade_quip"		"投掷一枚手雷，能够产生脉冲、造成伤害和减速"
 		"citadel_ability_chrono_pulse_grenade_desc"		"投掷一枚手雷，落地后开始产生脉冲。每次脉冲会让{s:hero_name}对受害者造成<span class=\"highlight\">伤害、移动减速，并叠加伤害增幅</span>。"
-		"citadel_ability_chrono_pulse_grenade_t3_desc"		"每叠加一层，会 <span class=\"highlight\">+{s:PulseDamage}</span> 脉冲伤害并 <span class=\"highlight\">+{s:PulseGrenadeDamageAmplificationPerStack}%</span> 伤害增强。"
+		"citadel_ability_chrono_pulse_grenade_t3_desc"		"每次发出脉冲 <span class=\"highlight\">+{s:PulseDamage}</span> 脉冲伤害及 <span class=\"highlight\">+{s:RadiusIncreasePerPulse}m</span> 半径。"
 		"Pulses_label"                           			 "脉冲数"
 		"InitialDamage_label"									"初始伤害"
 		"PulseDamage_label"									"脉冲伤害"
@@ -705,11 +705,6 @@
 		//-----------------------------------------------------------------------------
 		// Haze
 		//-----------------------------------------------------------------------------
-		//"citadel_ability_poison_bullets"			"Tranquilizer Bullets"
-		//"citadel_ability_poison_bullets_desc"		"Apply tranquilizer to your victim until they fall asleep. Sleeping victims cannot act and take damage when they wake up."
-		//"modifier_citadel_posion_bullets_shot_watcher"	"Tranquilizer Bullets"
-		//"modifier_citadel_posion_bullets_poisoned"	"Asleep"
-		//"modifier_citadel_posion_bullets_poison_buildup"	"Sleepy"
 
 		"ability_sleep_dagger"			"沉睡匕首"
 		"ability_sleep_dagger_quip"		"让一名敌人入睡"
@@ -756,10 +751,10 @@
 
 		"ability_bullet_flurry"			"子弹之舞"
 		"ability_bullet_flurry_quip"	"向四周爆发一阵弹雨"
-		"ability_bullet_flurry_desc"	"进入爆发状态，以<span class=\"highlight\">完美精准度</span>向附近敌人<span class=\"highlight\">发射子弹</span>。在爆发期间，{s:hero_name}获得射速加成，并将闪避向她发射的部分子弹。"
-		//"ability_bullet_flurry/modifier_citadel_bullet_flurry"		"Bullet Flurry"
+"BonusWeaponDamage_prefix"				"+"
 		"BonusWeaponDamage_label"				"子弹伤害"
-
+		"DanceMoveSpeed_label"			"弹舞移动速度"
+		"DanceMoveSpeed_postfix"		"m/s"
 		//-----------------------------------------------------------------------------
 		// Sumo // dynamo
 		//-----------------------------------------------------------------------------
@@ -767,7 +762,7 @@
 		"citadel_ability_stomp_quip"			"在地面上发出一道脉冲，将敌人击至半空"
 		"citadel_ability_stomp_desc"			"发出一道能量脉冲，将敌人击至半空。"
 		"citadel_ability_stomp_t1_desc"			"被击中的敌人<span class=\"highlight\">射速和移动速度减缓</span> <span class=\"highlight\">{s:SlowPercent}%</span>，持续 <span class=\"highlight\">{s:SlowDuration}s</span>。"
-		"citadel_ability_stomp_t2_desc"			"{s:hero_name}对击中的英雄 提高<span class=\"highlight\">{s:BulletArmorReduction}% 武器伤害</span>，持续 <span class=\"highlight\">{s:BulletArmorReductionDuration}s</span>"
+		"citadel_ability_stomp_t2_desc"			"{s:hero_name}对击中的敌人增加 <span class=\"highlight\">{s:BulletArmorReduction}% 武器伤害</span>，持续 <span class=\"highlight\">{s:BulletArmorReductionDuration}s</span>"
 		"StompRange_label"						"脉冲射程"
 		"StompRange_postfix"					"m"
 		//"stomp_buff_modifier"						"+Fire Rate"
@@ -780,7 +775,7 @@
 		"citadel_ability_void_sphere"				"量子闪现"
 		"citadel_ability_void_sphere_quip"		"瞬间消失并重新出现"
 		"citadel_ability_void_sphere_desc"		"{s:hero_name}短暂<span class=\"highlight\">消失于虚空之中</span>，随后在不远处重新出现。重新出现时，武器<span class=\"highlight\">重新装填</span>，并在使用该弹匣时获得<span class=\"highlight\">射速加成</span>（最高 {s:FireRateBonusDurationMax}s）。按 [{s:key_alt_cast}] 施放时还将带上附近友军，并使其获得一半的射速加成。"
-		"citadel_ability_void_sphere_t3_desc"		"重新出现时，<span class=\"highlight\">+{s:BonusClipSizePercent}%</span> 基础弹药"
+		"citadel_ability_void_sphere_t3_desc"		"重新出现时，<span class=\"highlight\">{s:AbilityCooldown}s</span> 技能冷却并 <span class=\"highlight\">+{s:BonusClipSizePercent}%</span> 基础弹药"
 		"modifier_void_sphere"					"量子闪现"
 		//"modifier_voidsphere_buff"				"Void Sphere +Fire Rate"
 		"AllyDistance_label"						"友军距离"
@@ -1133,7 +1128,7 @@
 
 		"ability_ice_dome"				"冰冻庇护"
 		"ability_ice_dome_quip"			"形成一个无法穿透的治疗罩"
-		"ability_ice_dome_desc"			"{s:hero_name}冻结周围的空气，在自己周围形成一个<span class=\"highlight\">无法穿透的罩子</span>。罩子中的友军可以快速<span class=\"highlight\">恢复生命值</span>，而罩子中的敌人则会<span class=\"highlight\">减速</span>。"
+		"ability_ice_dome_desc"			"{s:hero_name}冻结周围的空气，在自己周围形成一个<span class=\"highlight\">无法穿透的罩子</span>。罩子中的友军可以快速<span class=\"highlight\">恢复生命值</span>，而罩子中的敌人则会<span class=\"highlight\">减速</span>。<br>冰冻庇护下的目标变得无敌并被冻结。"
 		"ability_ice_dome_t1_desc"		"<span class=\"highlight\">+{s:FireRateSlow}%</span> 射速减缓"
 		"ability_ice_dome_t3_desc"		"<span class=\"highlight\">+{s:BonusHealthRegen}</span> 生命恢复，现在此值会随元灵力量变化而变化。"
 		"ability_ice_dome/modifier_ice_dome/modifier_debuff"						"冰冻庇护"
@@ -1146,7 +1141,7 @@
 		//-----------------------------------------------------------------------------
 		"citadel_ability_uppercut"				"爆炸勾拳"
 		"citadel_ability_uppercut_quip"			"将别人从你身边打飞"
-		"citadel_ability_uppercut_desc"			"对附近的单位造成<span class=\"highlight\">近战轻攻击</span>伤害，并将其<span class=\"highlight\">击飞</span>，在其落地处造成<span class=\"highlight\">范围伤害</span>。不会对友军造成伤害。"
+		"citadel_ability_uppercut_desc"			"对附近的单位造成<span class=\"highlight\">近战轻攻击</span>伤害，并将其<span class=\"highlight\">击飞</span>，在其落地处造成<span class=\"highlight\">范围伤害</span>和<span class=\"highlight\">射速减缓</span>。不会对友军造成伤害。"
 		"citadel_ability_uppercut_t2_desc"		"对敌方英雄使用上勾拳时，获得<span class=\"highlight\">快速旋转时间、2 倍射程和 +{s:BuffBaseWeaponPct}% 武器伤害</span>，持续 {s:UppercutBuffOnHit}s"
 		"citadel_ability_uppercut_t3_desc"		"对敌方英雄使用上勾拳时，将<span class=\"highlight\">钩子的冷却时间设为 0</span>，并立即将 <span class=\"highlight\">+{s:ClipSizeBonus}% 子弹</span>添加到当前弹匣中。"
 		//"modifier_citadel_enemy_uppercutted"	"Uppercutted!"
@@ -1160,10 +1155,12 @@
 		"StunOnLand_postfix"					"s"
 		//"UppercutBuffOnHit_label"				"Boost Duration"
 		"UppercutBuffOnHit_postfix"				"s"
+		"ExplodeDebuffDuration_label"			"射速减缓持续时间"
+		"ExplodeDebuffDuration_postfix"			"s"
 
 		"citadel_ability_sticky_bomb"			"粘性炸弹"
 		"citadel_ability_sticky_bomb_quip"		"在目标身上放置炸弹"
-		"citadel_ability_sticky_bomb_desc"		"将粘性炸弹附着到附近目标身上，在短暂的引信时间后造成<span class=\"highlight\">爆炸伤害</span>。<br>每命中一个敌人，获得 <span class=\"highlight\">+{s:BonusDamagePctPerPlayerHit}% 炸弹伤害</span>。<br>按住 [{s:key_alt_cast}] 将粘性炸弹施放到自己身上。"
+		"citadel_ability_sticky_bomb_desc"		"将粘性炸弹附着到附近目标身上，在短暂的引信时间后造成<span class=\"highlight\">爆炸伤害</span>。<br>每命中一个敌人，获得会造成 <span class=\"highlight\">+{s:BonusDamagePctPerPlayerHit}% 炸弹伤害</span>的炸弹叠加（最多叠加 {s:BonusMaxStacks} 层）。死亡时会失去 {s:BonusLossPerDeath} 层叠加。<br>按住 [{s:key_alt_cast}] 可将粘性炸弹施放到自己身上。"
 		"modifier_citadel_sticky_bomb_attached"	"炸弹附身"
 		"citadel_ability_sticky_bomb_t3_desc"	"附着后，对目标<span class=\"highlight\">缴械</span>，持续 <span class=\"highlight\">{s:DebuffDuration}s</span>"
 		"StunTargetOnExplode_label"				"持续时间"
@@ -1336,11 +1333,11 @@
 
 		
 		"ability_nano_pounce"						"迅猛突袭"
-		"ability_nano_pounce_quip"				"跳向目标"
-		"ability_nano_pounce_desc"				"<span class=\"highlight\">跳向</span>目标，造成<span class=\"highlight\">近战轻攻击伤害</span>。瞄准敌人会对附近敌人造成<span class=\"highlight\">减速</span>。瞄准友军会缩短冷却时间和充能时间。"
+		"ability_nano_pounce_quip"				"跳向你的敌人"
+		"ability_nano_pounce_desc"				"<span class=\"highlight\">跳向</span>目标，造成<span class=\"highlight\">近战轻攻击伤害</span>并对附近的敌人施加<span class=\"highlight\">减速</span>效果。<br>如果在 <span class=\"highlight\">{s:DoublePounceTime}s </span>内使用，你还可以<span class=\"highlight\">扑向第二个目标</span>。"
 		"ability_nano_pounce_t1_desc"			"<span class=\"highlight\">+{s:SlowDuration}s</span> 减速持续时间"
-		"ability_nano_pounce_t2_desc"			"<span class=\"highlight\">+{s:FireRateSlow}%</span> 射速减缓及 <span class=\"highlight\">+{s:PounceDebuffRadius}m</span> 减速半径"
-		"ability_nano_pounce_t3_desc"			"<span class=\"highlight\">+{s:AbilityCharges}</span> 次技能充能，且装填最多 <span class=\"highlight\">{s:ActiveReloadPercent}%</span> 的弹药"
+		"ability_nano_pounce_t2_desc"			"装填最多 <span class=\"highlight\">{s:ActiveReloadPercent}%</span> 的弹药，并施加 <span class=\"highlight\">+{s:FireRateSlow}%</span> 射速减缓。"
+		"ability_nano_pounce_t3_desc"			"<span class=\"highlight\">+{s:Damage}</span> 伤害及 <span class=\"highlight\">+{s:AbilityCharges}</span> 技能充能数。"
 		"PounceDebuffRadius_label"					"减速半径"
 		"PounceDebuffRadius_postfix"					"m"
 		
@@ -1348,10 +1345,11 @@
 		"PounceFriendlyRechargeTime_postfix"			"s"
 		"PounceFriendlyTargetCD_label"				"友军冷却时间"
 		"PounceFriendlyTargetCD_postfix"			"s"
+		"pounce_double_notify"					"二段飞扑"
 
-		"ability_nano_proximity_ritual"			"弱肉强食"
+		"ability_nano_proximity_ritual"			"艾娃"
 		"ability_nano_proximity_ritual_quip"	"部署同伴以攻击敌人"
-		"ability_nano_proximity_ritual_desc"	"部署<span class=\"highlight\">艾娃</span>，<span class=\"highlight\">集中攻击</span>一名附近的敌人。目标敌人受到任何友军伤害时减少治疗，并为{s:hero_name}提供生命值。艾娃只有在{s:hero_name}附近时才会激活。<br>当{s:hero_name}靠近时，按 [3] 可召回艾娃，召回时艾娃会恢复生命值。"
+		"ability_nano_proximity_ritual_desc"	"部署<span class=\"highlight\">艾娃</span>，<span class=\"highlight\">使其专注于</span>一名附近的敌人。目标敌人的治疗会减少，并且在受伤时会<span class=\"highlight\">为艾娃和{s:hero_name}提供治疗</span>。<span class=\"highlight\">艾娃只有在{s:hero_name}附近时才会激活</span>。<br>按下<span class=\"highlight\"> [3] </span>召回艾娃。<br>按下<span class=\"highlight\">[副施放]</span>召回并传送到艾娃的位置。<br>距离艾娃越远，召回/传送时间越长。艾娃在召回期间会恢复生命值。"
 		"StatueLifetime_label"					"自动召回时间"
 		"StatueLifetime_postfix"				"s"
 		"StatueHeldRegen_label"						"召回艾娃恢复"
@@ -1363,20 +1361,23 @@
 		"StatueActivateRange_postfix"			"m"
 		"StatueHealth_label"					"艾娃（正常化）"
 		"StatueHealth_postfix"					"生命值"
-		"ability_nano_proximity_ritual_t1_desc"  "艾娃 <span class=\"highlight\">+{s:StatueHealth}</span> 生命值"
-		//"ability_nano_proximity_ritual_t2_desc"  "Victims receive <span class=\"highlight\">{s:FireRateSlow}%</span> Fire Rate Slow and <span class=\"highlight\">+{s:ActiveRadius}m</span> Active Radius"
+		"StatueVictimDamageReduction_label"					"伤害降幅"
+		"StatueVictimDamageReduction_postfix"				"%"
+
+		"ability_nano_proximity_ritual_t1_desc"  "<span class=\"highlight\">+{s:StatueLifesteal}%</span> 吸血"
+		"ability_nano_proximity_ritual_t2_desc"  "<span class=\"highlight\">+{s:DPS}</span> DPS，且受害者对{s:hero_name}造成的伤害减少 <span class=\"highlight\">{s:StatueVictimDamageReduction}%</span>。"
 		"ability_nano_proximity_ritual_t3_desc"  "伤害增强 <span class=\"highlight\">+{s:DamageAmplification}%</span> 且受害者治疗减少 {s:HealAmpReceivePenaltyPercent}% 。"
 		"ability_nano_proximity_ritual_trigger"		"召回艾娃"
 
 		"AvaRecallCooldown_label"				"召回冷却时间"
 		"AvaRecallCooldown_postfix"				"s"
-		"AvaResummonCooldown_label"				"再次施放冷却时间"
-		"AvaResummonCooldown_postfix"			"s"
 		"AbilityButtonHint_AvaRecall"			"召回艾娃"
+		"AbilityButtonHint_AvaWarp"			"传送至艾娃"
+		"CITADEL_ABILITY_NO_HEALTH_RESOURCE"	"不可用"
 
-		"ability_nano_ult_shadow"				"幽冥女王"
-		"ability_nano_ult_shadow_desc"			"将自己隐藏在阴影中，进入<span class=\"highlight\">隐身</span>状态。攻击不会打破隐身，但会暂时暴露你。使用<span class=\"highlight\">近战伤害</span>击中敌人时会降低他们的子弹抗性（可叠加）。"
-		"modifier_nano_ult_shadow"			"幽冥女王"
+		"ability_nano_shadow_step"				"幽影瞬步"
+		"ability_nano_shadow_step_desc"			"将自己笼罩在阴影中，增强你的攻击并使你的冲刺进入<span class=\"highlight\">隐身</span>状态。使用<span class=\"highlight\">近战伤害</span>击中敌人时会降低他们的子弹抗性（可叠加）。"
+		"modifier_nano_shadow_step"			"幽影瞬步"
 		"NanoShadowBulletArmorReductionLight_prefix"	"-"
 		"NanoShadowBulletArmorReductionLight_label"	"子弹抗性（轻）"
 		"NanoShadowBulletArmorReductionHeavy_prefix"	"-"
@@ -1391,9 +1392,8 @@
 
 		"modifier_nano_shadow_debuff"		"- 子弹抗性"
 		
-		"ability_nano_ult_shadow_t2_desc"	"施放时，移除所有减益效果"
-		"ability_nano_ult_shadow_t3_desc"	"近战重攻击会造成<span class=\"highlight\">沉默</span>，持续 {s:SilenceOnHeavyDuration}s。"
-
+		"ability_nano_shadow_step_t2_desc"	"激活时 <span class=\"highlight\">+{s:SlowResistancePercent}%</span> 减速抗性"
+		"ability_nano_shadow_step_t3_desc"	"近战重攻击会造成<span class=\"highlight\">沉默</span>，持续 {s:SilenceOnHeavyDuration}s。"
 
 		//-----------------------------------------------------------------------------
 		// Grey Talon (previous names: Archer / Orion)
@@ -1450,7 +1450,7 @@
 
 		"ability_life_drain"				"生命汲取"
 		"ability_life_drain_quip"			"持续偷取敌人的生命值"
-		"ability_life_drain_desc"			"创造一个<span class=\"highlight\">持续汲取敌人生命</span>并<span class=\"highlight\">治疗自己</span>的羁绊。只有在视线范围内且在技能最大射程内的目标才会被汲取。汲取期间可以开枪及使用其他技能，但你的移动速度将会减半。按 {s:in_ability2} 键取消。"
+		"ability_life_drain_desc"			"创造一个<span class=\"highlight\">持续汲取敌人生命</span>并<span class=\"highlight\">治疗自己</span>的羁绊。只有在视线范围内且在技能最大射程内的目标才会被汲取。汲取期间可以开枪及使用其他技能，但你的移动速度将会减半。<br><span class=\"highlight\">[副施放]可给予友方英雄生命值。</span><br><span class=\"highlight\">按 {s:in_ability2} 键</span>取消。"
 		"ability_life_drain/modifier_life_drain" "生命汲取"
 		"ability_life_drain/modifier_life_drain_caster" "生命汲取"
 		"modifier_life_drain_silence"		"被沉默"
@@ -1637,12 +1637,6 @@
 		"DamageHealMultNonHero_postfix"		"x"
 		"modifier_intimidate_debuff"		"蔑视"
 
-		//"ability_pounce"				"Pounce"
-		//"ability_pounce_desc"			"{s:hero_name} leaps forward, creates an explosion on landing and damages enemies in an area."
-
-		//"ability_ooc_health_regen"			"Out of Combat Health Regen"
-		//"ability_ooc_health_regen_desc"		""
-
 		"ability_throw_sand"			"沙暴"
 		"ability_throw_sand_quip"		"缴械前方的敌人"
 		"ability_throw_sand_desc"		"喷出沙子，<span class=\"highlight\">缴械</span>前方敌人并造成<span class=\"highlight\">伤害</span>。"
@@ -1650,19 +1644,17 @@
 
 		"ability_throw_sand_t3_desc"	"让目标减速 <span class=\"highlight\">{s:SlowPercent}%</span>"
 
-		//"citadel_ability_kineticcharge"			"Kinetic Charge"
-		//"citadel_ability_kineticcharge_desc"	"{s:hero_name} creates a shield which absorbs all incoming damage. After the duration expires or the shield is destroyed, explodes and returns the damage absorbed to all enemies around him."
-		//"modifier_citadel_kineticcharge"		"Absorbing Damage"
-
 		"ability_ult_combo"				"连招"
 		"ability_ult_combo_quip"		"按住敌方英雄猛揍"
 		"ability_ult_combo_desc"		"将目标按在原地，在施法期间<span class=\"highlight\">使其眩晕并造成伤害</span>。如果目标在连招过程中死亡，你将永久性获得最大生命值。"
+		"ability_ult_combo_t1_desc"		"连招过程中 <span class=\"highlight\">+{s:ComboBulletResist}%</span> 子弹抗性"
 		"ability_ult_combo_t2_desc"		"连招持续时间 <span class=\"highlight\">+{s:AbilityChannelTime}s</span>"
 		"ability_ult_combo_t3_desc"		"<span class=\"highlight\">+{s:DPS}</span> 每秒伤害和 <span class=\"highlight\">{s:LifeStealPercentOnHit}% 吸血</span>"
 		"LifestealPercentOnHit_label"		"吸血"
 		"LifestealPercentOnHit_postfix"	"%"
 		"BonusHealthOnKill_label"			"每次击杀的最大生命值加成"
-
+		"ComboBulletResist_label"		"连招子弹抗性"
+		"ComboBulletResist_postfix"		"%"
 		//"GrabExtraTargetRange_label"		"Extra Target Range"
 		"GrabExtraTargetRange_postfix"	"m"
 
@@ -1767,7 +1759,7 @@
 		"MovementSlow_postfix"	"%"
 
 		//-----------------------------------------------------------------------------
-		// Hero: Pocket
+		// Pocket // synth
 		//-----------------------------------------------------------------------------
 		"synth_plasma_flux"			"飞行斗篷"
 		"synth_plasma_flux_quip"		"飞出一件斗篷伤敌，并可传送至斗篷位置"
@@ -1810,7 +1802,7 @@
 		"synth_barrage"				"弹幕"
 		"synth_barrage_quip"			"在空中滑行并发出多枚投射物"
 		"synth_barrage_desc"			"施法并开始发出投射物，<span class=\"highlight\">造成伤害</span>并在击中点附近<span class=\"highlight\">施加移动减速</span>。每个击中英雄的投射物都将给你一层<span class=\"highlight\">增强所有伤害的可叠加增益</span>。<br>如果你在半空中施放技能，则将<span class=\"highlight\">悬浮</span>并保持起始时的水平移动。"
-
+		"synth_barrage_t3_desc"			"<span class=\"highlight\">+{s:AmpPercentPerStack}s</span> 每层叠加增强及 <span class=\"highlight\">+{s:Radius}m</span> 半径"
 		"DamagePerProjectile_label"	"每个投射物造成的伤害"
 		"ProjectileAmount_label"		"投射物数量"
 		"ProjectileInterval_label"	"投射物间隔"
@@ -1881,8 +1873,9 @@
 		"mirage_sand_phantom_quip"		"施加不断增加伤害的效果"
 		"mirage_sand_phantom_desc"		"主动：<span class=\"highlight\">消耗镇尼之印的系数</span>以立即造成伤害。"
 		"mirage_sand_phantom_passive_desc"	"被动：你的射击会<span class=\"highlight\">对目标施加逐渐累积的系数</span>。当对目标施加的系数失效或达到最高系数时，系数会被消耗，目标会受到<span class=\"highlight\">元灵伤害</span>并短暂地<span class=\"highlight\">在地图上暴露位置</span>。最终伤害为基础伤害乘以系数。"
-		"mirage_sand_phantom_t1_desc"	"每次你提高系数时，造成 {s:MovementSpeedSlow}% 移动减速，持续 {s:SlowDuration}s。"
+		"mirage_sand_phantom_t1_desc"	"每次你施加 2x 或更高系数时，造成 {s:MovementSpeedSlow}% 移动减速，持续 {s:SlowDuration}s。"
 		"mirage_sand_phantom_t2_desc"	"+{s:VictimStackDuration}s 系数持续时间并 +{s:ProcDamageBase} 基础伤害"
+		"mirage_sand_phantom_t3_desc"	"系数之间冷却时间为 {s:SandPhantomProcCooldown}s，并且最大系数 +{s:MirageDjinnsMarkMaxStacks}。"
 		"modifier_mirage_sand_phantom_passive_victim"	"镇尼之印系数"
 		"ProcDamageBase_label"		"基础伤害"
 		"VictimStackDuration_label"		"系数持续时间"
@@ -2014,7 +2007,7 @@
 		"citadel_ability_tengu_airlift_t1_desc"		"被击中的敌人的子弹抗性 <span class=\"highlight\">{s:AirDropBulletArmorReduction}%</span>，持续 <span class=\"highlight\">{s:AirDropDebuff02Duration}s</span>"
 		"citadel_ability_tengu_airlift_t2_desc"		"<span class=\"highlight\">+{s:AirDropBulletShield}</span> 子弹护盾，<span class=\"highlight\">+{s:AirDropExplodeRadius}m</span> 爆炸半径"
 		"citadel_ability_tengu_airlift_t3_desc"		"对被击中的敌人施加<span class=\"highlight\">沉默</span>效果，持续 <span class=\"highlight\">+{s:AirDropSilenceDuration}s</span>"
-		//"modifier_airlift_ally"						"Air Drop"
+		"modifier_airlift_ally"						"空投"
 
 		"AirDropDebuffDuration_label"		"减速持续时间"
 		"AirDropDebuffDuration_postfix"		"s"
@@ -2446,7 +2439,7 @@
 		"MediumChargeDamagePct_postfix"			"%"
 		"FullChargeDamage_label"				"完全充能伤害"
 		"citadel_ability_power_slash_t1_desc"	"在施法时获得 <span class=\"highlight\">+{s:BulletResist} 子弹抗性</span>"
-		"citadel_ability_power_slash_t2_desc"	"施加 <span class=\"highlight\">{s:SlowPercent}% 移动减速</span>效果，持续 <span class=\"highlight\">{s:SlowDuration}s</span>"
+		"citadel_ability_power_slash_t2_desc"	"<span class=\"highlight\">{s:AbilityCooldown}s</span> 技能冷却时间并施加 <span class=\"highlight\">{s:SlowPercent}%</span> 移动减速，持续 <span class=\"highlight\">{s:SlowDuration}s</span>"
 		//"StaminaToRemove_label"				"Stamina Drain"
 
 		"citadel_ability_flying_strike"			"飞跃进击"
@@ -2459,7 +2452,7 @@
 
 		"citadel_ability_infinity_slash"		"暗影变身术"
 		"citadel_ability_infinity_slash_quip"	"变得无敌且更为强大"
-		"citadel_ability_infinity_slash_desc"	"与大和的暗魂融为一体。在经过一开始的<span class=\"highlight\">无敌</span>蜕变后，你的<span class=\"highlight\">技能得到刷新，速度提升 60%</span>，你还会获得<span class=\"highlight\">伤害抗性</span>，且<span class=\"highlight\">对负面状态效果免疫</span>。在此模式中你有不死之身。"
+		"citadel_ability_infinity_slash_desc"	"与大和的暗魂融为一体。在经过一开始的<span class=\"highlight\">无敌</span>蜕变后，你的<span class=\"highlight\">技能得到刷新，速度提升 60%</span>，你还会<span class=\"highlight\">对负面状态效果免疫</span>。在此模式中你有不死之身。"
 		//"citadel_ability_infinity_slash_buff_header" "Per Hero Hit"	
 		"ShadowDuration_label"					"爆炸延迟"
 		"ShadowDuration_postfix"				"s"
@@ -2469,7 +2462,7 @@
 		"AbilitySpeedPct_prefix"				"+"
 		"AbilitySpeedPct_postfix"				"%"
 
-		"citadel_ability_infinity_slash/timer"	"隐藏形态"
+		"citadel_ability_infinity_slash/timer"	"暗魂形态"
 
 		"citadel_ability_healing_slash"			"飞血狂刃"
 		"citadel_ability_healing_slash_quip"	"伤害附近的敌人，击中敌人可以治疗自己"
@@ -2880,7 +2873,7 @@
         "hero_bebop_playstyle"          "比波普能以多种方式串联起他的技能，从而打乱敌人位置、拯救队友、在短时间内连连伤敌。当战斗形势不讲究精细技巧时，他巨大的激光炮仍能解决不少问题。"
 		"hero_wrecker_playstyle"		"破坏王喜欢搜集利用废零件，他能将步兵大卸八块，用他的破坏球碾压对手，还能将所有敌人困在他的静止陷阱中。"
         "hero_chrono_playstyle"         "操控时间的本领让悖论在一对一的战斗中快人一步。她通过换位大法让敌人置于脉冲手雷的攻击、时间墙的阻隔，或是队友的包围之下，并凭此制霸沙场。"
-        "hero_dynamo_playstyle"         "奇能博士一边保持着自己和队友的生命值，一边等待着他出场的时刻。想要重塑一场团战的局面，最好的办法就是在队友的完美配合下使出奇点大招。"
+        "hero_dynamo_playstyle"         "奇能教授一边保持着自己和队友的生命值，一边等待着他出场的时刻。想要重塑一场团战的局面，最好的办法就是在队友的完美配合下使出奇点大招。"
         "hero_forge_playstyle"			"不管是设立歼敌区域还是分裂敌军，精确地放置武器对于麦金尼斯而言至关重要。她能帮助队伍战斗下去，使他们在坚守阵地时固若金汤。"
         "hero_ghost_playstyle"          "牺牲自己的生命值以给敌人致命打击是盖斯特夫人的力量源泉。在力量不足之时，她可以吸走敌人的生命。"
         "hero_gigawatt_playstyle"       "老七最善于在小规模冲突中伺机而动。时机对了他便如风暴一般卷入战斗，用倾泻如注的闪电击倒敌人。"

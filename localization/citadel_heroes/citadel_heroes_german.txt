@@ -181,7 +181,6 @@
 		"citadel_ability_shieldedsentry"		"Mini-Geschütz"
 		"citadel_ability_shieldedsentry_quip"	"Setzt ein automatisches Geschütz ein"
 		"citadel_ability_shieldedsentry_desc"	"McGinnis setzt ein Mini-Geschütz ein, das <span class=\"highlight\">automatisch auf Gegner schießt</span>. Das Geschütz hat nur eine begrenzte Lebensdauer.<br>Geschütze erhalten {s:TurretHealthScaling} % von McGinnis’ max. Lebenspunkten sowie {s:TechResist} % Magieresistenz. Geschütze fügen Infanteristen und Angriffszielen reduzierten Schaden zu."
-		"citadel_ability_shieldedsentry_t1_desc"	"<span class=\"highlight\">+{s:AbilityCharges}</span> Aufladung und Geschütze verlangsamen das Bewegungstempo um <span class=\"highlight\">+{s:MoveSlowPercent} %</span>"
 		"citadel_ability_shieldedsentry_t2_desc"	"<span class=\"highlight\">+{s:TurretAttackRange} m</span> Angriffsreichweite und <span class=\"highlight\">+{s:AttackSpeedMult} %</span> Feuerrate für Geschütz"
 
 		//"citadel_ability_shieldedsentry/modifier_bullet_resist_reduction_stack"		"Sentry Bullet Resist Debuff"
@@ -383,7 +382,7 @@
 		"citadel_ability_chrono_pulse_grenade"			"Impulsgranate"
 		"citadel_ability_chrono_pulse_grenade_quip"		"Wirft eine pulsierende Granate, die Schaden zufügt und verlangsamt"
 		"citadel_ability_chrono_pulse_grenade_desc"		"Paradox wirft eine Granate, die an ihrem Aufprallort zu pulsieren beginnt. Jeder Impuls fügt getroffenen Gegnern <span class=\"highlight\">Schaden zu, verlangsamt deren Bewegungstempo und belegt diese mit einem sich aufsummierenden Schwächungseffekt</span>, durch den der Schaden von Paradox gegen diese verstärkt wird."
-		"citadel_ability_chrono_pulse_grenade_t3_desc"		"<span class=\"highlight\">+{s:PulseDamage}</span> Impulsschaden und <span class=\"highlight\">+{s:PulseGrenadeDamageAmplificationPerStack} %</span> Schadens­verstärkung pro Instanz"
+		"citadel_ability_chrono_pulse_grenade_t3_desc"		"<span class=\"highlight\">+{s:PulseDamage}</span> Impulsschaden und <span class=\"highlight\">+{s:RadiusIncreasePerPulse} m</span> Radius pro Impuls"
 		"Pulses_label"                           			 "Impuls(e)"
 		"InitialDamage_label"									"anfänglicher Schaden"
 		"PulseDamage_label"									"Impulsschaden"
@@ -705,11 +704,6 @@
 		//-----------------------------------------------------------------------------
 		// Haze
 		//-----------------------------------------------------------------------------
-		//"citadel_ability_poison_bullets"			"Tranquilizer Bullets"
-		//"citadel_ability_poison_bullets_desc"		"Apply tranquilizer to your victim until they fall asleep. Sleeping victims cannot act and take damage when they wake up."
-		//"modifier_citadel_posion_bullets_shot_watcher"	"Tranquilizer Bullets"
-		//"modifier_citadel_posion_bullets_poisoned"	"Asleep"
-		//"modifier_citadel_posion_bullets_poison_buildup"	"Sleepy"
 
 		"ability_sleep_dagger"			"Schlafdolch"
 		"ability_sleep_dagger_quip"		"Lässt einen Gegner einschlafen"
@@ -756,10 +750,10 @@
 
 		"ability_bullet_flurry"			"Kugelhagel"
 		"ability_bullet_flurry_quip"	"Entfesselt einen Kugelhagel um sich herum"
-		"ability_bullet_flurry_desc"	"Haze entfesselt einen Kugelhagel und <span class=\"highlight\">feuert ihre Waffe</span> auf Gegner in der Nähe mit <span class=\"highlight\">perfekter Präzision</span> ab. Während des Kugelhagels erhält Haze zusätzliche Feuerrate und weicht einigen der auf sie abgefeuerten Kugeln aus."
-		//"ability_bullet_flurry/modifier_citadel_bullet_flurry"		"Bullet Flurry"
+"BonusWeaponDamage_prefix"				"+"
 		"BonusWeaponDamage_label"				"Kugelschaden"
-
+		"DanceMoveSpeed_label"			"Bewegungstempo während Kugelhagel"
+		"DanceMoveSpeed_postfix"		" m/s"
 		//-----------------------------------------------------------------------------
 		// Sumo // dynamo
 		//-----------------------------------------------------------------------------
@@ -767,7 +761,7 @@
 		"citadel_ability_stomp_quip"			"Löst einen energetischen Impuls aus, der Gegner in die Luft schleudert"
 		"citadel_ability_stomp_desc"			"Dynamo löst einen energetischen Impuls aus, der Gegner in die Luft schleudert."
 		"citadel_ability_stomp_t1_desc"			"Reduziert die <span class=\"highlight\">Feuerrate</span> und verlangsamt das <span class=\"highlight\">Bewegungstempo</span> von getroffenen Gegnern für <span class=\"highlight\">{s:SlowDuration} s</span> um <span class=\"highlight\">{s:SlowPercent} %</span>"
-		"citadel_ability_stomp_t2_desc"			"Dynamo fügt getroffenen Gegnern für <span class=\"highlight\">{s:BulletArmorReductionDuration} s</span> <span class=\"highlight\">{s:BulletArmorReduction} % mehr Waffenschaden</span> zu"
+		"citadel_ability_stomp_t2_desc"			"{s:hero_name} fügt getroffenen Gegnern für <span class=\"highlight\">{s:BulletArmorReductionDuration} s</span> <span class=\"highlight\">{s:BulletArmorReduction} % mehr Kugelschaden</span> zu"
 		"StompRange_label"						"Stampfreichweite"
 		"StompRange_postfix"					" m"
 		//"stomp_buff_modifier"						"+Fire Rate"
@@ -780,7 +774,7 @@
 		"citadel_ability_void_sphere"				"Quantenverschränkung"
 		"citadel_ability_void_sphere_quip"		"Wechselt zwischen den Ebenen der Existenz"
 		"citadel_ability_void_sphere_desc"		"Dynamo verschwindet für kurze Zeit <span class=\"highlight\">in die Leere</span> und taucht dann in kurzer Entfernung wieder auf. Beim Wiedererscheinen wird seine Waffe <span class=\"highlight\">nachgeladen</span> und er erhält zusätzliche <span class=\"highlight\">Feuerrate</span> für sein nächstes Magazin (max. für {s:FireRateBonusDurationMax} s). Kann auch mit [{s:key_alt_cast}] eingesetzt werden, um Verbündete in der Nähe mitzunehmen und ihnen den halben Feuerratenbonus zu gewähren."
-		"citadel_ability_void_sphere_t3_desc"		"Gewährt beim Wiedererscheinen <span class=\"highlight\">+{s:BonusClipSizePercent} %</span> Grundmunition"
+		"citadel_ability_void_sphere_t3_desc"		"<span class=\"highlight\">{s:AbilityCooldown} s</span> Abklingzeit und <span class=\"highlight\">+{s:BonusClipSizePercent} %</span> Grundmunition beim Wiedererscheinen"
 		"modifier_void_sphere"					"Quantenverschränkung"
 		//"modifier_voidsphere_buff"				"Void Sphere +Fire Rate"
 		"AllyDistance_label"						"Distanz mit Verbündeten"
@@ -988,10 +982,31 @@
 		"ScrapDamage_label"					"Schaden"
 		"ability_scrap_blast/modifier_scrap_blast_debuff"		"Verlangsamt"
 
+		"ability_wrecker_ultimate"			"Magnetischer Fluss"
+		"ability_wrecker_ultimate_desc"		"Wrecker <span class=\"highlight\">greift</span> sich Gegner in seinem Blickfeld, versetzt sie in <span class=\"highlight\">Stase</span> und hält sie über sich. Alle eingefangenen Gegner werden nach Ablauf des Fähigkeitseffekts <span class=\"highlight\">betäubt</span> und <span class=\"highlight\">erleiden Schaden</span>. Alle eingefangenen NSC werden <span class=\"highlight\">zerlegt</span>."
 		//"ThrowDamage_label"					"Throw Damage"
 		//"GrabRange_label"						"Grab Range"
 		"GrabRange_postfix"					" m"
-"WeaponFireRateBonus_label"				"Feuerrate"
+		"ability_wrecker_ultimate_t3_desc"	"Wrecker ist währenddessen <span class=\"highlight\">unverwundbar</span>"
+
+		"wrecker_ultimate_grab_debuff"		"Stase"
+
+		"ability_wrecker_teleport"			"Astralwanderung"
+		"ability_wrecker_teleport_desc"		"Wrecker entsendet eine <span class=\"highlight\">Schattengestalt seiner selbst, die er steuern kann</span>, und <span class=\"highlight\">teleportiert</span> sich an die Stelle, an der diese landet. Die Explosion bei Ankunft <span class=\"highlight\">verlangsamt Gegner</span> und fügt <span class=\"highlight\">Schaden</span> basierend auf der Flugzeit zu."
+		"ability_wrecker_teleport_quip"		"Entsendet eine Schattengestalt seiner selbst und teleportiert sich dorthin, wo diese landet"
+		"DamagePerSecondFlown_label"			"Schaden pro geflogener Sekunde"
+
+		//-----------------------------------------------------------------------------
+		// Lash
+		//-----------------------------------------------------------------------------
+		"citadel_ability_lash"					"Wurfhaken"
+		"citadel_ability_lash_quip"				"Benutzt die Peitsche, um sich an ein Ziel heranzuziehen"
+		"citadel_ability_lash_desc"				"Lash <span class=\"highlight\">{s:hero_name} zieht sich durch die Luft</span> an ein Ziel heran. Beim Einsatz von Wurfhaken wird auch das Limit der <span class=\"highlight\">Sprünge und Spurts in der Luft</span> zurückgesetzt."
+
+		"citadel_ability_lash_t2_desc"			"<span class=\"highlight\">+{s:AbilityCastRange} m</span> Zauberreichweite und <span class=\"highlight\">+{s:WeaponDamageBonus}</span> Waffenschaden für {s:WeaponDamageBonusDuration} s"
+		"citadel_ability_lash_t3_desc"			"<span class=\"highlight\">+{s:WeaponFireRateBonus} %</span> Feuerrate für den Waffenschaden­bonus"
+		"LashDamage_label"						"Schaden mit Wurfhaken"
+		"WeaponFireRateBonus_label"				"Feuerrate"
 		"WeaponFireRateBonus_prefix"				"+"
 		"WeaponFireRateBonus_postfix"				" %"
 		"JumpVelocity_label"					"Sprungtempo"
@@ -1000,7 +1015,14 @@
 		"WeaponDamageBonusDuration_label"			"Bonusdauer"
 		"WeaponDamageBonusDuration_postfix"		" s"
 
+		"citadel_ability_lash_down_strike"			"Bodenschlag"
+		"citadel_ability_lash_down_strike_quip"		"Schmettert auf den Boden und fügt Gegnern Schaden zu"
+		"citadel_ability_lash_down_strike_desc"		"Lash stampft auf den Boden und fügt Gegnern in seinem Blickfeld <span class=\"highlight\">Schaden</span> zu. Wenn Lash Bodenschlag in der Luft aktiviert, stürzt er schnell schnell zu Boden. Der Schaden pro niedergestürztem Meter nimmt nach 25 m ab."
 		"StompDamagePerMeterPrimary_label"					"Schaden pro Meter"
+		"citadel_ability_lash_down_strike_t2_desc"	"Getroffene Gegner werden <span class=\"highlight\">in die Luft geschleudert</span> und für <span class=\"highlight\">{s:SlowDuration} s</span> um <span class=\"highlight\">{s:EnemySlowPct} %</span> verlangsamt"
+		"citadel_ability_lash_down_strike_t3_desc"	"+110 % <span class=\"highlight\">Schaden pro Meter</span> und verbesserte Skalierung"
+
+
 		// Custom Tool Tip +(8.75/7)% damage
 
 
@@ -1016,13 +1038,23 @@
 		//"LashLaunchHeight_label"					"Lash Launch Height"
 		"LashLaunchHeight_postfix"				" m"
 
+		"ability_lash_flog"						"Peitschenhieb"
+		"ability_lash_flog_quip"				"Raubt Gegnern im Blickfeld Lebenspunkte"
+		"ability_lash_flog_desc"				"Lash trifft Gegner mit der Peitsche und <span class=\"highlight\">raubt ihnen Lebenspunkte</span>."
+		"ability_lash_flog_t1_desc"				"Verlangsamt das Bewegungstempo für {s:EnemySlowDuration} s um <span class=\"highlight\">{s:EnemySlowPct} %</span>"
+		"ability_lash_flog_t3_desc"				"+{s:Damage} Schaden und verlangsamt die Feuerrate um {s:FireRateSlow} %"
+		"HealPctVsHeroes_label"					"Heilung durch Helden"
 		"HealPctVsHeroes_postfix"				" %"
+		"HealPctVsNonHeroes_label"				"Heilung durch Nicht-Helden"
 		"HealPctVsNonHeroes_postfix"			" %"
+		"EnemySlowDuration_label"					"Dauer für gegn. Bewegungsverlangsamung"
 		"EnemySlowDuration_postfix"				" s"
 		//"WeaponPowerScalingTooltip_label"			"Courage Bonus Damage"
 		"WeaponPowerScalingTooltip_postfix"		" %"
 		"TargetingConeAngle_label"				"Angriffswinkel"
 		"TargetingConeAngle_postfix"				"º"
+		"ability_lash_flog/modifier_lash_flog_debuff"	"Peitschenhieb"
+
 		//"citadel_ability_lash_high_explosive"	"High Explosive"
 		//"citadel_ability_lash_high_explosive_desc"	"Lash starts charging his grenade; the longer the grenade is held before being thrown, the more damage it does. Press the button again to throw it a short distance in front of Lash, exploding on contact."
 		//"citadel_ability_lash_throw_grenade"	"Throw Explosive"
@@ -1031,13 +1063,38 @@
 		"GrenadeExplosionRadius_postfix"			" m"
 		"GrenadeDamage_label"						"Explosionsschaden"
 
+		"citadel_ability_lash_ultimate"			"Todesschmetterer"
+		"citadel_ability_lash_ultimate_quip"		"Zieht Gegner hoch in die Luft und schmettert sie wieder zu Boden"
+		"citadel_ability_lash_ultimate_desc"		"Lash fokussiert seine Gegner und umschlingt diese mit seinen Peitschen. Nach der Kanalisierungsdauer werden umschlungene Gegner <span class=\"highlight\">in die Luft gehoben, betäubt</span> und dann auf den Boden geschmettert. Von der Fähigkeit betroffene sowie im Aufprallbereich getroffene Gegner <span class=\"highlight\">erleiden Schaden und werden verlangsamt</span>.<br>[{s:iv_attack}] drücken, um umschlungene Gegner frühzeitig zu Boden zu schmettern. Gegner, zu denen keine Sichtlinie besteht, oder solche, die sich während der Fokusdauer aus dem Wirkungsbereich entfernen, werden nicht in die Luft gehoben."
+		"citadel_ability_lash_ultimate/modifier_lash_grapple_enemy_debuff"		"Todesschmetterer"
 		"citadel_ability_lash_ultimate_debuff"	"Bewegungsverlangsamung"
 
 		"ImpactRadius_label"						"Aufprallradius"
 		"ImpactRadius_postfix"					" m"
+		"LashUltimateChargeTime_label"			"Fokusdauer"
 		"LashUltimateChargeTime_postfix"			" s"
+		"ThrowDistance_label"						"max. Wurfweite"
 		"ThrowDistance_postfix"					" m"
-"modifier_citadel_kelvin_frozen"	"Eingefroren"
+
+		//-----------------------------------------------------------------------------
+		// Kelvin
+		//-----------------------------------------------------------------------------
+		"ability_icebeam/modifier_buildup"		"Friert ein"
+		"ability_icepath/modifier_icepath"		"Eispfad"
+		//"modifier_citadel_crystal_shield"		"Absorbing Damage"
+
+		"ability_ice_grenade"				"Frostgranate"
+		"ability_ice_grenade_quip"			"Verlangsamt Gegner und fügt diesen Schaden zu"
+
+		"ability_ice_grenade_desc"			"Kelvin wirft eine Granate, die in einer Wolke aus gefrierendem Eis explodiert, Gegnern <span class=\"highlight\">Schaden zufügt</span> und deren <span class=\"highlight\">Bewegungstempo verlangsamt</span>."
+		"ability_ice_grenade_t2_desc"		"Frostgranate stellt jetzt <span class=\"highlight\">{s:HealAmount} LP</span> von Verbündeten wieder her und skaliert mit Magiekraft"
+		"ability_ice_grenade/kelvin_ice_grenade_slow"	"Verlangsamt durch Frostgranate"
+
+		"ability_icebeam"					"Arktischer Strahl"
+		"ability_icebeam_quip"				"Verlangsamt Gegner immer stärker"
+		"ability_icebeam_t3_desc"			"Feuert <span class=\"highlight\">{s:BeamSplitCount} zusätzliche Arktische Strahlen</span> auf Gegner innerhalb von {s:BeamSplit} m um das letzte getroffene Ziel ab"
+		"modifier_citadel_kelvin_frozen"	"Eingefroren"
+		"ability_icebeam/modifier_slow"		"Verlangsamt durch Arktischer Strahl"
 		"MaxSlowPercent_label"				"max. Verlangsamung"
 		"MaxSlowPercent_postfix"				" %"
 		"MaxSlowTime_label"					"Dauer bis max. Verlangsamung"
@@ -1045,34 +1102,72 @@
 		"modifier_citadel_disarmed_icebeam"	"Waffe eingefroren"
 		"IceBeamBuildupProcDuration_label"	"Verweildauer für Verlangsamung"
 		"IceBeamBuildupProcDuration_postfix"	" s"
+		"modifier_icebeam_stacking_slow"		"Arktischer Strahl"
+		"BeamSplit_label"						"Reichweite der zus. Strahlen"
 		"BeamSplit_postfix"					" m"
+		"AbilityButtonHint_CancelIceBeam"	"Arktischer Strahl abbrechen"
+
+		"ability_icepath"					"Eispfad"
+		"ability_icepath_quip"				"Schlittert auf einem schwebenden Eispfad herum"
 		"SprintSpeedBonus_label"				"Sprinttempo"
 		"SprintSpeedBonus_prefix"				"+"
 		"SprintSpeedBonus_postfix"			" m/s"
+		"IcePathAuraDuration_label"			"Eispfaddauer"
 		"IcePathAuraDuration_postfix"			" s"
 		//"BonusTechPower_label"				"Spirit Power while Pathing"
 		//"IcePathShardRadius_label"			"Path Width"
 		"IcePathShardRadius_postfix"			" m"
 		"BonusTechDamagePercent_label"		"Bonusmagieschaden"
 		"BonusTechDamagePercent_postfix"		" %"
+		"ability_icepath/modifier_icepath/modifier_icepath_friendly_aura/modifier_icepath_buff"			"Eispfad"
+		"AbilityButtonHint_CancelIcePath"	"Eispfad abbrechen"
+
+		"ability_ice_dome"				"Eiskuppel"
+		"ability_ice_dome_quip"			"Erschafft eine undurchdringliche Eiskuppel, die Verbündete im Inneren heilt"
 		"ability_ice_dome_t1_desc"		"Verlangsamt die Feuerrate um <span class=\"highlight\">+{s:FireRateSlow} %</span>"
 		"ability_ice_dome_t3_desc"		"<span class=\"highlight\">+{s:BonusHealthRegen}</span> Lebens­regeneration und skaliert jetzt mit Magiekraft"
-"LandingDamage_label"					"Flächenschaden"
+		"ability_ice_dome/modifier_ice_dome/modifier_debuff"						"Eiskuppel"
+		"frozen_shelter_modifier_buff"		"Eiskuppel"
+		"ability_ice_dome/modifier_ice_dome/ice_dome_enemy_aura/modifier_debuff"	"Eiskuppel"
+
+
+		//-----------------------------------------------------------------------------
+		// Bebop
+		//-----------------------------------------------------------------------------
+		"citadel_ability_uppercut"				"Explosiver Kinnhaken"
+		"citadel_ability_uppercut_quip"			"Verpasst einem Gegner einen Kinnhaken und schleudert ihn fort"
+		//"modifier_citadel_enemy_uppercutted"	"Uppercutted!"
+		"UppercutDamage_label"					"Schaden mit Kinnhaken"
+		"LandingDamage_label"					"Flächenschaden"
 		"OnLandDamageRadius_label"				"Aufprallradius"
 		"OnLandDamageRadius_postfix"			" m"
+		"modifier_uppercut_buff"					"Waffenverstärkung"
 		//"modifier_uppercut_movespeed"				"Uppercut Movement Speed"
 		"StunOnLand_label"						"Betäubungs­dauer"
 		"StunOnLand_postfix"					" s"
 		//"UppercutBuffOnHit_label"				"Boost Duration"
 		"UppercutBuffOnHit_postfix"				" s"
-
+		"citadel_ability_sticky_bomb"			"Haftbombe"
+		"citadel_ability_sticky_bomb_quip"		"Bringt eine Haftbombe an einem Gegner an"
+		"modifier_citadel_sticky_bomb_attached"	"Haftbombe am eigenen Helden"
+		"citadel_ability_sticky_bomb_t3_desc"	"Beim Anbringen wird ein gegnerisches Ziel für <span class=\"highlight\">{s:DebuffDuration} s</span> <span class=\"highlight\">entwaffnet</span>"
 		"StunTargetOnExplode_label"				"Dauer"
 		"StunTargetOnExplode_postfix"				" s"
 
+		"citadel_ability_bebop_laser_beam"		"Hyperstrahl"
+		"citadel_ability_bebop_laser_beam_quip"	"Feuert einen Strahl ab, der massiven Schaden zufügt"
+		"modifier_bebop_laser_beam"				"Hyperstrahl"
+		"citadel_ability_bebop_laser_beam_t3_desc"	"Hyperstrahl heilt {s:hero_name} um <span class=\"highlight\">{s:BeamLifesteal} %</span> des dem Helden zugefügten Schadens (und um {s:BeamLifestealNonHeroPercent} % des dem Nicht-Helden zugefügten Schadens)"
+		"BeamLength_label"						"Strahllänge"
 		"BeamLength_postfix"					" m"
+		"BeamWidth_label"						"Strahlbreite"
 		"BeamWidth_postfix"						" m"
 
 
+		"citadel_ability_hook"					"Greifhaken"
+		"citadel_ability_hook_quip"				"Zieht einen Gegner oder Verbündeten heran"
+		"citadel_ability_hook_desc"				"Bebop verschießt einen Haken, der sich den ersten getroffenen Helden <span class=\"highlight\">greift und heranzieht</span>. Der herangezogene Gegner erleidet Schaden und wird in Blickrichtung von Bebop abgesetzt."
+		"citadel_ability_hook_t1_desc"			"Fügt gegriffenen Gegnern für {s:BulletAmpDuration} s <span class=\"highlight\">{s:BulletAmp} % mehr Kugelschaden</span> zu"
 		"BulletShieldOnHook_label"				"Schildpunkte gegen Kugelschaden"
 		//"BulletShieldOnHook_postfix"				"HP"
 		//"Citadel_ability_hook_on_hook"			"To Bebop:"
@@ -1096,7 +1191,22 @@
 		"TargetReloadSpeedPenalty_postfix"	" %"
 
 		"akimbo_bulletshield"		"Schildpunkte gegen Kugelschaden"
-//"BarrelLifetime_label"						"Barrel Life Time"
+		//"akimbo_bulletshield_desc"	"Creates a shield that protects {s:hero_name} from bullets and prevents bullet based procs. Bullet shield explodes when it expires.  <br>Prevents "
+		//"akimbo_bulletshield/modifier_duration"		"{s:hero_name}'s Bullet Shield"
+
+		//"akimbo_rocketman"			"Rocket Man"
+		//"akimbo_rocketman_desc"		"{s:hero_name} transforms into a grenade that stuns enemies."
+
+		//"akimbo_stealammo/modifier_reload_speed"	"Slow Reload"
+
+
+		//-----------------------------------------------------------------------------
+		// Astro
+		//-----------------------------------------------------------------------------
+		"ability_explosive_barrel"					"Pulverfass"
+		"ability_explosive_barrel_quip"				"Wirft ein Fass, das bei einem Treffer explodiert"
+		"ability_explosive_barrel_t3_desc"			"{s:AbilityCooldown} Abklingzeit<br>Keine Scharfmachungsdauer"
+		//"BarrelLifetime_label"						"Barrel Life Time"
 		"BarrelLifetime_postfix"						" s"
 		//MinExplodeTime_label						"Min Time to Explode"
 		//MinExplodeTime_postfix						"s"
@@ -1110,6 +1220,17 @@
 		"BarrelDamageRadius_label"						"Explosionsradius"
 		"BarrelDamageRadius_postfix"						" m"
 
+		"ability_hat_trick"						"Huttrick"
+		"ability_hat_trick_quip"				"Wirft ihren Hut, um Gegner aufzudecken"
+		"ability_hat_trick_desc"				"Holliday wirft ihren <span class=\"highlight\">Hut</span> auf Gegner, wodurch diese <span class=\"highlight\">verlangsamt</span> und durch Wände hindurch <span class=\"highlight\">aufgedeckt</span> werden."
+
+		"ability_bounce_pad"					"Sprungbrett"
+		"ability_bounce_pad_quip"				"Lässt sich und andere durch die Luft fliegen"
+		"ability_bounce_pad_desc"				"Holliday platziert ein Sprungbrett, das <span class=\"highlight\">sie und andere Helden durch die Luft fliegen lässt</span>. Bei der Landung erleiden Gegner in der Nähe <span class=\"highlight\">Aufprallschaden</span>."
+		"ability_bounce_pad_t1_desc"			"Gewährt {s:hero_name} und Verbündeten für {s:SpeedOnLandDuration} s nach dem Aufprall +{s:SpeedOnLand} m/s Bewegungstempo"
+		"ability_bounce_pad_t2_desc"			"<span class=\"highlight\">+{s:StompDamage}</span> Aufprallschaden mit verbesserter Skalierung"
+		"ability_bounce_pad_t3_desc"			"<span class=\"highlight\">+{s:StompStunDuration} s Betäubungsdauer</span> bei Aufprall"
+		"StompDamage_label"			"Stampfschaden"
 		"StompStunDuration_postfix"					" s"
 		"StompStunDuration_label"					"Dauer"
 		//"StompRadius_label"						"Stomp Radius"
@@ -1165,12 +1286,31 @@
 		"DamageAmplificationPerStack_label"	"Bonusschaden pro Instanz"
 		"DamageAmplificationPerStack_postfix"	" %"
 
+		"ability_gravity_lasso"				"Seelenlasso"
+		"ability_gravity_lasso_quip"		"Fängt einen Gegner ein und zieht diesen hinter sich her"
+		"ability_gravity_lasso_desc"		"Holliday <span class=\"highlight\">greift sich einen Gegner</span> mit ihrem Lasso und zieht diesen hinter sich her. Währenddessen wird der Gegner <span class=\"highlight\">betäubt</span> und Holliday leicht verlangsamt.<br><br>Die Dauer von Seelenlasso wird für {s:BouncePadExtendDuration} s nach dem erstmaligen Einsatz eines Sprungbretts pausiert."
+		"modifier_astro_lasso_tether"		"Angekettet durch Seelenlasso"
+		"ability_gravity_lasso_t3_desc"		"Fängt einen weiteren Gegner im Zielgebiet mit dem Lasso ein"
+		"ability_gravity_lasso/modifier_citadel_gravity_lasso_enemy"	"Seelenlasso"
+		"ability_gravity_lasso/modifier_citadel_gravity_lasso_self"		"Seelenlasso"
 		//"ability_astro_shotgun_toggle"			"Force of Nature"
 		//"ability_astro_shotgun_toggle_desc"		"Use to toggle between your pistol and shotgun. The shotgun so powerful it forces {s:hero_name} to move the opposite direction of the shot while airborn. [{s:iv_attack}] shoots forward and [{s:iv_attack2}] shoots behind you with a slight delay. The shotgun uses special bullets that does not benefit from ammo mods. <br><br>Lassoed units do not take damage when shooting backwards."
 		"ClipSizeOverride_label"			"Munition"
 		//"BulletDamageIncrease_label"		"Bullet damage increase"
 		"BulletDamageIncrease_postfix"		" %"
-//"CatExplosionCount_label"				"Explosions"
+		//"AstroShotgunCloseRange_label"			"Close Range Weapon Power"
+		//"ability_astro_shotgun_toggle_t1_desc"	"+{s:CloseRangeBonusWeaponPower} Close Range Weapon Power"
+		"ExtraTargetConeAngle_label"		"Winkel des Kegelbereichs"
+
+		//"modifier_lasso_enemy"					"Being dragged"
+		//"modifier_lasso_self"					"Dragging someone"
+
+		//-----------------------------------------------------------------------------
+		// Hero Nano // Calico
+		//-----------------------------------------------------------------------------
+
+		"ability_perched_predator"				"Sekhmets Geist"
+		//"CatExplosionCount_label"				"Explosions"
 		//"CatMaxSpeed_label"						"Ghostcat Max Speed"
 		"CatMaxSpeed_postfix"						" m/s"
 		//"CatLifetime_label"						"Cat Lifetime"
@@ -1178,31 +1318,49 @@
 
 		
 		"ability_nano_pounce"						"Sprung"
-		"ability_nano_pounce_quip"				"Springt auf ein Ziel zu"
+		"ability_nano_pounce_quip"				"Springt auf Gegner zu"
+		"ability_nano_pounce_desc"				"Calico <span class=\"highlight\">springt</span> auf ein ausgewähltes Ziel zu, wodurch dieses <span class=\"highlight\">leichten Nahkampfangriffsschaden</span> erleidet und Gegner in dessen Nähe <span class=\"highlight\">verlangsamt</span> werden.<br>Calico kann mit Sprung <span class=\"highlight\">auf ein weiteres Ziel zuspringen</span>, wenn die Fähigkeit innerhalb von <span class=\"highlight\">{s:DoublePounceTime} s</span> erneut eingesetzt wird."
+		"ability_nano_pounce_t1_desc"			"<span class=\"highlight\">+{s:SlowDuration} s</span> Verlangsamungsdauer"
+		"ability_nano_pounce_t2_desc"			"Lädt bis zu <span class=\"highlight\">{s:ActiveReloadPercent} %</span> der Munition nach und verlangsamt die Feuerrate um <span class=\"highlight\">+{s:FireRateSlow} %</span>"
+		"ability_nano_pounce_t3_desc"			"<span class=\"highlight\">+{s:Damage}</span> Schaden und <span class=\"highlight\">+{s:AbilityCharges}</span> Fähigkeitsaufladung(en)"
 		"PounceDebuffRadius_label"					"Verlangsamungsradius"
 		"PounceDebuffRadius_postfix"					" m"
 		
 		"PounceFriendlyRechargeTime_postfix"			" s"
 		"PounceFriendlyTargetCD_postfix"			" s"
+		"pounce_double_notify"					"Doppelter Sprung"
 
+		"ability_nano_proximity_ritual"			"Ava"
+		"ability_nano_proximity_ritual_quip"	"Setzt einen Begleiter ein, um Gegner anzugreifen"
+		"ability_nano_proximity_ritual_desc"	"Calico lässt <span class=\"highlight\">Ava</span> von der Leine, die sich auf einen Gegner in der Nähe <span class=\"highlight\">fokussiert</span>. Die Heilung ausgewählter Gegner wird reduziert und <span class=\"highlight\">Ava und Calico werden geheilt</span>, wenn Gegner Schaden erleiden. <span class=\"highlight\">Ava kann nur aktiv werden, wenn sich Calico in der Nähe befindet.</span>.<br><span class=\"highlight\">[3]</span> drücken, um Ava zurückzurufen.<br><span class=\"highlight\">[Alt. Fähigkeitseinsatz]</span> verwenden, um Ava zurückzurufen und zu ihr zu teleportieren.<br>Je weiter sich Calico von Ava entfernt befindet, desto länger dauert der Rückruf bzw. die Teleportation. Ava regeneriert ihre Lebenspunkte, wenn sie zurückgerufen wird."
 		"StatueLifetime_label"					"Zeit bis autom. Rückruf"
 		"StatueLifetime_postfix"				" s"
+		"StatueHeldRegen_label"						"Regeneration bei Rückruf von Ava"
 		"StatueLifesteal_label"					"Lebensraub"
 		"StatueLifesteal_postfix"				" %"
 		"StatueLifestealNonHero_label"			"Lebensraub gegen Nicht-Helden"
 		"StatueLifestealNonHero_postfix"		" %"
+		"StatueActivateRange_label"				"Aktivierungsreichweite"
 		"StatueActivateRange_postfix"			" m"
+		"StatueHealth_label"					"Ava (normal)"
 		"StatueHealth_postfix"					" LP"
-		"ability_nano_proximity_ritual_t1_desc"  "<span class=\"highlight\">+{s:StatueHealth} Lebenspunkte</span> für Ava"
-"ability_nano_proximity_ritual_trigger"		"Ava zurückrufen"
+		"StatueVictimDamageReduction_label"					"Schadensreduzierung"
+		"StatueVictimDamageReduction_postfix"				" %"
+
+		"ability_nano_proximity_ritual_t1_desc"  "<span class=\"highlight\">+{s:StatueLifesteal} %</span> Lebensraub"
+		"ability_nano_proximity_ritual_t2_desc"  "<span class=\"highlight\">+{s:DPS}</span> Schaden pro Sekunde und betroffene Gegner fügen Calico <span class=\"highlight\">{s:StatueVictimDamageReduction} %</span> weniger Schaden zu"
+		"ability_nano_proximity_ritual_t3_desc"  "<span class=\"highlight\">+{s:DamageAmplification} %</span> Schadensverstärkung und reduziert die Heilung von betroffenen Gegnern um {s:HealAmpReceivePenaltyPercent} %"
+		"ability_nano_proximity_ritual_trigger"		"Ava zurückrufen"
 
 		"AvaRecallCooldown_label"				"Abklingzeit für Rückruf"
 		"AvaRecallCooldown_postfix"				" s"
-		"AvaResummonCooldown_postfix"			" s"
 		"AbilityButtonHint_AvaRecall"			"Ava zurückrufen"
+		"AbilityButtonHint_AvaWarp"			"Zu Ava teleportieren"
+		"CITADEL_ABILITY_NO_HEALTH_RESOURCE"	"Nicht verfügbar"
 
-		"ability_nano_ult_shadow"				"Königin der Schatten"
-		"modifier_nano_ult_shadow"			"Königin der Schatten"
+		"ability_nano_shadow_step"				"Schattenschritt"
+		"ability_nano_shadow_step_desc"			"Calico tritt in den Schatten, wodurch ihre Angriffe verstärkt werden und sie während ihrer Spurts <span class=\"highlight\">unsichtbar</span> wird. Wenn Calico Gegnern <span class=\"highlight\">Nahkampfangriffsschaden</span> zufügt, reduziert sich deren Kugelresistenz (der Effekt summiert sich auf)."
+		"modifier_nano_shadow_step"			"Schattenschritt"
 		"NanoShadowBulletArmorReductionLight_prefix"	"−"
 		"NanoShadowBulletArmorReductionLight_label"	"Kugelresistenz (leichter Nahkampfangriff)"
 		"NanoShadowBulletArmorReductionHeavy_prefix"	"−"
@@ -1215,14 +1373,29 @@
 		"SilenceOnHeavyDuration_label"		"Verstummungsdauer"
 		"SilenceOnHeavyDuration_postfix"		" s"
 
-		"ability_nano_ult_shadow_t2_desc"	"Entfernt beim Einsatz alle Schwächungseffekte"
-"ability_charged_shot_t2_desc"	"<span class=\"highlight\">+{s:Damage} Schaden</span>"
+		"modifier_nano_shadow_debuff"		"Kugelresistenz reduziert"
+		
+		"ability_nano_shadow_step_t2_desc"	"<span class=\"highlight\">+{s:SlowResistancePercent} %</span> Verlangsamungs­resistenz während Schattenschritt"
+		"ability_nano_shadow_step_t3_desc"	"Schwere Nahkampfangriffe lassen Gegner für {s:SilenceOnHeavyDuration} s <span class=\"highlight\">verstummen</span>"
+
+		//-----------------------------------------------------------------------------
+		// Grey Talon (previous names: Archer / Orion)
+		// hero_archer
+		//-----------------------------------------------------------------------------
+		"ability_charged_shot"		"Fokusschuss"
+		"ability_charged_shot_quip"	"Fokussiert einen Fernschuss"
+		"ability_charged_shot_desc"	"Grey Talon <span class=\"highlight\">fokussiert einen mächtigen Pfeilschuss</span>, der Gegner durchdringt. [{s:ability_key}] oder [{s:iv_attack}] zum Fokussieren gedrückt halten."
+		"ability_charged_shot_t2_desc"	"<span class=\"highlight\">+{s:Damage} Schaden</span>"
 		"ability_charged_shot_t3_desc"	"<span class=\"highlight\">Verbesserte Schadensskalierung</span> und <span class=\"highlight\">{s:AbilityCooldownBetweenCharge} s</span> Verzögerung zwischen Aufladungen"
 
 		//"PowerJumpChannelTime_label"			"In Power Jump Channel"
 		"PowerJumpChannelTime_postfix"		" s"
 
 		"ability_power_jump"			"Pfeilregen"
+		"ability_power_jump_quip"		"Sprint hoch in die Luft und feuert einen Pfeilregen ab"
+		"ability_power_jump_desc"		"Grey Talon springt in die Luft hoch und kann von dort langsam umhergleiten. Während Grey Talon in der Luft ist, erhält er <span class=\"highlight\">Waffenschaden</span> und <span class=\"highlight\">seine Waffe feuert Pfeilsalven ab</span>.<br>Mit dem alternativen Fähigkeitseinsatz kann die Sprunghöhe reduziert werden.<br>[{s:in_mantle}] drücken, um das Umhergleiten abzubrechen."
+		"ability_power_jump_t2_desc"	"Gewährt in der Luft <span class=\"highlight\">+{s:WeaponDamageBonus}</span> Waffenschaden, der das Bewegungstempo für {s:SlowDuration} s um <span class=\"highlight\">{s:SlowPercent} %</span> verlangsamt."
+		"ability_power_jump_t3_desc"	"Gewährt in der Luft <span class=\"highlight\">+{s:TechLifestealPercent} %</span> Kugellebensraub und <span class=\"highlight\">+{s:BulletLifestealPercent} %</span> Magielebensraub"
 		//"modifier_citadel_archer_air_raid"			"Power Jump"
 		"BulletSplitShot_label"			"Pfeile pro Salve"
 		//"AbilitySplitShot_label"			"Charged Shot Multishot"
@@ -1233,11 +1406,44 @@
 		"ability_power_jump/modifier_air_raid/modifier_slow_base"			"Verlangsamt"
 
 
+		"ability_immobilize_trap"			"Lähmende Falle"
+		"ability_immobilize_trap_quip"		"Platziert eine Falle, die Gegner festsetzt"
+		"ability_immobilize_trap_desc"		"Grey Talon <span class=\"highlight\">wirft eine Falle</span>, die sich nach kurzer Zeit scharfmacht. Sobald die Falle einsatzfähig ist, löst sie aus, wenn ein Gegner ihren Wirkungsbereich betritt, wodurch dieser <span class=\"highlight\">festgesetzt</span> und dann <span class=\"highlight\">verlangsmt</span> wird."
+		"modifier_citadel_immobilize_trap_immobilize"	"Lähmende Falle"
+		"modifier_citadel_immobilize_trap_immobilize_debuff" "Schwächung durch Lähmende Falle"
+		"ability_immobilize_trap_t3_desc"	"Grey Talon fügt von Lähmende Falle betroffenen Gegnern für <span class=\"highlight\">{s:DebuffDuration} s</span> <span class=\"highlight\">+{s:BulletVulnerbility} %</span> mehr Kugelschaden zu"
+		"ability_immobilize_trap/trap_debuff"	"Magieresistenz reduziert"
+
+		"ability_guided_arrow"		"Geistführer"
+		"ability_guided_arrow_quip"	"Lässt eine Eule fliegen, um Gegnern aus der Ferne Schaden zuzufügen"
+		"ability_guided_arrow_desc"	"Nach einer Verzögerung von {s:AbilityCastDelay} s <span class=\"highlight\">lässt Grey Talon eine Geistereule fliegen, die unter seiner Kontrolle</span> beim Aufprall explodiert und Gegner<span class=\"highlight\">betäubt und Schaden zufügt</span>. Halte [{s:iv_attack}] gedrückt, um den Flug der Eule zu beschleunigen.<br>Drücke [{s:in_mantle}], um die Kontrolle aufzugeben. Gewährt <span class=\"highlight\">dauerhafte Magiekraft</span> für jeden gegnerischen Helden, der mit Geisterführer getötet wird."
+		"ability_guided_arrow_t3_desc"	"Tötet nach einem Treffer Gegner mit weniger als <span class=\"highlight\">{s:LowHealthEnemyThresholdPct} % ihrer Lebenspunkte</span>"
 		"BonusTechPowerPerKill_label"		"Magiekraft pro Kill"
-"modifier_life_drain_silence"		"Verstummt"
+
+		"modifier_citadel_archer_guided_arrow"		"Geistführer"
+
+		//-----------------------------------------------------------------------------
+		// Lady Geist
+		// hero ghost
+		//-----------------------------------------------------------------------------
+		"ability_blood_bomb"				"Essenzbombe"
+		"ability_blood_bomb_quip"			"Opfert einige Lebenspunkte, um eine Schaden zufügende Bombe zu werfen"
+		"ability_blood_bomb_desc"			"Lady Geist <span class=\"highlight\">opfert einige Lebenspunkte</span>, um eine Bombe zu werfen, die nach einer kurzen Scharfmachungsdauer <span class=\"highlight\">Schaden zufügt</span>.<br>Die Schadensart des Selbstschadens ist Magie und kann negiert werden."
+		"ability_blood_bomb_t3_desc"	"Bomben hinterlassen eine Giftpfütze, die für <span class=\"highlight\">{s:BloodSpillDuration} s</span> <span class=\"highlight\">{s:BloodSpillDPSPercent} %</span> des ursprünglichen <span class=\"highlight\">Schadens pro Sekunde</span> zufügt"
+
+		"ability_life_drain"				"Lebensentzug"
+		"ability_life_drain_quip"			"Raubt einem Gegner kontinuierlich Lebenspunkte"
+		"ability_life_drain_desc"			"Lady Geist erschafft eine Verbindung, die <span class=\"highlight\">einem Gegner kontinuierlich Leben entzieht</span> und <span class=\"highlight\">sie selbst heilt</span>. Es muss eine Sichtlinie zum Ziel bestehen und dieses muss sich innerhalb der max. Reichweite befinden. Während des Lebensentzugs können die Waffe und die Fähigkeiten eingesetzt werden, das Bewegungstempo wird jedoch um die Hälfte reduziert.<br><span class=\"highlight\">[Alt. Fähigkeitseinsatz] verwenden, um eigene Lebenspunkte auf einen verbündeten Helden zu übertragen</span>.<br><span class=\"highlight\">[{s:in_ability2}] drücken</span>, um die Fähigkeit abzubrechen."
+		"ability_life_drain/modifier_life_drain" "Lebensentzug"
+		"ability_life_drain/modifier_life_drain_caster" "Lebensentzug"
+		"modifier_life_drain_silence"		"Verstummt"
 		//"FriendlyTargetCooldown"			"Ally Target Cooldown"
 		"FriendlyTargetCooldown_postfix"	" s"
-"MaxRange_postfix"					" m"
+		"ability_life_drain_t3_desc"			"Gegner ist <span class=\"highlight\">verstummt</span>, während ihm das Leben entzogen wird (benötigt Sichtlinie)"
+		//"ability_life_drain_cancel_trigger"	"Cancel Life Drain"
+		"MaxRange_label"						"max. Verbindungsreichweite"
+		"MaxRange_postfix"					" m"
+		"BloodSpillDuration_label"			"Dauer der Giftpfütze"
 		"BloodSpillDuration_postfix"		" s"
 
 		"LifeDrainHealthMult_label"			"Schaden zu Heilung"
@@ -1245,26 +1451,84 @@
 		"HealFriendRadius_label"				"Heilungsradius für Verbündete"
 		"HealFriendRadius_postfix"			" m"
 
+		"ability_health_swap"					"Seelentausch"
+		"ability_health_swap_quip"			"Tauscht die aktuellen Lebenspunkte mit denen eines gegnerischen Helden"
 		"MinHealthTakenPct_label"				"min. erhaltene LP"
 		"MinHealthTakenPct_postfix"			" %"
 		//"modifier_blood_exchange"				"Blood Exchange"
 		"EnemyMinHealthPct_label"				"min. LP des Gegners"
 		"EnemyMinHealthPct_postfix"			" %"
+		"EnemySlowPct_label"					"gegn. Bewegungsverlangsamung"
 		"EnemySlowPct_postfix"				" %"
 		//"ability_health_swap/modifier_health_swap_debuff"	"Health Swap"
 
 		"HealthSwapBuffDuration_label"		"Stärkungsdauer"
 		"HealthSwapBuffDuration_postfix"		" s"
-"ability_blood_shards_t2_desc"		"+{s:HealthToDamage} Lebenspunkte zu Schaden"
+		"modifier_health_swap_buff"			"Seelentausch"
+
+		//"ability_death_tax"					"Death Tax"
+		//"ability_death_tax_desc"			"Enemies injured by Lady Geist are marked with Death Tax. Whenever a marked enemy dies, {s:hero_name} gains health."
+		//"modifier_citadel_death_tax"				"Death Tax"
+		//"modifier_citadel_death_tax_tech_amp"		"Death Tax Power"
+		//"ability_death_tax_t1_desc"	"Reduce one of your Cooldowns by <span class=\"highlight\">{s:CooldownReductionOnKill}s</span> when a marked enemy dies"
+		//"ability_death_tax_t3_desc"	"Increase Spirit Power by <span class=\"highlight\">{s:TechPowerAmpBonus}</span> for <span class=\"highlight\">{s:TechPowerAmpBonusDuration}s</span> when a marked enemy dies.  Stacks up to <span class=\"highlight\">{s:TechPowerAmpBonusMaxStacks}</span> times."
+
+		"ability_blood_shards"				"Bosheit"
+		"ability_blood_shards_quip"			"Fügt Gegnern eine sich aufsummierende Schadensverstärkung zu"
+		"ability_blood_shards_desc"			"Lady Geist <span class=\"highlight\">opfert einige ihrer Lebenspunkte</span> und feuert Blutsplitter ab, die Gegnern eine Instanz von Bosheit zufügen. Jede Instanz <span class=\"highlight\">verlangsamt</span> getroffene Gegner und <span class=\"highlight\">erhöht den Schaden</span>, den Lady Geist diesen zufügt. Der Verlangsamungseffekt nimmt mit der Zeit ab."
+		"ability_blood_shards_t2_desc"		"+{s:HealthToDamage} Lebenspunkte zu Schaden"
+		"ability_blood_shards_t3_desc"		"+{s:NumBloodShards} Blutsplitter"
+		"NumBloodShards_label"				"Blutsplitter"
 		"MoveSpeedPenaltyPerStack_label"		"Bewegungs­verlangsamung"
 		"MoveSpeedPenaltyPerStack_postfix"	" %"
 		"VulnerabilityPerStack_label"			"Schadens­verstärkung"
 		"VulnerabilityPerStack_prefix"		"+"
 		"VulnerabilityPerStack_postfix"		" %"
 		"SelfDamage_label"					"Selbstschaden"
+		"ability_blood_shards/modifier_blood_shard_debuff"			"Bosheit"
 		"ghost_malice_stack_effect_header"	"Effekt pro Instanz:"
-"modifier_citadel_rootgrenade"			"Festgesetzt"
 
+		//"FriendlyTargetCooldown_label"			"Friendly Cooldown"
+
+		//-----------------------------------------------------------------------------
+		// Phalanx
+		//-----------------------------------------------------------------------------
+		//"modifier_citadel_phalanx_reflect"			"Reflect"
+
+		//"citadel_ability_shield_toss"				"Shield Toss"
+		//"citadel_ability_shield_toss_desc"			"{s:hero_name} tosses his shield with great force, causing it to bounce between enemies, damaging and stunning them."
+		//"BounceCount_label"							"Shield Bounces"
+		//"DamagePerBounce_label"						"Damage per bounce"
+
+		//"citadel_ability_phalanx_reflect"			"Reflect"
+		//"citadel_ability_phalanx_reflect_desc"		"Phalanx activates his energy shield, causing any enemy projectile, bullet or grenade hitting it to be reflected back toward the attacker. Knocks back any charging enemies. Bullet hits extend the parry time, and stun the shooter."
+
+		//"modifier_citadel_reflect_shield"			"Reflect Shield"
+
+		//"citadel_ability_reflect_shield"			"Reflect Shield"
+		//"citadel_ability_reflect_shield_desc"		"Phalanx deploys a energy shield, causing any enemy projectile, bullet, or grenade hitting it to be reflected back toward the attacker and stun them."
+
+		//"citadel_ability_defensive_fortress"		"Defensive Fortress"
+		//"citadel_ability_defensive_fortress_desc"   "Summon a large defensive shield that blocks enemy bullets but lets you and your teammate shoot through it."
+
+		//"citadel_ability_phalanx_sword_strike"		"Ground Strike"
+		//"citadel_ability_phalanx_sword_strike_desc"	"Phalanx strikes the ground hard, causing a shockwave that runs forward all that damages enemies and causes them to stumble. Does not cancel enemy abilities."
+
+		//"citadel_ability_converge"					"Converge"
+		//"citadel_ability_converge_desc"				"Throw a grenade that quckly pulls enemies toward its center."
+
+		//-----------------------------------------------------------------------------
+		// Vindicta
+		//-----------------------------------------------------------------------------
+		"citadel_ability_hornet_chain"				"Pfählung"
+		"citadel_ability_hornet_chain_quip"			"Kettet Gegner am Bogen an"
+		"citadel_ability_hornet_chain_desc"			"Vindicta wirft einen Pfahl, der <span class=\"highlight\">Gegner an dem Ort ankettet</span>, an dem der Pfahl landet. Die Bewegung der Gegner wird durch die Länge der Kette eingeschränkt."
+		"citadel_ability_hornet_chain_t3_desc"		"Angekettete Gegner werden auch <span class=\"highlight\">entwaffnet<%s3>"
+		"modifier_citadel_hornet_chain_connection"	"Am Boden angekettet"
+		"citadel_ability_hornet_chain/modifier_citadel_hornet_chain_connection"	"Am Boden angekettet"
+		"modifier_citadel_rootgrenade"			"Festgesetzt"
+
+		"ChainLength_label"						"Kettenlänge"
 		"ChainLength_postfix"						" m"
 		"CaptureRadius_label"						"Einfangradius"
 		"CaptureRadius_postfix"					" m"
@@ -1274,47 +1538,151 @@
 		//"modifier_citadel_wing_blast_push"		"Being Vindicta Pushed"
 
 		"citadel_ability_hornet_leap"			"Flug"
+		"citadel_ability_hornet_leap_quip"		"Steigt in die Höhe und verstärkt die Waffe"
+		"citadel_ability_hornet_leap_desc"		"Vindicta springt in die Luft und <span class=\"highlight\">fliegt</span>. Während des Fluges fügt ihre Waffe zusätzlich <span class=\"highlight\">Magieschaden</span> zu."
+		"citadel_ability_hornet_leap_t1_desc"	"<span class=\"highlight\">+{s:BonusClipSizePercent} %</span> Grundmunition während Flug"
 		"MagicDamagePerBullet_label"				"Magieschaden pro Kugel"
-"BulletVulnerbility_prefix"				"{s:sign}"
+
+		//"modifier_citadel_hornetleap"			"Vindicta Leap"
+
+		//"citadel_ability_hornet_crit_stacking_buff"		"Headhunter"
+		//"citadel_ability_hornet_crit_stacking_buff_desc"	"Landing a headshot temporarily increases your weapon damage, stacking up to {s:MaxStacks} times."
+		//"modifier_citadel_hornet_crit_stacking_damage_buff"	"Headhunter"
+
+		//"citadel_ability_hornet_crit_vulernability"	"Vindicta's Mark"
+		//"citadel_ability_hornet_crit_vulernability_desc"	"Your shots have a chance to leave targets vulnerable, causing all bullets to crit them.  Headshots are guaranteed to apply this effect."
+		//"modifier_citadel_hornet_crit_vulnerability"	"Crit Vulnerable"
+
+		//"citadel_ability_hornet_explosive_headshots"		"Explosive Headshots"
+		//"citadel_ability_hornet_explosive_headshots_desc"	"Headshots you deal explode, dealing a percent of the damage to nearby enemies."
+
+		//"citadel_ability_hornet_nest"			"Vindicta Nest"
+		//"citadel_ability_hornet_nest_desc"		"Deploys a nest which will deploy Vindicta drones that fly slowly forward, attacking all enemies."
+
+		//"citadel_ability_hornet_mark"			"Vindicta's Mark"
+		//"citadel_ability_hornet_mark_desc"		"Vindicta mark's an enemy. They are visible on the minimap for the duration, and Vindicta can detect them through walls."
+		//"citadel_ability_hornet_mark_t2_desc"	"When a marked enemy is killed, Vindicta immediately gains <span class=\"highlight\">{s:ChargeForKill} Charge for Assassinate</span>"
+		//"modifier_citadel_hornetmark"			"Vindicta's Mark"
+
+		"citadel_ability_hornet_sting"			"Krähenvertrauter"
+		"citadel_ability_hornet_sting_quip"		"Lässt ein Ziel kontinuierlich ausbluten"
+		"citadel_ability_hornet_sting_desc"		"Vindictas Krähenvertrauter fügt <span class=\"highlight\">Aufprallschaden</span> zu, reduziert die Kugelresistenz und lässt ein Ziel <span class=\"highlight\">ausbluten</span>, wodurch dieses einen <span class=\"highlight\">Prozentsatz der aktuellen Lebenspunkte</span> als Schaden erleidet."
+		"citadel_ability_hornet_sting_t1_desc"	"Krähe <span class=\"highlight\">springt bis zu 2-mal</span> auf andere Gegner im Umkreis von {s:TargetBounceRange} m über"
+		"citadel_ability_hornet_sting_t3_desc"	"+{s:DotHealthPercent} % Ausblutungs­schaden und unterdrückt Heilung um {s:HealAmpReceivePenaltyPercent} %"
+		"citadel_ability_hornet_sting/modifier_citadel_hornet_sting_debuff"		"Krähenvertrauter"
+		"BulletVulnerbility_prefix"				"{s:sign}"
 		//"BulletVulnerbility_label"				"Weapon Damage Amplification"
 		"BulletVulnerbility_postfix"				" %"
 
+		"citadel_ability_hornet_snipe"			"Attentat"
+		"citadel_ability_hornet_snipe_quip"		"Fügt verwundeten Zielen massiven Schaden zu"
 		//"citadel_ability_hornet_snipe_t3_desc"	"Assassinate kills grant +{s:BonusGoldOnKill} souls"
 		"LowHealthEnemyDamageBonus_label"		"Bonusschaden"
+		"LowHealthEnemyThresholdPct_label"		"Lebenspunkteschwelle"
 		"LowHealthEnemyThresholdPct_postfix"	" %"
+		"BonusGoldOnKill_label"					"Bonusseelen pro Attentat"
+		"assassin_modifier"						"Waffenschaden erhöht"
 		//"modifier_citadel_assassinate_target"	"Assassination Target - Find Cover!"
 		"HeadshotBonus_prefix"					"+"
 		"HeadshotBonus_label"					"Schaden bei Kopfschuss"
 		"HeadshotBonus_postfix"					" %"
-"SpinDuration_postfix"		" s"
+
+
+		//-----------------------------------------------------------------------------
+		// Digger (Formally Pouncer and Driller) Mo and Krill
+		//-----------------------------------------------------------------------------
+		//"citadel_ability_grapplehook"			"Grapple Hook"
+		//"citadel_ability_grapplehook_desc"		"Launches out a hook, and pull {s:hero_name} towards the wall it hits."
+		//"modifier_citadel_grapplehook_wall_hanging"	"Grapple Hook Wall Hanging"
+
+		"ability_burrow"			"Eingraben"
+		"ability_burrow_quip"		"Gräbt sich durch den Untergrund, schraubt sich wieder empor und fügt Schaden zu"
+		"ability_burrow_desc"		"Mo & Krill graben sich unter die Erde, <span class=\"highlight\">bewegen sich dort schneller fort</span> und erhalten <span class=\"highlight\">Schildpunkte gegen Magie- und Kugelschaden</span>. Von gegnerischen Helden zugefügter Schaden reduziert das zusätzliche Bewegungstempo. Wenn Mo & Krill sich emporschrauben, werden Gegner in die Luft geschleudert, <span class=\"highlight\">erleiden Schaden und werden verlangsamt</span>. Die Abklingzeit beginnt, nachdem sich Mo % Krill emporschrauben."
+		"modifier_spin"				"Emporschrauben"
+		"SpinDuration_label"		"Emporschraubungsdauer"
+		"SpinDuration_postfix"		" s"
+		"ability_burrow_cancel_channel"	"Ausgraben"
+
+		"ability_burrow_t1_desc"	"<span class=\"highlight\">+{s:AbilityChannelTime} s</span> Dauer unter der Erde"
+		"ability_burrow_t2_desc"	"<span class=\"highlight\">+{s:DPS}</span> Schaden pro Sekunde beim Emporschrauben und +{s:Radius} m Radius"
 		"ability_burrow_t3_desc"	"<span class=\"highlight\">{s:AbilityCooldown} s</span> Abklingzeit und <span class=\"highlight\">+{s:BonusMoveSpeed} m/s</span> Bewegungstempo"
 
+		"ability_intimidate"			"Spott"
+		"ability_intimidate_quip"		"Fügt Gegnern in der Nähe Schaden zu und heilt sich pro Treffer"
+		"ability_intimidate_desc"		"Mo & Krill fügen Gegnern in der Nähe <span class=\"highlight\">Schaden</span> zu und <span class=\"highlight\">heilen sich</span> basierend auf dem zugefügten Schaden. Die Heilung ist stärker, wenn es sich dabei um gegnerische Helden handelt."
+		"ability_intimidate_t3_desc"	"Belegt Gegner mit einem Schwächungseffekt, durch den {s:hero_name} diesen <span class=\"highlight\">+{s:DamageBonus} % Schaden</span> zufügen (Effekt summiert sich auf und hält {s:DebuffDuration} s an)"
 		"DamageHealMult_label"			"Heldenschaden als Heilung"
 		"DamageHealMult_postfix"		"×"
 		"DamageHealMultNonHero_label"		"Schaden als Heilung"
 		"DamageHealMultNonHero_postfix"		"×"
-"LifestealPercentOnHit_label"		"Lebensraub"
+		"modifier_intimidate_debuff"		"Spott"
+
+		"ability_throw_sand"			"Sandwirbel"
+		"ability_throw_sand_quip"		"Entwaffnet Gegner im Blickfeld"
+		"ability_throw_sand_desc"		"Mo & Krill wirbeln Sand auf, der Gegner in ihrem Blickfeld <span class=\"highlight\">verlangsamt</span> und <span class=\"highlight\">Schaden zufügt</span>."
+		"modifier_citadel_throw_sand_debuff"	"Entwaffnet durch Sandwirbel"
+
+		"ability_throw_sand_t3_desc"	"Verlangsamt Ziele um <span class=\"highlight\">−{s:SlowPercent} %</span>"
+
+		"ability_ult_combo"				"Kombo"
+		"ability_ult_combo_quip"		"Setzt einen gegnerischen Helden an Ort und Stelle fest und prügelt auf ihn ein"
+		"ability_ult_combo_desc"		"Mo & Krill setzen ein Ziel während der Kanalisierung an Ort und Stelle fest, wodurch dieses <span class=\"highlight\">betäubt wird und Schaden erleidet</span>. Falls das Ziel während Kombo stirbt, erhalten Mo und Krill einen Bonus auf ihre max. Lebenspunkte."
+		"ability_ult_combo_t1_desc"		"<span class=\"highlight\">+{s:ComboBulletResist} %</span> Kugelresistenz während Kombo"
+		"ability_ult_combo_t2_desc"		"<span class=\"highlight\">+{s:AbilityChannelTime} s</span> Kombodauer"
+		"ability_ult_combo_t3_desc"		"<span class=\"highlight\">+{s:DPS}</span> Schaden pro Sekunde und <span class=\"highlight\">{s:LifeStealPercentOnHit} % Lebensraub</span>"
+		"LifestealPercentOnHit_label"		"Lebensraub"
 		"LifestealPercentOnHit_postfix"	" %"
 		"BonusHealthOnKill_label"			"Bonus auf max. LP pro Kill"
-
+		"ComboBulletResist_label"		"Kugelresistenz während Kombo"
+		"ComboBulletResist_postfix"		" %"
 		//"GrabExtraTargetRange_label"		"Extra Target Range"
 		"GrabExtraTargetRange_postfix"	" m"
-"BleedDPSPerStack_label"					"Ausblutungsschaden pro Sek. und Messer"
+
+
+		//-----------------------------------------------------------------------------
+		// Shiv
+		//-----------------------------------------------------------------------------
+		"citadel_ability_shiv_dagger"			"Wurfmesser"
+		"citadel_ability_shiv_dagger_quip"		"Lässt Ziele immer stärker ausbluten"
+		"citadel_ability_shiv_dagger_desc"		"Shiv wirft ein Messer, das einem Gegner <span class=\"highlight\">Schaden zufügt und diesen ausbluten lässt</span>. Jeder zusätzliche Treffer fügt eine weitere <span class=\"highlight\">Instanz</span> zu und setzt die Ausblutungsdauer zurück, wodurch sich der Ausblutungsschaden pro Instanz erhöht."
+		"citadel_ability_shiv_dagger_max_rage_desc" "Nach Freischaltung der ultimativen Fähigkeit: <span class=\"highlight\">Während der Wutbalken voll ist</span>, springen Messer auf einen anderen Gegner über und verlangsamen diesen, während er ausblutet."
+		"modifier_shiv_bleed_thrown_shiv"			"Wurfmesser"
+		"modifier_citadel_shiv_dagger"			"Wurfmesser"
+		"modifier_shiv_thrown_shiv_slow_debuff"		"Wurfmesser"
+		"BleedDPSPerStack_label"					"Ausblutungsschaden pro Sek. und Messer"
 		"AOERadius_label"							"Aufprallradius"
 		"AOERadius_postfix"						" m"
 
 		"citadel_ability_shiv_dagger_t3_desc"		"+{s:ImpactDamage} Schaden und +{s:BleedDPSPerStack} Ausblutungs­schaden pro Sekunde"
 
+		"modifier_shiv_bleed"						"Blutet aus"
 		"BleedDamage_label"						"Ausblutungsschaden"
 		"BleedDuration_label"						"Ausblutungsdauer"
 		"BleedDuration_postfix"					" s"
 
+		"citadel_ability_shiv_dash"				"Sturmangriff"
+		"citadel_ability_shiv_dash_quip"		"Stürmt nach vorne und fügt allen Gegnern auf dem Weg Schaden zu"
+		"citadel_ability_shiv_dash_desc"		"Shiv führt einen <span class=\"highlight\">Spurt nach vorne</span> aus und <span class=\"highlight\">fügt Gegnern entlang des Weges Schaden zu</span>.<br><br>Nach Freischaltung der ultimativen Fähigkeit: <span class=\"highlight\">Während der Wutbalken voll ist</span>, folgt ein Echo von Shiv dem Spurtpfad nach einer kurzen Verzögerung und fügt Gegnern erneut Schaden zu."
+		"citadel_ability_shiv_dash_t3_tooltip"	"Bei Treffer:"
 		"DashRange_label"							"Reichweite des Spurts"
 		"DashRange_postfix"						" m"
 		"ImpactDamage_label"						"Schaden"
+		"ImpactSlowDuration_label"				"Verlangsamungsdauer bei Aufprall"
 		"ImpactSlowDuration_postfix"				" s"
+		"ImpactMoveSlow_label"					"Bewegungsverlangsamung bei Aufprall"
 		"ImpactMoveSlow_postfix"					" %"
+		"DashSlowPct_label"						"Verlangsamung durch Spurt"
+		"modifier_citadel_shiv_dash"				"Sturmangriff"
+		"modifier_shiv_bleed_dash"				"Sturmangriff"
+		"modifier_citadel_shiv_dash_impact_slow"	"Sturmangriff"
+		"modifier_shiv_dash_heal_reduction"		"Heilungsreduzierung durch Sturmangriff"
 		"BurstFireOnHeroHit_postfix"				" s"
+		"citadel_ability_shiv_dash_t3_desc"		"Reduziert die Abklingzeit pro getroffenem Helden um {s:CooldownReductionOnHit} s (und um {s:CooldownReductionOnHitNonHero} s pro Nicht-Held). Max. −{s:MaxCooldownReductionsFromHits} s pro Spurt."
+
+		"citadel_ability_shiv_defer_damage"		"Aderlass"
+		"citadel_ability_shiv_defer_damage_quip"	"Verzögert einen Teil des erlittenen Schadens"
+		"citadel_ability_shiv_defer_damage_desc"	"Shiv erleidet sofort nur einen Teil des eingehenden Schadens und verzögert den restlichen Schaden, der kontinuierlich erlitten wird. Kann aktiviert werden, um <span class=\"highlight\">einen Teil des verzögerten Schadens aufzuheben</span>."
+		"citadel_ability_shiv_defer_damage_max_rage_desc" "Nach Freischaltung der ultimativen Fähigkeit: <span class=\"highlight\">Während der Wutbalken voll ist</span>, wird der mit einer Verzögerung erlittene Schaden erhöht."
 		"citadel_ability_shiv_defer_damage_on_cast" "Bei Aktivierung:"
 		"DamagePctDeferred_label"					"verzögerter eingehender Schaden"
 		"DamagePctDeferred_postfix"				" %"
@@ -1327,12 +1695,26 @@
 		"DeferClearPct_postfix"					" %"
 		
 
+		"citadel_ability_shiv_killing_blow"		"Todesstoß"
+		"citadel_ability_shiv_killing_blow_quip"	"Springt zu einem Helden mit niedrigen Lebenspunkten und tötet ihn sofort"
+		"citadel_ability_shiv_killing_blow_passive_desc" "Passiv: Shivs Wut nimmt zu, wenn er Gegnern Schaden zufügt. Während der Wutbalken voll ist, fügt Shiv erhöhten Schaden zu und profitiert von den <span class=\"highlight\">besonderen Eigenschaften</span> seiner anderen Fähigkeiten."
+		"citadel_ability_shiv_killing_blow_t2_desc"		"Erhöht die Lebenspunkteschwelle von Gegnern um <span class=\"highlight\">+{s:EnemyHealthPercent} %</span> und gewährt <span class=\"highlight\">+{s:BuffDamage} %</span> Bonusschaden bei vollem Wutbalken"
+		
+		"citadel_ability_shiv_killing_blow/active_buff"		"Wütend"
+		"citadel_ability_shiv_killing_blow_while_full_rage" "Während der Wutbalken voll ist"
+		"citadel_ability_shiv_killing_blow_ui_meter" 		"Wut"
+
+		"EnemyHealthPercent_label"				"Lebenspunkteschwelle des Gegners"
 		"EnemyHealthPercent_postfix"				" %"
+		"BuffDamage_label"					"Bonusschaden bei vollem Wutbalken"
 		"BuffDamage_prefix"					"+"
 		"BuffDamage_postfix"					" %"
 		"BuffMoveSpeed_label"					"Bewegungstempo"
 		"BuffMoveSpeed_prefix"				"+"
 		"BuffMoveSpeed_postfix"				" m/s"
+
+		"citadel_ability_shiv_killing_blow_t1_desc"	"Gewährt <span class=\"highlight\">+{s:BonusMoveSpeed} m/s</span> Bewegungstempo, während der Wutbalken voll ist"
+		"citadel_ability_shiv_killing_blow_t3_desc"	"Stirbt ein Gegner durch Todesstoß, <span class=\"highlight\">wird die Abklingzeit zurückgesetzt</span>"
 
 		//-----------------------------------------------------------------------------
 		// Hero: Rutger
@@ -1354,12 +1736,27 @@
 		//"DamageMax_label"			"Maximum Damage"
 		"MovementSlow_label"		"Bewegungsverlangsamung"
 		"MovementSlow_postfix"	" %"
-//"DPSDuration_label"			"Damage Duration"
+
+		//-----------------------------------------------------------------------------
+		// Pocket // synth
+		//-----------------------------------------------------------------------------
+		"synth_plasma_flux"			"Fliegender Mantel"
+		"synth_plasma_flux_quip"		"Lässt einen Mantel fliegen, der Schaden zufügt und zu dem sich Pocket teleportieren kann"
+		"synth_plasma_flux_t3_desc"	"<span class=\"highlight\">+{s:WeaponDamageBonus} Waffenschaden</span> für <span class=\"highlight\">{s:WeaponDamageBonusDuration} s</span> nach Teleportation mit Fliegender Mantel"
+		//"DPSDuration_label"			"Damage Duration"
 		"DPSDuration_postfix"			" s"
+		"modifier_synth_plasma_flux_dps"	"Fliegender Mantel"
 		//"WeaponPowerBonus_label"				"Bonus Courage"
 		//"WeaponPowerBonusDuration_label"		"Bonus Courage Duration"
 		//"modifier_synth_plasma_flux_weapon_damage"	"Bonus Weapon Damage"
 		"synth_plasma_flux_teleport"	"Teleportieren"
+		"modifier_synth_plasma_flux_auto_projectile"	"Fliegender Mantel"
+
+		"synth_pulse"					"Koffer des Zauberers"
+		"synth_pulse_quip"			"Flüchtet kurz in den Koffer und fügt dann Schaden zu"
+		"synth_pulse_desc"			"Pocket <span class=\"highlight\">flüchtet</span> in seinen Koffer. Nach Ablauf der Wirkungsdauer fügt Pocket Gegnern in der Nähe <span class=\"highlight\">Schaden</span> zu. Die Wirkungsdauer kann frühzeitig beendet werden, indem eine beliebige Aktion ausgeführt wird."
+		"synth_pulse_t3_desc"			"Verlangsamt für {s:DebuffDuration} s die Feuerrate um <span class=\"highlight\">{s:FireRateSlow} %</span>"
+		"EscapeDuration_label"		"Fluchtdauer"
 		"EscapeDuration_postfix"		" s"
 		//"BulletShieldPerHero_label"	"Bullet Shield Per Hero"
 
@@ -1380,12 +1777,18 @@
 		//"DamageInterval_label"		"Damage Interval"
 		"DamageInterval_postfix"		" s"
 
+		"synth_barrage"				"Trommelfeuer"
+		"synth_barrage_quip"			"Gleitet durch die Lüfte und feuert mehrere Projektile ab"
 		"DamagePerProjectile_label"	"Schaden pro Projektil"
 		"ProjectileAmount_label"		"Projektile"
 		"ProjectileInterval_label"	"Projektilintervall"
 		"AmpPercentPerStack_label"	"Schadensverstärkung pro Instanz"
 		"AmpPercentPerStack_postfix"	" %"
+		"AmpDuration_label"			"Schadensverstärkungsdauer"
 		"AmpDuration_postfix"			" s"
+		"modifier_synth_barrage_debuff"	"Verlangsamt durch Trommelfeuer"
+		"modifier_synth_barrage_amp"	"Trommelfeuer – Schadensverstärkung"
+
 		//"synth_blitz"					"Blitz"
 		//"synth_blitz_quip"			"Your bullets fire faster and apply spirit amp"
 		//"synth_blitz_desc"			"Gain <span class=\"highlight\">fast firing rate</span> and <span class=\"highlight\">bullet lifesteal</span> for a brief flurry of shots."
@@ -1398,33 +1801,86 @@
 		//"FastFireBullets_label"		"Fast Fire Shots"
 		//"FastFireDuration_label"		"Fast Fire Duration"
 		"FastFireDuration_postfix"	" s"
-"synth_affliction_t3_desc"	"+{s:DPS} Schaden pro Sekunde"
-"mirage_tornado_quip"				"Verwandelt sich in einen Tornado und hebt Gegner in die Luft"
+		//"synth_blitz/modifier_synth_blitz"	"Blitz"
+		//"synth_blitz/modifier_synth_blitz_tech_amp"	"Blitz - Spirit Amp"
+
+		"synth_affliction"			"Gebrechen"
+		"synth_affliction_quip"		"Lässt Gegner in der Nähe kontinuierlich Schaden erleiden"
+		"synth_affliction_desc"		"Pocket fügt allen Gegnern in der Nähe <span class=\"highlight\">kontinuierlichen Schaden</span> zu.<br>Der Schaden von Gebrechen ist nicht tödlich und löst keine Gegenstandseffekte aus."
+		"synth_affliction_t2_desc"	"Unterdrückt die Heilung von Zielen um {s:HealAmpReceivePenaltyPercent} %"
+		"synth_affliction_t3_desc"	"+{s:DPS} Schaden pro Sekunde"
+		"modifier_synth_affliction_debuff"	"Gebrechen"
+
+		//-----------------------------------------------------------------------------
+		// Hero: Mirage
+		//-----------------------------------------------------------------------------
+		"mirage_tornado"					"Tornado"
+		"mirage_tornado_quip"				"Verwandelt sich in einen Tornado und hebt Gegner in die Luft"
+		"mirage_tornado_desc"				"Verwandle Dich in einen Tornado und reise vorwärts, <span class=\"highlight\">füge Gegnern Schaden zu</span> und <span class=\"highlight\">hebe sie in die Luft</span>. Nachdem Du Dich wieder zurückverwandelst, erhalte <span class=\"highlight\">Ausweichchance gegen Kugeln</span>."
+		"HoldInPlaceDuration_label"			"Dauer in der Luft"
 		"HoldInPlaceDuration_postfix"		" s"
+		"EnemyLiftDuration_label"			"Dauer in der Luft" 
 		"EnemyLiftDuration_postfix"		" s"
-"LaunchWindowDuration_postfix"	" s"
+		//"TornadoDuration_label"			"Tornado Lifetime"
+		//"TornadoDuration_postfix"			"s"
+		"modifier_mirage_tornado_lift"	"Tornado"
+		"modifier_mirage_tornado_slow"	"Verlangsamt durch Tornado"
+
+		"mirage_fire_beetles"			"Feuerskarabäen"
+		"mirage_fire_beetles_quip"		"Lässt Skarabäen fliegen, die Gegnern Lebenspunkte rauben"
+		"mirage_fire_beetles_desc"		"Mirage macht sich bereit, seine Feuerskarabäen abzufeuern. Jeder Skarabäus kann <span class=\"highlight\">separat abgefeuert</span> werden, raubt getroffenen Gegnern <span class=\"highlight\">einen Prozentsatz ihrer max. Lebenspunkte</span> und <span class=\"highlight\">reduziert deren Kugelresistenz</span>. Ein Gegner kann immer nur von einem einzigen Skarabäus befallen werden. Getroffene Helden gewähren dreimal mehr Lebensraub als getroffene Nicht-Helden."
+		"modifier_mirage_fire_beetles_launch_window"	"Feuerskarabäen werden abgefeuert"
+		"LaunchWindowDuration_label"	"Zeitfenster zum Abfeuern"
+		"LaunchWindowDuration_postfix"	" s"
 		"LaunchWindowCooldown_label"	"Abklingzeit"
 		"LaunchWindowCooldown_postfix"	" s"
-"mirage_teleport"		"Reisender"
-		"mirage_teleport_quip"	"Teleportiert zu einem verbündeten oder gegnerischen Helden"
-		"MirageTeleportMoveSpeed_conditional"	"nach Teleportation"
-		"mirage_teleport_movespeed"		"Reisender – Bonustempo"
+		//"AbilityButtonHint_MirageLaunchFireBeetle"	"Launch Fire Beetle"
+		"modifier_mirage_fire_scarabs_health_gain"	"Feuerskarabäen"
+		"modifier_mirage_fire_scarabs_health_loss"	"Feuerskarabäen"
+		"MirageFireScarabsHealthSteal_label"	"Lebensraub (max. LP)"
 
+		"mirage_teleport"		"Reisender"
+		"mirage_teleport_quip"	"Teleportiert zu einem verbündeten oder gegnerischen Helden"
+		"mirage_teleport_desc"	"Mirage <span class=\"highlight\">teleportiert</span> sich zur Position eines ausgewählten verbündeten oder gegnerischen Helden auf der Minikarte, an der sich dieser bei Beginn der Kanalisierung befand. Nach der Teleportation erhält Mirage <span class=\"highlight\">Bewegungstempo</span> sowie <span class=\"highlight\">Feuerrate bis zum nächsten Nachladen</span>."
+		"MirageTeleportMoveSpeed_conditional"	"nach Teleportation"
+		"mirage_teleport_movespeed"		"Bonusbewegungstempo durch Reisenden"
+
+		"mirage_sand_phantom"			"Mal des Dschinns"
+		"mirage_sand_phantom_quip"		"Wendet Auslösungen steigenden Schadens an."
+		"mirage_sand_phantom_desc"		"Aktiv: <span class=\"highlight\">Verbraucht alle Multiplikator-Instanzen</span> von Zeichen des Dschinns, um den Schaden sofort zuzufügen."
+		"mirage_sand_phantom_passive_desc"	"Passiv: Mirages Schüsse <span class=\"highlight\">belegen ein Ziel mit sich aufsummierenden Multiplikator-Instanzen</span>. Wenn die Instanzen eines Ziels ablaufen oder die max. Instanzen für dieses Ziel erreicht werden, werden diese verbraucht und das Ziel erleidet <span class=\"highlight\">Magieschaden</span>. Das Ziel wird auch kurzzeitig auf der <span class=\"highlight\">Minikarte aufgedeckt</span>. Der endgültige Schaden entspricht dem Grundschaden × Multiplikator-Instanzen."
+		"mirage_sand_phantom_t1_desc"	"Verlangsamt beim Zufügen eines min. 2-fachen Multiplikators für {s:SlowDuration} s um {s:MovementSpeedSlow} %"
+		"mirage_sand_phantom_t2_desc"	"+{s:VictimStackDuration} s Multiplikatordauer und +{s:ProcDamageBase} Grundschaden"
+		"mirage_sand_phantom_t3_desc"	"{s:SandPhantomProcCooldown} s Verzögerung zw. Multiplikator-Instanzen und +{s:MirageDjinnsMarkMaxStacks} max. Multiplikator-Instanzen"
+		"modifier_mirage_sand_phantom_passive_victim"	"Multiplikator von Mal des Dschinns"
+		"ProcDamageBase_label"		"Grundschaden"
+		"VictimStackDuration_label"		"Multiplikatordauer"
 		"VictimStackDuration_postfix"	" s"
+		"RevealDuration_label"		"Enttarnungsdauer"
 		"RevealDuration_postfix"	" s"
+		"StacksRequiredForSlow_label"	"benötigter Multiplikator für Verlangsamung"
+		"MirageDjinnsMarkMaxStacks_label"	"max. Multiplikator"
 		"MirageDjinnsMarkMaxStacks_postfix"	"×"
 
+		"SandPhantomProcCooldown_label"		"Verzögerung zw. Multiplikator-Instanzen"
 		"SandPhantomProcCooldown_postfix"	" s"
 		"ProcBonusMagicDamageEscalation_prefix"	"{s:sign}"
 		"ProcBonusMagicDamageEscalation_label"	"Erhöhter Magieschaden"
+		"WhirlwindEvasionChance_label"	"Ausweichchance bei Kugeln"
 		"WhirlwindEvasionChance_postfix"	" %"
+		"WhirlwindDuration_label"			"Dauer der Ausweichchance gegen Kugeln"
 		"WhirlwindDuration_postfix"		" s"
+		"SlowAuraPercent_label"			"gegn. Bewegungsverlangsamung"
 		"SlowAuraPercent_postfix"			" %"
 		"SlowAuraRadius_label"			"Verlangsamungsradius"
 		"SlowAuraRadius_postfix"			" m"
 		"MoveSpeedDuration_prefix"		"+"
 		"MoveSpeedDuration_label"			"Bewegungstempo"
 		"MoveSpeedDuration_postfix"		" s"
+		"modifier_mirage_sand_phantom"	"Wirbelnder Derwisch"
+		"modifier_mirage_sand_phantom_whirlwind_reflect"	"Wirbelnder Derwisch"
+		"modifier_mirage_sand_phantom_slow_aura_effect"	"Wirbelnder Derwisch"
+
 		"PostCastDelay_postfix"			" s"
 		"StaminaRegenPenalty_postfix"		" %"
 
@@ -1441,9 +1897,38 @@
 		"citadel_ability_pestilence_contaminate_t1"		"Schaden pro Sekunde"
 		"citadel_ability_pestilence_contaminate_t2"		"Schaden pro Sekunde"
 		"citadel_ability_pestilence_contaminate_t3"		"Schaden pro Sekunde"
-"citadel_ability_tengu_stone_form_t2_desc"	"<span class=\"highlight\">+{s:Damage} Schaden</span> und betäubt für <span class=\"highlight\">+{s:StunDuration} s</span>"
+
+		//"citadel_ability_pestilence_drone"						"Drones"
+		//"citadel_ability_pestilence_drone_desc"					"{s:hero_name} creates a drone that attaches to enemies causing DOT."
+		//"citadel_ability_pestilence_drone_t1"			"Add Attach Time"
+		//"citadel_ability_pestilence_drone_t1_desc"		"+{s:DroneAttachLifetime}s lifetime when attached to enemies"
+		//"citadel_ability_pestilence_drone_t2"			"Add Drones"
+		//"citadel_ability_pestilence_drone_t2_desc"		"+{s:DroneCount} additional drones"
+		//"citadel_ability_pestilence_drone_t3"			"Drone DPS"
+		//"citadel_ability_pestilence_drone_t3_desc"		"+{s:DPS} DPS"
+
+		//-----------------------------------------------------------------------------
+		// TENGU // IVY
+		//-----------------------------------------------------------------------------
+		"citadel_ability_tengu_urn"			"Rankenbombe"
+		"citadel_ability_tengu_urn_quip"	"Verlangsamt Gegner im Wirkungsbereich und fügt ihnen Schaden zu"
+		"citadel_ability_tengu_urn_t3_desc"	"<span class=\"highlight\">+{s:DPS} Schaden pro Sekunde</span> und <span class=\"highlight\">+{s:Radius} m Radius</span>"
+
+		//"citadel_ability_tengu_ghost"			"Ghost"
+		//"citadel_ability_tengu_ghost_desc"		"Summon a tracking ghost that bounces randomly {s:Bounces} times to new targets after impact. Slows targets hit for 5 seconds."
+		//"citadel_ability_tengu_ghost_t3_desc"	"Bounces +{s:Bounces} additional times"
+
+		"citadel_ability_tengu_stone_form"			"Steinform"
+		"citadel_ability_tengu_stone_form_quip"		"Verwandelt sich in undurchdringlichen Stein und betäubt Gegner in der Nähe"
+		"citadel_ability_tengu_stone_form_desc"		"Ivy verwandelt sich in <span class=\"highlight\">undurchdringlichen Stein</span> und prallt auf den Boden, wodurch Gegner in der Nähe <span class=\"highlight\">betäubt werden und Schaden erleiden</span>. Ivy heilt sich um einen Prozentsatz ihrer max. Lebenspunkte. Vor dem Aufprall kann die Bewegung der Steinform für eine kurze Zeit in der Luft kontrolliert werden."
+		"citadel_ability_tengu_stone_form_t2_desc"	"<span class=\"highlight\">+{s:Damage} Schaden</span> und betäubt für <span class=\"highlight\">+{s:StunDuration} s</span>"
 		"MaxHealthRegen_label"						"Heilung (max. LP)"
 		"MaxHealthRegen_postfix"					" %"
+		"citadel_ability_tengu_stone_form/modifier_citadel_tengu_stone_form"	"Steinform"
+
+		"citadel_ability_tangotether"		"Schwur der Wächter"
+		"citadel_ability_tangotether_quip"	"Stärkt Dich und einen Verbündeten in der Nähe"
+		"citadel_ability_tangotether_desc"	"Gewährt Ivy Boni und verbindet sich automatisch mit einem Verbündeten in der Nähe, um diese zu teilen. <span class=\"highlight\">Die Heilung wird mit allen verbundenen Verbündeten geteilt</span>, erfordert aber eine Sichtlinie. [{s:in_ability2}] drücken, um die Sicht auf einen Verbündeten zu fixieren."
 		"citadel_ability_tangotether_t2_desc" "+{s:MoveSpeedBonus} m/s Bonusbewegungstempo"
 		//"tether_disconnecting"				"Covenant - Disconnecting..."
 		//"tether_disconnected"				"Covenant - Disconnected"
@@ -1452,8 +1937,17 @@
 		"SelfMovementBonus_postfix"			" m/s"
 		//"TetherDistance_label"				"Connection Range"
 		"TetherDistance_postfix"			" m"
+		"TotalTetherTargets_label"			"Verbindung(en)"
+		"TetherSharedHealPct_label"		"geteilte Heilung"
 		"TetherSharedHealPct_postfix"	" %"
-"citadel_ability_tengu_lightningcrash_t3_desc"	"<span class=\"highlight\">+{s:Damage}</span> Schaden und <span class=\"highlight\">+{s:Regeneration}</span> Regeneration"
+		//"citadel_modifier_tangotether_tether_receiver"	"Covenant"
+
+		"citadel_ability_tangotether_lock"			"Auf Verbündeten fixieren"
+
+		"citadel_ability_tengu_lightningcrash"		"Absturz"
+		"citadel_ability_tengu_lightningcrash_quip"	"Fliegt über das Schlachtfeld"
+		"citadel_ability_tengu_lightningcrash_desc"	"Ivy springt in die Luft und fliegt für eine kurze Zeit. Wenn sie auf den Boden aufschlägt, fügt sie <span class=\"highlight\">Schaden</span> basierend auf der Flugdauer zu und profitiert von zusätzlicher <span class=\"highlight\">Regeneration</span>. <span class='keybind'>[{s:iv_attack}]</span> drücken, um den Flug frühzeitig zu beenden und zu Boden zu stürzen."
+		"citadel_ability_tengu_lightningcrash_t3_desc"	"<span class=\"highlight\">+{s:Damage}</span> Schaden und <span class=\"highlight\">+{s:Regeneration}</span> Regeneration"
 		//"AirSpeedHealthBonus_label"			"Healthy Speed Bonus"
 		"AirSpeedHealthBonus_postfix"			" m/s"
 
@@ -1465,11 +1959,28 @@
 		"RegenerationDuration_postfix"		" s"
 		"Regeneration_label"		"Regeneration"
 		"Regeneration_postfix"		" LP/Sek."
-//"DragonsFireBurnDuration_label"				"Burn Duration"
+
+		"modifier_tengu_lightningcrash_regeneration" "Regeneration durch Absturz"	
+		 
+		//"citadel_ability_tengu_dragonsfire"			"Wildfire"
+		//"citadel_ability_tengu_dragonsfire_desc"	"Take flight and breathe eldritch flame down on your enemies.  Gain Bullet Resist while flying."
+		//"AbilityButtonHint_DragonsFireDive"		"Dive"
+		//"AbilityButtonHint_DragonsFireAscend"		"Ascend"
+		"AbilityButtonHint_DragonsFireSpeedUp"		"Beschleunigen"
+		"AbilityButtonHint_DragonsFireSpeedDown"	"Abbremsen"
+		 
+		//"DragonsFireBurnDuration_label"				"Burn Duration"
 		"DragonsFireBurnDuration_postfix"			" s"
+		"FlyingBulletResist_label"					"Kugelresistenz"
 		"FlyingBulletResist_postfix"				" %"
-"citadel_ability_tengu_airlift_t2_desc"		"<span class=\"highlight\">+{s:AirDropBulletShield}</span> Schildpunkte gegen Kugelschaden und <span class=\"highlight\">+{s:AirDropExplodeRadius} m</span> Explosionsradius"
-		//"modifier_airlift_ally"						"Air Drop"
+
+		//"citadel_ability_tengu_dragonsfire_t3_desc"	"<span class=\"highlight\">+{s:AbilityDuration}s</span> Duration and <span class=\"highlight\">+{s:FlyingBulletResist}</span> Flying Bullet Resist"
+
+		"citadel_ability_tengu_airlift"				"Abwurf"
+		"citadel_ability_tengu_airlift_quip"		"Der Tod kommt von oben! Fliegt in die Lüfte und lässt eine Bombe (oder einen Verbündeten) auf Gegner fallen"
+		"citadel_ability_tengu_airlift_t2_desc"		"<span class=\"highlight\">+{s:AirDropBulletShield}</span> Schildpunkte gegen Kugelschaden und <span class=\"highlight\">+{s:AirDropExplodeRadius} m</span> Explosionsradius"
+		"citadel_ability_tengu_airlift_t3_desc"		"Lässt getroffene Gegner für <span class=\"highlight\">+{s:AirDropSilenceDuration} s</span> <span class=\"highlight\">verstummen</span>"
+		"modifier_airlift_ally"						"Abwurf"
 
 		"AirDropDebuffDuration_label"		"Verlangsamungsdauer"
 		"AirDropDebuffDuration_postfix"		" s"
@@ -1477,6 +1988,7 @@
 		"AirDropSilenceDuration_label"		"Verstummungsdauer"
 		"AirDropSilenceDuration_postfix"	" s"
 
+		"AirDropDebuff02Duration_label"		"Dauer der Kugelresistenz"
 		"AirDropDebuff02Duration_postfix"	" s"
 
 		"AirDropExplodeRadius_label"		"Explosionsradius"
@@ -1490,8 +2002,10 @@
 		"AirDropBulletArmorReduction_label"			"Kugelresistenz gegen Gegner"
 		"AirDropBulletArmorReduction_postfix"		" %"
 
+		"AirDropSelfCastDelay_label"		"Selbsteinsatzdauer"
 		"AirDropSelfCastDelay_postfix"		" s"
 
+		"AbilityButtonHint_DropBomb"		"Bombe fallenlassen"
 		"AirDropBulletShield_label"		"Schildpunkte gegen Kugelschaden"
 		//"AirDropBulletShield_postfix"		""
 
@@ -1605,7 +2119,36 @@
 		//"InvisReapplyDelay_Label"		"Delay before fading"
 		//"InvisRegen_Label"				"Invis Max Health Regen"
 		"InvisRegen_postfix"			" %"
-"CooldownReductionOnHit_postfix"					" s"
+		//"AmbushDamage_Label"			"Ambush Damage"
+		//"StaminaDamage_Label"			"Stamina Damage"
+//		"slork_ability_invis_t2_desc"	"-{s:InvisReapplyDelay}s Delay before fading"
+
+		//"slork_last_breath"				"Deep's Embrace"
+		//"slork_last_breath_desc"		"Encase yourself in a sphere of water that can absorb up to <span class=\"highlight_tech\">{s:DamageAbsorb}</span> damage before bursting. When the sphere disipates for any reason enemies in range take <span class=\"highlight_tech\">{s:BurstDamage}</span> damage."
+		//"DamageAbsorb_Label"			"Damage Absorbed"
+		//"HitsToRelease_Label"			"Hits to Release"
+
+
+		//"modifier_slork_invis"		"Invisible"
+		//"modifier_slork_ambush"		"Ambush Damage"
+		//"modifier_slork_visible"	"Can't hide"
+		//"modifier_slork_lastbreath"	"Last Breath"
+		//"modifier_slork_lastbreath_damage_amp" "Baited"
+
+		//-----------------------------------------------------------------------------
+		// Kali
+		//-----------------------------------------------------------------------------
+		//"citadel_ability_kali_spinning_blade"			"Occilioblade"
+		//"citadel_ability_kali_spinning_blade_quip"		"Launch a boomerang that flies back"
+		//"citadel_ability_kali_spinning_blade_desc"		"Throw a spinning blade that <span class=\"highlight\">deals damage</span> and <span class=\"highlight\">returns</span> to you."
+		//"citadel_ability_kali_spinning_blade_t1_desc"		"<span class=\"highlight\">{s:SlowPercent}% slow</span> for <span class=\"highlight\">{s:SlowDuration}s</span> on enemies hit"
+		//"citadel_ability_kali_spinning_blade_t2_desc"		"<span class=\"highlight\">+{s:Damage} Damage</span> and Occilioblade gains <span class=\"highlight\">+100% more damage</span> from spirit"
+		//"citadel_ability_kali_spinning_blade_t3_desc"		"<span class=\"highlight\">{s:CooldownReductionOnHit}s Cooldown</span> for each enemy hit by Occilioblade"
+
+		//"CooldownReductionOnCatch_label"				"Cooldown on Catch"
+		//"CooldownReductionOnCatch_postfix"				"s"
+		"CooldownReductionOnHit_label"					"Abklingzeitred. bei Treffer"
+		"CooldownReductionOnHit_postfix"					" s"
 
 		//"ability_kali_dust_storm"							"Dust Storm"
 		//"ability_kali_dust_storm_quip"						"Send out a tornado that slows enemies"
@@ -1747,10 +2290,113 @@
 		//"citadel_ability_mechaguy_echo_t3_desc"			"Echo spreads to nearby enemies"
 
 		"modifier_citadel_mechaguy_echo_slow"			"Verlangsamt"
-//
-//
-//
-//"SlashWideRadius_label"				"Power Stance Slash Radius"
+		//"modifier_citadel_mechaguy_echo"				"Echo"
+
+
+		//"citadel_ability_mechaguy_retaliate"			"Retaliate"
+		//"citadel_ability_mechaguy_retaliate_desc"			"Charges a projectile for {s:AbilityDuration}s. Deals {s:Damage} + {s:DamageMultiplier}x damage taken while charging"
+
+		//"citadel_ability_mechaguy_retaliate_t1_desc"			"Projectile gains {s:Radius}m explosion radius"
+		//"citadel_ability_mechaguy_retaliate_t2_desc"			"+{s:DamageMultiplier}x damage multiplier"
+		//"citadel_ability_mechaguy_retaliate_t3_desc"			"Heals for {s:HealPercent}% damage taken"
+
+		//"modifier_citadel_mechaguy_retaliate"			"Retaliate"
+
+		//"citadel_ability_mechaguy_double_edge"			"Double Edge"
+		//"citadel_ability_mechaguy_double_edge_desc"			"Deals {s:Damage} damage to both you and your target"
+
+		//"citadel_ability_mechaguy_double_edge_t2_desc"			"Deals {s:DamageHealthPercent}% of your health as additional damage"
+		//"citadel_ability_mechaguy_double_edge_t3_desc"			"+{s:AbilityUnitTargetLimit} targets"
+
+		//"citadel_ability_mechaguy_defense_field"		"Reactive Armor"
+		//"citadel_ability_mechaguy_defense_field_desc"		"Fires defensive rockets at attackers, and build regeneration for every {s:RegenThreshold} damage taken"
+		//"modifier_mechaguy_defense_field_aura_thinker"	"Reactive Armor"
+
+		//"citadel_ability_mechaguy_defense_field_t2_desc"		"+{s:RegenPercent}% health recovery "
+
+
+
+
+
+
+
+		//-----------------------------------------------------------------------------
+
+
+		//-----------------------------------------------------------------------------
+		// Duo
+		//-----------------------------------------------------------------------------
+
+		//"citadel_ability_duo_summon_drone"		"Summon"
+		//"citadel_ability_duo_summon_drone_desc"	"Summons your drone."
+
+		//"citadel_ability_duo_summon_drone_t1_desc"	"Drone also gets player items"
+		//"citadel_ability_duo_summon_drone_t2_desc"	"Fire a barrage of rockets while in sentry mode"
+		//"citadel_ability_duo_summon_drone_t3_desc"	"Immobilize targets in place in attack mode"
+
+		//
+		//"citadel_ability_duo_energy_link"		"Energy Link"
+		//"citadel_ability_duo_energy_link_desc"		"A short range tether which heals your drone. Breaks if you walk out of range.<br><br>If targeting an enemy, deals damage instead."
+		//"modifier_citadel_duo_energy_link"		"Energy Link"
+		//"modifier_citadel_duo_energy_link_duration"	"Energy Link"
+
+
+		//"citadel_ability_duo_energy_link_t2_desc"	"<span class=\"highlight\">+{s:ExternalBonusHealthRegen}</span> Regen<br><span class=\"highlight\">+{s:DPS}</span> DPS"
+		//"citadel_ability_duo_energy_link_t3_desc"	"Applies damage and healing effects within {s:ZapDistance}m of target"
+
+		//
+		//"citadel_ability_duo_fusion_scalpel"	"Fusion Scalpel"
+		//"citadel_ability_duo_fusion_scalpel_desc"	"Forms a link between you and your drone, dealing damage to enemies which touch it"
+
+		//"modifier_citadel_duo_fusion_scalpel_target"	"Fusion Scalpel"
+
+		//"citadel_ability_duo_fusion_scalpel_t2_desc"	"Slows enemies by <span class=\"highlight\">{s:SlowPercent}%</span> for {s:DebuffDuration}s"
+		//"citadel_ability_duo_fusion_scalpel_t3_desc"	"Link with up to <span class=\"highlight\">{s:MaxAllyLinks}</span> nearby allies"
+
+		//
+		//"citadel_ability_duo_arc_cannon"		"Arc Cannon"
+		//"citadel_ability_duo_arc_cannon_desc"		"Duo's drone sweeps its laser <span class=\"highlight\">{s:SweepCount} times</span> from the sky, dealing damage to anyone caught in its path."
+
+		//"citadel_ability_duo_arc_cannon_t1_desc"		"Burns ground, dealing <span class=\"highlight\">{s:BurnDPS} dps</span> for <span class=\"highlight\">{s:BurnDuration}s</span>"
+		//"citadel_ability_duo_arc_cannon_t3_desc"		"<span class=\"highlight\">+{s:SweepCount}</span> sweeps<br><span class=\"highlight\">{s:SweepInterval}s</span> between laser sweeps"
+
+
+		//"citadel_modifier_duo_arc_cannon"		"Arc Cannon"
+
+		//"citadel_ability_duo_grenade"					"Grenade"
+		//"citadel_ability_duo_grenade_desc"			"Throw a grenade that explodes after {s:ArmingDuration}s"
+		//"citadel_ability_duo_grenade_t3_desc"				"<span class=\"highlight\">+{s:AbilityCharges}</span> charges and Charge Delay <span class=\"highlight\">{s:AbilityCooldownBetweenCharge}s</span>"
+
+		// Drone orders
+		//"citadel_duo_drone_extra_abilities"		"Combat Drone Abilities"
+
+		//"citadel_ability_duo_order"				"Order"
+		//"citadel_ability_duo_order_attack"		"Attack"
+		//"citadel_ability_duo_order_attack_desc"	"Orders your drone to attack a specific target. It will chase the target as needed to shoot the target"
+		//"citadel_ability_duo_order_sentry"		"Sentry"
+		//"citadel_ability_duo_order_sentry_desc"	"Orders your drone to guard an area. It will automatically attack any nearby threats"
+		//"citadel_ability_duo_order_follow"		"Follow"
+		//"citadel_ability_duo_order_follow_desc"	"Orders your drone to follow you. It will automatically attack anyone who shoots you, or anyone you shoot."
+		//"citadel_ability_duo_order_cancel"		"Cancel"
+
+
+		// UI
+		//"modifier_duo_drone_health"				"Drone"
+
+		// Drone
+		//"citadel_modifier_duo_drone_tracker"				"Drone"
+
+		//-----------------------------------------------------------------------------
+
+		//-----------------------------------------------------------------------------
+		// Yamato
+		//-----------------------------------------------------------------------------
+		"citadel_ability_power_slash"		"Krafthieb"
+		"citadel_ability_power_slash_quip"	"Fokussiert einen Angriff, der bei voller Kraft hohen Schaden zufügt"
+		"citadel_ability_power_slash_desc"	"Yamato fokussiert ihr Katana für bis zu {s:AbilityCastDelay} s und führt dann einen <span class=\"highlight\">Hieb mit voller Kraft</span> aus.<br>[{s:in_ability1}] oder [{s:iv_attack}] drücken, um den Hieb frühzeitig auszulösen, wobei aber nur ein Teil des Schadens zugefügt wird."
+		"power_slash_debuff"				"Krafthieb"
+		"SlashLength_label"					"Hiebreichweite"
+		//"SlashWideRadius_label"				"Power Stance Slash Radius"
 		"SlashWideRadius_postfix"			" m"
 		"SlashLength_postfix"				" m"
 		//"RecoveryDuration_label"			"Recovery Time"
@@ -1765,12 +2411,35 @@
 		//"MediumChargeDamagePct_label"			"Medium Charge Dmg"
 		"MediumChargeDamagePct_postfix"			" %"
 		"FullChargeDamage_label"				"Schaden bei voller Aufladung"
-"ShadowDuration_postfix"				" s"
+		"citadel_ability_power_slash_t1_desc"	"Gewährt <span class=\"highlight\">+{s:BulletResist} % Kugelresistenz</span> während der Kanalisierung"
+		//"StaminaToRemove_label"				"Stamina Drain"
+
+		"citadel_ability_flying_strike"			"Wirbelhieb"
+		"citadel_ability_flying_strike_quip"	"Zieht sich an ein gegnerisches Ziel heran"
+		"citadel_ability_flying_strike_desc"	"Yamato wirft einen Greifhaken, um sich <span class=\"highlight\">an einen Gegner heranzuziehen</span>. Das Ziel <span class=\"highlight\">erleidet bei Ankunft Schaden und wird verlangsamt</span>."
+		"citadel_ability_flying_strike/slow" "Verlangsamung durch Wirbelhieb"
+		//"citadel_ability_flying_strike/weapon_buff" "+Weapon Damage"
+		"citadel_ability_flying_strike_t3_desc" "<span class=\"highlight\">+{s:WeaponDamageBonus}</span> Waffenschaden für <span class=\"highlight\">{s:WeaponPowerIncreaseDuration} s</span> nachdem das Ziel getroffen wurde"
+		"yamato_flying_strike_t3_header"			"Bei Erreichen des Ziels:"
+
+		"citadel_ability_infinity_slash"		"Schattenseele"
+		"citadel_ability_infinity_slash_quip"	"Wird unverwundbar und mächtiger"
+		//"citadel_ability_infinity_slash_buff_header" "Per Hero Hit"	
+		"ShadowDuration_label"					"Explosions­verzögerung"
+		"ShadowDuration_postfix"				" s"
 		//"PrepareTime_label"						"Prepare Time"
 		"PrepareTime_postfix"					" s"
+		"AbilitySpeedPct_label"					"Fähigkeitstempo"
 		"AbilitySpeedPct_prefix"				"+"
 		"AbilitySpeedPct_postfix"				" %"
 
+		"citadel_ability_infinity_slash/timer"	"Schattenform"
+
+		"citadel_ability_healing_slash"			"Schwertstreich"
+		"citadel_ability_healing_slash_quip"	"Fügt Gegnern in der Nähe Schaden zu und heilt sich bei einem Treffer"
+		"citadel_ability_healing_slash_desc"	"Yamato führt einen weiten Hieb mit ihrem Katana aus, der Gegner vor ihr trifft, wodurch diese <span class=\"highlight\">Schaden erleiden und deren Feuerrate reduziert wird</span>. Wenn Yamato gegnerische Helden trifft, <span class=\"highlight\">heilt</span> sie sich."
+		"citadel_ability_healing_slash/debuff"	"Schwertstreich"
+		"HealMaxHealth_label"					"Heilung bei Heldentreffer"
 		"HealMaxHealth_postfix"					" % der max. LP"
 		"HealFixedHealth_label"					"Heilung bei Heldentreffer"
 
@@ -1821,25 +2490,66 @@
 		"MoveSpeedSlowPercent_postfix"		" %"
 
 		"citadel_ability_ballista_fusion_bomb/modifier_citadel_ballista_fusion_bomb_slow"	"Verlangsamt"
-"viscous_goo_grenade/modifier_viscous_goo_grenade_debuff"		"Verlangsamt"
+		//"citadel_ability_ballista_fusion_bomb/modifier_citadel_ballista_fusion_bomb_plant"	"Planting bomb..."
+		//"citadel_ability_ballista_fusion_bomb/modifier_ballista_fusion_bomb_warning_aura/modifier_ballista_fusion_bomb_warning_target"	"Take cover!"
+
+		//-----------------------------------------------------------------------------
+		// Viscous
+		//-----------------------------------------------------------------------------
+		"viscous_goo_grenade"							"Glibber"
+		"viscous_goo_grenade_desc"						"Viscous wirft einen Schleimball, der <span class=\"highlight\">Schaden zufügt</span> und eine Schleimpfütze hinterlässt, die das <span class=\"highlight\">Bewegungstempo</span> der Gegner im Wirkungsbereich <span class=\"highlight\">verlangsamt</span>."
+		"viscous_goo_grenade_bounce_desc"				"Mehrere Treffer gegen dasselbe Ziel fügen weniger Schaden zu."
+		"viscous_goo_grenade_quip"						"Fügt Gegnern Schaden zu und hinterlässt eine Sauerei"
+		"viscous_goo_grenade_puddle_desc"				"Schleimpfützen verweilen auf dem Boden und <span class=\"highlight\">verlangsamen das Bewegungstempo</span> von Gegnern, die darüber laufen."
+		"viscous_goo_grenade/modifier_viscous_goo_grenade_debuff"		"Verlangsamt"
 		"viscous_goo_grenade_t2_desc"					"+{s:Damage} Schaden und +{s:Radius} m Radius"
+		"viscous_goo_grenade_t3_desc"					"Springt {s:MaxBounces}-mal über"
+		"MaxBounces_label""Sprünge"
+		"PuddleRadius_label"							"Pfützenradius"
 		"PuddleRadius_postfix"							" m"
+		"PuddleDuration_label"							"Pfützendauer"
 		"PuddleDuration_postfix"						" s"
 
+		"viscous_restorative_goo"						"Kubus"
+		"viscous_restorative_goo_desc"					"Viscous umhüllt ein Ziel mit einem Kubus aus regenerativem Schleim, der <span class=\"highlight\">vor Schaden schützt und die Lebensregeneration erhöht</span>. Das Ziel <span class=\"highlight\">kann im Kubus keine anderen Aktionen ausführen</span>. Kann auf sich selbst angewendet werden. <span class=\"highlight\">[{s:in_mantle}]</span> drücken, um den Kubus frühzeitig zu verlassen."
+		"viscous_restorative_goo_quip"					"Der Kubus ist ein sicherer Ort"
+		"viscous_restorative_goo_t1_desc"				"Erhöht das Bewegungstempo und die Ausdauer­regeneration"
+		"viscous_restorative_goo_t2_desc"				"<span class=\"highlight\">Entfernt alle Schwächungseffekte</span> und <span class=\"highlight\">{s:AbilityCooldown} s</span> Abklingzeit"
+		"viscous_restorative_goo_buff_desc"				"Nach dem Verlassen des Kubus erhält das Ziel für eine kurze Zeit zusätzliches <span class=\"highlight\">Bewegungstempo</span> und zusätzliche <span class=\"highlight\">Ausdauerregeneration</span>"
 		"PostCubeBuffDuration_label"					"Stärkungsdauer"
 		"PostCubeBuffDuration_postfix"					" s"
-"viscous_telepunch_t2_desc"						"+{s:Damage} Schaden und verlangsamt das Bewegungstempo um +{s:SlowPercent} %"
+		"modifier_restorative_goo"						"Kubus"
+		//"viscous_restorative_goo/modifier_restorative_goo/breakoutProgress"		"Breaking out"
+
+		//"viscous_goo_puddle"							"Goo Form"
+		//"viscous_goo_puddle_desc"						"Turn yourself into a puddle of goo, becoming <span class=\"highlight\">immune to harm</span> and <span class=\"highlight\">dealing damage to nearby enemies</span>."
+		//"viscous_goo_puddle_t3_desc"					"[Not Yet Implemented]"
+
+		"viscous_goo_bowling_ball"						"Schleimkugel"
+		"viscous_goo_bowling_ball_desc"					"Viscous verwandelt sich in eine große Schleimkugel, die Gegnern beim Zusammenstoß <span class=\"highlight\">Schaden zufügt</span> und diese <span class=\"highlight\">betäubt</span>. Die Schleimkugel gewährt große Mengen an <span class=\"highlight\">Kugelresistenz</span> und <span class=\"highlight\">Magieresistenz</span>, prallt von Wänden ab und erlaubt Viscous, <span class=\"highlight\">doppelt zu springen</span>."
+		"viscous_goo_bowling_ball_quip"					"Rollt herum und stiftet Chaos"
+		"viscous_goo_bowling_ball_t3_desc"				"Kann beim Rollen Fähigkeiten und Gegenstände einsetzen"
+
+		"viscous_telepunch""Glibberfaust"
+		"viscous_telepunch_desc"						"Viscous materialisiert eine Faust, die Einheiten in ihrem Bereich <span class=\"highlight\">schlägt</span> und sie durch die Luft wirbelt. Gegner <span class=\"highlight\">erleiden Schaden</span>, ihr <span class=\"highlight\">Bewegungstempo wird verlangsamt</span> und ihre Spurtdistanz für eine kurze Zeit reduziert. Diese Fähigkeit zählt als <span class=\"highlight\">leichter Nahkampfangriff</span>."
+		"viscous_telepunch_quip"						"Schlägt Gegner mit einer riesigen Faust"
+		"viscous_telepunch_t2_desc"						"+{s:Damage} Schaden und verlangsamt das Bewegungstempo um +{s:SlowPercent} %"
 		"ImpactDuration_label"							"Verlangsamungsdauer"
 		"ImpactDuration_postfix"						" s"
 		//"BonusDamageAmp_label"							"Increased Damage"
 		"BonusDamageAmp_postfix"						" %"
 
+		"viscous_gootapult""Glibberkatapult"
 		//"viscous_gootapult_desc"						"Charge up and launch yourself, dealing damage and leaving a slowing area on impact."
 
 		//"GooSlowPercent_label"							"Puddle Slow Percent"
 		"GooSlowPercent_postfix"						" %"
+		"GooDuration_label""Pfützendauer"
 		"GooDuration_postfix"							" s"
-"RollingTime_postfix"							" s"
+		//"citadel_ability_viscous_ball_boost"			"Slam Ball"
+		"RollingTime_label"								"Rolldauer"
+		"RollingTime_postfix"							" s"
+		"CubeHealth_label"								"Kubus-Lebenspunkte"
 		//"viscous_gootapult_hint"						"Launch!"
 		//-----------------------------------------------------------------------------
 		// Hero Sky Monk
@@ -1942,7 +2652,9 @@
 		//"citadel_ability_spade_draw/modifier_citadel_spade_card/modifier_spade_weapon"	"Increased Attack Speed"
 		//"citadel_ability_spade_draw/modifier_citadel_spade_card/modifier_spade_speed"	"Increased Move Speed"
 		"citadel_ability_spade_draw/modifier_citadel_spade_card/modifier_citadel_spade_card_regen"	"Regeneration"
-//"citadel_ability_spade_draw/modifier_citadel_spade_card/modifier_spade_card_kingofclubs"	"Sleeve Toss Immobilizes"
+		//"citadel_ability_spade_draw/modifier_citadel_spade_card/modifier_spade_strength"	"Strength"
+		"citadel_ability_spade_draw/modifier_citadel_spade_card/modifier_spade_joker"	"Metallhaut"
+		//"citadel_ability_spade_draw/modifier_citadel_spade_card/modifier_spade_card_kingofclubs"	"Sleeve Toss Immobilizes"
 		//"citadel_ability_spade_draw/modifier_citadel_spade_card/modifier_spade_card_hattrickdisarm"	"Hat Trick Disarms"
 
 		// Debuffs
@@ -2003,7 +2715,63 @@
 
 		// Weapon names
 		"citadel_gun_damage"						"Waffenschaden"
-// Melee names
+		//"citadel_weapon_combo_melee"				"Melee Combo"
+	
+		"citadel_weapon_hero_yamato_set"			"Klage einer Schwester"
+		"citadel_weapon_hero_inferno_set"			"Der Brandstifter"
+		"citadel_weapon_hero_gigawatt_set"			"Kaltes Kalkül"
+		"citadel_weapon_hero_hornet_set"			"Die Rache des Mauerblümchens"
+		"citadel_weapon_hero_orion_set"				"Trauerzeit"
+		"citadel_weapon_hero_ghost_set"				"Johanns Geschenk"
+		
+		"citadel_weapon_hero_atlas_set"				"Der Abgeschlossene Fall"
+		"citadel_weapon_hero_atlas_set_desc"		"Lädt jeweils einzelne Patronen nach. Kann unterbrochen werden."
+		
+		"citadel_weapon_hero_wraith_set"			"Die Provision"
+
+		"citadel_weapon_hero_forge_set"				"Die Dienstleistung"
+		"citadel_weapon_hero_forge_set_desc"		"Erhöht die Feuerrate, je länger McGinnis ihre Waffe abfeuert."
+		
+		"citadel_weapon_hero_bebop_set"				"Abbitte"
+		"citadel_weapon_hero_bebop_set_desc"		"Feuert einen kontinuierlichen Laserstrahl ohne Geschossflugzeit ab."
+
+		"citadel_weapon_hero_nano_set"				"Süße Lüge"
+		"citadel_weapon_hero_dynamo_set"			"Die Vonne-Kanone"
+		"citadel_weapon_hero_kelvin_set"			"Das Ende der Expedition"
+		"citadel_weapon_hero_viscous_set"			"Der Tiefseedolmetscher"
+		"citadel_weapon_hero_haze_set"				"Zensur und Buße"
+		"citadel_weapon_hero_astro_set"				"Die 45er Okkult"
+		"citadel_weapon_hero_chrono_set"			"Das Berufsgeheimnis"
+		"citadel_weapon_hero_shiv_set"				"Der Rohrkrepierer"		
+		"citadel_weapon_hero_tengu_set"				"Katzenvaters Favorit"
+		"citadel_weapon_hero_krill_set"				"Der Kanarienvogel"
+		"citadel_weapon_hero_warden_set"			"Der Preis der Freiheit"
+		"citadel_weapon_hero_mirage_set"			"Das Gehaltene Versprechen"
+		"citadel_weapon_hero_synth_set"				"Das Schwarze Schaf"
+		
+		//"citadel_weapon_hero_duo_set"				"Duo Gun"
+		//"citadel_weapon_hero_heavy_set"				"Heavy Gun"
+		//"citadel_weapon_hero_akimbo_set"			"Akimbo Gun"
+		//"citadel_weapon_hero_gunslinger_set"		"Gunslinger Gun"
+		//"citadel_weapon_hero_yakuza_set"			"Yakuza Boss Gun"
+		//"citadel_weapon_hero_phalanx_set"			"Phalanx Gun"
+		//"citadel_weapon_hero_kali_set"				"Kali Gun"
+		//"citadel_weapon_hero_revenant_set"			"Revenant Gun"
+		//"citadel_weapon_hero_demoman_set"			"Demoman Gun"
+		//"citadel_weapon_hero_hijack_set"			"Hijack Gun"
+		//"citadel_weapon_hero_mechaguy_set"			"Mechaguy Gun"
+		//"citadel_weapon_hero_zealot_set"			"Zealotry Gun"
+		//"citadel_weapon_hero_ballista_set"			"Ballista Gun"
+		//"citadel_weapon_hero_apocalypse_set"		"Apocalypse Gun"
+		//"citadel_weapon_hero_clawdril_set"			"Clawdril Gun"
+		//"citadel_weapon_hero_coldmetal_set"			"Cold Metal Gun"
+		//"citadel_weapon_hero_spade_set"				"Spade Dice Launcher"
+		//"citadel_weapon_hero_rutger_set"			"Rutger Gun"
+		//"citadel_weapon_hero_tokamak_set"			"Curie-ous Times"
+		//"citadel_weapon_hero_tempest_set"			"Tempest Gun"
+		"citadel_weapon_hero_wrecker_set"			"Die Hymne der Zerstörung"
+		
+		// Melee names
 		"ability_melee_ghost"	"Nahkampf"
 		"citadel_ability_melee_bull"			"Nahkampf"
 		"citadel_ability_melee_gigawatt"		"Nahkampf"
@@ -2039,5 +2807,79 @@
 		"citadel_ability_melee_tokamak"			"Nahkampf"
 		"ability_melee_yamato"					"Nahkampf"
 		"ability_melee_wrecker"					"Nahkampf"
-}
+
+		"hero_astro_role"				"Springt durch die Luft und verteilt Trickschüsse"
+		"hero_atlas_role"				"Stürzt sich in den Nahkampf"
+		//"hero_ballista_role"			"Shields up to drop the bomb"
+		"hero_bebop_role"				"Greift sich seine Gegner für eine Knockout-Kombo"
+		"hero_wrecker_role"				"Sammelt Schrott, um Waffen herzustellen"
+		"hero_chrono_role"				"Manipuliert Raum und Zeit"
+		"hero_dynamo_role"				"Setzt das gegnerische Team fest"
+		"hero_forge_role"				"Kontrolliert den Kampf mit Geschützen"
+		//"hero_heavy_role"				"Heavy Weapon Expert"
+		"hero_ghost_role"				"Opfert Lebenspunkte und entzieht sie Gegnern wieder"
+		"hero_haze_role"				"Schleicht sich an und entfesselt einen Kugelhagel"
+		"hero_hornet_role"				"Schießt ahnungslose Gegner aus der Ferne ab"
+		"hero_inferno_role"				"Steckt seine Gegner skrupellos in Brand"
+		"hero_kelvin_role"				"Friert attackierende Gegner auf der Stelle ein"
+		"hero_lash_role"				"Stürzt sich von oben auf seine Gegner, um sie zu zerschmettern"
+		"hero_krill_role"				"Gräbt sich unter seine Gegner"
+		"hero_nano_role"				"Sorgt für Chaos aus der Ferne"
+		"hero_orion_role"				"Feuert tödliche Treffer aus der Distanz ab"
+		"hero_shiv_role"				"Lässt Gegner ausbluten, um ihnen dann den Todesstoß zu versetzen"
+		"hero_viscous_role"				"Rollt herum und lenkt Kugeln ab"
+		"hero_warden_role"				"Schwächt seine Gegner und bringt sie zur Strecke"
+		"hero_wraith_role"				"Lässt einzelnen Zielen keine Chance"
+		"hero_tengu_role"				"Bildet ein tödliches Duo mit einem glücklichen Verbündeten"
+		"hero_mirage_role"				"Stimmt seine Schüsse präzise ab und fängt flüchtende Gegner ein"
+		"hero_synth_role"				"Infiltriert die gegnerischen Linien und stiftet Chaos"
+
+        //"hero_akimbo_playstyle"         "Akimbo excels at close range combat, where he relies on speed, cone attacks, and a whole lot of bullets to hit as many targets as possible." 
+        "hero_astro_playstyle"          "Holliday verlässt sich auf ihre Fähigkeiten als Meisterschützin und schießt auf Dinge, die sie in die Luft geschleudert hat. Wenn sie ihr Ziel präzise trifft, richtet sie großen Schaden an. Durch ihre Beweglichkeit kann sie ihre Gegner isolieren oder einen schnellen Rückzug antreten."
+        "hero_atlas_playstyle"          "Abrams verfügt über die nötige Masse und Ausdauer, um an vorderster Front zu kämpfen, wobei er oft in die Mitte seiner Gegner stürmt und diese in die Flucht schlägt. Wenn seine Gegner ihre Munition an ihn verschwenden, können seine Teamkollegen im Hintergrund ungehindert Schaden anrichten."
+        //"hero_ballista_playstyle"       "You know what people hate?  Being knocked back by a shotgun.  You know what they hate even more?  Being knocked back into a mine field.  Do you know what they hate even more than that?  Being atomized by a fusion bomb.  Ballista turns the battlefield into an explosive Rube Goldberg device."
+        "hero_bebop_playstyle"          "Bebop kann seine Fähigkeiten auf viele verschiedene Arten einsetzen. Er kann die gegnerische Verteidigung aufbrechen, einen Verbündeten retten oder massiven Schaden anrichten. Wenn die Situation kein Fingerspitzengefühl erfordert, löst sein riesiger Laser zahlreiche Probleme."
+		"hero_wrecker_playstyle"		"Wrecker sammelt und verwertet Schrott von zerlegten Infanteristen, um Gegner mit seiner Schrottkugel zu zerquetschen oder diese in seiner Stasefalle zu fangen."
+        "hero_chrono_playstyle"         "Durch die Manipulation der Zeit kann Paradox einen Gegner im direkten Kampf überlisten. Ihre Stärke liegt darin, ihre Gegner zum richtigen Zeitpunkt in eine wartende Impulsgranate, durch ihr Zeitfeld oder inmitten ihrer Teamkameraden zu befördern."
+        "hero_dynamo_playstyle"         "Dynamo hält sich und seine Verbündeten am Leben, während er auf den richtigen Moment wartet. Nur wenige Dinge können einen Teamkampf mehr beeinflussen als ein gut koordinierter Einsatz von Singularität."
+        "hero_ghost_playstyle"          "Die Stärke von Lady Geist besteht darin, ihre eigenen Lebenspunkte zu opfern, um verheerenden Schaden anzurichten. Wenn ihre Lebenskraft zur Neige geht, entzieht sie einfach die ihrer Gegner."
+        "hero_gigawatt_playstyle"       "Seven zeigt sein ganzes Können in Scharmützeln und wartet auf den richtigen Moment, um zuzuschlagen. Dann stürzt er sich wie ein aufziehendes Gewitter ins Kampfgeschehen und übertrumpft seine Gegner mit einem Blitzhagel."
+        "hero_hornet_playstyle"         "Vindicta verfügt über die nötige Wendigkeit, um ihre Opfer in aller Ruhe anzugreifen und diese langsam ausbluten zu lassen. Verletzte Gegner sollten unabhängig von der Entfernung vor ihr auf der Hut sein, wenn sie in Erscheinung tritt."
+"hero_lash_playstyle"           "Lash gönnt seinen Gegnern keine Verschnaufpause. Entweder zieht er sich aus großer Entfernung heran, um einen Kampf mit ahnungslosen Gegnern aufzunehmen, oder er nimmt die Verfolgung auf, wenn diese zu fliehen versuchen."
+        "hero_krill_playstyle"			"Indem sie sich durch den Boden wühlen, können Mo und Krill fast jeden überwältigen. Und wenn sie erst einmal in der Nähe eines Gegners sind, sind die Folgen meist verheerend."
+        //"hero_nano_playstyle"           "(in flux) Like any good politician, Nano turns people against each other and lets them do her dirty work before swooping in and claiming credit for everything."
+        "hero_orion_playstyle"    		"Als gerissener Jäger nutzt Grey Talon eine Kombination aus tödlicher Präzision, Fallen und geschickter Positionierung, um selbst die zähesten Gegner zur Strecke zu bringen."
+        "hero_shiv_playstyle"           "Shiv hat keinerlei Interesse daran, fair zu kämpfen. Deshalb setzt er auf überfallartige Taktiken, um seine Gegner zu schwächen, bevor er zum Todesstoß ansetzt."
+        //"hero_tempest_playstyle"        "Much like how a child has no idea how a TV works, no one knows exactly HOW Tempest kills you.  Was it a tesla coil?  You didn't see a tesla coil.  Either way, you're dead and Tempest is laughing."
+        "hero_viscous_playstyle"        "Viscous ärgert seine Gegner durch geschicktes Ausweichen und den strategischen Einsatz von Heilung, sodass er auch den brutalsten Angriffen seiner Gegner standhalten kann."
+        "hero_wraith_playstyle"         "Wraith ist eine hervorragende Einzelkämpferin, die ihre Ziele isoliert und sie mit rücksichtsloser Effizienz ausschaltet. Dann teleportiert sie sich weg, bevor jemand Vergeltung üben kann."
+        "hero_yamato_playstyle"         "Yamato führt präzise Hiebe aus, um ihre Gegner zu vernichten. Allerdings ist sie bei diesen verheerenden Angriffen oft ungeschützt, weshalb jeder Hieb sitzen muss."
+        //"hero_spade_playstyle"          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+		//"hero_tokamak_playstyle"	"Shooting Tokamak's weapon builds heat which bleeds off whenever the gun isn't shooting. High heat levels can be used to increase the power of some abilities."
+		//"hero_rutger_playstyle"		"Rocket Launcher gives him some rocket-jumping capabilities, Force Field allows him to close off movement options, Cheat Death lets him turn bad fights around, and a Pulse released in the middle of a teamfight can dictate the outcome."
+		"hero_synth_playstyle"		"Mit seiner wuchtigen Schrotflinte und schlanken Statur verlässt sich Pocket auf seine Fähigkeit, für kurze Zeit in seinen mystischen Koffer zu flüchten und sich mit seinem Fliegenden Mantel zu teleportieren, um brenzlige Begegnungen zu überleben."
+		"hero_mirage_playstyle"		"Mirage kann sich mit einem gewaltigen Tornado umhüllen, um seine Gegner einzuholen und diese in die Luft zu schleudern. Mit seinen Skarabäen kann er sich gegen mehrere Gegner behaupten. Er ist immer und überall bereit, einem Verbündeten zu helfen oder einen Gegner abzustrafen."
+		//"hero_slork_playstyle"		"Slork's weapon poisons all it hits. Primary fire hits all in a cone, and aimed fire shoots a dart which crits when hitting a poisoned target."
+		"hero_tengu_playstyle"		"Ivy verfügt über zerstörerische Kampftricks, die Gegner verlangsamen und betäuben. Sie ist am effektivsten, wenn sie sich mit einem Verbündeten zusammenschließt, wodurch ihre und die Waffen ihres Verbündeten gestärkt und Heilungen geteilt werden."
+
+	
+		//"hero_akimbo_lore"				"Though he was built by a lonely gunslinger, Akimbo was taught that he couldn't use a gun to solve all his problems.  This frustrated the robot outlaw immensely, but as time passed Akimbo realized that his human father was right.  A gun only solved about 75% of his problems.  To solve ALL his problems, he would need at least 2 guns." 
+		"hero_astro_lore"				"Es gibt Menschen, die ihr ganzes Leben lang davon träumen, nach New York zu ziehen. Holliday gehörte nie dazu. Zufrieden mit ihrer Arbeit als Sheriff in einer Kleinstadt, blickte Holliday auf eine Laufbahn zurück, in der ihre Waffe nur an Schießständen auf dem Jahrmarkt zum Einsatz kam … bis eines Tages die Morde begannen.\n\nDie Leichen waren auf grausame und monströse Weise entstellt: Sie wurden mit aufgerissenen Brustkörben aufgefunden, ihre Eingeweide wie von Vögeln zerpickt. Holliday konnte den Mörder aufspüren, einen reisenden Folk-Musiker, den die Zeitungen nur den „Troubadour“ nannten. Doch als sie ihn zur Rede stellen wollte, verwandelte er sich in einen Schwarm von Krähen und flog davon.\n\nSeitdem sind sechs Monate vergangen, und obwohl die Morde im mittleren Illinois aufgehört haben, hat Holliday ihre Ermittlungen nicht eingestellt. Sie ist sich sicher, dass der Troubadour auf dem Weg nach New York ist, und sobald sie ihn dort ausfindig gemacht hat, bringt sie diesen Mistkerl ein für alle Mal zur Strecke."
+		"hero_chrono_lore"				"Paradox. Ein Artefakt der Zeit und zugleich der Name einer berüchtigten Diebesgilde – einer Diebesgilde, die stolz darauf ist, ausgeklügelte Raubüberfälle auf die unantastbarsten Personen und Institutionen zu verüben. Was machen die Diebe mit den unzähligen Artefakten, Staatsgeheimnissen und Vaterschaftsnachweisen von Prominenten, die sie gestohlen haben? Sie stellen sie in plötzlich auftauchenden Museen aus, damit sie der Welt zeigen können, dass niemand vor Paradox sicher ist.\n\nJedes Mitglied von Paradox ist von Geheimnissen umwoben, trägt eine Maske und den Namen der Organisation. Sie sind überall. Sie sind nirgendwo. Und wenn sie etwas haben wollen, sind sie unvermeidbar."
+		"hero_haze_lore"				"Die Kommission für Okkulte Angelegenheiten und Sicherheitsfragen (KOAS) ist eine Schattenorganisation der Regierung, die die CIA im Vergleich transparent erscheinen lässt. Die Aufgabe der Männer, Frauen und Wesen der KOAS besteht darin, das Land vor finsteren Kräften zu schützen, die die Fähigkeiten der örtlichen Strafverfolgungsbehörden überschreiten.\n\nAls Mitglied der berüchtigten Einheit „Sandmann“ wird Haze regelmäßig damit beauftragt, die Träume von Zielpersonen zu infiltrieren, ihren Bedrohungsgrad einzuschätzen … und sie im Bedarfsfall einzuschläfern."
+		"hero_hornet_lore"				"Vindicta, ein Opfer von John Hathorne während der Hexenprozesse von Salem, erhielt ein zweites Leben, als ihr Geist während des ersten Mahlstroms (dem Ereignis, durch das die Öffentlichkeit erstmals mit dem Übernatürlichen in Berührung kam) auf die sterbliche Ebene zurückgeschickt wurde.\n\nVindicta führt als Ein-Geist-Armee einen Krieg gegen „Die Freunde der Menschheit“, eine Neo-Inquisition, die von Hathornes Nachfahren gegründet wurde. Sie möchte das Übernatürliche vor Hathornes Leuten schützen und schreckt auch nicht davor zurück, einen blutigen Weg einzuschlagen."
+		"hero_lash_lore"				"Jacob Lash ist ein ganz mieses Stück."
+		"hero_krill_lore"				"Mo und Krill sind Mitglieder der „Tunnelratten“, einer Gruppe, die mithilfe eines unterirdischen Tunnelsystems den illegalen Handel zwischen den Stadtbezirken organisiert. Während die meisten Bewohner der New Yorker Unterwelt die Arbeit der Ratten respektieren, versuchen unverbesserliche Banden gelegentlich, das Tunnelnetz für persönliche Rachefeldzüge zu missbrauchen. Dann schreiten Mo und Krill ein und erinnern die Unterwelt daran, was mit denen passiert, die ihre Hilfsbereitschaft nicht zu schätzen wissen."
+		"hero_nano_lore"				"Calico, der die zweifelhafte Ehre zuteilwurde, vom Time Magazine zur gefährlichsten Frau des Planeten gekürt zu werden, ist eine geheimnisvolle okkulte Waffenhändlerin, die für eine entsprechende Vergütung bereit ist, jede Seite eines Konflikts zu finanzieren.\n\nObwohl ihre Kritiker (und Freunde) sie zu Recht als amoralisch bezeichnen, hat sie doch ihre Prinzipien … so kalt und berechnend diese auch sein mögen."
+		"hero_shiv_lore"				"Als loyales Mitglied der „Baxter-Gesellschaft“, einem internationalen Orden von Monsterjägern, reist Shiv durch Nordamerika, um Kreaturen zur Strecke zu bringen, die sich an den Lebenden vergreifen.\n\nAuch wenn seine weniger geschliffene Art und seine kriminelle Vergangenheit einige der traditionelleren Mitglieder der Gesellschaft misstrauisch machen, kann niemand seine Effektivität leugnen."
+		"hero_viscous_lore"				"Das Bermudadreieck ist keine Legende, sondern ein Schattenriss tief unter dem Atlantischen Ozean. Die meisten Wesen, die durch dieses astrale Tor kamen, waren harmlos (wie Nessie). Doch jetzt wird das Meer von einem dunklen und räuberischen Monster heimgesucht, das nur als „der Widersacher“ bekannt ist – und die Meeresbewohner in Angst und Schrecken versetzt.\n\nEiner dieser Bewohner, eine Seeanemone mit übernatürlichen Kräften, ist fest entschlossen, etwas dagegen zu unternehmen. Viscous durchquert die Oberfläche mithilfe eines ektoplasmischen Glibberkörpers und versucht verzweifelt, den Patron zu beschwören, um die Tiefe vor dem Grauen zu bewahren, das dort lauert."
+		"hero_wraith_lore"				"Als Eckpfeiler der New Yorker Glücksspielszene ist die Existenz von Wraiths Organisation mehr als nur ein offenes Geheimnis. Doch dank einer nicht unerheblichen Menge an Bestechungsgeldern, Erpressungen und Angeboten, die man nicht ablehnen kann, weiß Wraith, dass sie über dem Gesetz steht."
+		"hero_yamato_lore"				"犯罪組織のボスの家に生まれた花桜梨とその兄の\n大和にとって、父の死後に「セブンスムーン」の跡目を\n継ぐのは自明のことでもあった。 そして何年もの間、\nかれらは対等の立場で組織を率いて利益と成功を\nもたらし、やがてはアメリカへの進出をも目論むように\nなった。\n\n思い描いていた計画は単純で、 大和がアメリカに渡って\n花桜梨の国際的な存在感を高め、その間花桜梨は日本に\n残って国内を統制する、といったものだった。 兄妹に\nとって不運だったのは、花桜梨が日本で指揮をとると\nいう計画を快く思わない部下たちがいたことだった。\n\nそして迅速かつ暴力的な形で、反乱は発生した。\n大和は花桜梨を守るために命を落とし、花桜梨と数人の\n忠実な部下たちは、その大和の犠牲のおかげもあって、\n日本からアメリカへと逃げ延びることに成功した。\n\nアメリカに着いた花桜梨たちを出迎えたのは、\n本来であれば大和が会う予定となっていた男であった。\n彼は日本人の名前になじみがなかったため性別の\n区別がついておらず、花桜梨のことを「ヤマト」と\n呼んだ。花桜梨は男の間違いを正そうと思ったが、\n結局そのままにした。兄の記憶を残し続けるためにも、\nその名を名乗り、その夢を受け継ぐことが最善の\n道であろうと考えたからだ。"   
+		"hero_tengu_lore"				"Der Wasserspeier wusste nicht, was geschah, als er plötzlich zum Leben erwachte – er bemerkte nur, dass ein großer und ein kleiner Mensch in Gefahr waren. Und so griff der Wasserspeier entschlossen ein und schlug die Angreifer entsetzt in die Flucht. Der kleine Mensch bedankte sich und fragte den Wasserspeier nach seinem Namen. Er erwiderte, er besitze keinen. Daraufhin antwortete der kleine Mensch: „Dann werde dich einfach Ivy nennen.“ Der Wasserspeier, der damals von Efeu umwachsen war, hielt diesen Namen für etwas einfallslos, beschloss aber, sich dem kleinen Menschen zuliebe darauf einzulassen.\n\nDer große und der kleine Mensch fragten Ivy, ob sie nicht mit ihnen nach Hause kommen wolle, damit sie sich für ihre Hilfe erkenntlich zeigen könnten. Als Ivy sie dorthin begleitete, ahnte sie nicht, von welchen Neuheiten sie in dieser Nacht erfahren würde. Die Familie hieß Arroyo und die Kleine Sophia. Als Mofongo bezeichneten sie einen Teller voller Köstlichkeiten. Das Wichtigste jedoch war: Sie erfuhr, dass sich die Angreifer das „Mendoza-Syndikat“ nannten und Menschen verletzten … nette Menschen wie die Arroyos.\n\nSeit jenem Tag, an dem die Arroyos Ivy mit nach Hause brachten, sind achtzehn Jahre vergangen. In dieser Zeit hat es sich Ivy zur Aufgabe gemacht, das Mendoza-Syndikat zu zerschlagen und Spanish Harlem aus dessen Klauen zu befreien. Aber wenn man sein Leben fast zwei Jahrzehnte lang einer einzigen Aufgabe widmet, weiß man nicht so recht, was man mit sich anfangen soll, wenn man sein Ziel erreicht hat. Zum ersten Mal in ihrem Leben ist Ivy entschlossen, die Welt außerhalb von Spanish Harlem zu erkunden und zu entdecken, was diese jenseits der Selbstjustiz zu bieten hat."
+		"hero_synth_lore"				"Arin Fairfax, der älteste Erbe von Fairfax Industries, lebt seit fünf Jahren im Verborgenen, nachdem er an seinem 18. Geburtstag niedergeschossen und zum Sterben zurückgelassen wurde. Arin weiß nicht, wer ihn davon abzuhalten versucht, die Kontrolle über das Unternehmen seiner Eltern zu übernehmen – in dem von Habgier getriebenen Schlangennest von Fairfax Industries käme jeder infrage.\n\nArin hat den Namen „Pocket“ angenommen und möchte seine wahre Identität unbedingt geheim halten – nicht nur zu seinem eigenen Schutz, sondern auch, weil er sich eine eigene Identität unabhängig von seinen Eltern schaffen möchte."
+		"hero_mirage_lore"				"Die Dschinns sind eines der eigentümlichsten Völker der modernen Welt. Da sie nur in begrenztem Maße über große Macht verfügen, können sie ihre körperliche Form nicht länger als 48 Minuten aufrechterhalten, ohne sich in einem Gefäß ausruhen zu müssen. Deshalb vertrauen die meisten Dschinns auf einen menschlichen Leibwächter, der sie umherträgt, beschützt und ihnen Gesellschaft leistet.\n\nMirage ist einer dieser Leibwächter, der sich im Auftrag der Dschinn-Botschafterin Nashala Dion auf diplomatischer Mission in New York befindet. Die Dschinns erhoffen sich, mit der US-amerikanischen Regierung über den Kauf eines Teilgebiets von Wyoming verhandeln zu können, um dort eine unabhängige Nation für ihr Volk gründen zu können."
+
+
+
+	}
 }

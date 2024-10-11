@@ -118,6 +118,8 @@
 "Steam_Citadel_RP_MM_Tutorial"							"튜토리얼"
 		"Steam_Citadel_RP_Online"			"온라인"
 
+		"Steam_RP_hero_forge"			"맥기니스"
+		"Steam_RP_hero_mirage"			"미라지"
 		// Hero names (tokens match the hero name directly)
 		"hero_vampire"			"뱀파이어"
 		"hero_sapper"			"새퍼"
@@ -180,7 +182,6 @@
 		"hero_slork"			"패덤"
 		"hero_targetdummy"		"모의 영웅"
 		"hero_bomber"			"바머"
-
 		//-----------------------------------------------------------------------------
 		// Upgrades: Weapon
 		//-----------------------------------------------------------------------------

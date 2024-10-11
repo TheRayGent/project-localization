@@ -53,12 +53,14 @@
 		//"citadel_ability_chain_lightning_t3_desc"	"Chain lightning can hit any enemies around the target."
 
 		"citadel_ability_static_charge"			"Carga Estática"
+		"citadel_ability_static_charge_desc"		"Aplica una carga a un héroe enemigo objetivo. Después de un breve período de tiempo, la carga estática <span class=\"highlight\">aturde e inflige daño</span> a los enemigos que se encuentren en el radio.<br>Usa al lanzamiento alternativo para lanzártelo sobre ti mismo."
 		"citadel_ability_static_charge_quip"	"Aplica un aturdimiento en área retardado a un héroe enemigo."
 		"citadel_ability_static_charge/modifier_citadel_staticcharge"	"Carga Estática"
 
 		"citadel_ability_lightning_ball"		"Esfera Eléctrica"
 		"citadel_ability_lightning_ball_quip"	"Lanza una esfera de electricidad dañina."
 		"citadel_ability_lightning_ball_desc"	"Dispara una esfera de electricidad que viaja en línea recta e inflige <span class=\"highlight\">daño a todos los enemigos que se encuentren dentro de su radio</span>. Su velocidad se reduce al infligir daño a los enemigos y se detiene si choca contra algún objeto del escenario."
+		"citadel_ability_lightning_ball_t3_desc" "+{s:DPS} de DPS y +{s:ShockRadius} m de radio"
 		"citadel_ability_lightning_ball/modifier_citadel_lightningball"	"Ralentización por Esfera Eléctrica"
 
 		"ability_power_surge"					"Sobrecarga de energía"
@@ -179,7 +181,6 @@
 		"citadel_ability_shieldedsentry"		"Minitorreta"
 		"citadel_ability_shieldedsentry_quip"	"Despliega una torreta automatizada"
 		"citadel_ability_shieldedsentry_desc"	"Despliega una minitorreta que <span class=\"highlight\">dispara automáticamente a los enemigos</span>. La torreta finaliza tras un tiempo de vida limitado. <br>Las torretas obtienen el {s:TurretHealthScaling} % de vida máxima de {s:hero_name} y tienen un {s:TechResist} % de resistencia espiritual. Infligen menos daño a los soldados y a los objetivos."
-		"citadel_ability_shieldedsentry_t1_desc"	"<span class=\"highlight\">+{s:AbilityCharges}</span> de carga de la habilidad y las torretas aplican <span class=\"highlight\">+{s:MoveSlowPercent} %</span> de ralentización"
 		"citadel_ability_shieldedsentry_t2_desc"	"<span class=\"highlight\">+{s:TurretAttackRange} m</span> de alcance de ataque y <span class=\"highlight\">+{s:AttackSpeedMult} %</span> de cadencia de tiro de la torreta"
 
 		//"citadel_ability_shieldedsentry/modifier_bullet_resist_reduction_stack"		"Sentry Bullet Resist Debuff"
@@ -702,11 +703,6 @@
 		//-----------------------------------------------------------------------------
 		// Haze
 		//-----------------------------------------------------------------------------
-		//"citadel_ability_poison_bullets"			"Tranquilizer Bullets"
-		//"citadel_ability_poison_bullets_desc"		"Apply tranquilizer to your victim until they fall asleep. Sleeping victims cannot act and take damage when they wake up."
-		//"modifier_citadel_posion_bullets_shot_watcher"	"Tranquilizer Bullets"
-		//"modifier_citadel_posion_bullets_poisoned"	"Asleep"
-		//"modifier_citadel_posion_bullets_poison_buildup"	"Sleepy"
 
 		"ability_sleep_dagger"			"Daga adormecedora"
 		"ability_sleep_dagger_quip"		"Duerme a un enemigo"
@@ -753,10 +749,7 @@
 
 		"ability_bullet_flurry"			"Baile de Balas"
 		"ability_bullet_flurry_quip"	"Libera una ráfaga de balas a tu alrededor"
-		"ability_bullet_flurry_desc"	"Inicia una ráfaga de balas <span class=\"highlight\">al disparar tu arma</span> a los enemigos cercanos <span class=\"highlight\">con una perfecta precisión</span>. Durante la ráfaga, {s:hero_name} obtiene cadencia de tiro adicional y esquiva algunas de las balas que recibe."
-		//"ability_bullet_flurry/modifier_citadel_bullet_flurry"		"Bullet Flurry"
-		"BonusWeaponDamage_label"				"de daño por balas"
-
+"BonusWeaponDamage_label"				"de daño por balas"
 		//-----------------------------------------------------------------------------
 		// Sumo // dynamo
 		//-----------------------------------------------------------------------------
@@ -764,7 +757,6 @@
 		"citadel_ability_stomp_quip"			"Libera una pulsación en el suelo que lanza a los enemigos por el aire"
 		"citadel_ability_stomp_desc"			"Libera una pulsación de energía que lanza a los enemigos por el aire."
 		"citadel_ability_stomp_t1_desc"			"La <span class=\"highlight\">cadencia de tiro y la velocidad de movimiento</span> de los enemigos se reduce un <span class=\"highlight\">{s:SlowPercent} %</span> durante <span class=\"highlight\">{s:SlowDuration} s</span>"
-		"citadel_ability_stomp_t2_desc"			"{s:hero_name} inflige un <span class=\"highlight\">{s:BulletArmorReduction} % de daño de arma adicional</span> a los enemigos alcanzados durante <span class=\"highlight\">{s:BulletArmorReductionDuration} s</span>"
 		"StompRange_label"						"de alcance de pisotón"
 		"StompRange_postfix"					" m"
 		//"stomp_buff_modifier"						"+Fire Rate"
@@ -777,7 +769,6 @@
 		"citadel_ability_void_sphere"				"Entrelazamiento cuántico"
 		"citadel_ability_void_sphere_quip"		"Parpadea y deja de existir"
 		"citadel_ability_void_sphere_desc"		"{s:hero_name} <span class=\"highlight\">desaparece brevemente en el vacío</span> y luego reaparece a corta distancia. Al reaparecer, su arma se <span class=\"highlight\">recarga</span> y tiene <span class=\"highlight\">cadencia de tiro adicional</span> en su siguiente cargador (durante {s:FireRateBonusDurationMax} s como máximo). Se puede lanzar con [{s:key_alt_cast}] para atraer también a los aliados cercanos y otorgarles la mitad de la cadencia de tiro adicional."
-		"citadel_ability_void_sphere_t3_desc"		"Al reaparecer, se obtiene <span class=\"highlight\">+{s:BonusClipSizePercent} % de munición base"
 		"modifier_void_sphere"					"Entrelazamiento cuántico"
 		//"modifier_voidsphere_buff"				"Void Sphere +Fire Rate"
 		"AllyDistance_label"						"de distancia de aliados"
@@ -1130,7 +1121,6 @@
 
 		"ability_ice_dome"				"Refugio congelado"
 		"ability_ice_dome_quip"			"Crea un domo curativo impenetrable"
-		"ability_ice_dome_desc"			"{s:hero_name} congela el aire que le rodea, creando un <span class=\"highlight\">domo impenetrable</span> a su alrededor. Mientras están en el domo, los aliados <span class=\"highlight\">regeneran rápidamente su vida</span> y los enemigos quedan <span class=\"highlight\">ralentizados</span>."
 		"ability_ice_dome_t1_desc"		"<span class=\"highlight\">+{s:FireRateSlow} %</span> de reducción de cadencia de tiro"
 		"ability_ice_dome_t3_desc"		"<span class=\"highlight\">+{s:BonusHealthRegen}</span> de regeneración de vida y ahora aumenta con poder espiritual"
 		"ability_ice_dome/modifier_ice_dome/modifier_debuff"						"Refugio congelado"
@@ -1143,7 +1133,6 @@
 		//-----------------------------------------------------------------------------
 		"citadel_ability_uppercut"				"Gancho explosivo"
 		"citadel_ability_uppercut_quip"			"Dale un puñetazo a alguien para alejarlo de ti"
-		"citadel_ability_uppercut_desc"			"Inflige daño <span class=\"highlight\">cuerpo a cuerpo leve</span> a las unidades cercanas y las hace <span class=\"highlight\">volar hacia atrás</span>, causando daño en el área cuando aterrizan. No inflige daño a los aliados."
 		"citadel_ability_uppercut_t2_desc"		"Al cortar a un héroe enemigo, obtienes <span class=\"highlight\">un menor tiempo de giro, el doble de alcance y un {s:BuffBaseWeaponPct} % de daño de arma</span> durante {s:UppercutBuffOnHit} s"
 		"citadel_ability_uppercut_t3_desc"		"Al cortar a un héroe enemigo, pone a <span class=\"highlight\">0 el tiempo de recarga de Garfio</span> y agrega <span class=\"highlight\">+{s:ClipSizeBonus} % de balas</span> a tu cargador actual de manera instantánea"
 		//"modifier_citadel_enemy_uppercutted"	"Uppercutted!"
@@ -1157,10 +1146,8 @@
 		"StunOnLand_postfix"					"  s"
 		//"UppercutBuffOnHit_label"				"Boost Duration"
 		"UppercutBuffOnHit_postfix"				"  s"
-
 		"citadel_ability_sticky_bomb"			"Bomba Lapa"
 		"citadel_ability_sticky_bomb_quip"		"Coloca una bomba sobre un enemigo"
-		"citadel_ability_sticky_bomb_desc"		"Adhiere una bomba lapa a un objetivo cercano que le inflige <span class=\"highlight\">daño explosivo</span> tras un breve tiempo de mecha.<br>Obtienes <span class=\"highlight\">{s:BonusDamagePctPerPlayerHit} % de daño de bomba</span> por cada héroe enemigo al que alcanza la explosión.  <br>Lanza una bomba lapa sobre ti mismo presionando [{s:key_alt_cast}]."
 		"modifier_citadel_sticky_bomb_attached"	"Llevas una bomba"
 		"citadel_ability_sticky_bomb_t3_desc"	"Al adherirse, <span class=\"highlight\">desarma</span> al objetivo durante <span class=\"highlight\">{s:DebuffDuration} s</span>"
 		"StunTargetOnExplode_label"				"de duración"
@@ -1333,11 +1320,11 @@
 
 		
 		"ability_nano_pounce"						"Asalto"
-		"ability_nano_pounce_quip"				"Salta hacia un objetivo"
-		"ability_nano_pounce_desc"				"<span class=\"highlight\">Salta</span> hacia un objetivo para infligirle <span class=\"highlight\">daño cuerpo a cuerpo ligero</span> y <span class=\"highlight\">ralentizar</span> a los enemigos cercanos. Si saltas hacia un aliado, se reducirán los tiempos de recarga."
+		"ability_nano_pounce_quip"				"Salta hacia tus enemigos"
+		"ability_nano_pounce_desc"				"<span class=\"highlight\">Salta</span> hacia un objetivo para infligirle <span class=\"highlight\">daño cuerpo a cuerpo ligero</span> y <span class=\"highlight\">ralentizar</span> a los enemigos cercanos.<br>Puedes usar la habilidad <span class=\"highlight\">Asalto en un objetivo secundario</span> si lo haces durante los <span class=\"highlight\">{s:DoublePounceTime} s</span> posteriores a usarla con el primer objetivo."
 		"ability_nano_pounce_t1_desc"			"<span class=\"highlight\">+{s:SlowDuration}</span> s de duración de la ralentización"
-		"ability_nano_pounce_t2_desc"			"<span class=\"highlight\">+{s:FireRateSlow} %</span> de reducción de la cadencia de tiro y <span class=\"highlight\">+{s:PounceDebuffRadius} m</span> de radio de ralentización."
-		"ability_nano_pounce_t3_desc"			"<span class=\"highlight\">+{s:AbilityCharges}</span> de carga de la habilidad y recarga hasta un <span class=\"highlight\">{s:ActiveReloadPercent} %</span> tu munición"
+		"ability_nano_pounce_t2_desc"			"Recarga hasta un <span class=\"highlight\">{s:ActiveReloadPercent} %</span> de tu munición y aplica <span class=\"highlight\">+{s:FireRateSlow} %</span> de reducción de Cadencia de tiro."
+		"ability_nano_pounce_t3_desc"			"<span class=\"highlight\">+{s:Damage}</span> de daño y <span class=\"highlight\">+{s:AbilityCharges}</span> carga de la habilidad."
 		"PounceDebuffRadius_label"					"de radio de ralentización"
 		"PounceDebuffRadius_postfix"					" m"
 		
@@ -1345,10 +1332,11 @@
 		"PounceFriendlyRechargeTime_postfix"			"  s"
 		"PounceFriendlyTargetCD_label"				"de t. de recarga de la habilidad por aliados"
 		"PounceFriendlyTargetCD_postfix"			"  s"
+		"pounce_double_notify"					"Doble Asalto"
 
-		"ability_nano_proximity_ritual"			"Depredador encaramado"
+		"ability_nano_proximity_ritual"			"Ava"
 		"ability_nano_proximity_ritual_quip"	"Envia a tu compañero para que ataque a los enemigos"
-		"ability_nano_proximity_ritual_desc"	"Despliega a <span class=\"highlight\">Ava</span> para que se <span class=\"highlight\">enfoque</span> en un enemigo cercano. Los objetivos enemigos ven reducida su curación y otorgan vida a {s:hero_name} cuando un aliado les inflige daño. Ava solo está activa cuando {s:hero_name} se encuentra cerca. Cuando lo esté, presiona [3] para recuperar a Ava. Al recuperar a Ava, esta recobra vida."
+		"ability_nano_proximity_ritual_desc"	"Envía a <span class=\"highlight\">Ava</span> para que <span class=\"highlight\">se concentre</span> en un enemigo cercano. Los objetivos enemigos ven reducida su curación y <span class=\"highlight\">otorgan vida a Ava y {s:hero_name}</span> cuando reciben daño. <span class=\"highlight\">Ava solo está activa cuando {s:hero_name} está cerca</span>. <br>Presiona <span class=\"highlight\">[3]</span> para recuperar y transportarte a Ava<br><span class=\"highlight\">[Alt-Cast]</span>.<br> Mientras más lejos estés de AVA, más tiempo tomará la recuperación o transporte. Al recuperarla, Ava recobra vida."
 		"StatueLifetime_label"					"para recuperar a Ava automáticamente"
 		"StatueLifetime_postfix"				" s"
 		"StatueHeldRegen_label"						"de regen. para Ava al recuperarla"
@@ -1356,24 +1344,26 @@
 		"StatueLifesteal_postfix"				" %"
 		"StatueLifestealNonHero_label"			"de robo de vida de no héroes"
 		"StatueLifestealNonHero_postfix"		"  %"
-		"StatueActivateRange_label"				"de radio de activación"
+		"StatueActivateRange_label"				"de alcance activo"
 		"StatueActivateRange_postfix"			" m"
 		"StatueHealth_label"					"Ava (normalizada)"
 		"StatueHealth_postfix"					"de vida"
-		"ability_nano_proximity_ritual_t1_desc"  "<span class=\"highlight\">+{s:StatueHealth}</span> de vida para Ava"
-		//"ability_nano_proximity_ritual_t2_desc"  "Victims receive <span class=\"highlight\">{s:FireRateSlow}%</span> Fire Rate Slow and <span class=\"highlight\">+{s:ActiveRadius}m</span> Active Radius"
+		"StatueVictimDamageReduction_label"					"de reducción de daño"
+		"StatueVictimDamageReduction_postfix"				"  %"
+
+		"ability_nano_proximity_ritual_t2_desc"  "<span class=\"highlight\">+{s:DPS}</span> de DPS y las víctimas infligen un <span class=\"highlight\">{s:StatueVictimDamageReduction} %</span> menos de daño a {s:hero_name}."
 		"ability_nano_proximity_ritual_t3_desc"  "<span class=\"highlight\">+{s:DamageAmplification} %</span> de amplificación de daño y un <span class=\"highlight\">{s:HealAmpReceivePenaltyPercent} %</span> de reducción de curación en víctimas"
 		"ability_nano_proximity_ritual_trigger"		"Recuperar a Ava"
 
 		"AvaRecallCooldown_label"				"de recarga para recuperar"
 		"AvaRecallCooldown_postfix"				"  s"
-		"AvaResummonCooldown_label"				"de tiempo de recarga de lanzamiento"
-		"AvaResummonCooldown_postfix"			"  s"
 		"AbilityButtonHint_AvaRecall"			"Recuperar a Ava"
+		"AbilityButtonHint_AvaWarp"			"Teletransportarse hasta Ava"
+		"CITADEL_ABILITY_NO_HEALTH_RESOURCE"	"No disponible"
 
-		"ability_nano_ult_shadow"				"Reina de las sombras"
-		"ability_nano_ult_shadow_desc"			"Envuélvete en las sombras y hazte <span class=\"highlight\">invisible</span>. Los ataques no interrumpen la invisibilidad, pero te revelarán temporalmente. Infligir <span class=\"highlight\">daño cuerpo a cuerpo</span> reducirá la resistencia a las balas de los enemigos (acumulable)."
-		"modifier_nano_ult_shadow"			"Reina de las sombras"
+		"ability_nano_shadow_step"				"Paso de sombra"
+		"ability_nano_shadow_step_desc"			"Cúbrete en la sombra, para fortalecer tus ataques y hacer que tus impulsos sean <span class=\"highlight\">invisibles</span>. Golpear a enemigos con <span class=\"highlight\">daño cuerpo a cuerpo</span> reducirá su resistencia a balas (acumulación)."
+		"modifier_nano_shadow_step"			"Paso de sombra"
 		"NanoShadowBulletArmorReductionLight_prefix"	"-"
 		"NanoShadowBulletArmorReductionLight_label"	"de resist. a balas (ligero)"
 		"NanoShadowBulletArmorReductionHeavy_prefix"	"-"
@@ -1388,9 +1378,8 @@
 
 		"modifier_nano_shadow_debuff"		"-de resistencia a balas"
 		
-		"ability_nano_ult_shadow_t2_desc"	"Al lanzarse, elimina todos los efectos negativos"
-		"ability_nano_ult_shadow_t3_desc"	"Los ataques cuerpo a cuerpo pesados <span class=\"highlight\">silencian</span> por {s:SilenceOnHeavyDuration} s"
-
+		"ability_nano_shadow_step_t2_desc"	"<span class=\"highlight\">+{s:SlowResistancePercent}%</span> Resistencia a ralenmtización mientras esté activo"
+		"ability_nano_shadow_step_t3_desc"	"Los ataques cuerpo a cuerpo pesados <span class=\"highlight\">silencian</span> por {s:SilenceOnHeavyDuration} s"
 
 		//-----------------------------------------------------------------------------
 		// Grey Talon (previous names: Archer / Orion)
@@ -1407,6 +1396,7 @@
 
 		"ability_power_jump"			"Lluvia de flechas"
 		"ability_power_jump_quip"		"Salta en el aire y haz varios disparos"
+		"ability_power_jump_desc"		"Te lanza por los aires, lo que te permite planear lentamente. Mientras estás en el aire, obtienes <span class=\"highlight\">daño de arma</span> y <span class=\"highlight\">multidisparo para tu arma</span>.<br>Usa el lanzamiento alternativo para reducir la altura del salto.<br>Presiona [{s:in_mantle}] para cancelar el planeo."
 		"ability_power_jump_t2_desc"	"Mientras estás en el aire, obtienes <span class=\"highlight\">+{s:WeaponDamageBonus}</span> de daño de arma que aplica un <span class=\"highlight\">{s:SlowPercent} %</span> de ralentización de movimiento por {s:SlowDuration} s"
 		"ability_power_jump_t3_desc"	"<span class=\"highlight\">+{s:TechLifestealPercent} %</span> de robo de vida por balas y <span class=\"highlight\">+{s:BulletLifestealPercent} %</span> de robo de vida espiritual mientras estás en el aire"
 		//"modifier_citadel_archer_air_raid"			"Power Jump"
@@ -1446,7 +1436,6 @@
 
 		"ability_life_drain"				"Succión vital"
 		"ability_life_drain_quip"			"Roba vida de un enemigo a lo largo del tiempo"
-		"ability_life_drain_desc"			"Crea un vínculo que <span class=\"highlight\">succiona la vida del enemigo con el tiempo</span> y <span class=\"highlight\">te cura</span>. El objetivo debe estar en la línea de visión y dentro del alcance máximo. Puedes disparar y usar otras habilidades durante la succión, pero tu velocidad de movimiento se reduce a la mitad. Presiona [{s:in_ability2}] para cancelar."
 		"ability_life_drain/modifier_life_drain" "Succión vital"
 		"ability_life_drain/modifier_life_drain_caster" "Succión vital"
 		"modifier_life_drain_silence"		"Silenciado"
@@ -1633,22 +1622,12 @@
 		"DamageHealMultNonHero_postfix"		"x"
 		"modifier_intimidate_debuff"		"Desdén"
 
-		//"ability_pounce"				"Pounce"
-		//"ability_pounce_desc"			"{s:hero_name} leaps forward, creates an explosion on landing and damages enemies in an area."
-
-		//"ability_ooc_health_regen"			"Out of Combat Health Regen"
-		//"ability_ooc_health_regen_desc"		""
-
 		"ability_throw_sand"			"Explosión de arena"
 		"ability_throw_sand_quip"		"Desarma a los enemigos que tengas delante"
 		"ability_throw_sand_desc"		"Rocía arena que <span class=\"highlight\">desarma</span> e inflige <span class=\"highlight\">daño</span> a enemigos que tengas delante."
 		"modifier_citadel_throw_sand_debuff"	"Efecto negativo por Explosión de arena"
 
 		"ability_throw_sand_t3_desc"	"Ralentiza un <span class=\"highlight\">-{s:SlowPercent} %</span> a objetivos"
-
-		//"citadel_ability_kineticcharge"			"Kinetic Charge"
-		//"citadel_ability_kineticcharge_desc"	"{s:hero_name} creates a shield which absorbs all incoming damage. After the duration expires or the shield is destroyed, explodes and returns the damage absorbed to all enemies around him."
-		//"modifier_citadel_kineticcharge"		"Absorbing Damage"
 
 		"ability_ult_combo"				"Combo"
 		"ability_ult_combo_quip"		"Retiene y golpea al héroe enemigo"
@@ -1658,7 +1637,6 @@
 		"LifestealPercentOnHit_label"		"de robo de vida"
 		"LifestealPercentOnHit_postfix"	"  %"
 		"BonusHealthOnKill_label"			"de vida máx. adicional por víctima"
-
 		//"GrabExtraTargetRange_label"		"Extra Target Range"
 		"GrabExtraTargetRange_postfix"	" m"
 
@@ -1763,7 +1741,7 @@
 		"MovementSlow_postfix"	"  %"
 
 		//-----------------------------------------------------------------------------
-		// Hero: Pocket
+		// Pocket // synth
 		//-----------------------------------------------------------------------------
 		"synth_plasma_flux"			"Capa voladora"
 		"synth_plasma_flux_quip"		"Lanza una capa dañina a la que puedes teletransportarte"
@@ -1806,7 +1784,6 @@
 		"synth_barrage"				"Bombardeo"
 		"synth_barrage_quip"			"Planea mientras disparas proyectiles múltiples"
 		"synth_barrage_desc"			"Canaliza para empezar a lanzar proyectiles que <span class=\"highlight\">infligen daño</span> y <span class=\"highlight\">aplican ralentización de movimiento</span> alrededor de su punto de impacto. Cada proyectil que cae sobre un héroe te otorga una <span class=\"highlight\">mejora acumulable que amplifica todo tu daño</span>.<br>Si la lanzas mientras estás en el aire, <span class=\"highlight\">flotarás</span> y mantendrás el impulso horizontal con el que empezaste."
-
 		"DamagePerProjectile_label"	"de daño por proyectil"
 		"ProjectileAmount_label"		"Número de proyectiles"
 		"ProjectileInterval_label"	"de intervalo entre proyectiles"
@@ -1855,6 +1832,7 @@
 		"modifier_mirage_tornado_slow"	"Tornado - Ralentización"
 
 		"mirage_fire_beetles"			"Escarabajos de fuego"
+		"mirage_fire_beetles_quip"		"Lanza escarabajos que roban vida a los enemigos"
 		"mirage_fire_beetles_desc"		"Comienza a lanzar Escarabajos de fuego. Cada escarabajo se puede <span class=\"highlight\">lanzar por separado</span>, robando <span class=\"highlight\">de salud máxima a enemigos</span> y aplicando <span class=\"highlight\">reducción de resistencia a las balas</span>. No se pueden lanzar múltiples escarabajos al mismo enemigo. La ganancia de salud al golpear a héroes es 3 veces más efectiva que contra no héroes."
 		"modifier_mirage_fire_beetles_launch_window"	"Lanzar escarabajos de fuego"
 		"LaunchWindowDuration_label"	"de ventana de lanzamiento"
@@ -1864,17 +1842,32 @@
 		//"AbilityButtonHint_MirageLaunchFireBeetle"	"Launch Fire Beetle"
 		"modifier_mirage_fire_scarabs_health_gain"	"Escarabajos de fuego"
 		"modifier_mirage_fire_scarabs_health_loss"	"Escarabajos de fuego"
+		"MirageFireScarabsHealthSteal_label"	"de robo de vida máxima"
+
 		"mirage_teleport"		"Viajero"
 		"mirage_teleport_quip"	"Teletranspórtate a la posición de un héroe aliado o enemigo"
+		"mirage_teleport_desc"	"Canalizado. Selecciona un héroe aliado o enemigo visible en el minimapa y <span class=\"highlight\">teletransportalo</span> a la posición del objetivo al inicio de la canalización. Después de teletransportarte, obtienes <span class=\"highlight\">velocidad de movimiento</span> y <span class=\"highlight\">mayor velocidad de disparo hasta recargar</span>."
 		"MirageTeleportMoveSpeed_conditional"	"después de teletransportarte"
 		"mirage_teleport_movespeed"		"Viajero - Vel. de mov. adicional"
 
 		"mirage_sand_phantom"			"Marca de Djinn"
 		"mirage_sand_phantom_quip"		"Aplica probabilidades de daño creciente"
+		"mirage_sand_phantom_desc"		"Activa: <span class=\"highlight\">Consume el multiplicador</span> de Marca de Djinn para infligir daño."
+		"mirage_sand_phantom_passive_desc"	"Pasiva: Tus disparos <span class=\"highlight\">aplican un multiplicador creciente</span> sobre el objetivo. Cuando el multiplicador de un objetivo expira o llega al máximo se consume, el objetivo sufre <span class=\"highlight\">daño espiritual</span> y su ubicación se <span class=\"highlight\">revela inmediatamente en el mapa</span>. El daño final es el daño base en función del multiplicador."
+		"mirage_sand_phantom_t1_desc"	"Aplica un {s:MovementSpeedSlow} % de ralentización por {s:SlowDuration} s cada vez que aumentas dos veces o más el multiplicador."
+		"mirage_sand_phantom_t2_desc"	"+{s:VictimStackDuration} s de duración del multiplicador y +{s:ProcDamageBase} de daño base"
+		"mirage_sand_phantom_t3_desc"	"{s:SandPhantomProcCooldown} s de tiempo de recarga entre multiplicadores y +{s:MirageDjinnsMarkMaxStacks} de multiplicador máximo"
+		"modifier_mirage_sand_phantom_passive_victim"	"Multiplicador de Marca de Djinn"
 		"ProcDamageBase_label"		"de daño base"
+		"VictimStackDuration_label"		"de duración del multiplicador"
 		"VictimStackDuration_postfix"	"  s"
 		"RevealDuration_label"		"de duración de la revelación"
 		"RevealDuration_postfix"	"  s"
+		"StacksRequiredForSlow_label"	"de multiplicador para ralentizar"
+		"MirageDjinnsMarkMaxStacks_label"	"de multiplicador máximo"
+		"MirageDjinnsMarkMaxStacks_postfix"	"x"
+
+		"SandPhantomProcCooldown_label"		"de t. de recarga entre multiplicadores"
 		"SandPhantomProcCooldown_postfix"	"  s"
 		"ProcBonusMagicDamageEscalation_prefix"	"{s:sign}"
 		"ProcBonusMagicDamageEscalation_label"	"de daño espiritual creciente"
@@ -1925,6 +1918,8 @@
 		"citadel_ability_tengu_urn"			"Bomba Kudzu"
 		"citadel_ability_tengu_urn_quip"	"Inflige daño y ralentiza a los enemigos en el área"
 		"citadel_ability_tengu_urn_desc"	"Invoca un círculo de enredaderas asfixiantes que <span class=\"highlight\">infligen daño</span> y <span class=\"highlight\">ralentizan a</span> enemigos que se encuentren dentro de su radio."
+		"citadel_ability_tengu_urn_t3_desc"	"<span class=\"highlight\">+{s:DPS} de DPS</span> y <span class=\"highlight\">+{s:Radius} m de radio</span>"
+
 		//"citadel_ability_tengu_ghost"			"Ghost"
 		//"citadel_ability_tengu_ghost_desc"		"Summon a tracking ghost that bounces randomly {s:Bounces} times to new targets after impact. Slows targets hit for 5 seconds."
 		//"citadel_ability_tengu_ghost_t3_desc"	"Bounces +{s:Bounces} additional times"
@@ -1993,7 +1988,7 @@
 		"citadel_ability_tengu_airlift_t1_desc"		"<span class=\"highlight\">{s:AirDropBulletArmorReduction} %</span> de resistencia balística en los enemigos alcanzados durante <span class=\"highlight\">{s:AirDropDebuff02Duration} s</span>"
 		"citadel_ability_tengu_airlift_t2_desc"		"<span class=\"highlight\">+{s:AirDropBulletShield}</span> de escudo antibalas y <span class=\"highlight\">+{s:AirDropExplodeRadius} m</span> de radio de la explosión"
 		"citadel_ability_tengu_airlift_t3_desc"		"<span class=\"highlight\">Silencia</span> a sus enemigos durante <span class=\"highlight\">+{s:AirDropSilenceDuration} s</span>"
-		//"modifier_airlift_ally"						"Air Drop"
+		"modifier_airlift_ally"						"Transporte aéreo"
 
 		"AirDropDebuffDuration_label"		"de duración de la ralentización"
 		"AirDropDebuffDuration_postfix"		" s"
@@ -2425,7 +2420,6 @@
 		"MediumChargeDamagePct_postfix"			"  %"
 		"FullChargeDamage_label"				"de daño de carga completa"
 		"citadel_ability_power_slash_t1_desc"	"Mientras canalizas, obtienes <span class=\"highlight\">+{s:BulletResist} de resistencia a balas</span>"
-		"citadel_ability_power_slash_t2_desc"	"Aplica un <span class=\"highlight\">{s:SlowPercent} % de ralentización de movimiento</span> durante <span class=\"highlight\">{s:SlowDuration} s</span>"
 		//"StaminaToRemove_label"				"Stamina Drain"
 
 		"citadel_ability_flying_strike"			"Ataque volador"
@@ -2525,8 +2519,10 @@
 		"PuddleDuration_postfix"						" s"
 
 		"viscous_restorative_goo"						"El cubo"
+		"viscous_restorative_goo_desc"					"Encierra al objetivo en un cubo con una sustancia pegajosa regeneradora que <span class=\"highlight\">protege del daño y aumenta la regeneración de vida</span>. El objetivo <span class=\"highlight\">no puede realizar ninguna acción nueva</span> mientras está en el cubo. Puedes usarlo contigo mismo. Presiona <span class=\"highlight\">[{s:in_mantle}]</span> para escapar antes de tiempo."
 		"viscous_restorative_goo_quip"					"El cubo es un lugar seguro en el que estar"
 		"viscous_restorative_goo_t1_desc"				"Aumenta la velocidad de movimiento y la recuperación de resistencia"
+		"viscous_restorative_goo_t2_desc"				"<span class=\"highlight\">Elimina todos los efectos negativos</span> y otorga <span class=\"highlight\">{s:AbilityCooldown} s</span> de tiempo de recarga de la habilidad"
 		"viscous_restorative_goo_buff_desc"				"Después de salir del cubo, el objetivo tiene mayor <span class=\"highlight\">velocidad de movimiento y recuperación de resistencia</span> durante un corto periodo de tiempo."
 		"PostCubeBuffDuration_label"					"de duración de efectos positivos"
 		"PostCubeBuffDuration_postfix"					" s"
@@ -2909,7 +2905,7 @@
 		"hero_yamato_lore"				"犯罪組織のボスの家に生まれた花桜梨とその兄の\n大和にとって、父の死後に「セブンスムーン」の跡目を\n継ぐのは自明のことでもあった。 そして何年もの間、\nかれらは対等の立場で組織を率いて利益と成功を\nもたらし、やがてはアメリカへの進出をも目論むように\nなった。\n\n思い描いていた計画は単純で、 大和がアメリカに渡って\n花桜梨の国際的な存在感を高め、その間花桜梨は日本に\n残って国内を統制する、といったものだった。 兄妹に\nとって不運だったのは、花桜梨が日本で指揮をとると\nいう計画を快く思わない部下たちがいたことだった。\n\nそして迅速かつ暴力的な形で、反乱は発生した。\n大和は花桜梨を守るために命を落とし、花桜梨と数人の\n忠実な部下たちは、その大和の犠牲のおかげもあって、\n日本からアメリカへと逃げ延びることに成功した。\n\nアメリカに着いた花桜梨たちを出迎えたのは、\n本来であれば大和が会う予定となっていた男であった。\n彼は日本人の名前になじみがなかったため性別の\n区別がついておらず、花桜梨のことを「ヤマト」と\n呼んだ。花桜梨は男の間違いを正そうと思ったが、\n結局そのままにした。兄の記憶を残し続けるためにも、\nその名を名乗り、その夢を受け継ぐことが最善の\n道であろうと考えたからだ。"   
 		"hero_tengu_lore"				"La gárgola no sabía lo que estaba pasando cuando volvió a la vida... solo que un humano grande y una humana pequeña estaban siendo atacados. Así que entró en acción y los agresores huyeron horrorizados. La pequeña humana le dio las gracias a la gárgola y le preguntó cómo se llamaba. La gárgola no tenía nombre, así que la humana dijo: \"Te llamarás Ivy, hiedra en inglés\". A la gárgola, que por aquel entonces estaba cubierta de enredaderas, le pareció un poco obvio, pero decidió aceptarlo por el bien de la humana.\n\nLos humanos le pidieron a Ivy que los acompañara a su casa para poder darle las gracias, así que fue con ellos. Esa noche aprendió mucho. Eran la familia Arroyo, y la pequeña se llamaba Sofía. Comían un manjar delicioso que se llamaba mofongo. Pero, sobre todo, se enteró de que quienes los atacaron pertenecían al \"Sindicato de Mendoza\" y que estaban haciendo daño a la gente... a buenas personas como los Arroyo.\n\nHan pasado 18 años desde el día en que los Arroyo la llevaron a su casa y, durante ese tiempo, Ivy se propuso desmantelar el Sindicato de Mendoza y liberar el Harlem del Este de sus garras. Sin embargo, lo que pasa cuando dedicas tu vida a una sola misión durante casi dos décadas es que no sabes muy bien qué hacer una vez que logras completarla. Por primera vez en su vida, Ivy está preparada para aventurarse fuera del Harlem del Este y ver qué le ofrece este mundo más allá de la justicia."
 		"hero_synth_lore"				"Arin Fairfax, el heredero y primogénito de Fairfax Industries, ha estado viviendo escondido durante los últimos 5 años, después de recibir un disparo y que lo dieran por muerto en su decimoctavo cumpleaños. Arin no sabe quién está intentando impedir que tomen el control de la empresa de sus padres... pero en el nido de víboras alimentado por la avaricia que es Fairfax Industries, podría ser cualquiera.\n\nAl adoptar el nombre de Pocket, Arin quiere desesperadamente mantener en secreto su verdadera identidad… no solo por su propia protección, sino también para forjar una identidad propia e independiente de la de sus padres."
-		"hero_mirage_lore"				"Los genios son uno de los grupos de personas más curiosos del mundo moderno. Tienen un gran poder en dosis controladas, los genios son incapaces de mantener la forma corporal durante más de 48 minutos sin descansar dentro de un recipiente. Por eso, la mayoría de los genios emplean guardaespaldas humanos para el transporte, la protección y el compañerismo.\n\nMirage es uno de esos guardaespaldas. Empleado por el embajador de los genios, Nashala Dion, Mirage se encuentra en Nueva York en una misión diplomática. Los genios esperan poder negociar con el gobierno de los Estados Unidos la venta de una parte de Wyoming para poder construir una nación soberana para su pueblo."
+		"hero_mirage_lore"				"Los Djinn son uno de los grupos de personas más curiosos del mundo moderno. Con un gran poder en dosis controladas, los Djinn son incapaces de mantener la forma corporal durante más de 48 minutos sin descansar dentro de un recipiente. Debido a ello, la mayoría de los Djinn emplean guardaespaldas humanos que los transportan, los protegen y les hacen compañía.\n\nMirage es uno de esos guardaespaldas. Empleado por el embajador de los Djinn, Nashala Dion, Mirage se encuentra en Nueva York en misión diplomática. Los genios esperan poder negociar con el gobierno de los Estados Unidos la venta de una parte de Wyoming para poder construir una nación soberana para su pueblo."
 
 
 

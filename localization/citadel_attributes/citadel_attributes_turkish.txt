@@ -202,6 +202,8 @@
 		"StatDesc_DebuffResist_postfix"					"%"
 		"StatDesc_HealingOutput"						"İyileştirme Artırımı"
 		"StatDesc_HealingOutput_postfix"				"%"
+		"StatDesc_CritDamageBonusScale"					"Bonus Kritik Vuruş Ölçeği"
+		"StatDesc_CritDamageBonusScale_postfix"			"%"
 
 		"StatDesc_BulletSpeed"							"Mermi Hızı"
 		"StatDesc_BulletSpeed_postfix"					" m/sn"
@@ -444,7 +446,8 @@
 		"BonusMoveSpeed_prefix"							"{s:sign}"
 		"BonusMoveSpeed_label"						"Hareket Hızı"
 		"BonusMoveSpeed_postfix"						" m/sn"
-
+		
+		"TeleporterBonus"							"Bonus Hareket Hızı!"
 		"RunSpeed_postfix"						" m/sn"
 
 		"WeaponRange_label"							"Silah Menzili"
@@ -719,7 +722,6 @@
 		//"EvasionPercentGlider_label"					"Evasion Chance Gliding"
 		"EvasionPercentGlider_postfix"					"%"
 
-		"EvasionPercent_label"						"Kaçınma Şansı"
 		"EvasionPercent_postfix"						"%"
 
 		//"MeleeDamagePercent_label"					"Melee Damage Bonus"
@@ -1790,9 +1792,9 @@
 		"StaminaRegenPercent_label"			"Kuvvet Yenilenmesi"
 		"StaminaRegenPercent_postfix"		"%"
 
-		//crow_mask_1824_comment
-		// crow_mask_1825_comment
-		//crow_mask_1826_comment
+		//crow_mask_1827_comment
+		// crow_mask_1828_comment
+		//crow_mask_1829_comment
 
 
 

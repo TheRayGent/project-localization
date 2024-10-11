@@ -13,7 +13,7 @@
 		"MODIFIER_STATE_SILENCED"							"침묵"
 		"MODIFIER_STATE_STUNNED"							"기절"
 		"MODIFIER_STATE_INVULNERABLE"						"무적"
-		"MODIFIER_STATE_TECH_INVULNERABLE"					"마력 피해 무적"
+		"MODIFIER_STATE_TECH_INVULNERABLE"					"마법 피해 무적"
 		//"MODIFIER_STATE_BURNING"							"Burning"
 
 		// Commenting this out so it doesn't show overhead of the player your applied it to
@@ -51,7 +51,8 @@
 		//"modifier_citadel_in_shop"				"In Shop"	
 		//"modifier_citadel_in_fountain"			"Home Base"
 		"modifier_citadel_pre_match_wait"		"매치 시작 대기 중"
-"modifier_citadel_knockdown"			"기절"
+"modifier_damageovertime" 				"출혈"
+		"modifier_citadel_knockdown"			"기절"
 		//"modifier_citadel_delayed_stun"			"Delayed Stun"
 		//"modifier_citadel_knockdown_stumble"	"Stumble"
 		"modifier_citadel_banished"				"유체이탈"
@@ -88,6 +89,9 @@
 		// Ability Property Text
 		//-----------------------------------------------------------------------------
 		"Citadel_AbilityProperty_OnHit"			"적중 시:"
+		"Citadel_AbilityProperty_OnAttach"	"부착 시:"
+
+
 		//-----------------------------------------------------------------------------
 		// Stat desc - These are the labels in the hero stats for each EStatType
 		//-----------------------------------------------------------------------------
@@ -173,7 +177,7 @@
 		"StatDesc_BaseWeaponDamage"						"무기 피해"
 		"StatDesc_BaseWeaponDamage_postfix"				"%"
 		"StatDesc_TechDamageScale"						"마법 피해"
-		"StatDesc_TechShieldHealth"						"마력 방어막"
+		"StatDesc_TechShieldHealth"						"마법 방어막"
 		"StatDesc_BulletShieldHealth"					"총탄 방어막"
 		"StatDesc_ReloadSpeed_prefix"					"{s:sign}"
 		"StatDesc_ReloadSpeed"							"재장전 감소"
@@ -189,7 +193,6 @@
 		"StatDesc_DebuffResist_postfix"					"%"
 		"StatDesc_HealingOutput"						"치유 증폭"
 		"StatDesc_HealingOutput_postfix"				"%"
-
 		"StatDesc_BulletSpeed"							"총탄 속도"
 		"StatDesc_BulletSpeed_postfix"					"m(초당)"
 		"StatDesc_BulletSpeedIncrease"					"총탄 속도 증가"
@@ -334,6 +337,7 @@
 		"BonusMeleeDamage_prefix"						"{s:sign}"
 		"BonusMeleeDamage_label"						"근거리 공격 피해"
 
+		"FuseTime_label"								"퓨즈 시간"
 		"FuseTime_postfix"								"초"
 
 		"BonusAmmoRegen_prefix"							"{s:sign}"
@@ -356,8 +360,12 @@
 		"BulletArmor_prefix"							"{s:sign}"
 		"BulletResist_prefix"							"{s:sign}"
 		"BulletResist_postfix"							"%"
+		"BulletResist_label"							"총탄 저항"
+
 		"BulletArmorDamageReduction_prefix"				"{s:sign}"
 		"BulletArmorDamageReduction_postfix"			"%"
+		"BulletArmorDamageReduction_label"				"총탄 저항"
+
 		// this name is misleading since we use this as a debuff ("TechResist" is the buff version)
 		"TechArmorDamageReduction_prefix"				"{s:sign}"
 		"TechArmorDamageReduction_postfix"				"%"
@@ -384,7 +392,7 @@
 		"BonusMoveSpeed_prefix"							"{s:sign}"
 		"BonusMoveSpeed_label"						"이동 속도"
 		"BonusMoveSpeed_postfix"						"m(초당)"
-
+		
 		"RunSpeed_postfix"						"m(초당)"
 
 		"WeaponRange_postfix"						"m"
@@ -470,6 +478,7 @@
 		"DebuffDuration_label"						"약화 지속 시간"
 		"DebuffDuration_postfix"						"초"
 
+		"DotHealthPercent_label"						"출혈 피해"
 		"DotHealthPercent_postfix"						"%(초당)"
 		
 		"FreezeDuration_postfix"							"초"
@@ -734,8 +743,12 @@
 
 		"BulletArmorReduction_prefix"					"{s:sign}"
 		"BulletArmorReduction_postfix"					"%"
+		"BulletArmorReduction_label"					"총탄 저항"
+
 		"LocalBulletArmorReduction_prefix"				"{s:sign}"
 		"LocalBulletArmorReduction_postfix"				"%"
+		"LocalBulletArmorReduction_label"				"총탄 저항"
+
 		"LocalTechArmorReduction_prefix"				"{s:sign}"
 		//"LocalTechArmorReduction_label"				"Magic Resist"
 		"LocalTechArmorReduction_postfix"				"%"
@@ -778,6 +791,8 @@
 		//"TrooperLifetime_label"						"Trooper lifetime"
 		"TrooperLifetime_postfix"						"초"
 
+		"DamagePerChain_label"						"전기 충격 피해"
+		
 		"SpeedMax_label"								"이동 속도"
 		"SpeedMax_postfix"							"m(초당)"
 		"MoveSpeedMax_label"							"이동 속도"
@@ -812,7 +827,8 @@
 		"CloseRangeBonusWeaponPower_prefix"				"{s:sign}"
 		"CloseRangeBonusWeaponPower_label"				"무기 피해"
 		"CloseRangeBonusWeaponPower_postfix"			"%"
-"LongRangeBonusWeaponPowerMinRange_postfix"		"m"
+"LongRangeBonusWeaponPowerMinRange_label"		"최소 거리"
+		"LongRangeBonusWeaponPowerMinRange_postfix"		"m"
 
 		"LongRangeBonusWeaponPower_prefix"				"{s:sign}"
 		"LongRangeBonusWeaponPower_label"				"무기 피해"
@@ -851,6 +867,7 @@
 		//"HealthDrainedPerSecond_label"				"Health Drain"
 		"HealthDrainedPerSecond_postfix"				"(초당)"
 
+		"DebuffDurationReductionPercentage_label"		"약화 지속 시간 감소"
 		"DebuffDurationReductionPercentage_postfix"		"%"
 
 		//"HealthCost_label"							"Health Cost"
@@ -966,7 +983,10 @@
 		"ImbuedBonusDuration_postfix"					"%"
 
 		"MissCooldown_postfix"							"초"
-"ShockDelay_postfix"							"초"
+		//"MissCooldown_label"							"Cooldown on miss"
+
+		"ShockDelay_label"							"기절 전 지연 시간"
+		"ShockDelay_postfix"							"초"
 
 		"ArmTime_label"									"설치 시간"
 		"ArmTime_postfix"								"초"
@@ -1147,7 +1167,7 @@
 		//"SmokeRadius_label"								"Smoke Radius"
 		"SmokeRadius_postfix"							"m"
 
-		"ChainDuration_label"							"연결 지속 시간"
+		"ChainDuration_label"							"결속 지속 시간"
 		"ChainDuration_postfix"							"초"
 
 		//"InfectDuration_label"							"Infect Duration"
@@ -1284,6 +1304,10 @@
 		"SpiritDamageReflectedPct_label"					"마법 피해 반사"
 		"SpiritDamageReflectedPct_postfix"					"%"
 		"DamageReflectedFrequencyPct_postfix"			"%"
+		"ReturnFireBulletResist_prefix"					"+"
+		"ReturnFireBulletResist_label"					"총탄 저항"
+		"ReturnFireBulletResist_postfix"					"%"
+
 		//"RespawnBonusHealth_label"							"Respawn Bonus Health"
 		//"RespawnBonusHealthDuration_label"					"Respawn Bonus Health Duration"
 		"RespawnBonusHealthDuration_postfix"				"초"
@@ -1303,6 +1327,7 @@
 		"Stamina_label"							"활력"
 		"Stamina_prefix"							"+"
 		"StaminaCooldownReduction_prefix"				"+"
+		"StaminaCooldownReduction_label"				"활력 회복"
 		"StaminaCooldownReduction_postfix"			"%"
 
 		//"ActiveHealthChange_label"			"Health Steal"
@@ -1331,6 +1356,8 @@
 		//"upgrade_leveler/headshot_cooldown_modifier"	"Head Shot Bonus Cooldown"
 		//"ActiveChainDuration_label"			"Tether Duration"
 		"ActiveChainDuration_postfix"		"초"
+		"ActiveBulletArmorReduction_label"	"총탄 저항 감소"
+
 		//"modifier_galvanic_storm"				"Galvanic Storm"
 		//"BuildupPerProc_label"				"Buildup on Shock"
 		"BuildupPerProc_postfix"				"%"
@@ -1420,6 +1447,15 @@
 		"CloneDamageTakenIncreasePercent_postfix"		"%"
 
 		"ability_abort_cast"						"중단"
+		//"citadel_ability_lightning_dodge"	"Lightning Roll"
+		//"citadel_ability_lightning_dodge_passive"	"Lightning Roll"
+		//"citadel_ability_basicdamagereflect"	"Reflect Basic Damage"
+		//"citadel_ability_bullet_damage_amp_wall"	"Bullet Damage Amp Wall"
+
+		//"modifier_limit_ability_cooldown"		"Quick Cooldowns"
+
+		//"ability_golden_idol"					"Drop Soul Urn"
+		"golden_idol_bonus_01"					"추가 영혼 +25%"
 //"LifeThreshold_label"					"Life Threshold"
 		"LifeThreshold_postfix"					"%"
 "ActiveTechPower_label"					"마력"
@@ -1504,9 +1540,9 @@
 
 		"ExplodeDamage_label"				"폭발 피해"
 
-		//crow_mask_1824_comment
-		// crow_mask_1825_comment
-		//crow_mask_1826_comment
+		//crow_mask_1827_comment
+		// crow_mask_1828_comment
+		//crow_mask_1829_comment
 
 
 

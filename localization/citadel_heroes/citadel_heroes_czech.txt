@@ -181,7 +181,7 @@
 		"citadel_ability_shieldedsentry"		"Přenosná střílna"
 		"citadel_ability_shieldedsentry_quip"	"Umožňuje ti vyhodit automatickou střílnu."
 		"citadel_ability_shieldedsentry_desc"	"McGinnis vyhodí malou střílnu, která <span class=\"highlight\">automaticky útočí na nepřátele</span> ve svém dosahu.<br>Střílna zmizí po určitém čase, má zdraví rovné {s:TurretHealthScaling} % z maximálního zdraví McGinnis a disponuje {s:TechResist}% spirituální odolností. Pěšákům a strukturám udílí střílna redukované poškození."
-		"citadel_ability_shieldedsentry_t1_desc"	"<span class=\"highlight\">+{s:AbilityCharges}</span> nabití schopnosti a střílny aplikující <span class=\"highlight\">{s:MoveSlowPercent}%</span> zpomalení pohybu"
+		"citadel_ability_shieldedsentry_t1_desc"	"Střílny aplikují <span class=\"highlight\">{s:MoveSlowPercent}%</span> zpomalení pohybu"
 		"citadel_ability_shieldedsentry_t2_desc"	"<span class=\"highlight\">+{s:TurretAttackRange} m</span> k dosahu útoku a <span class=\"highlight\">+{s:AttackSpeedMult} %</span> k rychlosti střelby střílen"
 
 		//"citadel_ability_shieldedsentry/modifier_bullet_resist_reduction_stack"		"Sentry Bullet Resist Debuff"
@@ -383,7 +383,7 @@
 		"citadel_ability_chrono_pulse_grenade"			"Pulzní granát"
 		"citadel_ability_chrono_pulse_grenade_quip"		"Umožňuje ti hodit granát, který s každým pulzem udílí poškození a zpomaluje pohyb."
 		"citadel_ability_chrono_pulse_grenade_desc"		"Paradox hodí granát, který po dopadu začne pulzovat. Každý pulz pak nepřátelům <span class=\"highlight\">udělí poškození, sníží rychlost pohybu a aplikuje na ně sčitatelné navýšení poškození</span> utrženého od Paradox."
-		"citadel_ability_chrono_pulse_grenade_t3_desc"		"<span class=\"highlight\">+{s:PulseDamage} bodů</span> k poškození za pulz a <span class=\"highlight\">+{s:PulseGrenadeDamageAmplificationPerStack} %</span> k navýšení poškození za sečtení"
+		"citadel_ability_chrono_pulse_grenade_t3_desc"		"<span class=\"highlight\">+{s:PulseDamage} bodů</span> k poškození za pulz a <span class=\"highlight\">+{s:RadiusIncreasePerPulse} m</span> k rozsahu za pulz"
 		"Pulses_label"                           			 "Počet pulzů"
 		"InitialDamage_label"									"Počáteční poškození"
 		"PulseDamage_label"									"Poškození za pulz"
@@ -705,11 +705,6 @@
 		//-----------------------------------------------------------------------------
 		// Haze
 		//-----------------------------------------------------------------------------
-		//"citadel_ability_poison_bullets"			"Tranquilizer Bullets"
-		//"citadel_ability_poison_bullets_desc"		"Apply tranquilizer to your victim until they fall asleep. Sleeping victims cannot act and take damage when they wake up."
-		//"modifier_citadel_posion_bullets_shot_watcher"	"Tranquilizer Bullets"
-		//"modifier_citadel_posion_bullets_poisoned"	"Asleep"
-		//"modifier_citadel_posion_bullets_poison_buildup"	"Sleepy"
 
 		"ability_sleep_dagger"			"Uspávací dýka"
 		"ability_sleep_dagger_quip"		"Umožňuje ti uspat nepřítele."
@@ -756,10 +751,10 @@
 
 		"ability_bullet_flurry"			"Vír střel"
 		"ability_bullet_flurry_quip"	"Umožňuje ti rozpoutat smrtící vír střel."
-		"ability_bullet_flurry_desc"	"Haze se roztočí a s <span class=\"highlight\">dokonalou přesností</span> začne <span class=\"highlight\">střílet ze svých zbraní</span> na nepřátele kolem. Zatímco se točí, získává Haze bonus k rychlosti střelby a uhýbá se některým střelám mířeným na sebe."
-		//"ability_bullet_flurry/modifier_citadel_bullet_flurry"		"Bullet Flurry"
+"BonusWeaponDamage_prefix"				"+"
 		"BonusWeaponDamage_label"				"Balistické poškození"
-
+		"DanceMoveSpeed_label"			"Rychlost pohybu ve víru"
+		"DanceMoveSpeed_postfix"		" m/s"
 		//-----------------------------------------------------------------------------
 		// Sumo // dynamo
 		//-----------------------------------------------------------------------------
@@ -767,7 +762,7 @@
 		"citadel_ability_stomp_quip"			"Umožňuje ti vyslat vlnu, která vyhodí nepřátele do vzduchu."
 		"citadel_ability_stomp_desc"			"Dynamo vyšle vlnu energie, která vyhodí nepřátele do vzduchu."
 		"citadel_ability_stomp_t1_desc"			"Ovlivnění nepřátelé mají na <span class=\"highlight\">{s:SlowDuration} s</span> o <span class=\"highlight\">{s:SlowPercent} %</span> <span class=\"highlight\">sníženou rychlost pohybu a střelby</span>"
-		"citadel_ability_stomp_t2_desc"			"Dynamo udílí ovlivněným nepřátelům <span class=\"highlight\">{s:BulletArmorReductionDuration} s</span> o <span class=\"highlight\">{s:BulletArmorReduction} % vyšší fyzické poškození</span>"
+		"citadel_ability_stomp_t2_desc"			"Dynamo udílí ovlivněným nepřátelům <span class=\"highlight\">{s:BulletArmorReductionDuration} s</span> o <span class=\"highlight\">{s:BulletArmorReduction} % vyšší balistické poškození</span>"
 		"StompRange_label"						"Dosah vlny"
 		"StompRange_postfix"					" m"
 		//"stomp_buff_modifier"						"+Fire Rate"
@@ -780,7 +775,7 @@
 		"citadel_ability_void_sphere"				"Kvantový přesun"
 		"citadel_ability_void_sphere_quip"		"Umožňuje ti na okamžik zmizet ze světa."
 		"citadel_ability_void_sphere_desc"		"Dynamo <span class=\"highlight\">zmizí v prázdnotě</span> a v mžiku se znovu objeví na vybraném místě kousek od původní pozice. Jakmile se znovu objeví, jeho zbraň je <span class=\"highlight\">přebita</span> a pro tento zásobník získá <span class=\"highlight\">bonus k rychlosti střelby</span> (vydrží maximálně {s:FireRateBonusDurationMax} sekund). Schopnost lze seslat také prostřednictvím [{s:key_alt_cast}], což zajistí, že se společně s Dynamem přesunou i spojenci poblíž, kteří následně získají poloviční bonus k rychlosti střelby."
-		"citadel_ability_void_sphere_t3_desc"		"<span class=\"highlight\">+{s:BonusClipSizePercent} %</span> k základnímu počtu nábojů po znovuobjevení"
+		"citadel_ability_void_sphere_t3_desc"		"<span class=\"highlight\">{s:AbilityCooldown} s</span> z doby obnovení a <span class=\"highlight\">+{s:BonusClipSizePercent} %</span> k základnímu počtu nábojů po znovuobjevení"
 		"modifier_void_sphere"					"Kvantový přesun"
 		//"modifier_voidsphere_buff"				"Void Sphere +Fire Rate"
 		"AllyDistance_label"						"Vzdálenost pro zahrnutí spojenců"
@@ -1133,7 +1128,7 @@
 
 		"ability_ice_dome"				"Objetí zimy"
 		"ability_ice_dome_quip"			"Umožňuje ti vytvořit neproniknutelnou kupoli poskytující léčení."
-		"ability_ice_dome_desc"			"Kelvin zmrazí vzduch kolem sebe a vytvoří <span class=\"highlight\">neproniknutelnou ledovou kupoli</span>. Spojencům je v kupoli <span class=\"highlight\">rychle regenerováno zdraví</span>, zatímco nepřátelé mají <span class=\"highlight\">sníženou rychlost pohybu</span>."
+		"ability_ice_dome_desc"			"Kelvin zmrazí vzduch kolem sebe a vytvoří <span class=\"highlight\">neproniknutelnou ledovou kupoli</span>. Spojencům je v kupoli <span class=\"highlight\">rychle regenerováno zdraví</span>, zatímco nepřátelé mají <span class=\"highlight\">sníženou rychlost pohybu</span>.<br>Struktury jsou v kupoli nezranitelné a zmrazené."
 		"ability_ice_dome_t1_desc"		"<span class=\"highlight\">+{s:FireRateSlow} %</span> ke zpomalení rychlosti střelby nepřátel"
 		"ability_ice_dome_t3_desc"		"Regenerace zdraví se vylepšuje podle spirituální síly a také je o <span class=\"highlight\">{s:BonusHealthRegen} bodů</span> vyšší"
 		"ability_ice_dome/modifier_ice_dome/modifier_debuff"						"Objetí zimy"
@@ -1146,7 +1141,7 @@
 		//-----------------------------------------------------------------------------
 		"citadel_ability_uppercut"				"Výbušný zvedák"
 		"citadel_ability_uppercut_quip"			"Umožňuje ti odhodit jednotky od sebe."
-		"citadel_ability_uppercut_desc"			"Bebop provede <span class=\"highlight\">slabý úder</span>, který udělí poškození jednotkám poblíž, <span class=\"highlight\">odhodí je</span> a zajistí, že na místě dopadu udělí <span class=\"highlight\">plošné poškození</span>. Spojenci neutrží poškození."
+		"citadel_ability_uppercut_desc"			"Bebop provede <span class=\"highlight\">slabý úder</span>, který udělí poškození jednotkám poblíž, <span class=\"highlight\">odhodí je</span> a zajistí, že na místě dopadu udělí <span class=\"highlight\">plošné poškození</span> a aplikují <span class=\"highlight\">zpomalení rychlosti střelby</span>. Spojenci neutrží poškození."
 		"citadel_ability_uppercut_t2_desc"		"Zvedák nepřátelského hrdiny zajistí na {s:UppercutBuffOnHit} s <span class=\"highlight\">2× dosah zbraně, její rychlejší zahřívání a {s:BuffBaseWeaponPct}% bonus k fyzickému poškození</span>"
 		"citadel_ability_uppercut_t3_desc"		"Zvedák nepřátelského hrdiny <span class=\"highlight\">obnoví Hák</span> a okamžitě přidá <span class=\"highlight\">{s:ClipSizeBonus} % střel</span> do aktuálního zásobníku"
 		//"modifier_citadel_enemy_uppercutted"	"Uppercutted!"
@@ -1160,10 +1155,12 @@
 		"StunOnLand_postfix"					" s"
 		//"UppercutBuffOnHit_label"				"Boost Duration"
 		"UppercutBuffOnHit_postfix"				" s"
+		"ExplodeDebuffDuration_label"			"Trvání zpomalení rychlosti střelby"
+		"ExplodeDebuffDuration_postfix"			" s"
 
 		"citadel_ability_sticky_bomb"			"Přilnavá bomba"
 		"citadel_ability_sticky_bomb_quip"		"Umožňuje ti připevnit bombu na spojence nebo nepřítele."
-		"citadel_ability_sticky_bomb_desc"		"Bebop připevní na cíl poblíž přilnavou bombu, která po krátké prodlevě udělí <span class=\"highlight\">výbušné poškození</span>. <br>Poškození je navyšováno o <span class=\"highlight\">{s:BonusDamagePctPerPlayerHit} %</span> za každého zasaženého nepřátelského hrdinu.<br>Podržením [{s:key_alt_cast}] může Bebop bombu připevnit na sebe."
+		"citadel_ability_sticky_bomb_desc"		"Bebop připevní na cíl poblíž přilnavou bombu, která po krátké prodlevě udělí <span class=\"highlight\">výbušné poškození</span>. <br>Kdykoli bomba vybuchne, Bebop získá sečtení poskytující <span class=\"highlight\">+{s:BonusDamagePctPerPlayerHit} % k poškození</span> za každého zasaženého nepřátelského hrdinu. Maximálně může Bebop mít {s:BonusMaxStacks} sečtení, přičemž úmrtím o {s:BonusLossPerDeath} přijde.<br>Podržením [{s:key_alt_cast}] může Bebop bombu připevnit na sebe."
 		"modifier_citadel_sticky_bomb_attached"	"Přilnavá bomba"
 		"citadel_ability_sticky_bomb_t3_desc"	"Po připevnění bomby je cíl na <span class=\"highlight\">{s:DebuffDuration} s</span> <span class=\"highlight\">odzbrojen</span>"
 		"StunTargetOnExplode_label"				"Trvání"
@@ -1337,10 +1334,10 @@
 		
 		"ability_nano_pounce"						"Kočičí skok"
 		"ability_nano_pounce_quip"				"Umožňuje ti skočit na cíl, ať už je spojenecký, nebo ne."
-		"ability_nano_pounce_desc"				"Calico <span class=\"highlight\">skočí</span> na cíl a zasáhne ho <span class=\"highlight\">slabým úderem</span>. Pokud je cílem nepřítel, skok vyústí také ve <span class=\"highlight\">zpomalení</span> okolních nepřátel. Pokud je cílem spojenec, budou redukovány doby obnovení (samotné schopnosti i nabití)."
+		"ability_nano_pounce_desc"				"Calico <span class=\"highlight\">skočí</span> na cíl, zasáhne ho <span class=\"highlight\">slabým úderem</span> a zároveň <span class=\"highlight\">zpomalí</span> okolní nepřátele.<br>Schopnost je možné v rámci <span class=\"highlight\">{s:DoublePounceTime} sekundy</span> po prvním skoku seslat <span class=\"highlight\">ještě na druhý cíl</span>."
 		"ability_nano_pounce_t1_desc"			"<span class=\"highlight\">+{s:SlowDuration} s</span> k trvání zpomalení"
-		"ability_nano_pounce_t2_desc"			"<span class=\"highlight\">+{s:FireRateSlow} %</span> ke zpomalení rychlosti střelby a <span class=\"highlight\">+{s:PounceDebuffRadius} m</span> k rozsahu zpomalení"
-		"ability_nano_pounce_t3_desc"			"<span class=\"highlight\">+{s:AbilityCharges}</span> nabití schopnosti a automatické přebití <span class=\"highlight\">{s:ActiveReloadPercent} %</span> nábojů"
+		"ability_nano_pounce_t2_desc"			"Schopnost aplikuje také <span class=\"highlight\">{s:FireRateSlow}%</span> zpomalení rychlosti střelby a Calico si po jejím seslání přebije až <span class=\"highlight\">{s:ActiveReloadPercent} %</span> nábojů"
+		"ability_nano_pounce_t3_desc"			"<span class=\"highlight\">+{s:Damage} bodů k poškození</span> a <span class=\"highlight\">+{s:AbilityCharges} nabití schopnosti</span>"
 		"PounceDebuffRadius_label"					"Rozsah zpomalení"
 		"PounceDebuffRadius_postfix"					" m"
 		
@@ -1348,10 +1345,11 @@
 		"PounceFriendlyRechargeTime_postfix"			" s"
 		"PounceFriendlyTargetCD_label"				"Doba obnovení na spojenci"
 		"PounceFriendlyTargetCD_postfix"			" s"
+		"pounce_double_notify"					"Druhý skok"
 
-		"ability_nano_proximity_ritual"			"Vyčkávající predátor"
+		"ability_nano_proximity_ritual"			"Ava"
 		"ability_nano_proximity_ritual_quip"	"Umožňuje ti vyslat spirituální kočku, která útočí na nepřátele."
-		"ability_nano_proximity_ritual_desc"	"Calico vyšle svoji spirituální kočku <span class=\"highlight\">Avu</span>, aby se <span class=\"highlight\">zaměřila</span> na nepřítele poblíž. Zacílení nepřátelé mají redukované léčení, a když jim libovolný spojenec udělí poškození, Calico je jeho částí vyléčena. Ava je aktivní, pouze pokud se nedaleko ní nachází Calico.<br>Stiskem [3] je Avu možné z určité vzdálenosti přivolat zpět, čímž je také obnoveno její zdraví."
+		"ability_nano_proximity_ritual_desc"	"Calico vyšle svoji spirituální kočku <span class=\"highlight\">Avu</span>, aby se <span class=\"highlight\">zaměřila</span> na nepřítele poblíž. Zacílený nepřítel má redukované léčení, a když utrží poškození, <span class=\"highlight\">Calico a Ava jsou vyléčeny</span>. <span class=\"highlight\">Ava je aktivní, pouze pokud se nedaleko ní nachází Calico</span>. <br>Stiskem <span class=\"highlight\">[3]</span> je Avu možné přivolat zpět, přičemž <span class=\"highlight\">alternativním sesláním</span> je Ava nejen přivolána zpět, ale Calico se také teleportuje na její pozici.<br> Čím dál se Calico od Avy nachází, tím déle trvá přivolání/teleportace. Avě je nicméně v obou případech obnoveno zdraví."
 		"StatueLifetime_label"					"Prodleva auto. přivolání"
 		"StatueLifetime_postfix"				" s"
 		"StatueHeldRegen_label"						"Regenerace po přivolání"
@@ -1363,20 +1361,23 @@
 		"StatueActivateRange_postfix"			" m"
 		"StatueHealth_label"					"Ava (normalizovaná)"
 		"StatueHealth_postfix"					" bodů zdraví"
-		"ability_nano_proximity_ritual_t1_desc"  "<span class=\"highlight\">+{s:StatueHealth} bodů zdraví</span> pro Avu"
-		//"ability_nano_proximity_ritual_t2_desc"  "Victims receive <span class=\"highlight\">{s:FireRateSlow}%</span> Fire Rate Slow and <span class=\"highlight\">+{s:ActiveRadius}m</span> Active Radius"
+		"StatueVictimDamageReduction_label"					"Redukce poškození"
+		"StatueVictimDamageReduction_postfix"				" %"
+
+		"ability_nano_proximity_ritual_t1_desc"  "<span class=\"highlight\">+{s:StatueLifesteal} %</span> k vampirismu"
+		"ability_nano_proximity_ritual_t2_desc"  "<span class=\"highlight\">+{s:DPS} bodů k poškození/s</span> a schopnost zajišťuje, že cíl bude Calico udílet o <span class=\"highlight\">{s:StatueVictimDamageReduction} % nižší poškození</span>"
 		"ability_nano_proximity_ritual_t3_desc"  "<span class=\"highlight\">+{s:DamageAmplification} %</span> k navýšení poškození a {s:HealAmpReceivePenaltyPercent} % k redukci léčení nepřátel"
 		"ability_nano_proximity_ritual_trigger"		"Přivolání Avy"
 
 		"AvaRecallCooldown_label"				"Doba obnovení přivolání"
 		"AvaRecallCooldown_postfix"				" s"
-		"AvaResummonCooldown_label"				"Prodleva opětovného seslání"
-		"AvaResummonCooldown_postfix"			" s"
 		"AbilityButtonHint_AvaRecall"			"Přivolat Avu"
+		"AbilityButtonHint_AvaWarp"			"Teleportovat se na Avu"
+		"CITADEL_ABILITY_NO_HEALTH_RESOURCE"	"Žádný zdroj"
 
-		"ability_nano_ult_shadow"				"Královna stínů"
-		"ability_nano_ult_shadow_desc"			"Calico na sebe sešle stín a stane se <span class=\"highlight\">neviditelnou</span>. Útoky nepřeruší neviditelnost, ale dočasně Calico odhalí. <span class=\"highlight\">Údery z neviditelnosti</span> navíc aplikují na své cíle sčitatelnou redukci balistické odolnosti."
-		"modifier_nano_ult_shadow"			"Královna stínů"
+		"ability_nano_shadow_step"				"Hra stínů"
+		"ability_nano_shadow_step_desc"			"Calico přes sebe přehodí stín, který ji učiní během výpadů <span class=\"highlight\">neviditelnou</span> a posílí její útoky, takže <span class=\"highlight\">údery</span> aplikují na cíle sčitatelnou redukci balistické odolnosti."
+		"modifier_nano_shadow_step"			"Hra stínů"
 		"NanoShadowBulletArmorReductionLight_prefix"	"-"
 		"NanoShadowBulletArmorReductionLight_label"	"Balistická odolnost (slabý úder)"
 		"NanoShadowBulletArmorReductionHeavy_prefix"	"-"
@@ -1391,9 +1392,8 @@
 
 		"modifier_nano_shadow_debuff"		"Redukce balistické odolnosti"
 		
-		"ability_nano_ult_shadow_t2_desc"	"Calico ze sebe sesláním odstraní všechny debuffy"
-		"ability_nano_ult_shadow_t3_desc"	"Silné údery také na {s:SilenceOnHeavyDuration} s aplikují <span class=\"highlight\">umlčení</span>"
-
+		"ability_nano_shadow_step_t2_desc"	"<span class=\"highlight\">+{s:SlowResistancePercent} %</span> k odolnosti vůči zpomalení, zatímco je schopnost aktivní"
+		"ability_nano_shadow_step_t3_desc"	"Silné údery také na {s:SilenceOnHeavyDuration} s aplikují <span class=\"highlight\">umlčení</span>"
 
 		//-----------------------------------------------------------------------------
 		// Grey Talon (previous names: Archer / Orion)
@@ -1450,7 +1450,7 @@
 
 		"ability_life_drain"				"Krádež života"
 		"ability_life_drain_quip"			"Umožňuje ti průběžně krást zdraví nepřítele."
-		"ability_life_drain_desc"			"Lady Geist vytvoří přízračné spojení, které začne <span class=\"highlight\">průběžně sát zdraví nepřítele</span> a <span class=\"highlight\">ji léčit</span>. Lady Geist musí mít na nepřítele dohled a nacházet se v dosahu spojení. Zatímco saje nepřítele, může střílet a sesílat další schopnosti, ale její rychlost pohybu je poloviční. Stiskem [{s:in_ability2}] je možné sání přerušit předčasně."
+		"ability_life_drain_desc"			"Lady Geist vytvoří přízračné spojení, které začne <span class=\"highlight\">průběžně sát zdraví nepřítele</span> a <span class=\"highlight\">ji léčit</span>. Lady Geist musí mít na nepřítele dohled a nacházet se v dosahu spojení. Zatímco saje nepřítele, může střílet a sesílat další schopnosti, ale její rychlost pohybu je poloviční.<br><span class=\"highlight\">Alternativním sesláním lze darovat zdraví spojeneckému hrdinovi</span>.<br><span class=\"highlight\">Stiskem [{s:in_ability2}]</span> je možné sání přerušit předčasně."
 		"ability_life_drain/modifier_life_drain" "Krádež života"
 		"ability_life_drain/modifier_life_drain_caster" "Krádež života"
 		"modifier_life_drain_silence"		"Umlčení"
@@ -1637,12 +1637,6 @@
 		"DamageHealMultNonHero_postfix"		"×"
 		"modifier_intimidate_debuff"		"Despekt"
 
-		//"ability_pounce"				"Pounce"
-		//"ability_pounce_desc"			"{s:hero_name} leaps forward, creates an explosion on landing and damages enemies in an area."
-
-		//"ability_ooc_health_regen"			"Out of Combat Health Regen"
-		//"ability_ooc_health_regen_desc"		""
-
 		"ability_throw_sand"			"Nekalá praktika"
 		"ability_throw_sand_quip"		"Umožňuje ti odzbrojit nepřátele nacházející se před tebou."
 		"ability_throw_sand_desc"		"Mo a Krill před sebe vrhnou písek, který <span class=\"highlight\">odzbrojí</span> nepřátele a <span class=\"highlight\">udělí jim poškození</span>."
@@ -1650,19 +1644,17 @@
 
 		"ability_throw_sand_t3_desc"	"<span class=\"highlight\">+{s:SlowPercent} %</span> ke zpomalení pohybu zasažených nepřátel"
 
-		//"citadel_ability_kineticcharge"			"Kinetic Charge"
-		//"citadel_ability_kineticcharge_desc"	"{s:hero_name} creates a shield which absorbs all incoming damage. After the duration expires or the shield is destroyed, explodes and returns the damage absorbed to all enemies around him."
-		//"modifier_citadel_kineticcharge"		"Absorbing Damage"
-
 		"ability_ult_combo"				"Výprask"
 		"ability_ult_combo_quip"		"Umožňuje ti přidržet nepřátelského hrdinu na místě a dát mu co proto."
 		"ability_ult_combo_desc"		"Mo a Krill podrží nepřátelského hrdinu na místě, <span class=\"highlight\">omráčí ho a začnou mu udílet poškození</span>. Pokud nepřítel zemře během výprasku, Mo a Krill získají permanentní bonus k maximálnímu zdraví."
+		"ability_ult_combo_t1_desc"		"<span class=\"highlight\">+{s:ComboBulletResist} %</span> k balistické odolnosti při vyvolávání"
 		"ability_ult_combo_t2_desc"		"<span class=\"highlight\">+{s:AbilityChannelTime} s</span> k max. době vyvolávání"
 		"ability_ult_combo_t3_desc"		"<span class=\"highlight\">+{s:DPS} bodů</span> k poškození za sekundu a <span class=\"highlight\">{s:LifeStealPercentOnHit}% vampirismus</span>"
 		"LifestealPercentOnHit_label"		"Vampirismus"
 		"LifestealPercentOnHit_postfix"	" %"
 		"BonusHealthOnKill_label"			"Bonus k max. zdraví za zabití"
-
+		"ComboBulletResist_label"		"Balistická odolnost při vyvolávání"
+		"ComboBulletResist_postfix"		" %"
 		//"GrabExtraTargetRange_label"		"Extra Target Range"
 		"GrabExtraTargetRange_postfix"	" m"
 
@@ -1767,7 +1759,7 @@
 		"MovementSlow_postfix"	" %"
 
 		//-----------------------------------------------------------------------------
-		// Hero: Pocket
+		// Pocket // synth
 		//-----------------------------------------------------------------------------
 		"synth_plasma_flux"			"Myslící plášť"
 		"synth_plasma_flux_quip"		"Umožňuje ti vypustit plášť, který udílí poškození a na jeho pozici je možné se teleportovat."
@@ -1810,7 +1802,7 @@
 		"synth_barrage"				"Kanonáda"
 		"synth_barrage_quip"			"Umožňuje ti vystřelit několik projektilů za sebou."
 		"synth_barrage_desc"			"Pocket začne vystřelovat projektily, které kolem místa dopadu <span class=\"highlight\">udílí poškození</span> a <span class=\"highlight\">snižují rychlost pohybu nepřátel</span>. Každý projektil, který zasáhne nepřátelského hrdinu, poskytne Pocketovi <span class=\"highlight\">sčitatelný buff navyšující veškeré jeho poškození</span>.<br>Pokud je vyvolávání zahájeno ve vzduchu, Pocket zůstane <span class=\"highlight\">levitovat</span> a zachová si veškerou vodorovnou hybnost."
-
+		"synth_barrage_t3_desc"			"<span class=\"highlight\">+{s:AmpPercentPerStack} %</span> k navýšení poškození za sečtení a <span class=\"highlight\">{s:Radius} m</span> k rozsahu"
 		"DamagePerProjectile_label"	"Poškození za projektil"
 		"ProjectileAmount_label"		"Počet projektilů"
 		"ProjectileInterval_label"	"Interval projektilů"
@@ -1881,8 +1873,9 @@
 		"mirage_sand_phantom_quip"		"Umožňuje ti na nepřátele aplikovat násobič navyšující výsledné poškození."
 		"mirage_sand_phantom_desc"		"Aktivní: Mirage <span class=\"highlight\">spotřebuje násobič</span> a okamžitě udělí výsledné poškození."
 		"mirage_sand_phantom_passive_desc"	"Pasivní: Mirageovy střely <span class=\"highlight\">aplikují na cíle násobič</span>, který může být dál navyšován. Jakmile násobič na cíli vyprší, nebo je dosaženo jeho maxima, násobič je spotřebován, cíl je nakrátko <span class=\"highlight\">odhalen na minimapě</span> a utrží <span class=\"highlight\">spirituální poškození</span>, jehož výsledná hodnota je získána jako základní hodnota krát násobič."
-		"mirage_sand_phantom_t1_desc"	"Každé navýšení násobiče aplikuje na {s:SlowDuration} s {s:MovementSpeedSlow}% zpomalení"
+		"mirage_sand_phantom_t1_desc"	"Každá aplikace 2× nebo vyššího násobiče vyústí také v aplikaci {s:MovementSpeedSlow}% zpomalení na {s:SlowDuration} s"
 		"mirage_sand_phantom_t2_desc"	"+{s:VictimStackDuration} s k trvání násobiče a +{s:ProcDamageBase} bodů k základnímu poškození"
+		"mirage_sand_phantom_t3_desc"	"{s:SandPhantomProcCooldown} s z prodlevy mezi aplikacemi násobiče a +{s:MirageDjinnsMarkMaxStacks} k maximu násobiče"
 		"modifier_mirage_sand_phantom_passive_victim"	"Násobič Džinova doteku"
 		"ProcDamageBase_label"		"Základní poškození"
 		"VictimStackDuration_label"		"Trvání násobiče"
@@ -2014,7 +2007,7 @@
 		"citadel_ability_tengu_airlift_t1_desc"		"<span class=\"highlight\">{s:AirDropBulletArmorReduction} %</span> z balistické odolnosti zasažených nepřátel na <span class=\"highlight\">{s:AirDropDebuff02Duration} s</span>"
 		"citadel_ability_tengu_airlift_t2_desc"		"<span class=\"highlight\">+{s:AirDropBulletShield} bodů</span> k hodnotě balistického štítu a <span class=\"highlight\">+{s:AirDropExplodeRadius} m</span> k rozsahu výbuchu"
 		"citadel_ability_tengu_airlift_t3_desc"		"Zasažení nepřátelé jsou na <span class=\"highlight\">{s:AirDropSilenceDuration} s</span> <span class=\"highlight\">umlčeni</span>"
-		//"modifier_airlift_ally"						"Air Drop"
+		"modifier_airlift_ally"						"Výsadek"
 
 		"AirDropDebuffDuration_label"		"Trvání zpomalení"
 		"AirDropDebuffDuration_postfix"		" s"
@@ -2446,7 +2439,7 @@
 		"MediumChargeDamagePct_postfix"			" %"
 		"FullChargeDamage_label"				"Poškození po plné přípravě"
 		"citadel_ability_power_slash_t1_desc"	"<span class=\"highlight\">+{s:BulletResist} % k balistické odolnosti</span> při vyvolávání schopnosti"
-		"citadel_ability_power_slash_t2_desc"	"Seknutí snižující na <span class=\"highlight\">{s:SlowDuration} s</span> rychlost pohybu o <span class=\"highlight\">{s:SlowPercent} %</span>"
+		"citadel_ability_power_slash_t2_desc"	"Seknutí snižující na <span class=\"highlight\">{s:SlowDuration} s</span> rychlost pohybu o <span class=\"highlight\">{s:SlowPercent} %</span> a <span class=\"highlight\">{s:AbilityCooldown} s</span> z doby obnovení"
 		//"StaminaToRemove_label"				"Stamina Drain"
 
 		"citadel_ability_flying_strike"			"Letící čepel"
@@ -2459,7 +2452,7 @@
 
 		"citadel_ability_infinity_slash"		"Stínová duše"
 		"citadel_ability_infinity_slash_quip"	"Umožňuje ti stát se silnějším a nezranitelným."
-		"citadel_ability_infinity_slash_desc"	"Yamato se promění ve stínový přízrak – po počáteční transformaci, kdy je <span class=\"highlight\">nezranitelná</span>, jsou <span class=\"highlight\">resetovány a o 60 % zrychleny doby obnovení jejích ostatních schopností</span> a ona sama získá <span class=\"highlight\">bonus k odolnostem vůči poškození</span> a <span class=\"highlight\">imunitu vůči negativním stavovým efektům</span>. Zatímco má Yamato podobu přízraku, nemůže zemřít."
+		"citadel_ability_infinity_slash_desc"	"Yamato se promění ve stínový přízrak – po počáteční transformaci, kdy je <span class=\"highlight\">nezranitelná</span>, jsou <span class=\"highlight\">resetovány a o 60 % zrychleny doby obnovení jejích ostatních schopností</span> a ona sama získá <span class=\"highlight\">imunitu vůči negativním stavovým efektům</span>. Zatímco má Yamato podobu přízraku, nemůže zemřít."
 		//"citadel_ability_infinity_slash_buff_header" "Per Hero Hit"	
 		"ShadowDuration_label"					"Prodleva výbuchu"
 		"ShadowDuration_postfix"				" s"
@@ -2933,7 +2926,7 @@
 		"hero_yamato_lore"				"Kaori a její bratr Yamato se narodili mezi zločineckou šlechtu a už odmala věděli, že jsou předurčeni vést Sedmý měsíc po smrti svého otce. A celé roky tak skutečně činili jako rovnocenní partneři, čímž organizaci dovedli k rozkvětu a plánům na expanzi do Spojených států.\n\nMělo to být prosté. Kaori by zůstala v Japonsku a spravovala záležitosti na domácí scéně, zatímco Yamato by odcestoval do Ameriky a připravil půdu pro tamní růst. Naneštěstí pro sourozence se ale tyto plány nesetkaly s pochopením některých méně důvěřivých podřízených, kteří se nedokázali smířit s tím, že by v Japonsku museli poslouchat Kaori.\n\nNásledný převrat byl rychlý a násilný a Yamato položil život při ochraně své sestry, čímž dal jí a hrstce věrných příležitost utéct z Japonska do Ameriky.\n\nKdyž pak Kaori dorazila do USA, setkala se s kontaktem, který tam čekal na jejího bratra. Neznaje rodů japonských jmen ji však tento muž oslovil jako Yamato. Na moment zvažovala, že ho opraví, ale nakonec se rozhodla, že si jméno svého bratra ponechá a nepřímo tak splní jeho sen."   
 		"hero_tengu_lore"				"Když chrlič ožil, neměl nejmenší tušení, co se děje... snad jen že velký člověk a malý člověk jsou v nebezpečí. Rychle proto seskočil ze střechy a útočníky odehnal. Malý člověk poté poděkoval a zeptal se chrliče na jméno. Ten ale žádné neměl. A tak malý člověk prohlásil: „Budu ti říkat Zelená Ivy.“ Chrlič, tou dobou od hlavy až k patě porostlý břečťanem, si pomyslel, že to není zrovna dvakrát vynalézavé, ale aby malému člověku udělal radost, souhlasil.\n\nLidé se také Ivy zeptali, jestli s nimi nechce jít domů, aby jí mohli pořádně poděkovat. A tak s nimi šla. Té noci se toho tolik naučila. Rodina se jmenovala Arroyovi. Ta maličká byla Sophia. Tomu talíři dobrot říkali mofongo. Ale co bylo nejdůležitější, dozvěděla se, že ti lidé, které odehnala, si říkali „Syndikát Mendoza“, a že ubližovali ostatním... hodným lidem jako Arroyovým.\n\nOd toho dne, kdy Arroyovi vzali Ivy k sobě domů, uplynulo už osmnáct let, během kterých si dala za cíl rozložit syndikát a osvobodit španělský Harlem z jeho spárů. Jenže jak to bývá, když někdo zasvětí tak dlouhou dobu jedinému úsilí... jakmile ho dosáhne, neví, co dělat dál. A tak se Ivy poprvé v životě připravuje opustit svoji domovskou čtvrť, aby zjistila, co jiného svět nabízí kromě samozvané spravedlnosti."
 		"hero_synth_lore"				"Když byl na Arina Fairfaxe, nejstaršího dědice Fairfax Industries, v den jeho 18. narozenin spáchán nepodařený atentát, rozhodl se přesunout do ústraní. Ani po pěti letech sice nezjistil, kdo se mu snaží zabránit v převzetí kontroly nad společností jeho rodičů, nicméně vzhledem k tomu, jaké hnízdo chamtivých zmijí tato společnost je, to mohl být kdokoli.\n\nProto si ostatně Arin zvolil nové jméno „Pocket“ a zoufale se snaží udržet svoji skutečnou identitu v tajnosti... nejen pro svoje vlastní bezpečí, ale i proto, aby se mohl stát strůjcem svého vlastního osudu, který nemá nic společného s Fairfaxovými."
-		"hero_mirage_lore"				"Džinové dozajista patří mezi nejzajímavější skupiny v moderním světě. Přestože disponují nezměrnou mocí, fyzickou podobu dokáží udržet nejdéle 48 minut v kuse, což je ostatně důvod, proč si většina džinů najímá lidské bodyguardy sloužící nejen jako ochrana a doprovod, ale také jako schránka pro samotného džina.\n\nJedním z takových bodyguardů je i Mirage, kterého si najal džin-velvyslanec Nashala Dion vyslaný do New Yorku na diplomatickou misi, při níž chce s americkou vládou dojednat prodej části Wyomingu, aby džinové mohli mít svůj vlastní suverénní stát."
+		"hero_mirage_lore"				"Džinové dozajista patří mezi nejzajímavější skupiny v moderním světě. Přestože disponují nezměrnou mocí, fyzickou podobu dokáží udržet nejdéle 48 minut v kuse, což je ostatně důvod, proč si většina džinů najímá lidské bodyguardy, kteří jim slouží nejen jako ochrana a doprovod, ale také jako nositelé schránek, v nichž si mohou odpočinout.\n\nJedním z takových bodyguardů je i Mirage, kterého si najal džin-velvyslanec Nashala Dion vyslaný do New Yorku na diplomatickou misi, při níž chce s americkou vládou dojednat prodej části Wyomingu, aby džinové mohli mít svůj vlastní suverénní stát."
 
 
 

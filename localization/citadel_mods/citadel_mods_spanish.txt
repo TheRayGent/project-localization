@@ -3,7 +3,31 @@
 	"Language"		"spanish"
 	"Tokens"
 	{
-"AmmoPerSoul_label"					"de munición por alma"
+
+		//-----------------------------------------------------------------------------
+		// Upgrades: Weapon
+		//-----------------------------------------------------------------------------
+
+		//Basic Magazine
+		//"upgrade_clip_size_desc"			"Increases <span class=\"highlight\">ammo</span>."
+
+		//Extended Magazine
+		//"upgrade_clip_size_fixed_desc"		"Increases <span class=\"highlight\">ammo</span>."
+
+		//Extra Large Magazine
+		//"upgrade_clip_size_fixed_t3_desc"		"Greatly Increases <span class=\"highlight\">ammo</span>."
+
+		//Big Clip
+		//"upgrade_clip_size_2_desc"			"Big Increase <span class=\"highlight\">ammo</span>."
+
+		//Extra Large Magazine
+		//"upgrade_clip_size_3_desc"			"Greatly Increases <span class=\"highlight\">ammo</span>."
+
+		//Ammo Scavenger
+		"upgrade_ammo_scavenger_desc"		"Cada vez que aseguras o deniegas un alma de una entidad, <span class=\"highlight\">recuperas munición</span> y obtienes <span class=\"highlight\">poder espiritual</span> acumulable."
+		"AmmoPerSoul_prefix"				"+"
+		"AmmoPerSoul_label"					"de munición por alma"
+		"SpiritPowerPerSoul_prefix"			"+"
 		"SpiritPowerPerSoul_label"			"de poder espiritual por alma"
 		"AmmoScavengerDuration_label"		"de duración"
 		"AmmoScavengerDuration_postfix"		" s"
@@ -132,13 +156,7 @@
 		//"modifier_hemorrhage"																								"Eviscerator Rounds"
 		"modifier_item_burning_bullets_damageovertime" 	"Sangrando"
 		"upgrade_hemorrhage/modifier_item_hemorrhage/modifier_hemorrhage" "Sangrando"
-
-		//Improved Fire Rate
-		//"upgrade_attack_speed_2_desc"	"Increases your <span class=\"highlight\">Fire Rate</span>."
-
-		//Spiritual Overflow
-		"upgrade_tech_overflow_desc"	"Obtienes <span class=\"highlight\">poder espiritual</span> adicional al <span class=\"highlight\">cargar el efecto</span> disparando a los héroes enemigos."
-		"modifier_tech_overflow"		"Desbordamiento Espiritual"
+"modifier_tech_overflow"		"Desbordamiento Espiritual"
 		"modifier_tech_overflow_building" "Generando Desbordamiento Espiritual..."
 
 		"OverflowTechPower_label"		"de poder espiritual"
@@ -203,6 +221,8 @@
 		//Frenzy
 		"upgrade_fervor_passive"	"Mientras estás por <span class=\"highlight\">debajo del {s:LowHealthThreshold} % de vida</span>, obtienes bonificaciones de atributos."
 		"FervorTechResist_postfix"  " %"
+		"modifier_fervor_aura_active"		"Frenético⁠/⁠a"
+
 
 		//Old Frenzy
 		//"upgrade_frenzy_vampire_desc"	"Your <span class=\"highlight\">bullets heal you</span> for a percentage of the damage they deal to enemies.<br><br>When an enemy is below {s:LowHealthPercentThreshold}% health you gain an additional <span class=\"highlight\">{s:LowHealthLifeStealPercent}% Bullet Lifesteal</span> against them."
@@ -241,6 +261,7 @@
 		"upgrade_surging_power_active"	"Otorga <span class=\"highlight\">robo de vida</span>, <span class=\"highlight\">cadencia de tiro</span> y <span class=\"highlight\">munición</span>. Esta munición adicional no está limitada por el tamaño máximo del cargador."
 		"ActiveBonusLifesteal_label"		"de robo de vida balístico"
 		"ActiveBonusLifesteal_postfix"	" %"
+		"modifier_surging_power"		 "Poder Creciente"
 		//"upgrade_surging_power/surge/windup"					"Surging Power"
 		//"upgrade_surging_power/surge/active"					"Surging Power"
 		//"upgrade_surging_power/surge"					"Surging Power"
@@ -339,7 +360,10 @@
 		"upgrade_critshot_desc"				"Tus balas tienen una probabilidad de infligir <span class=\"highlight\">daño adicional</span> y <span class=\"highlight\">ralentizar</span> al impactar."
 		"CritDamagePercent_label"				"de daño adicional"
 		"CritDamagePercent_postfix"			" %"
-"VeilWalker_MoveSpeed_label"			"de vel. de movimiento invisible"
+
+		//Veil Walker
+		"upgrade_veil_walker_desc"			"Cruzar un <span class=\"highlight\">velo cósmico</span> te otorgará <span class=\"highlight\">sigilo</span> y mayor <span class=\"highlight\">velocidad de movimiento</span>, además de restaurar todos los <span class=\"highlight\">escudos antibalas y espirituales</span>."
+		"VeilWalker_MoveSpeed_label"			"de vel. de movimiento invisible"
 		"VeilWalker_MoveSpeed_postfix"		" m/s"
 
 
@@ -365,7 +389,6 @@
 
 		//Escalating Exposure
 		"upgrade_escalating_exposure_desc"	"Infligir <span class=\"highlight\">daño espiritual</span> aplica una <span class=\"highlight\">amplificación espiritual</span> acumulable que aumenta tu <span class=\"highlight\">daño espiritual</span> contra el objetivo."
-		"upgrade_escalating_exposure/modifier_proc_watcher/modifier_debuff"		"Armadura espiritual reducida"
 		"EscalatingExposureProcCooldown_label"	"de frecuencia máxima por objetivo"
 		"EscalatingExposureProcCooldown_postfix"	" s"
 		"EscalatingExposureTechArmorDamageReduction_label"	"de resistencia espiritual por daño espiritual"
@@ -456,10 +479,7 @@
 		"WitheringWhipDisarmDuration_postfix"	" s"
 		"SpiritPower_label"					"de poder espiritual"
 		"SpiritPower_prefix"					"+"
-
-		//Ethereal Shift
-		"upgrade_self_bubble_desc"			"Entras en un estado de vacío y te conviertes en <span class=\"highlight\">no seleccionable como objetivo e invencible</span> durante un breve período de tiempo, durante el cual no puedes moverte ni realizar ninguna acción. Después, <span class=\"highlight\">recargas instantáneamente</span> y obtienes <span class=\"highlight\">poder espiritual</span> adicional.<br>Se puede cancelar antes de tiempo."
-		"ShiftingVeilDuration_label"			"de duración"
+"ShiftingVeilDuration_label"			"de duración"
 		"ShiftingVeilDuration_postfix"		" s"
 		"BonusSpiritDuration_label"			"de duración espiritual adicional"
 		"BonusSpiritDuration_postfix"			" s"
@@ -561,12 +581,14 @@
 
 		//Infuser
 		"upgrade_infuser_desc"			"Obtienes <span class=\"highlight\">poder</span> y <span class=\"highlight\">robo de vida espirituales</span>."
-
 		//Spirit Strike
 		"upgrade_acolytes_glove_desc"			"Cuando realizas un  <span class=\"highlight\">ataque cuerpo a cuerpo ligero o pesado</span> contra un héroe, le infliges <span class=\"highlight\">daño espiritual</span> adicional y reduces su <span class=\"highlight\">resistencia espiritual</span>."
 		"SpiritDamage_label"						"de daño espiritual"
 		"modifier_acolytes_glove_triggered"		"Golpe Espiritual"
-"MeleeDistanceScale_label"				"de distancia de cuerpo a cuerpo pesado"
+
+		//Melee Charge
+		"upgrade_melee_charge_desc"				"Tu próximo ataque <span class=\"highlight\">cuerpo a cuerpo pesado</span> contra un enemigo <span class=\"highlight\">le inflige más daño</span> y <span class=\"highlight\">recarga tu arma al instante</span>, o te otorga <span class=\"highlight\">+100 % de armadura adicional</span>.<br>Solo se activa cuando la munición adicional no está al máximo."
+		"MeleeDistanceScale_label"				"de distancia de cuerpo a cuerpo pesado"
 		"MeleeDistanceScale_postfix"			" %"
 		"BonusHeavyMeleeDamage_prefix"			"+"
 		"BonusHeavyMeleeDamage_label"			"de daño pesado adicional"
@@ -587,7 +609,10 @@
 		//Suppressor
 		"upgrade_suppressor_desc"					"Cuando infliges <span class=\"highlight\">daño espiritual</span> a los enemigos, también <span class=\"highlight\">reduces su cadencia de tiro</span>."
 		"suppressor_debuff"						"menos de cadencia de tiro"
-//"modifier_quick_silver_buff"				"+Fire Rate"
+
+		//Quicksilver Reload
+		"upgrade_quick_silver_desc"				"Imbuye de <span class=\"highlight\">poder espiritual</span> una habilidad en el primer impacto. Cuando se usa la habilidad, tu arma se <span class=\"highlight\">recarga</span> y tiene una bonificación de <span class=\"highlight\">cadencia de tiro</span> en ese cargador.<br>Solo se activa cuando la munición no está al máximo."
+		//"modifier_quick_silver_buff"				"+Fire Rate"
 
 		// Magic carpet
 		"upgrade_magic_carpet_desc"				"Invoca una alfombra mágica que te otorgará escudo antibalas y espiritual mientras vuelas con ella. No puedes usar habilidades mientras invocas la alfombra. Al volar, serás inmune a la ralentización y cualquier acción que realices hará que la alfombra desaparezca."
@@ -620,7 +645,7 @@
 		//Healing Rite
 		"upgrade_health_stimpak_desc"					"Otorga <span class=\"highlight\">regeneración</span> y <span class=\"highlight\">velocidad de esprint</span> al objetivo. Se disipa si recibes daño de jugadores u objetivos enemigos. Se puede lanzar sobre uno mismo."
 		"upgrade_health_stimpak/modifier_stimpak_regen"			"Rito Curativo"
-
+		"modifier_stimpak_regen" "Rito Curativo"
 		//Divine Barrier
 		"upgrade_savior_desc"				"Proporciona <span class=\"highlight\">escudo antibalas, escudo espiritual y velocidad de movimiento</span> al objetivo. Se puede lanzar sobre uno mismo."
 		"SaviorBulletShieldHealth_label"		"de escudo antibalas"
@@ -630,6 +655,7 @@
 
 		//Restorative Locket
 		"upgrade_restorative_locket_passive_desc"		"Almacena una <span class=\"highlight\">acumulación de restauración</span> cuando un enemigo usa una habilidad a una distancia máxima de {s:Radius} m de ti."
+		"upgrade_restorative_locket_active_desc"		"Consume todas las acumulaciones para <span class=\"highlight\">curar al aliado objetivo</span> y regenerar un <span class=\"highlight\">punto de aguante</span>. Se puede lanzar sobre uno mismo."
 		"modifier_restorative_locket_stacks"				"Amuleto Reparador"
 		"HealPerStack_label"								"de curación por acumulación"
 
@@ -719,6 +745,10 @@
 		"upgrade_personal_rejuvenator_desc"		"El héroe reaparece en el lugar en el que murió."
 		//"RespawnDelay_label"							"Respawn Delay"
 		"RespawnDelay_postfix"						" s"
+		"SpawnTimePenalty_prefix"				"+"
+		"SpawnTimePenalty_label"				"de tiempo de reaparición"
+		"SpawnTimePenalty_postfix"				" s"
+
 		//Phantom Strike
 		"upgrade_phantom_strike_desc"			"<span class=\"highlight\">Te teletransporta</span> a un objetivo enemigo para <span class=\"highlight\">desarmarlo</span>, <span class=\"highlight\">ralentizarlo</span> e infligirle <span class=\"highlight\">daño</span>."
 		//"BarrierDuration_label"					"Shield Duration"
@@ -812,7 +842,7 @@
 
 		//Health Nova
 		"upgrade_health_nova_desc"					"Os <span class=\"highlight\">cura</span> a ti y a los aliados cercanos. Cura un {s:HeroTargetBonus} % adicional por aliado."
-		"modifier_health_nova"					"Curación Estelar"
+		"modifier_health_nova"					"Nova Curativa"
 
 		//Fast Reload
 		//"upgrade_reload_speed_desc"					"Increased <span class=\"highlight\">reload speed</span>."
@@ -894,10 +924,10 @@
 		"HealOnlevelHealAmount_label"	"de curación"
 		"upgrade_heal_on_level/heal_on_level_buff"			"Curación al subir de nivel"
 
-		//crow_mask_934_comment
-		//crow_mask_935_comment
-		//crow_mask_936_comment
-		//crow_mask_937_comment
 		//crow_mask_938_comment
+		//crow_mask_939_comment
+		//crow_mask_940_comment
+		//crow_mask_941_comment
+		//crow_mask_942_comment
 	}
 }

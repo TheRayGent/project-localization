@@ -190,9 +190,9 @@
 		"Steam_Citadel_RP_MM_Sandbox"							"Zkoušení hrdiny"
 		
 		"Steam_Citadel_InGame_Sandbox"		"Zkouší hrdinu {%param2%}"
-		"Steam_Citadel_InGame_Hero"			"{%param1%} ({%param2%}; %param0%. min)"
+		"Steam_Citadel_InGame_Hero"			"{%param1%}: {%param2%} (%param0%. min)"
 		"Steam_Citadel_InGame"				"{%param1%} (%param0%. min)"
-		"Steam_Citadel_Spectating"			"{%param1%} (divák; %param0%. min)"
+		"Steam_Citadel_Spectating"			"{%param1%}: divák (%param0%. min)"
 		"Steam_Citadel_RP_Online"			"Online"
 
 		"Steam_RP_hero_vampire"			"Vampire"
@@ -323,6 +323,7 @@
 		"hero_slork"			"Fathom"
 		"hero_targetdummy"		"Cvičný terč"
 		"hero_bomber"			"Bomber"
+		"hero_shieldguy"		"Shield Guy"
 
 		//-----------------------------------------------------------------------------
 		// Upgrades: Weapon
