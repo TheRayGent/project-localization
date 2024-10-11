@@ -857,11 +857,7 @@
 		"Citadel_Mod_Tooltip_Active"									"Активное"
 		"Citadel_Mod_Tooltip_Innate"									"Врождённое"
 
-		"Citadel_Hud_TopbarPlayerNetworthPlayerLow"						"{i:gold}"
-		"Citadel_Hud_TopbarPlayerNetworthPlayerMed"						"{i:thousands_gold},{i:hundred_gold} <span class=\"demote\">тыс.</span>"
-		"Citadel_Hud_TopbarPlayerNetworthPlayerHigh"					"{i:thousands_gold} <span class=\"demote\">тыс.</span>"
-		"Citadel_Hud_TopbarPlayerNetworth"								"{i:thousands_gold} <span class=\"demote\">тыс.</span>"
-
+	
 		"Citadel_HUD_AbilityUnlockAvailable"						"Удерживайте <span class=\"keybind\">[{s:show_scoreboard}]</span>, чтобы разблокировать умение"
 		"Citadel_HUD_AbilityUpgradeAvailable"						"Удерживайте <span class=\"keybind\">[{s:show_scoreboard}]</span>, чтобы улучшить умение"
 		"Citadel_HUD_AbilityUnlock_Button"							"Разблок."
