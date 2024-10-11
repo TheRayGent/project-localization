@@ -1573,11 +1573,6 @@
 		"EShopFilterDisruption"					"Препятствие"
 		"EShopFilterNone"						"Нет"
 
-		"CitadelCategoryWeapon"					"Оружие"
-		"CitadelCategoryArmor"					"Живучесть"
-		"CitadelCategoryTech"					"Спиритизм"
-		"CitadelCategoryFlex"					"Универсальные"
-		"CitadelCategoryBuilds"					"Сборка"
 		"CitadelCategorySuggested"				"Рекомендованное"
 		"CitadelCategoryCustom"					"Пользовательская сборка"
 		"CitadelShopSearch"						"Поиск"
