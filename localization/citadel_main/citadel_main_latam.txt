@@ -82,6 +82,9 @@
 		"GameUI_Disconnect_ReplayIncompatible"		"La grabación no es compatible."
 		"GameUI_Disconnect_ConnectionTimedout"		"No se pudo establecer una conexión con el servidor de juegos."
 		"GameUI_Disconnect_ServerIncompatible"		"La versión del servidor no es compatible."
+		"Player_DisconnectReason_Idle"				"Perdida la conexión al servidor por inactividad prolongada."
+		
+
 		"GameUI_Disconnect_LocalProblem_ManyRelays"	"Conexión perdida, aun después de intentar usar relés en diferentes ubicaciones geográficas. La causa más probable es un problema con tu conexión a Internet."
 		"GameUI_Disconnect_LocalProblem_HostedServerPrimaryRelay"	"El servidor perdió la conectividad con el relé primario que el cliente estaba utilizando."
 		"GameUI_Disconnect_LocalProblem_NetworkConfig"	"Comprueba tu conexión a Internet. No se puede descargar la configuración de red desde CDN."
@@ -299,6 +302,7 @@
 		"Citadel_Hud_OutOfAmmo"										"SIN MUNICIÓN"
 		"Citadel_Hud_LowAmmo"										"POCA MUNICIÓN"
 		"Citadel_Hud_NotEnoughEnergy"								"SIN SUFICIENTE ENERGÍA"
+		"Citadel_Hud_CastTimeRemaining"								"{s:time_remaining} s"
 		"Citadel_Hud_DPS"											"{i:dps} DPS"
 		"Citadel_Hud_RespawnIn"										"Reapareciendo en:"
 		"Citadel_Hud_RideZipLine"									"MANTÉN PRESIONADO [{s:in_zipline}] para subirte"
@@ -460,6 +464,12 @@
 
 		"Citadel_Play_MatchmakingOfflineTitle"				"Emparejamiento cerrado"
 		"Citadel_Play_MatchmakingOfflineText"				"El emparejamiento está cerrado actualmente. Regresa aquí durante el horario programado para las pruebas del juego."
+
+		"Citadel_Play_RankedMatchmakingOfflineTitle"		"Emparejamiento clasificatorio cerrado"
+		"Citadel_Play_RankedMatchmakingOfflineText"			"El emparejamiento clasificatorio está cerrado actualmente. Regresa aquí durante el horario programado para las pruebas del juego."
+
+		"Citadel_Play_RankedNoSchedule"						"No se ha elegido ningún horario"
+		"Citadel_Play_RankedNoScheduleDesc"					"Debes elegir un horario antes de poder jugar partidas clasificatorias."
 
 		"Citadel_Play_BotsOfflineTitle"				"Los bots desconectados temporalmente"
 		"Citadel_Play_BotsOfflineText"				"Los bots están desactivados temporalmente. Inténtalo más tarde."
@@ -672,6 +682,7 @@
 		"Citadel_Party_InviteSent"									"Invitación enviada"
 
 		"Citadel_RosterMode_Party_Matchmaking"						"Jugar Deadlock"
+		"Citadel_RosterMode_Party_RankedMatchmaking"				"Jugar partida clasificatoria"
 		"Citadel_RosterMode_Party_CoopBotMM"						"Jugar contra bots"
 		"Citadel_RosterMode_Party_PrivateBotEasy"					"Partida en grupo privada contra bots - Fácil"
 		"Citadel_RosterMode_Party_PrivateBotMedium"					"Partida en grupo privada contra bots - Medio"
@@ -682,6 +693,7 @@
 		"Citael_PrivateLobbyModal_JoinCode"							"Unirse a una partida existente a través del código"
 
 		"Citadel_RosterMode_Matchmaking"							"Jugar Deadlock"
+		"Citadel_RosterMode_RankedMatchmaking"						"Jugar partida clasificatoria"
 		"Citadel_RosterMode_CoopBotMM"								"Jugar contra bots"
 		"Citadel_RosterMode_PrivateBotEasy"							"Bots privados - Fácil"
 		"Citadel_RosterMode_PrivateBotMedium"						"Bots privados - Medio"
@@ -853,6 +865,9 @@
 
 		"Citadel_Team1_Name"							"The Amber Hand"
 		"Citadel_Team2_Name"							"The Sapphire Flame"
+		"Citadel_Team1_Name_Uppercase"					"THE AMBER HAND"
+		"Citadel_Team2_Name_Uppercase"					"THE SAPPHIRE FLAME"
+
 		"Citadel_Mod_Tooltip_Passive"									"Pasivo"
 		"Citadel_Mod_Tooltip_Active"									"Activo"
 		"Citadel_Mod_Tooltip_Innate"									"Innato"
@@ -1015,15 +1030,6 @@
 		"Citadel_Playtest_JoinDiscord"								"Únete a Discord"
 		"Citadel_Playtest_JoinedDiscord"							"Ya estás en Discord"
 		"Citadel_Playtest_GoToForum"								"Ir a los foros"
-
-		"Citadel_RankedSchedule_1"									"EE. UU. (oeste)"
-		"Citadel_RankedSchedule_2"									"EE. UU. (este)"
-		"Citadel_RankedSchedule_10"									"Europa (oeste)"
-		"Citadel_RankedSchedule_11"									"Europa (este)"
-		"Citadel_RankedSchedule_13"									"Rusia (central)"
-		"Citadel_RankedSchedule_20"									"China"
-		"Citadel_RankedSchedule_21"									"Japón/Corea del Sur"
-		"Citadel_RankedSchedule_22"									"Australia (este)"
 
 		"Citadel_StartMatchmaking_ErrorTitle"						"Error"
 		"Citadel_StartMatchmaking_AlreadyFindingMatch"				"No puedes entrar al emparejamiento porque ya estás buscando una partida."
@@ -1287,6 +1293,8 @@
 		"Citadel_Profile_Stats_Denies"							"Denegaciones"		
 		"Citadel_Profile_Stats_Healing"							"Curación"		
 		"Citadel_Profile_Stats_Networth"						"Almas recolectadas"
+		"Citadel_Profile_Stats_Value_Networth_Low"				"{i:game_networth}"
+		"Citadel_Profile_Stats_Value_Networth_High"				"{i:game_networth} mil"
 
 		"Citadel_MatchPage_Prev"								"Ant."
 		"Citadel_MatchPage_Next"								"Siguiente"
@@ -1319,6 +1327,7 @@
 		"Citadel_MatchDetails_Healing"							"Curación"
 		"Citadel_MatchDetails_Victory"							"Victoria"
 		"Citadel_MatchDetails_Defeat"							"Derrota"
+		"Citadel_MatchDetails_Team_Result"						"<span class=\"TeamName h2 display\">{s:team_name}</span><br><span class=\"OutcomeLabel h1 display\">{s:outcome_label}</span>"
 		"Citadel_MatchDetails_Loading"							"Cargando detalles de la partida"
 		"Citadel_MatchDetails_MatchID"							"PARTIDA {s:match_id}"
 		"Citadel_MatchDetails_ViewScoreboard"					"Ver tabla de puntuaciones"
@@ -2327,12 +2336,12 @@
 		"Citadel_LaneColorBlue"							"Azul"
 		"Citadel_LaneColorYellow"						"Amarillo"
 		"Citadel_LaneColorGreen"						"Verde"
+		"Citadel_LaneColorUnassigned"					"Sin asignar"
 		"Citadel_TeamMsg_EnemyBossKilledTitle"			"{s:lane_color} enemiga, nivel {i:boss_tier}"
 		"Citadel_TeamMsg_BossKilledTitle"				"Tu {s:lane_color}, nivel {i:boss_tier}"
 		"Citadel_TeamMsg_BossKilledMessage"				"DESTRUIDO"
 		"Citadel_TeamMsg_EnemyTitanKilledTitle"			"Patrón enemigo"
 		"Citadel_TeamMsg_TitanKilledTitle"				"Tu Patrón"
-
 
 		"Citadel_FlexSlot_Title"						"Espacio flexible desbloqueado"
 		"Citadel_FlexSlotUnlockedAllTier1"				"Desbloqueaste un espacio flexible por haber eliminado a todos los <span class=\"FlexSlotObjectiveName\">guardianes enemigos</span>"
@@ -2393,6 +2402,8 @@
 		"Citadel_Confirm_Discord_InMatch_Body"		"Solicita tu enlace a Discord cuando no estés en un grupo ni en el emparejamiento"
 		"Citadel_Dashboard_Recommended"				"Recomendado"
 
+		"Citadel_Commend_Toast"						"¡{s:commender} ({s:commender_hero}) te ha elogiado!"
+
 		"menu_exit_db_page"							"Regresar"
 		"menu_settings"								"Ajustes"
 		"menu_profile"								"Perfil"
@@ -2443,24 +2454,52 @@
 		"menu_ranked_unavailable_desc"				"Debes jugar 50 partidas estándar para poder participar en partidas clasificatorias"
 		"menu_ranked_schedule_weekdays"				"De lunes a jueves:"
 		"menu_ranked_schedule_weekends"				"De viernes a domingo:"
+		"menu_ranked_schedule_alldays"				"Horario diario:"
 		"menu_ranked_schedule_timeplaceholder"		"{t:t:start_time} - {t:t:end_time}"
 		"menu_ranked_select_schedule"				"Elegir horario"
 		"menu_ranked_view_schedules"				"Ver todos los horarios"
 		"menu_ranked_set_schedule"					"Elegir horario"
-		"menu_ranked_explainer_button"				"¿Qué son las partidas clasificatorias?"
 		"Citadel_SetSchedule_Failed"				"Error al configurar horario"
 		"Citadel_SetSchedule_FailedToSetSchedule"	"Error al configurar tu horario. Vuelve a intentarlo más tarde."
 		"Citadel_SetSchedule_AlreadySet"			"No se puede configurar tu horario porque ya lo has hecho."
 		"Citadel_SetSchedule_Success"				"Completado"
+		"Citadel_SetSchedule_LocalTimes"			"El horario aparece en tu hora local"
+		"Citadel_SetSchedule_RegionWithIndex"		"{s:region_name} {d:region_index}"
 		"Citadel_SetSchedule_Selected"				"Seleccionado"
 		"Citadel_SetSchedule_SetSuccessfully"		"Horario configurado correctamente"
 		"Citadel_ranked_scheduleModal_title"		"Horarios clasificatorios"
 		"Citadel_ranked_scheduleModal_desc"			"Elige las ventanas clasificatorias que mejor se adapten a tus horas de juego preferidas.<br><br>Jugarás siempre en el servidor más cercano disponible, sin importar la ventana de horario elegida."
 		"Citadel_ranked_scheduleModal_warning"		"Nota: Después de seleccionar un horario para esta sesión clasificatoria, no podrás cambiarlo hasta la siguiente sesión."
 		"Citadel_ranked_open"						"Abrir ahora"
-		"Citadel_ranked_closed"						"Cerrada"
 		"Citadel_ranked_comingsoon"					"Las primeras partidas clasificatorias comenzarán el martes 15 de octubre a la 1 p. m. (hora del Pacífico)"
-		"Citadel_ranks_rank0"						"No iniciado"
+		"Citadel_ranked_schedule_explainer"			"El modo clasificatorio solo estará disponible a ciertas horas; antes de jugar, debes elegir el horario que mejor se acomode a tu calendario."
+
+		"Citadel_ranked_explainer_button"				"¿Qué son las partidas clasificatorias?"
+		"Citadel_ranked_explainer_title"				"Emparejamiento clasificatorio"
+		"Citadel_ranked_howitworks_title"				"¿Cómo funciona?"
+		"Citadel_ranks_rank0"						"Obscuro"
+		"Citadel_ranks_rank1"						"Iniciado"
+		"Citadel_ranks_rank2"						"Visionario"
+		"Citadel_ranks_rank3"						"Alquimista"
+		"Citadel_ranks_rank4"						"Arcanista"
+		"Citadel_ranks_rank5"						"Ritualista"
+		"Citadel_ranks_rank6"						"Emisario"
+		"Citadel_ranks_rank7"						"Oráculo"
+		"Citadel_ranks_rank8"						"Arconte"
+		"Citadel_ranks_rank9"						"Fantasma"
+		"Citadel_ranks_rank10"						"Ascendente"
+		"Citadel_ranks_rank11"						"Eterno"
+
+		"Citadel_subranks_1"						"I"
+		"Citadel_subranks_2"						"II"
+		"Citadel_subranks_3"						"III"
+		"Citadel_subranks_4"						"IV"
+		"Citadel_subranks_5"						"V"
+		"Citadel_subranks_6"						"VI"
+
+		"Citadel_rank_phase_example"				"Del 15 al 21 de octubre de 2024"
+
+
 		"item_info_abilities"						"Habilidades"
 		"item_info_flex_slots"						"ESPACIOS FLEXIBLES"
 		"item_info_active"							"Activo"
@@ -2757,6 +2796,8 @@
 		"AbilityButtonHint_AltCastRestorativeGoo"		"Meterte en el cubo"
 		"AbilityButtonHint_AltCastStickyBomb"		"Autobombardearse"
 		"AbilityButtonHint_CastIceDome"				"Lanzar Refugio congelado"
+		"AbilityButtonHint_CastLifeDrain"			"Drena al enemigo"
+		"AbilityButtonHint_AlotCastLifeDrain"				"Cura al aliado"
 		
 		//-----------------------------------------------------------------------------
 		// Guided Bot Match

@@ -50,7 +50,7 @@
 
 		//"modifier_citadel_in_shop"				"In Shop"	
 		//"modifier_citadel_in_fountain"			"Home Base"
-		"modifier_citadel_pre_match_wait"		"Menunggu pertandingan dimulai"
+		"modifier_citadel_pre_match_wait"		"Menunggu dimulai"
 		//"modifier_citadel_rapid_fire"			"Bullet Storm"
 		//"modifier_citadel_damageboost"			"Damage Boost"
 		//"modifier_citadel_damage_reduction" 	"Armor Boost"
@@ -117,7 +117,7 @@
 		//"StatDesc_ExternalHealthRegen"					"External Health Regen"
 		"StatDesc_RunSpeed"								"Kecepatan Gerakan"
 		"StatDesc_RunSpeed_postfix"						"m/dtk."
-		"StatDesc_SprintSpeed"							"Kecepetan Sprint"
+		"StatDesc_SprintSpeed"							"Kecepatan Sprint"
 		"StatDesc_SprintSpeed_postfix"					"m/dtk."
 		//"StatDesc_RunAcceleration"						"Move Acceleration"
 		//"StatDesc_SprintAcceleration"					"Sprint Acceleration"
@@ -199,7 +199,7 @@
 		"StatDesc_DebuffResist_postfix"					"%"
 		"StatDesc_HealingOutput"						"Pembesaran Penyembuhan"
 		"StatDesc_HealingOutput_postfix"				"%"
-		"StatDesc_CritDamageBonusScale"					"Penskalaan Bonus Kritis"
+		"StatDesc_CritDamageBonusScale"					"Tingkat Bonus Kritis"
 		"StatDesc_CritDamageBonusScale_postfix"			"%"
 
 		"StatDesc_BulletSpeed"							"Kecepatan Peluru"
@@ -389,6 +389,8 @@
 		//"BonusAmmo_label"								"Bullets"
 
 		"Lifetime_postfix"								"dtk."
+		"Lifetime_label"								"Durasi Aktif"
+
 		"Distance_postfix"								"m"
 		//"Distance_label"								"Distance"
 
@@ -497,7 +499,7 @@
 		//"ExplosiveSplashDamage_label"						"Explode Damage"
 		"BulletDamageTotal_label"							"Damage Peluru"
 
-		"ChargesRestored_label"							"Isi Daya Dipulihkan"			
+		"ChargesRestored_label"							"Daya Dipulihkan"			
 
 		"BonusFireRate_prefix"							"{s:sign}"
 		"BonusFireRate_postfix"							"%"
@@ -568,17 +570,17 @@
 
 		"BonusSprintSpeed_prefix"						"{s:sign}"
 		"BonusSprintSpeed_postfix"						"m/dtk."
-		"BonusSprintSpeed_label"						"Kecepetan Sprint"
+		"BonusSprintSpeed_label"						"Kecepatan Sprint"
 		
 		"SprintSpeed_postfix"							"m/dtk."
-		"SprintSpeed_label"								"Kecepetan Sprint"
+		"SprintSpeed_label"								"Kecepatan Sprint"
 
 		"BonusSprintSpeedPercent_prefix"				"{s:sign}"
-		"BonusSprintSpeedPercent_label"				"Kecepetan Sprint"
+		"BonusSprintSpeedPercent_label"				"Kecepatan Sprint"
 		"BonusSprintSpeedPercent_postfix"				"%"
 
 		"BonusSuperSprintSpeed_prefix"					"{s:sign}"
-		"BonusSuperSprintSpeed_label"					"Kecepetan Sprint"
+		"BonusSuperSprintSpeed_label"					"Kecepatan Sprint"
 
 		"BonusSuperSprintSpeedPercent_prefix"			"{s:sign}"
 		"BonusSuperSprintSpeedPercent_postfix"			"%"
@@ -714,6 +716,7 @@
 		//"EvasionPercentGlider_label"					"Evasion Chance Gliding"
 		"EvasionPercentGlider_postfix"					"%"
 
+		"EvasionPercent_label"						"Penghindaran Peluru"
 		"EvasionPercent_postfix"						"%"
 
 		//"MeleeDamagePercent_label"					"Melee Damage Bonus"
@@ -789,6 +792,8 @@
 
 		//"BulletPercentAsBurn_label"					"Bullet Damage as Burning"
 		"BulletPercentAsBurn_postfix"					"%"
+
+		"ItemInitialCharges_label"					"Daya"
 
 		"AuraDuration_label"							"Durasi Aura"
 		"AuraDuration_postfix"							"dtk."
@@ -1109,6 +1114,9 @@
 		"AbilityCastDelay_postfix"					"dtk."
 		"AbilityCastDelay_label"					"Penundaan Skill"
 
+		"AbilityCharges_label"						"Daya"
+		
+		
 		"BonusAbilityDurationPercent_prefix"			"{s:sign}"
 		"BonusAbilityDurationPercent_label"				"Durasi Skill"
 		"BonusAbilityDurationPercent_postfix"			"%"		
@@ -1126,6 +1134,7 @@
 		"ShockDelay_label"							"Tunda Sebelum Stun"
 		"ShockDelay_postfix"							"dtk."
 
+		"ArmTime_label"									"Waktu Aktif"
 		"ArmTime_postfix"								"dtk."
 
 		"ExplodeDelay_label"							"Penundaan Ledakan"
@@ -1140,6 +1149,7 @@
 		//"CritStackInterval_label"						"Crit Charge Delay"
 		"CritStackInterval_postfix"						"dtk."
 
+		"TurretLifetime_label"						"Durasi Aktif"
 		"TurretLifetime_postfix"						"dtk."
 
 		"CritCoatingDamagePercent_prefix"				"{s:sign}"
@@ -1154,7 +1164,12 @@
 
 		//"SlowCoatingMoveSpeed_label"					"Slowing Coating Slow Amount"
 		"SlowCoatingMoveSpeed_postfix"					"%"
-"MaxLifetime_postfix"							"dtk."
+
+		//"SlowCoatingDuration_label"					"Slowing Coating Slow Duration"
+		//"SlowCoatingDuration_postfix"					""
+
+		"MaxLifetime_label"							"Durasi Aktif"
+		"MaxLifetime_postfix"							"dtk."
 
 		//"ZipLineArrowLifetime_label"					"Arrow Flight Time"
 		//"ZipLineArrowLifetime_postfix"					""
@@ -1301,6 +1316,7 @@
 		//"WaveStunDuration_label"						"Disarm/EMP Duration"
 		"WaveStunDuration_postfix"						"dtk."
 
+		"WaveLifetime_label"							"Durasi Aktif Proyektil"
 		"WaveLifetime_postfix"							"dtk."
 
 		//"LockedRadius_label"							"Chain Length"
@@ -1547,7 +1563,7 @@
 		"GalvanicProcDuration_label"			"Durasi Perlambatan"
 		"GalvanicProcDuration_postfix"		"dtk."
 
-		"FireRateSlow_label"					"Perlambatan Tingkat Tembakan"
+		"FireRateSlow_label"					"Penurunan Tingkat Tembakan"
 		"FireRateSlow_postfix"				"%"
 
 		//"SlowFireRatePercent_label"			"Fire Rate Scale"
@@ -1643,7 +1659,13 @@
 		//"ability_golden_idol"					"Drop Soul Urn"
 		"golden_idol_bonus_01"					"+25% Jiwa Ekstra"
 		"golden_idol_bonus_02"					"+1 Poin Skill"
-//"LifeThreshold_label"					"Life Threshold"
+
+		//"ability_capture_zip_line"				"Capture Hyperline"
+		//"modifier_citadel_capture_zipline_timer"	"Capturing Hyperline"
+
+		//"modifier_citadel_containment_victim"	"Containment"
+		"modifier_hollow_point_stack"			"Peluru Berongga Magis"
+		//"LifeThreshold_label"					"Life Threshold"
 		"LifeThreshold_postfix"					"%"
 		//"Cloaked"								"Cloaked"
 

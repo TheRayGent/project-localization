@@ -732,7 +732,10 @@
 
 		"ability_bullet_flurry"			"Dança das Balas"
 		"ability_bullet_flurry_quip"	"Dispara uma rajada de balas ao seu redor"
-"BonusWeaponDamage_prefix"				"+"
+		"ability_bullet_flurry_desc"	"Inicia uma rajada, <span class=\"highlight\">disparando a sua arma</span> contra inimigos próximos com <span class=\"highlight\">precisão perfeita</span>."
+		//"ability_bullet_flurry/modifier_citadel_bullet_flurry"		"Bullet Flurry"
+		"ability_bullet_flurry_t3_desc"	"Ganha <span class=\"highlight\">+{s:EvasionPercent}%</span> de esquiva balística e <span class=\"highlight\">+{s:DanceMoveSpeed} m/s</span> de velocidade de movimento durante a rajada"
+		"BonusWeaponDamage_prefix"				"+"
 		"BonusWeaponDamage_label"				"Dano balístico"
 		"DanceMoveSpeed_label"			"Veloc. mov. durante a rajada"
 		"DanceMoveSpeed_postfix"		" m/s"
@@ -1104,7 +1107,7 @@
 
 		"citadel_ability_sticky_bomb"			"Bomba Pegajosa"
 		"citadel_ability_sticky_bomb_quip"		"Gruda uma bomba em um inimigo"
-		"citadel_ability_sticky_bomb_desc"		"Gruda uma Bomba Pegajosa em um alvo próximo, causando <span class=\"highlight\">dano explosivo</span> após um breve atraso. <br>Ganha um acúmulo (até um máximo de {s:BonusMaxStacks}) que concede <span class=\"highlight\">+{s:BonusDamagePctPerPlayerHit}% de dano</span> por herói inimigo atingido. Perde {s:BonusLossPerDeath} acúmulos ao morrer.<br>Segure [{s:key_alt_cast}] para grudá-la em si mesmo."
+		"citadel_ability_sticky_bomb_desc"		"Gruda uma Bomba Pegajosa em um alvo próximo, causando <span class=\"highlight\">dano explosivo</span> após um breve atraso. <br>Ganha um acúmulo que concede <span class=\"highlight\">+{s:BonusDamagePctPerPlayerHit}% de dano</span> por herói inimigo atingido. Perde {s:BonusLossPerDeath} acúmulos ao morrer.<br>Segure [{s:key_alt_cast}] para grudá-la em si mesmo."
 		"modifier_citadel_sticky_bomb_attached"	"Bomba grudada"
 		"citadel_ability_sticky_bomb_t3_desc"	"Ao grudar a bomba, <span class=\"highlight\">desarma</span> o alvo por <span class=\"highlight\">{s:DebuffDuration}s</span>"
 		"StunTargetOnExplode_label"				"Duração"
@@ -1335,7 +1338,7 @@
 
 		//-----------------------------------------------------------------------------
 		// Lady Geist
-		// hero ghost
+		// hero ghost solider
 		//-----------------------------------------------------------------------------
 		"ability_blood_bomb"				"Bomba de Essência"
 		"ability_blood_bomb_quip"			"Sacrifica parte da vida para lançar uma bomba nociva"

@@ -82,6 +82,9 @@
 		"GameUI_Disconnect_ReplayIncompatible"		"Tekrar uyumlu değil."
 		"GameUI_Disconnect_ConnectionTimedout"		"Oyun sunucusu ile bağlantı kurulamadı."
 		"GameUI_Disconnect_ServerIncompatible"		"Sunucu sürümü uyumlu değil."
+		"Player_DisconnectReason_Idle"				"Oyun sunucusuyla bağlantı kesildi. Çok uzun süre hareketsiz kaldınız."
+		
+
 		"GameUI_Disconnect_LocalProblem_ManyRelays"	"Farklı coğrafik konumlarda bulunan birkaç rölenin de denenmesine rağmen bağlantı kesildi. Büyük olasılıkla internet bağlantınızdaki bir problem buna sebep oluyor."
 		"GameUI_Disconnect_LocalProblem_HostedServerPrimaryRelay"	"Oyun sunucusu istemcinin kullandığı birincil röleyle bağlantıyı kaybetti."
 		"GameUI_Disconnect_LocalProblem_NetworkConfig"	"İnternet bağlantınızı kontrol edin. CDN'den ağ ayarları indirilemiyor."
@@ -299,6 +302,7 @@
 		"Citadel_Hud_OutOfAmmo"										"CEPHANE BİTTİ"
 		"Citadel_Hud_LowAmmo"										"DÜŞÜK CEPHANE"
 		"Citadel_Hud_NotEnoughEnergy"								"YETERSİZ ENERJİ"
+		"Citadel_Hud_CastTimeRemaining"								"{s:time_remaining} sn"
 		"Citadel_Hud_DPS"											"SBH {i:dps}"
 		"Citadel_Hud_RespawnIn"										"Canlanmaya:"
 		"Citadel_Hud_RideZipLine"									"Binmek için {s:in_zipline} tuşuna BASILI TUTUN."
@@ -460,6 +464,15 @@
 
 		"Citadel_Play_MatchmakingOfflineTitle"				"Eşleştirme Kapandı"
 		"Citadel_Play_MatchmakingOfflineText"				"Eşleştirme şu anda kapalı. Lütfen planlanan oyun testi saatlerinde geri gelin."
+
+		"Citadel_Play_RankedMatchmakingOfflineTitle"		"Dereceli Eşleştirme Kapalı"
+		"Citadel_Play_RankedMatchmakingOfflineText"			"Eşleştirme şu anda kapalı. Lütfen seçtiğiniz oyun testi saatlerinde geri gelin."
+
+		"Citadel_Play_RankedNoSchedule"						"Takvim Seçilmedi"
+		"Citadel_Play_RankedNoScheduleDesc"					"Dereceli oynamak için bir takvim seçmelisiniz."
+
+		"Citadel_RankedGames_Played"						"{i:ranked_games_played}/{i:ranked_games_required} Oyun Oynandı"
+		"Citadel_RankedGames_PlayedQualified"				"Dereceli eşleştirme açıldı"
 
 		"Citadel_Play_BotsOfflineTitle"				"Botlar Geçici Olarak Çevrimdışı"
 		"Citadel_Play_BotsOfflineText"				"Botlar geçici olarak devre dışı bırakıldı, lütfen daha sonra tekrar kontrol edin."
@@ -672,6 +685,7 @@
 		"Citadel_Party_InviteSent"									"Davet Gönderildi"
 
 		"Citadel_RosterMode_Party_Matchmaking"						"Deadlock Oyna"
+		"Citadel_RosterMode_Party_RankedMatchmaking"				"Dereceli Oyna"
 		"Citadel_RosterMode_Party_CoopBotMM"						"Botlara Karşı Oyna"
 		"Citadel_RosterMode_Party_PrivateBotEasy"					"Özel Bot Maçı (Parti) - Kolay"
 		"Citadel_RosterMode_Party_PrivateBotMedium"					"Özel Bot Maçı (Parti) - Orta"
@@ -682,6 +696,7 @@
 		"Citael_PrivateLobbyModal_JoinCode"							"Bir partiye kod ile katıl"
 
 		"Citadel_RosterMode_Matchmaking"							"Deadlock Oyna"
+		"Citadel_RosterMode_RankedMatchmaking"						"Dereceli Oyna"
 		"Citadel_RosterMode_CoopBotMM"								"Botlara Karşı Oyna"
 		"Citadel_RosterMode_PrivateBotEasy"							"Özel Bot Maçı - Kolay"
 		"Citadel_RosterMode_PrivateBotMedium"						"Özel Bot Maçı - Orta"
@@ -853,6 +868,9 @@
 
 		"Citadel_Team1_Name"							"Kehribar El"
 		"Citadel_Team2_Name"							"Safir Alev"
+		"Citadel_Team1_Name_Uppercase"					"KEHRİBAR EL"
+		"Citadel_Team2_Name_Uppercase"					"SAFİR ALEV"
+
 		"Citadel_Mod_Tooltip_Passive"									"Pasif"
 		"Citadel_Mod_Tooltip_Active"									"Aktif"
 		"Citadel_Mod_Tooltip_Innate"									"Doğal"
@@ -1016,15 +1034,6 @@
 		"Citadel_Playtest_JoinedDiscord"							"Discord'a katıldınız"
 		"Citadel_Playtest_GoToForum"								"Forumlara Git"
 
-		"Citadel_RankedSchedule_1"									"ABD - Batı"
-		"Citadel_RankedSchedule_2"									"ABD - Doğu"
-		"Citadel_RankedSchedule_10"									"Avrupa - Batı"
-		"Citadel_RankedSchedule_11"									"Avrupa - Doğu"
-		"Citadel_RankedSchedule_13"									"Rusya - Orta"
-		"Citadel_RankedSchedule_20"									"Çin"
-		"Citadel_RankedSchedule_21"									"Japonya/Kore"
-		"Citadel_RankedSchedule_22"									"Avustralya - Doğu"
-
 		"Citadel_StartMatchmaking_ErrorTitle"						"Hata"
 		"Citadel_StartMatchmaking_AlreadyFindingMatch"				"Zaten bir eşleşme aradığınız için eşleştirme başlatılamıyor."
 		"Citadel_StartMatchmaking_PartyMemberInLobby"				"Zaten bir oyunda olduğunuz için eşleştirme başlatılamıyor. Önce mevcut oyundan çıkın."
@@ -1054,6 +1063,7 @@
 		"Citadel_StartMatchmaking_RankedNotUnlocked"				"Henüz dereceli eşleştirmeyi açmadınız."
 		"Citadel_StartMatchmaking_NoRankedWhileInLowPri"			"Düşük öncelikteyken dereceli eşleştirmeye izin verilmez."
 		"Citadel_StartMatchmaking_NoRankedWhileCommsBanned"			"İletişim yasağı devam ederken dereceli eşleştirmeye izin verilmez."
+		"Citadel_StartMatchmaking_NoRankedWhileReportBanned"		"Rapor yasağı devam ederken dereceli eşleştirmeye izin verilmez."
 		"Citadel_StartMatchmaking_TooManyPlayersOnTeam"				"Aynı takımda çok fazla oyuncu var."
 		"Citadel_StartMatchmaking_UnableToFillTeam"					"Mevcut oyuncu takımlarıyla geçerli takımlar oluşturulamıyor."
 		"Citadel_StartMatchmaking_InvalidTeam"						"Bir kullanıcı bu oyun modu için geçersiz bir takım seçti."
@@ -1287,6 +1297,8 @@
 		"Citadel_Profile_Stats_Denies"							"Reddetme"		
 		"Citadel_Profile_Stats_Healing"							"İyileştirme"		
 		"Citadel_Profile_Stats_Networth"						"Toplanan Ruh"
+		"Citadel_Profile_Stats_Value_Networth_Low"				"{i:game_networth}"
+		"Citadel_Profile_Stats_Value_Networth_High"				"{i:game_networth} bin"
 
 		"Citadel_MatchPage_Prev"								"Önceki"
 		"Citadel_MatchPage_Next"								"Sonraki"
@@ -1319,6 +1331,7 @@
 		"Citadel_MatchDetails_Healing"							"İyileşme"
 		"Citadel_MatchDetails_Victory"							"Zafer"
 		"Citadel_MatchDetails_Defeat"							"Yenilgi"
+		"Citadel_MatchDetails_Team_Result"						"<span class=\"TeamName h2 display\">{s:team_name}</span><br><span class=\"OutcomeLabel h1 display\">{s:outcome_label}</span>"
 		"Citadel_MatchDetails_Loading"							"Maç detayları yükleniyor"
 		"Citadel_MatchDetails_MatchID"							"MAÇ {s:match_id}"
 		"Citadel_MatchDetails_ViewScoreboard"					"Skor Tablosunu Göster"
@@ -2327,12 +2340,12 @@
 		"Citadel_LaneColorBlue"							"Mavi"
 		"Citadel_LaneColorYellow"						"Sarı"
 		"Citadel_LaneColorGreen"						"Yeşil"
+		"Citadel_LaneColorUnassigned"					"Atanmamış"
 		"Citadel_TeamMsg_EnemyBossKilledTitle"			"Düşman {s:lane_color} Kulvar {i:boss_tier}. Kademe"
 		"Citadel_TeamMsg_BossKilledTitle"				"{s:lane_color} Kulvar {i:boss_tier}. Kademen"
 		"Citadel_TeamMsg_BossKilledMessage"				"YOK EDİLDİ"
 		"Citadel_TeamMsg_EnemyTitanKilledTitle"			"Düşman Koruyucu"
 		"Citadel_TeamMsg_TitanKilledTitle"				"Sizin Koruyucunuz"
-
 
 		"Citadel_FlexSlot_Title"						"Esnek Yuva Açıldı"
 		"Citadel_FlexSlotUnlockedAllTier1"				"<span class=\"FlexSlotObjectiveName\">Düşman muhafızların</span> tamamını öldürerek bir esnek yuvayı açtınız."
@@ -2393,6 +2406,8 @@
 		"Citadel_Confirm_Discord_InMatch_Body"		"Lütfen Discord bağlantınızı bir partide veya eşleştirmede değilken alın."
 		"Citadel_Dashboard_Recommended"				"Önerilen"
 
+		"Citadel_Commend_Toast"						"{s:commender} ({s:commender_hero}) sizi övdü!"
+
 		"menu_exit_db_page"							"Geri"
 		"menu_settings"								"Ayarlar"
 		"menu_profile"								"Profil"
@@ -2448,20 +2463,48 @@
 		"menu_ranked_select_schedule"				"Takvim Seç"
 		"menu_ranked_view_schedules"				"Tüm Takvimleri Görüntüle"
 		"menu_ranked_set_schedule"					"Takvim Ayarla"
-		"menu_ranked_explainer_button"				"Dereceli eşleştirme nedir?"
 		"Citadel_SetSchedule_Failed"				"Takvim Ayarlarken Hata Oluştu"
 		"Citadel_SetSchedule_FailedToSetSchedule"	"Takviminiz ayarlanamadı. Lütfen tekrar deneyin."
 		"Citadel_SetSchedule_AlreadySet"			"Takviminiz zaten ayarlanmış."
 		"Citadel_SetSchedule_Success"				"Ayarlandı"
+		"Citadel_SetSchedule_LocalTimes"			"Takvim, yerel saate göre gösterilir."
+		"Citadel_SetSchedule_RegionWithIndex"		"{s:region_name} {d:region_index}"
 		"Citadel_SetSchedule_Selected"				"Seçildi"
 		"Citadel_SetSchedule_SetSuccessfully"		"Takvim Başarıyla Ayarlandı"
 		"Citadel_ranked_scheduleModal_title"		"Dereceli Maç Takvimleri"
 		"Citadel_ranked_scheduleModal_desc"			"Dereceli maç için tercih ettiğiniz zamana en uygun takvimi seçin.<br><br>Seçtiğiniz zamana bakılmaksızın her zaman mevcut en yakın sunucuda oynarsınız."
 		"Citadel_ranked_scheduleModal_warning"		"Not: Bu dereceli maç için bir takvim seçtikten sonra, bir sonraki maça kadar değiştiremezsiniz."
 		"Citadel_ranked_open"						"Açık"
-		"Citadel_ranked_closed"						"Kapalı"
 		"Citadel_ranked_comingsoon"					"İlk dereceli maçlar, 15 Ekim Salı günü TSİ 23.00'te başlayacak."
-		"Citadel_ranks_rank0"						"Derecesiz"
+		"Citadel_ranked_schedule_explainer"			"Dereceli eşleştirme yalnızca belirli saatlerde oynanabilir. Oynamadan önce sizin için en uygun zaman ayarını seçmelisiniz."
+
+		"Citadel_ranked_explainer_button"				"Dereceli eşleştirme nedir?"
+		"Citadel_ranked_explainer_title"				"Dereceli Eşleştirme"
+		"Citadel_ranked_explainer_desc"					"[Dereceli], küresel yetenek seviyenizi belirlemek için benzer yetenek seviyesine sahip oyuncularla eşleştirileceğiniz daha rekabetçi bir Deadlock deneyimi sunan bir mücadele modudur.<br><br>Her hafta oyuncular bireysel yeteneklerini göstermek için bölgelerinin açık zaman dilimlerinde [Dereceli] maçlar oynayarak bu rekabete katılabilirler."
+		"Citadel_ranked_howitworks_title"				"Çalışma Şekli"
+		"Citadel_ranked_howitworks_desc"				"Tüm oyuncular Acemi geçici rütbesiyle başlar. Bir haftanın derecesini almaya hak kazanmak için o hafta yedi [Dereceli] maç tamamlamalısınız. Haftanın sonunda, profilinizde bir rozet olarak gösterilecek dereceniz verilir.<br><br>Bir haftanın sonunda yedi [Dereceli] maç oynamadıysanız, dereceniz tekrar Acemi olur ve daha sonraki bir haftada derece kazanmayı başarana kadar gizli kalır. Yetenek ölçümleri geçerli olmaya devam eder ve gelecekteki [Dereceli] oyunlarınız için kullanılır ancak bir derece kazanana kadar rozet gösterilmez.<br><br>On bir farklı derece vardır ve her derecede oyunculara ayrıca I'den VI'ya kadar bir alt derece atanır, bu da belirli bir derecedeki sıralamanızı daha da belirgin hâle getirir."
+		"Citadel_ranks_rank1"						"Öğrenci"
+		"Citadel_ranks_rank2"						"Usta"
+		"Citadel_ranks_rank3"						"Simyacı"
+		"Citadel_ranks_rank4"						"Büyücü"
+		"Citadel_ranks_rank5"						"Ayin Üstadı"
+		"Citadel_ranks_rank6"						"Elçi"
+		"Citadel_ranks_rank7"						"Kâhin"
+		"Citadel_ranks_rank8"						"Baş Büyücü"
+		"Citadel_ranks_rank9"						"Hayalet"
+		"Citadel_ranks_rank10"						"Hükümdar"
+		"Citadel_ranks_rank11"						"Ebedî"
+
+		"Citadel_subranks_1"						"I"
+		"Citadel_subranks_2"						"II"
+		"Citadel_subranks_3"						"III"
+		"Citadel_subranks_4"						"IV"
+		"Citadel_subranks_5"						"V"
+		"Citadel_subranks_6"						"VI"
+
+		"Citadel_rank_phase_example"				"15 - 21 Ekim | 2024"
+
+
 		"item_info_abilities"						"Yetenekler"
 		"item_info_flex_slots"						"ESNEK YUVALAR"
 		"item_info_active"							"Aktif"
@@ -2758,6 +2801,8 @@
 		"AbilityButtonHint_AltCastRestorativeGoo"		"Kendini Küpe Sok"
 		"AbilityButtonHint_AltCastStickyBomb"		"Kendini Bombala"
 		"AbilityButtonHint_CastIceDome"				"Buz Kubbe Kullan"
+		"AbilityButtonHint_CastLifeDrain"			"Düşman Canını Çek"
+		"AbilityButtonHint_AlotCastLifeDrain"				"Dostu İyileştir"
 		
 		//-----------------------------------------------------------------------------
 		// Guided Bot Match

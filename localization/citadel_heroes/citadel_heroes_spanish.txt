@@ -181,6 +181,7 @@
 		"citadel_ability_shieldedsentry"		"Minitorreta"
 		"citadel_ability_shieldedsentry_quip"	"Despliega una torreta automatizada"
 		"citadel_ability_shieldedsentry_desc"	"Despliega una minitorreta que <span class=\"highlight\">dispara automáticamente a los enemigos</span>. La torreta finaliza tras un tiempo de vida limitado. <br>Las torretas obtienen el {s:TurretHealthScaling} % de la vida máxima de {s:hero_name} y tienen un {s:TechResist} % de resistencia espiritual. Infligen menos daño a los soldados y a los objetivos."
+		"citadel_ability_shieldedsentry_t1_desc"	"Las torretas aplican <span class=\"highlight\">+{s:MoveSlowPercent} %</span> de ralentización"
 		"citadel_ability_shieldedsentry_t2_desc"	"<span class=\"highlight\">+{s:TurretAttackRange} m</span> de alcance de ataque y <span class=\"highlight\">+{s:AttackSpeedMult} %</span> de cadencia de tiro de la torreta"
 
 		//"citadel_ability_shieldedsentry/modifier_bullet_resist_reduction_stack"		"Sentry Bullet Resist Debuff"
@@ -382,6 +383,7 @@
 		"citadel_ability_chrono_pulse_grenade"			"Granada de Pulsaciones"
 		"citadel_ability_chrono_pulse_grenade_quip"		"Lanza una granada que genera pulsaciones que infligen daño y ralentizan"
 		"citadel_ability_chrono_pulse_grenade_desc"		"Lanza una granada que empieza a generar pulsaciones cuando cae. Cada pulsación inflige <span class=\"highlight\">daño y ralentiza el movimiento, además de amplificar de manera acumulable el daño</span> que {s:hero_name} causa a la víctima."
+		"citadel_ability_chrono_pulse_grenade_t3_desc"		"<span class=\"highlight\">+{s:PulseDamage}</span> de daño por pulsación y <span class=\"highlight\">+{s:RadiusIncreasePerPulse} m</span> de radio por pulsación."
 		"Pulses_label"                           			 "pulsación(es)"
 		"InitialDamage_label"									"de daño inicial"
 		"PulseDamage_label"									"de daño por pulsación"
@@ -749,7 +751,13 @@
 
 		"ability_bullet_flurry"			"Baile de Balas"
 		"ability_bullet_flurry_quip"	"Libera una ráfaga de balas a tu alrededor"
-"BonusWeaponDamage_label"				"de daño balístico"
+		"ability_bullet_flurry_desc"	"<span class=\"highlight\">Dispara en ráfaga</span> a los enemigos cercanos con una <span class=\"highlight\">precisión perfecta</span>."
+		//"ability_bullet_flurry/modifier_citadel_bullet_flurry"		"Bullet Flurry"
+		"ability_bullet_flurry_t3_desc"	"Obtén <span class=\"highlight\">+{s:EvasionPercent} %</span> de evasión de balas y <span class=\"highlight\">+{s:DanceMoveSpeed} m/s</span> de velocidad de baile."
+		"BonusWeaponDamage_prefix"				"+"
+		"BonusWeaponDamage_label"				"de daño balístico"
+		"DanceMoveSpeed_label"			"de velocidad de baile"
+		"DanceMoveSpeed_postfix"		"m/s"
 		//-----------------------------------------------------------------------------
 		// Sumo // dynamo
 		//-----------------------------------------------------------------------------
@@ -757,6 +765,7 @@
 		"citadel_ability_stomp_quip"			"Libera una pulsación en el suelo que lanza a los enemigos por los aires"
 		"citadel_ability_stomp_desc"			"Libera una pulsación de energía que lanza a los enemigos por los aires."
 		"citadel_ability_stomp_t1_desc"			"La <span class=\"highlight\">cadencia de tiro y la velocidad de movimiento</span> de los enemigos se reduce un <span class=\"highlight\">{s:SlowPercent} %</span> durante <span class=\"highlight\">{s:SlowDuration} s</span>"
+		"citadel_ability_stomp_t2_desc"			"{s:hero_name} inflige un <span class=\"highlight\">{s:BulletArmorReduction} % de daño balístico adicional</span> a los enemigos alcanzados durante <span class=\"highlight\">{s:BulletArmorReductionDuration} s</span>"
 		"StompRange_label"						"de alcance de la pulsación"
 		"StompRange_postfix"					" m"
 		//"stomp_buff_modifier"						"+Fire Rate"
@@ -769,6 +778,7 @@
 		"citadel_ability_void_sphere"				"Entrelazamiento Cuántico"
 		"citadel_ability_void_sphere_quip"		"Existe y deja de existir"
 		"citadel_ability_void_sphere_desc"		"{s:hero_name} <span class=\"highlight\">desaparece brevemente en el vacío</span> y luego reaparece a corta distancia. Al reaparecer, su arma se <span class=\"highlight\">recarga</span> y tiene una <span class=\"highlight\">bonificación de cadencia de tiro</span> en su siguiente cargador (durante {s:FireRateBonusDurationMax} s como máximo). Se puede lanzar con [{s:key_alt_cast}] para atraer también a los aliados cercanos y otorgarles la mitad de la bonificación de cadencia de tiro."
+		"citadel_ability_void_sphere_t3_desc"		"<span class=\"highlight\">{s:AbilityCooldown} s</span> de tiempo de recarga de las habilidades y <span class=\"highlight\">+{s:BonusClipSizePercent} %</span> de munición base al reaparecer"
 		"modifier_void_sphere"					"Entrelazamiento Cuántico"
 		//"modifier_voidsphere_buff"				"Void Sphere +Fire Rate"
 		"AllyDistance_label"						"de distancia de aliados"
@@ -1121,6 +1131,7 @@
 
 		"ability_ice_dome"				"Refugio Congelado"
 		"ability_ice_dome_quip"			"Crea una cúpula curativa impenetrable"
+		"ability_ice_dome_desc"			"{s:hero_name} congela el aire que le rodea, creando una <span class=\"highlight\">cúpula impenetrable</span> a su alrededor. Mientras están en la cúpula, los aliados <span class=\"highlight\">regeneran rápidamente su vida</span> y los enemigos quedan <span class=\"highlight\">ralentizados</span>.<br>Los objetivos se vuelven invulnerables y se congelan bajo el efecto de Refugio Congelado."
 		"ability_ice_dome_t1_desc"		"<span class=\"highlight\">+{s:FireRateSlow} %</span> de reducción de cadencia de tiro"
 		"ability_ice_dome_t3_desc"		"<span class=\"highlight\">+{s:BonusHealthRegen}</span> de regeneración de vida y ahora aumenta con poder espiritual"
 		"ability_ice_dome/modifier_ice_dome/modifier_debuff"						"Refugio Congelado"
@@ -1133,6 +1144,7 @@
 		//-----------------------------------------------------------------------------
 		"citadel_ability_uppercut"				"Gancho Explosivo"
 		"citadel_ability_uppercut_quip"			"Dale un puñetazo a alguien para alejarlo de ti"
+		"citadel_ability_uppercut_desc"			"Inflige daño <span class=\"highlight\">cuerpo a cuerpo ligero</span> a las unidades cercanas y las hace <span class=\"highlight\">volar hacia atrás</span>, causando <span class=\"highlight\">daño en área</span> y <span class=\"highlight\">reducción de cadencia de tiro</span> cuando aterrizan. No inflige daño a los aliados."
 		"citadel_ability_uppercut_t2_desc"		"Al golpear a un héroe enemigo, obtienes <span class=\"highlight\">menor tiempo de carga, el doble de alcance y un {s:BuffBaseWeaponPct} % de daño del arma</span> durante {s:UppercutBuffOnHit} s"
 		"citadel_ability_uppercut_t3_desc"		"Al golpear a un héroe enemigo, pone a <span class=\"highlight\">0 el tiempo de recarga de Garfio</span> y añade <span class=\"highlight\">+{s:ClipSizeBonus} % de balas</span> a tu cargador actual de manera instantánea"
 		//"modifier_citadel_enemy_uppercutted"	"Uppercutted!"
@@ -1146,8 +1158,12 @@
 		"StunOnLand_postfix"					" s"
 		//"UppercutBuffOnHit_label"				"Boost Duration"
 		"UppercutBuffOnHit_postfix"				" s"
+		"ExplodeDebuffDuration_label"			"de duración de la reducción de cadencia de tiro"
+		"ExplodeDebuffDuration_postfix"			" s"
+
 		"citadel_ability_sticky_bomb"			"Bomba Lapa"
 		"citadel_ability_sticky_bomb_quip"		"Coloca una bomba sobre un enemigo"
+		"citadel_ability_sticky_bomb_desc"		"Adhiere una bomba lapa a un objetivo cercano que le inflige <span class=\"highlight\">daño explosivo</span> tras un breve tiempo de mecha.<br>Obtienes una acumulación de bomba que otorga <span class=\"highlight\">+{s:BonusDamagePctPerPlayerHit} % de daño de bomba</span> por cada héroe enemigo al que alcanza la explosión. Pierdes {s:BonusLossPerDeath} acumulaciones al morir. <br>Mantén pulsado [{s:key_alt_cast}] para lanzar una bomba lapa sobre ti mismo⁠/⁠a."
 		"modifier_citadel_sticky_bomb_attached"	"Tienes una bomba"
 		"citadel_ability_sticky_bomb_t3_desc"	"Al adherirse, <span class=\"highlight\">desarma</span> al objetivo durante <span class=\"highlight\">{s:DebuffDuration} s</span>"
 		"StunTargetOnExplode_label"				"de duración"
@@ -1351,6 +1367,7 @@
 		"StatueVictimDamageReduction_label"					"de reducción del daño"
 		"StatueVictimDamageReduction_postfix"				" %"
 
+		"ability_nano_proximity_ritual_t1_desc"  "<span class=\"highlight\">+{s:StatueLifesteal} %</span> de robo de vida"
 		"ability_nano_proximity_ritual_t2_desc"  "<span class=\"highlight\">+{s:DPS}</span> de DPS y las víctimas infligen un <span class=\"highlight\">{s:StatueVictimDamageReduction} %</span> menos de daño a {s:hero_name}"
 		"ability_nano_proximity_ritual_t3_desc"  "<span class=\"highlight\">+{s:DamageAmplification} %</span> de amplificación de daño y un <span class=\"highlight\">{s:HealAmpReceivePenaltyPercent} %</span> de reducción de la curación en víctimas"
 		"ability_nano_proximity_ritual_trigger"		"Recuperar a Ava"
@@ -1427,7 +1444,7 @@
 
 		//-----------------------------------------------------------------------------
 		// Lady Geist
-		// hero ghost
+		// hero ghost solider
 		//-----------------------------------------------------------------------------
 		"ability_blood_bomb"				"Bomba de Esencia"
 		"ability_blood_bomb_quip"			"Sacrifica algo de vida para lanzar una bomba dañina"
@@ -1436,6 +1453,7 @@
 
 		"ability_life_drain"				"Succión Vital"
 		"ability_life_drain_quip"			"Roba la vida de un enemigo a lo largo del tiempo"
+		"ability_life_drain_desc"			"Crea un vínculo que <span class=\"highlight\">succiona la vida del enemigo con el tiempo</span> y <span class=\"highlight\">te cura</span>. El objetivo debe estar en la línea de visión y dentro del alcance máximo. Puedes disparar y usar otras habilidades durante la succión, pero tu velocidad de movimiento se reduce a la mitad. <br><span class=\"highlight\">Usa el lanzamiento alternativo para otorgar vida a héroes aliados</span>.<br><span class=\"highlight\">Pulsa [{s:in_ability2}]</span> para cancelar."
 		"ability_life_drain/modifier_life_drain" "Succión Vital"
 		"ability_life_drain/modifier_life_drain_caster" "Succión Vital"
 		"modifier_life_drain_silence"		"Silenciado⁠/⁠a"
@@ -1544,7 +1562,7 @@
 		"citadel_ability_hornet_leap"			"Vuelo"
 		"citadel_ability_hornet_leap_quip"		"Emprende el vuelo y potencia tu arma"
 		"citadel_ability_hornet_leap_desc"		"Salta al aire y <span class=\"highlight\">vuela</span>. Durante el vuelo, tu arma inflige <span class=\"highlight\">daño espiritual adicional</span>."
-		"citadel_ability_hornet_leap_t1_desc"	"<span class=\"highlight\">+{s:BonusClipSizePercent} %</span> de armadura base mientras vuelas"
+		"citadel_ability_hornet_leap_t1_desc"	"<span class=\"highlight\">+{s:BonusClipSizePercent} %</span> de munición base mientras vuelas"
 		"MagicDamagePerBullet_label"				"de daño espiritual por bala"
 
 		//"modifier_citadel_hornetleap"			"Vindicta Leap"
@@ -1632,11 +1650,14 @@
 		"ability_ult_combo"				"Combo"
 		"ability_ult_combo_quip"		"Retiene y golpea al héroe enemigo"
 		"ability_ult_combo_desc"		"Inmoviliza al objetivo, <span class=\"highlight\">aturdiéndolo e infligiéndole daño</span> al canalizar. Si muere durante el combo, obtienes vida máxima de forma permanente."
+		"ability_ult_combo_t1_desc"		"<span class=\"highlight\">+{s:ComboBulletResist} %</span> de resistencia a balas durante el combo."
 		"ability_ult_combo_t2_desc"		"<span class=\"highlight\">+{s:AbilityChannelTime} s</span> de duración del combo"
 		"ability_ult_combo_t3_desc"		"<span class=\"highlight\">+{s:DPS}</span> de daño por segundo y un <span class=\"highlight\">{s:LifeStealPercentOnHit} % de robo de vida</span>"
 		"LifestealPercentOnHit_label"		"de robo de vida"
 		"LifestealPercentOnHit_postfix"	" %"
 		"BonusHealthOnKill_label"			"de vida máx. adicional por víctima"
+		"ComboBulletResist_label"		"de resistencia a balas durante el combo"
+		"ComboBulletResist_postfix"		" %"
 		//"GrabExtraTargetRange_label"		"Extra Target Range"
 		"GrabExtraTargetRange_postfix"	" m"
 
@@ -1784,6 +1805,7 @@
 		"synth_barrage"				"Aluvión"
 		"synth_barrage_quip"			"Planea mientras disparas varios proyectiles"
 		"synth_barrage_desc"			"Canalízala para empezar a lanzar proyectiles que <span class=\"highlight\">infligen daño</span> y <span class=\"highlight\">aplican ralentización</span> alrededor de su punto de impacto. Cada proyectil que cae sobre un héroe te otorga una <span class=\"highlight\">mejora acumulable que amplifica todo tu daño</span>.<br>Si la lanzas mientras estás en el aire, <span class=\"highlight\">flotarás</span> y mantendrás el impulso horizontal con el que empezaste."
+		"synth_barrage_t3_desc"			"<span class=\"highlight\">+{s:AmpPercentPerStack} %</span> de amplificación por acumulación y <span class=\"highlight\">{s:Radius} m</span> de radio."
 		"DamagePerProjectile_label"	"de daño por proyectil"
 		"ProjectileAmount_label"		"proyectiles"
 		"ProjectileInterval_label"	"de intervalo entre proyectiles"
@@ -2420,6 +2442,7 @@
 		"MediumChargeDamagePct_postfix"			" %"
 		"FullChargeDamage_label"				"de daño a carga completa"
 		"citadel_ability_power_slash_t1_desc"	"Mientras canalizas, obtienes <span class=\"highlight\">+{s:BulletResist} de resistencia a balas</span>"
+		"citadel_ability_power_slash_t2_desc"	"<span class=\"highlight\">{s:AbilityCooldown} s</span> de tiempo de recarga de las habilidades y aplica un <span class=\"highlight\">{s:SlowPercent} %</span> de ralentización durante <span class=\"highlight\">{s:SlowDuration} s</span>."
 		//"StaminaToRemove_label"				"Stamina Drain"
 
 		"citadel_ability_flying_strike"			"Ataque Volador"
@@ -2432,6 +2455,7 @@
 
 		"citadel_ability_infinity_slash"		"Transformación Sombría"
 		"citadel_ability_infinity_slash_quip"	"Vuélvete invencible y más poderoso⁠/⁠a"
+		"citadel_ability_infinity_slash_desc"	"Infúndete con el alma sombría de Yamato. Tras una transformación <span class=\"highlight\">invencible</span> inicial, tus <span class=\"highlight\">habilidades se restablecen y son un 60 % más rápidas</span>, y obtienes <span class=\"highlight\">inmunidad a los efectos negativos</span>. No puedes morir en este modo."
 		//"citadel_ability_infinity_slash_buff_header" "Per Hero Hit"	
 		"ShadowDuration_label"					"de retraso de la explosión"
 		"ShadowDuration_postfix"				" s"

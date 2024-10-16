@@ -82,6 +82,9 @@
 		"GameUI_Disconnect_ReplayIncompatible"		"Запис не сумісний."
 		"GameUI_Disconnect_ConnectionTimedout"		"Не вдалося встановити підключення до ігрового сервера."
 		"GameUI_Disconnect_ServerIncompatible"		"Версія не сумісна із сервером."
+		"Player_DisconnectReason_Idle"				"Відключено від ігрового сервера через тривалу неактивність."
+		
+
 		"GameUI_Disconnect_LocalProblem_ManyRelays"	"Втрачено підключення навіть після спроби використання кількох вузлів зв’язку в різних географічних регіонах. Найімовірніша причина — проблема з вашим підключенням до Інтернету."
 		"GameUI_Disconnect_LocalProblem_HostedServerPrimaryRelay"	"Ігровий сервер втратив підключення до основного вузла зв’язку, який використовував клієнт."
 		"GameUI_Disconnect_LocalProblem_NetworkConfig"	"Перевірте підключення до Інтернету. Не вдалося завантажити конфігурацію мережі з CDN."
@@ -208,7 +211,7 @@
 		"Citadel_RecommendFriend_ErrorMsg"					"Необхідно вибрати друга зі списку"
 		"Citadel_RecommendFriend_Email"						"Ел. пошта:"
 		"Citadel_RecommendFriend_EmailPrompt"				"Адреса ел. пошти"
-		"Citadel_RecommendFriend_EmailDesc"					"(Найкраща адреса електронної пошти для зв’язку з вашим другом, може відрізнятися від адреси його акаунта Steam)"
+		"Citadel_RecommendFriend_EmailDesc"					"(Найкраща адреса електронної пошти для зв’язку з вашим другом, може відрізнятися від адреси його облікового запису Steam)"
 		"Citadel_RecommendFriend_Region"					"Оберіть регіон:"
 		"Citadel_RecommendFriend_Comments"					"Коментарі:"
 		"Citadel_RecommendFriend_CommentsPrompt"			"Коротко опишіть, хто це"
@@ -299,6 +302,7 @@
 		"Citadel_Hud_OutOfAmmo"										"НЕМАЄ НАБОЇВ"
 		"Citadel_Hud_LowAmmo"										"МАЛО НАБОЇВ"
 		"Citadel_Hud_NotEnoughEnergy"								"ЗАМАЛО ЕНЕРГІЇ"
+		"Citadel_Hud_CastTimeRemaining"								"{s:time_remaining} с"
 		"Citadel_Hud_DPS"											"ШЗС {i:dps}"
 		"Citadel_Hud_RespawnIn"										"Відродження через:"
 		"Citadel_Hud_RideZipLine"									"УТРИМУЙТЕ [ {s:in_zipline} ], щоби зачепитися"
@@ -461,6 +465,15 @@
 		"Citadel_Play_MatchmakingOfflineTitle"				"Пошук матчів закрито"
 		"Citadel_Play_MatchmakingOfflineText"				"Пошук матчів наразі закрито. Повертайтеся у відведений для тестування час."
 
+		"Citadel_Play_RankedMatchmakingOfflineTitle"		"Пошук рейтингових матчів закрито"
+		"Citadel_Play_RankedMatchmakingOfflineText"			"Пошук рейтингових матчів наразі закрито. Повертайтеся у відведений для тестування час згідно з обраним вами розкладом."
+
+		"Citadel_Play_RankedNoSchedule"						"Розклад не обрано"
+		"Citadel_Play_RankedNoScheduleDesc"					"Перш ніж грати в рейтингові матчі, необхідно обрати розклад."
+
+		"Citadel_RankedGames_Played"						"Зіграно {i:ranked_games_played}/{i:ranked_games_required}"
+		"Citadel_RankedGames_PlayedQualified"				"Достатньо для рейтингових матчів"
+
 		"Citadel_Play_BotsOfflineTitle"				"Боти тимчасово не в мережі"
 		"Citadel_Play_BotsOfflineText"				"Боти тимчасово вимкнені. Спробуйте знову пізніше."
 
@@ -544,7 +557,9 @@
 		"Citadel_PrivateLobby_Duplicate_Heroes_On"					"Повтор героїв увімкнено"
 		"Citadel_PrivateLobby_Cheats_Off"							"Чіти заборонено"
 		"Citadel_PrivateLobby_Cheats_On"							"Чіти дозволено"
+		"Citadel_PrivateLobby_SwapTeams"							"Змінити сторони"
 		"Citadel_PrivateLobby_SwapTeamsTooltip"						"Змінити сторони без зміни ліній"
+		"Citadel_PrivateLobby_RandomizeTeams"						"Розподілити гравців навмання"
 		"Citadel_PrivateLobby_ShuffleTeamsTooltip"					"Призначити командам гравців у лобі випадковим чином"
 		"Citadel_PrivateLobby_ShuffleTeams"							"Перемішати гравців команди"		
 		"Citadel_PrivateLobby_ShuffleLanesTooltip"					"Призначити гравців у командах на лінії випадковим чином"
@@ -668,6 +683,7 @@
 		"Citadel_Party_InviteSent"									"Запрошення надіслано"
 
 		"Citadel_RosterMode_Party_Matchmaking"						"Грати в Deadlock"
+		"Citadel_RosterMode_Party_RankedMatchmaking"				"Рейтинговий матч"
 		"Citadel_RosterMode_Party_CoopBotMM"						"Грати проти ботів"
 		"Citadel_RosterMode_Party_PrivateBotEasy"					"Пошук приватного матчу для групи проти ботів — легкі боти"
 		"Citadel_RosterMode_Party_PrivateBotMedium"					"Пошук приватного матчу для групи проти ботів — середні боти"
@@ -678,6 +694,7 @@
 		"Citael_PrivateLobbyModal_JoinCode"							"Приєднатися до наявного за допомогою коду"
 
 		"Citadel_RosterMode_Matchmaking"							"Грати в Deadlock"
+		"Citadel_RosterMode_RankedMatchmaking"						"Рейтинговий матч"
 		"Citadel_RosterMode_CoopBotMM"								"Грати проти ботів"
 		"Citadel_RosterMode_PrivateBotEasy"							"Приватний матч проти ботів — легкий"
 		"Citadel_RosterMode_PrivateBotMedium"						"Приватний матч проти ботів — середній"
@@ -849,6 +866,9 @@
 
 		"Citadel_Team1_Name"							"Бурштинова рука"
 		"Citadel_Team2_Name"							"Сапфірове полум’я"
+		"Citadel_Team1_Name_Uppercase"					"БУРШТИНОВА РУКА"
+		"Citadel_Team2_Name_Uppercase"					"САПФІРОВЕ ПОЛУМ’Я"
+
 		"Citadel_Mod_Tooltip_Passive"									"Пасивна властивість"
 		"Citadel_Mod_Tooltip_Active"									"Дія"
 		"Citadel_Mod_Tooltip_Innate"									"Вроджено"
@@ -1011,15 +1031,6 @@
 		"Citadel_Playtest_JoinDiscord"								"Приєднатися до Discord"
 		"Citadel_Playtest_JoinedDiscord"							"Ви приєдналися до Discord"
 		"Citadel_Playtest_GoToForum"								"Форуми"
-
-		"Citadel_RankedSchedule_1"									"Захід США"
-		"Citadel_RankedSchedule_2"									"Схід США"
-		"Citadel_RankedSchedule_10"									"Захід Європи"
-		"Citadel_RankedSchedule_11"									"Схід Європи"
-		"Citadel_RankedSchedule_13"									"Центр Росії"
-		"Citadel_RankedSchedule_20"									"Китай"
-		"Citadel_RankedSchedule_21"									"Японія/Південна Корея"
-		"Citadel_RankedSchedule_22"									"Східна Австралія"
 
 		"Citadel_StartMatchmaking_ErrorTitle"						"Помилка"
 		"Citadel_StartMatchmaking_AlreadyFindingMatch"				"Неможливо розпочати пошук матчу, адже ви вже шукаєте матч."
@@ -1283,6 +1294,8 @@
 		"Citadel_Profile_Stats_Denies"							"Добивання"		
 		"Citadel_Profile_Stats_Healing"							"Лікування"		
 		"Citadel_Profile_Stats_Networth"						"Зібрані душі"
+		"Citadel_Profile_Stats_Value_Networth_Low"				"{i:game_networth}"
+		"Citadel_Profile_Stats_Value_Networth_High"				"{i:game_networth}т"
 
 		"Citadel_MatchPage_Prev"								"Назад"
 		"Citadel_MatchPage_Next"								"Далі"
@@ -1315,6 +1328,7 @@
 		"Citadel_MatchDetails_Healing"							"Лікування"
 		"Citadel_MatchDetails_Victory"							"Перемога"
 		"Citadel_MatchDetails_Defeat"							"Поразка"
+		"Citadel_MatchDetails_Team_Result"						"<span class=\"TeamName h2 display\">{s:team_name}</span><br><span class=\"OutcomeLabel h1 display\">{s:outcome_label}</span>"
 		"Citadel_MatchDetails_Loading"							"Завантаження подробиць матчу."
 		"Citadel_MatchDetails_MatchID"							"МАТЧ {s:match_id}"
 		"Citadel_MatchDetails_ViewScoreboard"					"Дивитися результати"
@@ -2313,8 +2327,8 @@
 		"team_msg_Idol_Desc"	"Урна з душею"
 		
 		//"team_msg_Winner_SubText"	"The Patrons favor you"
-		"Citadel_GameOver_Victory"	"Перемога"
-		"Citadel_GameOver_Defeat"	"Поразка"
+		"Citadel_GameOver_Victory"	"перемагає"
+		"Citadel_GameOver_Defeat"	"програє"
 
 
 		"Citadel_LaneColorPurple"						"Фіолетова"
@@ -2326,7 +2340,6 @@
 		"Citadel_TeamMsg_BossKilledMessage"				"ЗНИЩЕНО"
 		"Citadel_TeamMsg_EnemyTitanKilledTitle"			"Ворожий покровитель"
 		"Citadel_TeamMsg_TitanKilledTitle"				"Ваш покровитель"
-
 
 		"Citadel_FlexSlot_Title"						"Гнучку ланку розблоковано"
 		"Citadel_FlexSlotUnlockedAllTier1"				"Ви розблокували гнучку ланку за знищення всіх <span class=\"FlexSlotObjectiveName\">ворожих вартових</span>."
@@ -2385,6 +2398,8 @@
 		"Citadel_Confirm_Discord_InMatch_Body"		"Скопіюйте своє посилання для Discord, коли ви не в групі й не шукаєте матч."
 		"Citadel_Dashboard_Recommended"				"Рекомендовано"
 
+		"Citadel_Commend_Toast"						"Користувач {s:commender} ({s:commender_hero}) похвалив вас!"
+
 		"menu_exit_db_page"							"Назад"
 		"menu_settings"								"Налаштування"
 		"menu_profile"								"Профіль"
@@ -2435,24 +2450,43 @@
 		"menu_ranked_unavailable_desc"				"Ви повинні зіграти в 50 стандартних матчів, щоб мати змогу шукати рейтингові."
 		"menu_ranked_schedule_weekdays"				"ПН–ЧТ:"
 		"menu_ranked_schedule_weekends"				"ПТ–НД:"
+		"menu_ranked_schedule_alldays"				"Розклад за днями:"
 		"menu_ranked_schedule_timeplaceholder"		"{t:t:start_time} – {t:t:end_time}"
 		"menu_ranked_select_schedule"				"Вибрати розклад"
 		"menu_ranked_view_schedules"				"Переглянути всі розклади"
 		"menu_ranked_set_schedule"					"Скласти розклад"
-		"menu_ranked_explainer_button"				"Що таке рейтинговий матч?"
+		"menu_ranked_week_dates"					"{t:s:start_day} — {t:s:end_day}"
 		"Citadel_SetSchedule_Failed"				"Не вдалося скласти розклад"
 		"Citadel_SetSchedule_FailedToSetSchedule"	"Не вдалося скласти розклад. Спробуйте знову пізніше."
 		"Citadel_SetSchedule_AlreadySet"			"Не вдалося скласти розклад, тому що він уже складений."
 		"Citadel_SetSchedule_Success"				"Готово"
+		"Citadel_SetSchedule_LocalTimes"			"Розклад показано за місцевим часом"
+		"Citadel_SetSchedule_RegionWithIndex"		"{s:region_name} {d:region_index}"
 		"Citadel_SetSchedule_Selected"				"Вибрано"
 		"Citadel_SetSchedule_SetSuccessfully"		"Розклад успішно складено"
 		"Citadel_ranked_scheduleModal_title"		"Розклади рейтингових матчів"
 		"Citadel_ranked_scheduleModal_desc"			"Оберіть вікна для рейтингових матчів, які найкраще підходять до вашого часу гри.<br><br>Ви завжди гратимете на найближчому доступному сервері незалежно від обраного часу."
 		"Citadel_ranked_scheduleModal_warning"		"Примітка: після вибору розкладу для цього рейтингового сеансу ви не зможете його змінити до наступного сеансу."
 		"Citadel_ranked_open"						"Відкрито"
-		"Citadel_ranked_closed"						"Закрито"
+		"Citadel_ranked_closed"						"Рейтингові матчі закрито"
 		"Citadel_ranked_comingsoon"					"Перші рейтингові матчі почнуться у вівторок, 15 жовтня, о 23:00 за київським часом"
-		"Citadel_ranks_rank0"						"Непосвячений"
+		"Citadel_ranked_schedule_explainer"			"Рейтингові матчі будуть доступні лише протягом певного проміжку часу. Вкажіть зручний для вас час, перш ніж шукати такі матчі."
+
+		"Citadel_ranked_explainer_button"				"Що таке рейтинговий матч?"
+		"Citadel_ranked_explainer_title"				"Пошук рейтингових матчів"
+		"Citadel_ranked_explainer_desc"					"[Рейтинговий режим] — це складніший режим, що дає більш змагальний досвід гри в Deadlock. У цьому режимі ви шукатимете матчі з гравцями, які мають близьку до вашої майстерність, а результати матчів визначатимуть ваш рівень навичок у порівнянні з іншими.<br><br>Щотижня гравці зможуть приєднуватися до цього змагання грою в [рейтингові] матчі протягом відкритого часу для свого регіону й демонструвати там свої індивідувальні навички."
+		"Citadel_ranked_howitworks_title"				"Як це працює?"
+		"Citadel_ranked_howitworks_desc"				"Усі гравці починають з умовно невідомого рівня навичок. Щотижня вам необхідно завершити сім [рейтингових] матчів, щоби кваліфікуватися для рейтингового режиму цього тижня. Наприкінці тижня ви отримаєте свій титул, який показуватиметься як значок у вашому профілі.<br><br>Якщо до кінця тижня ви не зіграєте сім [рейтингових] матчів, ваш видимий титул повернеться до невідомого й лишатиметься прихованим, допоки ви не кваліфікуєтеся наступного тижня. Дані стосовно ваших навичок не зникнуть і використовуватимуться для ваших майбутніх [рейтингових] ігор, але значок не показуватиметься.<br><br>Існує одинадцять рівнів титулу, і на кожному рівні гравці також отримують підрівень від I до VI, що точніше визначає розташування в межах цього рівня."
+		"Citadel_subranks_1"						"I"
+		"Citadel_subranks_2"						"II"
+		"Citadel_subranks_3"						"III"
+		"Citadel_subranks_4"						"IV"
+		"Citadel_subranks_5"						"V"
+		"Citadel_subranks_6"						"VI"
+
+		"Citadel_rank_phase_example"				"15–21 жовтня | 2024"
+
+
 		"item_info_abilities"						"Уміння"
 		"item_info_flex_slots"						"ГНУЧКІ ЛАНКИ"
 		"item_info_active"							"Дія"
@@ -2748,6 +2782,8 @@
 		"AbilityButtonHint_AltCastRestorativeGoo"		"Куб на себе"
 		"AbilityButtonHint_AltCastStickyBomb"		"Бомба на себе"
 		"AbilityButtonHint_CastIceDome"				"Застосувати льодяний сховок"
+		"AbilityButtonHint_CastLifeDrain"			"Витягнути життя ворога"
+		"AbilityButtonHint_AlotCastLifeDrain"				"Лікувати товариша"
 		
 		//-----------------------------------------------------------------------------
 		// Guided Bot Match

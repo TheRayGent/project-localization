@@ -177,7 +177,8 @@
 "BonusBaseWeaponDamageTaken_prefix"		"+"
 		"BonusBaseWeaponDamageTaken_label"		"무기 피해"
 		"BonusBaseWeaponDamageTaken_postfix"	"%"
-"MagicAmp_label"					"마법 증폭"
+"modifier_withering_whip_debuff"	"연사 속도 둔화"
+		"MagicAmp_label"					"마법 증폭"
 		"MagicAmp_postfix"					"%"
 		"WitheringWhipDisarmDuration_label"	"지속 시간"
 		"WitheringWhipDisarmDuration_postfix"	"초"
@@ -227,6 +228,7 @@
 		//Clarity
 		//"upgrade_magic_clarity_desc"			"On ability or item use, gain a <span class=\"highlight\">move speed</span> bonus for {s:AbilityDuration}s.  Your next ability cast will remove the move speed bonus and apply a <span class=\"highlight\">Spirit</span> bonus to that ability."
 		"ClarityBonusSpirit_prefix"				"{s:sign}"
+"suppressor_debuff"						"연사 속도 둔화"
 "MagicCarpetMoveSpeed_prefix"			"+"
 		"MagicCarpetMoveSpeed_label"			"보너스 비행 속도"
 		"MagicCarpetMoveSpeed_postfix"			"m(초당)"

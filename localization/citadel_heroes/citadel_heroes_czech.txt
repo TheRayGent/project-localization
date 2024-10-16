@@ -751,7 +751,10 @@
 
 		"ability_bullet_flurry"			"Vír střel"
 		"ability_bullet_flurry_quip"	"Umožňuje ti rozpoutat smrtící vír střel."
-"BonusWeaponDamage_prefix"				"+"
+		"ability_bullet_flurry_desc"	"Haze se roztočí a s <span class=\"highlight\">dokonalou přesností</span> začne <span class=\"highlight\">střílet ze svých zbraní</span> na nepřátele kolem."
+		//"ability_bullet_flurry/modifier_citadel_bullet_flurry"		"Bullet Flurry"
+		"ability_bullet_flurry_t3_desc"	"Haze získá při točení <span class=\"highlight\">{s:EvasionPercent}%</span> balistický úhyb a <span class=\"highlight\">+{s:DanceMoveSpeed} m/s</span> k rychlosti pohybu"
+		"BonusWeaponDamage_prefix"				"+"
 		"BonusWeaponDamage_label"				"Balistické poškození"
 		"DanceMoveSpeed_label"			"Rychlost pohybu ve víru"
 		"DanceMoveSpeed_postfix"		" m/s"
@@ -1160,7 +1163,7 @@
 
 		"citadel_ability_sticky_bomb"			"Přilnavá bomba"
 		"citadel_ability_sticky_bomb_quip"		"Umožňuje ti připevnit bombu na spojence nebo nepřítele."
-		"citadel_ability_sticky_bomb_desc"		"Bebop připevní na cíl poblíž přilnavou bombu, která po krátké prodlevě udělí <span class=\"highlight\">výbušné poškození</span>. <br>Kdykoli bomba vybuchne, Bebop získá sečtení poskytující <span class=\"highlight\">+{s:BonusDamagePctPerPlayerHit} % k poškození</span> za každého zasaženého nepřátelského hrdinu. Maximálně může Bebop mít {s:BonusMaxStacks} sečtení, přičemž úmrtím o {s:BonusLossPerDeath} přijde.<br>Podržením [{s:key_alt_cast}] může Bebop bombu připevnit na sebe."
+		"citadel_ability_sticky_bomb_desc"		"Bebop připevní na cíl poblíž přilnavou bombu, která po krátké prodlevě udělí <span class=\"highlight\">výbušné poškození</span>. <br>Kdykoli bomba vybuchne, Bebop získá sečtení poskytující <span class=\"highlight\">+{s:BonusDamagePctPerPlayerHit} % k poškození</span> za každého zasaženého nepřátelského hrdinu. Úmrtím Bebop o {s:BonusLossPerDeath} sečtení přijde.<br>Podržením [{s:key_alt_cast}] může Bebop bombu připevnit na sebe."
 		"modifier_citadel_sticky_bomb_attached"	"Přilnavá bomba"
 		"citadel_ability_sticky_bomb_t3_desc"	"Po připevnění bomby je cíl na <span class=\"highlight\">{s:DebuffDuration} s</span> <span class=\"highlight\">odzbrojen</span>"
 		"StunTargetOnExplode_label"				"Trvání"
@@ -1441,7 +1444,7 @@
 
 		//-----------------------------------------------------------------------------
 		// Lady Geist
-		// hero ghost
+		// hero ghost solider
 		//-----------------------------------------------------------------------------
 		"ability_blood_bomb"				"Krvavá bomba"
 		"ability_blood_bomb_quip"			"Umožňuje ti vyměnit část zdraví za bombu udílející poškození."

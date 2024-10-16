@@ -156,7 +156,13 @@
 		//"modifier_hemorrhage"																								"Eviscerator Rounds"
 		"modifier_item_burning_bullets_damageovertime" 	"Sangrando"
 		"upgrade_hemorrhage/modifier_item_hemorrhage/modifier_hemorrhage" "Sangrando"
-"modifier_tech_overflow"		"Desbordamiento Espiritual"
+
+		//Improved Fire Rate
+		//"upgrade_attack_speed_2_desc"	"Increases your <span class=\"highlight\">Fire Rate</span>."
+
+		//Spiritual Overflow
+		"upgrade_tech_overflow_desc"	"Obtén <span class=\"highlight\">cadencia de tiro</span> y <span class=\"highlight\">poder espiritual</span> adicionales al <span class=\"highlight\">cargar</span> mientras disparas a los héroes enemigos."
+		"modifier_tech_overflow"		"Desbordamiento Espiritual"
 		"modifier_tech_overflow_building" "Generando Desbordamiento Espiritual..."
 
 		"OverflowTechPower_label"		"de poder espiritual"
@@ -389,6 +395,7 @@
 
 		//Escalating Exposure
 		"upgrade_escalating_exposure_desc"	"Infligir <span class=\"highlight\">daño espiritual</span> aplica una <span class=\"highlight\">amplificación espiritual</span> acumulable que aumenta tu <span class=\"highlight\">daño espiritual</span> contra el objetivo."
+		"upgrade_escalating_exposure/modifier_proc_watcher/modifier_debuff"		"Exposición Creciente"
 		"EscalatingExposureProcCooldown_label"	"de frecuencia máxima por objetivo"
 		"EscalatingExposureProcCooldown_postfix"	" s"
 		"EscalatingExposureTechArmorDamageReduction_label"	"de resistencia espiritual por daño espiritual"
@@ -442,7 +449,7 @@
 		"BonusBaseWeaponDamageTaken_postfix"	" %"
 
 		//Fleetfoot
-		"upgrade_fleetfoot_boots_active_desc"	"Obtienes <span class=\"highlight\">velocidad de movimiento</span> y <span class=\"highlight\">armadura</span> adicionales."
+		"upgrade_fleetfoot_boots_active_desc"	"Obtienes <span class=\"highlight\">velocidad de movimiento</span> y <span class=\"highlight\">munición</span> adicionales."
 		"upgrade_fleetfoot_boots_passive_desc"	"Elimina la penalización de <span class=\"highlight\">velocidad de movimiento</span> al disparar."
 		"modifier_fleetfoot_boots"				"Pies Ligeros"
 
@@ -479,7 +486,10 @@
 		"WitheringWhipDisarmDuration_postfix"	" s"
 		"SpiritPower_label"					"de poder espiritual"
 		"SpiritPower_prefix"					"+"
-"ShiftingVeilDuration_label"			"de duración"
+
+		//Ethereal Shift
+		"upgrade_self_bubble_desc"			"Entras en un estado de vacío y te conviertes en <span class=\"highlight\">no seleccionable como objetivo e invencible</span> durante un breve período de tiempo, durante el cual no puedes moverte ni realizar ninguna acción. Después, <span class=\"highlight\">recargas instantáneamente</span> y obtienes <span class=\"highlight\">poder espiritual</span> adicional."
+		"ShiftingVeilDuration_label"			"de duración"
 		"ShiftingVeilDuration_postfix"		" s"
 		"BonusSpiritDuration_label"			"de duración espiritual adicional"
 		"BonusSpiritDuration_postfix"			" s"
@@ -581,13 +591,15 @@
 
 		//Infuser
 		"upgrade_infuser_desc"			"Obtienes <span class=\"highlight\">poder</span> y <span class=\"highlight\">robo de vida espirituales</span>."
+		"modifier_infuser" "Infusor"
+
 		//Spirit Strike
 		"upgrade_acolytes_glove_desc"			"Cuando realizas un  <span class=\"highlight\">ataque cuerpo a cuerpo ligero o pesado</span> contra un héroe, le infliges <span class=\"highlight\">daño espiritual</span> adicional y reduces su <span class=\"highlight\">resistencia espiritual</span>."
 		"SpiritDamage_label"						"de daño espiritual"
 		"modifier_acolytes_glove_triggered"		"Golpe Espiritual"
 
 		//Melee Charge
-		"upgrade_melee_charge_desc"				"Tu próximo ataque <span class=\"highlight\">cuerpo a cuerpo pesado</span> contra un enemigo <span class=\"highlight\">le inflige más daño</span> y <span class=\"highlight\">recarga tu arma al instante</span>, o te otorga <span class=\"highlight\">+100 % de armadura adicional</span>.<br>Solo se activa cuando la munición adicional no está al máximo."
+		"upgrade_melee_charge_desc"				"Tu próximo ataque <span class=\"highlight\">cuerpo a cuerpo pesado</span> contra un enemigo <span class=\"highlight\">le inflige más daño</span> y <span class=\"highlight\">recarga tu arma al instante</span>, o te otorga <span class=\"highlight\">+100 % de munición adicional</span>.<br>Solo se activa cuando la munición adicional no está al máximo."
 		"MeleeDistanceScale_label"				"de distancia de cuerpo a cuerpo pesado"
 		"MeleeDistanceScale_postfix"			" %"
 		"BonusHeavyMeleeDamage_prefix"			"+"

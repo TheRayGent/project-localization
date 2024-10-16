@@ -38,6 +38,7 @@
 		//"citadel_ability_chain_lightning_t3_desc"	"Chain lightning can hit any enemies around the target."
 
 		"citadel_ability_static_charge"			"전하 충전"
+		"citadel_ability_static_charge_desc"		"적군 영웅에게 충전 공격을 가합니다. 짧은 시간 이후 반경 내에 있는 적군은 <span class=\"highlight\">기절하며 피해를 입습니다</span>.<br>대체 능력 시전을 사용하면 자신에게 시전할 수 있습니다."
 		"citadel_ability_static_charge_quip"	"범위 내 있는 적군 영웅을 기절시킵니다."
 		"citadel_ability_static_charge/modifier_citadel_staticcharge"	"전하 충전"
 
@@ -121,7 +122,7 @@
 		"citadel_ability_fissure_wall"			"영혼의 장벽"
 		"citadel_ability_fissure_wall_quip"		"장벽을 구축하여 적군을 막습니다."
 		"citadel_ability_fissure_wall_desc"		"<span class=\"highlight\">공간을 분리</span>하는 장벽을 구축합니다. 장벽 구축 시 근처에 있는 적군은 장벽과 충돌하며 <span class=\"highlight\">피해를 입고</span> <span class=\"highlight\">이동 속도가 둔화</span>됩니다.<br>시전 후 [{s:iv_attack}] 또는 [{s:in_ability3}] 키를 눌러 원하는 지점에 장벽을 구축할 수 있습니다."
-		"citadel_ability_fissure_wall_t1_desc"	"장벽과 충돌한 적군의 활력 <span class=\"highlight\">{s:StaminaReduction}칸 제거 및 {s:DebuffDuration}초 동안 </span> {s:hero_name}가 입히는 피해 <span class=\"highlight\">{s:BonusDamagePercent}%</span> 증폭"
+		"citadel_ability_fissure_wall_t1_desc"	"장벽과 충돌한 적군의 활력 <span class=\"highlight\">{s:StaminaReduction}칸 제거 및 {s:DebuffDuration}초 동안 </span>{s:hero_name}가 입히는 피해 <span class=\"highlight\">{s:BonusDamagePercent}%</span> 증폭"
 		"citadel_ability_fissure_wall_t3_desc"	"영혼의 장벽과 충돌한 적군 <span class=\"highlight\">{s:WallStunDuration}초 동안 기절</span>"
 		//"citadel_ability_fissure_wall_trigger"	"Trigger Fissure Wall"
 		//"citadel_ability_fissure_wall_cancel"		"Cancel Fissure Wall"
@@ -147,6 +148,7 @@
 		"citadel_ability_shieldedsentry"		"미니 포탑"
 		"citadel_ability_shieldedsentry_quip"	"자동 포탑을 배치합니다."
 		"citadel_ability_shieldedsentry_desc"	"<span class=\"highlight\">자동으로 적군을 공격</span>하는 미니 포탑을 배치합니다. 포탑은 제한된 시간이 지나면 사라집니다.<br>포탑의 체력은 {s:hero_name}의 최대 체력의 {s:TurretHealthScaling}%이며 마법 저항력은 {s:TechResist}%입니다. 트루퍼와 주요 목표물에는 포탑이 입히는 피해가 감소합니다."
+		"citadel_ability_shieldedsentry_t1_desc"	"포탑 공격으로 이동 속도 <span class=\"highlight\">+{s:MoveSlowPercent}%</span> 둔화"
 		"citadel_ability_shieldedsentry_t2_desc"	"공격 범위 <span class=\"highlight\">+{s:TurretAttackRange}m</span> 증가 및 포탑 연사 속도 <span class=\"highlight\">+{s:AttackSpeedMult}%</span> 증가"
 
 		//"citadel_ability_shieldedsentry/modifier_bullet_resist_reduction_stack"		"Sentry Bullet Resist Debuff"
@@ -533,7 +535,8 @@
 		"citadel_ability_stomp"					"충격파"
 		"citadel_ability_stomp_quip"			"적군을 공중으로 떠올리는 파동을 지면에 발사합니다."
 		"citadel_ability_stomp_desc"			"적군을 공중으로 떠올리는 에너지 파동을 발사합니다."
-		"citadel_ability_stomp_t1_desc"			"{s:SlowDuration}초</span> 동안 파동에 맞은 적군의 <span class=\"highlight\">연사 속도 및 이동 속도</span> <span class=\"highlight\"> <span class=\"highlight\">{s:SlowPercent}%</span>둔화"
+		"citadel_ability_stomp_t1_desc"			"{s:SlowDuration}초</span> 동안 파동에 맞은 적군의 <span class=\"highlight\">연사 속도 및 이동 속도</span> <span class=\"highlight\"> <span class=\"highlight\">{s:SlowPercent}%</span> 둔화"
+		"citadel_ability_stomp_t2_desc"			"<span class=\"highlight\">{s:BulletArmorReductionDuration}초</span> 동안 {s:hero_name}가 충격파에 맞은 적군에게 입히는 총탄 피해 <span class=\"highlight\">+{s:BulletArmorReduction}%</span> 증가"
 		"StompRange_label"						"파동 범위"
 		"StompRange_postfix"					"m"
 		//"stomp_buff_modifier"						"+Fire Rate"
@@ -543,7 +546,8 @@
 		"StompWidth_postfix"					"m"
 		"citadel_ability_void_sphere"				"양자 결속"
 		"citadel_ability_void_sphere_quip"		"공허로 사라졌다가 다시 나타납니다."
-		"citadel_ability_void_sphere_desc"		"{s:hero_name} 영웅이 잠시 <span class=\"highlight\">공허 속으로 사라졌다가</span> 근처에 다시 나타납니다. 다시 나타날 때 무기가 <span class=\"highlight\">재장전</span>되고 다음 탄창에 <span class=\"highlight\">연사 속도 보너스</span>(최대 {s:FireRateBonusDurationMax}초)가 부여됩니다. [{s:key_alt_cast}] 키를 누르면 근처의 아군과 함께 이동하며 아군에게도 연사 속도 보너스가 절반으로 부여됩니다."
+		"citadel_ability_void_sphere_desc"		"{s:hero_name}가 잠시 <span class=\"highlight\">공허 속으로 사라졌다가</span> 근처에 다시 나타납니다. 다시 나타날 때 무기가 <span class=\"highlight\">재장전</span>되고 다음 탄창에 <span class=\"highlight\">연사 속도 보너스</span>(최대 {s:FireRateBonusDurationMax}초)가 부여됩니다. [{s:key_alt_cast}] 키를 누르면 근처의 아군과 함께 이동하며 아군에게도 연사 속도 보너스가 절반으로 부여됩니다."
+		"citadel_ability_void_sphere_t3_desc"		"능력 쿨다운 <span class=\"highlight\">{s:AbilityCooldown}초</span> 감소 및 다시 나타날 때 기본 탄약 <span class=\"highlight\">+{s:BonusClipSizePercent}%</span> 증가"
 		"modifier_void_sphere"					"양자 결속"
 		//"modifier_voidsphere_buff"				"Void Sphere +Fire Rate"
 		"AllyDistance_label"						"아군 거리"
@@ -573,14 +577,16 @@
 		"citadel_ability_self_vacuum_t3_desc"		"특이점으로 매초 적군 최대 체력의 <span class=\"highlight\">{s:DamagePercentHealth}%</span> 추가 피해"
 		"VacuumRadius_label"						"특이점 반경"
 		"VacuumRadius_postfix"					"m"
+		"DamagePercentHealth_label"				"체력 피해 비율"
 		"DamagePercentHealth_postfix"				"%"
 
 		"citadel_ability_nikuman"				"소생의 오로라"
 		"citadel_ability_nikuman_quip"			"자신과 근처의 아군을 치유합니다."
+		"citadel_ability_nikuman_desc"			"능력 집중 시간 동안 자신과 근처의 아군을 <span class=\"highlight\">지속적으로 치유</span>합니다. 대시해도 능력 집중이 중단되지 않습니다."
 		"citadel_ability_nikuman/modifier_nikuman"	"소생의 오로라"
 		//"TechShieldPerSecond_label"				"Spirit Shield Added"
 		"TechShieldPerSecond_postfix"			"(초당)"
-		"citadel_ability_nikuman_t1_desc"			"능력 집중 시간이 다할 때까지 오로라를 시전하면 {s:MovementSpeedBonusDuration}초 동안 이동 속도 보너스 <span class=\"highlight\">+{s:MovementSpeedBonus}m(초당) 증가, 능력 포인트 5점 업그레이드 즉시 획득"
+		"citadel_ability_nikuman_t1_desc"			"능력 집중 시간이 다할 때까지 오로라 시전 시 {s:MovementSpeedBonusDuration}초 동안 이동 속도 보너스 <span class=\"highlight\">+{s:MovementSpeedBonus}m(초당) 증가 및 능력 포인트 5점 업그레이드 시 시전 즉시 이동 속도 증가"
 		"citadel_ability_nikuman_t3_desc"			"<span class=\"highlight\">모든 동작 및 능력 시전</span> 가능, 초당 <span class=\"highlight\">최대 체력의 +{s:HealMaxHealthPercent}%</span> 추가 치유"
 		"HealMaxHealthPercent_label"				"최대 체력 회복"
 		"HealMaxHealthPercent_postfix"			"%(초당)"
@@ -672,6 +678,7 @@
 		"DebuffMoveSlowPct_postfix"				"%"
 		//"PulseDebuffDuration_label"				"Enemy Slow duration"
 		"PulseDebuffDuration_postfix"				"초"
+		"PulseRadius_label"						"파동 반경"
 		"PulseRadius_postfix"						"m"
 "WreckingBallDamage_label"			"피해"
 		"WreckingBallPickupTime_postfix"		"초"
@@ -695,6 +702,8 @@
 		//-----------------------------------------------------------------------------
 		"citadel_ability_lash"					"추격 채찍"
 		"citadel_ability_lash_quip"				"채찍을 사용하여 적군 근처로 이동합니다."
+		"citadel_ability_lash_desc"				"채찍을 적군에게 던져 적군 근처로 <span class=\"highlight\">날아서 이동</span>합니다. 추격 채찍을 사용하면 <span class=\"highlight\">공중 점프와 공중 대시</span> 제한이 초기화됩니다."
+
 		"citadel_ability_lash_t2_desc"			"시전 범위 <span class=\"highlight\">+{s:AbilityCastRange}m</span> 증가, {s:WeaponDamageBonusDuration}초 동안 무기 피해 <span class=\"highlight\">+{s:WeaponDamageBonus}</span> 증가"
 		"citadel_ability_lash_t3_desc"			"보너스 무기 강화 효과로 연사 속도 <span class=\"highlight\">+{s:WeaponFireRateBonus}%</span> 증가"
 		"LashDamage_label"						"추격 채찍 피해"
@@ -750,9 +759,11 @@
 
 		"citadel_ability_lash_ultimate"			"죽음의 강타"
 		"citadel_ability_lash_ultimate_quip"		"적군을 공중으로 잡아 올린 다음 지면으로 내리칩니다."
+		"citadel_ability_lash_ultimate_desc"		"적군을 탐색하여 채찍으로 휘감습니다. 능력 집중 시간이 다하면 휘감은 적군을 <span class=\"highlight\">공중으로 잡아 올려 기절시킨</span> 다음 지면으로 내리칩니다. 휘감은 적군과 내리치기 영역 내에 있는 모든 적군은 <span class=\"highlight\">피해를 입고 둔화</span>됩니다.<br>[{s:iv_attack}] 키를 누르면 휘감은 적군을 원하는 시점에 내리칠 수 있습니다. 탐색 시간 동안 시야 안에 있지 않거나 시전 범위 밖에 있는 적군은 채찍으로 휘감을 수 없습니다."
 		"citadel_ability_lash_ultimate/modifier_lash_grapple_enemy_debuff"		"죽음의 강타"
 		"citadel_ability_lash_ultimate_debuff"	"이동 속도 둔화"
 
+		"ImpactRadius_label"						"충격 반경"
 		"ImpactRadius_postfix"					"m"
 		"LashUltimateChargeTime_label"			"충전 시간"
 		"LashUltimateChargeTime_postfix"			"초"
@@ -781,6 +792,7 @@
 		//-----------------------------------------------------------------------------
 		"citadel_ability_uppercut"				"폭발 어퍼컷"
 		"citadel_ability_uppercut_quip"			"강력한 펀치로 대상을 멀리 날려 버립니다."
+		"citadel_ability_uppercut_desc"			"근처에 있는 대상에 <span class=\"highlight\">약한 근거리 공격</span> 피해를 입히고 <span class=\"highlight\">멀리 날려 버립니다</span>. 대상과 대상이 착지하는 위치에 있는 적군은 <span class=\"highlight\">범위 피해</span>를 입고 <span class=\"highlight\">연사 속도가 둔화</span>됩니다. 아군은 피해를 입지 않습니다."
 		"citadel_ability_uppercut_t2_desc"		"적군 영웅에게 어퍼컷 적중 시 {s:UppercutBuffOnHit}초 동안 <span class=\"highlight\">장전 시간 단축, 사거리 2배 증가, 무기 피해 +{s:BuffBaseWeaponPct}%</span> 증가"
 		"citadel_ability_uppercut_t3_desc"		"적군 영웅에게 어퍼컷 적중 시 <span class=\"highlight\">갈고리 쿨다운 초기화</span> 및 즉시 현재 탄창 총탄<span class=\"highlight\">+{s:ClipSizeBonus}%</span> 증가"
 		//"modifier_citadel_enemy_uppercutted"	"Uppercutted!"
@@ -793,8 +805,10 @@
 		"StunOnLand_postfix"					"초"
 		//"UppercutBuffOnHit_label"				"Boost Duration"
 		"UppercutBuffOnHit_postfix"				"초"
+		"ExplodeDebuffDuration_label"			"연사 속도 둔화 지속 시간"
 		"citadel_ability_sticky_bomb"			"점착 폭탄"
 		"citadel_ability_sticky_bomb_quip"		"적군에게 폭탄을 부착합니다."
+		"citadel_ability_sticky_bomb_desc"		"짧은 퓨즈 시간이 지난 후 <span class=\"highlight\">폭발 피해</span>를 입히는 점착 폭탄을 근처에 있는 적군에게 부착합니다.<br>폭발 피해를 입은 적군 영웅 수에 따라 폭발 피해가 <span class=\"highlight\">+{s:BonusDamagePctPerPlayerHit}%</span>씩 증가하는 폭탄 중첩을 얻습니다. 사망 시 중첩 {s:BonusLossPerDeath}회를 잃습니다.<br>[{s:key_alt_cast}] 키를 길게 누르면 점착 폭탄을 자신에게 시전할 수 있습니다."
 		"citadel_ability_sticky_bomb_t3_desc"	"부착 시 <span class=\"highlight\">{s:DebuffDuration}초</span> 동안 대상 <span class=\"highlight\">무장 해제</span>"
 		"StunTargetOnExplode_label"				"지속 시간"
 		"StunTargetOnExplode_postfix"				"초"
@@ -914,6 +928,7 @@
 		"CatLifetime_postfix"					"초"
 
 		
+		"PounceDebuffRadius_label"					"둔화 반경"
 		"PounceDebuffRadius_postfix"					"m"
 		
 		"PounceFriendlyRechargeTime_postfix"			"초"
@@ -948,7 +963,7 @@
 
 		"ability_power_jump"			"화살 세례"
 		"ability_power_jump_quip"		"공중으로 높이 날아올라 다발 공격을 날립니다."
-		"ability_power_jump_desc"		"공중으로 높이 날아올라 천천히 활공합니다. 공중에 떠 있는 동안에는 <span class=\"highlight\">무기 피해</span>가 증가하고 <span class=\"highlight\">다발 공격</span>이 가능해집니다. <br>대체 능력을 시전하면 활공 높이가 낮아집니다.<br>[{s:in_mantle}] 키를 누르면 활공이 취소됩니다."
+		"ability_power_jump_desc"		"공중으로 높이 날아올라 천천히 활공합니다. 공중에 떠 있는 동안에는 <span class=\"highlight\">무기 피해</span>가 증가하고 <span class=\"highlight\">다발 공격</span>이 가능해집니다. <br>대체 능력 시전을 사용하면 활공 높이가 낮아집니다.<br>[{s:in_mantle}] 키를 누르면 활공이 취소됩니다."
 		"ability_power_jump_t2_desc"	"공중에 떠 있는 동안 무기 피해 <span class=\"highlight\">+{s:WeaponDamageBonus}</span> 증가 및 무기 피해로 {s:SlowDuration}초 동안 이동 속도 <span class=\"highlight\">{s:SlowPercent}%</span> 둔화"
 		"ability_power_jump_t3_desc"	"공중에 떠 있는 동안 총탄 체력 흡수 <span class=\"highlight\">+{s:TechLifestealPercent}%</span> 및 마법 체력 흡수 <span class=\"highlight\">+{s:BulletLifestealPercent}%</span> 증가"
 		//"modifier_citadel_archer_air_raid"			"Power Jump"
@@ -962,7 +977,7 @@
 		"ability_immobilize_trap_desc"		"자동으로 설치되는 <span class=\"highlight\">폭탄을 투척</span>합니다. 폭탄이 설치되고 나서 적군이 반경 안으로 들어오면 트랩이 가동하며 <span class=\"highlight\">이동 불가</span> 상태가 되고 그다음 <span class=\"highlight\">둔화 효과</span>가 적용됩니다."
 		"modifier_citadel_immobilize_trap_immobilize"	"속박 트랩"
 		"modifier_citadel_immobilize_trap_immobilize_debuff" "속박 트랩 약화"
-		"ability_immobilize_trap_t3_desc"	"{s:hero_name} 영웅이 속박 트랩에 걸린 적군에게 입히는 총탄 피해가 <span class=\"highlight\">{s:DebuffDuration}초</span> 동안 <span class=\"highlight\">+{s:BulletVulnerbility}%</span> 증가"
+		"ability_immobilize_trap_t3_desc"	"{s:hero_name}이 속박 트랩에 걸린 적군에게 입히는 총탄 피해가 <span class=\"highlight\">{s:DebuffDuration}초</span> 동안 <span class=\"highlight\">+{s:BulletVulnerbility}%</span> 증가"
 		"ability_guided_arrow"		"부엉이 비행"
 		"ability_guided_arrow_quip"	"부엉이를 날려 보내 멀리 있는 적군에게 피해를 입힙니다."
 		"ability_guided_arrow_desc"	"시전 시간 {s:AbilityCastDelay}초 후 <span class=\"highlight\">조종할 수 있는 영혼 부엉이를 발사</span>합니다. 충돌 시 폭발하며 적군은 <span class=\"highlight\">피해를 입고 기절 상태</span>가 됩니다. [{s:iv_attack}] 키를 길게 누르면 부엉이가 날아가는 속도가 빨라집니다.<br>[{s:in_mantle}] 키를 누르면 폭발합니다. 부엉이 비행으로 적군 영웅을 처치할 때마다 <span class=\"highlight\">영구적으로 마력</span>을 얻습니다."
@@ -973,13 +988,14 @@
 
 		//-----------------------------------------------------------------------------
 		// Lady Geist
-		// hero ghost
+		// hero ghost solider
 		//-----------------------------------------------------------------------------
 		"ability_blood_bomb"				"에센스 폭탄"
 		"ability_blood_bomb_quip"			"체력을 일부 희생하여 피해를 입히는 폭탄을 투척합니다."
 		"ability_blood_bomb_desc"			"<span class=\"highlight\">체력의 일부를 희생</span>하여 폭탄을 투척합니다. 폭탄은 짧은 설치 시간이 지난 후 가동되어 적군에게 <span class=\"highlight\">피해를 입힙니다</span>.<br>자신이 입는 피해 유형은 마법이며 피해를 완화할 수 있습니다."
 		"ability_life_drain"				"체력 흡수"
 		"ability_life_drain_quip"			"일정 시간 동안 적군의 체력을 흡수합니다."
+		"ability_life_drain_desc"			"적군과 연결하여 <span class=\"highlight\">일정 시간 동안 적군의 체력을 흡수</span>하고 <span class=\"highlight\">자신을 치유</span>합니다. 대상은 반드시 시야 내 그리고 최대 연결 거리 내에 있어야 합니다. 체력을 흡수하는 중에 사격하거나 다른 능력을 사용할 수 있지만, 이동 속도는 절반으로 감소합니다.<br><span class=\"highlight\">[대체 능력 시전]을 사용하면 아군 영웅에게 체력을 부여할 수 있습니다</span>.<br><span class=\"highlight\">[{s:in_ability2}]</span> 키를 눌러 취소할 수 있습니다."
 		"ability_life_drain/modifier_life_drain" "체력 흡수"
 		"ability_life_drain/modifier_life_drain_caster" "체력 흡수"
 		"modifier_life_drain_silence"		"침묵"
@@ -998,7 +1014,7 @@
 		"ability_health_swap"					"영혼 교환"
 		"ability_health_swap_quip"			"적군 영웅과 체력을 교환합니다."
 		"ability_health_swap_desc"			"지정한 대상과 <span class=\"highlight\">체력을 교환</span>합니다. 교환 후 적군의 최소 체력 비율과 교환으로 획득하는 최소 체력 양은 적군의 현재 체력에 따라 결정됩니다."
-		"ability_health_swap_t3_desc"			"시전 시, {s:HealthSwapBuffDuration}초 동안 연사 속도 <span class=\"highlight\">+{s:BonusFireRate}%</span> 및 마법 저항 <span class=\"highlight\">+{s:TechResist}%</span> 증가"
+		"ability_health_swap_t3_desc"			"시전 후 {s:HealthSwapBuffDuration}초 동안 연사 속도 <span class=\"highlight\">+{s:BonusFireRate}%</span> 및 마법 저항 <span class=\"highlight\">+{s:TechResist}%</span> 증가"
 		"MinHealthTakenPct_label"				"최소 획득 체력"
 		"MinHealthTakenPct_postfix"			"%"
 		//"modifier_blood_exchange"				"Blood Exchange"
@@ -1146,7 +1162,7 @@
 
 		"ability_burrow_t1_desc"	"굴파기 시간 <span class=\"highlight\">+{s:AbilityChannelTime}초</span> 증가"
 		"ability_burrow_t2_desc"	"회전 공격 초당 피해 <span class=\"highlight\">+{s:DPS}</span> 및 반경 +{s:Radius} 증가"
-		"ability_burrow_t3_desc"	"쿨다운 <span class=\"highlight\">{s:AbilityCooldown}</span> 감소 및 이동 속도 <span class=\"highlight\">+{s:BonusMoveSpeed}m(초당)</span> 증가"
+		"ability_burrow_t3_desc"	"쿨다운 <span class=\"highlight\">{s:AbilityCooldown}</span>초 감소 및 이동 속도 <span class=\"highlight\">+{s:BonusMoveSpeed}m(초당)</span> 증가"
 
 		"ability_intimidate"			"도발"
 		"ability_intimidate_quip"		"근처의 적군에게 피해를 입히고 체력을 회복합니다."
@@ -1164,6 +1180,7 @@
 		"ability_ult_combo"				"콤보"
 		"ability_ult_combo_quip"		"적군 영웅을 제자리에 묶어두고 난타합니다."
 		"ability_ult_combo_desc"		"능력 집중 시간 동안 적군 영웅을 제자리에 묶어두고 <span class=\"highlight\">기절시킨 뒤 피해를 입힙니다</span>. 콤보 시전 중에 적군 영웅이 사망하면 영구적으로 일정량의 최대 체력을 얻습니다."
+		"ability_ult_combo_t1_desc"		"콤보 시전 중 총탄 저항 <span class=\"highlight\">+{s:ComboBulletResist}%</span> 증가"
 		"ability_ult_combo_t2_desc"		"콤보 지속 시간 <span class=\"highlight\">+{s:AbilityChannelTime}초</span> 증가"
 		"ability_ult_combo_t3_desc"		"초당 피해 <span class=\"highlight\">+{s:DPS}</span> 및 체력 흡수 <span class=\"highlight\">{s:LifeStealPercentOnHit}%</span> 증가"
 		"LifestealPercentOnHit_label"		"체력 흡수"
@@ -1171,7 +1188,8 @@
 		"BonusHealthOnKill_label"			"처치당 최대 체력 보너스"
 		//"GrabExtraTargetRange_label"		"Extra Target Range"
 		"GrabExtraTargetRange_postfix"	"m"
-"AOERadius_postfix"						"m"
+"AOERadius_label"							"충격 반경"
+		"AOERadius_postfix"						"m"
 
 		"BleedDamage_label"						"출혈 피해"
 		"BleedDuration_postfix"					"초"
@@ -1312,6 +1330,7 @@
 		"WhirlwindDuration_label"			"총탄 회피 지속 시간"
 		"WhirlwindDuration_postfix"		"초"
 		"SlowAuraPercent_postfix"			"%"
+		"SlowAuraRadius_label"			"둔화 반경"
 		"SlowAuraRadius_postfix"			"m"
 		"MoveSpeedDuration_prefix"		"+"
 		"MoveSpeedDuration_label"			"이동 속도"
@@ -1694,6 +1713,7 @@
 		"AbilitySpeedPct_prefix"				"+"
 		"AbilitySpeedPct_postfix"				"%"
 
+		"citadel_ability_healing_slash_quip"	"근처의 적군에게 피해를 입히고 체력을 회복합니다."
 		"HealMaxHealth_postfix"					"%(최대 체력 기준)"
 		//-----------------------------------------------------------------------------
 
@@ -1781,6 +1801,7 @@
 		"viscous_telepunch""끈적이 펀치"
 		"viscous_telepunch_desc"						"지정한 위치에서 솟아오르는 <span class=\"highlight\">주먹</span>을 만들어 냅니다. 해당 위치에 있는 유닛은 공중으로 떠오릅니다. 적군의 경우 <span class=\"highlight\">피해를 입고</span> 짧은 시간 동안 대시 거리가 줄어들며, <span class=\"highlight\">이동 속도가 둔화됩니다</span>. 피해 유형은 <span class=\"highlight\">약한 근거리 공격</span>으로 간주됩니다."
 		"viscous_telepunch_quip"						"거대한 주먹으로 적군을 강타합니다."
+		"viscous_telepunch_t2_desc"						"피해 +{s:Damage} 증가 및 이동 속도 +{s:SlowPercent}% 둔화"
 		"ImpactDuration_label"							"둔화 지속 시간"
 		"ImpactDuration_postfix"						"초"
 		//"BonusDamageAmp_label"							"Increased Damage"
@@ -1949,6 +1970,7 @@
 		
 		"citadel_weapon_hero_astro_set"				"오컬트 45"
 		"citadel_weapon_hero_shiv_set"				"버스티드 플러시"		
+		"citadel_weapon_hero_mirage_set"			"맹세의 증표"
 "citadel_ability_melee_bull"			"근거리 공격"
 		"citadel_ability_melee_gigawatt"		"근거리 공격"
 		"citadel_ability_melee_engineer"		"근거리 공격"

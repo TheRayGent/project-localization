@@ -449,7 +449,7 @@
 		"BonusBaseWeaponDamageTaken_postfix"	" %"
 
 		//Fleetfoot
-		"upgrade_fleetfoot_boots_active_desc"	"Obtienes <span class=\"highlight\">velocidad de movimiento</span> y <span class=\"highlight\">armadura</span> adicionales."
+		"upgrade_fleetfoot_boots_active_desc"	"Obtienes <span class=\"highlight\">velocidad de movimiento</span> y <span class=\"highlight\">munición</span> adicionales."
 		"upgrade_fleetfoot_boots_passive_desc"	"Elimina la penalización de <span class=\"highlight\">velocidad de movimiento</span> al disparar."
 		"modifier_fleetfoot_boots"				"Botas rápidas"
 
@@ -599,7 +599,7 @@
 		"modifier_acolytes_glove_triggered"		"Golpe espiritual"
 
 		//Melee Charge
-		"upgrade_melee_charge_desc"				"Tu próximo ataque <span class=\"highlight\">cuerpo a cuerpo pesado</span> contra un enemigo <span class=\"highlight\">le inflige más daño</span> y <span class=\"highlight\">recarga tu arma instantáneamente</span>, o te otorga <span class=\"highlight\">+100 % de armadura adicional</span>.<br>Solo se activa cuando la munición adicional no está al máximo."
+		"upgrade_melee_charge_desc"				"Tu próximo ataque <span class=\"highlight\">cuerpo a cuerpo pesado</span> contra un enemigo <span class=\"highlight\">le inflige más daño</span> y <span class=\"highlight\">recarga tu arma instantáneamente</span>, o te otorga <span class=\"highlight\">+100 % de munición adicional</span>.<br>Solo se activa cuando la munición adicional no está al máximo."
 		"MeleeDistanceScale_label"				"Pelea cuerpo a cuerpo pesada a distancia"
 		"MeleeDistanceScale_postfix"			" %"
 		"BonusHeavyMeleeDamage_prefix"			"+"

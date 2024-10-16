@@ -181,6 +181,7 @@
 		"citadel_ability_shieldedsentry"		"Torretta"
 		"citadel_ability_shieldedsentry_quip"	"Piazzi una torretta automatica"
 		"citadel_ability_shieldedsentry_desc"	"Piazzi una torretta che <span class=\"highlight\">spara ai nemici in automatico</span>. La torretta scompare dopo un periodo limitato.<br>Alle torrette viene assegnato {s:TurretHealthScaling}% della salute max di {s:hero_name} e {s:TechResist}% di resistenza spirituale. Le torrette infliggono meno danni ai soldati e agli obiettivi."
+		"citadel_ability_shieldedsentry_t1_desc"	"Le torrette applicano <span class=\"highlight\">+{s:MoveSlowPercent}% di rallentamento del movimento"
 		"citadel_ability_shieldedsentry_t2_desc"	"<span class=\"highlight\">+{s:TurretAttackRange} m</span> di gittata d'attacco e <span class=\"highlight\">+{s:AttackSpeedMult}%</span> di frequenza di fuoco della torretta"
 
 		//"citadel_ability_shieldedsentry/modifier_bullet_resist_reduction_stack"		"Sentry Bullet Resist Debuff"
@@ -393,7 +394,7 @@
 		"PulseGrenadeDamageAmplificationPerStack_label"						"Ampl. dei danni per istanza"
 		"PulseGrenadeDamageAmplificationPerStack_postfix"						"%"
 		"PulseGrenadeDebuffDuration_label"				"Durata dell'amplificazione"
-		"PulseGrenadeDebuffDuration_postfix"						"s"
+		"PulseGrenadeDebuffDuration_postfix"						" s"
 		"modifier_pulsegrenade_magic_resist_debuff"		"Granata pulsante"
 
 		"modifier_citadel_chrono_pulse_grenade_debuff"					"Granata pulsante"
@@ -433,7 +434,7 @@
 		//"CooldownOnMiss_Label"					"Cooldown on miss"
 		"CooldownOnMiss_postfix"					" s"
 		//"AllyCooldownReduction_label"				"Ally Cooldown Reduction"
-		"AllyCooldownReduction_postfix"			"s"
+		"AllyCooldownReduction_postfix"			" s"
 		"SwapTotalDamage_label"					"Danni da Scambio"
 		//"SwapTotalHeal_label"						"Heal Over Swap Time"
 		"SpellLifesteal_label"					"Prosciugamento della salute spirituale"
@@ -448,7 +449,7 @@
 		//"modifier_chrono_sphere_friendly"			"Time Accelerated"
 		//"SphereRadius_label"						"Sphere Radius"
 		//"FriendlyTimeBoost_label"					"Time acceleration"
-		"SphereRadius_postfix"					"m"
+		"SphereRadius_postfix"					" m"
 		//"ChargeUpTime_label"						"Charge Time"
 		"ChargeUpTime_postfix"					" s"
 		//"ChronoTimeScale_label"					"Paradox Time Acceleration"
@@ -736,7 +737,7 @@
 		"DamageBonusFixedPerStack_label"					"Danni da arma"
 		"DamageBonusFixedPerStack_prefix"					"+"
 		"DamageBonusFixedPerStack_postfix"					" per istanza"
-		"ability_stacking_damage/modifier_passive_haze_stacking_damage/slow"			"Rallentato"
+		"ability_stacking_damage/modifier_passive_haze_stacking_damage/slow"			"Rallentamento"
 
 		"ability_smoke_bomb"			"Bomba fumogena"
 		"ability_smoke_bomb_quip"		"Scompari dalla vista"
@@ -750,10 +751,13 @@
 
 		"ability_bullet_flurry"			"Danza balistica"
 		"ability_bullet_flurry_quip"	"Scarichi una raffica di pallottole tutt'intorno"
-"BonusWeaponDamage_prefix"				"+"
+		"ability_bullet_flurry_desc"	"Scarichi una raffica di pallottole, <span class=\"highlight\">sparando con la tua arma</span> ai nemici vicini con <span class=\"highlight\">precisione assoluta</span>."
+		//"ability_bullet_flurry/modifier_citadel_bullet_flurry"		"Bullet Flurry"
+		"ability_bullet_flurry_t3_desc"	"Ottieni <span class=\"highlight\">+{s:EvasionPercent}%</span> di elusività alle pallottole e <span class=\"highlight\">+{s:DanceMoveSpeed} m/s</span> di velocità danzante"
+		"BonusWeaponDamage_prefix"				"+"
 		"BonusWeaponDamage_label"				"Danni balistici"
 		"DanceMoveSpeed_label"			"Velocità danzante"
-		"DanceMoveSpeed_postfix"		"m/s"
+		"DanceMoveSpeed_postfix"		" m/s"
 		//-----------------------------------------------------------------------------
 		// Sumo // dynamo
 		//-----------------------------------------------------------------------------
@@ -927,7 +931,7 @@
 		"ability_warden_riot_protocol_quip"		"Emetti impulsi che rubano salute ai nemici"
 		"ability_warden_riot_protocol_desc"		"Dopo una carica di {s:AbilityCastDelay} s, <span class=\"highlight\"> emetti degli impulsi che danneggiano i nemici e ti guariscono</span> in base ai danni inflitti. <br>Durante la canalizzazione di Ultima spiaggia, la tua <span class=\"highlight\">resistenza alle pallottole</span> aumenta significativamente."
 		"modifier_warden_riot_protocol"			"Ultima spiaggia"
-		"modifier_warden_riot_protocol_enemy_debuff"	"Rallentato"
+		"modifier_warden_riot_protocol_enemy_debuff"	"Rallentamento"
 		"HealthStealPctHero_label"				"Prosciugamento salute (eroi)"
 		"HealthStealPctHero_postfix"				"%"
 
@@ -980,7 +984,7 @@
 		"EnemyMoveSlowDuration_label"			"Durata del rallentamento del nemico"
 		"EnemyMoveSlowDuration_postfix"		" s"
 		"ScrapDamage_label"					"Danni"
-		"ability_scrap_blast/modifier_scrap_blast_debuff"		"Rallentato"
+		"ability_scrap_blast/modifier_scrap_blast_debuff"		"Rallentamento"
 
 		"ability_wrecker_ultimate"			"Flusso magnetico"
 		"ability_wrecker_ultimate_desc"		"Qualunque nemico su cui Wrecker posa lo sguardo <span class=\"highlight\">viene afferrato</span>, subisce una <span class=\"highlight\">paralisi</span> e viene tenuto in alto. Tutti i nemici catturati <span class=\"highlight\">sono storditi</span> e <span class=\"highlight\">subiscono danni</span> al termine dell'effetto. Vengono <span class=\"highlight\">risparmiati</span> tutti i PNG afferrati."
@@ -1020,13 +1024,13 @@
 		"citadel_ability_lash_down_strike_desc"		"Colpisci il suolo e <span class=\"highlight\">danneggi i nemici</span> che ti stanno di fronte. Se lanci Attacco sismico mentre sei in volo, ti lanci velocemente verso il suolo. I danni aumentano più lentamente dopo i 25 m."
 		"StompDamagePerMeterPrimary_label"					"Danni al metro"
 		"citadel_ability_lash_down_strike_t2_desc"	"I nemici colpiti sono <span class=\"highlight\">scagliati in aria</span> e rallentati di <span class=\"highlight\">{s:EnemySlowPct}%</span> per <span class=\"highlight\">{s:SlowDuration} s</span>"
-		"citadel_ability_lash_down_strike_t3_desc"	"+110 % di <span class=\"highlight\">danni al metro</span> e aumento migliorato"
+		"citadel_ability_lash_down_strike_t3_desc"	"+110% di <span class=\"highlight\">danni al metro</span> e aumento migliorato"
 
 
 		// Custom Tool Tip +(8.75/7)% damage
 
 
-		"lash_down_strike_slow_modifier"			"Rallentato"
+		"lash_down_strike_slow_modifier"			"Rallentamento"
 
 		//"citadel_ability_shoryuken"				"Shoryuken"
 		//"citadel_ability_shoryuken_desc"			"Lash performs a rising uppercut, knocking enemies in the air in front of him. Can be used while in the air."
@@ -1154,12 +1158,12 @@
 		"StunOnLand_postfix"					" s"
 		//"UppercutBuffOnHit_label"				"Boost Duration"
 		"UppercutBuffOnHit_postfix"				" s"
-		"ExplodeDebuffDuration_label"			"Durata del rallentamento della frequenza di fuoco"
+		"ExplodeDebuffDuration_label"			"Durata della riduzione della frequenza di fuoco"
 		"ExplodeDebuffDuration_postfix"			" s"
 
 		"citadel_ability_sticky_bomb"			"Bomba adesiva"
 		"citadel_ability_sticky_bomb_quip"		"Piazzi una bomba su un'unità"
-		"citadel_ability_sticky_bomb_desc"		"Attacca a un bersaglio vicino una bomba adesiva che infligge <span class=\"highlight\">danni esplosivi</span> dopo un breve timer del detonatore. <br>Ottieni un'istanza della bomba che infligge <span class=\"highlight\">+{s:BonusDamagePctPerPlayerHit}% di danni da bomba</span> per ogni eroe nemico colpito (max {s:BonusMaxStacks} istanze). Perdi {s:BonusLossPerDeath} istanze alla morte. <br>Tieni premuto [{s:key_alt_cast}] per utilizzare una bomba adesiva su di te."
+		"citadel_ability_sticky_bomb_desc"		"Attacchi a un bersaglio vicino una bomba adesiva che infligge <span class=\"highlight\">danni esplosivi</span> dopo un breve timer del detonatore. <br>Ottieni un'istanza della bomba che infligge <span class=\"highlight\">+{s:BonusDamagePctPerPlayerHit}% di danni da bomba</span> per ogni eroe nemico colpito. Perdi {s:BonusLossPerDeath} istanze alla morte. <br>Tieni premuto [{s:key_alt_cast}] per utilizzare una bomba adesiva su di te."
 		"modifier_citadel_sticky_bomb_attached"	"Hai la bomba"
 		"citadel_ability_sticky_bomb_t3_desc"	"Quando viene applicata, <span class=\"highlight\">disarma</span> il bersaglio per <span class=\"highlight\">{s:DebuffDuration} s</span>"
 		"StunTargetOnExplode_label"				"Durata"
@@ -1335,7 +1339,7 @@
 		"ability_nano_pounce_quip"				"Salta sui tuoi nemici"
 		"ability_nano_pounce_desc"				"<span class=\"highlight\">Salti</span> su un bersaglio per infliggere <span class=\"highlight\">danni corpo a corpo leggeri</span> e <span class=\"highlight\">rallentamento</span> sui nemici vicini. <br>Puoi usare <span class=\"highlight\">Balzo su un secondo bersaglio</span> se lo usi entro <span class=\"highlight\">{s:DoublePounceTime} s</span>"
 		"ability_nano_pounce_t1_desc"			"<span class=\"highlight\">+{s:SlowDuration} s</span> di durata del rallentamento"
-		"ability_nano_pounce_t2_desc"			"Ricarica fino a <span class=\"highlight\">{s:ActiveReloadPercent}%</span> delle tue munizioni e applica <span class=\"highlight\">+{s:FireRateSlow}%</span> di rallentamento della frequenza di fuoco."
+		"ability_nano_pounce_t2_desc"			"Ricarica fino a <span class=\"highlight\">{s:ActiveReloadPercent}%</span> delle tue munizioni e applica <span class=\"highlight\">+{s:FireRateSlow}%</span> di riduzione della frequenza di fuoco."
 		"ability_nano_pounce_t3_desc"			"<span class=\"highlight\">+{s:Damage}</span> danni e <span class=\"highlight\">+{s:AbilityCharges}</span> di carica per l'abilità."
 		"PounceDebuffRadius_label"					"Raggio del rallentamento"
 		"PounceDebuffRadius_postfix"					" m"
@@ -1419,7 +1423,7 @@
 		"ChargedShotBonus_prefix"			"+"
 		"ChargedShotBonus_postfix"			"%"
 		"ability_power_jump/modifier_citadel_archer_air_raid/modifier_slow_base"			"Pallottole rallentanti"
-		"ability_power_jump/modifier_air_raid/modifier_slow_base"			"Rallentato"
+		"ability_power_jump/modifier_air_raid/modifier_slow_base"			"Rallentamento"
 
 
 		"ability_immobilize_trap"			"Trappola immobilizzante"
@@ -1440,7 +1444,7 @@
 
 		//-----------------------------------------------------------------------------
 		// Lady Geist
-		// hero ghost
+		// hero ghost solider
 		//-----------------------------------------------------------------------------
 		"ability_blood_bomb"				"Bombessenza"
 		"ability_blood_bomb_quip"			"Sacrifichi un po' di salute per lanciare una bomba potente"
@@ -2499,7 +2503,7 @@
 		//"ability_teammate_armor_buff_t2_desc"	"Adds health regen effect <span class=\"highlight\">+{s:HealthRegenBonus}</span>"
 		//"ability_teammate_armor_buff_t3_desc"	"Bullet Shield <span class=\"highlight\">+{s:BulletShieldHealth}</span> and Spirit Shield <span class=\"highlight\">+{s:TechShieldHealth}</span>"
 		//"SpeedBonus_label"						"Movement Speed Bonus"
-		"SpeedBonus_postfix"					"m/s"
+		"SpeedBonus_postfix"					" m/s"
 
 		//"ability_teammate_armor_buff/modifier_consumed_armor_buff"	"Protective Shell"
 
@@ -2529,7 +2533,7 @@
 		"viscous_goo_grenade_bounce_desc"				"Colpi multipli allo stesso bersaglio infliggono meno danni."
 		"viscous_goo_grenade_quip"						"Danneggi i nemici e sporchi un po' tutto"
 		"viscous_goo_grenade_puddle_desc"				"Le pozzanghere di melma rimangono sul terreno e applicano una <span class=\"highlight\">riduzione della velocità di movimento</span> ai nemici che vi camminano sopra."
-		"viscous_goo_grenade/modifier_viscous_goo_grenade_debuff"		"Rallentato"
+		"viscous_goo_grenade/modifier_viscous_goo_grenade_debuff"		"Rallentamento"
 		"viscous_goo_grenade_t2_desc"					"+{s:Damage} danni e +{s:Radius} m di raggio"
 		"viscous_goo_grenade_t3_desc"					"Rimbalza {s:MaxBounces} volte"
 		"MaxBounces_label""Rimbalzi"

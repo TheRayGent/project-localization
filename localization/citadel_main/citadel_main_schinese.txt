@@ -82,6 +82,9 @@
 		"GameUI_Disconnect_ReplayIncompatible"		"回放不兼容。"
 		"GameUI_Disconnect_ConnectionTimedout"		"无法与游戏服务器建立连接。"
 		"GameUI_Disconnect_ServerIncompatible"		"服务器版本不兼容。"
+		"Player_DisconnectReason_Idle"				"与服务器断开连接。你的挂机时间太长。"
+		
+
 		"GameUI_Disconnect_LocalProblem_ManyRelays"	"已失去连接，此前已尝试与不同地区的多个中继服务器连接。最有可能的原因是你的网络连接出现问题。"
 		"GameUI_Disconnect_LocalProblem_HostedServerPrimaryRelay"	"游戏服务器已与客户端使用的主中继服务器失去连接。"
 		"GameUI_Disconnect_LocalProblem_NetworkConfig"	"请检查网络连接。无法从 CDN 下载网络配置文件。"
@@ -276,7 +279,7 @@
 		"Citadel_MatchDetails_ServerError"							"服务器错误"
 
 		"Citadel_Hud_Paused"										"游戏已暂停"
-		"Citadel_Hud_Pauser"										"，暂停者：{s:pauser}"
+		"Citadel_Hud_Pauser"										"{s:pauser}暂停了比赛"
 		"Citadel_Hud_Unpausing"										"游戏即将结束暂停"
 		"Citadel_Notification_Paused_Title"							"已暂停"
 		"Citadel_Notification_Paused_Message"						"游戏已暂停"
@@ -299,6 +302,7 @@
 		"Citadel_Hud_OutOfAmmo"										"弹药用尽"
 		"Citadel_Hud_LowAmmo"										"弹药量低"
 		"Citadel_Hud_NotEnoughEnergy"								"能量不足"
+		"Citadel_Hud_CastTimeRemaining"								"{s:time_remaining} 秒"
 		"Citadel_Hud_DPS"											"DPS {i:dps}"
 		"Citadel_Hud_RespawnIn"										"重生倒计时："
 		"Citadel_Hud_RideZipLine"									"按住 [ {s:in_zipline} ] 搭乘"
@@ -460,6 +464,14 @@
 
 		"Citadel_Play_MatchmakingOfflineTitle"				"匹配已关闭"
 		"Citadel_Play_MatchmakingOfflineText"				"匹配功能当前已关闭。请在安排的游戏测试时间回来使用。"
+
+		"Citadel_Play_RankedMatchmakingOfflineTitle"		"段位匹配已关闭"
+		"Citadel_Play_RankedMatchmakingOfflineText"			"段位匹配功能当前已关闭。请在你选择的游戏测试时间回来使用。"
+
+		"Citadel_Play_RankedNoSchedule"						"未选择日程"
+		"Citadel_Play_RankedNoScheduleDesc"					"你必须选择一个已安排的时间才能进行段位比赛。"
+
+		"Citadel_RankedGames_PlayedQualified"				"获得排名资格"
 
 		"Citadel_Play_BotsOfflineTitle"				"机器人暂时离线"
 		"Citadel_Play_BotsOfflineText"				"机器人暂时禁用，请稍后再试。"
@@ -672,6 +684,7 @@
 		"Citadel_Party_InviteSent"									"邀请已发送"
 
 		"Citadel_RosterMode_Party_Matchmaking"						"玩 Deadlock"
+		"Citadel_RosterMode_Party_RankedMatchmaking"				"玩段位比赛"
 		"Citadel_RosterMode_Party_CoopBotMM"						"与机器人对战"
 		"Citadel_RosterMode_Party_PrivateBotEasy"					"私人组队人机对战 - 简单"
 		"Citadel_RosterMode_Party_PrivateBotMedium"					"私人组队人机对战 - 中等"
@@ -682,6 +695,7 @@
 		"Citael_PrivateLobbyModal_JoinCode"							"通过代码加入现有大厅"
 
 		"Citadel_RosterMode_Matchmaking"							"玩 Deadlock"
+		"Citadel_RosterMode_RankedMatchmaking"						"玩段位比赛"
 		"Citadel_RosterMode_CoopBotMM"								"与机器人对战"
 		"Citadel_RosterMode_PrivateBotEasy"							"私人人机对战 - 简单"
 		"Citadel_RosterMode_PrivateBotMedium"						"私人人机对战 - 中等"
@@ -853,6 +867,9 @@
 
 		"Citadel_Team1_Name"							"琥珀之手"
 		"Citadel_Team2_Name"							"蓝宝石之焰"
+		"Citadel_Team1_Name_Uppercase"					"琥珀之手"
+		"Citadel_Team2_Name_Uppercase"					"蓝宝石火焰"
+
 		"Citadel_Mod_Tooltip_Passive"									"被动"
 		"Citadel_Mod_Tooltip_Active"									"主动"
 		"Citadel_Mod_Tooltip_Innate"									"先天"
@@ -1016,15 +1033,6 @@
 		"Citadel_Playtest_JoinedDiscord"							"已加入 Discord"
 		"Citadel_Playtest_GoToForum"								"前往论坛"
 
-		"Citadel_RankedSchedule_1"									"美国西部"
-		"Citadel_RankedSchedule_2"									"美国东部"
-		"Citadel_RankedSchedule_10"									"欧洲西部"
-		"Citadel_RankedSchedule_11"									"欧洲东部"
-		"Citadel_RankedSchedule_13"									"俄罗斯中部"
-		"Citadel_RankedSchedule_20"									"中国"
-		"Citadel_RankedSchedule_21"									"日本/韩国"
-		"Citadel_RankedSchedule_22"									"东澳大利亚"
-
 		"Citadel_StartMatchmaking_ErrorTitle"						"错误"
 		"Citadel_StartMatchmaking_AlreadyFindingMatch"				"无法进入匹配，你已经在尝试寻找匹配。"
 		"Citadel_StartMatchmaking_PartyMemberInLobby"				"无法进入匹配，你已经在游戏中。请先离开这局游戏。"
@@ -1054,6 +1062,7 @@
 		"Citadel_StartMatchmaking_RankedNotUnlocked"				"您尚未解锁段位匹配"
 		"Citadel_StartMatchmaking_NoRankedWhileInLowPri"			"处于低优先级时不允许进行段位匹配"
 		"Citadel_StartMatchmaking_NoRankedWhileCommsBanned"			"通讯封禁期间不允许进行段位匹配"
+		"Citadel_StartMatchmaking_NoRankedWhileReportBanned"		"举报封禁期间不允许进行段位匹配"
 		"Citadel_StartMatchmaking_TooManyPlayersOnTeam"				"同队玩家过多"
 		"Citadel_StartMatchmaking_UnableToFillTeam"					"无法在当前玩家队伍的基础上创建有效队伍"
 		"Citadel_StartMatchmaking_InvalidTeam"						"一名用户为此游戏模式选择了无效的队伍"
@@ -1287,6 +1296,8 @@
 		"Citadel_Profile_Stats_Denies"							"反补数"		
 		"Citadel_Profile_Stats_Healing"							"治疗量"		
 		"Citadel_Profile_Stats_Networth"						"收集的魂魄"
+		"Citadel_Profile_Stats_Value_Networth_Low"				"{i:game_networth}"
+		"Citadel_Profile_Stats_Value_Networth_High"				"{i:game_networth}k"
 
 		"Citadel_MatchPage_Prev"								"上一页"
 		"Citadel_MatchPage_Next"								"下一页"
@@ -1319,6 +1330,7 @@
 		"Citadel_MatchDetails_Healing"							"治疗量"
 		"Citadel_MatchDetails_Victory"							"获胜"
 		"Citadel_MatchDetails_Defeat"							"战败"
+		"Citadel_MatchDetails_Team_Result"						"<span class=\"TeamName h2 display\">{s:team_name}</span><br><span class=\"OutcomeLabel h1 display\">{s:outcome_label}</span>"
 		"Citadel_MatchDetails_Loading"							"正在载入比赛详情"
 		"Citadel_MatchDetails_MatchID"							"比赛 {s:match_id}"
 		"Citadel_MatchDetails_ViewScoreboard"					"查看记分板"
@@ -2092,6 +2104,7 @@
 		"citadel_keybind_mantle"						"跳跃/攀爬"
 		"citadel_keybind_attack"						"开火"
 		"citadel_keybind_ads"							"缩放"
+		"citadel_keybind_reset_camera"					"重置视角"
 		"citadel_keybind_ping"							"信号"
 		"citadel_keybind_quick_response"				"快速回复"
 		"citadel_keybind_extra_info"					"额外信息"
@@ -2327,12 +2340,12 @@
 		"Citadel_LaneColorBlue"							"蓝色"
 		"Citadel_LaneColorYellow"						"黄色"
 		"Citadel_LaneColorGreen"						"绿路"
+		"Citadel_LaneColorUnassigned"					"未分配"
 		"Citadel_TeamMsg_EnemyBossKilledTitle"			"敌方{s:lane_color} {i:boss_tier} 级"
 		"Citadel_TeamMsg_BossKilledTitle"				"己方{s:lane_color} {i:boss_tier} 级"
 		"Citadel_TeamMsg_BossKilledMessage"				"已摧毁"
 		"Citadel_TeamMsg_EnemyTitanKilledTitle"			"敌方守护神"
 		"Citadel_TeamMsg_TitanKilledTitle"				"你的守护神"
-
 
 		"Citadel_FlexSlot_Title"						"弹性栏位已解锁"
 		"Citadel_FlexSlotUnlockedAllTier1"				"你解锁了一个弹性栏位，因为你杀死了所有<span class=\"FlexSlotObjectiveName\">敌方卫士</span>"
@@ -2393,6 +2406,8 @@
 		"Citadel_Confirm_Discord_InMatch_Body"		"请于不在队伍中及不在匹配中时领取你的 Discord 链接"
 		"Citadel_Dashboard_Recommended"				"推荐"
 
+		"Citadel_Commend_Toast"						"{s:commender}（{s:commender_hero}）称赞了你！"
+
 		"menu_exit_db_page"							"返回"
 		"menu_settings"								"设置"
 		"menu_profile"								"个人资料"
@@ -2448,20 +2463,50 @@
 		"menu_ranked_select_schedule"				"选择日程"
 		"menu_ranked_view_schedules"				"查看所有日程"
 		"menu_ranked_set_schedule"					"设置日程"
-		"menu_ranked_explainer_button"				"什么是段位比赛？"
+		"menu_ranked_week_dates"					"{t:s:start_day} - {t:s:end_day}"
 		"Citadel_SetSchedule_Failed"				"设置日程出错"
 		"Citadel_SetSchedule_FailedToSetSchedule"	"无法设置日程。请稍后再试。"
 		"Citadel_SetSchedule_AlreadySet"			"无法设置日程，因为你已设置日程。"
 		"Citadel_SetSchedule_Success"				"成功"
+		"Citadel_SetSchedule_LocalTimes"			"所有日程均以当地时间显示"
+		"Citadel_SetSchedule_RegionWithIndex"		"{s:region_name} {d:region_index}"
 		"Citadel_SetSchedule_Selected"				"已选择"
 		"Citadel_SetSchedule_SetSuccessfully"		"日程设置成功"
 		"Citadel_ranked_scheduleModal_title"		"段位日程"
 		"Citadel_ranked_scheduleModal_desc"			"选择最适合你首选游戏时间的段位窗口。<br><br>无论你选择了什么时间窗口，都始终会在最近的可用服务器上进行游戏。"
 		"Citadel_ranked_scheduleModal_warning"		"注意：你选择此段位会话的日程后，在下一个会话前将无法对其进行更改。"
 		"Citadel_ranked_open"						"现已开放"
-		"Citadel_ranked_closed"						"已关闭"
 		"Citadel_ranked_comingsoon"					"首次段位比赛将于 10 月 15 日周二晚上 8 时（GMT）开始"
-		"Citadel_ranks_rank0"						"未入门"
+		"Citadel_ranked_schedule_explainer"			"段位只在某些时段内可用，在开始游戏前，你必须选择最适合你日程的时间设置。"
+
+		"Citadel_ranked_explainer_button"				"什么是段位比赛？"
+		"Citadel_ranked_explainer_title"				"段位匹配"
+		"Citadel_ranked_howitworks_title"				"运作机制是什么？"
+		"Citadel_ranked_rankedmedals"					"段位："
+
+		"Citadel_ranks_rank0"						"无名者"
+		"Citadel_ranks_rank1"						"启灵者"
+		"Citadel_ranks_rank2"						"逐真者"
+		"Citadel_ranks_rank3"						"炼金术士"
+		"Citadel_ranks_rank4"						"奥术宗师"
+		"Citadel_ranks_rank5"						"法祭圣徒"
+		"Citadel_ranks_rank6"						"神域密使"
+		"Citadel_ranks_rank7"						"天命先知"
+		"Citadel_ranks_rank8"						"苍穹统御"
+		"Citadel_ranks_rank9"						"幽虚圣主"
+		"Citadel_ranks_rank10"						"凌世帝君"
+		"Citadel_ranks_rank11"						"不朽至尊"
+
+		"Citadel_subranks_1"						"I"
+		"Citadel_subranks_2"						"II"
+		"Citadel_subranks_3"						"III"
+		"Citadel_subranks_4"						"IV"
+		"Citadel_subranks_5"						"V"
+		"Citadel_subranks_6"						"VI"
+
+		"Citadel_rank_phase_example"				"10 月 15 - 21 日 | 2024"
+
+
 		"item_info_abilities"						"技能"
 		"item_info_flex_slots"						"弹性栏位"
 		"item_info_active"							"主动"
@@ -2720,7 +2765,7 @@
 		"AbilityButtonHint_CancelWall"				"移墙"
 		"AbilityButtonHint_DetonateDjinnBomb"		"引爆镇尼炸弹"
 		//"AbilityButtonHint_CastShadowRedemption"	"Resurrect with Shadow Redemption"
-		"AbilityButtonHint_StopLifeDrain"			"停止生命汲取"
+		"AbilityButtonHint_StopLifeDrain"			"停止生命吸取"
 		"AbilityButtonHint_SpeedBoost"				"移动加速"
 		"AbilityButtonHint_GuidedArrowSpeed"		"箭矢加速"
 		"AbilityButtonHint_GuidedArrowRelease"		"放箭"
@@ -2758,6 +2803,8 @@
 		"AbilityButtonHint_AltCastRestorativeGoo"		"将自己放进立方"
 		"AbilityButtonHint_AltCastStickyBomb"		"炸自己"
 		"AbilityButtonHint_CastIceDome"				"施放冰冻庇护"
+		"AbilityButtonHint_CastLifeDrain"			"吸取敌人生命值"
+		"AbilityButtonHint_AlotCastLifeDrain"				"治疗友军"
 		
 		//-----------------------------------------------------------------------------
 		// Guided Bot Match

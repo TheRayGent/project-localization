@@ -181,6 +181,7 @@
 		"citadel_ability_shieldedsentry"		"Mini Taret"
 		"citadel_ability_shieldedsentry_quip"	"Otomatik bir taret konuşlandırın."
 		"citadel_ability_shieldedsentry_desc"	"<span class=\"highlight\">Düşmanlara otomatik olarak ateş eden</span> mini bir taret kurun. Taretin hizmet süresi sınırlıdır.<br>Taretler, {s:hero_name}'in maksimum sağlığının %{s:TurretHealthScaling} kadarına sahiptir ve %{s:TechResist} büyü direnci vardır. Askerlere ve hedeflere azaltılmış hasar verirler."
+		"citadel_ability_shieldedsentry_t1_desc"	"Taretler <span class=\"highlight\">+%{s:MoveSlowPercent}</span> hareket yavaşlatması uygular."
 		"citadel_ability_shieldedsentry_t2_desc"	"<span class=\"highlight\">+{s:TurretAttackRange} m</span> saldırı menzili ve <span class=\"highlight\">+%{s:AttackSpeedMult}</span> taret atış hızı."
 
 		//"citadel_ability_shieldedsentry/modifier_bullet_resist_reduction_stack"		"Sentry Bullet Resist Debuff"
@@ -750,7 +751,10 @@
 
 		"ability_bullet_flurry"			"Mermi Dansı"
 		"ability_bullet_flurry_quip"	"Etrafınıza mermi yağdırın."
-"BonusWeaponDamage_prefix"				"+"
+		"ability_bullet_flurry_desc"	"Yakındaki düşmanlara <span class=\"highlight\">mükemmel bir isabet oranıyla</span> <span class=\"highlight\">mermi yağdırın</span>."
+		//"ability_bullet_flurry/modifier_citadel_bullet_flurry"		"Bullet Flurry"
+		"ability_bullet_flurry_t3_desc"	"<span class=\"highlight\">+%{s:EvasionPercent}</span> mermilerden kaçınma ve <span class=\"highlight\">+{s:DanceMoveSpeed} m/sn</span> dans hareket hızı kazanın."
+		"BonusWeaponDamage_prefix"				"+"
 		"BonusWeaponDamage_label"				"Mermi Hasarı"
 		"DanceMoveSpeed_label"			"Dans Hareket Hızı"
 		"DanceMoveSpeed_postfix"		" m/sn"
@@ -1159,7 +1163,7 @@
 
 		"citadel_ability_sticky_bomb"			"Yapışkan Bomba"
 		"citadel_ability_sticky_bomb_quip"		"Bir düşmana bomba yapıştırın."
-		"citadel_ability_sticky_bomb_desc"		"Yakındaki bir hedefe, kısa bir süre sonra infilak ederek <span class=\"highlight\">patlayıcı hasarı</span> veren bir yapışkan bomba atın.<br>Etkilenen her düşman için <span class=\"highlight\">+%{s:BonusDamagePctPerPlayerHit} bomba hasarı</span> veren bir bomba istifi kazanırsınız (Maksimum {s:BonusMaxStacks} istif). Ölünce {s:BonusLossPerDeath} istif kaybedersiniz.<br>Yapışkan bombayı [{s:key_alt_cast}] tuşuna basarak kendi üzerinizde kullanabilirsiniz."
+		"citadel_ability_sticky_bomb_desc"		"Yakındaki bir hedefe, kısa bir süre sonra infilak ederek <span class=\"highlight\">patlayıcı hasarı</span> veren bir yapışkan bomba atın.<br>Etkilenen her düşman için <span class=\"highlight\">+%{s:BonusDamagePctPerPlayerHit} bomba hasarı</span> veren bir bomba istifi kazanırsınız. Ölünce {s:BonusLossPerDeath} istif kaybedersiniz.<br>Yapışkan bombayı [{s:key_alt_cast}] tuşuna basarak kendi üzerinizde kullanabilirsiniz."
 		"modifier_citadel_sticky_bomb_attached"	"Üzerinizde bomba var"
 		"citadel_ability_sticky_bomb_t3_desc"	"Yapıştığında hedefi <span class=\"highlight\">{s:DebuffDuration} saniye boyunca</span> <span class=\"highlight\">etkisizleştirir.</span>"
 		"StunTargetOnExplode_label"				"Süre"
@@ -1441,7 +1445,7 @@ Dost Şarj Etme Süresi"
 
 		//-----------------------------------------------------------------------------
 		// Lady Geist
-		// hero ghost
+		// hero ghost solider
 		//-----------------------------------------------------------------------------
 		"ability_blood_bomb"				"Öz Bombası"
 		"ability_blood_bomb_quip"			"Hasar veren bir bomba fırlatmak için sağlığınızın bir kısmını feda edin."

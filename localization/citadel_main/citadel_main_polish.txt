@@ -302,6 +302,7 @@
 		"Citadel_Hud_OutOfAmmo"										"BRAK AMUNICJI"
 		"Citadel_Hud_LowAmmo"										"MAŁO AMUNICJI"
 		"Citadel_Hud_NotEnoughEnergy"								"ZA MAŁO ENERGII"
+		"Citadel_Hud_CastTimeRemaining"								"{s:time_remaining} s"
 		"Citadel_Hud_DPS"											"{i:dps} pkt. obr./s"
 		"Citadel_Hud_RespawnIn"										"Odrodzenie za:"
 		"Citadel_Hud_RideZipLine"									"PRZYTRZYMAJ [ {s:in_zipline} ], by zjechać"
@@ -464,6 +465,13 @@
 		"Citadel_Play_MatchmakingOfflineTitle"				"Wyszukiwanie gier zamknięte"
 		"Citadel_Play_MatchmakingOfflineText"				"Wyszukiwanie gier jest obecnie zamknięte. Wróć podczas planowych godzin testowych."
 
+		"Citadel_Play_RankedMatchmakingOfflineTitle"		"Wyszukiwanie gier rankingowych zamknięte"
+		"Citadel_Play_RankedMatchmakingOfflineText"			"Wyszukiwanie gier rankingowych jest obecnie zamknięte. Wróć podczas twoich wybranych godzin testowych."
+
+		"Citadel_Play_RankedNoSchedule"						"Nie wybrano godzin"
+		"Citadel_Play_RankedNoScheduleDesc"					"Musisz wybrać godziny, by rozgrywać mecze rankingowe."
+
+		"Citadel_RankedGames_Played"						"{i:ranked_games_played} z {i:ranked_games_required} rozegranych gier"
 		"Citadel_Play_BotsOfflineTitle"				"Boty tymczasowo offline"
 		"Citadel_Play_BotsOfflineText"				"Boty są tymczasowo wyłączone. Wróć później."
 
@@ -675,6 +683,7 @@
 		"Citadel_Party_InviteSent"									"Zaproszono"
 
 		"Citadel_RosterMode_Party_Matchmaking"						"Graj w Deadlock"
+		"Citadel_RosterMode_Party_RankedMatchmaking"				"Mecz rankingowy"
 		"Citadel_RosterMode_Party_CoopBotMM"						"Graj z botami"
 		"Citadel_RosterMode_Party_PrivateBotEasy"					"Prywatny mecz z zespołem przeciwko botom – łatwe"
 		"Citadel_RosterMode_Party_PrivateBotMedium"					"Prywatny mecz z zespołem przeciwko botom – średnie"
@@ -685,6 +694,7 @@
 		"Citael_PrivateLobbyModal_JoinCode"							"Dołącz do istniejącej poprzez kod"
 
 		"Citadel_RosterMode_Matchmaking"							"Graj w Deadlock"
+		"Citadel_RosterMode_RankedMatchmaking"						"Mecz rankingowy"
 		"Citadel_RosterMode_CoopBotMM"								"Graj z botami"
 		"Citadel_RosterMode_PrivateBotEasy"							"Prywatny mecz z botami – łatwe"
 		"Citadel_RosterMode_PrivateBotMedium"						"Prywatny mecz z botami – średnie"
@@ -856,6 +866,9 @@
 
 		"Citadel_Team1_Name"							"Bursztynowa Dłoń"
 		"Citadel_Team2_Name"							"Szafirowy Płomień"
+		"Citadel_Team1_Name_Uppercase"					"BURSZTYNOWEJ DŁONI"
+		"Citadel_Team2_Name_Uppercase"					"SZAFIROWEGO PŁOMIENIA"
+
 		"Citadel_Mod_Tooltip_Passive"									"Efekt pasywny"
 		"Citadel_Mod_Tooltip_Active"									"Efekt aktywny"
 		"Citadel_Mod_Tooltip_Innate"									"Wrodzona"
@@ -1019,15 +1032,6 @@
 		"Citadel_Playtest_JoinedDiscord"							"Dołączono do Discorda"
 		"Citadel_Playtest_GoToForum"								"Przejdź na forum"
 
-		"Citadel_RankedSchedule_1"									"Zachodnie USA"
-		"Citadel_RankedSchedule_2"									"Wschodnie USA"
-		"Citadel_RankedSchedule_10"									"Zachodnia Europa"
-		"Citadel_RankedSchedule_11"									"Wschodnia Europa"
-		"Citadel_RankedSchedule_13"									"Środkowa Rosja"
-		"Citadel_RankedSchedule_20"									"Chiny"
-		"Citadel_RankedSchedule_21"									"Japonia i Korea"
-		"Citadel_RankedSchedule_22"									"Wschodnia Australia"
-
 		"Citadel_StartMatchmaking_ErrorTitle"						"Błąd"
 		"Citadel_StartMatchmaking_AlreadyFindingMatch"				"Nie można dołączyć do wyszukiwania gier, ponieważ już starasz się znaleźć mecz."
 		"Citadel_StartMatchmaking_PartyMemberInLobby"				"Nie można dołączyć do wyszukiwania gier, ponieważ już jesteś w grze. Najpierw opuść tę grę."
@@ -1048,7 +1052,6 @@
 		"Citadel_StartMatchmaking_TooManySpectators"				"W tej drużynie znajduje się zbyt wielu widzów, by dołączyć do wyszukiwania gier w tym trybie."
 		"Citadel_StartMatchmaking_TooFewPlayers"					"W tej drużynie znajduje się zbyt mało graczy, by dołączyć do wyszukiwania gier w tym trybie."
 		"Citadel_StartMatchmaking_InvalidPartyMatchMode"			"W ten tryb gry nie można grać w zespole."
-		"Citadel_StartMatchmaking_NotAllPlayersCanPlayRanked"		"Nie wszyscy gracze w tym zespole odblokowali rankingowe wyszukiwanie gier i z tego powodu nie można grać w tym trybie."
 		"Citadel_StartMatchmaking_PlayerBannedFromMode"				"Gracz w tym zespole jest obecnie zbanowany z gry w tym trybie."
 		"Citadel_StartMatchmaking_ModeLocked"						"Jeszcze nie odblokowałeś umiejętności potrzebnej do gry w tym trybie."
 		"Citadel_StartMatchmaking_ModeBanned"						"Zostałeś tymczasowo zbanowany z gry w tym trybie do {t:s:time_stamp} o {t:t:time_stamp}."
@@ -1057,6 +1060,7 @@
 		"Citadel_StartMatchmaking_RankedNotUnlocked"				"Jeszcze nie odblokowałeś meczów rankingowych"
 		"Citadel_StartMatchmaking_NoRankedWhileInLowPri"			"Wyszukiwanie gier rankingowych nie jest dozwolone, gdy jesteś w kolejce niskiego priorytetu."
 		"Citadel_StartMatchmaking_NoRankedWhileCommsBanned"			"Wyszukiwanie gier rankingowych nie jest dozwolone, gdy masz aktywną blokadę komunikacji."
+		"Citadel_StartMatchmaking_NoRankedWhileReportBanned"		"Wyszukiwanie gier rankingowych nie jest dozwolone, gdy masz blokadę na przesyłanie zgłoszeń."
 		"Citadel_StartMatchmaking_TooManyPlayersOnTeam"				"Zbyt wielu graczy jest w tej samej drużynie."
 		"Citadel_StartMatchmaking_UnableToFillTeam"					"Nie udało się utworzyć prawidłowych drużyn na podstawie obecnych drużyn graczy."
 		"Citadel_StartMatchmaking_InvalidTeam"						"Jeden z użytkowników wybrał nieprawidłową drużynę dla tego trybu gry."
@@ -1290,6 +1294,8 @@
 		"Citadel_Profile_Stats_Denies"							"Dobicia"		
 		"Citadel_Profile_Stats_Healing"							"Leczenie"		
 		"Citadel_Profile_Stats_Networth"						"Zebrane dusze"
+		"Citadel_Profile_Stats_Value_Networth_Low"				"{i:game_networth}"
+		"Citadel_Profile_Stats_Value_Networth_High"				"{i:game_networth} tys."
 
 		"Citadel_MatchPage_Prev"								"Poprzednia"
 		"Citadel_MatchPage_Next"								"Następna"
@@ -1322,6 +1328,7 @@
 		"Citadel_MatchDetails_Healing"							"Leczenie"
 		"Citadel_MatchDetails_Victory"							"Zwycięstwo"
 		"Citadel_MatchDetails_Defeat"							"Porażka"
+		"Citadel_MatchDetails_Team_Result"						"<span class=\"OutcomeLabel h1 display\">{s:outcome_label}</span><br><span class=\"TeamName h2 display\">{s:team_name}</span>"
 		"Citadel_MatchDetails_Loading"							"Wczytywanie szczegółów meczu"
 		"Citadel_MatchDetails_MatchID"							"MECZ {s:match_id}"
 		"Citadel_MatchDetails_ViewScoreboard"					"Pokaż tabelę wyników"
@@ -1381,7 +1388,7 @@
 		"Citadel_Replay_Delete"									"Usuń powtórkę"
 		
 		"Citadel_Graph_Team1"							"Bursztynowa"
-		"Citadel_Graph_Team2"							"Szafirowa"
+		"Citadel_Graph_Team2"							"Szafirowy"
 		"Citadel_Graph_WeaponDamage"					"Obrażenia od broni"
 		"Citadel_Graph_WeaponDamageCrit"				"Obrażenia od broni – krytyczne"
 
@@ -1843,7 +1850,7 @@
 		"citadel_settings_enable_console"				"Włącz konsolę"
 		"citadel_settings_enable_console_tooltip"		"Korzystanie z opcji uruchamiania takich jak -dev lub -console spowoduje nadpisanie tego ustawienia."
 		"citadel_settings_quick_cast_desc"				"{s:ability_name} – opcje szybkiego rzutu: "
-		"citadel_settings_quick_cast_items_desc"		"{s:ability_name} – opcje szybkiego rzutu dla aktywnych przedmiotów: "
+		"citadel_settings_quick_cast_items_desc"		"Opcje szybkiego rzutu dla aktywnych przedmiotów: "
 		"citadel_settings_quick_cast_global_desc"		"Zmień tryb szybkiego rzutu dla wszystkich umiejętności bohaterów: "
 		"citadel_settings_quick_cast_success"			"Sukces"
 		"citadel_settings_quick_cast_set_success"		"Pomyślnie ustawiono tryb szybkiego rzutu dla wszystkich umiejętności bohaterów."
@@ -2330,12 +2337,12 @@
 		"Citadel_LaneColorBlue"							"Niebieska"
 		"Citadel_LaneColorYellow"						"Żółta"
 		"Citadel_LaneColorGreen"						"Zielona"
+		"Citadel_LaneColorUnassigned"					"Nie przypisano"
 		"Citadel_TeamMsg_EnemyBossKilledTitle"			"{s:lane_color} {i:boss_tier}. stopnia od wrogów"
 		"Citadel_TeamMsg_BossKilledTitle"				"{s:lane_color} {i:boss_tier}. stopnia od nas"
 		"Citadel_TeamMsg_BossKilledMessage"				"ZNISZCZONO"
 		"Citadel_TeamMsg_EnemyTitanKilledTitle"			"Wrogi patron"
 		"Citadel_TeamMsg_TitanKilledTitle"				"Twój patron"
-
 
 		"Citadel_FlexSlot_Title"						"Odblokowano miejsce uniwersalne"
 		"Citadel_FlexSlotUnlockedAllTier1"				"Odblokowujesz miejsce uniwersalne za zniszczenie wszystkich <span class=\"FlexSlotObjectiveName\">wrogich strażników</span>."
@@ -2396,6 +2403,8 @@
 		"Citadel_Confirm_Discord_InMatch_Body"		"Odbierz swój link do Discorda później, gdy nie będziesz w zespole ani w wyszukiwaniu gier."
 		"Citadel_Dashboard_Recommended"				"Polecane"
 
+		"Citadel_Commend_Toast"						"Gracz {s:commender} ({s:commender_hero}) pochwalił cię!"
+
 		"menu_exit_db_page"							"Powrót"
 		"menu_settings"								"Ustawienia"
 		"menu_profile"								"Profil"
@@ -2439,7 +2448,6 @@
 		"menu_learn_completed"						"Ukończono"
 
 		"menu_play_ranked"							"Mecz rankingowy"
-		"menu_play_ranked_desc"						"Zagraj bardziej rywalizacyjny mecz przeciw graczom o podobnych umiejętnościach."
 		"menu_ranked_title"							"Rankingowy:"
 		"menu_ranked_schedule_title"				"Dostępny w godzinach:"
 		"menu_ranked_unavailable"					"Zablokowany"
@@ -2451,21 +2459,47 @@
 		"menu_ranked_select_schedule"				"Wybierz harmonogram"
 		"menu_ranked_view_schedules"				"Pokaż wszystkie harmonogramy"
 		"menu_ranked_set_schedule"					"Ustaw harmonogram"
-		"menu_ranked_explainer_button"				"Czym jest mecz rankingowy?"
 		"Citadel_SetSchedule_Failed"				"Błąd ustawiania harmonogramu"
 		"Citadel_SetSchedule_FailedToSetSchedule"	"Nie udało się ustawić twojego harmonogramu. Spróbuj ponownie później."
 		"Citadel_SetSchedule_AlreadySet"			"Nie udało się ustawić harmonogramu, ponieważ twój harmonogram już został ustawiony."
 		"Citadel_SetSchedule_Success"				"Sukces"
 		"Citadel_SetSchedule_LocalTimes"			"Godziny są podane w czasie lokalnym"
+		"Citadel_SetSchedule_RegionWithIndex"		"{s:region_name} {d:region_index}"
 		"Citadel_SetSchedule_Selected"				"Wybrane"
 		"Citadel_SetSchedule_SetSuccessfully"		"Harmonogram ustawiony pomyślnie"
 		"Citadel_ranked_scheduleModal_title"		"Godziny gier rankingowych"
 		"Citadel_ranked_scheduleModal_desc"			"Wybierz okienka rankingowe, które najlepiej pasują do twoich godzin gry.<br><br>Zawsze będziesz grać na najbliższym dostępnym serwerze, niezależenie od wybranego okienka."
 		"Citadel_ranked_scheduleModal_warning"		"Uwaga: po wybraniu godzin dla tej sesji meczów rankingowych nie będziesz w stanie zmienić ich do rozpoczęcia następnej sesji."
 		"Citadel_ranked_open"						"Otwarte teraz"
-		"Citadel_ranked_closed"						"Zamknięte"
 		"Citadel_ranked_comingsoon"					"Pierwsze gry rankingowe rozpoczną się we wtorek 15 października o 22:00 czasu polskiego."
+		"Citadel_ranked_schedule_explainer"			"Mecze rankingowe będą dostępne tylko w określonych godzinach. Przed dołączeniem do nich musisz wybrać godziny, które najlepiej pasują do twoich godzin gry."
+
+		"Citadel_ranked_explainer_button"				"Czym jest mecz rankingowy?"
+		"Citadel_ranked_explainer_title"				"Wyszukiwanie gier rankingowych"
+		"Citadel_ranked_howitworks_title"				"Jak to działa?"
 		"Citadel_ranks_rank0"						"Niewtajemniczony"
+		"Citadel_ranks_rank1"						"Nowicjusz"
+		"Citadel_ranks_rank2"						"Poszukiwacz"
+		"Citadel_ranks_rank3"						"Alchemik"
+		"Citadel_ranks_rank4"						"Arkanista"
+		"Citadel_ranks_rank5"						"Rytualista"
+		"Citadel_ranks_rank6"						"Emisariusz"
+		"Citadel_ranks_rank7"						"Wyrocznia"
+		"Citadel_ranks_rank8"						"Archont"
+		"Citadel_ranks_rank9"						"Widmo"
+		"Citadel_ranks_rank10"						"Ascendent"
+		"Citadel_ranks_rank11"						"Wieczny"
+
+		"Citadel_subranks_1"						"I"
+		"Citadel_subranks_2"						"II"
+		"Citadel_subranks_3"						"III"
+		"Citadel_subranks_4"						"IV"
+		"Citadel_subranks_5"						"V"
+		"Citadel_subranks_6"						"VI"
+
+		"Citadel_rank_phase_example"				"15 – 21 października | 2024"
+
+
 		"item_info_abilities"						"Umiejętności"
 		"item_info_flex_slots"						"MIEJSCA UNIWERSALNE"
 		"item_info_active"							"Aktywny"
@@ -2762,6 +2796,8 @@
 		"AbilityButtonHint_AltCastRestorativeGoo"		"Rzuć na siebie"
 		"AbilityButtonHint_AltCastStickyBomb"		"Przyczep do siebie"
 		"AbilityButtonHint_CastIceDome"				"Rzuć mroźne schronienie"
+		"AbilityButtonHint_CastLifeDrain"			"Wyssij życie wroga"
+		"AbilityButtonHint_AlotCastLifeDrain"				"Ulecz sojusznika"
 		
 		//-----------------------------------------------------------------------------
 		// Guided Bot Match
@@ -2965,7 +3001,7 @@
 		"top_of_garage"											"{s:param_1} jest na górze garażu"
 		"under_garage"											"{s:param_1} jest wewnątrz garażu"
 		"on_top_of_mid"											"{s:param_1} jest na górze na środku"
-		"in_mid"												"{s:param_1} jest wewnątrz na środku"
+		"in_mid"												"{s:param_1} przy bossie"
 		"on_bridge"												"{s:param_1} jest na moście"
 		"on_roof"												"{s:param_1} jest na dachu"
 		"ping_need_heal"										"Proszę o leczenie"

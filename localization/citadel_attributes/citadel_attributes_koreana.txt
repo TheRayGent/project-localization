@@ -584,7 +584,6 @@
 		"ShotRegenTime_postfix"							"초"
 "PathLength_postfix"							"m"
 
-		"ChainCount_label"							"최대 점프"
 		"RichochetChance_postfix"						"%"
 
 		//"SlowSpeedLimit_label"						"Speed Reduced To"
@@ -816,6 +815,7 @@
 		//"TechResistReduction_prefix"					""
 		"TechResistReduction_postfix"					"%"
 		"DamagePulseInterval_postfix"					"초"
+		"DamagePulseRadius_label"						"파동 반경"
 		"DamagePulseRadius_postfix"					"m"
 
 		"CloseRangeBonusDamagePercent_prefix"			"+"
@@ -848,6 +848,7 @@
 		"ThrowRange_postfix"							"m"
 
 		"TechRadiusMultiplier_prefix"					"{s:sign}"
+		"TechRadiusMultiplier_label"					"반경"
 		"TechRadiusMultiplier_postfix"					"%"
 
 		"ImbuedTechRadiusMultiplier_prefix"					"{s:sign}"
@@ -928,6 +929,7 @@
 		"ConeRadius_postfix"							"m"
 		"ConeAngle_postfix"						" 도"
 
+		"ShockRadius_label"							"반경"
 		"ShockRadius_postfix"						"m"
 
 		//"KnockDownRadius_label"						"Knockdown Radius"
@@ -1051,11 +1053,7 @@
 
 		"HealthToDamage_label"						"피해로 전환되는 체력"
 		"DamageHealPerTarget_label"						"대상당 피해/치유"
-
-		//"DeathTaxHeal_label"							"Health Per Kill"
-
-		"ChainRadius_label"							"점프 반경"
-		"ChainRadius_postfix"							"m"
+"ChainRadius_postfix"							"m"
 		
 		//"LaunchDamage_postfix"							""
 		//"LaunchDamage_label"							"Knockback Damage"
@@ -1159,6 +1157,7 @@
 
 		"ShieldDuration_postfix"						"초"
 
+		"SlowRadius_label"								"둔화 반경"
 		"SlowRadius_postfix"							"m"
 		
 		//"SmokeDuration_label"							"Smoke Duration"
@@ -1227,6 +1226,7 @@
 		"DamageDuration_postfix"						"초"
 
 		"RegenWhileInvisible_prefix"			"+"
+		"DamageRadius_label"						"피해 반경"
 		"DamageRadius_postfix"						"m"
 
 		//"RestoreDelay_label"							"Restore Delay"
@@ -1317,7 +1317,10 @@
 		"DeathImmunityDuration_postfix"			"초"
 		//"DeathImmunityPulseRateMultiplier_label"		"Pulse Rate"
 		"DeathImmunityPulseRateMultiplier_postfix"	"x"
-"StasisRadius_postfix"				"m"
+		//"modifier_cheat_death_immunity"			"Death Immune"
+
+		"StasisRadius_label"				"반경"
+		"StasisRadius_postfix"				"m"
 
 		//"upgrade_quarantine/modifier_citadel_quarantine"	"Quarantined"
 
@@ -1369,11 +1372,15 @@
 		"GalvanicProcDuration_label"			"둔화 지속 시간"
 		"GalvanicProcDuration_postfix"		"초"
 
+		"FireRateSlow_label"					"연사 속도 둔화"
 		"FireRateSlow_postfix"				"%"
 
 		//"SlowFireRatePercent_label"			"Fire Rate Scale"
 		"SlowFireRatePercent_prefix"			"{s:sign}"
 		"SlowFireRatePercent_postfix"			"%"
+
+		"MaxFireRateSlowPercent_label"			"최대 연사 속도 둔화"
+		"MaxFireRateSlowPercent_postfix"		"%"
 
 		//"FireRateScale_label"					"Fire Rate Scale"
 		"FireRateScale_prefix"				"{s:sign}"

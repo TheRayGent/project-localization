@@ -302,6 +302,7 @@
 		"Citadel_Hud_OutOfAmmo"										"BEZ NÁBOJŮ"
 		"Citadel_Hud_LowAmmo"										"MÁLO NÁBOJŮ"
 		"Citadel_Hud_NotEnoughEnergy"								"NEDOSTATEK ENERGIE"
+		"Citadel_Hud_CastTimeRemaining"								"{s:time_remaining} s"
 		"Citadel_Hud_DPS"											"POŠK./S: {i:dps}"
 		"Citadel_Hud_RespawnIn"										"Oživneš za:"
 		"Citadel_Hud_RideZipLine"									"PODRŽENÍM [{s:in_zipline}] naskočíš na dráhu"
@@ -463,6 +464,15 @@
 
 		"Citadel_Play_MatchmakingOfflineTitle"				"Vyhledávání zápasů je uzavřeno"
 		"Citadel_Play_MatchmakingOfflineText"				"Vyhledávání zápasů je v tuto chvíli uzavřeno. Podívej se na rozpis testování, kdy bude znovu dostupné."
+
+		"Citadel_Play_RankedMatchmakingOfflineTitle"		"Vyhledávání hodnocených zápasů je uzavřeno"
+		"Citadel_Play_RankedMatchmakingOfflineText"			"Vyhledávání hodnocených zápasů je v tuto chvíli uzavřeno. Vrať se v rozmezí svého vybraného rozpisu."
+
+		"Citadel_Play_RankedNoSchedule"						"Nemáš vybraný rozpis"
+		"Citadel_Play_RankedNoScheduleDesc"					"Než budeš moci vyhledávat hodnocené zápasy, musíš si vybrat rozpis."
+
+		"Citadel_RankedGames_Played"						"{i:ranked_games_played} / {i:ranked_games_required} odehraných zápasů"
+		"Citadel_RankedGames_PlayedQualified"				"Kvalifikovaný pro hodnocené zápasy"
 
 		"Citadel_Play_BotsOfflineTitle"				"Boti jsou dočasně offline"
 		"Citadel_Play_BotsOfflineText"				"Boti jsou dočasně zakázáni. Zkus to později znovu."
@@ -675,6 +685,7 @@
 		"Citadel_Party_InviteSent"									"Pozvánka byla odeslána"
 
 		"Citadel_RosterMode_Party_Matchmaking"						"Standardní zápas"
+		"Citadel_RosterMode_Party_RankedMatchmaking"				"Hodnocený zápas"
 		"Citadel_RosterMode_Party_CoopBotMM"						"Zápas s boty"
 		"Citadel_RosterMode_Party_PrivateBotEasy"					"Skupinový soukromý zápas s boty (nízká obtížnost)"
 		"Citadel_RosterMode_Party_PrivateBotMedium"					"Skupinový soukromý zápas s boty (střední obtížnost)"
@@ -685,6 +696,7 @@
 		"Citael_PrivateLobbyModal_JoinCode"							"Připojit se do stávajícího s kódem"
 
 		"Citadel_RosterMode_Matchmaking"							"Standardní zápas"
+		"Citadel_RosterMode_RankedMatchmaking"						"Hodnocený zápas"
 		"Citadel_RosterMode_CoopBotMM"								"Zápas s boty"
 		"Citadel_RosterMode_PrivateBotEasy"							"Soukromý zápas s boty (nízká obtížnost)"
 		"Citadel_RosterMode_PrivateBotMedium"						"Soukromý zápas s boty (střední obtížnost)"
@@ -856,6 +868,9 @@
 
 		"Citadel_Team1_Name"							"Jantarová dlaň"
 		"Citadel_Team2_Name"							"Safírový plamen"
+		"Citadel_Team1_Name_Uppercase"					"JANTAROVÉ DLANĚ"
+		"Citadel_Team2_Name_Uppercase"					"SAFÍROVÉHO PLAMENE"
+
 		"Citadel_Mod_Tooltip_Passive"									"Pasivní schopnost"
 		"Citadel_Mod_Tooltip_Active"									"Aktivní schopnost"
 		"Citadel_Mod_Tooltip_Innate"									"Vrozená schopnost"
@@ -1019,15 +1034,6 @@
 		"Citadel_Playtest_JoinedDiscord"							"Už ses připojil na Discord"
 		"Citadel_Playtest_GoToForum"								"Přejít do fóra"
 
-		"Citadel_RankedSchedule_1"									"USA – západ"
-		"Citadel_RankedSchedule_2"									"USA – východ"
-		"Citadel_RankedSchedule_10"									"Evropa – západ"
-		"Citadel_RankedSchedule_11"									"Evropa – východ"
-		"Citadel_RankedSchedule_13"									"Rusko – střed"
-		"Citadel_RankedSchedule_20"									"Čína"
-		"Citadel_RankedSchedule_21"									"Japonsko/Korea"
-		"Citadel_RankedSchedule_22"									"Austrálie – východ"
-
 		"Citadel_StartMatchmaking_ErrorTitle"						"Chyba"
 		"Citadel_StartMatchmaking_AlreadyFindingMatch"				"Nelze zahájit vyhledávání zápasu, protože už ho vyhledáváš."
 		"Citadel_StartMatchmaking_PartyMemberInLobby"				"Nelze zahájit vyhledávání zápasu, protože už se v jednom nacházíš. Nejprve z tohoto zápasu odejdi."
@@ -1057,6 +1063,7 @@
 		"Citadel_StartMatchmaking_RankedNotUnlocked"				"Vyhledávání hodnocených zápasů jsi prozatím neodemkl"
 		"Citadel_StartMatchmaking_NoRankedWhileInLowPri"			"Vyhledávání hodnocených zápasů není dostupné, zatímco je na tebe uvalena nízká priorita"
 		"Citadel_StartMatchmaking_NoRankedWhileCommsBanned"			"Vyhledávání hodnocených zápasů není dostupné, zatímco je omezena tvoje komunikace"
+		"Citadel_StartMatchmaking_NoRankedWhileReportBanned"		"Vyhledávání hodnocených zápasů není dostupné, zatímco máš zakázané nahlašování"
 		"Citadel_StartMatchmaking_TooManyPlayersOnTeam"				"Příliš mnoho hráčů v jednom týmu."
 		"Citadel_StartMatchmaking_UnableToFillTeam"					"Nepodařilo se vytvořit platné týmy na základě aktuálních týmů hráčů."
 		"Citadel_StartMatchmaking_InvalidTeam"						"Člen skupiny má vybraný tým, který v tomto herním módu není platný."
@@ -1290,6 +1297,8 @@
 		"Citadel_Profile_Stats_Denies"							"Krádeže orbů"		
 		"Citadel_Profile_Stats_Healing"							"Léčení"		
 		"Citadel_Profile_Stats_Networth"						"Sesbírané duše"
+		"Citadel_Profile_Stats_Value_Networth_Low"				"{i:game_networth}"
+		"Citadel_Profile_Stats_Value_Networth_High"				"{i:game_networth} tis."
 
 		"Citadel_MatchPage_Prev"								"Předchozí"
 		"Citadel_MatchPage_Next"								"Následující"
@@ -1322,6 +1331,7 @@
 		"Citadel_MatchDetails_Healing"							"Léčení"
 		"Citadel_MatchDetails_Victory"							"Vítězství"
 		"Citadel_MatchDetails_Defeat"							"Porážka"
+		"Citadel_MatchDetails_Team_Result"						"<span class=\"OutcomeLabel h1 display\">{s:outcome_label}</span><br><span class=\"TeamName h2 display\">{s:team_name}</span>"
 		"Citadel_MatchDetails_Loading"							"Načítání detailů zápasu"
 		"Citadel_MatchDetails_MatchID"							"ZÁPAS {s:match_id}"
 		"Citadel_MatchDetails_ViewScoreboard"					"Zobrazit tabulku statistik"
@@ -1895,6 +1905,7 @@
 		"citadel_settings_streamlined_mic"				"Zjednodušené fungování mikrofonu"
 		"citadel_settings_chat_invert_ping"				"Obrácené fungování ukazovátka"
 		"citadel_settings_mousesensitivity"				"Citlivost myši"
+		"citadel_settings_mousesensitivity_y_scale"		"Citlivost myši: vertikální měřítko"
 		"citadel_settings_mousezoomsensitivity"			"Poměr citlivosti přiblížení"
 		"citadel_settings_keybinddefaults"				"Resetovat klávesové zkratky na výchozí"
 		"citadel_settings_pingwheeldefaults"			"Resetovat kolečko na výchozí"
@@ -2095,6 +2106,7 @@
 		"citadel_keybind_mantle"						"Skok/vyšplhání"
 		"citadel_keybind_attack"						"Střelba"
 		"citadel_keybind_ads"							"Přiblížení"
+		"citadel_keybind_reset_camera"					"Resetování kamery"
 		"citadel_keybind_ping"							"Ukazovátko"
 		"citadel_keybind_quick_response"				"Rychlá odpověď"
 		"citadel_keybind_extra_info"					"Dodatečné informace"
@@ -2330,12 +2342,12 @@
 		"Citadel_LaneColorBlue"							"Modrá"
 		"Citadel_LaneColorYellow"						"Žlutá"
 		"Citadel_LaneColorGreen"						"Zelená"
+		"Citadel_LaneColorUnassigned"					"Nepřiřazená"
 		"Citadel_TeamMsg_EnemyBossKilledTitle"			"{s:lane_color} linka – nepřátelská struktura {i:boss_tier}. úrovně"
 		"Citadel_TeamMsg_BossKilledTitle"				"{s:lane_color} linka – spojenecká struktura {i:boss_tier}. úrovně"
 		"Citadel_TeamMsg_BossKilledMessage"				"ZNIČEN"
 		"Citadel_TeamMsg_EnemyTitanKilledTitle"			"Nepřátelský patron"
 		"Citadel_TeamMsg_TitanKilledTitle"				"Tvůj patron"
-
 
 		"Citadel_FlexSlot_Title"						"Odemčení flexibilního slotu"
 		"Citadel_FlexSlotUnlockedAllTier1"				"Byl ti odemčen flexibilní slot, protože došlo ke zničení všech <span class=\"FlexSlotObjectiveName\">nepřátelských strážců</span>"
@@ -2396,6 +2408,8 @@
 		"Citadel_Confirm_Discord_InMatch_Body"		"Pozvánku na Discord nemůžeš použít, zatímco se nacházíš ve skupině nebo ve vyhledávání zápasu."
 		"Citadel_Dashboard_Recommended"				"Doporučeno"
 
+		"Citadel_Commend_Toast"						"{s:commender} ({s:commender_hero}) ti dal ocenění!"
+
 		"menu_exit_db_page"							"Zpět"
 		"menu_settings"								"Nastavení"
 		"menu_profile"								"Profil"
@@ -2451,20 +2465,53 @@
 		"menu_ranked_select_schedule"				"Vybrat rozpis"
 		"menu_ranked_view_schedules"				"Zobrazit všechny rozpisy"
 		"menu_ranked_set_schedule"					"Nastavit rozpis"
-		"menu_ranked_explainer_button"				"Co je hodnocený zápas?"
+		"menu_ranked_week_dates"					"{t:s:start_day} – {t:s:end_day}"
 		"Citadel_SetSchedule_Failed"				"Chyba při nastavování rozpisu"
 		"Citadel_SetSchedule_FailedToSetSchedule"	"Nepodařilo se nastavit tvůj rozpis. Zkus to později znovu."
 		"Citadel_SetSchedule_AlreadySet"			"Nepodařilo se nastavit tvůj rozpis, protože už ho máš nastavený."
 		"Citadel_SetSchedule_Success"				"Povedlo se"
 		"Citadel_SetSchedule_LocalTimes"			"Všechny časy jsou v místním formátu"
+		"Citadel_SetSchedule_RegionWithIndex"		"{s:region_name} {d:region_index}"
 		"Citadel_SetSchedule_Selected"				"Vybraný"
 		"Citadel_SetSchedule_SetSuccessfully"		"Rozpis byl úspěšně nastaven"
 		"Citadel_ranked_scheduleModal_title"		"Rozpisy hodnocených zápasů"
 		"Citadel_ranked_scheduleModal_desc"			"Vyber si časové okno, které ti nejvíce vyhovuje.<br><br>Nezávisle na vybraném rozpisu budeš vždy připojen na nejbližší dostupný server."
 		"Citadel_ranked_scheduleModal_warning"		"Poznámka: Vybraný rozpis nebudeš moci změnit do příští relace hodnocených zápasů."
 		"Citadel_ranked_open"						"Otevřeno"
-		"Citadel_ranked_closed"						"Zavřeno"
+		"Citadel_ranked_closed"						"Vyhledávání hodnocených zápasů je uzavřeno"
 		"Citadel_ranked_comingsoon"					"První hodnocené zápasy začnou v úterý 15. října ve 22.00"
+		"Citadel_ranked_schedule_explainer"			"Vyhledávání hodnocených zápasů bude dostupné pouze v určité časy, a před hraním musíš vybrat, které časy ti nejvíce vyhovují."
+
+		"Citadel_ranked_explainer_button"				"Co jsou hodnocené zápasy?"
+		"Citadel_ranked_explainer_title"				"Vyhledávání hodnocených zápasů"
+		"Citadel_ranked_explainer_desc"					"Hodnocené zápasy nabízí kompetitivnější zážitek ze hry Deadlock a lze si je představit jako výzvu, ve které se postavíš proti podobně zdatným hráčům a na základě svého výkonu získáš hodnost určující tvoji pozici v globálním potravinovém řetězci.<br><br>Tuto výzvu mohou hráči podstoupit každý týden, nicméně vyhledávání hodnocených zápasů je pro jednotlivé regiony otevřeno jen v určité časy."
+		"Citadel_ranked_howitworks_title"				"Jak to funguje?"
+		"Citadel_ranked_howitworks_desc"				"Všichni hráči začínají jako „kolemjdoucí“ – aby ses kvalifikoval na hodnost, musíš v rámci týdne odehrát sedm hodnocených zápasů. Na konci týdne je ti následně podle tvých dovedností přidělena hodnost, která také v podobě odznaku zkrášlí tvůj profil.<br><br>Pokud nebudeš mít na konci týdne odehráno sedm hodnocených zápasů, budeš degradován zpět na kolemjdoucího a tvá dosavadní hodnost (včetně odznaku) zůstane skrytá, dokud se v některém z následujících týdnů znovu nekvalifikuješ. Metriky tvých dovedností nicméně zůstanou zachovány a budou i nadále používány při vyhledávání hodnocených zápasů.<br><br>Celkem existuje jedenáct různých hodností, přičemž každá se skládá ještě z podhodností (od I do VI), které dále specifikují tvé umístění v této hodnosti."
+		"Citadel_ranked_rankedmedals"					"Hodnosti:"
+
+		"Citadel_ranks_rank0"						"Kolemjdoucí"
+		"Citadel_ranks_rank1"						"Zasvěcenec"
+		"Citadel_ranks_rank2"						"Kultista"
+		"Citadel_ranks_rank3"						"Alchymista"
+		"Citadel_ranks_rank4"						"Arkánista"
+		"Citadel_ranks_rank5"						"Obřadník"
+		"Citadel_ranks_rank6"						"Vyslanec"
+		"Citadel_ranks_rank7"						"Prorok"
+		"Citadel_ranks_rank8"						"Archón"
+		"Citadel_ranks_rank9"						"Fantóm"
+		"Citadel_ranks_rank10"						"Nadčlověk"
+		"Citadel_ranks_rank11"						"Eternus"
+
+		"Citadel_subranks_1"						"I"
+		"Citadel_subranks_2"						"II"
+		"Citadel_subranks_3"						"III"
+		"Citadel_subranks_4"						"IV"
+		"Citadel_subranks_5"						"V"
+		"Citadel_subranks_6"						"VI"
+
+		"Citadel_rank_phase_example"				"15.–21. října | 2024"
+
+
 		"item_info_abilities"						"Schopnosti"
 		"item_info_flex_slots"						"FLEXIBILNÍ SLOTY"
 		"item_info_active"							"Aktivní"
@@ -2761,6 +2808,8 @@
 		"AbilityButtonHint_AltCastRestorativeGoo"		"Zabalit do kostky sebe"
 		"AbilityButtonHint_AltCastStickyBomb"		"Připevnit bombu na sebe"
 		"AbilityButtonHint_CastIceDome"				"Seslat Objetí zimy"
+		"AbilityButtonHint_CastLifeDrain"			"Začít sát nepřítele"
+		"AbilityButtonHint_AlotCastLifeDrain"				"Začít léčit spojence"
 		
 		//-----------------------------------------------------------------------------
 		// Guided Bot Match

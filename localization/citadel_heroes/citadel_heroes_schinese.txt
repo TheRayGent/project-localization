@@ -751,7 +751,10 @@
 
 		"ability_bullet_flurry"			"子弹之舞"
 		"ability_bullet_flurry_quip"	"向四周爆发一阵弹雨"
-"BonusWeaponDamage_prefix"				"+"
+		"ability_bullet_flurry_desc"	"进入爆发状态，以<span class=\"highlight\">完美精准度</span>向附近敌人<span class=\"highlight\">射击</span>。"
+		//"ability_bullet_flurry/modifier_citadel_bullet_flurry"		"Bullet Flurry"
+		"ability_bullet_flurry_t3_desc"	"<span class=\"highlight\">+{s:EvasionPercent}%</span> 子弹闪避及 <span class=\"highlight\">+{s:DanceMoveSpeed}m/s</span> 弹舞移动速度"
+		"BonusWeaponDamage_prefix"				"+"
 		"BonusWeaponDamage_label"				"子弹伤害"
 		"DanceMoveSpeed_label"			"弹舞移动速度"
 		"DanceMoveSpeed_postfix"		"m/s"
@@ -1160,7 +1163,7 @@
 
 		"citadel_ability_sticky_bomb"			"粘性炸弹"
 		"citadel_ability_sticky_bomb_quip"		"在目标身上放置炸弹"
-		"citadel_ability_sticky_bomb_desc"		"将粘性炸弹附着到附近目标身上，在短暂的引信时间后造成<span class=\"highlight\">爆炸伤害</span>。<br>每命中一个敌人，获得会造成 <span class=\"highlight\">+{s:BonusDamagePctPerPlayerHit}% 炸弹伤害</span>的炸弹叠加（最多叠加 {s:BonusMaxStacks} 层）。死亡时会失去 {s:BonusLossPerDeath} 层叠加。<br>按住 [{s:key_alt_cast}] 可将粘性炸弹施放到自己身上。"
+		"citadel_ability_sticky_bomb_desc"		"将粘性炸弹附着到附近目标身上，在短暂的引爆时间后造成<span class=\"highlight\">爆炸伤害</span>。<br>每命中一个敌人，获得会造成 <span class=\"highlight\">+{s:BonusDamagePctPerPlayerHit}% 炸弹伤害</span>的炸弹叠加。死亡时会失去 {s:BonusLossPerDeath} 层叠加。<br>按住 [{s:key_alt_cast}] 可将粘性炸弹施放到自己身上。"
 		"modifier_citadel_sticky_bomb_attached"	"炸弹附身"
 		"citadel_ability_sticky_bomb_t3_desc"	"附着后，对目标<span class=\"highlight\">缴械</span>，持续 <span class=\"highlight\">{s:DebuffDuration}s</span>"
 		"StunTargetOnExplode_label"				"持续时间"
@@ -1441,22 +1444,22 @@
 
 		//-----------------------------------------------------------------------------
 		// Lady Geist
-		// hero ghost
+		// hero ghost solider
 		//-----------------------------------------------------------------------------
 		"ability_blood_bomb"				"精华炸弹"
 		"ability_blood_bomb_quip"			"牺牲部分生命以发射具有杀伤力的炸弹"
 		"ability_blood_bomb_desc"			"<span class=\"highlight\">牺牲部分生命</span>以发射一枚在短暂布置时间后<span class=\"highlight\">造成伤害</span>的炸弹。<br>自伤类型为元灵，可以减免。"
 		"ability_blood_bomb_t3_desc"	"炸弹会在地面留下有毒范围，造成原伤害量 <span class=\"highlight\">{s:BloodSpillDPSPercent}%</span> 的<span class=\"highlight\">伤害</span>，持续 <span class=\"highlight\">{s:BloodSpillDuration}s</span>。"
 
-		"ability_life_drain"				"生命汲取"
+		"ability_life_drain"				"生命吸取"
 		"ability_life_drain_quip"			"持续偷取敌人的生命值"
-		"ability_life_drain_desc"			"创造一个<span class=\"highlight\">持续汲取敌人生命</span>并<span class=\"highlight\">治疗自己</span>的羁绊。只有在视线范围内且在技能最大射程内的目标才会被汲取。汲取期间可以开枪及使用其他技能，但你的移动速度将会减半。<br><span class=\"highlight\">[副施放]可给予友方英雄生命值。</span><br><span class=\"highlight\">按 {s:in_ability2} 键</span>取消。"
-		"ability_life_drain/modifier_life_drain" "生命汲取"
-		"ability_life_drain/modifier_life_drain_caster" "生命汲取"
+		"ability_life_drain_desc"			"创造一个<span class=\"highlight\">持续吸取敌人生命</span>并<span class=\"highlight\">治疗自己</span>的羁绊。只有在视线范围内且在技能最大射程内的目标才会被汲取。生命吸取期间可以开枪及使用其他技能，但你的移动速度将会减半。<br><span class=\"highlight\">[副施放]可给予友方英雄生命值。</span><br><span class=\"highlight\">按 {s:in_ability2} 键</span>取消。"
+		"ability_life_drain/modifier_life_drain" "生命吸取"
+		"ability_life_drain/modifier_life_drain_caster" "生命吸取"
 		"modifier_life_drain_silence"		"被沉默"
 		//"FriendlyTargetCooldown"			"Ally Target Cooldown"
 		"FriendlyTargetCooldown_postfix"	"s"
-		"ability_life_drain_t3_desc"			"敌人被汲取生命时也会被<span class=\"highlight\">沉默</span>（需要在视线内）"
+		"ability_life_drain_t3_desc"			"敌人被吸取生命时也会被<span class=\"highlight\">沉默</span>（需要在视线内）"
 		//"ability_life_drain_cancel_trigger"	"Cancel Life Drain"
 		"MaxRange_label"						"最大羁绊范围"
 		"MaxRange_postfix"					"m"
@@ -2754,7 +2757,7 @@
 		"citadel_weapon_hero_ghost_set"				"爱郎献礼"
 		
 		"citadel_weapon_hero_atlas_set"				"水落石出"
-		"citadel_weapon_hero_atlas_set_desc"		"一次装填一发子弹。可遭打断"
+		"citadel_weapon_hero_atlas_set_desc"		"一次装填一发子弹。可以打断"
 		
 		"citadel_weapon_hero_wraith_set"			"欲海捞金"
 

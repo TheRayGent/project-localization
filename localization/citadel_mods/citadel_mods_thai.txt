@@ -161,7 +161,7 @@
 		//"upgrade_attack_speed_2_desc"	"Increases your <span class=\"highlight\">Fire Rate</span>."
 
 		//Spiritual Overflow
-		"upgrade_tech_overflow_desc"	"เพิ่ม<span class=\"highlight\">อัตรายิง</span>และ<span class=\"highlight\">พลังวิญญาณ</span>โดยการ<span class=\"highlight\">สะสมพลัง</span>เมื่อยิงใส่ฮีโร่ฝ่ายศัตรู"
+		"upgrade_tech_overflow_desc"	"เพิ่ม<span class=\"highlight\">อัตรายิง</span>และ<span class=\"highlight\">พลังวิญญาณ</span>โดยการ<span class=\"highlight\">สะสมพลัง</span>เมื่อยิงใส่​ฮีโร่ฝ่ายศัตรู"
 		"modifier_tech_overflow"		"Spiritual Overflow"
 		"modifier_tech_overflow_building" "Spiritual Overflow สะสมพลัง..."
 

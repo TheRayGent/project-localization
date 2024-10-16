@@ -181,6 +181,7 @@
 		"citadel_ability_shieldedsentry"		"Мини-турель"
 		"citadel_ability_shieldedsentry_quip"	"Макгиннис развёртывает автоматическую мини-турель"
 		"citadel_ability_shieldedsentry_desc"	"Макгиннис развёртывает мини-турель, которая <span class=\"highlight\">автоматически стреляет во врагов</span>. Через некоторое время турель исчезает.<br>У турели {s:TurretHealthScaling}% от макс. объёма здоровья Макгиннис и сопротивляемость спиритизму {s:TechResist}%. Турель наносит меньше урона солдатам и ключевым целям."
+		"citadel_ability_shieldedsentry_t1_desc"	"Турели замедляют передвижение жертв на <span class=\"highlight\">{s:MoveSlowPercent}%</span>"
 		"citadel_ability_shieldedsentry_t2_desc"	"<span class=\"highlight\">+{s:TurretAttackRange} м</span> к дальности атаки и <span class=\"highlight\">+{s:AttackSpeedMult}%</span> к скорострельности турелей"
 
 		//"citadel_ability_shieldedsentry/modifier_bullet_resist_reduction_stack"		"Sentry Bullet Resist Debuff"
@@ -750,7 +751,10 @@
 
 		"ability_bullet_flurry"			"Танец пуль"
 		"ability_bullet_flurry_quip"	"Шквал пуль по ближайшим врагам"
-"BonusWeaponDamage_prefix"				"+"
+		"ability_bullet_flurry_desc"	"{s:hero_name} входит в кураж и начинает <span class=\"highlight\">стрелять</span> по врагам поблизости с <span class=\"highlight\">идеальной точностью</span>."
+		//"ability_bullet_flurry/modifier_citadel_bullet_flurry"		"Bullet Flurry"
+		"ability_bullet_flurry_t3_desc"	"<span class=\"highlight\">+{s:EvasionPercent}%</span> к уклонению от пуль и <span class=\"highlight\">+{s:DanceMoveSpeed} м/с</span> к скорости передвижения"
+		"BonusWeaponDamage_prefix"				"+"
 		"BonusWeaponDamage_label"				"Урон от пуль"
 		"DanceMoveSpeed_label"			"к скорости передвижения во время действия"
 		"DanceMoveSpeed_postfix"		" м/с"
@@ -1127,7 +1131,7 @@
 
 		"ability_ice_dome"				"Ледяное укрытие"
 		"ability_ice_dome_quip"			"Создаёт непроницаемый лечебный купол"
-		"ability_ice_dome_desc"			"{s:hero_name} замораживает воздух вокруг себя, создавая <span class=\"highlight\">непробиваемый купол</span>, который <span class=\"highlight\">замедляет</span> врагов и быстро <span class=\"highlight\">восстанавливает здоровье</span> союзников. <br>Ключевые цели, оказавшиеся под куполом, становятся неуязвимыми и замороженными."
+		"ability_ice_dome_desc"			"{s:hero_name} замораживает воздух вокруг себя, создавая <span class=\"highlight\">непробиваемый купол</span>, который <span class=\"highlight\">замедляет</span> врагов и быстро <span class=\"highlight\">восстанавливает здоровье</span> союзников. <br>Ключевые цели под куполом становятся неуязвимыми и замороженными."
 		"ability_ice_dome_t1_desc"		"<span class=\"highlight\">-{s:FireRateSlow}%</span> от скорострельности жертв"
 		"ability_ice_dome_t3_desc"		"<span class=\"highlight\">+{s:BonusHealthRegen}</span> ед. к восстановлению здоровья; оно усиливается с повышением спиритической мощи"
 		"ability_ice_dome/modifier_ice_dome/modifier_debuff"						"Ледяное укрытие"
@@ -1159,7 +1163,7 @@
 
 		"citadel_ability_sticky_bomb"			"Бомба-липучка"
 		"citadel_ability_sticky_bomb_quip"		"Бибоп прикрепляет бомбу к врагу"
-		"citadel_ability_sticky_bomb_desc"		"{s:hero_name} прикрепляет к цели поблизости бомбу-липучку, которая после короткой задержки <span class=\"highlight\">взрывается и наносит урон</span>. <br>Каждое попадание по вражескому герою <span class=\"highlight\">увеличивает урон на {s:BonusDamagePctPerPlayerHit}%</span> (до {s:BonusMaxStacks} раз). В случае смерти эффект увеличения урона снижается на {s:BonusLossPerDeath} ед. <br>Удерживайте [{s:key_alt_cast}], чтобы прикрепить бомбу к себе."
+		"citadel_ability_sticky_bomb_desc"		"{s:hero_name} прикрепляет к цели поблизости бомбу-липучку, которая после короткой задержки <span class=\"highlight\">взрывается и наносит урон</span>. <br>Каждое попадание по вражескому герою <span class=\"highlight\">увеличивает урон на {s:BonusDamagePctPerPlayerHit}%</span>. В случае смерти эффект увеличения урона снижается на {s:BonusLossPerDeath} ед. <br>Удерживайте [{s:key_alt_cast}], чтобы прикрепить бомбу к себе."
 		"modifier_citadel_sticky_bomb_attached"	"На вас бомба"
 		"citadel_ability_sticky_bomb_t3_desc"	"Прикрепление бомбы <span class=\"highlight\">обезоруживает</span> цель на <span class=\"highlight\">{s:DebuffDuration} с.</span>"
 		"StunTargetOnExplode_label"				"Длительность"
@@ -1440,7 +1444,7 @@
 
 		//-----------------------------------------------------------------------------
 		// Lady Geist
-		// hero ghost
+		// hero ghost solider
 		//-----------------------------------------------------------------------------
 		"ability_blood_bomb"				"Бомба квинтэссенции"
 		"ability_blood_bomb_quip"			"Запуск разрушительной бомбы за счёт части здоровья"
@@ -2438,7 +2442,7 @@
 		"MediumChargeDamagePct_postfix"			"%"
 		"FullChargeDamage_label"				"Урон от полного заряда"
 		"citadel_ability_power_slash_t1_desc"	"<span class=\"highlight\">+{s:BulletResist} к сопротивляемости пулям </span> во время применения"
-		"citadel_ability_power_slash_t2_desc"	"Время перезарядки снижается до <span class=\"highlight\">{s:AbilityCooldown} с.</span>; при применении умения у цели также замедляется скорость передвижения на <span class=\"highlight\">{s:SlowPercent}%</span> на <span class=\"highlight\">{s:SlowDuration} с.</span>"
+		"citadel_ability_power_slash_t2_desc"	"<span class=\"highlight\">{s:AbilityCooldown}</span> c. от времени перезарядки. Снижает скорость передвижения жертв на <span class=\"highlight\">{s:SlowPercent}%</span> на <span class=\"highlight\">{s:SlowDuration} с.</span>"
 		//"StaminaToRemove_label"				"Stamina Drain"
 
 		"citadel_ability_flying_strike"			"Удар в полёте"

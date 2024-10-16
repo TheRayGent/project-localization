@@ -82,6 +82,9 @@
 		"GameUI_Disconnect_ReplayIncompatible"		"La rediffusion n'est pas compatible."
 		"GameUI_Disconnect_ConnectionTimedout"		"Impossible d'établir une connexion avec le serveur de jeu."
 		"GameUI_Disconnect_ServerIncompatible"		"Version du serveur incompatible."
+		"Player_DisconnectReason_Idle"				"La connexion avec le serveur de jeu a été perdue pour cause d'inactivité."
+		
+
 		"GameUI_Disconnect_LocalProblem_ManyRelays"	"Connexion perdue malgré des tentatives de communication avec des relais dans plusieurs régions différentes. Votre connexion Internet en est probablement la cause."
 		"GameUI_Disconnect_LocalProblem_HostedServerPrimaryRelay"	"Le serveur du jeu a perdu la connexion au relai principal utilisé par le client."
 		"GameUI_Disconnect_LocalProblem_NetworkConfig"	"Vérifiez votre connexion Internet. Impossible de télécharger la configuration réseau depuis le CDN."
@@ -299,6 +302,7 @@
 		"Citadel_Hud_OutOfAmmo"										"À COURT DE MUNITIONS"
 		"Citadel_Hud_LowAmmo"										"PEU DE MUNITIONS"
 		"Citadel_Hud_NotEnoughEnergy"								"ÉNERGIE INSUFFISANTE"
+		"Citadel_Hud_CastTimeRemaining"								"{s:time_remaining} s"
 		"Citadel_Hud_DPS"											"{i:dps} DPS"
 		"Citadel_Hud_RespawnIn"										"Réapparition dans :"
 		"Citadel_Hud_RideZipLine"									"MAINTENEZ [ {s:in_zipline} ] pour emprunter la tyrolienne"
@@ -460,6 +464,15 @@
 
 		"Citadel_Play_MatchmakingOfflineTitle"				"Le matchmaking est fermé"
 		"Citadel_Play_MatchmakingOfflineText"				"Le matchmaking est actuellement fermé. Veuillez réessayer lors des heures de matchmaking programmées."
+
+		"Citadel_Play_RankedMatchmakingOfflineTitle"		"Matchmaking classé fermé"
+		"Citadel_Play_RankedMatchmakingOfflineText"			"Le matchmaking classé est actuellement fermé. Veuillez réessayer pendant les créneaux que vous avez sélectionnés."
+
+		"Citadel_Play_RankedNoSchedule"						"Aucun créneau sélectionné"
+		"Citadel_Play_RankedNoScheduleDesc"					"Vous devez sélectionner un créneau horaire avant de jouer en mode classé."
+
+		"Citadel_RankedGames_Played"						"{i:ranked_games_played} / {i:ranked_games_required} parties achevées"
+		"Citadel_RankedGames_PlayedQualified"				"Mode classé déverrouillé"
 
 		"Citadel_Play_BotsOfflineTitle"				"Bots temporairement hors ligne"
 		"Citadel_Play_BotsOfflineText"				"Les bots sont désactivés pour le moment, veuillez réessayer plus tard."
@@ -672,6 +685,7 @@
 		"Citadel_Party_InviteSent"									"Invitation envoyée"
 
 		"Citadel_RosterMode_Party_Matchmaking"						"Jouer à Deadlock"
+		"Citadel_RosterMode_Party_RankedMatchmaking"				"Jouer en mode classé"
 		"Citadel_RosterMode_Party_CoopBotMM"						"Jouer contre des bots"
 		"Citadel_RosterMode_Party_PrivateBotEasy"					"Partie privée en groupe avec bots − Facile"
 		"Citadel_RosterMode_Party_PrivateBotMedium"					"Partie privée en groupe avec bots − Moyen"
@@ -682,6 +696,7 @@
 		"Citael_PrivateLobbyModal_JoinCode"							"Rejoindre une partie en cours avec un code"
 
 		"Citadel_RosterMode_Matchmaking"							"Jouer à Deadlock"
+		"Citadel_RosterMode_RankedMatchmaking"						"Jouer en mode classé"
 		"Citadel_RosterMode_CoopBotMM"								"Jouer contre des bots"
 		"Citadel_RosterMode_PrivateBotEasy"							"Partie privée avec bots − Facile"
 		"Citadel_RosterMode_PrivateBotMedium"						"Partie privée avec bots − Moyen"
@@ -853,6 +868,9 @@
 
 		"Citadel_Team1_Name"							"La Main de l'ambre"
 		"Citadel_Team2_Name"							"La Flamme du saphir"
+		"Citadel_Team1_Name_Uppercase"					"LA MAIN DE L'AMBRE"
+		"Citadel_Team2_Name_Uppercase"					"LA FLAMME DU SAPHIR"
+
 		"Citadel_Mod_Tooltip_Passive"									"Passive"
 		"Citadel_Mod_Tooltip_Active"									"Active"
 		"Citadel_Mod_Tooltip_Innate"									"Innée"
@@ -1016,15 +1034,6 @@
 		"Citadel_Playtest_JoinedDiscord"							"Serveur Discord rejoint"
 		"Citadel_Playtest_GoToForum"								"Accéder au forum"
 
-		"Citadel_RankedSchedule_1"									"Ouest des États-Unis"
-		"Citadel_RankedSchedule_2"									"Est des États-Unis"
-		"Citadel_RankedSchedule_10"									"Europe de l'Ouest"
-		"Citadel_RankedSchedule_11"									"Europe de l'Est"
-		"Citadel_RankedSchedule_13"									"Centre de la Russie"
-		"Citadel_RankedSchedule_20"									"Chine"
-		"Citadel_RankedSchedule_21"									"Japon/Corée"
-		"Citadel_RankedSchedule_22"									"Est de l'Australie"
-
 		"Citadel_StartMatchmaking_ErrorTitle"						"Erreur"
 		"Citadel_StartMatchmaking_AlreadyFindingMatch"				"Impossible de lancer le matchmaking : vous recherchez déjà une partie."
 		"Citadel_StartMatchmaking_PartyMemberInLobby"				"Impossible de lancer le matchmaking : vous êtes déjà dans une partie. Quittez d'abord la partie en cours."
@@ -1054,6 +1063,7 @@
 		"Citadel_StartMatchmaking_RankedNotUnlocked"				"Vous n'avez pas encore débloqué le matchmaking classé."
 		"Citadel_StartMatchmaking_NoRankedWhileInLowPri"			"Le matchmaking classé n'est pas autorisé tant que vous êtes en basse priorité."
 		"Citadel_StartMatchmaking_NoRankedWhileCommsBanned"			"Le matchmaking classé n'est pas autorisé tant que vous êtes sous le coup d'un bannissement des communications."
+		"Citadel_StartMatchmaking_NoRankedWhileReportBanned"		"Le matchmaking classé n'est pas autorisé tant que vous êtes sous le coup d'un bannissement à la suite de signalements."
 		"Citadel_StartMatchmaking_TooManyPlayersOnTeam"				"Trop de personnes sont dans la même équipe."
 		"Citadel_StartMatchmaking_UnableToFillTeam"					"Impossible de créer des équipes valides avec les personnes actuellement présentes."
 		"Citadel_StartMatchmaking_InvalidTeam"						"Quelqu'un a sélectionné une équipe non valide pour ce mode de jeu."
@@ -1287,6 +1297,8 @@
 		"Citadel_Profile_Stats_Denies"							"Sacrifices"		
 		"Citadel_Profile_Stats_Healing"							"Soins"		
 		"Citadel_Profile_Stats_Networth"						"Âmes collectées"
+		"Citadel_Profile_Stats_Value_Networth_Low"				"{i:game_networth}"
+		"Citadel_Profile_Stats_Value_Networth_High"				"{i:game_networth} k"
 
 		"Citadel_MatchPage_Prev"								"Préc."
 		"Citadel_MatchPage_Next"								"Suivant"
@@ -1319,6 +1331,7 @@
 		"Citadel_MatchDetails_Healing"							"Soins"
 		"Citadel_MatchDetails_Victory"							"Victoire"
 		"Citadel_MatchDetails_Defeat"							"Défaite"
+		"Citadel_MatchDetails_Team_Result"						"<span class=\"TeamName h2 display\">{s:team_name}</span><br><span class=\"OutcomeLabel h1 display\">{s:outcome_label}</span>"
 		"Citadel_MatchDetails_Loading"							"Chargement des informations de la partie"
 		"Citadel_MatchDetails_MatchID"							"PARTIE {s:match_id}"
 		"Citadel_MatchDetails_ViewScoreboard"					"Voir le tableau des scores"
@@ -1892,6 +1905,7 @@
 		"citadel_settings_streamlined_mic"				"Micro optimisé"
 		"citadel_settings_chat_invert_ping"				"Inverser les pings"
 		"citadel_settings_mousesensitivity"				"Sensibilité de la souris"
+		"citadel_settings_mousesensitivity_y_scale"		"Sensibilité de la souris : échelle verticale"
 		"citadel_settings_mousezoomsensitivity"			"Ratio de sensibilité du zoom"
 		"citadel_settings_keybinddefaults"				"Réinitialiser tous les raccourcis"
 		"citadel_settings_pingwheeldefaults"			"Réinitialiser la roue des dialogues"
@@ -2092,6 +2106,7 @@
 		"citadel_keybind_mantle"						"Sauter/grimper"
 		"citadel_keybind_attack"						"Tirer"
 		"citadel_keybind_ads"							"Zoomer"
+		"citadel_keybind_reset_camera"					"Réinitialiser la caméra"
 		"citadel_keybind_ping"							"Ping"
 		"citadel_keybind_quick_response"				"Réponse rapide"
 		"citadel_keybind_extra_info"					"Infos supplémentaires"
@@ -2327,12 +2342,12 @@
 		"Citadel_LaneColorBlue"							"Bleu"
 		"Citadel_LaneColorYellow"						"Jaune"
 		"Citadel_LaneColorGreen"						"Vert"
+		"Citadel_LaneColorUnassigned"					"Sans équipe"
 		"Citadel_TeamMsg_EnemyBossKilledTitle"			"{s:lane_color} adverse (niv. {i:boss_tier})"
 		"Citadel_TeamMsg_BossKilledTitle"				"Votre {s:lane_color} (niv. {i:boss_tier})"
 		"Citadel_TeamMsg_BossKilledMessage"				"DESTRUCTION"
 		"Citadel_TeamMsg_EnemyTitanKilledTitle"			"Patron adverse"
 		"Citadel_TeamMsg_TitanKilledTitle"				"Votre Patron"
-
 
 		"Citadel_FlexSlot_Title"						"Emplacement flexible débloqué"
 		"Citadel_FlexSlotUnlockedAllTier1"				"Vous avez déverrouillé un emplacement flexible en tuant tous les <span class=\"FlexSlotObjectiveName\">gardiens ennemis</span>"
@@ -2393,6 +2408,8 @@
 		"Citadel_Confirm_Discord_InMatch_Body"		"Veuillez récupérer votre lien Discord plus tard, une fois votre partie ou la recherche d'une partie terminée."
 		"Citadel_Dashboard_Recommended"				"Recommandé"
 
+		"Citadel_Commend_Toast"						"{s:commender} ({s:commender_hero}) vous recommande !"
+
 		"menu_exit_db_page"							"Retour"
 		"menu_settings"								"Paramètres"
 		"menu_profile"								"Profil"
@@ -2436,31 +2453,65 @@
 		"menu_learn_completed"						"Terminé"
 
 		"menu_play_ranked"							"Jouer en mode classé"
-		"menu_play_ranked_desc"						"Jouer à une partie plus compétitive contre des joueurs et joueuses à votre niveau d'habileté."
+		"menu_play_ranked_desc"						"Jouer à une partie plus compétitive contre des personnes de votre niveau."
 		"menu_ranked_title"							"Mode classé :"
 		"menu_ranked_schedule_title"				"Créneaux disponibles :"
 		"menu_ranked_unavailable"					"Verrouillé"
 		"menu_ranked_unavailable_desc"				"Vous devez faire 50 parties standards avant de pouvoir rejoindre une file d'attente en mode classé."
 		"menu_ranked_schedule_weekdays"				"Lun. – jeu. :"
 		"menu_ranked_schedule_weekends"				"Ven. – dim. :"
+		"menu_ranked_schedule_alldays"				"Horaires du jour :"
 		"menu_ranked_schedule_timeplaceholder"		"{t:t:start_time} – {t:t:end_time}"
 		"menu_ranked_select_schedule"				"Sélectionner un créneau"
 		"menu_ranked_view_schedules"				"Voir tous les créneaux"
 		"menu_ranked_set_schedule"					"Définir le créneau"
-		"menu_ranked_explainer_button"				"Qu'est-ce que le mode classé ?"
+		"menu_ranked_week_dates"					"{t:s:start_day} – {t:s:end_day}"
 		"Citadel_SetSchedule_Failed"				"Erreur lors de la définition du créneau"
 		"Citadel_SetSchedule_FailedToSetSchedule"	"Votre créneau n'a pas pu être défini. Veuillez réessayer plus tard."
 		"Citadel_SetSchedule_AlreadySet"			"Votre créneau n'a pas pu être défini car il l'était déjà."
 		"Citadel_SetSchedule_Success"				"Succès"
+		"Citadel_SetSchedule_LocalTimes"			"Horaires affichés en heure locale"
+		"Citadel_SetSchedule_RegionWithIndex"		"{s:region_name} {d:region_index}"
 		"Citadel_SetSchedule_Selected"				"Sélectionné"
 		"Citadel_SetSchedule_SetSuccessfully"		"Créneau défini avec succès."
 		"Citadel_ranked_scheduleModal_title"		"Créneaux en mode classé"
 		"Citadel_ranked_scheduleModal_desc"			"Sélectionnez les créneaux qui correspondent le mieux à vos heures de jeu.<br><br>Quel que soit le créneau sélectionné, vous jouerez toujours sur le serveur disponible le plus proche."
 		"Citadel_ranked_scheduleModal_warning"		"Remarque : après avoir sélectionné un créneau pour cette session en mode classé, vous ne pourrez plus le changer jusqu'à la prochaine session."
 		"Citadel_ranked_open"						"Maintenant ouverte"
-		"Citadel_ranked_closed"						"Fermée"
+		"Citadel_ranked_closed"						"Mode classé fermé"
 		"Citadel_ranked_comingsoon"					"Les parties en mode classé débuteront le mardi 15 octobre à 22 h (UTC+2)"
-		"Citadel_ranks_rank0"						"Non-initié(e)"
+		"Citadel_ranked_schedule_explainer"			"Le mode classé ne sera disponible qu'à certaines heures. Avant de jouer, vous devez sélectionner un créneau qui vous convient."
+
+		"Citadel_ranked_explainer_button"				"Qu'est-ce que le mode classé ?"
+		"Citadel_ranked_explainer_title"				"Matchmaking classé"
+		"Citadel_ranked_explainer_desc"					"Le mode [classé] de Deadlock offre une expérience de jeu plus compétitive où vous vous retrouverez avec des personnes de niveau similaire au vôtre, afin de déterminer votre grade par rapport à l'ensemble des joueurs et des joueuses.<br><br>Chaque semaine, vous pourrez rejoindre la compétition en jouant à des parties [classées] pendant les horaires de disponibilité du mode dans votre région du monde afin de faire montre de votre talent."
+		"Citadel_ranked_howitworks_title"				"Comment ça marche ?"
+		"Citadel_ranked_howitworks_desc"				"Tout le monde débute au grade provisoire d'Obscurus et doit terminer sept parties [classées] pour se qualifier dans le classement de la semaine. À la fin de la semaine, un grade qui s'affichera sous forme de badge dans votre profil vous sera attribué.<br><br>Si au bout d'une semaine, vous ne parvenez pas à terminer sept parties [classées], votre badge ne sera plus visible et il sera rétrogradé progressivement jusqu'au grade Obscurus, et ce, jusqu'à ce que parveniez à vous qualifier dans les semaines ultérieures. Les indicateurs de compétence sous-jacents seront conservés et mis à contribution lors de vos parties [classées] suivantes, mais le badge restera masqué jusqu'à ce que les conditions soient remplies.<br><br>Il existe onze grades différents, et chaque grade est divisé en sous-grades de I à IV, ce qui précisera encore votre place au sein d'un grade spécifique."
+		"Citadel_ranked_rankedmedals"					"Grades :"
+
+		"Citadel_ranks_rank0"						"Obscurus"
+		"Citadel_ranks_rank1"						"Prosélyte"
+		"Citadel_ranks_rank2"						"Adepte"
+		"Citadel_ranks_rank3"						"Alchimiste"
+		"Citadel_ranks_rank4"						"Arcaniste"
+		"Citadel_ranks_rank5"						"Ritualiste"
+		"Citadel_ranks_rank6"						"Émissaire"
+		"Citadel_ranks_rank7"						"Oracle"
+		"Citadel_ranks_rank8"						"Archonte"
+		"Citadel_ranks_rank9"						"Augure"
+		"Citadel_ranks_rank10"						"Thaumaturge"
+		"Citadel_ranks_rank11"						"Éternus"
+
+		"Citadel_subranks_1"						"I"
+		"Citadel_subranks_2"						"II"
+		"Citadel_subranks_3"						"III"
+		"Citadel_subranks_4"						"IV"
+		"Citadel_subranks_5"						"V"
+		"Citadel_subranks_6"						"VI"
+
+		"Citadel_rank_phase_example"				"Du 15 au 21 octobre | 2024"
+
+
 		"item_info_abilities"						"Capacités"
 		"item_info_flex_slots"						"EMPLACEMENTS FLEXIBLES"
 		"item_info_active"							"Actif"
@@ -2757,6 +2808,8 @@
 		"AbilityButtonHint_AltCastRestorativeGoo"		"Plonger dans le cube"
 		"AbilityButtonHint_AltCastStickyBomb"		"Explosion sur soi"
 		"AbilityButtonHint_CastIceDome"				"Lancer Dôme gelé"
+		"AbilityButtonHint_CastLifeDrain"			"Drainer la vie"
+		"AbilityButtonHint_AlotCastLifeDrain"				"Soigner l'occultiste"
 		
 		//-----------------------------------------------------------------------------
 		// Guided Bot Match

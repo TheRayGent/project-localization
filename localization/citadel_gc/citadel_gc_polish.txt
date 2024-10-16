@@ -324,6 +324,7 @@
 		"hero_targetdummy"		"Cel Treningowy"
 		"hero_bomber"			"Bomber"
 		"hero_shieldguy"		"Koleś z tarczą"
+		"hero_viper"			"Viper"
 
 		//-----------------------------------------------------------------------------
 		// Upgrades: Weapon

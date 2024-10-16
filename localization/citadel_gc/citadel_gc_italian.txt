@@ -324,6 +324,7 @@
 		"hero_targetdummy"		"Manichino da addestramento"
 		"hero_bomber"			"Bomber"
 		"hero_shieldguy"		"Shield Guy"
+		"hero_viper"			"Viper"
 
 		//-----------------------------------------------------------------------------
 		// Upgrades: Weapon

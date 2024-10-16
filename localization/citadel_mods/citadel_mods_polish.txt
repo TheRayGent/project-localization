@@ -536,7 +536,7 @@
 		"upgrade_cold_front_desc"			"Wyzwól rozszerzający się lodowy wybuch, który zadaje <span class=\"highlight\">obrażenia spirytualne</span> i <span class=\"highlight\">spowalnia</span> cele, które trafi."
 		
 		//Knockdown
-		"upgrade_target_stun_desc"			"Cel zostaje <span class=\"highlight\">obalony</span> i <span class=\"highlight\">ogłuszony</span> po <span class=\"highlight\">{s:StunDelay}-sekundowym opóźnieniu</span>, przerywając i uniemożliwiając mu podjęcie jakichkolwiek działań."
+		"upgrade_target_stun_desc"			"Po <span class=\"highlight\">{s:StunDelay}-sekundowym opóźnieniu</span> cel zostaje <span class=\"highlight\">obalony</span> i <span class=\"highlight\">ogłuszony</span>, przerywając i uniemożliwiając mu podjęcie jakichkolwiek działań."
 		
 		//Vacuum Web
 		//"upgrade_aoe_root_active"		"Throw a <span class=\"highlight\">vacuum</span> grenade, pulling all enemies into a small area where they remain <span class=\"highlight\">tethered</span>."

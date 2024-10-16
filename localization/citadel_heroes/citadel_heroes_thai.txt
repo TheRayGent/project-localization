@@ -751,7 +751,10 @@
 
 		"ability_bullet_flurry"			"Bullet Dance"
 		"ability_bullet_flurry_quip"	"ปล่อยกระสุนรัวรอบตัวคุณ"
-"BonusWeaponDamage_prefix"				"+"
+		"ability_bullet_flurry_desc"	"เข้าสู่ภาวะสาดกระสุน <span class=\"highlight\">ใช้อาวุธของคุณยิง</span>ใส่ศัตรูที่อยู่ใกล้เคียงด้วย<span class=\"highlight\">ความแม่นยำสมบูรณ์แบบ</span>"
+		//"ability_bullet_flurry/modifier_citadel_bullet_flurry"		"Bullet Flurry"
+		"ability_bullet_flurry_t3_desc"	"เพิ่มโอกาส​หลบหลีกกระสุน​ <span class=\"highlight\">+{s:EvasionPercent}%</span> และ​ความเร็ว​​การ​เคลื่อนที่​ระหว่าง Bullet Dance <span class=\"highlight\">+{s:DanceMoveSpeed}ม/วิ</span>"
+		"BonusWeaponDamage_prefix"				"+"
 		"BonusWeaponDamage_label"				"ความ​เสียหาย​กระสุน​​"
 		"DanceMoveSpeed_label"			"ความเร็ว​การ​เคลื่อนที่ระหว่าง Bullet Dance"
 		"DanceMoveSpeed_postfix"		"ม/วิ"
@@ -1160,7 +1163,7 @@
 
 		"citadel_ability_sticky_bomb"			"Sticky Bomb"
 		"citadel_ability_sticky_bomb_quip"		"ติดระเบิดบนตัวศัตรู"
-		"citadel_ability_sticky_bomb_desc"		"ติด Sticky Bomb ที่ตัวของเป้าหมายใกล้เคียงซึ่งจะสร้าง<span class=\"highlight\">ความเสียหาย​ระเบิด</span>หลังจากระยะเวลาจุดชนวนสั้น ๆ <br>มอบการซ้อนทับระเบิดซึ่งจะเพิ่ม<span class=\"highlight\">ความเสียหายระเบิด +{s:BonusDamagePctPerPlayerHit}%</span> ต่อฮีโร่ศัตรูแต่ละตัวที่โดน (สูงสุด {s:BonusMaxStacks} การซ้อนทับ) โดยจะเสีย {s:BonusLossPerDeath} การซ้อนทับเมื่อตาย <br>กด [{s:key_alt_cast}] ค้างไว้เพื่อร่าย Sticky Bomb ใส่ตนเอง"
+		"citadel_ability_sticky_bomb_desc"		"ติด Sticky Bomb ที่ตัวของเป้าหมายใกล้เคียงซึ่งจะสร้าง<span class=\"highlight\">ความเสียหาย​ระเบิด</span>หลังจากระยะเวลาจุดชนวนสั้น ๆ <br>มอบการซ้อนทับระเบิดซึ่งจะเพิ่ม<span class=\"highlight\">ความเสียหายระเบิด +{s:BonusDamagePctPerPlayerHit}%</span> ต่อฮีโร่ศัตรูแต่ละตัวที่โดน โดยจะเสีย {s:BonusLossPerDeath} การซ้อนทับเมื่อตาย <br>กด [{s:key_alt_cast}] ค้างไว้เพื่อร่าย Sticky Bomb ใส่ตนเอง"
 		"modifier_citadel_sticky_bomb_attached"	"ระเบิดติดอยู่บนตัวคุณ"
 		"citadel_ability_sticky_bomb_t3_desc"	"เมื่อติดระเบิด จะ<span class=\"highlight\">ปลดอาวุธ​</span>เป้าหมาย​เป็นเวลา <span class=\"highlight\">{s:DebuffDuration}วิ</span>"
 		"StunTargetOnExplode_label"				"ระยะเวลา"
@@ -1441,7 +1444,7 @@
 
 		//-----------------------------------------------------------------------------
 		// Lady Geist
-		// hero ghost
+		// hero ghost solider
 		//-----------------------------------------------------------------------------
 		"ability_blood_bomb"				"Essence Bomb"
 		"ability_blood_bomb_quip"			"สละพลังชีวิตบางส่วนเพื่อปล่อยระเบิดสร้างความเสียหาย"

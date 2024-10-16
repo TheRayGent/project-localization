@@ -302,6 +302,7 @@
 		"Citadel_Hud_OutOfAmmo"										"SEM MUNIÇÃO"
 		"Citadel_Hud_LowAmmo"										"POUCA MUNIÇÃO"
 		"Citadel_Hud_NotEnoughEnergy"								"POUCA ENERGIA"
+		"Citadel_Hud_CastTimeRemaining"								"{s:time_remaining}s"
 		"Citadel_Hud_DPS"											"Dano por segundo: {i:dps}"
 		"Citadel_Hud_RespawnIn"										"Renasce em:"
 		"Citadel_Hud_RideZipLine"									"SEGURE [ {s:in_zipline} ] para usar a tirolesa"
@@ -463,6 +464,15 @@
 
 		"Citadel_Play_MatchmakingOfflineTitle"				"Criação de partidas fechada"
 		"Citadel_Play_MatchmakingOfflineText"				"A criação de partidas está fechada no momento. Volte durante os horários agendados para testes."
+
+		"Citadel_Play_RankedMatchmakingOfflineTitle"		"Criação de partidas competitivas fechada"
+		"Citadel_Play_RankedMatchmakingOfflineText"			"A criação de partidas competitivas está fechada no momento. Volte durante os períodos escolhidos."
+
+		"Citadel_Play_RankedNoSchedule"						"Nenhuma agenda selecionada"
+		"Citadel_Play_RankedNoScheduleDesc"					"É necessário selecionar uma agenda de horários para jogar no modo competitivo."
+
+		"Citadel_RankedGames_Played"						"{i:ranked_games_played} de {i:ranked_games_required} partidas jogadas"
+		"Citadel_RankedGames_PlayedQualified"				"Qualificou-se para Classificação"
 
 		"Citadel_Play_BotsOfflineTitle"				"Bots temporariamente off-line"
 		"Citadel_Play_BotsOfflineText"				"Os bots estão desativados temporariamente. Verifique mais tarde."
@@ -675,6 +685,7 @@
 		"Citadel_Party_InviteSent"									"Convite enviado"
 
 		"Citadel_RosterMode_Party_Matchmaking"						"Jogar Deadlock"
+		"Citadel_RosterMode_Party_RankedMatchmaking"				"Competitivo"
 		"Citadel_RosterMode_Party_CoopBotMM"						"Jogar contra bots"
 		"Citadel_RosterMode_Party_PrivateBotEasy"					"Partida privada em grupo contra bots fáceis"
 		"Citadel_RosterMode_Party_PrivateBotMedium"					"Partida privada em grupo contra bots médios"
@@ -685,6 +696,7 @@
 		"Citael_PrivateLobbyModal_JoinCode"							"Informar código de partida existente"
 
 		"Citadel_RosterMode_Matchmaking"							"Jogar Deadlock"
+		"Citadel_RosterMode_RankedMatchmaking"						"Competitivo"
 		"Citadel_RosterMode_CoopBotMM"								"Contra bots"
 		"Citadel_RosterMode_PrivateBotEasy"							"Partida privada contra bots fáceis"
 		"Citadel_RosterMode_PrivateBotMedium"						"Partida privada contra bots médios"
@@ -856,6 +868,9 @@
 
 		"Citadel_Team1_Name"							"Mão Âmbar"
 		"Citadel_Team2_Name"							"Chama Safira"
+		"Citadel_Team1_Name_Uppercase"					"A MÃO ÂMBAR"
+		"Citadel_Team2_Name_Uppercase"					"A CHAMA SAFIRA"
+
 		"Citadel_Mod_Tooltip_Passive"									"Passiva"
 		"Citadel_Mod_Tooltip_Active"									"Ativa"
 		"Citadel_Mod_Tooltip_Innate"									"Nativa"
@@ -1019,15 +1034,6 @@
 		"Citadel_Playtest_JoinedDiscord"							"Entrou no Discord"
 		"Citadel_Playtest_GoToForum"								"Acessar o fórum"
 
-		"Citadel_RankedSchedule_1"									"Oeste dos EUA"
-		"Citadel_RankedSchedule_2"									"Leste dos EUA"
-		"Citadel_RankedSchedule_10"									"Europa Ocidental"
-		"Citadel_RankedSchedule_11"									"Leste Europeu"
-		"Citadel_RankedSchedule_13"									"Centro da Rússia"
-		"Citadel_RankedSchedule_20"									"China"
-		"Citadel_RankedSchedule_21"									"Japão e Coreia do Sul"
-		"Citadel_RankedSchedule_22"									"Leste da Austrália"
-
 		"Citadel_StartMatchmaking_ErrorTitle"						"Erro"
 		"Citadel_StartMatchmaking_AlreadyFindingMatch"				"Não foi possível entrar na criação de partidas porque você já está buscando uma partida."
 		"Citadel_StartMatchmaking_PartyMemberInLobby"				"Não foi possível entrar na criação de partidas porque você já está em uma partida. Saia dela primeiro."
@@ -1057,6 +1063,7 @@
 		"Citadel_StartMatchmaking_RankedNotUnlocked"				"Você ainda não pode buscar partidas competitivas."
 		"Citadel_StartMatchmaking_NoRankedWhileInLowPri"			"Não é permitido buscar partidas competitivas enquanto estiver na baixa prioridade."
 		"Citadel_StartMatchmaking_NoRankedWhileCommsBanned"			"Não é permitido buscar partidas competitivas enquanto estiver com proibição de comunicação."
+		"Citadel_StartMatchmaking_NoRankedWhileReportBanned"		"Não é permitido buscar partidas competitivas enquanto estiver com proibição de denúncias."
 		"Citadel_StartMatchmaking_TooManyPlayersOnTeam"				"Há jogadores demais na mesma equipe."
 		"Citadel_StartMatchmaking_UnableToFillTeam"					"Não foi possível criar equipes válidas com as composições atuais."
 		"Citadel_StartMatchmaking_InvalidTeam"						"Um usuário selecionou uma equipe inválida para este modo de jogo."
@@ -1290,6 +1297,8 @@
 		"Citadel_Profile_Stats_Denies"							"Negações"		
 		"Citadel_Profile_Stats_Healing"							"Cura"		
 		"Citadel_Profile_Stats_Networth"						"Almas colhidas"
+		"Citadel_Profile_Stats_Value_Networth_Low"				"{i:game_networth}"
+		"Citadel_Profile_Stats_Value_Networth_High"				"{i:game_networth} mil"
 
 		"Citadel_MatchPage_Prev"								"Anterior"
 		"Citadel_MatchPage_Next"								"Próxima"
@@ -1322,6 +1331,7 @@
 		"Citadel_MatchDetails_Healing"							"Cura"
 		"Citadel_MatchDetails_Victory"							"Vitória"
 		"Citadel_MatchDetails_Defeat"							"Derrota"
+		"Citadel_MatchDetails_Team_Result"						"<span class=\"TeamName h2 display\">{s:team_name}</span><br><span class=\"OutcomeLabel h1 display\">{s:outcome_label}</span>"
 		"Citadel_MatchDetails_Loading"							"Carregando detalhes da partida"
 		"Citadel_MatchDetails_MatchID"							"ID DA PARTIDA: {s:match_id}"
 		"Citadel_MatchDetails_ViewScoreboard"					"Ver placar"
@@ -1895,6 +1905,7 @@
 		"citadel_settings_streamlined_mic"				"Microfone sempre ativo"
 		"citadel_settings_chat_invert_ping"				"Inverter sinalizações"
 		"citadel_settings_mousesensitivity"				"Sensibilidade do mouse"
+		"citadel_settings_mousesensitivity_y_scale"		"Sensibilidade do mouse: escala vertical"
 		"citadel_settings_mousezoomsensitivity"			"Taxa de sensibilidade do zoom"
 		"citadel_settings_keybinddefaults"				"Restaurar padrões"
 		"citadel_settings_pingwheeldefaults"			"Restaurar padrões"
@@ -2095,6 +2106,7 @@
 		"citadel_keybind_mantle"						"Pular/Escalar"
 		"citadel_keybind_attack"						"Atirar"
 		"citadel_keybind_ads"							"Aproximar"
+		"citadel_keybind_reset_camera"					"Redefinir câmera"
 		"citadel_keybind_ping"							"Sinalizar"
 		"citadel_keybind_quick_response"				"Resposta rápida"
 		"citadel_keybind_extra_info"					"Informações adicionais"
@@ -2330,12 +2342,12 @@
 		"Citadel_LaneColorBlue"							"Azul"
 		"Citadel_LaneColorYellow"						"Amarela"
 		"Citadel_LaneColorGreen"						"Verde"
+		"Citadel_LaneColorUnassigned"					"Sem trilha"
 		"Citadel_TeamMsg_EnemyBossKilledTitle"			"Inimigo nível {i:boss_tier} da trilha {s:lane_color}"
 		"Citadel_TeamMsg_BossKilledTitle"				"Aliado nível {i:boss_tier} da trilha {s:lane_color}"
 		"Citadel_TeamMsg_BossKilledMessage"				"DESTRUÍDO"
 		"Citadel_TeamMsg_EnemyTitanKilledTitle"			"Patrono Inimigo"
 		"Citadel_TeamMsg_TitanKilledTitle"				"Seu Patrono"
-
 
 		"Citadel_FlexSlot_Title"						"Espaço flexível liberado"
 		"Citadel_FlexSlotUnlockedAllTier1"				"Destravado por destruir todos os <span class=\"FlexSlotObjectiveName\">Guardiões inimigos</span>"
@@ -2396,6 +2408,8 @@
 		"Citadel_Confirm_Discord_InMatch_Body"		"Obtenha o seu link do Discord quando não estiver em um grupo ou na criação de partidas."
 		"Citadel_Dashboard_Recommended"				"Recomendado"
 
+		"Citadel_Commend_Toast"						"{s:commender} ({s:commender_hero}) elogiou você!"
+
 		"menu_exit_db_page"							"Voltar"
 		"menu_settings"								"Configurações"
 		"menu_profile"								"Perfil"
@@ -2446,25 +2460,58 @@
 		"menu_ranked_unavailable_desc"				"Você precisa jogar 50 partidas padrão para buscar partidas competitivas."
 		"menu_ranked_schedule_weekdays"				"Segunda a quinta:"
 		"menu_ranked_schedule_weekends"				"Sexta a domingo:"
+		"menu_ranked_schedule_alldays"				"Agenda diária:"
 		"menu_ranked_schedule_timeplaceholder"		"{t:t:start_time} às {t:t:end_time}"
 		"menu_ranked_select_schedule"				"Selecionar agenda"
 		"menu_ranked_view_schedules"				"Ver todas as agendas"
 		"menu_ranked_set_schedule"					"Definir agenda"
-		"menu_ranked_explainer_button"				"O que é o competitivo?"
+		"menu_ranked_week_dates"					"{t:s:start_day} a {t:s:end_day}"
 		"Citadel_SetSchedule_Failed"				"Erro ao definir a agenda"
 		"Citadel_SetSchedule_FailedToSetSchedule"	"Falha ao definir a sua agenda. Tente novamente mais tarde."
 		"Citadel_SetSchedule_AlreadySet"			"Não foi possível definir a agenda porque você já a definiu."
 		"Citadel_SetSchedule_Success"				"Sucesso"
 		"Citadel_SetSchedule_LocalTimes"			"Agenda exibida no seu fuso local"
+		"Citadel_SetSchedule_RegionWithIndex"		"{s:region_name} {d:region_index}"
 		"Citadel_SetSchedule_Selected"				"Selecionada"
 		"Citadel_SetSchedule_SetSuccessfully"		"A sua agenda foi definida com sucesso."
 		"Citadel_ranked_scheduleModal_title"		"Agendas do competitivo"
 		"Citadel_ranked_scheduleModal_desc"			"Selecione os períodos de partidas competitivas mais adequados aos seus horários de jogo preferidos.<br><br>Você sempre jogará no servidor mais próximo disponível, independentemente do período selecionado."
 		"Citadel_ranked_scheduleModal_warning"		"Aviso: ao selecionar uma agenda para esta sessão competitiva, você não poderá alterá-la até a próxima sessão."
 		"Citadel_ranked_open"						"Aberto"
-		"Citadel_ranked_closed"						"Fechado"
+		"Citadel_ranked_closed"						"Competitivo fechado"
 		"Citadel_ranked_comingsoon"					"As partidas competitivas terão início dia 15 de outubro às 17h (BRT)"
-		"Citadel_ranks_rank0"						"Não Iniciado"
+		"Citadel_ranked_schedule_explainer"			"O modo competitivo só está disponível em determinados horários. Antes de jogar, você precisa escolher os horários mais adequados à sua agenda."
+
+		"Citadel_ranked_explainer_button"				"O que é o competitivo?"
+		"Citadel_ranked_explainer_title"				"Criação de partidas competitivas"
+		"Citadel_ranked_explainer_desc"					"O modo [competitivo] oferece uma experiência mais acirrada no Deadlock, onde você jogará partidas com jogadores de habilidade similar para determinar a sua Classificação de Habilidade em relação à população mundial.<br><br>A cada semana, os jogadores podem escolher participar desta competição ao jogar partidas [competitivas] durante os períodos pré-determinados da sua região e demonstrar a sua habilidade individual."
+		"Citadel_ranked_howitworks_title"				"Como funciona?"
+		"Citadel_ranked_howitworks_desc"				"Todos os jogadores começam com a classificação provisória de Obscuro, e você precisa jogar sete partidas [competitivas] completas por semana para se qualificar para a classificação daquela semana. Ao final dela, você receberá a sua Classificação, exibida como uma insígnia no seu perfil.<br><br>Caso não tenha jogado sete partidas [competitivas] ao final de uma semana, a sua Classificação visível voltará a ser de Obscuro, permanecendo oculta até se qualificar em uma semana posterior. As métricas de habilidade ainda serão preservadas e usadas nas suas partidas [competitivas] futuras, mas nenhuma insígnia será exibida até lá.<br><br>Há onze Classificações diferentes, cada uma dividida em seis subclassificações (I a VI), distinguindo cada jogador dentro de cada Classificação."
+		"Citadel_ranked_rankedmedals"					"Classificações:"
+
+		"Citadel_ranks_rank0"						"Obscuro"
+		"Citadel_ranks_rank1"						"Iniciado"
+		"Citadel_ranks_rank2"						"Aspirante"
+		"Citadel_ranks_rank3"						"Alquimista"
+		"Citadel_ranks_rank4"						"Arcanista"
+		"Citadel_ranks_rank5"						"Ritualista"
+		"Citadel_ranks_rank6"						"Emissário"
+		"Citadel_ranks_rank7"						"Oráculo"
+		"Citadel_ranks_rank8"						"Arconte"
+		"Citadel_ranks_rank9"						"Fantasma"
+		"Citadel_ranks_rank10"						"Ascendente"
+		"Citadel_ranks_rank11"						"Eterno"
+
+		"Citadel_subranks_1"						"I"
+		"Citadel_subranks_2"						"II"
+		"Citadel_subranks_3"						"III"
+		"Citadel_subranks_4"						"IV"
+		"Citadel_subranks_5"						"V"
+		"Citadel_subranks_6"						"VI"
+
+		"Citadel_rank_phase_example"				"15 a 21 de outubro | 2024"
+
+
 		"item_info_abilities"						"Habilidades"
 		"item_info_flex_slots"						"ESPAÇOS FLEXÍVEIS"
 		"item_info_active"							"Ativo"
@@ -2761,6 +2808,8 @@
 		"AbilityButtonHint_AltCastRestorativeGoo"		"Encubar a si"
 		"AbilityButtonHint_AltCastStickyBomb"		"Grudar em si"
 		"AbilityButtonHint_CastIceDome"				"Usar o Abrigo Gélido"
+		"AbilityButtonHint_CastLifeDrain"			"Drenar inimigo"
+		"AbilityButtonHint_AlotCastLifeDrain"				"Curar aliado"
 		
 		//-----------------------------------------------------------------------------
 		// Guided Bot Match
@@ -2909,6 +2958,7 @@
 		"ping_see_param_2"										" com {s:param_2} vida"
 		"Ping_Low_Health"										"pouca"
 		"ping_they_are"											"Eles"
+		"ping_the_enemy"										"o inimigo!"
 		"ping_lets_go_yellow"									"Vamos para a Amarela"
 		"ping_lets_go_blue"										"Vamos para a Azul"
 		"ping_lets_go_green"									"Vamos para a Verde"

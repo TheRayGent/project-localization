@@ -54,10 +54,10 @@
 		//"modifier_citadel_rapid_fire"			"Bullet Storm"
 		//"modifier_citadel_damageboost"			"Damage Boost"
 		//"modifier_citadel_damage_reduction" 	"Armor Boost"
-		"modifier_slowaura" 					"Rallentato"
-		"modifier_citadel_slowtarget" 			"Rallentato"
-		"modifier_citadel_lineslow"				"Rallentato"
-		"modifier_slow_base"																		"Rallentato"
+		"modifier_slowaura" 					"Rallentamento"
+		"modifier_citadel_slowtarget" 			"Rallentamento"
+		"modifier_citadel_lineslow"				"Rallentamento"
+		"modifier_slow_base"																		"Rallentamento"
 		"modifier_damageovertime" 				"Sanguinamento"
 		"modifier_citadel_stunned" 				"Stordimento"
 		"modifier_citadel_knockdown"			"Stordimento"
@@ -722,6 +722,7 @@
 		//"EvasionPercentGlider_label"					"Evasion Chance Gliding"
 		"EvasionPercentGlider_postfix"					"%"
 
+		"EvasionPercent_label"						"Elusività alle pallottole"
 		"EvasionPercent_postfix"						"%"
 
 		//"MeleeDamagePercent_label"					"Melee Damage Bonus"
@@ -1409,7 +1410,7 @@
 		"WeaponPowerPerStack_prefix"				"{s:sign}"
 		"WeaponPowerPerStack_label"					"Danni da arma per istanza"
 		"WeaponPowerPerStack_postfix"				"%"
-		"DamageToStack_label"						"Danni subiti all'istanza"
+		"DamageToStack_label"						"Danni subiti per istanza"
 		"DamageDuration_label"						"Durata"
 		"DamageDuration_postfix"						" s"
 
@@ -1576,7 +1577,7 @@
 		"GalvanicProcDuration_label"			"Durata dei rallentamenti"
 		"GalvanicProcDuration_postfix"		" s"
 
-		"FireRateSlow_label"					"Rallentamento della frequenza di fuoco"
+		"FireRateSlow_label"					"Riduzione della frequenza di fuoco"
 		"FireRateSlow_postfix"				"%"
 
 		//"SlowFireRatePercent_label"			"Fire Rate Scale"
@@ -1704,7 +1705,7 @@
 		"modifier_veil_walker_stealth"			"Invisibilità del Mech del velo"
 
 		"InvisDuration_label"						"Durata dell'invisibilità"
-		"InvisDuration_postfix"					"s"
+		"InvisDuration_postfix"					" s"
 
 		"SlideScale_label"						"Distanza della scivolata"
 		"SlideScale_postfix"						"%"

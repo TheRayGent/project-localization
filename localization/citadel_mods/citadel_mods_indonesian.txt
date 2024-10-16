@@ -39,7 +39,7 @@
 		"upgrade_lifestrike_gauntlets_desc"	"Serangan <span class=\"highlight\">Jarak Dekatmu</span> akan <span class=\"highlight\">menyembuhkanmu</span> sebesar {s:LifestrikeHealPercent}% dari <span class=\"highlight\">Damage Jarak Dekat</span> yang diterima ditambah {s:LifestrikeHeal}. Penyembuhan ini {s:NonHeroHealPct}% efektif dari non-hero."
 
 		//Tesla Bullets
-		"upgrade_chain_lightning_desc"	"Pelurumu memiliki kesempatan untuk memberikan efek <span class=\"highlight\">kejut</span> target. Efek <span class=\"highlight\">kejut</span> akan berpindah ke musuh terdekat."
+		"upgrade_chain_lightning_desc"	"Peluru memiliki kesempatan untuk memberikan efek <span class=\"highlight\">kejut</span> target. Efek <span class=\"highlight\">kejut</span> akan berpindah ke musuh terdekat."
 
 		//Galvanic Storm
 		//"upgrade_galvanic_storm_passive1"	"Your bullets have a chance to <span class=\"highlight\">shock</span> your target.  The shock will jump to a nearby enemy."
@@ -63,7 +63,7 @@
 		//"upgrade_proc_silence/modifier_citadel_silence_proc_watcher/modifier_citadel_base_buildup"	"Silence Building..."
 
 		//Silencer
-		"upgrade_silencer_active"		"Untuk {s:AbilityDuration} dtk. selanjutnya, <span class=\"highlight\">semua pelurumu akan secara langsung menerapkan efek Bungkam</span>. Efek Bungkam mencegah target menggunakan skill."
+		"upgrade_silencer_active"		"Untuk {s:AbilityDuration} dtk. selanjutnya, <span class=\"highlight\">semua peluru akan secara langsung menerapkan efek Bungkam</span>. Efek Bungkam mencegah target menggunakan skill."
 		//"upgrade_silencer_passive1"		"Your bullets deal <span class=\"highlight\">+{s:BonusBulletDamageToEMPTargets}% damage to Silenced targets</span>."
 		//"upgrade_silencer_passive2"		"Your bullets build up an <span class=\"highlight\">EMP</span> on enemy heroes, preventing them from using abilities."
 		"SilencerSlowPercent_label"		"Aktivasi Perlambatan Peluru"
@@ -74,11 +74,11 @@
 		//"upgrade_proc_tech_damage_desc"	"Your bullets also deal your <span class=\"highlight\">base bullet damage [{s:BaseDamagePerShot}] </span> as spirit damage.  Magitech Rounds receives <span class=\"highlight\">{s:SpellAmplificationMultiplier}x</span> amplification from <span class=\"highlight\">Spirit Power</span>. Shotguns split the damage between each pellet. This effect can only happen once every {s:ProcCooldown}s."
 		
 		//Slowing Bullets
-		"upgrade_slowing_bullets_desc"	"Pelurumu memberikan <span class=\"highlight\">Perlambatan Gerakan</span>."
+		"upgrade_slowing_bullets_desc"	"Peluru memberikan <span class=\"highlight\">Perlambatan Gerakan</span>."
 		"upgrade_slowing_bullets/modifier_slowing_bullets_proc/modifier_slow_base"					"Slowed"
 
 		//Inhibitor
-		"upgrade_inhibitor_desc"	"Pelurumu memberikan <span class=\"highlight\">Perlambatan Gerakan</span> dan mengurangi <span class=\"highlight\">damage yang diberikan</span> target saat terkena."
+		"upgrade_inhibitor_desc"	"Peluru memberikan <span class=\"highlight\">Perlambatan Gerakan</span> dan mengurangi <span class=\"highlight\">damage yang diberikan</span> target saat terkena."
 		"modifier_inhibitor_debuff"	"Penghambat"
 		"OutgoingDamagePenaltyPercent_label"	"Penalti Damage"
 		"OutgoingDamagePenaltyPercent_postfix"	"%"
@@ -109,8 +109,11 @@
 		//"upgrade_nearby_enemy_boost_desc"	"Gain bonus <span class=\"highlight\">Weapon Damage</span> and <span class=\"highlight\">Fire Rate</span> when there are two or more enemy heroes nearby."
 
 		//Heroic Aura
-		"upgrade_dps_aura_active_desc"	"Memberikan <span class=\"highlight\">Kecepetan Gerakan</span> dan <span class=\"highlight\">Tingkat tembakan</span> bonus untukmu dan rekan tim terdekat."
+		"upgrade_dps_aura_active_desc"	"Memberikan bonus <span class=\"highlight\">Kecepatan Gerakan</span> dan <span class=\"highlight\">Tingkat tembakan</span> untukmu dan rekan tim terdekat."
 		"upgrade_dps_aura_desc"			"Memberikan <span class=\"highlight\">Tingkat tembakan</span> pada anak buah terdekat."
+		"modifier_dps_aura_active"		"Heroik Aktif"
+		"modifier_dps_aura_player"		"Tingkat Tembakan Heroik"
+
 		//"BonusBaseDamage_label"			"Base Bullet and Melee Damage"
 		"BonusBaseDamage_postfix"		"%"
 
@@ -126,13 +129,23 @@
 		"CasterBuffDuration_postfix"	"dtk."
 		//"CasterSlowPercent_label"		"Self Slow"
 		"CasterSlowPercent_postfix"	"%"
-"MagicBurstDamage_label"		"Damage Bonus"
+
+		//Torment Pulse
+		"upgrade_tech_damage_pulse_desc"	"Secara berkala memberikan <span class=\"highlight\">Damage Spirit</span> ke 2 musuh terdekat."
+
+		//Mystic Burst
+		"upgrade_magic_burst_desc"	"Skill memberikan bonus <span class=\"highlight\">Damage Spirit</span> jika memberikan {s:MinimumDamage} damage atau lebih dalam satu serangan."
+		"MagicBurstDamage_label"		"Damage Bonus"
 
 		//Improved Burst
 		"upgrade_magic_shock_desc"	"Skill memberikan bonus <span class=\"highlight\">Damage Spirit</span> jika memberikan {s:MinimumDamage} damage atau lebih dalam satu serangan. <br/>Target kebal terhadap efek dari Peningkatan Semburan selama <span class=\"highlight\">{s:ReProcLockoutTime} dtk.</span> setelah menerima damage."
 		"MagicShockDamage_label"		"Damage Bonus Health Maks."
 		"MagicShockDamage_postfix"	"%"
-"upgrade_toxic_bullets_buildup"					"Meningkatkan racun..."
+//"upgrade_tech_bleed/modifier_tech_bleed_proc/modifier_tech_bleed"			"Spirit Echo"	
+
+		//Toxic Bullets
+		"upgrade_toxic_bullets_desc"	"Peluru meningkatkan <span class=\"highlight\">Pendarahan</span> pada musuh yang menyebabkan mereka kehilangan <span class=\"highlight\">sebagian % health mereka</span> dari waktu ke waktu. Juga memberikan <span class=\"highlight\">Pengurangan Penyembuhan</span> pada target yang terkena pendarahan."
+		"upgrade_toxic_bullets_buildup"					"Meningkatkan racun..."
 		"upgrade_bleeding_bullets_buildup"				"Meningkatkan pisau gerigi..."
 		//"upgrade_hemorrhage_buildup"					"Eviscerator building..."
 		//"upgrade_bleeding_bullets/modifier_item_bleeding_bullets_active/modifier_item_bleeding_bullets_damageovertime"		"Serrated Bullets"
@@ -156,7 +169,7 @@
 		//"upgrade_drum_magazine_desc"		"Provides a large <span class=\"highlight\">ammo bonus</span>, and <span class=\"highlight\">increased reload speed</span>"
 
 		//Ricochet
-		"upgrade_ricochet_desc"		"Pelurumu akan <span class=\"highlight\">memantul</span> pada musuh dekat targetmu, memberikan <span class=\"highlight\">aktivasi peluru apa pun</span> dan <span class=\"highlight\">memberikan sebagian dari damage asli.</span>"
+		"upgrade_ricochet_desc"		"Peluru akan <span class=\"highlight\">memantul</span> pada musuh dekat targetmu, memberikan <span class=\"highlight\">aktivasi peluru apa pun</span> dan <span class=\"highlight\">memberikan sebagian dari damage asli.</span>"
 		"RicochetTargetsTooltipOnly_label"			"Target Pantulan"
 		"RicochetDamagePercent_label"					"Damage Pantulan"
 		"RicochetDamagePercent_postfix"					"%"
@@ -174,12 +187,12 @@
 		"upgrade_long_range_desc"	"Memberikan <span class=\"highlight\">Damage Senjata</span> saat b<span class=\"highlight\">di luar jarak minimum</span> dari target."
 
 		//Mystic Shot
-		"upgrade_crackshot_desc"	"Pelurumu berikutnya memberikan <span class=\"highlight\">Damage Spirit</span> bonus."
+		"upgrade_crackshot_desc"	"Peluru berikutnya memberikan <span class=\"highlight\">Damage Spirit</span> bonus."
 		"ProcBonusMagicDamage_prefix"	"{s:sign}"
 		"ProcBonusMagicDamage_label"	"Damage Spirit"
 
 		//Restorative Shot
-		"upgrade_medic_bullets_desc"	"Pelurumu berikutnya akan <span class=\"highlight\">menyembuhkanmu</span> berdasarkan target yang terkena."
+		"upgrade_medic_bullets_desc"	"Peluru berikutnya akan <span class=\"highlight\">menyembuhkanmu</span> berdasarkan target yang terkena."
 		"HealFromHero_label"	"Penyembuhan dari Hero"
 		"HealFromNPC_label"	 "Penyembuhan dari NPC"
 
@@ -217,7 +230,7 @@
 		//"upgrade_frenzy/modifier_frenzy_aura/modifier_frenzy_kill"		"Killed Frenzy"
 
 		//Soul Shredder Bullets
-		"upgrade_tech_defense_shredders_desc"	"Pelurumu memnerapkan debuff yang memperbesar <span class=\"highlight\">Damage Spirit</span> darimu pada target, dan memberimu <span class=\"highlight\"></span>."
+		"upgrade_tech_defense_shredders_desc"	"Peluru memberikan debuff yang memperbesar <span class=\"highlight\">Damage Spirit</span> darimu pada target, dan memberimu <span class=\"highlight\">Curi HP Spirit</span>."
 		"ShreddersTechAmp_label"				"Pembesaran Spirit"
 		"ShreddersTechAmp_postfix"			"%"
 		"modifier_tech_defense_shredders_debuff"																"Peluru Penghancur Jiwa"
@@ -242,7 +255,10 @@
 
 		//Glass Cannon
 		"upgrade_glass_cannon_desc"		"Setiap melakukan kill pada hero, akan memberikan <span class=\"highlight\">Damage Senjata permanen</span> (maks. hingga {s:MaxStacks} kali). Death akan mengakibatkan hilangnya 1 akumulasi."
-"ActiveBonusLifesteal_label"		"Curi Nyawa Peluru"
+
+		//Vampiric Burst
+		"upgrade_surging_power_active"	"Memberikan <span class=\"highlight\">Curi Nyawa</span>, <span class=\"highlight\">Tingkat tembakan</span>, dan <span class=\"highlight\">Amunisi</span>. Amunisi ini tidak dibatasi oleh ukuran magasin maksimum."
+		"ActiveBonusLifesteal_label"		"Curi Nyawa Peluru"
 		"ActiveBonusLifesteal_postfix"	"%"
 		"modifier_surging_power"		 "Lonjakan Kekuatan"
 		//"upgrade_surging_power/surge/windup"					"Surging Power"
@@ -276,7 +292,10 @@
 		"BonusHeadshotDamage_postfix"					"%"
 		//"BaseBonusWeaponPower_label"					"Courage"
 		"BaseBonusWeaponPower_prefix"					"+"
-//"BonusMeleeSpeed_label"							"Melee Speed"
+
+		//Lifestrike
+		"upgrade_boxing_glove_desc"						"<span class=\"highlight\">Serangan Jarak Dekatmu</span> akan memberikan <span class=\"highlight\">Perlambatan Gerakan</span> dan <span class=\"highlight\">menyembuhkanmu</span> sebesar {s:LifestealHealPercent}% dari <span class=\"highlight\">Damage Jarak Dekat</span> yang diterima ditambah {s:LifestealHeal}. Penyembuhan ini {s:NonHeroHealPct}% efektif dari non-hero."
+		//"BonusMeleeSpeed_label"							"Melee Speed"
 		"BonusMeleeSpeed_prefix"						"+"
 		"BonusMeleeSpeed_postfix"						"%"
 		"DisarmDuration_label"							"Durasi Melucuti Senjata"
@@ -303,7 +322,11 @@
 		//"StationaryWeaponPower_label"					"Courage While Not Moving"
 		//"CasterHealthPercent_label"						"Turret Health Percent of Caster"
 		"CasterHealthPercent_postfix"					"%"
-"upgrade_burst_fire/modifier_burst_fire_buff"	"Semburan Tembakan"
+		//"modifier_stabilizing_tripod_self_debuff"				"Field Sentry"
+
+		//Burst Fire
+		"upgrade_burst_fire_desc"						"Dapatkan <span class=\"highlight\">Tingkat tembakan</span> dan <span class=\"highlight\">Kecepatan Gerakan</span> secara singkat saat salah satu peluru mengenai hero musuh."
+		"upgrade_burst_fire/modifier_burst_fire_buff"	"Semburan Tembakan"
 	
 		//Arcane Eater
 		//"upgrade_arcane_eater_desc"					"Your bullets <span class=\"highlight\">Steal Spirit Power</span> from enemy Heroes.  Steal {s:HeadshotBonusSteal} extra Spirit Power with Headshots.  This effect stacks."
@@ -332,7 +355,7 @@
 		"BulletResistDuration_postfix"			"dtk."
 
 		//Lucky Shot
-		"upgrade_critshot_desc"				"Pelurumu memiliki kesempatan untuk ditingkatkan agar dapat memberikan <span class=\"highlight\">damage bonus</span> dan <span class=\"highlight\">perlambatan</span> saat terkena."
+		"upgrade_critshot_desc"				"Peluru memiliki kesempatan untuk ditingkatkan agar dapat memberikan <span class=\"highlight\">damage bonus</span> dan <span class=\"highlight\">perlambatan</span> saat terkena."
 		"CritDamagePercent_label"				"Damage Bonus"
 		"CritDamagePercent_postfix"			"%"
 
@@ -407,17 +430,42 @@
 		"CooldownReductionOnChargedAbilities_label"	"Pengurangan Cooldown untuk Skill Penuh"
 		"CooldownReductionOnChargedAbilities_postfix" "%"
 		"CooldownReductionOnChargedAbilities_prefix" "+"
-"BonusBaseWeaponDamageTaken_prefix"		"+"
+
+		//Alchemical Fire
+		"upgrade_thermal_detonator_desc"		"Lemparkan labu yang meledak saat bersentuhan, menghasilkan area yang meningkatkan <span class=\"highlight\">Damage Spirit per detik</span> dan menyebabkan musuh menerima <span class=\"highlight\">Damage Senjata</span> tambahan dari timmu.<br><br> Memberikan {s:NonHeroReductionPercent}% lebih sedikit DSP pada non hero."
+		"BonusBaseWeaponDamageTaken_prefix"		"+"
 		"BonusBaseWeaponDamageTaken_label"		"Damage Senjata"
 		"BonusBaseWeaponDamageTaken_postfix"	"%"
 
 		//Fleetfoot
 		"upgrade_fleetfoot_boots_active_desc"	"Dapatkan bonus <span class=\"highlight\">Kecepatan Gerakan</span> dan <span class=\"highlight\">Amunisi</span>."
 		"upgrade_fleetfoot_boots_passive_desc"	"Menghapus penalti <span class=\"highlight\">Kecepatan Gerakan</span> saat menembak."
+		"modifier_fleetfoot_boots"				"Langkah Seribu"
+
 		//Kinetic Dash
 		"upgrade_kinetic_sash_desc"		"<span class=\"highlight\">Dash Lompat</span> berikutnya tidak memerlukan stamina ekstra dan memberimu <span class=\"highlight\">Tingkat tembakan</span> juga bonus <span class=\"highlight\">Amunisi</span> sampai isi ulang berikutnya. Berlangsung selama {s:AbilityDuration} dtk."
 		"modifier_kinetic_sash_triggered"	"Dash Kinetik"
-"modifier_withering_whip_debuff"	"Perlambatan Tingkat Tembakan"
+"upgrade_active_reload/buff"	"Isi Ulang Aktif"
+
+		//Arcane Medallion
+		//"upgrade_arcane_medallion_desc"	"Whenever you deal <span class=\"highlight\">{s:MinimumDamage} Spirit damage</span> or more in a single hit against an enemy hero, gain <span class=\"highlight\">temporary Spirit Power</span>."
+		//"modifier_arcane_medallion_triggered"	"Arcane Medallion"
+
+		//Soul Disruptor
+		//"upgrade_mod_disruptor_desc"	"Throw a grenade that explodes on contact and applies <span class=\"highlight\">silence</span> and <span class=\"highlight\">increasing amounts of damage</span> to each enemy."
+		
+		//Ability Speed	
+		//"upgrade_ability_speed_desc"		"Increases your movement speed while using any movement-based ability"
+		
+		//Rescue
+		//"upgrade_succor_desc"				"<span class=\"highlight\">Pulls</span> the targeted teammate out of battle and brings them next to you."
+		
+		//Slowing Hex
+		"upgrade_containment_desc"			"Memberikan <span class=\"highlight\">Damage Spirit</span> dan <span class=\"highlight\">Memperlambat</span> gerakan dan dash target. Dan <span class=\"highlight\">Membungkam item berbasis gerakan dan skill mereka</span>.<br>Tidak memengaruhi penggunaan stamina target."
+
+		//Withering Whip
+		"upgrade_withering_whip_desc"		"Target musuh dan berikan <span class=\"highlight\">Perlambatan Tingkat tembakan</span> dan mengurangi <span class=\"highlight\">Pertahanan Peluru</span> target."
+		"modifier_withering_whip_debuff"	"Penurunan Tingkat Tembakan"
 		"MagicAmp_label"					"Pembesaran Spirit"
 		"MagicAmp_postfix"					"%"
 		"WitheringWhipDisarmDuration_label"	"Durasi"
@@ -459,7 +507,16 @@
 		
 		//Refresher
 		"upgrade_ability_refresher_desc"	"<span class=\"highlight\">Reset cooldown</span> semua skill-mu dan <span class=\"highlight\">pulihkan semua pengisian</span>."
-//Knockdown
+		//"upgrade_ability_refresher_innate_desc" "Health<br>Spirit Power"
+
+		//Spirit Barrier Pulse
+		//"upgrade_aoe_tech_shield_desc"		"Temporarily gain <span class=\"highlight\">spirit barrier</span> for you and all nearby allied units."
+		//"upgrade_aoe_tech_shield/modifier_duration" "Spirit Barrier Pulse"
+		
+		//Cold Front
+		"upgrade_cold_front_desc"			"Melepaskan ledakan es yang meluas yang memberikan <span class=\"highlight\">Damage Spirit</span> dan <span class=\"highlight\">Memperlambat</span> target yang terkena."
+		
+		//Knockdown
 		"upgrade_target_stun_desc"			"Target <span class=\"highlight\">roboh</span> dan terkena <span class=\"highlight\">stun</span> setelah <span class=\"highlight\">{s:StunDelay} dtk. penundaan</span>, menginterupsi dan mencegah mereka melakukan tindakan untuk sementara."
 		
 		//Vacuum Web
@@ -511,7 +568,11 @@
 		"BonusChannelTimePercentage_label"		"Durasi Skill"
 		"BonusChannelTimePercentage_prefix"		"+"
 		"BonusChannelTimePercentage_postfix"	"%"
-"modifier_infuser" "Infuser"
+		//"ChannelBulletShield_label"				"Bullet Barrier While Channeling"
+
+		//Infuser
+		"upgrade_infuser_desc"			"Mendapatkan <span class=\"highlight\">Kekuatan Spirit</span> dan <span class=\"highlight\">Curi HP Spirit</span>."
+		"modifier_infuser" "Infuser"
 
 		//Spirit Strike
 		"upgrade_acolytes_glove_desc"			"Saat melakukan Serangan <span class=\"highlight\">Jarak dekat Ringan atau Berat</span> pada hero, berikan <span class=\"highlight\">Damage Spirit</span> ekstra dengan serangan yang mengurangi <span class=\"highlight\">Pertahanan Spirit</span> target."
@@ -540,7 +601,7 @@
 
 		//Suppressor
 		"upgrade_suppressor_desc"					"Saat memberikan <span class=\"highlight\">Damage Spirit</span> pada musuh, kamu juga memberikan <span class=\"highlight\">Perlamabatan Tingkat Tembakan</span>."
-		"suppressor_debuff"						"Perlambatan Tingkat Tembakan"
+		"suppressor_debuff"						"Penurunan Tingkat Tembakan"
 
 		//Quicksilver Reload
 		"upgrade_quick_silver_desc"				"Isi skill dengan <span class=\"highlight\">Damage Spirit</span> bonus pada serangan pertama. Saat skil digunakan, senjatamu <span class=\"highlight\">sudah diisi</span> dan memiliki bonus <span class=\"highlight\">Tingkat tembakan</span> bonus untuk klip amunisi tersebut. <br>Hanya mengaktifkan Amunisi yang tidak penuh."
@@ -578,7 +639,10 @@
 		"SaviorMagicShieldHealth_label"		"Perisai Spirit"
 		"BuffDuration_label"					"Durasi"
 		"BuffDuration_postfix"				"dtk."
-"upgrade_restorative_locket_active_desc"		"Gunakan semua akumulasi untuk <span class=\"highlight\">memulihkan semua rekan tim yang ditarget</span> dan mengisi <span class=\"highlight\">poin stamina</span>. Dapat digunakan ke diri sendiri."
+
+		//Restorative Locket
+		"upgrade_restorative_locket_passive_desc"		"Saat musuh menggunakan skill dalam radius {s:Radius} m darimu, mendapatkan satu <span class=\"highlight\">Akumulasi Restoratif</span>."
+		"upgrade_restorative_locket_active_desc"		"Gunakan semua akumulasi untuk <span class=\"highlight\">memulihkan semua rekan tim yang ditarget</span> dan mengisi <span class=\"highlight\">poin stamina</span>. Dapat digunakan ke diri sendiri."
 		"HealPerStack_label"								"Penyembuhan per akumulasi"
 
 		//Bullet Deflector

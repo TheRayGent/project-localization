@@ -82,6 +82,9 @@
 		"GameUI_Disconnect_ReplayIncompatible"		"Несовместимая запись."
 		"GameUI_Disconnect_ConnectionTimedout"		"Не удаётся установить соединение с сервером игры."
 		"GameUI_Disconnect_ServerIncompatible"		"Версия игры на сервере несовместима с вашей."
+		"Player_DisconnectReason_Idle"				"Вас отключили от игрового сервера, поскольку вы слишком долго бездействовали."
+		
+
 		"GameUI_Disconnect_LocalProblem_ManyRelays"	"Потеряно соединение, в том числе с различными узлами связи в различных географических регионах. Наиболее вероятная причина — проблемы вашего соединения с интернетом."
 		"GameUI_Disconnect_LocalProblem_HostedServerPrimaryRelay"	"Игровой сервер потерял соединение с основным узлом сети, который использовался в клиенте."
 		"GameUI_Disconnect_LocalProblem_NetworkConfig"	"Проверьте соединение с интернетом. Не удалось загрузить настройки из CDN (сети доставки и дистрибуции контента)."
@@ -299,6 +302,7 @@
 		"Citadel_Hud_OutOfAmmo"										"ЗАКОНЧИЛСЯ БОЕЗАПАС"
 		"Citadel_Hud_LowAmmo"										"НИЗКИЙ БОЕЗАПАС"
 		"Citadel_Hud_NotEnoughEnergy"								"НЕДОСТАТОЧНО ЭНЕРГИИ"
+		"Citadel_Hud_CastTimeRemaining"								"{s:time_remaining} с."
 		"Citadel_Hud_DPS"											"УВС {i:dps}"
 		"Citadel_Hud_RespawnIn"										"До возрождения:"
 		"Citadel_Hud_RideZipLine"									"УДЕРЖИВАЙТЕ [ {s:in_zipline} ], чтобы зацепиться"
@@ -461,6 +465,13 @@
 		"Citadel_Play_MatchmakingOfflineTitle"				"Подбор матчей закрыт"
 		"Citadel_Play_MatchmakingOfflineText"				"Подбор матчей сейчас закрыт. Повторите попытку в запланированное время тестирования."
 
+		"Citadel_Play_RankedMatchmakingOfflineTitle"		"Подбор рейтинговых матчей закрыт"
+		"Citadel_Play_RankedMatchmakingOfflineText"			"Подбор рейтинговых матчей сейчас закрыт. Повторите попытку в выбранное время тестирования."
+
+		"Citadel_Play_RankedNoSchedule"						"Расписание не выбрано"
+		"Citadel_Play_RankedNoScheduleDesc"					"Вы должны выбрать время в расписании, чтобы участвовать в рейтинговых матчах."
+
+		"Citadel_RankedGames_Played"						"Сыграно {i:ranked_games_played} из {i:ranked_games_required} матчей"
 		"Citadel_Play_BotsOfflineTitle"				"Боты временно отключены"
 		"Citadel_Play_BotsOfflineText"				"Боты временно отключены, повторите попытку позже."
 
@@ -548,7 +559,7 @@
 		"Citadel_PrivateLobby_SwapTeamsTooltip"						"Инвертирование команд с сохранением веток"
 		"Citadel_PrivateLobby_RandomizeTeams"						"Распределить игроков случайным образом"
 		"Citadel_PrivateLobby_ShuffleTeamsTooltip"					"Случайное распределение игроков в лобби по командам"
-		"Citadel_PrivateLobby_ShuffleTeams"							"Перетасовать команду"		
+		"Citadel_PrivateLobby_ShuffleTeams"							"Перемешать внутри команд"		
 		"Citadel_PrivateLobby_ShuffleLanesTooltip"					"Случайное распределение игроков по веткам"
 
 		"Citadel_ServerRegion_0"									"Выбрать регион автоматически"
@@ -672,6 +683,7 @@
 		"Citadel_Party_InviteSent"									"Приглашение отправлено"
 
 		"Citadel_RosterMode_Party_Matchmaking"						"Deadlock"
+		"Citadel_RosterMode_Party_RankedMatchmaking"				"Рейтинговый матч"
 		"Citadel_RosterMode_Party_CoopBotMM"						"Игра против ботов"
 		"Citadel_RosterMode_Party_PrivateBotEasy"					"Закрытый матч с ботами — простой, для группы"
 		"Citadel_RosterMode_Party_PrivateBotMedium"					"Закрытый матч с ботами — обычный, для группы"
@@ -682,6 +694,7 @@
 		"Citael_PrivateLobbyModal_JoinCode"							"Присоединиться с помощью кода"
 
 		"Citadel_RosterMode_Matchmaking"							"Deadlock"
+		"Citadel_RosterMode_RankedMatchmaking"						"Рейтинговый матч"
 		"Citadel_RosterMode_CoopBotMM"								"Игра против ботов"
 		"Citadel_RosterMode_PrivateBotEasy"							"Закрытый матч с ботами — простой"
 		"Citadel_RosterMode_PrivateBotMedium"						"Закрытый матч с ботами — обычный"
@@ -853,11 +866,13 @@
 
 		"Citadel_Team1_Name"							"Янтарная рука"
 		"Citadel_Team2_Name"							"Сапфировое пламя"
+		"Citadel_Team1_Name_Uppercase"					"ЯНТАРНАЯ РУКА"
+		"Citadel_Team2_Name_Uppercase"					"САПФИРОВОЕ ПЛАМЯ"
+
 		"Citadel_Mod_Tooltip_Passive"									"Пассивное"
 		"Citadel_Mod_Tooltip_Active"									"Активное"
 		"Citadel_Mod_Tooltip_Innate"									"Врождённое"
 
-	
 		"Citadel_HUD_AbilityUnlockAvailable"						"Удерживайте <span class=\"keybind\">[{s:show_scoreboard}]</span>, чтобы разблокировать умение"
 		"Citadel_HUD_AbilityUpgradeAvailable"						"Удерживайте <span class=\"keybind\">[{s:show_scoreboard}]</span>, чтобы улучшить умение"
 		"Citadel_HUD_AbilityUnlock_Button"							"Разблок."
@@ -1012,15 +1027,6 @@
 		"Citadel_Playtest_JoinedDiscord"							"Вы присоединились к Discord"
 		"Citadel_Playtest_GoToForum"								"Открыть форумы"
 
-		"Citadel_RankedSchedule_1"									"Запад США"
-		"Citadel_RankedSchedule_2"									"Восток США"
-		"Citadel_RankedSchedule_10"									"Запад Европы"
-		"Citadel_RankedSchedule_11"									"Восток Европы"
-		"Citadel_RankedSchedule_13"									"Центр России"
-		"Citadel_RankedSchedule_20"									"Китай"
-		"Citadel_RankedSchedule_21"									"Япония/Корея"
-		"Citadel_RankedSchedule_22"									"Восточная Австралия"
-
 		"Citadel_StartMatchmaking_ErrorTitle"						"Ошибка"
 		"Citadel_StartMatchmaking_AlreadyFindingMatch"				"Вы уже участвуете в подборе матча."
 		"Citadel_StartMatchmaking_PartyMemberInLobby"				"Нельзя начать подбор матча, поскольку вы уже играете. Выйдите из матча, чтобы начать подбор нового."
@@ -1109,8 +1115,6 @@
 		"Citadel_Watch_Featured"									"Избранные матчи"
 		"Citadel_Watch_Loading"										"Загрузка..."
 
-		"Citadel_Watch_Page_NetWorthTeam0"							"{d:net_worth_team_0} тыс."
-		"Citadel_Watch_Page_NetWorthTeam1"							"{d:net_worth_team_1} тыс."
 		"Citadel_Watch_Page_Spectators:p{spectators}"				"{d:spectators} зритель#|#{d:spectators} зрителя#|#{d:spectators} зрителей#|#{d:spectators} зрителей#|#{d:spectators} зрителя"
 		"Citadel_Watch_Page_FriendInMatch"							"Друг из Steam в матче"
 		"Citadel_Watch_Page_MatchID"								"№ матча: {s:match_id}"
@@ -1284,6 +1288,7 @@
 		"Citadel_Profile_Stats_Healing"							"Лечение"		
 		"Citadel_Profile_Stats_Networth"						"Собрано душ"
 
+
 		"Citadel_MatchPage_Prev"								"Пред."
 		"Citadel_MatchPage_Next"								"След."
 
@@ -1302,9 +1307,7 @@
 		"Citadel_MatchDetails_Report"							"П"
 		"Citadel_MatchDetails_ReportTooltip"					"Нажмите, чтобы пожаловаться"
 		"Citadel_MatchDetails_Reported"							"Жалоба отправлена!"
-		"Citadel_MatchDetails_Team1NetWorth"					"{i:team1_networth} тыс."
-		"Citadel_MatchDetails_Team2NetWorth"					"{i:team2_networth} тыс."
-		"Citadel_MatchDetails_Team1Name"						"{i:team2_networth} тыс."
+
 		"Citadel_MatchDetails_Stats"							"Статистика"
 		"Citadel_MatchDetails_NetWorth"							"Всего душ"
 		"Citadel_MatchDetails_Kills"							"Убийства"
@@ -1315,6 +1318,7 @@
 		"Citadel_MatchDetails_Healing"							"Лечение"
 		"Citadel_MatchDetails_Victory"							"Победа"
 		"Citadel_MatchDetails_Defeat"							"Поражение"
+		"Citadel_MatchDetails_Team_Result"						"<span class=\"TeamName h2 display\">{s:team_name}</span><br><span class=\"OutcomeLabel h1 display\">{s:outcome_label}</span>"
 		"Citadel_MatchDetails_Loading"							"Загрузка информации о матче"
 		"Citadel_MatchDetails_MatchID"							"№ матча: {s:match_id}"
 		"Citadel_MatchDetails_ViewScoreboard"					"Таблица результатов"
@@ -1568,7 +1572,7 @@
 		"EShopFilterMovement"					"Движение"
 		"EShopFilterDisruption"					"Препятствие"
 		"EShopFilterNone"						"Нет"
-
+		"CitadelCategoryBuilds"					"Сборка"
 		"CitadelCategorySuggested"				"Рекомендованное"
 		"CitadelCategoryCustom"					"Пользовательская сборка"
 		"CitadelShopSearch"						"Поиск"
@@ -1883,6 +1887,7 @@
 		"citadel_settings_streamlined_mic"				"Оптимизированная активация микрофона"
 		"citadel_settings_chat_invert_ping"				"Инвертировать сигналы"
 		"citadel_settings_mousesensitivity"				"Чувствительность мыши"
+		"citadel_settings_mousesensitivity_y_scale"		"Чувствительность мыши: вертикальное масштабирование"
 		"citadel_settings_mousezoomsensitivity"			"Коэффициент чувствительности в приближении"
 		"citadel_settings_keybinddefaults"				"Сбросить настройки горячих клавиш"
 		"citadel_settings_pingwheeldefaults"			"Сбросить колесо чата"
@@ -2083,6 +2088,7 @@
 		"citadel_keybind_mantle"						"Подпрыгнуть/забраться"
 		"citadel_keybind_attack"						"Выстрел"
 		"citadel_keybind_ads"							"Приближение"
+		"citadel_keybind_reset_camera"					"Сбросить камеру"
 		"citadel_keybind_ping"							"Сигнал"
 		"citadel_keybind_quick_response"				"Быстрый ответ"
 		"citadel_keybind_extra_info"					"Дополнительная информация"
@@ -2310,20 +2316,20 @@
 		"team_msg_Idol_Desc"	"Урна душ"
 		
 		//"team_msg_Winner_SubText"	"The Patrons favor you"
-		"Citadel_GameOver_Victory"	"Победа"
-		"Citadel_GameOver_Defeat"	"Поражение"
+		"Citadel_GameOver_Victory"	"побеждает"
+		"Citadel_GameOver_Defeat"	"проигрывает"
 
 
 		"Citadel_LaneColorPurple"						"Фиолетовая"
 		"Citadel_LaneColorBlue"							"Синяя"
 		"Citadel_LaneColorYellow"						"Жёлтая"
 		"Citadel_LaneColorGreen"						"Зелёная"
+		"Citadel_LaneColorUnassigned"					"Не выбрана"
 		"Citadel_TeamMsg_EnemyBossKilledTitle"			"Вражеский босс на {i:boss_tier}-м рубеже. Ветка: {s:lane_color}"
 		"Citadel_TeamMsg_BossKilledTitle"				"Ваш босс на {i:boss_tier}-м рубеже. Ветка: {s:lane_color}"
 		"Citadel_TeamMsg_BossKilledMessage"				"УНИЧТОЖЕН"
 		"Citadel_TeamMsg_EnemyTitanKilledTitle"			"Вражеский покровитель"
 		"Citadel_TeamMsg_TitanKilledTitle"				"Ваш покровитель"
-
 
 		"Citadel_FlexSlot_Title"						"Разблокирована универсальная ячейка"
 		"Citadel_FlexSlotUnlockedAllTier1"				"Вы разблокировали универсальную ячейку за уничтожение всех <span class=\"FlexSlotObjectiveName\">вражеских стражей</span>"
@@ -2384,6 +2390,8 @@
 		"Citadel_Confirm_Discord_InMatch_Body"		"Чтобы получить ссылку на Discord, нужно выйти из группы или подбора матча"
 		"Citadel_Dashboard_Recommended"				"Рекомендованное"
 
+		"Citadel_Commend_Toast"						"{s:commender} ({s:commender_hero}) хвалит вас!"
+
 		"menu_exit_db_page"							"Назад"
 		"menu_settings"								"Настройки"
 		"menu_profile"								"Профиль"
@@ -2401,7 +2409,7 @@
 		"menu_bots_medium"							"Обычный"
 		"citadel_bot_name"							"Бот"
 		"menu_watch_live_games"						"Активных матчей: {d:live_matches}"
-		"menu_botmatchmaking"						"Игра против ботов"
+		"menu_botmatchmaking"						"Матч против ботов"
 		"menu_botmatchmaking_count"					"Ищут матч: {s:mm_coopbot_count}"
 		"menu_changehero"							"Сменить героя"
 
@@ -2428,7 +2436,7 @@
 
 		"menu_play_ranked"							"Рейтинговый матч"
 		"menu_play_ranked_desc"						"Сыграйте матч в более соревновательной среде против игроков со схожим уровнем мастерства."
-		"menu_ranked_title"							"Рейтинговый:"
+		"menu_ranked_title"							"Рейтинговый режим:"
 		"menu_ranked_schedule_title"				"Расписание:"
 		"menu_ranked_unavailable"					"Недоступно"
 		"menu_ranked_unavailable_desc"				"Подбор рейтинговых матчей станет доступен только после 50 обычных"
@@ -2438,21 +2446,54 @@
 		"menu_ranked_schedule_timeplaceholder"		"{t:t:start_time} — {t:t:end_time}"
 		"menu_ranked_select_schedule"				"Выбрать расписание"
 		"menu_ranked_view_schedules"				"Посмотреть расписания"
-		"menu_ranked_set_schedule"					"Указать расписание"
-		"menu_ranked_explainer_button"				"Что такое рейтинговый матч?"
-		"Citadel_SetSchedule_Failed"				"Ошибка при указании расписания"
-		"Citadel_SetSchedule_FailedToSetSchedule"	"Не удалось указать расписание. Повторите попытку позже."
-		"Citadel_SetSchedule_AlreadySet"			"Вы уже указали расписание."
+		"menu_ranked_set_schedule"					"Подтвердить выбор"
+		"menu_ranked_week_dates"					"{t:s:start_day} – {t:s:end_day}"
+		"Citadel_SetSchedule_Failed"				"Ошибка при выборе расписания"
+		"Citadel_SetSchedule_FailedToSetSchedule"	"Не удалось выбрать расписание. Повторите попытку позже."
+		"Citadel_SetSchedule_AlreadySet"			"Вы уже выбрали расписание."
 		"Citadel_SetSchedule_Success"				"Готово"
+		"Citadel_SetSchedule_LocalTimes"			"Используется местное время"
+		"Citadel_SetSchedule_RegionWithIndex"		"{s:region_name} {d:region_index}"
 		"Citadel_SetSchedule_Selected"				"Выбрано"
-		"Citadel_SetSchedule_SetSuccessfully"		"Расписание указано"
+		"Citadel_SetSchedule_SetSuccessfully"		"Расписание выбрано"
 		"Citadel_ranked_scheduleModal_title"		"Расписания рейтингового режима"
 		"Citadel_ranked_scheduleModal_desc"			"Выберите рейтинговые периоды, которые больше всего подходят вашему времени игры.<br><br>Вы всегда будете играть на ближайшем доступном сервере независимо от выбранного периода."
 		"Citadel_ranked_scheduleModal_warning"		"Обратите внимание: выбрав расписание для текущей рейтинговой сессии, вы не сможете сменить его до следующей."
 		"Citadel_ranked_open"						"Открыто"
-		"Citadel_ranked_closed"						"Закрыто"
+		"Citadel_ranked_closed"						"Рейтинговый режим закрыт"
 		"Citadel_ranked_comingsoon"					"Первые рейтинговые матчи начнутся во вторник, 15 октября, в 23:00 МСК"
-		"Citadel_ranks_rank0"						"Непосвящённый"
+		"Citadel_ranked_schedule_explainer"			"Рейтинговые матчи будут доступны только в определённые часы. Прежде чем в них играть, выберите подходящее для себя время."
+
+		"Citadel_ranked_explainer_button"				"Что такое рейтинговый режим?"
+		"Citadel_ranked_explainer_title"				"Подбор рейтингового матча"
+		"Citadel_ranked_explainer_desc"					"[Рейтинговый режим] — это матчи в более соревновательной среде для игроков одинакового уровня мастерства, позволяющий им определить своё положение во всемирном сообществе игры.<br><br>К этому соревнованию можно присоединиться каждую неделю, играя в [рейтинговом режиме] в отведённые вашему региону периоды, чтобы продемонстрировать свои индивидуальные навыки."
+		"Citadel_ranked_howitworks_title"				"Как это работает?"
+		"Citadel_ranked_howitworks_desc"				"Все игроки начинают с временного ранга «Обскурус». Чтобы получить ранг за текущую неделю, в течение неё нужно сыграть семь [рейтинговых] матчей. В конце недели вы получите ранг, который будет отображаться в виде медали в вашем профиле.<br><br>Если к концу недели вы сыграете меньше семи [рейтинговых] матчей, ваша медаль сменится на «Обскуруса» и будет скрыта, пока вы не получите ранг за другую неделю. Показатели, влияющие на ваш ранг, сохранятся и будут учитываться для подбора [рейтинговых] матчей, но медаль отображаться не будет.<br><br>Всего существует одиннадцать рангов, каждый из которых делится на подранги от I до VI, более точно указывающие на ваш уровень игры."
+		"Citadel_ranked_rankedmedals"					"Ранги:"
+
+		"Citadel_ranks_rank0"						"Обскурус"
+		"Citadel_ranks_rank1"						"Послушник"
+		"Citadel_ranks_rank2"						"Искатель"
+		"Citadel_ranks_rank3"						"Алхимик"
+		"Citadel_ranks_rank4"						"Чародей"
+		"Citadel_ranks_rank5"						"Ритуалист"
+		"Citadel_ranks_rank6"						"Эмиссар"
+		"Citadel_ranks_rank7"						"Оракул"
+		"Citadel_ranks_rank8"						"Архонт"
+		"Citadel_ranks_rank9"						"Фантом"
+		"Citadel_ranks_rank10"						"Владыка"
+		"Citadel_ranks_rank11"						"Этернус"
+
+		"Citadel_subranks_1"						"I"
+		"Citadel_subranks_2"						"II"
+		"Citadel_subranks_3"						"III"
+		"Citadel_subranks_4"						"IV"
+		"Citadel_subranks_5"						"V"
+		"Citadel_subranks_6"						"VI"
+
+		"Citadel_rank_phase_example"				"15–21 октября | 2024 г."
+
+
 		"item_info_abilities"						"Умения"
 		"item_info_flex_slots"						"УНИВЕРС. ЯЧЕЙКИ"
 		"item_info_active"							"Активный"
@@ -2749,6 +2790,8 @@
 		"AbilityButtonHint_AltCastRestorativeGoo"		"Применить на себя"
 		"AbilityButtonHint_AltCastStickyBomb"		"Прикрепить к себе"
 		"AbilityButtonHint_CastIceDome"				"Применить «Ледяное укрытие»"
+		"AbilityButtonHint_CastLifeDrain"			"Высосать жизнь у врага"
+		"AbilityButtonHint_AlotCastLifeDrain"				"Исцелить союзника"
 		
 		//-----------------------------------------------------------------------------
 		// Guided Bot Match

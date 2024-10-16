@@ -751,7 +751,10 @@
 
 		"ability_bullet_flurry"			"Taniec Nabojów"
 		"ability_bullet_flurry_quip"	"Rozpętaj wokół siebie grad nabojów."
-"BonusWeaponDamage_prefix"				"+"
+		"ability_bullet_flurry_desc"	"Wejdź w szał, <span class=\"highlight\">strzelając ze swojej broni</span> do pobliskich wrogów z <span class=\"highlight\">perfekcyjną celnością</span>."
+		//"ability_bullet_flurry/modifier_citadel_bullet_flurry"		"Bullet Flurry"
+		"ability_bullet_flurry_t3_desc"	"Zyskaj <span class=\"highlight\">{s:EvasionPercent}%</span> do szansy na unikanie nabojów i <span class=\"highlight\">{s:DanceMoveSpeed} m/s</span> do ruchu podczas tańca."
+		"BonusWeaponDamage_prefix"				"+"
 		"BonusWeaponDamage_label"				"Obrażenia od nabojów"
 		"DanceMoveSpeed_label"			"Szybkość ruchu podczas tańca"
 		"DanceMoveSpeed_postfix"		" m/s"
@@ -1160,7 +1163,7 @@
 
 		"citadel_ability_sticky_bomb"			"Bomba Samoprzylepna"
 		"citadel_ability_sticky_bomb_quip"		"Podłóż bombę na wrogu."
-		"citadel_ability_sticky_bomb_desc"		"Przyczep do pobliskiego celu bombę samoprzylepną, która zadaje <span class=\"highlight\">obrażenia od eksplozji</span> po krótkim czasie zapłonu.<br>Zyskujesz instancję bomb zadającą <span class=\"highlight\">+{s:BonusDamagePctPerPlayerHit}% obrażeń od bomby</span> za każdego trafionego wrogiego bohatera (do {s:BonusMaxStacks} instancji). Utrata {s:BonusLossPerDeath} instancji po śmierci. <br>Przytrzymaj [{s:key_alt_cast}], by przylepić bombę do siebie."
+		"citadel_ability_sticky_bomb_desc"		"Przyczep do pobliskiego celu bombę samoprzylepną, która zadaje <span class=\"highlight\">obrażenia od eksplozji</span> po krótkim czasie zapłonu.<br>Zyskujesz instancję bomb zadającą <span class=\"highlight\">+{s:BonusDamagePctPerPlayerHit}% obrażeń od bomby</span> za każdego trafionego wrogiego bohatera. Utrata {s:BonusLossPerDeath} instancji po śmierci. <br>Przytrzymaj [{s:key_alt_cast}], by przylepić bombę do siebie."
 		"modifier_citadel_sticky_bomb_attached"	"Bomba na tobie"
 		"citadel_ability_sticky_bomb_t3_desc"	"Po przyczepieniu <span class=\"highlight\">rozbraja</span> cel na <span class=\"highlight\">{s:DebuffDuration} s</span>."
 		"StunTargetOnExplode_label"				"Czas trwania"
@@ -1441,7 +1444,7 @@
 
 		//-----------------------------------------------------------------------------
 		// Lady Geist
-		// hero ghost
+		// hero ghost solider
 		//-----------------------------------------------------------------------------
 		"ability_blood_bomb"				"Bomba Esencji"
 		"ability_blood_bomb_quip"			"Poświęć część swojego zdrowia, by wystrzelić bombę zadającą obrażenia."

@@ -30,7 +30,7 @@
 		"SpiritPowerPerSoul_prefix"			"+"
 		"SpiritPowerPerSoul_label"			"Potere spirituale per anima"
 		"AmmoScavengerDuration_label"		"Durata"
-		"AmmoScavengerDuration_postfix"		"s"
+		"AmmoScavengerDuration_postfix"		" s"
 
 		//Stabilizer
 		//"upgrade_stabilizer_desc"		"Removes the <span class=\"highlight\">movement speed penalty</span> while shooting, and increases <span class=\"highlight\">bullet speed</span>."
@@ -75,7 +75,7 @@
 		
 		//Slowing Bullets
 		"upgrade_slowing_bullets_desc"	"Le tue pallottole applicano un <span class=\"highlight\">rallentamento del movimento</span>."
-		"upgrade_slowing_bullets/modifier_slowing_bullets_proc/modifier_slow_base"					"Rallentato"
+		"upgrade_slowing_bullets/modifier_slowing_bullets_proc/modifier_slow_base"					"Rallentamento"
 
 		//Inhibitor
 		"upgrade_inhibitor_desc"	"Le tue pallottole applicano un <span class=\"highlight\">rallentamento del movimento</span> e riducono i <span class=\"highlight\">danni inflitti</span> dal bersaglio quando vanno a segno."
@@ -127,7 +127,7 @@
 		"WarpStoneRange_postfix"		" m"
 		"modifier_warp_stone_caster"	"Pietra deformante"
 		"CasterBuffDuration_label"	"Durata degli effetti positivi"
-		"CasterBuffDuration_postfix"	"s"
+		"CasterBuffDuration_postfix"	" s"
 		//"CasterSlowPercent_label"		"Self Slow"
 		"CasterSlowPercent_postfix"	"%"
 
@@ -185,7 +185,7 @@
 
 		//Close Quarters
 		"upgrade_close_range_desc"	"Infliggi <span class=\"highlight\">danni da arma</span> aggiuntivi quando sei a <span class=\"highlight\">distanza ravvicinata</span> dal tuo bersaglio."
-		"upgrade_close_quarter_combat/modifier_cqc_proc/modifier_slow_base"			"Rallentato"
+		"upgrade_close_quarter_combat/modifier_cqc_proc/modifier_slow_base"			"Rallentamento"
 
 		//Long Range
 		"upgrade_long_range_desc"	"Infliggi <span class=\"highlight\">danni da arma</span> aggiuntivi quando sei <span class=\"highlight\">oltre una distanza minima</span> dal tuo bersaglio."
@@ -264,7 +264,7 @@
 		"upgrade_glass_cannon_desc"		"Ogni eroe ucciso ti conferisce <span class=\"highlight\">danni permanenti da arma</span> (fino a un massimo di {s:MaxStacks} volte). Se muori perdi 1 istanza."
 
 		//Vampiric Burst
-		"upgrade_surging_power_active"	"Conferisce <span class=\"highlight\">prosciugamento della salute</span>, <span class=\"highlight\">frequenza di fuoco</span> e <span class=\"highlight\">munizioni</span>. Queste munizioni aggiuntive non sono limitate dalla dimensione massima del caricatore."
+		"upgrade_surging_power_active"	"Conferisce <span class=\"highlight\">prosciugamento della salute</span> e un aumento di <span class=\"highlight\">frequenza di fuoco</span> e <span class=\"highlight\">munizioni</span>. Queste munizioni aggiuntive non sono limitate dalla dimensione massima del caricatore."
 		"ActiveBonusLifesteal_label"		"Prosciug. salute dalle pallottole"
 		"ActiveBonusLifesteal_postfix"	"%"
 		"modifier_surging_power"		 "Potere crescente"
@@ -301,7 +301,7 @@
 		"BaseBonusWeaponPower_prefix"					"+"
 
 		//Lifestrike
-		"upgrade_boxing_glove_desc"						"Il tuo <span class=\"highlight\">attacco corpo a corpo</span> applica un <span class=\"highlight\">rallentamento del movimento</span> e <span class=\"highlight\">ti guarisce</span> per un {s:LifestealHealPercent}% dei <span class=\"highlight\">danni corpo a corpo</span> inflitti + {s:LifestealHeal}. Questa guarigione è efficace per il {s:NonHeroHealPct}% contro i non eroi."
+		"upgrade_boxing_glove_desc"						"Il tuo <span class=\"highlight\">attacco corpo a corpo</span> applica un <span class=\"highlight\">rallentamento del movimento</span> e <span class=\"highlight\">ti guarisce</span> per un {s:LifestealHealPercent}% dei <span class=\"highlight\">danni corpo a corpo</span> inflitti +{s:LifestealHeal}. Questa guarigione è efficace per il {s:NonHeroHealPct}% contro i non eroi."
 		//"BonusMeleeSpeed_label"							"Melee Speed"
 		"BonusMeleeSpeed_prefix"						"+"
 		"BonusMeleeSpeed_postfix"						"%"
@@ -409,7 +409,7 @@
 
 		//Omni Spirit
 		//"upgrade_long_range_slowing_tech_desc"		"Applies a <span class=\"highlight\">movement slow</span> to enemies when dealing spirit damage."
-		"upgrade_long_range_slowing_tech/modifier_long_range_slowing_tech_proc/modifier_slow_base"	"Rallentato"
+		"upgrade_long_range_slowing_tech/modifier_long_range_slowing_tech_proc/modifier_slow_base"	"Rallentamento"
 
 		//Full Spectrum
 		//"upgrade_full_spectrum_passive"	"Adds <span class=\"highlight\">bonus damage</span> for every hero hit from your spirit damage mods or abilities and applies a <span class=\"highlight\">movement slow</span>."
@@ -519,7 +519,7 @@
 		//Slowing Spirit
 		//"upgrade_slowing_tech_desc"		"Dealing <span class=\"highlight\">Spirit Damage</span> applies <span class=\"highlight\">Movement Slows</span> to your target."
 		//"modifier_slowing_tech_slow"					"Slowing Spirit"
-		"upgrade_slowing_tech/modifier_slowing_tech_proc/modifier_slow_base"						"Rallentato"
+		"upgrade_slowing_tech/modifier_slowing_tech_proc/modifier_slow_base"						"Rallentamento"
 
 		//Energy
 		//"upgrade_tech_3_desc"				"Large increase in <span class=\"highlight\">Energy</span>."

@@ -181,6 +181,7 @@
 		"citadel_ability_shieldedsentry"		"Minitourelle"
 		"citadel_ability_shieldedsentry_quip"	"Déploie une tourelle automatisée"
 		"citadel_ability_shieldedsentry_desc"	"Déploie une minitourelle qui <span class=\"highlight\">tire automatiquement sur les unités ennemies</span>. La tourelle disparait après un certain temps.<br>Les tourelles ont {s:TurretHealthScaling} % des PV max. de {s:hero_name} et {s:TechResist} % de sa résistance spirituelle. Elles infligent des dégâts réduits aux troupiers et aux objectifs."
+		"citadel_ability_shieldedsentry_t1_desc"	"Les tourelles appliquent <span class=\"highlight\">+{s:MoveSlowPercent} % de ralentissement"
 		"citadel_ability_shieldedsentry_t2_desc"	"<span class=\"highlight\">+{s:TurretAttackRange} m</span> de portée d'attaque et <span class=\"highlight\">+{s:AttackSpeedMult} %</span> de cadence de tir pour les tourelles"
 
 		//"citadel_ability_shieldedsentry/modifier_bullet_resist_reduction_stack"		"Sentry Bullet Resist Debuff"
@@ -750,7 +751,10 @@
 
 		"ability_bullet_flurry"			"Danse balistique"
 		"ability_bullet_flurry_quip"	"Lance une salve de balles autour d'elle"
-"BonusWeaponDamage_prefix"				"+"
+		"ability_bullet_flurry_desc"	"<span class=\"highlight\">Tire une salve de balles</span> sur les unités ennemies proches avec une <span class=\"highlight\">précision parfaite</span>."
+		//"ability_bullet_flurry/modifier_citadel_bullet_flurry"		"Bullet Flurry"
+		"ability_bullet_flurry_t3_desc"	"Accorde <span class=\"highlight\">+{s:EvasionPercent} %</span> de chance d'esquive des balles et <span class=\"highlight\">+{s:DanceMoveSpeed} m/s</span> de vitesse de danse"
+		"BonusWeaponDamage_prefix"				"+"
 		"BonusWeaponDamage_label"				"Dégâts balistiques"
 		"DanceMoveSpeed_label"			"Vitesse de danse"
 		"DanceMoveSpeed_postfix"		" m/s"
@@ -1159,7 +1163,7 @@
 
 		"citadel_ability_sticky_bomb"			"Bombe collante"
 		"citadel_ability_sticky_bomb_quip"		"Pose une bombe sur une unité"
-		"citadel_ability_sticky_bomb_desc"		"Pose une bombe sur une cible proche qui inflige des <span class=\"highlight\">dégâts d'explosion</span> après un court laps de temps. <br>Obtient une charge qui inflige <span class=\"highlight\">+{s:BonusDamagePctPerPlayerHit} % de dégâts des bombes</span> pour chaque unité occultiste ennemie touchée ({s:BonusMaxStacks} charges au max.). <br>Maintenez [{s:key_alt_cast}] pour lancer Bombe collante sur vous-même."
+		"citadel_ability_sticky_bomb_desc"		"Pose une bombe sur une cible proche qui inflige des <span class=\"highlight\">dégâts d'explosion</span> après un court laps de temps. <br>Obtient une charge qui inflige <span class=\"highlight\">+{s:BonusDamagePctPerPlayerHit} % de dégâts des bombes</span> pour chaque unité occultiste ennemie touchée. Mourir fait perdre {s:BonusLossPerDeath} charges.<br>Maintenez [{s:key_alt_cast}] pour lancer Bombe collante sur vous-même."
 		"modifier_citadel_sticky_bomb_attached"	"Bombe collée"
 		"citadel_ability_sticky_bomb_t3_desc"	"Quand elle est posée, la bombe <span class=\"highlight\">désarme</span> la cible pendant <span class=\"highlight\">{s:DebuffDuration} s</span>"
 		"StunTargetOnExplode_label"				"Durée"
@@ -1440,7 +1444,7 @@
 
 		//-----------------------------------------------------------------------------
 		// Lady Geist
-		// hero ghost
+		// hero ghost solider
 		//-----------------------------------------------------------------------------
 		"ability_blood_bomb"				"Bombe de quintessence"
 		"ability_blood_bomb_quip"			"Sacrifie une partie de ses PV pour lancer une bombe dévastatrice"
