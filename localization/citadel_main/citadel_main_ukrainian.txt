@@ -1,7 +1,7 @@
-﻿"lang" 
-{ 
-	"Language" "ukrainian" 
-	"Tokens" 
+﻿"lang"
+{
+	"Language" "ukrainian"
+	"Tokens"
 	{
 		"Citadel_Dashboard_BuildVersion"	"Збірка {d:buildNumber} — {s:buildTime}"
 
@@ -83,7 +83,7 @@
 		"GameUI_Disconnect_ConnectionTimedout"		"Не вдалося встановити підключення до ігрового сервера."
 		"GameUI_Disconnect_ServerIncompatible"		"Версія не сумісна із сервером."
 		"Player_DisconnectReason_Idle"				"Відключено від ігрового сервера через тривалу неактивність."
-		
+
 
 		"GameUI_Disconnect_LocalProblem_ManyRelays"	"Втрачено підключення навіть після спроби використання кількох вузлів зв’язку в різних географічних регіонах. Найімовірніша причина — проблема з вашим підключенням до Інтернету."
 		"GameUI_Disconnect_LocalProblem_HostedServerPrimaryRelay"	"Ігровий сервер втратив підключення до основного вузла зв’язку, який використовував клієнт."
@@ -151,7 +151,7 @@
 		"Citadel_ViewMatchID_Loading_Error"					"Не вдалося відкрити перегляд матчу"
 		"Citadel_ViewMatchID_InFlight_Title"				"Матч ще триває"
 		"Citadel_ViewMatchID_InFlight_Body"					"Цей матч ще триває. Бажаєте спостерігати за ним?"
-		
+
 		//Playtest User
 		"Citadel_PlaytestUser_SubmitProcessing"				"Будь ласка, зачекайте"
 		"Citadel_PlaytestUser_SubmitProcessingTitle"		"Рекомендація користувача"
@@ -240,6 +240,12 @@
 		"Citadel_ReportPlayer_Reason_Comments"				"Коментарі:"
 		"Citadel_ReportPlayer_CommentPlaceholder"			"Опишіть проблему, що виникла з цим гравцем."
 
+		"Citadel_CommendPlayer_PopupTitle"					"Похвалити гравця"
+		"Citadel_CommendPlayer_PopupDesc"					"Похваліть користувача за гру. Вкажіть у системі пошуку матчів, що ви б хотіли зіграти з цим користувачем у майбутньому."
+		"Citadel_CommendPlayer_Friendly"					"Дружній і веселий гравець"
+		"Citadel_CommendPlayer_Teamwork"					"Командний гравець"
+		"Citadel_CommendPlayer_Skilled"						"Вправний гравець"
+
 		"Citadel_SkipTutorial_Title"						"Пропустити навчання"
 		"Citadel_SkipTutorial_Body"							"Ви дійсно хочете пропустити навчання? Радимо не пропускати його, якщо ще не грали в цю гру."
 
@@ -285,6 +291,8 @@
 		"Citadel_Notification_Paused_Message"						"Гру призупинено."
 		"Citadel_Notification_Unpaused_Title"						"Поновлено"
 		"Citadel_Notification_Unpaused_Message"						"Відновлення гри…"
+		"Citadel_Notification_About_To_Respawn_Title"				"Відродження"
+		"Citadel_Notification_About_To_Respawn_Message"				"Ви незабаром відродитеся…"
 		"Citadel_Hud_PreGame_Countdown"								"Матч починається…"
 		"Citadel_Hud_CantPause"										"Призупинити гру не можна ще {i:pause_cooldown} с."
 		"Citadel_Hud_CantUnpause"									"Поновити гру не можна ще {i:pause_cooldown} с."
@@ -321,6 +329,11 @@
 
 		"Citadel_InvalidCast_NoFullClips"							"НЕМАЄ ПОВНИХ МАГАЗИНІВ ДЛЯ ПЕРЕЗАРЯДКИ"
 
+		"Citadel_MatchInfo_Mode_Ranked"								"Рейтинговий"
+		"Citadel_MatchInfo_Mode_Standard"							"Звичайний"
+		"Citadel_MatchInfo_Mode_HeroLabs"							"Лабораторії героїв"
+		"Citadel_MatchInfo_Mode_CoopBot"							"Кооперативний"
+		"Citadel_MatchInfo_Mode_Private"							"Приватний"
 
 		"Citadel_Reconnect_IncompatibleVersionTitle"				"Несумісна версія"
 		"Citadel_Reconnect_IncompatibleVersionBody"					"Версія вашого клієнта застаріла, тому ви не можете підключитися до цього сервера."
@@ -336,7 +349,7 @@
 		"Citadel_Item_Tooltip_CantAfford"							"Модифікація не по кишені"
 		//"Citadel_Player_Level_AbilityPoints"						"<span class=\"boldText\">1 Ability Point</span> gained at levels 2, 3, 5, 7, and each level after"
 		//"Citadel_Player_Level_AbilityUnlocks"						"<span class=\"boldText\">1 Ability Unlock</span> gained at levels 1, 2, 4, and 6"
-		//"Citadel_Player_Level_WeaponPower"							"<span class=\"boldText\">+{s:weapon_bonus}% Base Bullet Damage</span>, <span class=\"boldText\">+{s:melee_bonus}% Base Melee damage</span> and <span class=\"boldText\">+{s:health_bonus} Max Health </span>"		
+		//"Citadel_Player_Level_WeaponPower"							"<span class=\"boldText\">+{s:weapon_bonus}% Base Bullet Damage</span>, <span class=\"boldText\">+{s:melee_bonus}% Base Melee damage</span> and <span class=\"boldText\">+{s:health_bonus} Max Health </span>"
 		"Citadel_Player_Level_APShort"								"ОВ"
 		"Citadel_Player_Level_AbilityUnlocksShort"					"Розблокування вміння"
 		"Citadel_Player_Level_PowerIncreases"						"Посилення"
@@ -350,6 +363,7 @@
 		"Citadel_Player_Level_BaseHealth"							"основному здоров’ю"
 		"Citadel_Player_Level_SpiritAmp"							"посиленню духовної шкоди"
 		"Citadel_Player_Level_BulletResist"							"опору кулям"
+		"Citadel_Player_Level_TechResist"							"духовному опору"
 		"Citadel_Player_Level_WeaponRange"							"дальності зброї"
 		"Citadel_Hero_Stats_Tooltip_WeaponPower"					"Загальне посилення вашої зброї та ближнього удару здобувається купівлею предметів на вкладці зброї."
 		"Citadel_Hero_Stats_Tooltip_HealthMult"						"Загальне посилення вашого основного здоров’я здобувається купівлею предметів на вкладці життя."
@@ -386,10 +400,10 @@
 
 		"Citadel_Shop_ImbueTooltip_Title"							"Обрати вміння для вбудування"
 		"Citadel_Shop_ActivePlacementTooltip_Title"					"Обрати ланку вміння для завершення купівлі"
-		"Citadel_Shop_ActivePlacementTooltip_Drag"					"Перетягуйте, щоби перепризначити поточні задіяні вміння"	
+		"Citadel_Shop_ActivePlacementTooltip_Drag"					"Перетягуйте, щоби перепризначити поточні задіяні вміння"
 
-		"Citadel_Shop_SellMaxItems_Title"							"Усі ланки зайнято!"	
-		"Citadel_Shop_SellMaxItems_Desc"							"Для завершення цієї купівлі оберіть модифікацію, яку <span class='highlight'>буде продано за пів ціни для звільнення місця</span>."	
+		"Citadel_Shop_SellMaxItems_Title"							"Усі ланки зайнято!"
+		"Citadel_Shop_SellMaxItems_Desc"							"Для завершення цієї купівлі оберіть модифікацію, яку <span class='highlight'>буде продано за пів ціни для звільнення місця</span>."
 		"Citadel_Shop_SellMaxItems_SellButton"						"Продати"
 
 		"Citadel_Shop_AbilityisImbued"								"Насичене вміння"
@@ -472,7 +486,10 @@
 		"Citadel_Play_RankedNoScheduleDesc"					"Перш ніж грати в рейтингові матчі, необхідно обрати розклад."
 
 		"Citadel_RankedGames_Played"						"Зіграно {i:ranked_games_played}/{i:ranked_games_required}"
-		"Citadel_RankedGames_PlayedQualified"				"Достатньо для рейтингових матчів"
+		"Citadel_RankedGame_Played_desc"					"Кількість зіграних ігор для розблокування рейтингових матчів."
+		"Citadel_RankedGames_PlayedQualified"				"Ваш титул буде визначено за результатами додаткових ігор."
+		"Citadel_RankedGames_Qualified1"						"Результати додаткових зіграних ігор вплинуть на ваш остаточний титул."
+		"Citadel_RankedGames_Qualified2"						"Остаточний титул буде присуджено {t:s:end_day}."
 
 		"Citadel_Play_BotsOfflineTitle"				"Боти тимчасово не в мережі"
 		"Citadel_Play_BotsOfflineText"				"Боти тимчасово вимкнені. Спробуйте знову пізніше."
@@ -561,7 +578,7 @@
 		"Citadel_PrivateLobby_SwapTeamsTooltip"						"Змінити сторони без зміни ліній"
 		"Citadel_PrivateLobby_RandomizeTeams"						"Розподілити гравців навмання"
 		"Citadel_PrivateLobby_ShuffleTeamsTooltip"					"Призначити командам гравців у лобі випадковим чином"
-		"Citadel_PrivateLobby_ShuffleTeams"							"Перемішати гравців команди"		
+		"Citadel_PrivateLobby_ShuffleTeams"							"Перемішати гравців команди"
 		"Citadel_PrivateLobby_ShuffleLanesTooltip"					"Призначити гравців у командах на лінії випадковим чином"
 
 		"Citadel_ServerRegion_0"									"Автовибір регіону"
@@ -600,10 +617,10 @@
 		"Citadel_Party_CancelMM"									"Скасувати"
 		"Citadel_Party_NotConnectedToGC"							"Немає підключення до мережі Deadlock"
 		"Citadel_Party_PlayerLabel"									"Гравець"
-		"Citadel_Party_SpectatorLabel"								"Глядач"	
+		"Citadel_Party_SpectatorLabel"								"Глядач"
 		"Citadel_Party_Or"											"або"
 		"Citadel_Party_RolePlayer"									"Гравець"
-		"Citadel_Party_RoleSpectator"								"Глядач"	
+		"Citadel_Party_RoleSpectator"								"Глядач"
 		"Citadel_Party_CreatePartyTitle"							"Створення групи"
 		"Citadel_Party_CreatePartyText"								"Будь ласка, зачекайте."
 		"Citadel_Party_JoinPartyTitle"								"Приєднання до групи"
@@ -632,10 +649,11 @@
 		"Citadel_Party_SetTeamNameText"								"Будь ласка, зачекайте."
 		"Citadel_Party_Context_ReadyUp"								"Підготовка"
 		"Citadel_Party_Context_SwitchTeam"							"Змінити команду"
+		"Citadel_Party_Context_ClearReady"							"Не готово"
 		"Citadel_AcceptedInvitation_Title"							"Прийняте запрошення"
 		"Citadel_Party_SetMatchModeTitle"							"Налаштування групового режиму"
 		"Citadel_Party_SetMatchModeText"							"Зачекайте, ми налаштуємо вашу групу."
-		"Citadel_AcceptedInvitation_Name"							"{g:citadel_persona:accepted_invitation} приймає ваше запрошення"		 
+		"Citadel_AcceptedInvitation_Name"							"{g:citadel_persona:accepted_invitation} приймає ваше запрошення"
 		"Citadel_Party_KickedByTitle"								"Вигнано з групи"
 		"Citadel_Party_KickedByText"								"Гравець {g:citadel_persona:kicked_by_account} вигнав вас із групи."
 		"Citadel_Party_DraftEndedByTitle"							"Матч скасовано"
@@ -657,8 +675,8 @@
 		"Citadel_PartyInviteFriend_InvitesFull"						"Забагато учасників"
 		"Citadel_JoinParty_Title"									"Приєднатися до групи"
 		"Citadel_JoinParty_Desc"									"Якщо вам надіслали код групи, введіть його нижче."
-		"Citadel_JoinParty_Prompt"									"Ідентифікатор групи"	
-		"Citadel_Party_Invites"										"Запрошення до групи"
+		"Citadel_JoinParty_Prompt"									"Ідентифікатор групи"
+		"Citadel_Party_Invites:p{party_invites}"					"<span class=\"InviteCount\">{d:party_invites} </span><span class=\"InviteHeaderText\">запрошення до групи</span>#|#<span class=\"InviteCount\">{d:party_invites} </span><span class=\"InviteHeaderText\">запрошення до групи</span>#|#<span class=\"InviteCount\">{d:party_invites} </span><span class=\"InviteHeaderText\">запрошень до групи</span>#|#<span class=\"InviteCount\">{d:party_invites} </span><span class=\"InviteHeaderText\">запрошень до групи</span>#|#<span class=\"InviteCount\">{d:party_invites} </span><span class=\"InviteHeaderText\">запрошення до групи</span>"
 		"Citadel_PartyStartMatch"									"Почати матч"
 		"Citadel_PartyFindMatch"									"Знайти матч"
 		"Citadel_Party_CreateEasyBot"								"Створіть групу, щоби ви могли запросити друзів і разом грати проти легких ботів"
@@ -684,6 +702,7 @@
 
 		"Citadel_RosterMode_Party_Matchmaking"						"Грати в Deadlock"
 		"Citadel_RosterMode_Party_RankedMatchmaking"				"Рейтинговий матч"
+		"Citadel_RosterMode_Party_HeroLabsMatchmake"					"Лабораторії героїв"
 		"Citadel_RosterMode_Party_CoopBotMM"						"Грати проти ботів"
 		"Citadel_RosterMode_Party_PrivateBotEasy"					"Пошук приватного матчу для групи проти ботів — легкі боти"
 		"Citadel_RosterMode_Party_PrivateBotMedium"					"Пошук приватного матчу для групи проти ботів — середні боти"
@@ -695,6 +714,7 @@
 
 		"Citadel_RosterMode_Matchmaking"							"Грати в Deadlock"
 		"Citadel_RosterMode_RankedMatchmaking"						"Рейтинговий матч"
+		"Citadel_RosterMode_HeroLabsMatchmaking"					"Лабораторії героїв"
 		"Citadel_RosterMode_CoopBotMM"								"Грати проти ботів"
 		"Citadel_RosterMode_PrivateBotEasy"							"Приватний матч проти ботів — легкий"
 		"Citadel_RosterMode_PrivateBotMedium"						"Приватний матч проти ботів — середній"
@@ -725,6 +745,7 @@
 		"Citadel_Roster_Instructions_Select"						"<span class='keybind'>{s:iv_attack}</span> позначає героя як вибраного."
 		"Citadel_Roster_Instructions_Prefer"						"<span class='keybind'>{s:iv_attack2}</span> перемикає між <b>пріоритетом</b> та <b>високим пріоритетом</b>."
 
+		"Citadel_Roster_Instructions_Title_HeroLabs"				"Лабораторії героїв"
 		"Citadel_ViewMatchID_Title"									"Дивитися матч за його ідентифікатором"
 		"Citadel_ViewMatchID_Desc"									"Уведіть ідентифікатор матчу для перегляду його подробиць."
 		"Citadel_ViewMatchID_Prompt"								"Ідентифікатор матчу"
@@ -803,7 +824,7 @@
 		//"Citadel_HUD_LevelReward_BulletResist"						"Spirit Damage"
 		//"Citadel_HUD_LevelReward_WeaponRange"						"Spirit Damage"
 		"Citadel_HUD_LevelReward_NextRewardsLabel"					"Наступні нагороди:"
-		
+
 		"Citadel_Hud_KillFeedNone"									"<Немає>"
 		"Citadel_Hud_KillFeedTrooper"								"Вояка №{i:unit_num}"
 		"Citadel_Hud_KillFeedSuperNeutral"							"Вартовий храму"
@@ -855,7 +876,7 @@
 		"Objective_Enemy_ShieldGenerator"							"Вороже святилище"
 		"Objective_Team1_ShieldGenerator"							"Бурштинове святилище"
 		"Objective_Team2_ShieldGenerator"							"Сапфірове святилище"
-		
+
 		"Objective_Friendly_Final"						"Союзний покровитель (ослаблений)"
 		"Objective_Enemy_Final"							"Ворожий покровитель (ослаблений)"
 		"Objective_Team1_Final"							"Бурштиновий покровитель (ослаблений)"
@@ -866,8 +887,8 @@
 
 		"Citadel_Team1_Name"							"Бурштинова рука"
 		"Citadel_Team2_Name"							"Сапфірове полум’я"
-		"Citadel_Team1_Name_Uppercase"					"БУРШТИНОВА РУКА"
-		"Citadel_Team2_Name_Uppercase"					"САПФІРОВЕ ПОЛУМ’Я"
+		"Citadel_Team1_Name_Uppercase:n"					"#|f|#БУРШТИНОВА РУКА"
+		"Citadel_Team2_Name_Uppercase:n"					"#|n|#САПФІРОВЕ ПОЛУМ’Я"
 
 		"Citadel_Mod_Tooltip_Passive"									"Пасивна властивість"
 		"Citadel_Mod_Tooltip_Active"									"Дія"
@@ -887,6 +908,7 @@
 
 
 		"Citadel_HUD_Damage_TooFar"									"Задалеко"
+		"Citadel_HUD_Damage_TooLow"									"Занизько"
 		"Citadel_HUD_Damage_Invulnerable"							"Невразливість"
 		"Citadel_HUD_Damage_NoTroopers"								"Потрібні вояки"
 		"Citadel_HUD_Damage_Resistant"								"Стійкість"
@@ -913,7 +935,7 @@
 		"Citadel_HUD_DamageReport_DamageDealt"						"Вихідна шкода"
 		"Citadel_HUD_DamageReport_TopDamageSources:p{num_damage_rows}"	"Основне джерело шкоди#|#{i:num_damage_rows} основні джерела шкоди#|#{i:num_damage_rows} основних джерел шкоди#|#{i:num_damage_rows} основних джерел шкоди#|#{i:num_damage_rows} основного джерела шкоди"
 		"Citadel_HUD_DamageReport_ShowMore"							"Показати більше"
-		
+
 		"Citadel_HUD_DamageReport_LastRespawn"						"Поточне життя"
 		"Citadel_HUD_DamageReport_Time600"							"10 хвилин"
 		"Citadel_HUD_DamageReport_Time300"							"5 хвилин"
@@ -932,7 +954,7 @@
 		"Citadel_HUD_DamageReport_DamagePercentAbility"				"{i:ability_damage_percent}%"
 
 		"Citadel_HUD_Impact_Kill"									"Убивство"
-		"Citadel_HUD_Impact_Assist"									"Підмога<br>у вбивстві"		
+		"Citadel_HUD_Impact_Assist"									"Підмога<br>у вбивстві"
 
 		"Citadel_PartyChat_Title"									"Чат групи"
 		"Citadel_PartyChat_VoiceAndText"							"Голосовий і текстовий чат"
@@ -941,7 +963,7 @@
 		"Citadel_ChatType_Disabled"									"Вимкнено"
 		"Citadel_ChatType_AllTeam"									"Усі команди"
 		"Citadel_ChatType_PartyOnly"								"Лише група"
-		
+
 		"Citadel_HUD_DamageRows_DamageName"							"{s:damage_name}"
 		"Citadel_HUD_DamageRows_DamageValue"						"{i:damage_done}"
 		"Citadel_HUD_DamageRows_Hits:p{hit_count}"					"({i:hit_count} удар)#|#({i:hit_count} удари)#|#({i:hit_count} ударів)#|#({i:hit_count} ударів)#|#({i:hit_count} удару)"
@@ -991,6 +1013,9 @@
 		"Citadel_PlayerContextMenu_AudioVolume"						"Гучність звуку"
 		"Citadel_PlayerContextMenu_EmptyMenu"						"—"
 
+		"Citadel_PostGame_CopyMatchID"								"Скопіювати ідентифікатор матчу"
+		"Citadel_PostGame_CopyMatchIDSuccess"						"Готово"
+
 		"Citadel_PlayerCard_FavoriteHero"							"Улюблений герой"
 
 		"Citadel_Party_Context_Invite"								"Запросити друзів"
@@ -1003,6 +1028,9 @@
 		"Citadel_Party_Leave"										"Вийти з групи"
 		"Citadel_Party_Report"										"Скарга"
 		"Citadel_Party_Reported"									"Скаргу надіслано"
+
+		"Citadel_Party_Commend"										"Похвалити"
+		"Citadel_Party_Commended"									"Похвалу надіслано"
 
 		"Citadel_PlayerList_Teammates"								"Товариші"
 		"Citadel_PlayerList_Enemy"									"Ворожа команда"
@@ -1061,6 +1089,7 @@
 		"Citadel_StartMatchmaking_RankedNotUnlocked"				"Ви ще не розблокували пошук рейтингових матчів."
 		"Citadel_StartMatchmaking_NoRankedWhileInLowPri"			"Пошук рейтингових матчів не дозволений для низького пріоритету."
 		"Citadel_StartMatchmaking_NoRankedWhileCommsBanned"			"Пошук рейтингових матчів не дозволений, якщо вас обмежено в спілкуванні."
+		"Citadel_StartMatchmaking_NoRankedWhileReportBanned"		"Пошук рейтингових матчів не дозволено, якщо для вас заблоковано надсилання скарг."
 		"Citadel_StartMatchmaking_TooManyPlayersOnTeam"				"Забагато гравців в одній команді."
 		"Citadel_StartMatchmaking_UnableToFillTeam"					"Не вдалося створити дійсні команди на основі поточних команд гравців."
 		"Citadel_StartMatchmaking_InvalidTeam"						"Користувач обрав неправильну команду для цього ігрового режиму."
@@ -1070,6 +1099,9 @@
 		"Citadel_StartMatchmaking_InvalidHeroSelection"				"Ви не обрали дійсних героїв, щоби розпочати пошук матчу."
 		"Citadel_StartMatchmaking_HeroRosterTooPopular"				"Ваше чергування героїв не містить жодного героя, який наразі не використовується."
 		"Citadel_StartMatchmaking_NoRegionPings"					"Не вдалося зв’язатися з жодним ретранслятором мережі датаграм Steam. Якщо ви підключені до Інтернету, то причиною може бути проблема з вашим брандмауером, максимальним розміром елементу передавання (MTU) або ж з Інтернет-підключенням."
+		"Citadel_StartMatchmaking_HeroLabsMMNotOpen"				"Пошук матчів у лабораторіях героїв наразі не доступний."
+		"Citadel_StartMatchmaking_HeroLabsNotUnlocked"				"Ви ще не розблокували пошук матчів у лабораторіях героїв."
+		"Citadel_StartMatchmaking_NoHeroLabsWhileInLowPri"			"Для гравців із низьким пріоритетом не дозволено пошук матчів у лабораторіях героїв."
 		"Citadel_StopMatchMaking_FailedToGetResponse"				"Пошук матчів зупинено. Не вдалося отримати відповідь ігрового координатора."
 		"Citadel_StopMatchMaking_GeneralError"						"Помилка пошуку матчу. Будь ласка, спробуйте знову."
 		"Citadel_LeaveLobby_FailedToGetResponse"					"Не вдалося зупинити пошук матчів. Спробуйте знову."
@@ -1086,7 +1118,7 @@
 		"Citadel_IdleMatchmaking_IdleTimerExpired_Body"				"Ви були занадто довго бездіяльні під час пошуку матчу. Будь ласка, порухайте мишею, щоби підтвердити, що ви досі тут!"
 		"Citadel_IdleMatchmaking_Dialog_Title"						"Бездіяльність під час пошуку матчу"
 		"Citadel_IdleMatchmaking_Dialog_Body"						"Зараз ви шукаєте матч, але не схоже, що ви за комп’ютером. Будь ласка, порухайте мишею або вас буде усунено з пошуку матчу."
-		
+
 		"Citadel_Dashboard_EnterMatchmaking"						"Почати\nпошук матчів"
 		"Citadel_Dashboard_Roster_HeroTooPopular"					"Усі вибрані герої вже в черзі"
 		"Citadel_Dashboard_Roster_MissingHeroes"					"<span class=\"rosterErrorText\">Потрібно вибрати 3 героїв для чергування, щоби розпочати пошук матчів</span>"
@@ -1115,7 +1147,15 @@
 		"Citadel_Dashboard_ShowAnnounceTooltip"						"Показати оголошення"
 		"Citadel_Dashboard_CloseAnnounceTooltip"					"Закрити оголошення"
 		"Citadel_Dashboard_ViewLibrary"								"Бібліотека"
-
+		"Citadel_Dashboard_ReloadPageTooltip"						"Перезавантажити поточну сторінку"
+		"Citadel_Dashboard_Status_Mode_Unranked"					"Звичайний матч"
+		"Citadel_Dashboard_Status_Mode_Ranked"						"Рейтинговий матч"
+		"Citadel_Dashboard_Status_Mode_HeroLabs"					"Матч із героями лабораторій"
+		"Citadel_Dashboard_Status_Mode_Private"						"Приватний матч"
+		"Citadel_Dashboard_Status_Mode_Coop"						"Кооперативний матч із ботами"
+		
+		"Citadel_Dashboard_ShowHeroLabHeroes"						"Показати експериментальних героїв"
+		
 		"Citadel_Watch_Title"										"Перегляд матчів"
 		"Citadel_Watch_Featured"									"Відібрані матчі"
 		"Citadel_Watch_Loading"										"Завантаження…"
@@ -1203,7 +1243,7 @@
 		"Citadel_PartyAction_TooBusy"							"Наразі мережа Deadlock перевантажена й не може виконати цю дію. Спробуйте знову за кілька хвилин."
 		"Citadel_PartyAction_RateLimited"						"Ви здійснили забагато операцій упродовж короткого проміжку часу. Трішки зачекайте і спробуйте знову."
 		"Citadel_PartyAction_AlreadyDrafting"					"Група вже розпочала матч. Перш ніж почати інший матч, зупиніть поточний."
-		
+
 		"Citadel_PartySetMode_ErrorTitle"						"Помилка"
 		"Citadel_PartySetMode_FailedToGetResponse"				"Зараз немає зв’язку з мережею Deadlock. Спробуйте знову за кілька хвилин."
 		"Citadel_PartySetMode_InternalError"					"Сталася неочікувана помилка. Будь ласка, спробуйте знову за декілька хвилин."
@@ -1221,7 +1261,9 @@
 		"Citadel_PartySetMode_PlayerPermaBanned"				"Учасник вашої групи {g:citadel_persona:nl:account_id} назавжди заблокований у цьому режимі."
 		"Citadel_PartySetMode_CannotLeavePrivate"				"Наразі для приватних лобі не можна змінювати режими."
 		"Citadel_PartySetMode_FiveStacksNotAllowed"				"Групи з п’яти гравців наразі не можуть шукати матчі. Спробуйте шукати матч із більшою чи меншою групою."
-
+		"Citadel_PartySetMode_HeroLabsMMNotOpen"				"Пошук матчів у лабораторіях героїв наразі не доступний."
+		"Citadel_PartySetMode_HeroLabsNotUnlocked"				"Учасник вашої групи {g:citadel_persona:nl:account_id} ще не може шукати матчі в лабораторіях героїв."
+		"Citadel_PartySetMode_NoHeroLabsWhileInLowPri"			"Учасник вашої групи {g:citadel_persona:nl:account_id} має низький пріоритет і тому не може шукати матчі в лабораторіях героїв."
 		"Citadel_PartyInvite_ErrorTitle"						"Не вдалося надіслати запрошення"
 		"Citadel_PartyInvite_FailedToGetResponse"				"Зараз немає зв’язку з мережею Deadlock, тож не можна запросити вказаного користувача. Спробуйте знову за кілька хвилин."
 		"Citadel_PartyInvite_InternalError"						"Під час спроби запросити користувача до групи сталася внутрішня помилка."
@@ -1282,17 +1324,19 @@
 		"Citadel_Profile_Win_Short"								"Пер"
 		"Citadel_Profile_Loss_Short"							"Пор"
 		"Citadel_Profile_Statistics"							"Статистика"
+		"Citadel_Profile_RankHistory"							"Історія титулу"
 		"Citadel_Profile_Stats_All"								"Усі герої"
 		"Citadel_Profile_Stats_TitleSection"					"Статистика за весь час"
 		"Citadel_Profile_Stats_GamesPlayed"						"Зіграні матчі"
-		"Citadel_Profile_Stats_GamesWon"						"Перемоги"		
+		"Citadel_Profile_Stats_GamesWon"						"Перемоги"
 		"Citadel_Profile_Stats_Kills"							"Убивства"
 		"Citadel_Profile_Stats_Assists"							"Підмоги"
-		"Citadel_Profile_Stats_HeroDamage"						"Шкода героям"		
-		"Citadel_Profile_Stats_ObjDamage"						"Шкода ключовим цілям"		
-		"Citadel_Profile_Stats_LastHits"						"Останні удари"		
-		"Citadel_Profile_Stats_Denies"							"Добивання"		
-		"Citadel_Profile_Stats_Healing"							"Лікування"		
+		"Citadel_Profile_Stats_HeroDamage"						"Шкода героям"
+		"Citadel_Profile_Stats_ObjDamage"						"Шкода ключовим"
+		"Citadel_Profile_Stats_LastHits"						"Останні удари"
+		"Citadel_Profile_Stats_Denies"							"Добивання"
+		"Citadel_Profile_Stats_Healing"							"Лікування"
+		"Citadel_Profile_Stats_Commends"						"Похвали"
 		"Citadel_Profile_Stats_Networth"						"Зібрані душі"
 		"Citadel_Profile_Stats_Value_Networth_Low"				"{i:game_networth}"
 		"Citadel_Profile_Stats_Value_Networth_High"				"{i:game_networth}т"
@@ -1315,6 +1359,7 @@
 		"Citadel_MatchDetails_Report"							"С"
 		"Citadel_MatchDetails_ReportTooltip"					"Клацніть, щоби поскаржитися на гравця."
 		"Citadel_MatchDetails_Reported"							"Скаргу на гравця надіслано!"
+		"Citadel_MatchDetails_CommendTooltip"					"Клацніть, щоби похвалити гравця"
 		"Citadel_MatchDetails_Team1NetWorth"					"{i:team1_networth}т"
 		"Citadel_MatchDetails_Team2NetWorth"					"{i:team2_networth}т"
 		"Citadel_MatchDetails_Team1Name"						"{i:team2_networth}т"
@@ -1361,6 +1406,7 @@
 		"Citadel_ProfileCard_StatTitle_Wins"					"Перемоги"
 		"Citadel_ProfileCard_StatTitle_Kills"					"Убивства"
 		"Citadel_ProfileCard_StatTitle_GamesPlayed"				"Матчі"
+		"Citadel_ProfileCard_StatTitle_Commends"				"Похвали"
 
 		"Citadel_ProfileCard_StatValue_Int"						"{d:stat_value}"
 		"Citadel_ProfileCard_StatValue_Date"					"{t:s:stat_value}"
@@ -1384,7 +1430,7 @@
 		"Citadel_Replay_DownloadingPct"							"Завантаження — {d:replay_progress}%"
 		"Citadel_Replay_DecompressPct"							"Видобування — {d:replay_progress}%"
 		"Citadel_Replay_Delete"									"Видалити запис"
-		
+
 		"Citadel_Graph_Team1"							"Бурштин"
 		"Citadel_Graph_Team2"							"Сапфір"
 		"Citadel_Graph_WeaponDamage"					"Шкода від зброї"
@@ -1459,8 +1505,8 @@
 		"CitadelHeroStats_SpiritPower_Impact"				"Вплив духовної сили"
 		"CitadelHeroStats_SpiritPower_Desc"					"Духовна сила збільшує ефективність ваших умінь і предметів."
 		"CitadelHeroStats_Weapon_Falloff"					"Ефективна відстань"
-	
-		// Hero Builds UI	
+
+		// Hero Builds UI
 		"Citadel_HeroBuilds_Title"						"Збірки для героїв"
 		"Citadel_HeroBuilds_SelectedBuild_Title"		"Моя поточна збірка:"
 		"Citadel_HeroBuilds_Browse_button"				"Переглянути або змінити збірку"
@@ -1472,7 +1518,7 @@
 		"Citadel_HeroBuilds_Saving_Title"				"Збереження збірки"
 		"Citadel_HeroBuilds_Saving_Body"				"Будь ласка, зачекайте"
 		"Citadel_HeroBuilds_NewCategory"				"Категорія %number%"
-		"Citadel_HeroBuilds_DefaultHeroBuild"			"Стандартна збірка для героя %hero_name%"
+		"Citadel_HeroBuilds_DefaultHeroBuild"			"%hero_name%: стандартна збірка"
 		"Citadel_HeroBuilds_DefaultHeroBuildDesc"		"Надані Valve стандартні рекомендовані предмети для цього героя."
 		"Citadel_HeroBuilds_RecommendedItems"			"Рекомендовані предмети"
 		"Citadel_HeroBuilds_EarlyGame"					"Ранній етап"
@@ -1508,9 +1554,9 @@
 
 		"Citadel_HeroBuilds_CurrenclyActive"			"Активно зараз"
 		"Citadel_HeroBuilds_AbilityBuildTitle"			"Порядок покращення вмінь"
-		"Citadel_HeroBuilds_AbilityBuildReset"			"Змінити"	
-		"Citadel_HeroBuilds_AbilityBuildInstructions"	"Щоб установити рекомендований порядок покращення вмінь, натисніть кнопку редагування, а потім підвищте рівень кожного вміння в тому порядку, який мають бачити користувачі вашої збірки."	
-		
+		"Citadel_HeroBuilds_AbilityBuildReset"			"Змінити"
+		"Citadel_HeroBuilds_AbilityBuildInstructions"	"Щоб установити рекомендований порядок покращення вмінь, натисніть кнопку редагування, а потім підвищте рівень кожного вміння в тому порядку, який мають бачити користувачі вашої збірки."
+
 		"Citadel_HeroBuilds_PublishBuildTitle"			"Публікація збірки героя"
 		"Citadel_HeroBuilds_PublishBuildDesc"			"Ця збірка стане загальнодоступною для інших гравців."
 		"Citadel_HeroBuilds_BuildNameTitle"				"Назва збірки"
@@ -1531,10 +1577,10 @@
 		"Citadel_HeroBuilds_ErrorTitle"					"Помилка"
 		"Citadel_HeroBuilds_ValidateErrorTitle"			"Помилка збереження збірки"
 		"Citadel_HeroBuilds_ValidateErrorBody"			"Переконайтеся, що збірка має опис і назву, а також щонайменше 1 рекомендований предмет."
-		"Citadel_HeroBuilds_FavoriteCount"				"{i:favorite_count}"		
-		"Citadel_HeroBuilds_DailyFavorite"				"Актуальна"		
-		"Citadel_HeroBuilds_WeeklyFavorite"				"Популярна"		
-		"Citadel_HeroBuilds_AllTimeFavorite"			"Улюблена"		
+		"Citadel_HeroBuilds_FavoriteCount"				"{i:favorite_count}"
+		"Citadel_HeroBuilds_DailyFavorite"				"Актуальна"
+		"Citadel_HeroBuilds_WeeklyFavorite"				"Популярна"
+		"Citadel_HeroBuilds_AllTimeFavorite"			"Улюблена"
 		"Citadel_HeroBuilds_New"						"Нова"
 		"Citadel_HeroBuilds_Old"						"Стара"
 		"Citadel_HeroBuilds_NameLabel"					"Назва збірки"
@@ -1603,7 +1649,7 @@
 		// Item and Upgrade Modifiers
 
 
-			
+
 		"citadel_ability_sprint_roll"			"Біг"
 		"modifier_citadel_sprint_start"			"Ховає зброю…"
 		"modifier_citadel_sprint_end"			"Дістає зброю…"
@@ -1621,7 +1667,7 @@
 
 		"citadel_ability_drone_boss_laser_beam"		"Лазер ватажка"
 
-		
+
 		"citadel_ability_dash"						"Ривок"
 		"citadel_ability_jump"						"Стрибок"
 		"citadel_ability_teleport"					"Телепортація"
@@ -1634,8 +1680,10 @@
 		"modifier_neutral_gold_pickup_aura/aura_target/timer"	"Підіймання незахоплених душ"
 		"modifier_rejuv_pickup_aura/aura_target/timer"			"Підіймання командного омолоджувача"
 		"modifier_early_gold_pickup_aura/aura_target/timer"		"Захоплення душ команди"
-		"modifier_citadel_holding_golden_idol"  				"Вороги вас бачать! Принесіть урну до вівтаря."							
+		"modifier_citadel_holding_golden_idol"  				"Принесіть урну до вівтаря"
+		"modifier_citadel_holding_golden_idol_revealed"			"Вороги вас бачать! Принесіть урну до вівтаря."
 		"modifier_citadel_returning_golden_idol"  				"Покладення урни"
+		"modifier_citadel_idol_pickup_disabled"					"Підіймання урни душ вимкнено"
 		"modifier_knocked_off_zipline_slow"						"Збито з транзитного шляху"
 		"modifier_citadel_respawn_credit" 						"Омолодження"
 
@@ -1698,7 +1746,7 @@
 		"CITADEL_ABILITY_INVALID_NO_DAMAGE_TO_CLEAR"	"Немає шкоди для усунення"
 
 		"citadel_ability_interrupted"					"Перервано:"
-		
+
 		"citadel_ability_quick_melee" "Ближній бій"
 		"citadel_hint_zoom"			"Утримуйте <span class=\"hintTextEmphasis\">[{s:iv_attack2}]</span> для наближеного прицілювання зброєю."
 		"citadel_hint_slide"		"Утримуйте <span class=\"hintTextEmphasis\">[{s:duck}]</span> під час бігу вниз для ковзання."
@@ -1712,7 +1760,7 @@
 		"citadel_hint_upgrade_ability"	"Утримуйте <span class=\"hintTextEmphasis\">[{s:show_scoreboard}]</span>, щоби покращити своє вміння."
 		"citadel_hint_hero_testing_shop"	"Натисніть <span class=\"hintTextEmphasis\">[{s:citadel_open_hero_sheet}]</span>, щоби відкрити крамницю й налаштувати параметри тестування."
 		"citadel_hint_teleport"				"Ваш ватажок другого ступеня під атакою! Натисніть <span class=\"hintTextEmphasis\">[{s:key_teleport}]</span>, щоби телепортуватися й допомогти!"
-		
+
 		// Ability Hints
 		"citadel_hint_flamedash_boost" "Натисніть <span class=\"hintTextEmphasis\">[{s:key_innate_1}]</span> для посилення. Потрібна витривалість."
 		"citadel_hint_activate_wall" "Натисніть <span class=\"hintTextEmphasis\">[{s:iv_attack}]</span>, щоби поставити стіну раніше."
@@ -1745,7 +1793,7 @@
 		"survival_powerup_pickup"							"Виживання"
 		"casting_powerup_pickup"							"Застосування"
 		"movement_powerup_pickup"							"Рух"
-		
+
 		"spirit_permanent_pickup_label"					"+2 духу"
 		"firerate_permanent_pickup_label"				"+1,5% швидкострільності"
 		"ammo_permanent_pickup_label"					"+4% набоям"
@@ -1793,7 +1841,7 @@
 		"citadel_settings_per_unit_hotkeys"				"Призначення клавіш для окремих героїв"
 		"citadel_Hotkeys_Tooltip_PerUnitHotkeys"		"Увімкнути/вимкнути призначення клавіш для окремих героїв"
 		"citadel_settings_defaultkeybinds"				"Стандартно"
-		"citadel_ClearHeroHotkeyBindings"				"Скинути до стандартних"		
+		"citadel_ClearHeroHotkeyBindings"				"Скинути до стандартних"
 		"citadel_settings_chatwheel"					"Колесо чату"
 		"chat_wheel_options"							"ПАРАМЕТРИ КОЛЕСА"
 		"citadel_settings_volume"						"Гучність"
@@ -1807,7 +1855,7 @@
 		"citadel_settings_musicvolume"					"Гучність музики в меню"
 		"citadel_settings_musicvolume_desc"				"Регулює гучність музики в головному меню."
 		"citadel_settings_voicevolume"					"Гучність голосового чату (інші гравці)"
-		"citadel_settings_voicevolume_desc"				"Регулює гучність мікрофонів інших гравців."	
+		"citadel_settings_voicevolume_desc"				"Регулює гучність мікрофонів інших гравців."
 		"citadel_settings_gamevoicevolume"				"Гучність голосового чату (ви)"
 		"citadel_settings_gamevoicevolume_desc"			"Регулює гучність вашого мікрофона."
 		"citadel_settings_playsoundinbackground" 		"Відтворювати фоновий звук"
@@ -1900,6 +1948,7 @@
 		"citadel_settings_streamlined_mic"				"Оптимізований мікрофон"
 		"citadel_settings_chat_invert_ping"				"Інвертувати сигнали"
 		"citadel_settings_mousesensitivity"				"Чутливість миші"
+		"citadel_settings_mousesensitivity_y_scale"		"Чутливість миші: вертикальне масштабування"
 		"citadel_settings_mousezoomsensitivity"			"Коефіцієнт чутливості під час наближення"
 		"citadel_settings_keybinddefaults"				"Скинути всі призначення клавіш до стандартних"
 		"citadel_settings_pingwheeldefaults"			"Скинути колесо сигналів до стандартного"
@@ -1938,12 +1987,12 @@
 		"citadel_settings_crosshair_pip_width"				"Ширина"
 		"citadel_settings_crosshair_pip_height"				"Висота"
 		"citadel_settings_crosshair_pip_border"				"Показувати край перехрестя"
-		
+
 		"citadel_settings_crosshair_color"					"Колір"
 		"citadel_settings_crosshair_color_r"				"Червоний"
 		"citadel_settings_crosshair_color_g"				"Зелений"
 		"citadel_settings_crosshair_color_b"				"Синій"
-		
+
 		"citadel_settings_crosshair_visibility"				"Точка"
 		"citadel_settings_crosshair_pip_opacity"			"Прозорість перехрестя"
 		"citadel_settings_crosshair_dot_opacity"			"Прозорість точки"
@@ -2097,9 +2146,12 @@
 		"citadel_keybind_backwards"						"Рух назад"
 		"citadel_keybind_left"							"Відступ ліворуч"
 		"citadel_keybind_right"							"Відступ праворуч"
+		"citadel_keybind_up"							"Політ угору"
+		"citadel_keybind_down"							"Політ униз"
 		"citadel_keybind_mantle"						"Стрибок"
 		"citadel_keybind_attack"						"Стрільба"
 		"citadel_keybind_ads"							"Наближення"
+		"citadel_keybind_reset_camera"					"Скинути камеру"
 		"citadel_keybind_ping"							"Сигнал"
 		"citadel_keybind_quick_response"				"Швидка відповідь"
 		"citadel_keybind_extra_info"					"Додаткова інформація"
@@ -2325,16 +2377,16 @@
 		"kill_hype_FirstBlood"	"Перша кров"
 
 		"team_msg_Idol_Desc"	"Урна з душею"
-		
-		//"team_msg_Winner_SubText"	"The Patrons favor you"
-		"Citadel_GameOver_Victory"	"перемагає"
-		"Citadel_GameOver_Defeat"	"програє"
+
+		"Citadel_GameOver_Victory:g"	"#|m|#перемагає#|f|#перемагає#|n|#перемагає"
+		"Citadel_GameOver_Defeat:g"		"#|m|#програє#|f|#програє#|n|#програє"
 
 
 		"Citadel_LaneColorPurple"						"Фіолетова"
 		"Citadel_LaneColorBlue"							"Синя"
 		"Citadel_LaneColorYellow"						"Жовта"
 		"Citadel_LaneColorGreen"						"Зелена"
+		"Citadel_LaneColorUnassigned"					"Не призначена"
 		"Citadel_TeamMsg_EnemyBossKilledTitle"			"{s:lane_color} лінія ворогів, ступінь {i:boss_tier}"
 		"Citadel_TeamMsg_BossKilledTitle"				"{s:lane_color} лінія вашої команди, ступінь {i:boss_tier}"
 		"Citadel_TeamMsg_BossKilledMessage"				"ЗНИЩЕНО"
@@ -2342,8 +2394,8 @@
 		"Citadel_TeamMsg_TitanKilledTitle"				"Ваш покровитель"
 
 		"Citadel_FlexSlot_Title"						"Гнучку ланку розблоковано"
-		"Citadel_FlexSlotUnlockedAllTier1"				"Ви розблокували гнучку ланку за знищення всіх <span class=\"FlexSlotObjectiveName\">ворожих вартових</span>."
-		"Citadel_FlexSlotUnlockedGenerator"				"Ви розблокували гнучку ланку за знищення першого <span class=\"FlexSlotObjectiveName\">святилища</span>."
+		"Citadel_FlexSlotUnlockedAllTier1"				"Ви розблокували гнучку ланку за знищення трьох <span class=\"FlexSlotObjectiveName\">ворожих вартових</span>."
+		"Citadel_FlexSlotUnlockedGenerator"				"Ви розблокували гнучку ланку за знищення обох <span class=\"FlexSlotObjectiveName\">ворожих святилищ</span>."
 		"Citadel_FlexSlotUnlockedAllTier2"				"Ви розблокували гнучку ланку за знищення всіх <span class=\"FlexSlotObjectiveName\">ворожих крокерів</span>."
 		"Citadel_FlexSlotUnlockedKill2Tier2"			"Ви розблокували гнучку ланку за знищення двох <span class=\"FlexSlotObjectiveName\">ворожих крокерів</span>."
 
@@ -2365,6 +2417,7 @@
 		"menu_play_normal"							"Deadlock"
 		"menu_play_normal_count"					"{s:mm_unranked_count} у черзі"
 		"menu_play_allmodes_count"					"{s:queued_users} у черзі"
+		"menu_clear_ready_up"						"Не готово"
 		"menu_roster_detail2"						"Змінити чергування"
 		"menu_roster_edit"							"Змінити"
 		"menu_leave_queue"							"Скасувати пошук"
@@ -2383,6 +2436,7 @@
 		"menu_getstarted"							"Основи гри"
 		"menu_bot_practice"							"Приватний матч проти ботів"
 		"menu_bot_custom"							"Нестандартний матч"
+		"menu_bot_hero_labs"						"Лабораторії героїв"
 		"menu_learn"								"Навчання"
 		"menu_resources"							"Ресурси"
 		"menu_training"								"Тренування"
@@ -2398,7 +2452,11 @@
 		"Citadel_Confirm_Discord_InMatch_Body"		"Скопіюйте своє посилання для Discord, коли ви не в групі й не шукаєте матч."
 		"Citadel_Dashboard_Recommended"				"Рекомендовано"
 
-		"Citadel_Commend_Toast"						"Користувач {s:commender} ({s:commender_hero}) похвалив вас!"
+		"Citadel_Commend_Toast_NoHero_Generic"		"{s:commender} хвалить вас"
+		"Citadel_Commend_Toast_Generic"				"{s:commender} ({s:commender_hero}) хвалить вас"
+		"Citadel_Commend_Toast_Friendly"			"{s:commender} ({s:commender_hero}) хвалить вас за дружню і веселу гру."
+		"Citadel_Commend_Toast_Teamwork"			"{s:commender} ({s:commender_hero}) хвалить вас за командну гру."
+		"Citadel_Commend_Toast_Skilled"				"{s:commender} ({s:commender_hero}) хвалить вас за вправність у грі."
 
 		"menu_exit_db_page"							"Назад"
 		"menu_settings"								"Налаштування"
@@ -2417,7 +2475,7 @@
 		"menu_bots_medium"							"Середні"
 		"citadel_bot_name"							"Бот"
 		"menu_watch_live_games"						"Транслюється: {d:live_matches}"
-		"menu_botmatchmaking"						"Грати проти ботів"
+		"menu_botmatchmaking"						"Проти ботів"
 		"menu_botmatchmaking_count"					"Гравці в черзі: {s:mm_coopbot_count}"
 		"menu_changehero"							"Змінити героя"
 
@@ -2426,7 +2484,6 @@
 		"menu_play_lane_training_desc"				"Опануйте ранній етап гри разом із союзним героєм."
 		"menu_play_bots_easy_desc"					"Зіграйте в приватний матч проти ботів."
 		"menu_play_custom_game_desc"				"Створіть або приєднайтеся до нестандартного матчу для 12 чи менше гравців."
-		
 		"menu_play_get_started_time_est"			"4 хвилини"
 		"menu_play_sandbox_time_est"				"5 хвилин"
 		"menu_play_lane_training_time_est"			"8 хвилин"
@@ -2442,15 +2499,18 @@
 		"menu_learn_incomplete"						"Не завершено"
 		"menu_learn_completed"						"Завершено"
 
+		"menu_hero_labs_unavailable"				"Заблоковано"
+		"menu_hero_labs_schedule_title"				"Доступні години"
+		"menu_hero_labs_schedule_times"				"{t:t:start_time} – {t:t:end_time}"
 		"menu_play_ranked"							"Рейтинговий матч"
 		"menu_play_ranked_desc"						"Зіграйте в більш змагальний матч проти гравців зі схожим рівнем навичок."
 		"menu_ranked_title"							"Рейтинговий:"
-		"menu_ranked_schedule_title"				"Доступні години:"
+		"menu_ranked_schedule_title"				"Доступні години"
 		"menu_ranked_unavailable"					"Заблоковано"
 		"menu_ranked_unavailable_desc"				"Ви повинні зіграти в 50 стандартних матчів, щоб мати змогу шукати рейтингові."
-		"menu_ranked_schedule_weekdays"				"ПН–ЧТ:"
-		"menu_ranked_schedule_weekends"				"ПТ–НД:"
-		"menu_ranked_schedule_alldays"				"Розклад за днями:"
+		"menu_ranked_schedule_weekdays_monfri"		"ПН—ПТ:"
+		"menu_ranked_schedule_weekends_satsun"		"СБ—НД:"
+		"menu_ranked_schedule_alldays"				"Щоденний розклад:"
 		"menu_ranked_schedule_timeplaceholder"		"{t:t:start_time} – {t:t:end_time}"
 		"menu_ranked_select_schedule"				"Вибрати розклад"
 		"menu_ranked_view_schedules"				"Переглянути всі розклади"
@@ -2465,18 +2525,29 @@
 		"Citadel_SetSchedule_Selected"				"Вибрано"
 		"Citadel_SetSchedule_SetSuccessfully"		"Розклад успішно складено"
 		"Citadel_ranked_scheduleModal_title"		"Розклади рейтингових матчів"
-		"Citadel_ranked_scheduleModal_desc"			"Оберіть вікна для рейтингових матчів, які найкраще підходять до вашого часу гри.<br><br>Ви завжди гратимете на найближчому доступному сервері незалежно від обраного часу."
-		"Citadel_ranked_scheduleModal_warning"		"Примітка: після вибору розкладу для цього рейтингового сеансу ви не зможете його змінити до наступного сеансу."
+		"Citadel_ranked_scheduleModal_desc"			"Оберіть проміжки часу для рейтингових матчів, які найкраще вам підходять.<br><br>Ви завжди гратимете на найближчому доступному сервері незалежно від обраного часу."
+		"Citadel_ranked_scheduleModal_warning"		"Примітка: після вибору розкладу ви не зможете змінити його протягом семи днів."
 		"Citadel_ranked_open"						"Відкрито"
 		"Citadel_ranked_closed"						"Рейтингові матчі закрито"
 		"Citadel_ranked_comingsoon"					"Перші рейтингові матчі почнуться у вівторок, 15 жовтня, о 23:00 за київським часом"
 		"Citadel_ranked_schedule_explainer"			"Рейтингові матчі будуть доступні лише протягом певного проміжку часу. Вкажіть зручний для вас час, перш ніж шукати такі матчі."
 
-		"Citadel_ranked_explainer_button"				"Що таке рейтинговий матч?"
-		"Citadel_ranked_explainer_title"				"Пошук рейтингових матчів"
-		"Citadel_ranked_explainer_desc"					"[Рейтинговий режим] — це складніший режим, що дає більш змагальний досвід гри в Deadlock. У цьому режимі ви шукатимете матчі з гравцями, які мають близьку до вашої майстерність, а результати матчів визначатимуть ваш рівень навичок у порівнянні з іншими.<br><br>Щотижня гравці зможуть приєднуватися до цього змагання грою в [рейтингові] матчі протягом відкритого часу для свого регіону й демонструвати там свої індивідувальні навички."
-		"Citadel_ranked_howitworks_title"				"Як це працює?"
-		"Citadel_ranked_howitworks_desc"				"Усі гравці починають з умовно невідомого рівня навичок. Щотижня вам необхідно завершити сім [рейтингових] матчів, щоби кваліфікуватися для рейтингового режиму цього тижня. Наприкінці тижня ви отримаєте свій титул, який показуватиметься як значок у вашому профілі.<br><br>Якщо до кінця тижня ви не зіграєте сім [рейтингових] матчів, ваш видимий титул повернеться до невідомого й лишатиметься прихованим, допоки ви не кваліфікуєтеся наступного тижня. Дані стосовно ваших навичок не зникнуть і використовуватимуться для ваших майбутніх [рейтингових] ігор, але значок не показуватиметься.<br><br>Існує одинадцять рівнів титулу, і на кожному рівні гравці також отримують підрівень від I до VI, що точніше визначає розташування в межах цього рівня."
+		"Citadel_ranked_explainer_button"			"Що таке рейтинговий матч?"
+		"Citadel_ranked_explainer_title"			"Пошук рейтингових матчів"
+		"Citadel_ranked_explainer_desc"				"Рейтинговий режим — це складніший режим, що дає більш змагальний досвід гри в Deadlock. У цьому режимі ви шукатимете матчі з гравцями, які мають близьку до вашої майстерність, а результати матчів визначатимуть ваш рівень навичок у порівнянні з іншими.<br><br>Щотижня гравці зможуть приєднуватися до цього змагання грою в рейтингові матчі протягом відкритого часу для свого регіону й демонструвати там свої індивідувальні навички."
+		"Citadel_ranked_howitworks_title"			"Як це працює?"
+		"Citadel_ranked_howitworks_desc"			"Усі гравці починають з умовно невідомого рівня навичок. Щотижня вам необхідно завершити сім рейтингових матчів, щоби кваліфікуватися для рейтингового режиму цього тижня. Наприкінці тижня ви отримаєте свій титул, який показуватиметься як значок у вашому профілі.<br><br>Якщо до кінця тижня ви не зіграєте сім рейтингових матчів, ваш видимий титул повернеться до невідомого й лишатиметься прихованим, допоки ви не кваліфікуєтеся наступного тижня. Дані стосовно ваших навичок не зникнуть і використовуватимуться для ваших майбутніх рейтингових ігор, але значок не показуватиметься.<br><br>Існує одинадцять рівнів титулу, і на кожному рівні гравці також отримують підрівень від I до <Panel class=\"starIcon\"></Panel>, що точніше визначає розташування в межах цього рівня."
+		"Citadel_ranked_rankedmedals"				"Титули:"
+		"Citadel_ranked_subranks_explainer"			"Підтитули: I, II, III, IV, V, <Panel class=\"starIcon\"></Panel>"
+
+		"Citadel_ranked_explainer_note"				"Дизайни значків буде оприлюднено після першого присудження титулів у вівторок, 22 жовтня."
+
+		"Citadel_ranked_result_title"				"Звіт про титул"
+		"Citadel_ranked_result_rankup"				"Титул підвищено!"
+		"Citadel_ranked_result_adjustment"			"Зміна титулу"
+		"Citadel_ranked_numGamesPlayed"				"Зіграні ігри: {s:games_played}"
+		"Citadel_ranked_match_history"				"Історія матчів:"
+
 		"Citadel_subranks_1"						"I"
 		"Citadel_subranks_2"						"II"
 		"Citadel_subranks_3"						"III"
@@ -2484,7 +2555,7 @@
 		"Citadel_subranks_5"						"V"
 		"Citadel_subranks_6"						"VI"
 
-		"Citadel_rank_phase_example"				"15–21 жовтня | 2024"
+		"Citadel_rank_phase_example"				"{t:s:popup_start_day} — {t:s:popup_end_day}"
 
 
 		"item_info_abilities"						"Уміння"
@@ -2510,10 +2581,10 @@
 		"SafeToAbandon_Text"						"Цей матч тепер можна залишити без штрафу."
 
 		"ModIconTooltip_UnlockTier2"				"Розблоковується, коли ваша команда знищить двох ворожих крокерів."
-		"ModIconTooltip_UnlockGuardians"			"Розблоковується, коли ваша команда знищить ворожих вартових."	
-		"ModIconTooltip_UnlockGenerators"			"Розблоковується, коли ваша команда знищить вороже святилище."	
+		"ModIconTooltip_UnlockGuardians"			"Розблоковується, коли ваша команда знищить ворожих вартових."
+		"ModIconTooltip_UnlockGenerators"			"Розблоковується, коли ваша команда знищить обидва ворожі святилища."
 		//"ModIconTooltip_UnlockTier3"				"Unlocked after your team destroys the enemy Patron's first form"
-		"ModIconTooltip_UnlockAllTier1"				"Розблоковується, коли ваша команда знищить всіх ворожих вартових."
+		"ModIconTooltip_UnlockAllTier1"				"Розблоковується, коли ваша команда знищить трьох ворожих вартових."
 		"ModIconTooltip_UnlockAllTier2"				"Розблоковується, коли ваша команда знищить всіх ворожих крокерів."
 
 		"HeroesPageTitle"							"Герої"
@@ -2540,19 +2611,20 @@
 		"MyRosterNumHeroesInRoster"					"ГЕРОЇ НА ЧЕРГУВАННІ: {i:num_heroes_in_roster}"
 		"MyRosterNumHeroesInRosterSingular"			"ГЕРОЇ НА ЧЕРГУВАННІ: {i:num_heroes_in_roster}"
 		"MyRosterGreatForNewPlayers"				"Підходить для новачків"
+		"MyRosterHeroLabsHero"						"Лабораторії героїв"
 		"MyRosterAssignedTesting"					"Призначене тестування"
 		"MyRosterAssignedOpenTesting"				"Відкрите тестування"
 		"MyRosterChangeHero"						"Змінити героя"
 		"MyRosterLetsGo"							"Стати в чергу"
+		"MyRosterReadyUp"							"Готово!"
 		"MyRosterCreateParty"						"Створити групу!"
 		"MyRosterWaitForParty"						"Очікування на учасників групи…"
 		"MyRosterExit"								"Вийти з чергування"
 		"MyRosterExitRosterConfirm"					"Ви дійсно хочете вийти з чергування? Це вихід із чергування для всієї вашої групи."
-		"MyRosterPartyHighSkillRange"				"У вашій групі є гравці з різним рівнем навичок. Це призведе до пошуку ЗНАЧНО СКЛАДНІШОГО матчу для вашої групи."
-
 		"MyRosterPartyReadyCount"					"Готові: {d:party_ready_count}/{d:party_player_count}"
 		"MyRosterPartyMemberRoster"					"Герої на чергуванні:"
 
+		"MyRosterRosterDesc_HeroLabs"				"Ваше чергування має налічувати щонайменше 3 героїв, 2 з яких повинні бути звичайними нетестовими героями."
 
 		//-----------------------------------------------------------------------------
 		// SANDBOX - DEMO CONTROLS
@@ -2605,7 +2677,7 @@
 		//-----------------------------------------------------------------------------
 		// TUTORIAL - LANE TRAINING
 		//-----------------------------------------------------------------------------
-		
+
 		"LaneTraining_Intro_Title"					"Вітаємо в <b>тренуванні на лінії</b>"
 		"LaneTraining_Intro_Desc"					"Мета раннього етапу гри — здобути силу, достатню для виконання ігрових завдань.<br><br>Коли <span class=\"introHighlight\">виконаєте перелічені праворуч цілі</span>, ми дамо вам <span class=\"introHighlight\">неймовірну силу</span>, достатню для подолання ворожого вартового."
 		"LaneTraining_Intro_Button"					"Почати"
@@ -2613,7 +2685,7 @@
 		"LaneTraining_Outro_Title"					"<b>Тренування на лінії</b> завершено"
 
 		//"ReportCard_PlayerDamage"					"Player Damage"
-		//"ReportCard_PlayerDamage_Desc"				"Damage you’ve dealt to enemy heroes"	
+		//"ReportCard_PlayerDamage_Desc"				"Damage you’ve dealt to enemy heroes"
 		//"ReportCard_PlayerDamage_Progress"			"<span class=\"yourscore\">{i:playerDamage}</span> / {i:playerDamageNextGoal}"
 
 		"ReportCard_LastHits"						"Смертельні удари"
@@ -2658,9 +2730,9 @@
 		"ReportCard_KillGuardian"					"Знищте ворожого вартового"
 		"ReportCard_KillGuardian_Desc"				"Знищте всіх, хто стоїть на шляху до вашої перемоги!"
 
-		//"NewPlayer_NewPlayerFlow"					"Learn to Play"				
+		//"NewPlayer_NewPlayerFlow"					"Learn to Play"
 		"NewPlayer_Skip"							"Пропустити навчання"
-		//"NewPlayer_NewPlayerFlow_Desc"				"To get started, check out the tasks within <span class=\"introText\">Learn</span>."	
+		//"NewPlayer_NewPlayerFlow_Desc"				"To get started, check out the tasks within <span class=\"introText\">Learn</span>."
 		//"NewPlayer_GetStarted"						"Review <span class='TaskHighlight'>Get Started</span>"
 		//"NewPlayer_GetStarted_Time"					"4 mins"
 		//"NewPlayer_HeroSandbox"						"Try out your moves in <span class='TaskHighlight'>Hero Training</span>"
@@ -2668,7 +2740,7 @@
 		//"NewPlayer_LaneTraining"					"Learn the early game in <span class='TaskHighlight'>Lane Training</span>"
 		//"NewPlayer_LaneTraining_Time"				"8 mins"
 		//"NewPlayer_YouAreFinished"					"You're ready! Try a bot match within Practice or Play your first game!"
-		//"NewPlayer_Finish"							"End Tutorial"				
+		//"NewPlayer_Finish"							"End Tutorial"
 
 		"HeroTraining_Intro_Title"					"Вітаємо в <b>тренуванні з героєм</b>"
 		"HeroTraining_Intro_Desc"					"Тут ви зможете ознайомитися з рухами та вміннями обраного героя. Освоєння цих концепцій украй важливе для завершення ритуалу."
@@ -2680,10 +2752,10 @@
 		"NPE_Heroes_Modal_Title"					"Рекомендовані герої"
 		"NPE_Heroes_Modal_Desc"						"<span class=\"introText\">Схоже, це ваша перша гра!</span><br><br>Ми виділили кількох героїв, які чудово підходять для нових гравців. Радимо вибрати одного з них, якщо не знаєте, з кого почати."
 		"NPE_Heroes_Modal_Button"					"Зрозуміло!"
-		
+
 		"NPE_Bots_Modal_Desc"						"<span class=\"introText\">Це ваш перший матч із ботами!</span><br><br>Матчі з ботами — чудова можливість ознайомитися з героєм. Вони не є точною копією процесу гри та командної взаємодії в справжньому матчі з іншими гравцями.<br><br>Щойно почуватиметеся комфортно, залишайте матч із ботами й починайте грати з іншими гравцями."
 		"NPE_Bots_Modal_Button"						"Зрозуміло!"
-		
+
 
 		"Sandbox_Tutorial_Movement"					"Ознайомлення з керуванням"
 		"Sandbox_Tutorial_Movement_desc"			"Скористайтеся цією областю для тестування елементів керування."
@@ -2709,7 +2781,7 @@
 		"Sandbox_Tutorial_Step_1"					"Крок 1/6"
 		"Sandbox_Tutorial_Step_2"					"Крок 2/6"
 		"Sandbox_Tutorial_Step_3"					"Крок 3/6"
-		"Sandbox_Tutorial_Step_4"					"Крок 4/6"		
+		"Sandbox_Tutorial_Step_4"					"Крок 4/6"
 		"Sandbox_Tutorial_Step_5"					"Крок 5/6"
 		"Sandbox_Tutorial_Step_6"					"Крок 6/6"
 
@@ -2733,7 +2805,7 @@
 
 		"BrowseItems_Title"							"Каталог предметів"
 		"BrowseItems_Desc"							"Перегляньте каталог предметів, щоби підготуватися до свого наступного матчу!"
-		
+
 		"CreateBuilds_Title"						"Створити збірку для героя {s:hero_name}"
 		"CreateBuilds_Desc"							"Оберіть предмети в крамниці, щоби додати їх до рекомендованого списку в збірці."
 
@@ -2784,7 +2856,7 @@
 		"AbilityButtonHint_CastIceDome"				"Застосувати льодяний сховок"
 		"AbilityButtonHint_CastLifeDrain"			"Витягнути життя ворога"
 		"AbilityButtonHint_AlotCastLifeDrain"				"Лікувати товариша"
-		
+
 		//-----------------------------------------------------------------------------
 		// Guided Bot Match
 		//-----------------------------------------------------------------------------
@@ -2805,7 +2877,7 @@
 		"citadel_bot_name_prefix"				"[Бот]"
 		"citadel_purchasemessage"				"<span class=\"ChatTarget\">{s:target} <span class=\"ChatPersona\"><span class=\"{s:player_color_class}\">{s:persona}</span></span></span> <span class=\"{s:purchaseText}\">{s:soldOrPurchasedText}</span> <span class=\"{s:message_color_class}\">{s:message}</span>"
 		"citadel_ping_wheel_message"			"{s:message}"
-	
+
 		"citadel_ping_wheel_disabled_while_dead"				"Не діє на час смерті"
 		"citadel_all_chat_label_prefix"							"[УСІМ] "
 		"citadel_chatwheel_label_Care"							"Обережно"
@@ -2911,6 +2983,9 @@
 		//"citadel_quick_response_respond_onmyway"					"Respond 'On my Way'"
 
 		// These are loc strings for ping response rules. Good for if we don't have VO for a response rule to show what the player would've said.
+		"ping_message"											"{s:pre_punctuation}{s:ping}{s:post_punctuation}"
+		"ping_pre_exclamation"									""
+		"ping_post_exclamation"									"!"
 		"ping_headed_yellow"									"Прямую на жовту"
 		"ping_headed_blue"										"Прямую на синю"
 		"ping_headed_green"										"Прямую на зелену"
@@ -2928,7 +3003,7 @@
 		"ping_purple_help"										"Допоможіть на фіолетовій"
 		"ping_on_way"											"Уже йду"
 		"ping_nevermind"										"Зміна планів"
-		"ping_see"												"Бачу {s:param_1}"
+		"ping_see"												"Бачу: {s:param_1}"
 		"ping_see_param_2"										" з {s:param_2} здоров’ям"
 		"Ping_Low_Health"										"низьким"
 		"ping_they_are"											"Вони"
@@ -2976,6 +3051,7 @@
 		"ping_ability_ready"									"Уміння {s:param_1} готове!"
 		"ping_ability_on_cooldown"								"Уміння {s:param_1} на зарядці ще {s:param_2} с"
 		"ping_im_back"											"Я вже тут!"
+		"ping_going_in"											"Приєднуюсь!"
 		"ping_stay_together"									"Тримаймось разом"
 		"respond_yes"											"Так!"
 		"respond_no"											"Ні!"

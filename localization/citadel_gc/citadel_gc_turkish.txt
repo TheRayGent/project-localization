@@ -182,17 +182,18 @@
 		"Steam_Citadel_RP_FindingMatch"							"Maç Aranıyor"
 		
 		// These Match Mode ("MM_") tokens are for the %param0% below.
-		"Steam_Citadel_RP_MM_Unranked"							"Maç"
-		"Steam_Citadel_RP_MM_Ranked"							"Maç"
-		"Steam_Citadel_RP_MM_PrivateLobby"						"Özel Maç"
-		"Steam_Citadel_RP_MM_CoopBot"							"Eşli Bot Maçı"
-		"Steam_Citadel_RP_MM_Tutorial"							"Eğitim"
-		"Steam_Citadel_RP_MM_Sandbox"							"Alıştırma"
+		"Steam_Citadel_RP_MM_Unranked"							"Deadlock:"
+		"Steam_Citadel_RP_MM_Ranked"							"Dereceli:"
+		"Steam_Citadel_RP_MM_HeroLabs"							"Kahraman Laboratuvarı:"
+		"Steam_Citadel_RP_MM_PrivateLobby"						"Lobi:"
+		"Steam_Citadel_RP_MM_CoopBot"							"Bot:"
+		"Steam_Citadel_RP_MM_Tutorial"							"Eğitim:"
+		"Steam_Citadel_RP_MM_Sandbox"							"Alıştırma:"
 		
 		"Steam_Citadel_InGame_Sandbox"		"Alıştırma modunda test ediyor: {%param2%}"
-		"Steam_Citadel_InGame_Hero"			"{%param1%} - {%param2%} ile oynuyor (%param0%. dk)"
-		"Steam_Citadel_InGame"				"{%param1%} - %param0%. dk"
-		"Steam_Citadel_Spectating"			"{%param1%} izliyor - {%param0%}. dk"
+		"Steam_Citadel_InGame_Hero"			"{%param1%} {%param2%} (%param0% dk)"
+		"Steam_Citadel_InGame"				"{%param1%}  (%param0% dk)"
+		"Steam_Citadel_Spectating"			"Bir Maç İzliyor"
 		"Steam_Citadel_RP_Online"			"Çevrimiçi"
 
 		"Steam_RP_hero_vampire"			"Vampire"
@@ -210,7 +211,7 @@
 		"Steam_RP_hero_gigawatt"			"Seven"
 		"Steam_RP_hero_hornet"			"Vindicta"
 		"Steam_RP_hero_orion"			"Grey Talon"
-		"Steam_RP_hero_ghost"			"Leydi Geist"
+		"Steam_RP_hero_ghost"			"Lady Geist"
 		"Steam_RP_hero_atlas"			"Abrams"
 		"Steam_RP_hero_wraith"			"Wraith"
 		"Steam_RP_hero_forge"			"McGinnis"
@@ -275,7 +276,7 @@
 		"hero_gigawatt"			"Seven"
 		"hero_hornet"			"Vindicta"
 		"hero_orion"			"Grey Talon"
-		"hero_ghost"			"Leydi Geist"
+		"hero_ghost"			"Lady Geist"
 		"hero_atlas"			"Abrams"
 		"hero_wraith"			"Wraith"
 		"hero_forge"			"McGinnis"
@@ -325,6 +326,8 @@
 		"hero_bomber"			"Bomber"
 		"hero_shieldguy"		"Shield Guy"
 		"hero_viper"			"Viper"
+		"hero_vandal"			"Vandal"
+		"hero_magician"			"Magician"
 
 		//-----------------------------------------------------------------------------
 		// Upgrades: Weapon
@@ -372,7 +375,7 @@
 		"upgrade_long_range"					"Uzun Menzil"
 		"upgrade_crackshot"						"Mistik Atış"
 		"upgrade_medic_bullets"					"Şifalı Atış"
-		"upgrade_close_quarter_combat"			"Direkt İsabet"
+		"upgrade_close_quarter_combat"			"Yakından Vuruş"
 		"upgrade_headshot_booster"				"Kafadan Vuruş Güçlendiricisi"
 		"upgrade_sharpshooter"					"Keskin Nişancı"
 		"upgrade_headhunter"					"Kelle Avcısı"

@@ -43,6 +43,7 @@
 		"Citadel_StatusEffectImmobilize" 		"ตรึง"
 		"Citadel_StatusEffectDisarmed"			"ปลดอาวุธ"
 		"Citadel_StatusEffectInvisible"			"ล่องหน"
+		"Citadel_StatusEffectPetrify"				"กลายเป็นหิน"
 		//"Citadel_StatusEffectStacks"			"Stacks "
 		//"Citadel_StatusEffectInfiniteClip"		"Infinite Ammo"
 		//"Citadel_StatusEffectBulletDebuff"		"Bullet Debuff"
@@ -204,6 +205,8 @@
 		"StatDesc_HealingOutput_postfix"				"%"
 		"StatDesc_CritDamageBonusScale"					"เพิ่มคริติคอล"
 		"StatDesc_CritDamageBonusScale_postfix"			"%"
+		"StatDesc_MeleeResist"							"ต้านทาน​โจมตี​ประชิด​"
+		"StatDesc_MeleeResist_postfix"					"%"
 
 		"StatDesc_BulletSpeed"							"ความเร็วกระสุน"
 		"StatDesc_BulletSpeed_postfix"					"ม/วิ"
@@ -694,6 +697,9 @@
 
 		"HealAmpReceivePenaltyPercent_label"		"ลดการรักษา"
 		"HealAmpReceivePenaltyPercent_postfix"			"%"
+		
+		"HealAmpRegenPenaltyPercent_label"		"ลดการรักษา"
+		"HealAmpRegenPenaltyPercent_postfix"	"%"
 
 		"DegenResistance_label"						"ต้านทานลดการรักษา"
 		"DegenResistance_postfix"					"%"
@@ -1793,9 +1799,16 @@
 		"StaminaRegenPercent_label"			"อัตรา​ฟื้นฟูสแตมินา"
 		"StaminaRegenPercent_postfix"		"%"
 
-		//crow_mask_1827_comment
-		// crow_mask_1828_comment
-		//crow_mask_1829_comment
+		"MeleeResistPercent_prefix"			"{s:sign}"
+		"MeleeResistPercent_label"			"ต้านทาน​โจมตี​ประชิด​"
+		"MeleeResistPercent_postfix"		"%"
+		
+		"BuffDuration_label"				"ระยะเวลาบัฟ"
+		"BuffDuration_postfix"				"วิ"
+
+		//crow_mask_1840_comment
+		// crow_mask_1841_comment
+		//crow_mask_1842_comment
 
 
 

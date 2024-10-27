@@ -144,7 +144,7 @@
 		"MagicShockDamage_postfix"	"%"
 
 		//Mystic Reverb
-		"upgrade_tech_bleed_desc" "Infunde uma habilidade para aplicar <span class=\"highlight\">desaceleração</span> ao redor do alvo e causar <span class=\"highlight\">uma porcentagem do dano causado</span> contra inimigos ao redor do alvo após um breve atraso."
+		"upgrade_tech_bleed_desc" "Infunde uma habilidade para aplicar <span class=\"highlight\">desaceleração</span> aos alvos atingidos e causar <span class=\"highlight\">uma porcentagem do dano causado</span> contra inimigos ao redor do alvo após um breve atraso."
 		//"upgrade_tech_bleed/modifier_tech_bleed_proc/modifier_tech_bleed"			"Spirit Echo"	
 
 		//Toxic Bullets
@@ -274,7 +274,7 @@
 
 		//Siphon Bullets
 		//"upgrade_siphon_bullets_desc_passive1"	"When in <span class=\"highlight\">close range</span> of your target, deal additional <span class=\"highlight\">Weapon Damage</span>."
-		"upgrade_siphon_bullets_desc_passive2"	"As suas balas temporariamente <span class=\"highlight\">roubam vida máxima</span> dos inimigos. A vida roubada é restaurada aos inimigos ao término do efeito. Rouba permanentemente um acúmulo de cura caso um alvo morra sob o seu efeito, mas perde {s:StackLostPerDeath} acúmulos caso você morra."
+		"upgrade_siphon_bullets_desc_passive2"	"As suas balas temporariamente <span class=\"highlight\">roubam vida máxima</span> dos inimigos. A vida roubada é restaurada aos inimigos ao término do efeito. Rouba permanentemente {s:StealPerKill} acúmulos de vida caso um alvo morra sob o seu efeito, mas perde {s:StackLostPerDeath} acúmulos caso você morra."
 		"modifier_siphon_bullets_health_gain"		"Balas Absorventes"
 		"modifier_siphon_bullets_health_loss"		"Balas Absorventes"
 		"HealthSteal_label"						"Vida máxima roubada por bala"
@@ -488,13 +488,13 @@
 		"SpiritPower_prefix"					"+"
 
 		//Ethereal Shift
-		"upgrade_self_bubble_desc"			"Você entra em um estado vazio e torna-se <span class=\"highlight\">inalvejável e invencível</span> brevemente, mas incapaz de se mover ou realizar ações. Em seguida, você <span class=\"highlight\">recarrega a arma instantaneamente</span> e ganha <span class=\"highlight\">poder espiritual</span>."
+		"upgrade_self_bubble_desc"			"Você entra em um estado vazio e se torna <span class=\"highlight\">inalvejável e invencível</span> brevemente, mas incapaz de se mover ou realizar ações. Em seguida, você ganha <span class=\"highlight\">velocidade de movimento e resistência espiritual</span>."
 		"ShiftingVeilDuration_label"			"Duração"
 		"ShiftingVeilDuration_postfix"		"s"
 		"BonusSpiritDuration_label"			"Duração do adicional espiritual"
 		"BonusSpiritDuration_postfix"			"s"
 		"modifier_shifting_veil_buff"			"Troca Etérea"
-		"shifting_veil_bonus_spirit"			"Poder espiritual adicional"
+		"shifting_veil_bonus"			"Veloc. e resist. espiritual"
 		"modifier_citadel_bubble"				"Troca Etérea"
 
 		//Stasis Bomb
@@ -533,7 +533,7 @@
 		//"upgrade_aoe_tech_shield/modifier_duration" "Spirit Barrier Pulse"
 		
 		//Cold Front
-		"upgrade_cold_front_desc"			"Lança uma explosão de gelo que causa <span class=\"highlight\">dano espiritual</span> e <span class=\"highlight\">desacelera</span> os alvos atingidos."
+		"upgrade_cold_front_desc"			"Lança uma explosão de gelo que causa <span class=\"highlight\">dano espiritual</span> e <span class=\"highlight\">desacelera</span> os alvos atingidos. Causa {s:NPCDamageMult}x de dano contra não heróis."
 		
 		//Knockdown
 		"upgrade_target_stun_desc"			"Após um <span class=\"highlight\">atraso de {s:StunDelay}s</span>, o alvo é <span class=\"highlight\">derrubado</span> e <span class=\"highlight\">atordoado</span>, interrompendo e impedindo temporariamente que realize qualquer ação."
@@ -615,7 +615,7 @@
 		//"ClarityBonusSpirit_label"				"Next Ability Bonus Spirit Power"
 
 		//Surge of Power
-		"upgrade_magic_storm_desc"				"Infunde uma habilidade com <span class=\"highlight\">poder espiritual</span>. Ao usá-la, concede <span class=\"highlight\">aceleração de movimento</span>."
+		"upgrade_magic_storm_desc"				"Infunde uma habilidade com <span class=\"highlight\">poder espiritual permanente</span>. Ao usá-la, concede <span class=\"highlight\">aceleração de movimento</span> e manutenção da velocidade enquanto estiver atacando."
 		"modifier_upgrade_magic_storm"			"Surto de Poder"
 
 		//Suppressor
@@ -662,11 +662,9 @@
 		"upgrade_savior_desc"				"Concede ao alvo <span class=\"highlight\">velocidade de movimento e escudos balístico e espiritual</span>. Pode ser usada em si mesmo."
 		"SaviorBulletShieldHealth_label"		"Escudo balístico"
 		"SaviorMagicShieldHealth_label"		"Escudo espiritual"
-		"BuffDuration_label"					"Duração"
-		"BuffDuration_postfix"				"s"
-
+	
 		//Restorative Locket
-		"upgrade_restorative_locket_passive_desc"		"Quando um inimigo usar uma habilidade a {s:Radius} m de distância de você, ganha um <span class=\"highlight\">acúmulo de restauração</span>."
+		"upgrade_restorative_locket_passive_desc"		"Quando um inimigo usar uma habilidade a {s:Radius} m de distância de você, ganha um <span class=\"highlight\">acúmulo de restauração</span>."
 		"upgrade_restorative_locket_active_desc"		"Consome todos os acúmulos para <span class=\"highlight\">curar</span> e restaurar um <span class=\"highlight\">ponto de vigor</span> do aliado-alvo. Pode ser usado em si mesmo."
 		"modifier_restorative_locket_stacks"				"Pingente Restaurador"
 		"HealPerStack_label"								"Cura por acúmulo"
@@ -934,10 +932,10 @@
 		"HealOnlevelHealAmount_label"	"Cura"
 		"upgrade_heal_on_level/heal_on_level_buff"			"Bênção Curativa"
 
+		//crow_mask_936_comment
+		//crow_mask_937_comment
 		//crow_mask_938_comment
 		//crow_mask_939_comment
 		//crow_mask_940_comment
-		//crow_mask_941_comment
-		//crow_mask_942_comment
 	}
 }

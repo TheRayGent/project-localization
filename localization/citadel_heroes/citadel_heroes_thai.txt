@@ -486,7 +486,9 @@
 		"MinSlowDuration_label"						"ระยะเวลาหยุดต่ำสุด"
 		"MinSlowDuration_postfix"						"วิ"
 		"citadel_ability_chrono_kinetic_carbine/modifier_chrono_kinetic_carbine"  "Kinetic Carbine"
-
+		"CarbineHeadshotBonus_prefix"				"+"
+		"CarbineHeadshotBonus_label"				"โบนัสจาก​เฮดช็อต"
+		"CarbineHeadshotBonus_postfix"				"%"
 
 		//-----------------------------------------------------------------------------
 		// Revenant
@@ -890,7 +892,7 @@
 		"WeaponPowerGainPercent_postfix"			"%"
 
 		//-----------------------------------------------------------------------------
-		// Hero Warden
+		// Warden 
 		//-----------------------------------------------------------------------------
 		"ability_warden_lock_down"				"Binding Word"
 		"ability_warden_lock_down_quip"			"สาปเป้าหมายทำให้ถูกตรึงหากหนีไม่ทัน"
@@ -919,19 +921,25 @@
 
 		"ability_warden_crowd_control"			"Alchemical Flask"
 		"ability_warden_crowd_control_quip"		"สร้างความเสียหายและดีบัฟแก่ศัตรูที่อยู่ใกล้เคียง"
-		"ability_warden_crowd_control_desc"		"โยนขวดที่จะ<span class=\"highlight\">สร้างความเสียหาย ลดความเร็ว​</span> และลด<span class=\"highlight\">ความเสียหายอาวุธ</span>และ<span class=\"highlight\">สแตมินา</span>ของศัตรูที่โดน"
-		"ability_warden_crowd_control_t3_desc"		"<span class=\"highlight\">{s:AbilityCooldown}วิ</span> คูลดาวน์ และลดความเร็ว​อัตรายิง <span class=\"highlight\">{s:FireRateSlow}%</span>"
+		"ability_warden_crowd_control_desc"		"โยนขวดที่จะ<span class=\"highlight\">สร้างความเสียหาย ลดความเร็วการเคลื่อนที่​</span> และลด<span class=\"highlight\">ความเสียหายอาวุธ</span>ของศัตรูที่โดน"
+		"ability_warden_crowd_control_t1_desc"	"ศัตรูที่โดนจะเสีย <span class=\"highlight\">{s:StaminaReduction} สแตมินา</span>"
+		"ability_warden_crowd_control_t3_desc"		"<span class=\"highlight\">{s:AbilityCooldown}วิ</span> คูลดาวน์ และดีบัฟอาวุธจะลดความเร็ว​อัตรายิง <span class=\"highlight\">{s:FireRateSlow}%</span>"
 		"MoveSpeedSlowPct_label"					"ลดความเร็ว​การ​เคลื่อนที่"
 		"MoveSpeedSlowPct_postfix"				"%"
 		"WeaponPowerDebuff_label"					"ความเสียหายอาวุธ"
 		"WeaponPowerDebuff_postfix"				"%"
 		"modifier_warden_crowd_control_debuff"	"Alchemical Flask"
+		"FlaskDebuffDuration_label"				"ระยะเวลาดีบัฟอาวุธ"
+		"FlaskDebuffDuration_postfix"			"วิ"
 
 		"ability_warden_riot_protocol"			"Last Stand"
 		"ability_warden_riot_protocol_quip"		"ปล่อยคลื่นพลังที่ขโมยพลังชีวิตจากศัตรู"
 		"ability_warden_riot_protocol_desc"		"หลังจากชาร์จ {s:AbilityCastDelay}วิ <span class=\"highlight\">ปล่อยคลื่น​ที่สร้าง​ความเสียหาย​แก่ศัตรู​และรักษาคุณ​</span>ตาม​ความเสียหายที่สร้าง <br>ในขณะยืนร่าย Last Stand คุณจะ<span class=\"highlight\">ต้านทานกระสุน</span>เพิ่มขึ้นอย่างมาก"
+		"ability_warden_riot_protocol_t3_desc"	"<span class=\"highlight\">{s:AbilityCooldown}วิ</span> คูลดาวน์ และ<span class=\"highlight\">ป้องกันเอฟเฟกต์​สถานะด้วย Unstoppable</span> ขณะยืนร่าย"
 		"modifier_warden_riot_protocol"			"Last Stand"
 		"modifier_warden_riot_protocol_enemy_debuff"	"ช้าลง"
+
+		//UnstoppableCastDelay
 		"HealthStealPctHero_label"				"​ดูดพลังชีวิตฮีโร่"
 		"HealthStealPctHero_postfix"				"%"
 
@@ -1163,7 +1171,7 @@
 
 		"citadel_ability_sticky_bomb"			"Sticky Bomb"
 		"citadel_ability_sticky_bomb_quip"		"ติดระเบิดบนตัวศัตรู"
-		"citadel_ability_sticky_bomb_desc"		"ติด Sticky Bomb ที่ตัวของเป้าหมายใกล้เคียงซึ่งจะสร้าง<span class=\"highlight\">ความเสียหาย​ระเบิด</span>หลังจากระยะเวลาจุดชนวนสั้น ๆ <br>มอบการซ้อนทับระเบิดซึ่งจะเพิ่ม<span class=\"highlight\">ความเสียหายระเบิด +{s:BonusDamagePctPerPlayerHit}%</span> ต่อฮีโร่ศัตรูแต่ละตัวที่โดน โดยจะเสีย {s:BonusLossPerDeath} การซ้อนทับเมื่อตาย <br>กด [{s:key_alt_cast}] ค้างไว้เพื่อร่าย Sticky Bomb ใส่ตนเอง"
+		"citadel_ability_sticky_bomb_desc"		"ติด Sticky Bomb ที่ตัวของเป้าหมายใกล้เคียงซึ่งจะสร้าง<span class=\"highlight\">ความเสียหาย​ระเบิด</span>หลังจากระยะเวลาจุดชนวนสั้น ๆ <br>มอบการซ้อนทับระเบิดซึ่งจะเพิ่ม<span class=\"highlight\">ความเสียหายระเบิด +{s:BonusDamagePctPerPlayerHit}%</span> ต่อฮีโร่ศัตรูแต่ละตัวที่โดน โดยจะเสียการซ้อนทับเมื่อตาย {s:BonusLossPerDeath}% (ปัดเศษขึ้น)<br>กด [{s:key_alt_cast}] ค้างไว้เพื่อร่าย Sticky Bomb ใส่ตนเอง"
 		"modifier_citadel_sticky_bomb_attached"	"ระเบิดติดอยู่บนตัวคุณ"
 		"citadel_ability_sticky_bomb_t3_desc"	"เมื่อติดระเบิด จะ<span class=\"highlight\">ปลดอาวุธ​</span>เป้าหมาย​เป็นเวลา <span class=\"highlight\">{s:DebuffDuration}วิ</span>"
 		"StunTargetOnExplode_label"				"ระยะเวลา"
@@ -1256,6 +1264,13 @@
 		//"MinAirTimeForStomp_postfix"				"s"
 		"ability_bounce_pad/speed_on_land""ความเร็ว​การ​เคลื่อนที่"
 
+		"ability_crackshot"						"Crackshot"
+		"ability_crackshot_quip"				"สร้างความเสียหายเพิ่มเติมและลดความเร็วเมื่อยิง​เฮดช็อต"
+		"ability_crackshot_desc"				"การยิงเฮดช็อตจะสร้าง<span class=\"highlight\">ความเสียหายอาวุธ</span>เพิ่มเติม และ<span class=\"highlight\">ลดความเร็วซึ่งจะค่อย ๆ เบาลงเมื่อเวลาผ่านไป</span> เอฟเฟกต์นี้จะเกิดขึ้นเมื่อไม่ติดคูลดาวน์เท่านั้น <br><br><span class=\"diminish\">Crackshot จะไม่ถูกลดทอนความเสียหายจากการยิงระยะไกล</span>"
+		"FadingSlowPercent_label" "ลดความเร็วแบบค่อย ๆ เบาลง"
+		"FadingSlowPercent_postfix" "%"
+		"AbilityCooldownPerHeadshot_label" "คูลดาวน์ต่อเฮดช็อต"
+		"AbilityCooldownPerHeadshot_postfix" "วิ"
 
 		//"citadel_ability_running_decoy"					"Decoy"
 		//"citadel_ability_running_decoy_desc"			"{s:hero_name} creates a temporary decoy that will run towards the target location and shoot at any nearby enemies."
@@ -1305,7 +1320,7 @@
 
 		"ability_gravity_lasso"				"Spirit Lasso"
 		"ability_gravity_lasso_quip"		"จับศัตรูแล้วลากพวกมันมาไว้ที่ด้านหลังของคุณ"
-		"ability_gravity_lasso_desc"		"<span class=\"highlight\">จับศัตรู</span>ด้วยบ่วงบาศของคุณ แล้วลากศัตรูข้างหลังคุณ <span class=\"highlight\">ศัตรูจะถูกสตัน</span>และ Astro จะถูกลดความเร็วเล็กน้อยในระหว่างจับศัตรู<br><br> ระยะเวลาจับจะหยุดนับเป็นเวลา {s:BouncePadExtendDuration}วิ ระหว่างที่ใช้แป้นกระดอนเป็นครั้งแรก"
+		"ability_gravity_lasso_desc"		"<span class=\"highlight\">จับศัตรู</span>ด้วยบ่วงบาศของคุณ แล้วลากศัตรูข้างหลังคุณ <span class=\"highlight\">ศัตรูจะถูกสตัน</span>และ Holliday จะถูกลดความเร็วเล็กน้อยในระหว่างจับศัตรู<br><br> ระยะเวลาจับจะหยุดนับเป็นเวลา {s:BouncePadExtendDuration}วิ ระหว่างที่ใช้แป้นกระดอนเป็นครั้งแรก"
 		"modifier_astro_lasso_tether"		"ถูกล่ามด้วยบ่วงบาศ"
 		"ability_gravity_lasso_t3_desc"		"สามารถใช้บ่วงบาศล่ามศัตรูอีกตัวภายในพื้นที่เป้าหมายได้"
 		"ability_gravity_lasso/modifier_citadel_gravity_lasso_enemy"	"Spirit Lasso"
@@ -1328,6 +1343,7 @@
 
 		"ability_perched_predator"				"Sekhmet's Spirit"
 		"ability_perched_predator_desc"			"ส่งแมววิญญาณไปข้างหน้าเพื่อลากเป้าหมายที่อยู่ในเส้นทาง เมื่อแมวลากฮีโร่ได้จะทำให้เกิดการระเบิดในไม่ช้า <br>กด [{s:in_ability1}] เพื่อสั่งจุดระเบิดด้วยตนเอง"
+		"ability_perched_predator_quip"			"ส่งแมววิญญาณออกไปตะครุบศัตรู"	
 		//"CatExplosionCount_label"				"Explosions"
 		//"CatMaxSpeed_label"						"Ghostcat Max Speed"
 		"CatMaxSpeed_postfix"						"ม/วิ"
@@ -1350,9 +1366,9 @@
 		"PounceFriendlyTargetCD_postfix"			"วิ"
 		"pounce_double_notify"					"กระโจนสองครั้ง"
 
-		"ability_nano_proximity_ritual"			"Ava"
-		"ability_nano_proximity_ritual_quip"	"ปล่อยสหายของคุณไปโจมตีศัตรู"
-		"ability_nano_proximity_ritual_desc"	"ปล่อย <span class=\"highlight\">Ava</span> ออกมา<span class=\"highlight\">จ้องโจมตี</span>ศัตรูในบริเวณใกล้เคียง ศัตรูที่เป็นเป้าหมายจะได้รับการรักษาลดลงและ<span class=\"highlight\">รักษาพลังชีวิตให้แก่ Ava และ {s:hero_name}</span> เมื่อได้รับความเสียหายใดก็ตาม <span class=\"highlight\">Ava จะทำงานเฉพาะเมื่อมี {s:hero_name} อยู่ใกล้ ๆ</span> <br>กด <span class=\"highlight\">[3]</span> เพื่อเรียก Ava กลับมา<br><span class=\"highlight\">[ร่ายอีกแบบ]</span> เพื่อเรียก Ava กลับมาและวาร์ปไปยังตำแหน่งของ Ava<br>ยิ่งอยู่ห่างจาก Ava มากเท่าไร การเรียกกลับ/วาร์ปก็จะใช้เวลานานมากขึ้นเท่านั้น โดย Ava จะฟื้นพลังชีวิตในขณะที่ถูกเรียกกลับมา"
+		"ability_nano_proximity_ritual"			"Nekomata Ward"
+		"ability_nano_proximity_ritual_quip"	"ปล่อยรูปปั้นที่จะสำรวจพื้นที่"
+		"ability_nano_proximity_ritual_desc"	"ปล่อย<span class=\"highlight\">รูปปั้น</span> เพื่อติดตามศัตรูในพื้นที่ Ward จะโจมตีศัตรูที่เพิ่งได้รับความเสียหายจาก {s:hero_name} เมื่อเร็ว ๆ นี้ด้วย ศัตรูที่เป็นเป้าหมายจะได้รับการรักษาน้อยลงและจะ<span class=\"highlight\">รักษา {s:hero_name}</span> เมื่อได้รับความเสียหาย"
 		"StatueLifetime_label"					"เวลาเรียกกลับอัตโนมัติ"
 		"StatueLifetime_postfix"				"วิ"
 		"StatueHeldRegen_label"						"ฟื้นฟู​พลังชีวิตเมื่อเรียก Ava กลับ"
@@ -1360,16 +1376,16 @@
 		"StatueLifesteal_postfix"				"%"
 		"StatueLifestealNonHero_label"			"​ดูดพลังชีวิตยูนิตที่ไม่ใช่ฮีโร่"
 		"StatueLifestealNonHero_postfix"		"%"
-		"StatueActivateRange_label"				"ระยะทำงาน"
+		"StatueActivateRange_label"				"ระยะเผยตัว"
 		"StatueActivateRange_postfix"			"ม"
 		"StatueHealth_label"					"Ava (ปกติ)"
 		"StatueHealth_postfix"					"พลังชีวิต"
 		"StatueVictimDamageReduction_label"					"ลดความเสียหาย"
 		"StatueVictimDamageReduction_postfix"				"%"
 
-		"ability_nano_proximity_ritual_t1_desc"  "<span class=\"highlight\">+{s:StatueLifesteal}%</span> ดูดพลังชีวิต"
-		"ability_nano_proximity_ritual_t2_desc"  "<span class=\"highlight\">+{s:DPS}</span> DPS และเหยื่อสร้างความเสียหายแก่ {s:hero_name} ลดลง <span class=\"highlight\">{s:StatueVictimDamageReduction}%</span>"
-		"ability_nano_proximity_ritual_t3_desc"  "เพิ่ม​ความเสียหายที่เหยื่อได้รับ <span class=\"highlight\">+{s:DamageAmplification}%</span> และลด​การรักษา​เหยื่อ {s:HealAmpReceivePenaltyPercent}%"
+		"ability_nano_proximity_ritual_t1_desc"  "รูปปั้นจะ<span class=\"highlight\">ล่องหน</span> เมื่อไม่ได้โจมตี"
+		"ability_nano_proximity_ritual_t2_desc"  "<span class=\"highlight\">+{s:AbilityCharges}</span> ชาร์จสกิล และ <span class=\"highlight\">+{s:DPS}</span> DPS"
+		"ability_nano_proximity_ritual_t3_desc"  "เป้าหมายจะสร้างความเสียหายลดลง <span class=\"highlight\">{s:StatueVictimDamageReduction}%</span> และรักษาลดลง {s:HealAmpReceivePenaltyPercent}%"
 		"ability_nano_proximity_ritual_trigger"		"เรียก Ava กลับ"
 
 		"AvaRecallCooldown_label"				"คูลดาวน์เรียกกลับ"
@@ -1378,8 +1394,9 @@
 		"AbilityButtonHint_AvaWarp"			"วาร์ปไปยัง Ava"
 		"CITADEL_ABILITY_NO_HEALTH_RESOURCE"	"ไม่สามารถใช้งานได้"
 
-		"ability_nano_shadow_step"				"Shadow Step"
-		"ability_nano_shadow_step_desc"			"แฝงกายในเงามืดเพื่อเพิ่มพลังการโจมตีของคุณและทำให้การพุ่งตัวของคุณ<span class=\"highlight\">ล่องหน</span> การโจมตีศัตรูด้วย<span class=\"highlight\">ความเสียหาย​ประชิด</span>จะลดต้านทานกระสุนของศัตรู (มีผลซ้อนทับ)"
+		"ability_nano_shadow_step"				"Queen of Shadows"
+		"ability_nano_shadow_step_desc"			"หมายหัวศัตรูและแฝงกายในเงามืดเพื่อเพิ่มพลังการโจมตีของคุณและทำให้ตัวคุณเอง<span class=\"highlight\">ล่องหน</span> การโจมตีจะเผยให้เห็นตัวคุณเพียงชั่วคราวเท่านั้น ส่วนการโจมตีศัตรูด้วย<span class=\"highlight\">ความเสียหาย​ประชิด</span>จะลดต้านทานกระสุนของศัตรู (มีผลซ้อนทับ)"
+		"ability_nano_shadow_step_quip"			"แฝงกายในเงามืดเพื่อช่วงชิงความได้เปรียบเหนือศัตรูของคุณ"
 		"modifier_nano_shadow_step"			"Shadow Step"
 		"NanoShadowBulletArmorReductionLight_prefix"	"-"
 		"NanoShadowBulletArmorReductionLight_label"	"ต้านทานกระสุน (​​ธรรมดา)"
@@ -1498,7 +1515,7 @@
 		"ability_blood_shards"				"Malice"
 		"ability_blood_shards_quip"			"ซ้อนทับการเพิ่ม​ความเสียหายแก่ศัตรู"
 		"ability_blood_shards_desc"			"<span class=\"highlight\">สละพลังชีวิตบางส่วนของคุณ</span>เพิ่มปล่อยลิ่มเลือดที่จะเพิ่มการซ้อนทับ Malice โดยแต่ละการซ้อนทับจะทำให้เหยื่อ<span class=\"highlight\">ช้าลง</span> และจะ<span class=\"highlight\">เพิ่มความเสียหาย</span>ที่ได้รับจากคุณ ผลของเอฟเฟกต์ช้าลงจะลดลงเมื่อเวลาผ่านไป"
-		"ability_blood_shards_t2_desc"		"+{s:HealthToDamage} ​ความเสียหาย​จาก​พลังชีวิต​"
+		"ability_blood_shards_t2_desc"		"<span class=\"highlight\">+{s:HealthToDamage}</span> ​ความเสียหาย​จาก​พลังชีวิต​ และ <span class=\"highlight\">+{s:VulnerabilityPerStack}%</span> เพิ่มความเสียหาย​"
 		"ability_blood_shards_t3_desc"		"+{s:NumBloodShards} ลิ่มเลือด"
 		"NumBloodShards_label"				"จำนวนลิ่มเลือด"
 		"MoveSpeedPenaltyPerStack_label"		"ลดความเร็ว​การเคลื่อนที่"
@@ -1609,7 +1626,7 @@
 		"HeadshotBonus_prefix"					"+"
 		"HeadshotBonus_label"					"ความเสียหายเฮดช็อต"
 		"HeadshotBonus_postfix"					"%"
-
+		"AbilityButtonHint_AssassinateFoVCycle"	"เปลี่ยนระยะซูม"
 
 		//-----------------------------------------------------------------------------
 		// Digger (Formally Pouncer and Driller) Mo and Krill
@@ -1852,6 +1869,7 @@
 		//"TornadoDuration_postfix"			"s"
 		"modifier_mirage_tornado_lift"	"Tornado"
 		"modifier_mirage_tornado_slow"	"Tornado - ลดความเร็ว"
+		"modifier_mirage_tornado_hold_in_place"	"Tornado"
 
 		"mirage_fire_beetles"			"Fire Scarabs"
 		"mirage_fire_beetles_quip"		"ส่งด้วงไฟออกไปขโมยพลังชีวิตจากศัตรู"
@@ -1871,6 +1889,7 @@
 		"mirage_teleport_desc"	"ยืนร่าย เลือกเป้าหมายฮีโร่เพื่อนร่วมทีมหรือฮีโร่ศัตรูที่มองเห็นได้บนแผนที่ย่อ จากนั้น<span class=\"highlight\">เทเลพอร์ต</span>ไปยังตำแหน่งที่ยูนิตนั้นอยู่ตอนที่คุณเริ่มร่าย หลังจากที่เทเลพอร์ตแล้ว คุณจะได้รับ<span class=\"highlight\">ความเร็ว​การ​เคลื่อนที่</span>และ<span class=\"highlight\">อัตรายิงจนกว่าคุณจะเติมกระสุนครั้งต่อไป</span>"
 		"MirageTeleportMoveSpeed_conditional"	"หลังเทเลพอร์ต"
 		"mirage_teleport_movespeed"		"Traveler - เพิ่มความเร็ว​การเคลื่อนที่"
+		"mirage_teleport_t3_desc"	"เมื่อถึงจุดหมาย จะทำให้​<span class=\"highlight\">ไม่ได้​รับผล​</span>จากสถานะสตัน ใบ้ หลับ ตรึง และปลดอาวุธเป็นเวลา <span class=\"highlight\">{s:ImmunityDuration}วิ</span>"
 
 		"mirage_sand_phantom"			"Djinn's Mark"
 		"mirage_sand_phantom_quip"		"ส่งผลเอฟเฟกต์ที่สร้างความเสียหายเพิ่มขึ้นเรื่อย ๆ"
@@ -2139,6 +2158,29 @@
 //		"slork_chomp_t3_desc"		"Chomp deals <span class=\"highlight\">{s:DamageMissingPercentHealth}%</span> of the enemies missing health each second."
 		//"modifier_slork_chomp_grapple"	"Chomping an Enemy"
 		//"modifier_slork_chomp_hobbled" "Getting Chomped"
+
+		"fathom_scalding_spray"			"Scalding Spray"
+		"fathom_scalding_spray_quip"	"ฉีดพ่นน้ำร้อนออกไปเป็นรูปกรวยด้านหน้าของคุณ"
+		"fathom_scalding_spray_desc"	"ฉีดพ่นน้ำร้อนออกไปเป็นรูปกรวยด้านหน้าของคุณ คุณจะสะสมความเสียหายอาวุธเพิ่มเติมเมื่อการฉีดพ่นสร้างความเสียหายแก่ฮีโร่ศัตรู"
+		"WeaponDamageBonusPerSec_label"		"เพิ่มความเสียหายอาวุธต่อวินาที"
+		"WeaponDamageBonusPerSec_postfix"	"%"
+
+		"fathom_breach"				"Breach"
+		"fathom_breach_quip"		"พุ่งเข้าหาศัตรู"
+		"fathom_breach_desc"		"กระโจนไปข้างหน้า สร้างความเสียหายแก่ศัตรูทั้งหมดที่อยู่ใกล้จุดที่คุณ​ลงถึงพื้น และกระแทกเหล่าศัตรูลอยขึ้นไปในอากาศ"
+
+		"fathom_defer_damage"		"Bloodletting"
+		"fathom_defer_damage_quip"	"ชะลอความเสียหายส่วนหนึ่งที่ได้รับ"
+
+		"fathom_reefdweller_harpoon"		"Reefdweller Harpoon"
+		"fathom_reefdweller_harpoon_quip"	"ขว้างฉมวกเพื่อดึงตัวคุณเองเข้าไปหาพื้นผิว"
+		"fathom_reefdweller_harpoon_desc"	"ขว้างฉมวกที่จะปักติดพื้นผิวและดึงตัวคุณเข้าไป ขณะที่แขวนตัวแนบอยู่กับพื้นผิวที่ฉมวกปักติดอยู่นั้น คุณจะ<span class=\"highlight\">ล่องหนและเป็นอมตะ</span> หากศัตรูมองตรงมาที่ Fathom จะทำให้การล่องหนหายไป"
+		"fathom_reefdweller_harpoon_passive_desc" "ติดตัว: ขณะที่อยู่นอกการต่อสู้และซ่อนตัวในแผนที่ย่อ ทุกวินาทีจะ<span class=\"highlight\">รักษาคุณเท่ากับส่วนหนึ่งของพลังชีวิตสูงสุดของคุณ</span>"
+		"modifier_fathom_reefdweller_harpoon_latched"	"Reefdweller Harpoon"
+		"fathom_reefdweller_harpoon/regen"	"ฟื้นฟู​พลังชีวิตนอกการต่อสู้"
+		"fathom_reefdweller_harpoon/latched"	"ปักติดกำแพง"
+		"OutOfCombatRegen_label"			"อัตรา​ฟื้นฟู​พลังชีวิตสูงสุด"
+		"OutOfCombatRegen_postfix"			"%"
 
 
 		//"slork_ability_4"		"Torrent"
@@ -2546,7 +2588,7 @@
 		"viscous_restorative_goo_desc"					"ห่อหุ้มเป้าหมายไว้ในเมือกก้อนเหลี่ยมฟื้นฟู ซึ่งจะ<span class=\"highlight\">ป้องกันความเสียหาย และเพิ่มอัตรา​ฟื้นฟู​พลังชีวิต</span> เป้าหมายจะ<span class=\"highlight\">ไม่สามารถออกคำสั่งใด ๆ เพิ่มเติมได้</span>ขณะที่อยู่ในก้อนดังกล่าว สามารถใช้ใส่ตนเองได้ กด <span class=\"highlight\">[{s:in_mantle}]</span> เพื่อออกมาก่อนกำหนด"
 		"viscous_restorative_goo_quip"					"เมือกก้อนเหลี่ยมเป็นสถานที่ปลอดภัย"
 		"viscous_restorative_goo_t1_desc"				"เพิ่มความเร็ว​การ​เคลื่อนที่และการฟื้น​สแตมินา"
-		"viscous_restorative_goo_t2_desc"				"<span class=\"highlight\">ลบล้าง​ดีบัฟ​ทั้งหมด​</span> และ​คูลดาวน์​สกิล <span class=\"highlight\">{s:AbilityCooldown}วิ</span>"
+		"viscous_restorative_goo_t3_desc"				"<span class=\"highlight\">ลบล้าง​ดีบัฟ​ทั้งหมด​</span> และ​คูลดาวน์​สกิล <span class=\"highlight\">{s:AbilityCooldown}วิ</span>"
 		"viscous_restorative_goo_buff_desc"				"หลังออกจากเมือกก้อนเหลี่ยม เป้าหมายจะมี<span class=\"highlight\">ความเร็ว​การ​เคลื่อนที่และการฟื้น​สแตมินา</span>เพิ่มขึ้นเป็นเวลาสั้น ๆ"
 		"PostCubeBuffDuration_label"					"ระยะเวลาบัฟ"
 		"PostCubeBuffDuration_postfix"					"วิ"
@@ -2740,6 +2782,91 @@
 
 		//"modifier_charged_bomb"	"Charged Bomb"
 
+		
+		//-----------------------------------------------------------------------------
+		// Hero Viper
+		//-----------------------------------------------------------------------------
+		"ability_viper_hookdagger" "Hook Blade"
+		"ability_viper_hookdagger_desc" "ขว้างมีด สร้าง<span class=\"highlight_spirit\">ความ​เสียหาย​วิญญาณ</span> จากนั้นมีดจะตวัดกลับมาสร้าง<span class=\"highlight_spirit\">ความ​เสียหาย​วิญญาณ</span>อีกครั้ง และ<span class=\"highlight\">ลดความเร็ว</span>"
+		"ability_viper_hookdagger_t3_desc"	"ขว้าง<span class=\"highlight\">มีดสั้น 2 เล่ม</span>เพิ่มเติม"
+		"ability_viper_hookdagger_quip" "ขว้างมีดที่จะวกกลับมาหาคุณ"
+
+		"ability_viper_snakedash" "Slither"
+		"ability_viper_snakedash_desc" "คุณจะมีระยะสไลด์ตัวไกลขึ้น สามารถสไลด์ขึ้นที่สูงได้ และสามารถหมุนตัวเร็วขึ้นขณะสไลด์</span>"
+		"ability_viper_snakedash_t3_desc"	"<span class=\"highlight\">+{s:SlideBulletEvasion}% หลบหลีกกระสุน</span>ขณะสไลด์"
+		"ability_viper_snakedash_quip" "ช่วยให้คุณสไลด์ได้คล่องแคล่วมากขึ้น"
+
+		"modifier_snakedash" "Snakeform"
+		"OutgoingDamage_label" "ความเสียหาย​เริ่มต้น"
+		"ReturnDamage_label" "ความเสียหายตะขอ"
+		"OutgoingProjectileLifetime_label" "ดีเลย์ตะขอ"
+		"OutgoingProjectileLifetime_postfix" "วิ"
+
+		"ability_viper_venom" "Lethal Venom"
+		"ability_viper_venom_desc" "ฉีดพิษรุนแรงใส่เป้าหมาย ซึ่งหลังจากดีเลย์ พิษจะทำงาน สร้าง<span class=\"highlight_spirit\">ความเสียหายวิญญาณ</span> ความเสียหายจะเพิ่มขึ้นตามค่าพลังชีวิตที่หายไปของเป้าหมาย<br><br><span class=\"diminish\">หากศัตรูติดพิษซ้ำจะทำให้ระยะเวลาเริ่มนับใหม่</span>"
+		"VenomMinDamage_label"			"ความเสียหายพิษต่ำสุด"
+		"VenomMaxDamage_label"			"ความเสียหายพิษสูงสุด"
+		"VenomDuration_label"			"ระยะเวลาสะสมพิษ"
+		"VenomDuration_postfix"		"วิ"
+		"VenomMaxDamageHealthPercentage_label"		"​พลังชีวิต​ที่ทำให้เกิดความเสียหายสูงสุด"
+		"VenomMaxDamageHealthPercentage_postfix"	"%"
+		"ability_viper_venom_t3_desc"	"+<span class=\"highlight\">{s:VenomMissingHealthDamagePercentage}% ความเสียหาย​จาก​พลังชีวิตที่หายไป​</span>"
+		"VenomMissingHealthDamagePercentage_label"		"ความเสียหาย​จาก​พลังชีวิตที่หายไป​"
+		"VenomMissingHealthDamagePercentage_postfix"	"%"
+		"ability_viper_venom_quip" "ฉีดพิษร้ายแรงใส่ศัตรูของคุณ"
+
+		
+		"ability_viper_ult" "Petrify"
+		"ability_viper_ult_desc" "สร้างพื้นที่ต้องสาปบนพื้น หลังจากดีเลย์ ยูนิตทั้งหมดในพื้นที่ทรงกระบอกจะ<span id=\"TestID\"/></span><span class=\"highlight\">กลายเป็นหิน</span> และศัตรูจะได้รับ<span class=\"highlight_spirit\">ความเสียหายวิญญาณ</span><br><br><span class=\"diminish\">ยูนิตที่กลายเป็นหินจะบล็อกความเสียหายทุกอย่าง แต่ไม่สามารถทำอะไรได้<br>ยูนิตที่กลายเป็นหินจะหลุดออกมาหลังจากบล็อกความเสียหายครบจำนวนที่กำหนด</span>"
+		"PetrifyDuration_label"			"ระยะเวลากลายเป็นหิน"
+		"PetrifyDuration_postfix"		"วิ"
+		"PetrifyDamageBreakThreshold_label"	"บล็อกสูงสุดขณะกลายเป็นหิน"
+		"ability_viper_ult/viper_ult_petrify" "กลายเป็นหิน"
+		"ability_viper_ult_quip" "เปลี่ยนทั้งเพื่อนร่วมทีมและศัตรูให้กลายเป็นหิน"
+		"HalfHeight_postfix"	"ม"
+
+		//-----------------------------------------------------------------------------
+		// Hero Magician
+		//-----------------------------------------------------------------------------
+		
+		"ability_magician_magicbolt" "Vexing Bolt"
+		"ability_magician_magicbolt_desc" "ยิงสายฟ้ามหัศจรรย์ที่สร้าง<span class=\"highlight_spirit\">ความ​เสียหาย​วิญญาณ</span> และ<span class=\"highlight\">ลดความเร็วซึ่งจะค่อย ๆ เบาลงเมื่อเวลาผ่านไป</span> <br><br>กด <span class=\"highlight\">[{s:in_ability1}]</span> เพื่อ<span class=\"highlight\">เปลี่ยนเส้นทาง</span>สายฟ้าไปยังเป้าเล็งของคุณ"
+		"ProjectileRedirectCount_label" "จำนวนการเปลี่ยนเส้นทางสูงสุด"
+		"ability_magician_magicbolt_t3_desc" "จำนวนการเปลี่ยนเส้นทางสูงสุด +{s:ProjectileRedirectCount} และความเสียหาย +{s:Damage}"
+		"ability_magician_magicbolt_quip" "ปล่อยสายฟ้ามหัศจรรย์ที่เปลี่ยนวิถีได้"
+
+		"citadel_ability_magewalk" "Misdirection"
+		"citadel_ability_magewalkk_desc" "ทำให้<span class=\"highlight\">ไม่สามารถถูกเลือกเป็นเป้าหมายการโจมตีได้</span>เพียงชั่วครู่ก่อนปรากฏขึ้นที่จุดหมายปลายทางของคุณ <span class=\"highlight\">การโจมตี {s:EmpoweredAttackCount}</span> ครั้งแรกของคุณจะสร้าง<span class=\"highlight_spirit\">​ความ​เสียหาย​​วิญญาณ</span>เพิ่มขึ้น<br><br>กด <span class=\"highlight\">[ร่าย]</span> เพื่อปรากฏขึ้นที่ตำแหน่งเป้าหมาย<br>กด <span class=\"highlight\">[ร่ายอีกแบบ]</span> เพื่อปรากฏที่ตำแหน่งเดิม</span><br><span class=\"diminish\">ศัตรูจะไม่รู้ว่าคุณร่ายแบบใด</span>"
+		"MageTime_label" "ระยะเวลาไม่สามารถเลือกเป็นเป้าหมาย"
+		"MageTime_postfix" "วิ"
+		"modifier_magewalk_empoweredattacks" "Lucky Card"
+
+		"ability_magician_cloneturret" "Spectral Assistant"
+		"ability_magician_cloneturret_desc" "อัญเชิญ<span class=\"highlight\">ผู้ช่วยนักมายากล</span>มาที่ตำแหน่งเป้าหมาย ผู้ช่วยจะเลียนแบบการโจมตีของคุณ โดยโยนไพ่ที่สร้าง<span class=\"highlight_spirit\">ความเสียหายวิญญาณ</span> <br><br>กด <span class=\"highlight\">[{s:in_ability2}]</span> เพื่อสลับตำแหน่งกับผู้ช่วยของคุณ"
+		"ability_magician_cloneturret_t3_desc" "ผู้ช่วยจะเลียนแบบ Vexing Bolt ด้วย"
+		"ability_magician_cloneturret_quip" "อัญเชิญผู้ช่วยที่ซื่อสัตย์ของคุณ"
+
+		"ability_magician_animalcurse" "Rabbit Hex"
+		"ability_magician_animalcurse_desc" "เฮกซ์เป้าหมาย ทำให้กลายร่างเป็น<span class=\"highlight\">กระต่าย</span>น้อย กระต่ายจะมีตัวเล็กและเคลื่อนที่เร็ว แต่ได้รับความเสียหายมากขึ้นและไม่สามารถกระทำการใด ๆ ส่วนใหญ่ได้<br>กด <span class=\"highlight\">[ร่าย]</span> เพื่อเฮกซ์เป้าหมาย<br>กด <span class=\"highlight\">[ร่ายอีกแบบ]</span> เพื่อเฮกซ์ตนเอง<br><span class=\"diminish\">เฮกซ์จะไม่ขัดจังหวะสกิล</span>"
+		"ability_magician_animalcurse/animalhex_curse_modifier" "ถูกเฮกซ์!"
+		"ability_magician_animalcurse_t3_desc" "<span class=\"highlight\">เฮกซ์</span>ศัตรูใกล้เคียงด้วย<span class=\"highlight\">ระยะเวลาครึ่งหนึ่ง</span>"
+		"DamageAmpPercentage_label" "เพิ่มความเสียหาย"
+		"DamageAmpPercentage_postfix" "%"
+		"ability_magician_animalcurse_quip" "เสกศัตรูให้กลายเป็นกระต่าย"
+		
+
+		"ability_magician_stage" "Captive Audience"
+		"ability_magician_stage_desc" "เลือกศัตรูเป้าหมาย คุณและศัตรูเป้าหมายจะถูกผูกไว้บนเวที และไม่สามารถออกไปไหนได้ ตัวละครอื่น ๆ ทั้งหมดจะถูกผลักออกจากรัศมี"
+
+		"ability_magician_shadowclone" "The Great Homonculus!"
+		"ability_magician_shadowclone_desc" "สร้าง<span class=\"highlight\">ร่างก๊อบปี้</span>ของตัวคุณเองซึ่งจะมีพลังชีวิตและสร้างความเสียหายลดลง เมื่อร่างโคลนนี้ตายลงหรือหมดเวลา ร่างจะระเบิดออก สร้างความเสียหายวิญญาณ<br><br><span class=\"diminish\">ร่างก๊อบปี้จะไม่สามารถใช้สกิลอัลติเมทได้</span>"
+		"CloneHealthPercentage_label" "พลังชีวิตร่างก๊อบปี้"
+		"CloneHealthPercentage_postfix" "%"
+		"CloneDamagePercentage_label" "ความเสียหายร่างก๊อบปี้"
+		"CloneDamagePercentage_postfix" "%"
+		"CloneLifetime_label" "ระยะเวลาร่างก๊อบปี้"
+		"CloneLifetime_postfix" "วิ" 
+		"ability_magician_shadowclone_t3_desc"	"ร่างก๊อบปี้สามารถร่าย<span class=\"highlight\">สกิลอัลติเมท</span>ได้"
 
 		//-----------------------------------------------------------------------------
 		// END HERO ABILITIES
@@ -2775,13 +2902,17 @@
 		"citadel_weapon_hero_astro_set"				"Occult 45"
 		"citadel_weapon_hero_chrono_set"			"Trade Secret"
 		"citadel_weapon_hero_shiv_set"				"Busted Flush"		
-		"citadel_weapon_hero_tengu_set"				"Cat Dad's Fancy"
+		"citadel_weapon_hero_tengu_set"				"Protector's Hand"
 		"citadel_weapon_hero_krill_set"				"Yellow Canary"
 		"citadel_weapon_hero_lash_set"				"Tale of The Tape"
 		"citadel_weapon_hero_warden_set"			"Freedom's Cost"
 		"citadel_weapon_hero_mirage_set"			"Promises Kept"
 		"citadel_weapon_hero_synth_set"				"The Black Sheep"
-		
+		"citadel_weapon_hero_viper_set"				"The Rattler"
+		"citadel_weapon_hero_magician_set"			"Legerdemain"
+		"citadel_weapon_hero_slork_set"				"Riptide"
+	
+
 		//"citadel_weapon_hero_duo_set"				"Duo Gun"
 		//"citadel_weapon_hero_heavy_set"				"Heavy Gun"
 		//"citadel_weapon_hero_akimbo_set"			"Akimbo Gun"
@@ -2802,8 +2933,8 @@
 		//"citadel_weapon_hero_rutger_set"			"Rutger Gun"
 		//"citadel_weapon_hero_tokamak_set"			"Curie-ous Times"
 		//"citadel_weapon_hero_tempest_set"			"Tempest Gun"
-		"citadel_weapon_hero_wrecker_set"			"Demolition Hymn"
-		
+		"citadel_weapon_hero_wrecker_set"			"The Butcher's Hand"
+
 		// Melee names
 		"ability_melee_ghost"	"โจมตี​ประชิด"
 		"citadel_ability_melee_bull"			"โจมตี​ประชิด"
@@ -2867,10 +2998,13 @@
 		"hero_yamato_role"				"พุ่งเข้าโจมตีอย่างเฉียบคม"
 		"hero_tengu_role"				"สร้างทีมคู่แกร่งกับเพื่อนร่วมทีมผู้โชคดี"
 		"hero_mirage_role"				"กะเวลายิงและไล่จับเป้าหมายที่กำลังหนี"
+		"hero_slork_role"				"แทรกซึมเข้าไปในการต่อสู้แล้วหลบซ่อนเพื่อฟื้นตัว"
 		"hero_synth_role"				"แทรกซึมก่อกวนป่วนแนวหลัง"
+		"hero_viper_role"				"เลื้อยเข้ามาและลอบสังหารศัตรู"
+		"hero_magician_role"			"ล่อให้หลงและเฮกซ์ศัตรู"
 
         //"hero_akimbo_playstyle"         "Akimbo excels at close range combat, where he relies on speed, cone attacks, and a whole lot of bullets to hit as many targets as possible." 
-        "hero_astro_playstyle"          "Astro อาศัยทักษะของเธอในฐานะมือปืน โดยสามารถกระเด้งลอยขึ้นกลางอากาศขณะยิง ฝีมือเล็งที่แม่นยำช่วยให้เธอสร้างความเสียหายได้มหันต์ เธอใช้ทักษะการเคลื่อนไหวเพื่อแยกสังหารศัตรูหรือไล่ทันศัตรูที่ถอยหนีไปอย่างเร่งรีบ"
+        "hero_astro_playstyle"          "Holliday อาศัยทักษะของเธอในฐานะมือปืน โดยสามารถกระเด้งลอยขึ้นกลางอากาศขณะยิง ฝีมือเล็งที่แม่นยำช่วยให้เธอสร้างความเสียหายได้มหันต์ เธอใช้ทักษะการเคลื่อนไหวเพื่อแยกสังหารศัตรูหรือไล่ทันศัตรูที่ถอยหนีไปอย่างเร่งรีบ"
         "hero_atlas_playstyle"          "Abrams แข็งแกร่งบึกบึนและทนทานพอที่จะเป็นแนวหน้าได้ มักวิ่งฝ่าเข้าไปกลางวงล้อมให้ศัตรูต้องวิ่งหนีกัน​กระเจิดกระเจิง หากโดนศัตรูสาดกระสุนใส่ เพื่อนร่วมทีมในแนวหลังของเขาก็สามารถสร้างความเสียหาย​ให้ศัตรูได้โดยไม่ต้องกังวลใจ"
         //"hero_ballista_playstyle"       "You know what people hate?  Being knocked back by a shotgun.  You know what they hate even more?  Being knocked back into a mine field.  Do you know what they hate even more than that?  Being atomized by a fusion bomb.  Ballista turns the battlefield into an explosive Rube Goldberg device."
         "hero_bebop_playstyle"          "Bebop สามารถผสมผสานสกิลของเขาเข้าด้วยกันได้หลายแบบ ไม่ว่าจะเปลี่ยนแปลงตำแหน่งของศัตรู ช่วยชีวิตเพื่อนร่วมทีม หรือสร้างความเสียหายอย่างรุนแรง เมื่อสถานการณ์เรียกหา เลเซอร์ยักษ์ของเขาก็ยังคงช่วยแก้ปัญหาต่าง ๆ ได้มากมาย"
@@ -2887,7 +3021,7 @@
         "hero_kelvin_playstyle"         "พลังรักษาแบบทันท่วงทีและการแบ่งทีมต่อสู้อย่างเหมาะสมย่อมสามารถตัดสินชะตากรรมระหว่างชัยชนะแบบปอกกล้วยเข้าปากกับความพ่ายแพ้ย่อยยับ Kelvin ร่อนตัวไปรอบ ๆ ทำให้ศัตรูเคลื่อนที่ช้าลง จึงช่วยให้ทีมของตนได้เปรียบในการต่อสู้เพื่อให้คว้าชัยมาได้"
         "hero_lash_playstyle"           "Lash ทำให้ศัตรูของเขาหายใจไม่ทั่วท้อง โดยการบินจากระยะไกลเข้ามาจุดชนวนการต่อสู้กับศัตรูที่ชะล่าใจ หรือไล่ตามศัตรูพวกนั้นที่พยายามวิ่งหนีกัน"
         "hero_krill_playstyle"			"Mo และ Krill ใช้วิธีขุดอุโมงค์เดินทางใต้พื้นดิน จึงไล่ทันใคร ๆ ได้เกือบหมด และถ้าเข้าใกล้เมื่อไหร่ ก็อาจทำให้ฝ่ายนั้นจบไม่สวย"
-        //"hero_nano_playstyle"           "(in flux) Like any good politician, Nano turns people against each other and lets them do her dirty work before swooping in and claiming credit for everything."
+        "hero_nano_playstyle"           "Calico ใช้เงามืดเพื่อประโยชน์ของเธอ เคลื่อนตัวเข้าและออกจากการต่อสู้เพื่อไล่ล่าศัตรูของเธอทีละคน"
         "hero_orion_playstyle"    		"Grey Talon เป็นนักล่าที่ฉลาดแกมโกง เขาใช้ทั้งทักษะความแม่นยำที่ทำให้ถึงตายได้ กับดัก และการวางตำแหน่งที่ชาญฉลาดเพื่อคว่ำคู่ต่อสู้ที่แข็งแกร่งที่สุด"
         "hero_shiv_playstyle"           "Shiv ไม่สนใจที่จะเล่นตามกติกาแม้แต่น้อย ซึ่งเป็นเหตุผลที่เขาอาศัยยุทธวิธีชนแล้วหนีเพื่อทำให้ศัตรูอ่อนกำลังลงก่อนที่จะพุ่งเข้าไปสังหาร"
         //"hero_tempest_playstyle"        "Much like how a child has no idea how a TV works, no one knows exactly HOW Tempest kills you.  Was it a tesla coil?  You didn't see a tesla coil.  Either way, you're dead and Tempest is laughing."
@@ -2900,10 +3034,9 @@
 		//"hero_rutger_playstyle"		"Rocket Launcher gives him some rocket-jumping capabilities, Force Field allows him to close off movement options, Cheat Death lets him turn bad fights around, and a Pulse released in the middle of a teamfight can dictate the outcome."
 		"hero_synth_playstyle"		"ด้วยปืนลูกซองทรงพลังและโครงร่างแบบบาง Pocket อาศัยความสามารถในการหลบหนีเข้าไปในกระเป๋าเดินทางลึกลับและเทเลพอร์ตโดยอาศัย Flying Cloak เพื่อเอาชีวิตรอดจากการปะทะในระยะประชิด"
 		"hero_mirage_playstyle"		"Mirage สามารถแฝงเร้นร่างไว้ในพายุทอร์นาโดที่พัดรุนแรง เพื่อไล่ตามศัตรูและเหวี่ยงพวกนั้นขึ้นกลางอากาศ ด้วงของเขาช่วยให้สามารถต่อกรกับศัตรูมากหน้าได้อย่างยาวนาน เขาพร้อมเสมอที่จะช่วยเหลือเพื่อนร่วมทีมหรือลงโทษศัตรูโดยไม่เกี่ยงสถานที่"
-		//"hero_slork_playstyle"		"Slork's weapon poisons all it hits. Primary fire hits all in a cone, and aimed fire shoots a dart which crits when hitting a poisoned target."
+		"hero_slork_playstyle"		"Fathom เป็นนักลอบสังหารระยะสั้น สามารถเข้าและออกจากการต่อสู้ และเอาชนะการต่อสู้ที่ใช้เวลายาวนาน"
 		"hero_tengu_playstyle"		"Ivy มีกลเม็ดการโจมตีแบบทำลายล้างที่จะชะลอและสตันศัตรูได้ เธอจะเก่งกาจเต็มที่เมื่อเชื่อมโยงกันกับพันธมิตร เพื่อเพิ่มพลังให้กับปืนของเธอและของเพื่อนร่วมทีม รวมทั้งแบ่งปันการรักษาด้วย"
-
-	
+		"hero_viper_playstyle"		"ด้วยอาวุธอันทรงพลัง (และพิษที่ร้ายแรงไม่แพ้กัน) ทำให้ Viper สามารถลากเลื้อยเข้าไปด้านหลังของทีมศัตรู และสังหารเป้าหมายสำคัญกลางดงพายุกระสุน"
 		//"hero_akimbo_lore"				"Though he was built by a lonely gunslinger, Akimbo was taught that he couldn't use a gun to solve all his problems.  This frustrated the robot outlaw immensely, but as time passed Akimbo realized that his human father was right.  A gun only solved about 75% of his problems.  To solve ALL his problems, he would need at least 2 guns." 
 		"hero_astro_lore"				"คนจำนวนมากหมดเวลาทั้งชีวิตไปกับการฝันที่จะย้ายไปยังนครนิวยอร์ก แต่ Holliday ไม่ใช่หนึ่งในนั้น เธอพึงพอใจกับการเป็นนายอำเภอในเมืองเล็ก ๆ แห่งหนึ่ง และสนุกกับงานของเธอเพราะครั้งเดียวที่เธอต้องใช้ปืนคือตอนยิงอวดฝีมือในงานเทศกาลประจำอำเภอเท่านั้น... แต่แล้วคดีฆาตกรรมก็ประดังเข้ามา\n\nโหดร้ายและไร้มนุษยธรรม ศพที่เผยให้เห็นซี่โครง... เครื่องในถูกฉีกเป็นชิ้น ๆ ราวกับโดนนกจิก Holliday ออกตามล่าหาตัวฆาตกร ซึ่งเป็นนักดนตรีพื้นบ้านพเนจรที่นักข่าวขนานนามให้ว่า \"คีตกวี\" แต่เมื่อเธอเผชิญหน้ากับมันจริง ๆ ร่างของฆาตกรรายนี้ก็ระเบิดกลายเป็นฝูงอีกาและบินหนีไป\n\nนั่นเป็น 6 เดือนที่แล้ว และแม้ว่าการฆาตกรรมในอิลลินอยส์ตอนกลางได้หยุดลงแล้ว แต่งานสืบสวนของ Holliday หาหยุดไม่ เธอเชื่อว่า \"คีตกวี\" คนนั้นกำลังเดินทางไปนิวยอร์ก และเมื่อเธอพบเขาอีกครั้ง เธอก็จะสังหารเจ้าฆาตรกรใจโฉดให้ได้"
 		"hero_atlas_lore"				"นักสืบ Abrams เป็นคนทำงานหนัก หัวแข็ง และคอทองแดง เขาเป็นดาวเด่นดวงหนึ่งในแวดวงนักสืบของนครนิวยอร์กมานานหลายปี Abrams ไม่เพียงแค่รับทุกคดีที่ส่งมาถึงโต๊ะทำงานของเขาเท่านั้น... แต่เขาไขคดีเหล่านั้นจนสำเร็จ ไม่ว่าจะเป็นคดีขโมยงานศิลปะ คดีคนหาย เรื่อยไปถึงคดีฆาตกรรมตามพิธีกรรม\n\nแต่วันเวลาที่เขาต้องคอยแอบติดตามคู่สมรสที่นอกใจกันได้สิ้นสุดลงในวันที่เขาเปิดประตูห้องทำงานเข้าไปพบหนังสือ The Tome วางอยู่บนโต๊ะของเขานั่นแหละ\n\nทว่าไม่มีคำชี้แจงใด ๆ แนบไว้กับหนังสือเล่มนั้น ยกเว้นบันทึกสั้น ๆ ที่เขียนด้วยเลือดสีนิลว่า \"อย่าให้ตกไปอยู่ในมือพวกนั้น\" Abrams ยังนึกไม่ออกว่าหนังสือเล่มนั้นมาจากไหน แต่พอบ้านของเขาโดนงัด ห้องทำงานของเขาโดนรื้อกระจุยถึง 3 หน และรถของเขาถูกวางระเบิดเพลิง เขาก็อยากมีส่วนร่วมในการหาคำตอบว่าเกิดอะไรขึ้นกันแน่"
@@ -2930,8 +3063,9 @@
 		"hero_tengu_lore"				"การ์กอยล์ไม่รู้ว่าเกิดอะไรขึ้นเมื่อฟื้นคืนชีพอีกครั้ง... รู้แค่ว่ามนุษย์ตัวใหญ่และมนุษย์ตัวเล็กได้รับบาดเจ็บ ดังนั้นการ์กอยล์จึงกระโดดเข้าไปช่วยเหลือ จนผู้โจมตีต้องวิ่งหนีกันตาลีตาเหลือก มนุษย์ตัวเล็กกล่าวขอบคุณและถามชื่อของการ์กอยล์ แต่การ์กอยล์ไม่มีชื่อ ดังนั้นมนุษย์ตัวเล็กจึงพูดว่า \"งั้นข้าจะเรียกเจ้าว่า Ivy ละกัน\" การ์กอยล์ซึ่งปกคลุมไปด้วยต้นไอวี่ในตอนนั้นคิดว่ามันชัดเจนไปหน่อย แต่ก็ปล่อยเลยตามเลยเพราะเห็นแก่มนุษย์ตัวเล็ก\n\nมนุษย์ตัวเล็กนั้นถามว่า Ivy จะกลับบ้านไปด้วยกันไหม เพราะเหล่ามนุษย์ต้องการตอบแทนน้ำใจ ดังนั้น Ivy จึงเดินตามไป คืนนั้นเธอได้เรียนรู้อะไรมากมาย เช่น ครอบครัวนี้มีชื่อว่า ครอบครัว Arroyo เจ้าตัวเล็กนั่นชื่อ Sophia ส่วน Mofongo เป็นชื่ออาหารจานอร่อย แต่ที่สำคัญที่สุดคือ เธอได้เรียนรู้ว่าพวกที่โจมตีมนุษย์นี้มีชื่อว่า \"Mendoza Syndicate\" ซึ่งดีแต่จ้องทำร้ายมนุษย์... คนดี ๆ อย่างครอบครัว Arroyo\n\n18 ปีผ่านไปแล้วนับตั้งแต่วันที่ครอบครัว Arroyo พา Ivy กลับบ้าน... และในช่วงเวลานั้น เธอตั้งเป้าหมายว่าจะทำลายล้าง Mendoza Syndicate และปลดปล่อย Spanish Harlem ให้พ้นจากเงื้อมมือของกลุ่มนี้ แต่การอุทิศทั้งชีวิตเพื่อเป้าหมายเดียวเป็นเวลาเกือบ 2 ทศวรรษนั้นทำให้เธอไม่รู้จริง ๆ ว่าเมื่อบรรลุผลสำเร็จแล้ว เธอจะทำอะไรต่อดี เป็นครั้งแรกในชีวิตที่ Ivy พร้อมจะออกไปผจญภัยนอก Spanish Harlem และสำรวจว่าโลกนี้มีอะไรให้เรียนรู้บ้าง นอกไปจากความยุติธรรมแบบศาลเตี้ย"
 		"hero_synth_lore"				"Arin Fairfax ทายาทคนโตของ Fairfax Industries ใช้ชีวิตอย่างหลบ ๆ ซ่อน ๆ ตลอดเวลา 5 ปีที่ผ่านมา หลังจากที่โดนยิงและปล่อยทิ้งให้ตายในวันครบรอบวันเกิดปีที่ 18 แต่ Arin ไม่ทราบว่าใครพยายามกีดกันไม่ให้ตนเข้าควบคุมกิจการบริษัทของพ่อแม่... เพราะในรังของอสรพิษที่คราคร่ำด้วยความโลภอย่าง Fairfax Industries นั้น อาจเป็นใครก็ได้\n\nArin ใช้ชื่อว่า \"Pocket\" เพื่อปกปิดตัวตนที่แท้จริงไว้เป็นความลับ… ไม่เพียงเพื่อปกป้องตนเองเท่านั้น แต่ยังเพราะต้องการสร้างเอกลักษณ์ของตนเองแยกจากจากพ่อแม่ด้วย"
 		"hero_mirage_lore"				"ชาว Djinn เป็นกลุ่มคนที่แปลกประหลาดที่สุดกลุ่มหนึ่งในโลกยุคใหม่ มีพลังมหาศาลในปริมาณที่ควบคุมได้ แต่ไม่สามารถคงสภาพร่างกายไว้ได้นานกว่า 48 นาทีหากไม่ได้พักอยู่ภายในเรือนหุ้ม ด้วยเหตุนี้ ชาว Djinn ส่วนใหญ่จึงว่าจ้างมนุษย์เป็นผู้คุ้มกัน เพื่อการเดินทาง คุ้มครอง และเป็นเพื่อนแก้เหงา\n\nMirage เป็นหนึ่งในผู้คุ้มกันดังกล่าว ซึ่งเอกอัครราชทูตของ Djinn นามว่า Nashala Dion ได้ว่าจ้างให้ทำหน้าที่ในคณะผู้แทนทางทูตในนครนิวยอร์ก ชาว Djinn หวังว่าพวกตนจะสามารถเจรจาขอซื้อพื้นที่ส่วนหนึ่งของรัฐไวโอมิงจากรัฐบาลสหรัฐฯ ได้ เพื่อที่ตนจะได้สร้างประเทศเอกราชให้ประชาชนของตนอยู่อาศัย"
-
-
+		"hero_slork_lore"				"Fathom อสูรฉาวโฉ่แห่งขุมลึก ถนัดเรื่องการวางตัวให้เปล่งด้วยออราแห่งความลึกลับและน่าหวาดกลัว แถมยังพอใจที่จะสวาปามลูกเรือหัวรั้นพร้อมเรียกเก็บค่าหัวคิวจากมนุษย์แมวน้ำด้วย แต่แล้ว Adversary ก็เข้ามาและทำลายทุกสิ่งอย่าง เพราะถ้าจะให้คิดดี ๆ แล้ว หากพูดถึงเรื่องการขย่มขวัญ ใครที่ไหนจะไปแข่งขันให้ทัดเทียมกับพลังธรรมชาติแห่งการฆ่าล้างเผ่าพันธุ์นี้ได้? เทียบกันไม่ได้เลยสักนิด เขาต้องทำอะไรสักอย่างเพื่อไม่ให้ตนเองเลือนหายไป...ดังนั้นเขาจึงพยายามอัญเชิญเหล่าเพทรอนมาเพื่อให้เขาได้ยืนหยัดเป็นสุดยอดนักล่าแห่งขุมลึกตลอดไป"
+		"hero_viper_lore"				"เมื่อพูดเรื่องการแหกกฎหมายแล้ว การไม่โดนจับถือว่าเป็นส่วนสำคัญเลยทีเดียว แต่ Viper ก็ไม่ค่อยเข้าใจความสำคัญนั้นสักเท่าไหร่ ทว่าโชคดีสำหรับเธอ หากมีสิ่งหนึ่งที่เธอทำได้ดีกว่าการถูกจับ นั่นก็คือการแหกออกจากคุกนั่นเอง\n\nหลังจากเคยถูกคุมขังในเรือนจำหลักทุกแห่งในเขตพื้นที่ 3 รัฐของนครนิวยอร์ก Viper ได้สร้างเครือข่ายเหล่าสวะข้างถนนที่น่าทึ่งซึ่งพร้อมตอบแทนความช่วยเหลือของเธอ แถมเธอยังสร้างเครือข่ายเหล่าสวะข้างถนนที่น่าทึ่งอีกกลุ่มเช่นกัน แต่กลุ่มนี้หมายหัวอยากให้เธอตาย แต่เธอก็พยายามที่จะมองแต่สิ่งดี ๆ เข้าไว้"
+		"hero_magician_lore"			"พ่อกับแม่บอก Henry ว่าเขายังเด็กเกินไปและหุนหันพลันแล่นเกินกว่าที่จะไปยุ่งกับเวทมนตร์จริง ๆ จึงมอบไพ่สำรับหนึ่งให้เขาเล่นแทน เขามีมือที่ว่องไวตามธรรมชาติอยู่แล้ว และในไม่ช้าก็ทำให้เพื่อนร่วมชั้นตะลึงพรึงเพริดกับมายากลที่แสนอัศจรรย์อันน่าทึ่งได้โดยไม่ต้องอาศัยสิ่งประดิษฐ์วิเศษหรือคาถาอาคมลึกลับใด ๆ\n\nเมื่อเขาเรียนอยู่ชั้นมัธยมปลายก็ได้พบกับ Savannah และความรักในมายากลบนเวทีของทั้งคู่ก็จุดประกายความรักอันรวดเร็วดุจสายฟ้าแลบ ไม่นานนักพวกเขาก็ตกหลุมรักกันและออกโรงแสดงร่วมกัน เห็นได้ชัดว่าทั้งคู่เป็นเนื้อคู่ที่ฟ้าลิขิตมา ดังนั้นพอถึงงานเต้นรำฉลองปิดเทอม Henry จึงขอ Savannah แต่งงาน แล้วอีกไม่นานหลังเรียนจบ ทั้งคู่ก็แต่งงานกัน\n\nไม่ต้องแปลกใจเลยที่พ่อแม่ของทั้งสองฝ่ายไม่ได้ยินดีกับเรื่องนี้ แต่ Henry กับ Savannah รู้ว่าตนเป็นคู่สร้างคู่สมกัน ด้วยเหตุนี้ทั้งสองจึงทำให้ความรักที่มีต่อกันแน่นแฟ้นยิ่งขึ้นโดยใช้อาคมเลือดผูกดวงวิญญาณของทั้งคู่ไว้ชั่วนิรันดร์\n\nแต่แล้วเมื่อเกิดอุบัติเหตุไม่คาดฝันบนเวทีที่คร่าชีวิตทั้งคู่ โดยไม่รู้แน่ชัดว่าควรจะโทษใครดี Henry อ้างว่า Savannah ยืนผิดตำแหน่ง ส่วน Savannah บอกว่า Henry ไม่ได้รอคิว แต่มีสิ่งเดียวที่แน่ชัดนั่นก็คือวิญญาณของทั้งคู่ถูกผูกไว้ด้วยกัน ทั้งคู่จึงไม่สามารถไปผุดไปเกิดได้ ตอนนี้ทั้งคู่กลายเป็นคู่ผีคู่ทะเลาะ Henry และ Savannah ต้องช่วยกันหาทางที่จะทำลายโซ่พันธกานต์ชั่วนิรันดร์ของทั้งคู่ให้ได้"
 
 	}
 }

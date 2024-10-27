@@ -43,6 +43,7 @@
 		"Citadel_StatusEffectImmobilize" 		"Festsetzen"
 		"Citadel_StatusEffectDisarmed"			"Entwaffnet"
 		"Citadel_StatusEffectInvisible"			"Unsichtbar"
+		"Citadel_StatusEffectPetrify"				"Versteinerung"
 		//"Citadel_StatusEffectStacks"			"Stacks "
 		//"Citadel_StatusEffectInfiniteClip"		"Infinite Ammo"
 		//"Citadel_StatusEffectBulletDebuff"		"Bullet Debuff"
@@ -204,7 +205,7 @@
 		"StatDesc_HealingOutput_postfix"				" %"
 		"StatDesc_CritDamageBonusScale"					"Bonusskalierung des krit. Schadens"
 		"StatDesc_CritDamageBonusScale_postfix"			" %"
-
+		"StatDesc_MeleeResist"							"Nahkampfangriffsresistenz"
 		"StatDesc_BulletSpeed"							"Kugeltempo"
 		"StatDesc_BulletSpeed_postfix"					" m/s"
 		"StatDesc_BulletSpeedIncrease"					"Erhöhung des Kugeltempos"
@@ -694,6 +695,9 @@
 
 		"HealAmpReceivePenaltyPercent_label"		"Heilungsreduzierung"
 		"HealAmpReceivePenaltyPercent_postfix"			" %"
+		
+		"HealAmpRegenPenaltyPercent_label"		"Heilungsreduzierung"
+		"HealAmpRegenPenaltyPercent_postfix"	" %"
 
 		"DegenResistance_label"						"Heilungsreduzierungsresistenz"
 		"DegenResistance_postfix"					" %"
@@ -722,6 +726,7 @@
 		//"EvasionPercentGlider_label"					"Evasion Chance Gliding"
 		"EvasionPercentGlider_postfix"					" %"
 
+		"EvasionPercent_label"						"Ausweichchance für Kugeln"
 		"EvasionPercent_postfix"						" %"
 
 		//"MeleeDamagePercent_label"					"Melee Damage Bonus"
@@ -1792,9 +1797,16 @@
 		"StaminaRegenPercent_label"			"Ausdauerregeneration"
 		"StaminaRegenPercent_postfix"		" %"
 
-		//crow_mask_1827_comment
-		// crow_mask_1828_comment
-		//crow_mask_1829_comment
+		"MeleeResistPercent_prefix"			"{s:sign}"
+		"MeleeResistPercent_label"			"Nahkampfangriffsresistenz"
+		"MeleeResistPercent_postfix"		" %"
+		
+		"BuffDuration_label"				"Stärkungsdauer"
+		"BuffDuration_postfix"				" s"
+
+		//crow_mask_1840_comment
+		// crow_mask_1841_comment
+		//crow_mask_1842_comment
 
 
 

@@ -144,7 +144,7 @@
 		"MagicShockDamage_postfix"	" %"
 
 		//Mystic Reverb
-		"upgrade_tech_bleed_desc" "Veredelt eine Fähigkeit, wodurch Gegner in einem Radius um das Ziel herum <span class=\"highlight\">verlangsamt</span> werden und diesen nach einer kurzen Verzögerung ein <span class=\"highlight\">zusätzlicher Prozentsatz des verursachten Schadens</span> zugefügt wird."
+		"upgrade_tech_bleed_desc" "Veredelt eine Fähigkeit, wodurch ein getroffenes Ziel <span class=\"highlight\">verlangsamt</span> wird und Gegner im Umkreis des Ziels nach einer kurzen Verzögerung einen <span class=\"highlight\">zusätzlichen Prozentsatz des zugefügten Schadens</span> erleiden."
 		//"upgrade_tech_bleed/modifier_tech_bleed_proc/modifier_tech_bleed"			"Spirit Echo"	
 
 		//Toxic Bullets
@@ -274,7 +274,7 @@
 
 		//Siphon Bullets
 		//"upgrade_siphon_bullets_desc_passive1"	"When in <span class=\"highlight\">close range</span> of your target, deal additional <span class=\"highlight\">Weapon Damage</span>."
-		"upgrade_siphon_bullets_desc_passive2"	"Deine Kugeln stehlen Gegnern temporär einen <span class=\"highlight\">Prozentsatz ihrer max. Lebenspunkte</span>. Gegner erhalten ihre gestohlenen Lebenspunkte zurück, wenn der Schwächungseffekt abläuft. Du erhältst dauerhaft eine Instanz der max. gestohlenen Lebenspunkte pro Kugel, falls das geschröpfte Ziel stirbt, und verlierst {s:StackLostPerDeath} Instanzen, falls Du stirbst."
+		"upgrade_siphon_bullets_desc_passive2"	"Deine Kugeln stehlen Gegnern temporär einen <span class=\"highlight\">Prozentsatz ihrer max. Lebenspunkte</span>. Gegner erhalten ihre gestohlenen Lebenspunkte zurück, wenn der Schwächungseffekt abläuft. Du erhältst dauerhaft {s:StealPerKill} Instanzen der max. gestohlenen Lebenspunkte pro Kugel, falls das geschröpfte Ziel stirbt, und verlierst {s:StackLostPerDeath} Instanzen, falls Du stirbst."
 		"modifier_siphon_bullets_health_gain"		"Schröpfende Kugeln"
 		"modifier_siphon_bullets_health_loss"		"Schröpfende Kugeln"
 		"HealthSteal_label"						"max. gestohlene LP pro Kugel"
@@ -488,13 +488,13 @@
 		"SpiritPower_prefix"					"+"
 
 		//Ethereal Shift
-		"upgrade_self_bubble_desc"			"Du betrittst eine Dimension der Leere, wodurch Du für eine kurze Zeit <span class=\"highlight\">nicht mehr anvisiert werden kannst und unverwundbar wirst</span>. Währenddessen kannst Du Dich weder bewegen noch andere Aktionen ausführen. Nach diesem Effekt wird Deine Waffe <span class=\"highlight\">sofort nachgeladen</span> und Du erhältst zusätzliche <span class=\"highlight\">Magiekraft</span>."
+		"upgrade_self_bubble_desc"			"Du betrittst eine Dimension der Leere, wodurch Du für kurze Zeit <span class=\"highlight\">nicht mehr anvisiert werden kannst und unverwundbar wirst</span>. Währenddessen kannst Du Dich weder bewegen noch andere Aktionen ausführen. Nach diesem Effekt erhältst Du <span class=\"highlight\">Bewegungstempo und Magieresistenz</span>."
 		"ShiftingVeilDuration_label"			"Dauer"
 		"ShiftingVeilDuration_postfix"		" s"
 		"BonusSpiritDuration_label"			"Dauer für Bonusmagiekraft"
 		"BonusSpiritDuration_postfix"			" s"
 		"modifier_shifting_veil_buff"			"Ätherischer Schleier"
-		"shifting_veil_bonus_spirit"			"Bonusmagiekraft"
+		"shifting_veil_bonus"			"Tempo und Magieresistenz"
 		"modifier_citadel_bubble"				"Ätherischer Schleier"
 
 		//Stasis Bomb
@@ -533,7 +533,7 @@
 		//"upgrade_aoe_tech_shield/modifier_duration" "Spirit Barrier Pulse"
 		
 		//Cold Front
-		"upgrade_cold_front_desc"			"Stößt eine sich ausbreitende Eisexplosion aus, die <span class=\"highlight\">Magieschaden</span> zufügt und getroffene Ziele <span class=\"highlight\">verlangsamt</span>."
+		"upgrade_cold_front_desc"			"Löst eine sich ausbreitende Eisexplosion aus, die <span class=\"highlight\">Magieschaden</span> zufügt und getroffene Ziele <span class=\"highlight\">verlangsamt</span>. Fügt Nicht-Helden den {s:NPCDamageMult}-fachen Schaden zu."
 		
 		//Knockdown
 		"upgrade_target_stun_desc"			"Dein Ziel wird <span class=\"highlight\">niedergeschlagen</span> und nach einer Verzögerung von <span class=\"highlight\">{s:StunDelay} s</span> <span class=\"highlight\">betäubt</span>, unterbrochen und kann temporär keine anderen Aktionen ausführen."
@@ -615,7 +615,7 @@
 		//"ClarityBonusSpirit_label"				"Next Ability Bonus Spirit Power"
 
 		//Surge of Power
-		"upgrade_magic_storm_desc"				"Veredelt eine Fähigkeit, wodurch diese <span class=\"highlight\">dauerhaft Magiekraft</span> erhält. Wenn die Fähigkeit eingesetzt wird, erhältst Du zusätzliches <span class=\"highlight\">Bewegungstempo</span>."
+		"upgrade_magic_storm_desc"				"Veredelt eine Fähigkeit, wodurch diese <span class=\"highlight\">dauerhaft Magiekraft</span> erhält. Wenn die Fähigkeit eingesetzt wird, erhältst Du zusätzliches <span class=\"highlight\">Bewegungstempo</span> und behältst das volle Tempo während des Angriffs bei."
 		"modifier_upgrade_magic_storm"			"Ansteigende Magiekraft"
 
 		//Suppressor
@@ -662,9 +662,7 @@
 		"upgrade_savior_desc"				"Gewährt dem Ziel <span class=\"highlight\">Schilde gegen Kugel- und Magieschaden</span> sowie zusätzliches <span class=\"highlight\">Bewegungstempo</span>. Kann auf sich selbst angewendet werden."
 		"SaviorBulletShieldHealth_label"		"Schildpunkte gegen Kugelschaden"
 		"SaviorMagicShieldHealth_label"		"Schildpunkte gegen Magieschaden"
-		"BuffDuration_label"					"Dauer"
-		"BuffDuration_postfix"				" s"
-
+	
 		//Restorative Locket
 		"upgrade_restorative_locket_passive_desc"		"Wenn ein Gegner eine Fähigkeit innerhalb einer Reichweite von {s:Radius} m von Dir einsetzt, erhältst Du eine <span class=\"highlight\">Aufladung zur Lebenswiederherstellung</span>."
 		"upgrade_restorative_locket_active_desc"		"Verbraucht alle Aufladungen, um den <span class=\"highlight\">ausgewählten Verbündeten zu heilen</span> und <span class=\"highlight\">1 Ausdauerbalken</span> wiederherzustellen. Kann auf sich selbst angewendet werden."
@@ -936,10 +934,10 @@
 		"HealOnlevelHealAmount_label"	"Heilung"
 		"upgrade_heal_on_level/heal_on_level_buff"			"Heilung bei Levelaufstieg"
 
+		//crow_mask_936_comment
+		//crow_mask_937_comment
 		//crow_mask_938_comment
 		//crow_mask_939_comment
 		//crow_mask_940_comment
-		//crow_mask_941_comment
-		//crow_mask_942_comment
 	}
 }

@@ -182,17 +182,18 @@
 		"Steam_Citadel_RP_FindingMatch"							"Ricerca di una partita in corso"
 		
 		// These Match Mode ("MM_") tokens are for the %param0% below.
-		"Steam_Citadel_RP_MM_Unranked"							"una partita"
-		"Steam_Citadel_RP_MM_Ranked"							"una partita"
-		"Steam_Citadel_RP_MM_PrivateLobby"						"una partita privata"
-		"Steam_Citadel_RP_MM_CoopBot"							"una partita co-op contro i bot"
-		"Steam_Citadel_RP_MM_Tutorial"							"modalità tutorial"
-		"Steam_Citadel_RP_MM_Sandbox"							"Prova eroi"
+		"Steam_Citadel_RP_MM_Unranked"							"Deadlock:"
+		"Steam_Citadel_RP_MM_Ranked"							"Modalità classificata:"
+		"Steam_Citadel_RP_MM_HeroLabs"							"Laboratorio degli eroi:"
+		"Steam_Citadel_RP_MM_PrivateLobby"						"Lobby:"
+		"Steam_Citadel_RP_MM_CoopBot"							"Bot:"
+		"Steam_Citadel_RP_MM_Tutorial"							"Tutorial:"
+		"Steam_Citadel_RP_MM_Sandbox"							"Prova eroi:"
 		
 		"Steam_Citadel_InGame_Sandbox"		"Modalità di prova degli eroi ({%param2%})"
-		"Steam_Citadel_InGame_Hero"			"In {%param1%} come {%param2%} da %param0% minuti"
-		"Steam_Citadel_InGame"				"In {%param1%} da %param0% minuti"
-		"Steam_Citadel_Spectating"			"Osservando {%param1%} da %param0% minuti"
+		"Steam_Citadel_InGame_Hero"			"{%param1%} {%param2%} (%param0% min)"
+		"Steam_Citadel_InGame"				"{%param1%} (%param0% min)"
+		"Steam_Citadel_Spectating"			"Osserva una partita"
 		"Steam_Citadel_RP_Online"			"Online"
 
 		"Steam_RP_hero_vampire"			"Vampire"
@@ -325,6 +326,8 @@
 		"hero_bomber"			"Bomber"
 		"hero_shieldguy"		"Shield Guy"
 		"hero_viper"			"Viper"
+		"hero_vandal"			"Vandal"
+		"hero_magician"			"Magician"
 
 		//-----------------------------------------------------------------------------
 		// Upgrades: Weapon
@@ -423,7 +426,7 @@
 		//"upgrade_full_spectrum"					"Full Spectrum"
 		//"upgrade_tech_range_2"					"Mystic Range"
 		"upgrade_magic_tempo"					"Tempo di ricarica migliorato"
-		"upgrade_cooldown_reduction"			"Tempo di ricarica superiore"
+		"upgrade_cooldown_reduction"			"Ricarica breve"
 		//"upgrade_recharge_duration_reduction"	"Spiritual Recharge"
 		"upgrade_extra_charge"					"Carica extra"
 		//"upgrade_bonus_ability_charge_3"		"Hyper Charge"
@@ -480,7 +483,7 @@
 		//-----------------------------------------------------------------------------
 		
 		//"upgrade_toughness_3"							"Toughness"
-		"upgrade_vampire"								"Prosciug. salute balistico"
+		"upgrade_vampire"								"Prosciug. salute balistica"
 		//"upgrade_health_regen_1"						"Health Regen"
 		"upgrade_health_stimpak"						"Rito curativo"
 		"upgrade_savior"								"Barriera divina"

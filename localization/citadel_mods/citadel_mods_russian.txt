@@ -144,7 +144,7 @@
 		"MagicShockDamage_postfix"	"%"
 
 		//Mystic Reverb
-		"upgrade_tech_bleed_desc" "Усиливает выбранное умение: оно накладывает <span class=\"highlight\">замедление</span> на область вокруг цели и после небольшой задержки наносит врагам вокруг неё <span class=\"highlight\">долю от нанесённого урона</span>."
+		"upgrade_tech_bleed_desc" "Усиливает выбранное умение: оно накладывает <span class=\"highlight\">замедление</span> на цель и после небольшой задержки наносит врагам вокруг неё <span class=\"highlight\">долю от нанесённого урона</span>."
 		//"upgrade_tech_bleed/modifier_tech_bleed_proc/modifier_tech_bleed"			"Spirit Echo"	
 
 		//Toxic Bullets
@@ -274,7 +274,7 @@
 
 		//Siphon Bullets
 		//"upgrade_siphon_bullets_desc_passive1"	"When in <span class=\"highlight\">close range</span> of your target, deal additional <span class=\"highlight\">Weapon Damage</span>."
-		"upgrade_siphon_bullets_desc_passive2"	"Ваши пули временно <span class=\"highlight\">забирают макс. здоровье</span> у врагов. Враги восстанавливают украденное здоровье, когда действие эффекта заканчивается. Вы получаете один постоянный бонус к макс. здоровью, если умирает жертва, и теряете {s:StackLostPerDeath}, если умираете вы."
+		"upgrade_siphon_bullets_desc_passive2"	"Ваши пули временно <span class=\"highlight\">забирают макс. здоровье</span> у врагов. Враги восстанавливают украденное здоровье, когда действие эффекта заканчивается. Вы получаете {s:StealPerKill} постоянных бонуса к здоровью, если умирает жертва, и теряете {s:StackLostPerDeath}, если умираете вы."
 		"modifier_siphon_bullets_health_gain"		"Вытягивающие пули"
 		"modifier_siphon_bullets_health_loss"		"Вытягивающие пули"
 		"HealthSteal_label"						"Кража макс. здоровья за выстрел"
@@ -488,13 +488,13 @@
 		"SpiritPower_prefix"					"+"
 
 		//Ethereal Shift
-		"upgrade_self_bubble_desc"			"Вы входите в состояние пустоты, которое даёт вам <span class=\"highlight\">неуязвимость</span> и <span class=\"highlight\">запрещает выбирать вас целью</span>. Во время этого эффекта вы не можете передвигаться или совершать какие-либо действия, а после его окончания <span class=\"highlight\">мгновенно перезаряжаетесь</span> и получаете бонус к <span class=\"highlight\">спиритической мощи</span>."
+		"upgrade_self_bubble_desc"			"Вы входите в состояние пустоты, которое ненадолго даёт вам <span class=\"highlight\">неуязвимость</span> и <span class=\"highlight\">запрещает выбирать вас целью</span>. Во время действия эффекта вы не можете передвигаться и совершать какие-либо действия, а после его окончания получаете бонус к <span class=\"highlight\">скорости передвижения и сопротивляемости спиритизму</span>."
 		"ShiftingVeilDuration_label"			"Длительность"
 		"ShiftingVeilDuration_postfix"		" с."
 		"BonusSpiritDuration_label"			"Длительность бонуса к спиритизму"
 		"BonusSpiritDuration_postfix"			" с."
 		"modifier_shifting_veil_buff"			"Развоплощение"
-		"shifting_veil_bonus_spirit"			"к спиритической мощи"
+		"shifting_veil_bonus"			"Увеличение скорости и сопротивляемости спиритизму"
 		"modifier_citadel_bubble"				"Развоплощение"
 
 		//Stasis Bomb
@@ -533,7 +533,7 @@
 		//"upgrade_aoe_tech_shield/modifier_duration" "Spirit Barrier Pulse"
 		
 		//Cold Front
-		"upgrade_cold_front_desc"			"Выпускает расширяющуюся волну мороза, которая наносит <span class=\"highlight\">спиритический урон</span> и <span class=\"highlight\">замедляет</span> задетых врагов."
+		"upgrade_cold_front_desc"			"Выпускает расширяющуюся волну мороза, которая наносит <span class=\"highlight\">спиритический урон</span> и <span class=\"highlight\">замедляет</span> задетых врагов. Урон существам, не являющимся героями, в {s:NPCDamageMult} раза больше."
 		
 		//Knockdown
 		"upgrade_target_stun_desc"			"После <span class=\"highlight\">задержки в {s:StunDelay} с.</span> <span class=\"highlight\">сбивает цель с ног</span> и <span class=\"highlight\">оглушает</span> её, прерывая все её действия и выводя её из строя."
@@ -615,7 +615,7 @@
 		//"ClarityBonusSpirit_label"				"Next Ability Bonus Spirit Power"
 
 		//Surge of Power
-		"upgrade_magic_storm_desc"				"Усиливает выбранное умение: навсегда увеличивает его <span class=\"highlight\">спиритическую мощь</span>. Применение этого умения увеличивает вашу <span class=\"highlight\">скорость передвижения</span>."
+		"upgrade_magic_storm_desc"				"Усиливает выбранное умение: навсегда увеличивает его <span class=\"highlight\">спиритическую мощь</span>. Применив его, вы некоторое время <span class=\"highlight\">передвигаетесь быстрее</span> и не замедляетесь при совершении атак."
 		"modifier_upgrade_magic_storm"			"Прилив мощи"
 
 		//Suppressor
@@ -662,9 +662,7 @@
 		"upgrade_savior_desc"				"Даёт цели <span class=\"highlight\">щиты от пуль и спиритизма, а также повышает её скорость передвижения</span>. Можно применить на себя."
 		"SaviorBulletShieldHealth_label"		"Щит от пуль"
 		"SaviorMagicShieldHealth_label"		"Щит от спиритизма"
-		"BuffDuration_label"					"Длительность"
-		"BuffDuration_postfix"				" с."
-
+	
 		//Restorative Locket
 		"upgrade_restorative_locket_passive_desc"		"Когда враг в радиусе {s:Radius} метров от вас использует умение, вы получаете один <span class=\"highlight\">эффект восстановления</span>."
 		"upgrade_restorative_locket_active_desc"		"Расходует все эффекты, чтобы <span class=\"highlight\">вылечить выбранного союзника</span> и восстановить ему <span class=\"highlight\">1 ед. выносливости</span>. Можно применить на себя."
@@ -936,10 +934,10 @@
 		"HealOnlevelHealAmount_label"	"Лечение"
 		"upgrade_heal_on_level/heal_on_level_buff"			"Лечение при повышении уровня"
 
+		//crow_mask_936_comment
+		//crow_mask_937_comment
 		//crow_mask_938_comment
 		//crow_mask_939_comment
 		//crow_mask_940_comment
-		//crow_mask_941_comment
-		//crow_mask_942_comment
 	}
 }

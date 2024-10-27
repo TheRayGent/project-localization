@@ -43,6 +43,7 @@
 		"Citadel_StatusEffectImmobilize" 		"Знерухомлення"
 		"Citadel_StatusEffectDisarmed"			"Роззброєння"
 		"Citadel_StatusEffectInvisible"			"Невидимість"
+		"Citadel_StatusEffectPetrify"				"Скам’яніння"
 		//"Citadel_StatusEffectStacks"			"Stacks "
 		//"Citadel_StatusEffectInfiniteClip"		"Infinite Ammo"
 		//"Citadel_StatusEffectBulletDebuff"		"Bullet Debuff"
@@ -198,11 +199,14 @@
 		"StatDesc_StaminaRegenIncrease_prefix"			"+"
 		"StatDesc_StaminaRegenIncrease"					"Поновлення витривалості"
 		"StatDesc_StaminaRegenIncrease_postfix"			"%"
-		"StatDesc_DebuffResist"							"Опір негативам"
+		"StatDesc_DebuffResist"							"Опір ослабленню"
 		"StatDesc_DebuffResist_postfix"					"%"
 		"StatDesc_HealingOutput"						"Посилення лікування"
 		"StatDesc_HealingOutput_postfix"				"%"
+		"StatDesc_CritDamageBonusScale"					"додачі критичної шкоди"
 		"StatDesc_CritDamageBonusScale_postfix"			"%"
+		"StatDesc_MeleeResist"							"опору ближньому бою"
+		"StatDesc_MeleeResist_postfix"					"%"
 
 		"StatDesc_BulletSpeed"							"Швидкість куль"
 		"StatDesc_BulletSpeed_postfix"					" м/с"
@@ -538,7 +542,7 @@
 		"PoisonDuration_postfix"							" с"
 
 
-		"DebuffDuration_label"						"часу негативів"
+		"DebuffDuration_label"						"часу ослаблення"
 		"DebuffDuration_postfix"						" с"
 
 		"DotHealthPercent_label"						"шкоді коровотечі"
@@ -593,10 +597,10 @@
 		"TotalHealthRegen_label"						"всьому відновленню ОЗ"
 
 		"StatusResistancePercent_postfix"				"%"
-		"StatusResistancePercent_label"				"опору негативам"
+		"StatusResistancePercent_label"				"опору ослабленню"
 
 		"ActiveStatusResistancePercent_postfix"			"%"
-		"ActiveStatusResistancePercent_label"			"зменшенню зарядки"
+		"ActiveStatusResistancePercent_label"			"зменшенню ослаблення"
 
 		"StatusResistanceDuration_label"				"часу дії"
 		"StatusResistanceDuration_postfix"				" с"
@@ -693,6 +697,9 @@
 
 		"HealAmpReceivePenaltyPercent_label"		"зменшенню лікування"
 		"HealAmpReceivePenaltyPercent_postfix"			"%"
+		
+		"HealAmpRegenPenaltyPercent_label"		"зменшенню лікування"
+		"HealAmpRegenPenaltyPercent_postfix"	"%"
 
 		"DegenResistance_label"						"опору зменшенню лікування"
 		"DegenResistance_postfix"					"%"
@@ -721,6 +728,7 @@
 		//"EvasionPercentGlider_label"					"Evasion Chance Gliding"
 		"EvasionPercentGlider_postfix"					"%"
 
+		"EvasionPercent_label"						"ухиленню від куль"
 		"EvasionPercent_postfix"						"%"
 
 		//"MeleeDamagePercent_label"					"Melee Damage Bonus"
@@ -1003,7 +1011,7 @@
 		//"HealthDrainedPerSecond_label"				"Health Drain"
 		"HealthDrainedPerSecond_postfix"				" за секунду"
 
-		"DebuffDurationReductionPercentage_label"		"зменшенню часу негативів"
+		"DebuffDurationReductionPercentage_label"		"зменшенню часу ослаблення"
 		"DebuffDurationReductionPercentage_postfix"		"%"
 
 		//"HealthCost_label"							"Health Cost"
@@ -1488,7 +1496,7 @@
 		"DelayDuration_Postfix"	" с"
 		//"MinimumDamage_Label"	"Minimum Damage"
 
-		"EMPDuration_label"				"часу негативів"
+		"EMPDuration_label"				"часу ослаблення"
 		"EMPDuration_postfix"			" с"
 
 		//"BonusBulletDamageToEMPTargets_label" "Bullet Damage to Silenced targets"
@@ -1791,9 +1799,16 @@
 		"StaminaRegenPercent_label"			"відновленню витривалості"
 		"StaminaRegenPercent_postfix"		"%"
 
-		//crow_mask_1827_comment
-		// crow_mask_1828_comment
-		//crow_mask_1829_comment
+		"MeleeResistPercent_prefix"			"{s:sign}"
+		"MeleeResistPercent_label"			"опору ближньому бою"
+		"MeleeResistPercent_postfix"		"%"
+		
+		"BuffDuration_label"				"часу посилення"
+		"BuffDuration_postfix"				" с"
+
+		//crow_mask_1840_comment
+		// crow_mask_1841_comment
+		//crow_mask_1842_comment
 
 
 

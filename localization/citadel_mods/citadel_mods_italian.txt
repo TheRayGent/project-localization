@@ -144,7 +144,7 @@
 		"MagicShockDamage_postfix"	"%"
 
 		//Mystic Reverb
-		"upgrade_tech_bleed_desc" "Infondi un'abilità per applicare il <span class=\"highlight\">rallentamento</span> in un raggio attorno al bersaglio e infliggi una <span class=\"highlight\">percentuale aggiuntiva dei danni inflitti</span> ai nemici attorno al bersaglio dopo un breve ritardo."
+		"upgrade_tech_bleed_desc" "Infondi un'abilità per applicare <span class=\"highlight\">rallentamento</span> a un bersaglio colpito e infliggi una <span class=\"highlight\">percentuale aggiuntiva dei danni inflitti</span> ai nemici attorno al bersaglio dopo un breve ritardo."
 		//"upgrade_tech_bleed/modifier_tech_bleed_proc/modifier_tech_bleed"			"Spirit Echo"	
 
 		//Toxic Bullets
@@ -248,7 +248,7 @@
 		//"upgrade_non_player_bonus_desc"		"Gain additional <span class=\"highlight_weapon\">{s:NonPlayerBonusWeaponPower}% Weapon Damage</span> when attacking <span class=\"highlight\">Troopers</span>, <span class=\"highlight\">Neutrals</span> and <span class=\"highlight\">Bosses</span>."
 
 		//Hollow Point Ward
-		"upgrade_hollow_point_rounds_desc"				"Mentre sei <span class=\"highlight\">al di sopra del {s:LifeThreshold}% di salute</span>, infliggi <span class=\"highlight\">danni da arma</span> aggiuntivi."
+		"upgrade_hollow_point_rounds_desc"				"Mentre sei <span class=\"highlight\">al di sopra di: {s:LifeThreshold}% di salute</span>, infliggi <span class=\"highlight\">danni da arma</span> aggiuntivi."
 		//"upgrade_hollow_point_rounds_shield_desc"		"Gain a <span class=\"highlight\">Spirit Shield</span> that blocks incoming <span class=\"highlight\">Spirit Damage</span>. The shield is restored when out of combat."
 
 		// Pristine Emblem
@@ -274,7 +274,7 @@
 
 		//Siphon Bullets
 		//"upgrade_siphon_bullets_desc_passive1"	"When in <span class=\"highlight\">close range</span> of your target, deal additional <span class=\"highlight\">Weapon Damage</span>."
-		"upgrade_siphon_bullets_desc_passive2"	"I tuoi proiettili <span class=\"highlight\">prosciugano temporaneamente la salute max</span> dei nemici. I nemici riacquistano la salute rubata allo scadere dell'effetto negativo. Prosciughi permanentemente un'istanza di salute se un bersaglio colpito da Proiettili drenanti muore e perdi {s:StackLostPerDeath} istanze se muori tu."
+		"upgrade_siphon_bullets_desc_passive2"	"I tuoi proiettili <span class=\"highlight\">prosciugano temporaneamente la salute max</span> dei nemici. I nemici riacquistano la salute rubata allo scadere dell'effetto negativo. Prosciughi permanentemente {s:StealPerKill} istanze di salute se un bersaglio colpito da Proiettili drenanti muore e perdi {s:StackLostPerDeath} istanze se muori tu."
 		"modifier_siphon_bullets_health_gain"		"Pallottole drenanti"
 		"modifier_siphon_bullets_health_loss"		"Pallottole drenanti"
 		"HealthSteal_label"						"Prosciug. PS max per pallottola"
@@ -450,7 +450,7 @@
 
 		//Fleetfoot
 		"upgrade_fleetfoot_boots_active_desc"	"Ottieni <span class=\"highlight\">velocità di movimento</span> e <span class=\"highlight\">munizioni</span> bonus."
-		"upgrade_fleetfoot_boots_passive_desc"	"Rimuove la penalità <span class=\"highlight\">alla velocità di movimento</span> mentre spari."
+		"upgrade_fleetfoot_boots_passive_desc"	"Rimuove la riduzione <span class=\"highlight\">della velocità di movimento</span> mentre spari."
 		"modifier_fleetfoot_boots"				"Pié veloce"
 
 		//Kinetic Dash
@@ -479,7 +479,7 @@
 
 		//Withering Whip
 		"upgrade_withering_whip_desc"		"Bersaglia un nemico per applicare <span class=\"highlight\">riduzione della frequenza di fuoco</span> e ridurre la sua <span class=\"highlight\">resistenza alle pallottole</span>."
-		"modifier_withering_whip_debuff"	"Riduzione della frequenza di fuoco"
+		"modifier_withering_whip_debuff"	"Riduzione frequenza di fuoco"
 		"MagicAmp_label"					"Ampl. dello spirito"
 		"MagicAmp_postfix"					"%"
 		"WitheringWhipDisarmDuration_label"	"Durata"
@@ -488,13 +488,13 @@
 		"SpiritPower_prefix"					"+"
 
 		//Ethereal Shift
-		"upgrade_self_bubble_desc"			"Entri nel vuoto e diventi <span class=\"highlight\">non bersagliabile e invincibile</span> per un breve periodo, durante il quale non puoi muoverti o eseguire alcuna azione. Dopodiché <span class=\"highlight\">ricarichi istantaneamente</span> e ottieni <span class=\"highlight\">potere spirituale</span> bonus."
+		"upgrade_self_bubble_desc"			"Entri nel vuoto e diventi <span class=\"highlight\">non bersagliabile e invincibile</span> per un breve periodo, durante il quale non puoi muoverti o eseguire alcuna azione. Dopodiché aumenti la <span class=\"highlight\">velocità di movimento e la resistenza spirituale</span>."
 		"ShiftingVeilDuration_label"			"Durata"
 		"ShiftingVeilDuration_postfix"		" s"
 		"BonusSpiritDuration_label"			"Durata del bonus spirituale"
 		"BonusSpiritDuration_postfix"			" s"
 		"modifier_shifting_veil_buff"			"Trasformazione eterea"
-		"shifting_veil_bonus_spirit"			"Potere spirituale bonus"
+		"shifting_veil_bonus"			"Velocità e resistenza spirituale"
 		"modifier_citadel_bubble"				"Trasformazione eterea"
 
 		//Stasis Bomb
@@ -533,7 +533,7 @@
 		//"upgrade_aoe_tech_shield/modifier_duration" "Spirit Barrier Pulse"
 		
 		//Cold Front
-		"upgrade_cold_front_desc"			"Scateni un'esplosione di ghiaccio che si estende e infligge <span class=\"highlight\">danni spirituali</span> e <span class=\"highlight\">rallenta</span> i bersagli colpiti."
+		"upgrade_cold_front_desc"			"Scateni un'esplosione di ghiaccio che si estende e infligge <span class=\"highlight\">danni spirituali</span> e <span class=\"highlight\">rallenta</span> i bersagli colpiti. Infliggi {s:NPCDamageMult}x danni ai non eroi."
 		
 		//Knockdown
 		"upgrade_target_stun_desc"			"Il bersaglio viene <span class=\"highlight\">abbattuto</span> e <span class=\"highlight\">stordito</span> dopo un ritardo di <span class=\"highlight\">{s:StunDelay} s</span>, interrompendolo e impedendogli temporaneamente di intraprendere qualsiasi azione."
@@ -615,12 +615,12 @@
 		//"ClarityBonusSpirit_label"				"Next Ability Bonus Spirit Power"
 
 		//Surge of Power
-		"upgrade_magic_storm_desc"				"Infondi a un'abilità <span class=\"highlight\">potere spirituale permanente</span>. Quando quell'abilità viene usata, ottieni <span class=\"highlight\">velocità di movimento</span> bonus."
+		"upgrade_magic_storm_desc"				"Infondi a un'abilità <span class=\"highlight\">potere spirituale permanente</span>. Quando quell'abilità viene usata, ottieni <span class=\"highlight\">velocità di movimento</span> bonus e mantieni la velocità massima mentre attacchi."
 		"modifier_upgrade_magic_storm"			"Aumento di potenza"
 
 		//Suppressor
 		"upgrade_suppressor_desc"					"Quando infliggi <span class=\"highlight\">danni spirituali</span> ai nemici, riduci anche la loro <span class=\"highlight\">frequenza di fuoco</span>."
-		"suppressor_debuff"						"Riduzione della frequenza di fuoco"
+		"suppressor_debuff"						"Riduzione frequenza di fuoco"
 
 		//Quicksilver Reload
 		"upgrade_quick_silver_desc"				"Infondi un'abilità con <span class=\"highlight\">danni spirituali</span> bonus  al primo colpo. Quando quell'abilità viene usata, la tua arma è <span class=\"highlight\">ricaricata</span> e riceve una <span class=\"highlight\">frequenza di fuoco</span> bonus per quel caricatore. <br>Si attiva solo quando le munizioni non sono al massimo."
@@ -662,9 +662,7 @@
 		"upgrade_savior_desc"				"Conferisce al bersaglio <span class=\"highlight\">scudo balistico, scudo spirituale e velocità di movimento</span>. Può essere usata su se stessi."
 		"SaviorBulletShieldHealth_label"		"Scudo balistico"
 		"SaviorMagicShieldHealth_label"		"Scudo spirituale"
-		"BuffDuration_label"					"Durata"
-		"BuffDuration_postfix"				" s"
-
+	
 		//Restorative Locket
 		"upgrade_restorative_locket_passive_desc"		"Quando un nemico usa un'abilità entro {s:Radius} m da te, ottieni un'<span class=\"highlight\">istanza di rigenerazione</span>."
 		"upgrade_restorative_locket_active_desc"		"Consuma tutte le istanze per <span class=\"highlight\">curare l'alleato bersaglio</span> e ripristina un <span class=\"highlight\">punto di resistenza</span>. Può essere usata su se stessi."
@@ -762,7 +760,7 @@
 		"SpawnTimePenalty_postfix"				" s"
 
 		//Phantom Strike
-		"upgrade_phantom_strike_desc"			"Ti <span class=\"highlight\">teletrasporti</span> su un bersaglio nemico, applicando <span class=\"highlight\">Disarmo</span> e <span class=\"highlight\">Rallentamento</span>e infliggendo <span class=\"highlight\">danni</span>."
+		"upgrade_phantom_strike_desc"			"Ti <span class=\"highlight\">teletrasporti</span> su un bersaglio nemico, applicando <span class=\"highlight\">disarmo</span> e <span class=\"highlight\">rallentamento</span>e infliggendo <span class=\"highlight\">danni</span>."
 		//"BarrierDuration_label"					"Shield Duration"
 		"BarrierDuration_postfix"				" s"
 		"PhantomStrikeDebuffDuration_label"		"Durata disarmo e rallentamento"
@@ -936,10 +934,10 @@
 		"HealOnlevelHealAmount_label"	"Quantità di guarigione"
 		"upgrade_heal_on_level/heal_on_level_buff"			"Guarigione al livello"
 
+		//crow_mask_936_comment
+		//crow_mask_937_comment
 		//crow_mask_938_comment
 		//crow_mask_939_comment
 		//crow_mask_940_comment
-		//crow_mask_941_comment
-		//crow_mask_942_comment
 	}
 }

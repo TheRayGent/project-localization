@@ -1,7 +1,7 @@
-﻿"lang" 
-{ 
-	"Language" "czech" 
-	"Tokens" 
+﻿"lang"
+{
+	"Language" "czech"
+	"Tokens"
 	{
 		"Citadel_Dashboard_BuildVersion"	"Build {d:buildNumber} – {s:buildTime}"
 
@@ -83,7 +83,7 @@
 		"GameUI_Disconnect_ConnectionTimedout"		"Nepodařilo se navázat spojení s herním serverem."
 		"GameUI_Disconnect_ServerIncompatible"		"Verze na serveru není kompatibilní."
 		"Player_DisconnectReason_Idle"				"Byl jsi odpojen od herního serveru, protože jsi byl příliš dlouho nečinný."
-		
+
 
 		"GameUI_Disconnect_LocalProblem_ManyRelays"	"Spojení bylo ztraceno i po vyzkoušení několika převaděčů na různých místech světa. Pravděpodobně se tedy jedná o chybu tvého připojení k internetu."
 		"GameUI_Disconnect_LocalProblem_HostedServerPrimaryRelay"	"Herní server ztratil spojení s primárním převaděčem používaným klientem."
@@ -151,7 +151,7 @@
 		"Citadel_ViewMatchID_Loading_Error"					"Nepodařilo se načíst zápas"
 		"Citadel_ViewMatchID_InFlight_Title"				"Zápas stále probíhá"
 		"Citadel_ViewMatchID_InFlight_Body"					"Tento zápas ještě nebyl dohrán. Chceš ho sledovat?"
-		
+
 		//Playtest User
 		"Citadel_PlaytestUser_SubmitProcessing"				"Čekej prosím"
 		"Citadel_PlaytestUser_SubmitProcessingTitle"		"Odesílání informací"
@@ -240,6 +240,12 @@
 		"Citadel_ReportPlayer_Reason_Comments"				"Komentáře:"
 		"Citadel_ReportPlayer_CommentPlaceholder"			"Popiš, jaký problém jsi měl s tímto hráčem"
 
+		"Citadel_CommendPlayer_PopupTitle"					"Ocenit hráče"
+		"Citadel_CommendPlayer_PopupDesc"					"Oceň hráče, se kterým jsi hrál, a dej vědět systému pro vyhledávání zápasů, že bys ho rád viděl i v budoucích zápasech."
+		"Citadel_CommendPlayer_Friendly"					"Přátelský hráč"
+		"Citadel_CommendPlayer_Teamwork"					"Týmový hráč"
+		"Citadel_CommendPlayer_Skilled"						"Zkušený hráč"
+
 		"Citadel_SkipTutorial_Title"						"Přeskočení tutoriálu"
 		"Citadel_SkipTutorial_Body"							"Opravdu chceš přeskočit tento tutoriál? Takový odvážný krok doporučujeme, pouze pokud už jsi tuto hru hrál."
 
@@ -285,6 +291,8 @@
 		"Citadel_Notification_Paused_Message"						"Zápas byl pozastaven"
 		"Citadel_Notification_Unpaused_Title"						"Opět spuštěno"
 		"Citadel_Notification_Unpaused_Message"						"Zápas je opětovně spouštěn..."
+		"Citadel_Notification_About_To_Respawn_Title"				"Pozor!"
+		"Citadel_Notification_About_To_Respawn_Message"				"Zanedlouho znovu oživneš..."
 		"Citadel_Hud_PreGame_Countdown"								"Zápas začíná..."
 		"Citadel_Hud_CantPause"										"Zápas není možné pozastavit ještě {i:pause_cooldown} sekund"
 		"Citadel_Hud_CantUnpause"									"Zápas není možné spustit ještě {i:pause_cooldown} sekund"
@@ -321,6 +329,11 @@
 
 		"Citadel_InvalidCast_NoFullClips"							"ŽÁDNÉ PLNÉ ZÁSOBNÍKY K PŘEBITÍ"
 
+		"Citadel_MatchInfo_Mode_Ranked"								"Hodnocený"
+		"Citadel_MatchInfo_Mode_Standard"							"Standardní"
+		"Citadel_MatchInfo_Mode_HeroLabs"							"Líheň hrdinů"
+		"Citadel_MatchInfo_Mode_CoopBot"							"Kooperativní"
+		"Citadel_MatchInfo_Mode_Private"							"Soukromý"
 
 		"Citadel_Reconnect_IncompatibleVersionTitle"				"Nekompatibilní verze"
 		"Citadel_Reconnect_IncompatibleVersionBody"					"Tvůj herní klient už není na verzi platné pro připojení k tomuto serveru."
@@ -336,7 +349,7 @@
 		"Citadel_Item_Tooltip_CantAfford"							"Předmět si nemůžeš dovolit"
 		//"Citadel_Player_Level_AbilityPoints"						"<span class=\"boldText\">1 Ability Point</span> gained at levels 2, 3, 5, 7, and each level after"
 		//"Citadel_Player_Level_AbilityUnlocks"						"<span class=\"boldText\">1 Ability Unlock</span> gained at levels 1, 2, 4, and 6"
-		//"Citadel_Player_Level_WeaponPower"							"<span class=\"boldText\">+{s:weapon_bonus}% Base Bullet Damage</span>, <span class=\"boldText\">+{s:melee_bonus}% Base Melee damage</span> and <span class=\"boldText\">+{s:health_bonus} Max Health </span>"		
+		//"Citadel_Player_Level_WeaponPower"							"<span class=\"boldText\">+{s:weapon_bonus}% Base Bullet Damage</span>, <span class=\"boldText\">+{s:melee_bonus}% Base Melee damage</span> and <span class=\"boldText\">+{s:health_bonus} Max Health </span>"
 		"Citadel_Player_Level_APShort"								"BS"
 		"Citadel_Player_Level_AbilityUnlocksShort"					"Odemčení schopnosti"
 		"Citadel_Player_Level_PowerIncreases"						"Navýšení síly"
@@ -350,6 +363,7 @@
 		"Citadel_Player_Level_BaseHealth"							"Základní zdraví"
 		"Citadel_Player_Level_SpiritAmp"							"Navýšení spirituálního poškození"
 		"Citadel_Player_Level_BulletResist"							"Balistická odolnost"
+		"Citadel_Player_Level_TechResist"							"Spirituální odolnost"
 		"Citadel_Player_Level_WeaponRange"							"Dosah střel"
 		"Citadel_Hero_Stats_Tooltip_WeaponPower"					"Celkový bonus ke tvému balistickému poškození a poškození úderů získaný od předmětů ze záložky „Zbraň“."
 		"Citadel_Hero_Stats_Tooltip_HealthMult"						"Celkový bonus ke tvému základnímu zdraví získaný od předmětů ze záložky „Tělo“."
@@ -386,10 +400,10 @@
 
 		"Citadel_Shop_ImbueTooltip_Title"							"Vyber schopnost, která má být prodchnuta"
 		"Citadel_Shop_ActivePlacementTooltip_Title"					"Vyber slot, do kterého má být umístěna schopnost"
-		"Citadel_Shop_ActivePlacementTooltip_Drag"					"Pozice stávajících aktivních schopností můžeš změnit přetažením"	
+		"Citadel_Shop_ActivePlacementTooltip_Drag"					"Pozice stávajících aktivních schopností můžeš změnit přetažením"
 
-		"Citadel_Shop_SellMaxItems_Title"							"Všechny sloty jsou plné!"	
-		"Citadel_Shop_SellMaxItems_Desc"							"Pro dokončení tohoto nákupu vyber předmět, který bude <span class='highlight'>prodán za poloviční cenu a nahrazen</span>"	
+		"Citadel_Shop_SellMaxItems_Title"							"Všechny sloty jsou plné!"
+		"Citadel_Shop_SellMaxItems_Desc"							"Pro dokončení tohoto nákupu vyber předmět, který bude <span class='highlight'>prodán za poloviční cenu a nahrazen</span>"
 		"Citadel_Shop_SellMaxItems_SellButton"						"Prodat"
 
 		"Citadel_Shop_AbilityisImbued"								"Schopnost je prodchnutá"
@@ -472,7 +486,10 @@
 		"Citadel_Play_RankedNoScheduleDesc"					"Než budeš moci vyhledávat hodnocené zápasy, musíš si vybrat rozpis."
 
 		"Citadel_RankedGames_Played"						"{i:ranked_games_played} / {i:ranked_games_required} odehraných zápasů"
-		"Citadel_RankedGames_PlayedQualified"				"Kvalifikovaný pro hodnocené zápasy"
+		"Citadel_RankedGame_Played_desc"					"Zápasy odehrané pro kvalifikaci na hodnost"
+		"Citadel_RankedGames_PlayedQualified"				"Tvá hodnost bude vypočtena na základě dalších zápasů"
+		"Citadel_RankedGames_Qualified1"						"Na tvoji konečnou hodnost budou mít vliv další odehrané zápasy"
+		"Citadel_RankedGames_Qualified2"						"Konečná hodnost ti bude přidělena {t:s:end_day}"
 
 		"Citadel_Play_BotsOfflineTitle"				"Boti jsou dočasně offline"
 		"Citadel_Play_BotsOfflineText"				"Boti jsou dočasně zakázáni. Zkus to později znovu."
@@ -561,7 +578,7 @@
 		"Citadel_PrivateLobby_SwapTeamsTooltip"						"Prohodí hráče mezi týmy, ale zachová rozdělení linek."
 		"Citadel_PrivateLobby_RandomizeTeams"						"Náhodně rozdělit všechny hráče"
 		"Citadel_PrivateLobby_ShuffleTeamsTooltip"					"Náhodně rozdělí hráče v lobby mezi týmy."
-		"Citadel_PrivateLobby_ShuffleTeams"							"Zamíchat hráče v rámci týmů"		
+		"Citadel_PrivateLobby_ShuffleTeams"							"Zamíchat hráče v rámci týmů"
 		"Citadel_PrivateLobby_ShuffleLanesTooltip"					"Náhodně rozdělí hráče v týmech na různé linky."
 
 		"Citadel_ServerRegion_0"									"Auto. výběr regionu"
@@ -600,11 +617,11 @@
 		"Citadel_Party_CancelMM"									"Zrušit"
 		"Citadel_Party_NotConnectedToGC"							"Nejsi připojený k síti hry Deadlock"
 		"Citadel_Party_PlayerLabel"									"Hráč"
-		"Citadel_Party_SpectatorLabel"								"Divák"	
+		"Citadel_Party_SpectatorLabel"								"Divák"
 		"Citadel_Party_Or"											"Nebo"
 		"Citadel_Party_ReadyUp"										"Připravit se"
 		"Citadel_Party_RolePlayer"									"Hráč"
-		"Citadel_Party_RoleSpectator"								"Divák"	
+		"Citadel_Party_RoleSpectator"								"Divák"
 		"Citadel_Party_CreatePartyTitle"							"Vytváření skupiny"
 		"Citadel_Party_CreatePartyText"								"Čekej prosím"
 		"Citadel_Party_JoinPartyTitle"								"Připojování do skupiny"
@@ -637,7 +654,7 @@
 		"Citadel_AcceptedInvitation_Title"							"Přijetí pozvánky"
 		"Citadel_Party_SetMatchModeTitle"							"Nastavování skupiny"
 		"Citadel_Party_SetMatchModeText"							"Počkej prosím, než nastavíme tvoji skupinu."
-		"Citadel_AcceptedInvitation_Name"							"{g:citadel_persona:accepted_invitation} přijal tvoji pozvánku."		 
+		"Citadel_AcceptedInvitation_Name"							"{g:citadel_persona:accepted_invitation} přijal tvoji pozvánku."
 		"Citadel_Party_KickedByTitle"								"Byl jsi vyhozen ze skupiny"
 		"Citadel_Party_KickedByText"								"{g:citadel_persona:kicked_by_account} tě vyhodil ze skupiny."
 		"Citadel_Party_DraftEndedByTitle"							"Zápas byl zrušen"
@@ -659,8 +676,8 @@
 		"Citadel_PartyInviteFriend_InvitesFull"						"Příliš mnoho členů"
 		"Citadel_JoinParty_Title"									"Připojení do skupiny"
 		"Citadel_JoinParty_Desc"									"Pokud jsi dostal kód skupiny, zadej ho níže."
-		"Citadel_JoinParty_Prompt"									"ID skupiny"	
-		"Citadel_Party_Invites"										"Pozvánky do skupin"
+		"Citadel_JoinParty_Prompt"									"ID skupiny"
+		"Citadel_Party_Invites:p{party_invites}"					"<span class=\"InviteCount\">{d:party_invites} </span><span class=\"InviteHeaderText\">pozvánka do skupiny</span>#|#<span class=\"InviteCount\">{d:party_invites} </span><span class=\"InviteHeaderText\">pozvánky do skupin</span>#|#<span class=\"InviteCount\">{d:party_invites} </span><span class=\"InviteHeaderText\">pozvánek do skupin</span>#|#<span class=\"InviteCount\">{d:party_invites} </span><span class=\"InviteHeaderText\">pozvánky do skupin</span>"
 		"Citadel_PartyStartMatch"									"Zahájit zápas"
 		"Citadel_PartyFindMatch"									"Najít zápas"
 		"Citadel_Party_CreateEasyBot"								"Vytvoř skupinu a pozvi do ní přátele, se kterými se chceš postavit proti botům na nízkou obtížnost."
@@ -686,6 +703,7 @@
 
 		"Citadel_RosterMode_Party_Matchmaking"						"Standardní zápas"
 		"Citadel_RosterMode_Party_RankedMatchmaking"				"Hodnocený zápas"
+		"Citadel_RosterMode_Party_HeroLabsMatchmake"					"Líheň hrdinů"
 		"Citadel_RosterMode_Party_CoopBotMM"						"Zápas s boty"
 		"Citadel_RosterMode_Party_PrivateBotEasy"					"Skupinový soukromý zápas s boty (nízká obtížnost)"
 		"Citadel_RosterMode_Party_PrivateBotMedium"					"Skupinový soukromý zápas s boty (střední obtížnost)"
@@ -697,6 +715,7 @@
 
 		"Citadel_RosterMode_Matchmaking"							"Standardní zápas"
 		"Citadel_RosterMode_RankedMatchmaking"						"Hodnocený zápas"
+		"Citadel_RosterMode_HeroLabsMatchmaking"					"Líheň hrdinů"
 		"Citadel_RosterMode_CoopBotMM"								"Zápas s boty"
 		"Citadel_RosterMode_PrivateBotEasy"							"Soukromý zápas s boty (nízká obtížnost)"
 		"Citadel_RosterMode_PrivateBotMedium"						"Soukromý zápas s boty (střední obtížnost)"
@@ -726,6 +745,9 @@
 		"Citadel_Roster_Instructions_Desc"							"Vyber nejméně tři hrdiny, z nichž jeden ti bude automaticky přiřazen na začátku zápasu.<br><br>Hrdiny můžeš na soupisku pouze <span class='selected'><b>přidat</b></span>, ale také je můžeš určit jako <span class='priority'><b>preferované</b></span>, nebo <span class='high_priority'><b>vysoce preferované</b></span>, čímž navýšíš své šance na to, že ti budou přiřazeni."
 		"Citadel_Roster_Instructions_Select"						"<span class='keybind'>{s:iv_attack}</span> Přidat hrdinu na soupisku"
 		"Citadel_Roster_Instructions_Prefer"						"<span class='keybind'>{s:iv_attack2}</span> Určit hrdinu jako <b>preferovaného</b>, nebo <b>vysoce preferovaného</b>"
+
+		"Citadel_Roster_Instructions_Title_HeroLabs"				"Líheň hrdinů"
+		"Citadel_Roster_Instructions_Desc_HeroLabs"					"Zahraj si za experimentální nové hrdiny, nebo se jim postav.<br><br>Vyber nejméně tři hrdiny, <b>z nichž dva musí být obyčejní hrdinové</b>. Pravděpodobnost toho, že ti bude přiřazen experimentální hrdina z tvé soupisky, závisí na tom, jak dlouhá doba uplynula od toho, kdy jsi naposledy hrál za libovolného experimentálního hrdinu."
 
 		"Citadel_ViewMatchID_Title"									"Hledání zápasu dle ID"
 		"Citadel_ViewMatchID_Desc"									"Zadej ID zápasu, jehož detaily chceš zobrazit."
@@ -805,7 +827,7 @@
 		//"Citadel_HUD_LevelReward_BulletResist"						"Spirit Damage"
 		//"Citadel_HUD_LevelReward_WeaponRange"						"Spirit Damage"
 		"Citadel_HUD_LevelReward_NextRewardsLabel"					"Další odměny:"
-		
+
 		"Citadel_Hud_KillFeedNone"									"<Nic>"
 		"Citadel_Hud_KillFeedTrooper"								"Pěšák č. {i:unit_num}"
 		"Citadel_Hud_KillFeedSuperNeutral"							"Hlídač chrámu"
@@ -857,7 +879,7 @@
 		"Objective_Enemy_ShieldGenerator"							"Nepřátelská svatyně"
 		"Objective_Team1_ShieldGenerator"							"Jantarová svatyně"
 		"Objective_Team2_ShieldGenerator"							"Safírová svatyně"
-		
+
 		"Objective_Friendly_Final"						"Spojenecký patron (oslabený)"
 		"Objective_Enemy_Final"							"Nepřátelský patron (oslabený)"
 		"Objective_Team1_Final"							"Jantarový patron (oslabený)"
@@ -868,8 +890,8 @@
 
 		"Citadel_Team1_Name"							"Jantarová dlaň"
 		"Citadel_Team2_Name"							"Safírový plamen"
-		"Citadel_Team1_Name_Uppercase"					"JANTAROVÉ DLANĚ"
-		"Citadel_Team2_Name_Uppercase"					"SAFÍROVÉHO PLAMENE"
+		"Citadel_Team1_Name_Uppercase:n"					"#|f|#JANTAROVÉ DLANĚ"
+		"Citadel_Team2_Name_Uppercase:n"					"#|mi|#SAFÍROVÉHO PLAMENE"
 
 		"Citadel_Mod_Tooltip_Passive"									"Pasivní schopnost"
 		"Citadel_Mod_Tooltip_Active"									"Aktivní schopnost"
@@ -878,7 +900,7 @@
 		"Citadel_Hud_TopbarPlayerNetworthPlayerLow"						"{i:gold}"
 		"Citadel_Hud_TopbarPlayerNetworthPlayerMed"						"{i:thousands_gold},{i:hundred_gold}<span class=\"demote\"> tis.</span>"
 		"Citadel_Hud_TopbarPlayerNetworthPlayerHigh"					"{i:thousands_gold}<span class=\"demote\"> tis.</span>"
-		"Citadel_Hud_TopbarPlayerNetworth"								"{i:thousands_gold}<span class=\"demote\"> tis.</span>"
+		"Citadel_Hud_TopbarPlayerNetworth"								"{i:thousands_gold}<br><span class=\"demote\"> tis.</span>"
 
 		"Citadel_HUD_AbilityUnlockAvailable"						"Podržením <span class=\"keybind\">[{s:show_scoreboard}]</span> odemkni schopnost"
 		"Citadel_HUD_AbilityUpgradeAvailable"						"Podržením <span class=\"keybind\">[{s:show_scoreboard}]</span> vylepši schopnost"
@@ -889,6 +911,7 @@
 
 
 		"Citadel_HUD_Damage_TooFar"									"Příliš daleko"
+		"Citadel_HUD_Damage_TooLow"									"Příliš nízko"
 		"Citadel_HUD_Damage_Invulnerable"							"Má štít"
 		"Citadel_HUD_Damage_NoTroopers"								"Potřebuješ pěšáky"
 		"Citadel_HUD_Damage_Resistant"								"Má odolnost"
@@ -915,7 +938,7 @@
 		"Citadel_HUD_DamageReport_DamageDealt"						"Udělené poškození"
 		"Citadel_HUD_DamageReport_TopDamageSources:p{num_damage_rows}"	"Hlavní zdroj poškození#|#{i:num_damage_rows} hlavní zdroje poškození#|#{i:num_damage_rows} hlavních zdrojů poškození#|#{i:num_damage_rows} hlavního zdroje poškození"
 		"Citadel_HUD_DamageReport_ShowMore"							"Zobrazit více"
-		
+
 		"Citadel_HUD_DamageReport_LastRespawn"						"Aktuální život"
 		"Citadel_HUD_DamageReport_Time600"							"10 minut"
 		"Citadel_HUD_DamageReport_Time300"							"5 minut"
@@ -934,7 +957,7 @@
 		"Citadel_HUD_DamageReport_DamagePercentAbility"				"{i:ability_damage_percent} %"
 
 		"Citadel_HUD_Impact_Kill"									"Zabití"
-		"Citadel_HUD_Impact_Assist"									"Asistence"		
+		"Citadel_HUD_Impact_Assist"									"Asistence"
 
 		"Citadel_PartyChat_Title"									"Chat skupiny"
 		"Citadel_PartyChat_VoiceAndText"							"Hlasový a textový chat"
@@ -943,7 +966,7 @@
 		"Citadel_ChatType_Disabled"									"Zakázán"
 		"Citadel_ChatType_AllTeam"									"Celý tým"
 		"Citadel_ChatType_PartyOnly"								"Pouze skupina"
-		
+
 		"Citadel_HUD_DamageRows_DamageName"							"{s:damage_name}"
 		"Citadel_HUD_DamageRows_DamageValue"						"{i:damage_done}"
 		"Citadel_HUD_DamageRows_Hits:p{hit_count}"					"({i:hit_count} zásah)#|#({i:hit_count} zásahy)#|#({i:hit_count} zásahů)#|#({i:hit_count} zásahu)"
@@ -993,6 +1016,9 @@
 		"Citadel_PlayerContextMenu_AudioVolume"						"Hlasitost zvuku"
 		"Citadel_PlayerContextMenu_EmptyMenu"						"–"
 
+		"Citadel_PostGame_CopyMatchID"								"Kopírovat ID zápasu"
+		"Citadel_PostGame_CopyMatchIDSuccess"						"Povedlo se"
+
 		"Citadel_PlayerCard_FavoriteHero"							"Oblíbený hrdina"
 
 		"Citadel_Party_Context_Invite"								"Pozvat přátele"
@@ -1005,6 +1031,9 @@
 		"Citadel_Party_Leave"										"Opustit skupinu"
 		"Citadel_Party_Report"										"Nahlásit"
 		"Citadel_Party_Reported"									"Nahlášen"
+
+		"Citadel_Party_Commend"										"Ocenit"
+		"Citadel_Party_Commended"									"Oceněn"
 
 		"Citadel_PlayerList_Teammates"								"Spoluhráči"
 		"Citadel_PlayerList_Enemy"									"Nepřátelé"
@@ -1073,6 +1102,9 @@
 		"Citadel_StartMatchmaking_InvalidHeroSelection"				"Nevybral jsi platné hrdiny pro zahájení vyhledávání zápasu."
 		"Citadel_StartMatchmaking_HeroRosterTooPopular"				"Tvoje soupiska nezahrnuje žádné hrdiny, kteří ještě nejsou použiti."
 		"Citadel_StartMatchmaking_NoRegionPings"					"Nepodařilo se navázat spojení s žádným převaděčem sítě Steam Datagram Relay. Pokud jsi připojený k internetu, tato chyba je nejspíš způsobena problémem s firewallem nebo MTU tvého připojení."
+		"Citadel_StartMatchmaking_HeroLabsMMNotOpen"				"Vyhledávání zápasů módu Líheň hrdinů není v tuto chvíli dostupné."
+		"Citadel_StartMatchmaking_HeroLabsNotUnlocked"				"Vyhledávání zápasů módu Líheň hrdinů jsi prozatím neodemkl."
+		"Citadel_StartMatchmaking_NoHeroLabsWhileInLowPri"			"Vyhledávání zápasů módu Líheň hrdinů není dostupné, zatímco je na tebe uvalena nízká priorita."
 		"Citadel_StopMatchMaking_FailedToGetResponse"				"Vyhledávání zápasu bylo zastaveno, protože se nepodařilo získat odpověď od sítě hry."
 		"Citadel_StopMatchMaking_GeneralError"						"Vyhledávání zápasu se nezdařilo. Zkus to znovu."
 		"Citadel_LeaveLobby_FailedToGetResponse"					"Nepodařilo se zastavit vyhledávání zápasu. Zkus to znovu."
@@ -1089,10 +1121,10 @@
 		"Citadel_IdleMatchmaking_IdleTimerExpired_Body"				"Jsi při vyhledávání zápasu už příliš dlouho nečinný. Pohni myší, abychom se ujistili, že tu stále jsi připravený hrát!"
 		"Citadel_IdleMatchmaking_Dialog_Title"						"Nečinnost při vyhledávání"
 		"Citadel_IdleMatchmaking_Dialog_Body"						"Momentálně vyhledáváš zápas, ale nezdá se, že jsi přítomný u svého počítače. Pohni myší, jinak budeš vyřazen z vyhledávání."
-		
+
 		"Citadel_Dashboard_EnterMatchmaking"						"Zahájit\nvyhledávání"
 		"Citadel_Dashboard_Roster_HeroTooPopular"					"Všichni tví hrdinové jsou už rozebráni"
-		"Citadel_Dashboard_Roster_MissingHeroes"					"<span class=\"rosterErrorText\">Pro vyhledávání zápasů musíš mít na své soupisce nejméně 3 hrdiny</span>"
+		"Citadel_Dashboard_Roster_MissingHeroes"					"<span class=\"rosterErrorText\">Pro vyhledávání zápasů musíš mít na své soupisce nejméně tři hrdiny</span>"
 		"Citadel_Dashboard_Roster_ClearRoster"						"Vymazat soupisku"
 		"Citadel_Dashboard_PlayButtonTooltipText"					"Umožňuje zahájit vyhledávání zápasu."
 		"Citadel_Dashboard_PlayButtonTooltipTextSteamDeck"			"Vyhledávání standardních zápasů není na zařízení Steam Deck v tuto chvíli podporováno."
@@ -1118,7 +1150,15 @@
 		"Citadel_Dashboard_ShowAnnounceTooltip"						"Zobrazit oznámení"
 		"Citadel_Dashboard_CloseAnnounceTooltip"					"Skrýt oznámení"
 		"Citadel_Dashboard_ViewLibrary"								"Přejít do knihovny"
-
+		"Citadel_Dashboard_ReloadPageTooltip"						"Obnovit aktuální stránku"
+		"Citadel_Dashboard_Status_Mode_Unranked"					"Standardní zápas"
+		"Citadel_Dashboard_Status_Mode_Ranked"						"Hodnocený zápas"
+		"Citadel_Dashboard_Status_Mode_HeroLabs"					"Zápas módu Líheň hrdinů"
+		"Citadel_Dashboard_Status_Mode_Private"						"Soukromý zápas"
+		"Citadel_Dashboard_Status_Mode_Coop"						"Kooperativní zápas s boty"
+		
+		"Citadel_Dashboard_ShowHeroLabHeroes"						"Zobrazit experimentální hrdiny"
+		
 		"Citadel_Watch_Title"										"Sledování zápasů"
 		"Citadel_Watch_Featured"									"Vybrané zápasy"
 		"Citadel_Watch_Loading"										"Načítání..."
@@ -1206,7 +1246,7 @@
 		"Citadel_PartyAction_TooBusy"							"Síť hry Deadlock je pro zpracování této akce příliš zaneprázdněna. Zkus to znovu za pár minut."
 		"Citadel_PartyAction_RateLimited"						"Během krátké doby jsi provedl příliš mnoho operací. Chvíli počkej a zkus to znovu."
 		"Citadel_PartyAction_AlreadyDrafting"					"Skupina už zahájila zápas. Než bude možné zahájit další, musíš zastavit probíhající zápas."
-		
+
 		"Citadel_PartySetMode_ErrorTitle"						"Chyba"
 		"Citadel_PartySetMode_FailedToGetResponse"				"Nepodařilo se navázat spojení se sítí hry Deadlock. Zkus to znovu za pár minut."
 		"Citadel_PartySetMode_InternalError"					"Došlo k neočekávané vnitřní chybě. Zkus to znovu za pár minut."
@@ -1224,6 +1264,10 @@
 		"Citadel_PartySetMode_PlayerPermaBanned"				"Člen tvojí skupiny ({g:citadel_persona:nl:account_id}) je v tomto herním módu permanentně zabanován."
 		"Citadel_PartySetMode_CannotLeavePrivate"				"V soukromých lobby není v tuto chvíli možné změnit herní mód."
 		"Citadel_PartySetMode_FiveStacksNotAllowed"				"Skupiny s pěti členy nemohou v tuto chvíli vyhledávat zápasy. Zkus to znovu s větší, nebo naopak menší skupinou."
+		"Citadel_PartySetMode_HeroLabsMMNotOpen"				"Vyhledávání zápasů módu Líheň hrdinů není v tuto chvíli dostupné."
+		"Citadel_PartySetMode_HeroLabsNotUnlocked"				"Člen tvojí skupiny ({g:citadel_persona:nl:account_id}) prozatím nemůže vyhledávat zápasy módu Líheň hrdinů."
+		"Citadel_PartySetMode_NoHeroLabsWhileInLowPri"			"Na člena tvojí skupiny ({g:citadel_persona:nl:account_id}) je uvalena nízká priorita, a proto v tuto chvíli nemůže vyhledávat zápasy módu Líheň hrdinů."
+		"Citadel_PartySetMode_NoHighRangeFiveStack"				"Tvoje skupina má 5 členů s příliš různorodými dovednostmi. Když má skupina mezi svými členy větší rozptyl dovedností, než jaký je v zápasech běžně povolený, spojujeme ji s podobně různorodými skupinami. Jelikož má ale tvoje skupina 5 členů, není možné ji spojit s žádnými jinými skupinami. Pro vyhledání zápasu budeš tedy muset upravit složení nebo velikost své skupiny."
 
 		"Citadel_PartyInvite_ErrorTitle"						"Nepodařilo se odeslat pozvánku"
 		"Citadel_PartyInvite_FailedToGetResponse"				"Nepodařilo se navázat spojení se sítí hry Deadlock a pozvat požadovaného hráče. Zkus to znovu za pár minut."
@@ -1285,17 +1329,19 @@
 		"Citadel_Profile_Win_Short"								"V"
 		"Citadel_Profile_Loss_Short"							"P"
 		"Citadel_Profile_Statistics"							"Statistiky"
+		"Citadel_Profile_RankHistory"							"Historie hodnosti"
 		"Citadel_Profile_Stats_All"								"Všichni hrdinové"
 		"Citadel_Profile_Stats_TitleSection"					"Statistiky za celou dobu"
 		"Citadel_Profile_Stats_GamesPlayed"						"Odehrané zápasy"
-		"Citadel_Profile_Stats_GamesWon"						"Vyhrané zápasy"		
+		"Citadel_Profile_Stats_GamesWon"						"Vyhrané zápasy"
 		"Citadel_Profile_Stats_Kills"							"Zabití"
 		"Citadel_Profile_Stats_Assists"							"Asistence"
-		"Citadel_Profile_Stats_HeroDamage"						"Poškození hrdinů"		
-		"Citadel_Profile_Stats_ObjDamage"						"Poškození struktur"		
-		"Citadel_Profile_Stats_LastHits"						"Smrtící rány"		
-		"Citadel_Profile_Stats_Denies"							"Krádeže orbů"		
-		"Citadel_Profile_Stats_Healing"							"Léčení"		
+		"Citadel_Profile_Stats_HeroDamage"						"Poškození hrdinů"
+		"Citadel_Profile_Stats_ObjDamage"						"Poškození struktur"
+		"Citadel_Profile_Stats_LastHits"						"Smrtící rány"
+		"Citadel_Profile_Stats_Denies"							"Krádeže orbů"
+		"Citadel_Profile_Stats_Healing"							"Léčení"
+		"Citadel_Profile_Stats_Commends"						"Ocenění"
 		"Citadel_Profile_Stats_Networth"						"Sesbírané duše"
 		"Citadel_Profile_Stats_Value_Networth_Low"				"{i:game_networth}"
 		"Citadel_Profile_Stats_Value_Networth_High"				"{i:game_networth} tis."
@@ -1318,6 +1364,7 @@
 		"Citadel_MatchDetails_Report"							"N"
 		"Citadel_MatchDetails_ReportTooltip"					"Kliknutím nahlasíš tohoto hráče"
 		"Citadel_MatchDetails_Reported"							"Hráč byl nahlášen!"
+		"Citadel_MatchDetails_CommendTooltip"					"Kliknutím oceníš tohoto hráče"
 		"Citadel_MatchDetails_Team1NetWorth"					"{i:team1_networth} tis."
 		"Citadel_MatchDetails_Team2NetWorth"					"{i:team2_networth} tis."
 		"Citadel_MatchDetails_Team1Name"						"{i:team2_networth} tis."
@@ -1364,6 +1411,7 @@
 		"Citadel_ProfileCard_StatTitle_Wins"					"Vítězství"
 		"Citadel_ProfileCard_StatTitle_Kills"					"Zabití"
 		"Citadel_ProfileCard_StatTitle_GamesPlayed"				"Zápasy"
+		"Citadel_ProfileCard_StatTitle_Commends"				"Ocenění"
 
 		"Citadel_ProfileCard_StatValue_Int"						"{d:stat_value}"
 		"Citadel_ProfileCard_StatValue_Date"					"{t:s:stat_value}"
@@ -1389,7 +1437,7 @@
 		"Citadel_Replay_DownloadingPct"							"Stahování – {d:replay_progress} %"
 		"Citadel_Replay_DecompressPct"							"Dekomprimování – {d:replay_progress} %"
 		"Citadel_Replay_Delete"									"Odstranit záznam"
-		
+
 		"Citadel_Graph_Team1"							"Jantar"
 		"Citadel_Graph_Team2"							"Safír"
 		"Citadel_Graph_WeaponDamage"					"Fyzické poškození"
@@ -1464,8 +1512,8 @@
 		"CitadelHeroStats_SpiritPower_Impact"				"Dopad spirituální síly"
 		"CitadelHeroStats_SpiritPower_Desc"					"Spirituální síla ovlivňuje účinnost tvých schopností a předmětů."
 		"CitadelHeroStats_Weapon_Falloff"					"Efektivní dosah"
-	
-		// Hero Builds UI	
+
+		// Hero Builds UI
 		"Citadel_HeroBuilds_Title"						"Buildy hrdinů"
 		"Citadel_HeroBuilds_SelectedBuild_Title"		"Aktuální build:"
 		"Citadel_HeroBuilds_Browse_button"				"Otevřít nebo změnit build"
@@ -1513,9 +1561,9 @@
 
 		"Citadel_HeroBuilds_CurrenclyActive"			"Aktuálně používaný"
 		"Citadel_HeroBuilds_AbilityBuildTitle"			"Pořadí odemykání schopností"
-		"Citadel_HeroBuilds_AbilityBuildReset"			"Upravit"	
-		"Citadel_HeroBuilds_AbilityBuildInstructions"	"Pro určení doporučeného pořadí odemykání schopností klikni na tlačítko „Upravit“ a poté vylepši schopnosti v pořadí, v jakém se mají zobrazit uživatelům tvého buildu."	
-		
+		"Citadel_HeroBuilds_AbilityBuildReset"			"Upravit"
+		"Citadel_HeroBuilds_AbilityBuildInstructions"	"Pro určení doporučeného pořadí odemykání schopností klikni na tlačítko „Upravit“ a poté vylepši schopnosti v pořadí, v jakém se mají zobrazit uživatelům tvého buildu."
+
 		"Citadel_HeroBuilds_PublishBuildTitle"			"Zveřejnění buildu"
 		"Citadel_HeroBuilds_PublishBuildDesc"			"Tento build bude zveřejněn a sdílen se všemi ostatními hráči."
 		"Citadel_HeroBuilds_BuildNameTitle"				"Název buildu"
@@ -1536,10 +1584,10 @@
 		"Citadel_HeroBuilds_ErrorTitle"					"Chyba"
 		"Citadel_HeroBuilds_ValidateErrorTitle"			"Chyba při ukládání buildu"
 		"Citadel_HeroBuilds_ValidateErrorBody"			"Ujisti se, že tvůj build má název a popis a obsahuje nejméně jeden doporučený předmět."
-		"Citadel_HeroBuilds_FavoriteCount"				"{i:favorite_count}"		
-		"Citadel_HeroBuilds_DailyFavorite"				"Čerstvý"		
-		"Citadel_HeroBuilds_WeeklyFavorite"				"Populární"		
-		"Citadel_HeroBuilds_AllTimeFavorite"			"Top"		
+		"Citadel_HeroBuilds_FavoriteCount"				"{i:favorite_count}"
+		"Citadel_HeroBuilds_DailyFavorite"				"Čerstvý"
+		"Citadel_HeroBuilds_WeeklyFavorite"				"Populární"
+		"Citadel_HeroBuilds_AllTimeFavorite"			"Top"
 		"Citadel_HeroBuilds_New"						"Nové"
 		"Citadel_HeroBuilds_Old"						"Staré"
 		"Citadel_HeroBuilds_NameLabel"					"Název buildu"
@@ -1608,7 +1656,7 @@
 		// Item and Upgrade Modifiers
 
 
-			
+
 		"citadel_ability_sprint_roll"			"Sprint"
 		"modifier_citadel_sprint_start"			"Schovávání zbraně..."
 		"modifier_citadel_sprint_end"			"Vytahování zbraně..."
@@ -1626,7 +1674,7 @@
 
 		"citadel_ability_drone_boss_laser_beam"		"Bossův laser"
 
-		
+
 		"citadel_ability_dash"						"Výpad"
 		"citadel_ability_jump"						"Skok"
 		"citadel_ability_teleport"					"Teleportace"
@@ -1639,8 +1687,10 @@
 		"modifier_neutral_gold_pickup_aura/aura_target/timer"	"Sbírání nezajištěných duší"
 		"modifier_rejuv_pickup_aura/aura_target/timer"			"Sbírání týmového kamene života"
 		"modifier_early_gold_pickup_aura/aura_target/timer"		"Zabírání týmových duší"
-		"modifier_citadel_holding_golden_idol"  				"Jsi viditelný pro nepřátele! Odnes urnu k oltáři"							
+		"modifier_citadel_holding_golden_idol"  				"Odnes urnu k oltáři"
+		"modifier_citadel_holding_golden_idol_revealed"			"Jsi viditelný pro nepřátele! Odnes urnu k oltáři"
 		"modifier_citadel_returning_golden_idol"  				"Ukládání urny"
+		"modifier_citadel_idol_pickup_disabled"					"Sebrání urny duší je zakázáno"
 		"modifier_knocked_off_zipline_slow"						"Byl jsi shozen z dráhy"
 		"modifier_citadel_respawn_credit" 						"Úlomek kamene života"
 
@@ -1703,7 +1753,7 @@
 		"CITADEL_ABILITY_INVALID_NO_DAMAGE_TO_CLEAR"	"Žádné poškození k očištění"
 
 		"citadel_ability_interrupted"					"je přerušena schopností"
-		
+
 		"citadel_ability_quick_melee" "Úder"
 		"citadel_hint_zoom"			"Podržením <span class=\"hintTextEmphasis\">[{s:iv_attack2}]</span> přiblížíš pohled pro lepší zamíření."
 		"citadel_hint_slide"		"Podržením <span class=\"hintTextEmphasis\">[{s:duck}]</span> při sbíhání dolů po šikmé ploše se sklouzneš."
@@ -1717,7 +1767,7 @@
 		"citadel_hint_upgrade_ability"	"Podržením <span class=\"hintTextEmphasis\">[{s:show_scoreboard}]</span> a klikáním levým tlačítkem myši vylepšíš své schopnosti."
 		"citadel_hint_hero_testing_shop"	"Stiskem <span class=\"hintTextEmphasis\">[{s:citadel_open_hero_sheet}]</span> otevřeš obchod a budeš moci nastavit možnosti testování."
 		"citadel_hint_teleport"				"Chodec tvého týmu je pod útokem. Stiskem <span class=\"hintTextEmphasis\">[{s:key_teleport}]</span> se mu teleportuj na pomoc!"
-		
+
 		// Ability Hints
 		"citadel_hint_flamedash_boost" "Stiskem <span class=\"hintTextEmphasis\">[{s:key_innate_1}]</span> přidáš na rychlosti. Dojde tím však ke spotřebování části výdrže."
 		"citadel_hint_activate_wall" "Stiskem <span class=\"hintTextEmphasis\">[{s:iv_attack}]</span> vytvoříš zeď předčasně."
@@ -1750,7 +1800,7 @@
 		"survival_powerup_pickup"							"Přežití"
 		"casting_powerup_pickup"							"Sesílání"
 		"movement_powerup_pickup"							"Pohyb"
-		
+
 		"spirit_permanent_pickup_label"					"+2 body ke spirituální síle"
 		"firerate_permanent_pickup_label"				"+1,5 % k rychlosti střelby"
 		"ammo_permanent_pickup_label"					"+4 % k nábojům"
@@ -1798,7 +1848,7 @@
 		"citadel_settings_per_unit_hotkeys"				"Zkratky specifické pro hrdiny"
 		"citadel_Hotkeys_Tooltip_PerUnitHotkeys"		"Klávesové zkratky specifické pro hrdiny"
 		"citadel_settings_defaultkeybinds"				"Výchozí"
-		"citadel_ClearHeroHotkeyBindings"				"Resetovat na výchozí"		
+		"citadel_ClearHeroHotkeyBindings"				"Resetovat na výchozí"
 		"citadel_settings_chatwheel"					"Kolečko ukazovátka"
 		"chat_wheel_options"							"MOŽNOSTI KOLEČKA"
 		"citadel_settings_volume"						"Hlasitost"
@@ -1812,7 +1862,7 @@
 		"citadel_settings_musicvolume"					"Hlasitost v hlavní nabídce"
 		"citadel_settings_musicvolume_desc"				"Určuje hlasitost hudby v hlavní nabídce."
 		"citadel_settings_voicevolume"					"Hlasitost ostatních hráčů"
-		"citadel_settings_voicevolume_desc"				"Určuje hlasitost mikrofonů (resp. hlasů) ostatních hráčů."	
+		"citadel_settings_voicevolume_desc"				"Určuje hlasitost mikrofonů (resp. hlasů) ostatních hráčů."
 		"citadel_settings_gamevoicevolume"				"Hlasitost tvého vstupu"
 		"citadel_settings_gamevoicevolume_desc"			"Určuje vstupní hlasitost tvého mikrofonu."
 		"citadel_settings_playsoundinbackground" 		"Přehrávat zvuky na pozadí"
@@ -1944,12 +1994,12 @@
 		"citadel_settings_crosshair_pip_width"				"Šířka"
 		"citadel_settings_crosshair_pip_height"				"Výška"
 		"citadel_settings_crosshair_pip_border"				"Zobrazovat okraje čárek"
-		
+
 		"citadel_settings_crosshair_color"					"Barva"
 		"citadel_settings_crosshair_color_r"				"Červená"
 		"citadel_settings_crosshair_color_g"				"Zelená"
 		"citadel_settings_crosshair_color_b"				"Modrá"
-		
+
 		"citadel_settings_crosshair_visibility"				"Tečka"
 		"citadel_settings_crosshair_pip_opacity"			"Průhlednost čárek"
 		"citadel_settings_crosshair_dot_opacity"			"Průhlednost tečky"
@@ -2103,6 +2153,8 @@
 		"citadel_keybind_backwards"						"Pohyb vzad"
 		"citadel_keybind_left"							"Úkrok doleva"
 		"citadel_keybind_right"							"Úkrok doprava"
+		"citadel_keybind_up"							"Pohyb nahoru"
+		"citadel_keybind_down"							"Pohyb dolů"
 		"citadel_keybind_mantle"						"Skok/vyšplhání"
 		"citadel_keybind_attack"						"Střelba"
 		"citadel_keybind_ads"							"Přiblížení"
@@ -2332,10 +2384,9 @@
 		"kill_hype_FirstBlood"	"První krev"
 
 		"team_msg_Idol_Desc"	"Urna duší"
-		
-		//"team_msg_Winner_SubText"	"The Patrons favor you"
-		"Citadel_GameOver_Victory"	"Vítězství"
-		"Citadel_GameOver_Defeat"	"Porážka"
+
+		"Citadel_GameOver_Victory:g"	"#|ma|#Vítězství#|f|#Vítězství#|mi|#Vítězství#|n|#Vítězství"
+		"Citadel_GameOver_Defeat:g"		"#|ma|#Porážka#|f|#Porážka#|mi|#Porážka#|n|#Porážka"
 
 
 		"Citadel_LaneColorPurple"						"Fialová"
@@ -2350,8 +2401,8 @@
 		"Citadel_TeamMsg_TitanKilledTitle"				"Tvůj patron"
 
 		"Citadel_FlexSlot_Title"						"Odemčení flexibilního slotu"
-		"Citadel_FlexSlotUnlockedAllTier1"				"Byl ti odemčen flexibilní slot, protože došlo ke zničení všech <span class=\"FlexSlotObjectiveName\">nepřátelských strážců</span>"
-		"Citadel_FlexSlotUnlockedGenerator"				"Byl ti odemčen flexibilní slot, protože došlo ke zničení první <span class=\"FlexSlotObjectiveName\">nepřátelské svatyně</span>"
+		"Citadel_FlexSlotUnlockedAllTier1"				"Byl ti odemčen flexibilní slot, protože došlo ke zničení tří <span class=\"FlexSlotObjectiveName\">nepřátelských strážců</span>"
+		"Citadel_FlexSlotUnlockedGenerator"				"Byl ti odemčen flexibilní slot, protože došlo ke zničení obou <span class=\"FlexSlotObjectiveName\">nepřátelských svatyní</span>"
 		"Citadel_FlexSlotUnlockedAllTier2"				"Byl ti odemčen flexibilní slot, protože došlo ke zničení všech <span class=\"FlexSlotObjectiveName\">nepřátelských chodců</span>"
 		"Citadel_FlexSlotUnlockedKill2Tier2"			"Byl ti odemčen flexibilní slot, protože došlo ke zničení dvou <span class=\"FlexSlotObjectiveName\">nepřátelských chodců</span>"
 
@@ -2393,6 +2444,7 @@
 		"menu_getstarted"							"Úvod do hry"
 		"menu_bot_practice"							"Soukromý zápas s boty"
 		"menu_bot_custom"							"Vlastní zápas"
+		"menu_bot_hero_labs"						"Líheň hrdinů"
 		"menu_learn"								"Tutoriály"
 		"menu_resources"							"Zdroje"
 		"menu_training"								"Trénink"
@@ -2408,7 +2460,11 @@
 		"Citadel_Confirm_Discord_InMatch_Body"		"Pozvánku na Discord nemůžeš použít, zatímco se nacházíš ve skupině nebo ve vyhledávání zápasu."
 		"Citadel_Dashboard_Recommended"				"Doporučeno"
 
-		"Citadel_Commend_Toast"						"{s:commender} ({s:commender_hero}) ti dal ocenění!"
+		"Citadel_Commend_Toast_NoHero_Generic"		"{s:commender} ti dal ocenění"
+		"Citadel_Commend_Toast_Generic"				"{s:commender} ({s:commender_hero}) ti dal ocenění"
+		"Citadel_Commend_Toast_Friendly"			"{s:commender} ({s:commender_hero}) ti dal ocenění „Přátelský hráč“."
+		"Citadel_Commend_Toast_Teamwork"			"{s:commender} ({s:commender_hero}) ti dal ocenění „Týmový hráč“."
+		"Citadel_Commend_Toast_Skilled"				"{s:commender} ({s:commender_hero}) ti dal ocenění „Zkušený hráč“."
 
 		"menu_exit_db_page"							"Zpět"
 		"menu_settings"								"Nastavení"
@@ -2436,6 +2492,8 @@
 		"menu_play_lane_training_desc"				"Nauč se fungování a průběh rané fáze zápasu."
 		"menu_play_bots_easy_desc"					"Zahraj si soukromý zápas proti botům."
 		"menu_play_custom_game_desc"				"Vytvoř nebo se připoj do zápasu až pro 12 hráčů."
+		"menu_play_hero_labs_desc"					"Pomoz s testováním experimentálních nových hrdinů."
+		"menu_play_hero_labs_locked_desc"			"Pomoz s testováním experimentálních nových hrdinů. Odemkne se po odehrání 50 zápasů."
 		
 		"menu_play_get_started_time_est"			"4 minut"
 		"menu_play_sandbox_time_est"				"5 minut"
@@ -2452,14 +2510,17 @@
 		"menu_learn_incomplete"						"Nedokončen"
 		"menu_learn_completed"						"Dokončen"
 
+		"menu_hero_labs_unavailable"				"Uzamčeno"
+		"menu_hero_labs_schedule_title"				"Dostupné časy:"
+		"menu_hero_labs_schedule_times"				"{t:t:start_time} – {t:t:end_time}"
 		"menu_play_ranked"							"Hodnocený zápas"
 		"menu_play_ranked_desc"						"Zahraj si kompetitivní zápas proti podobně zdatným hráčům."
 		"menu_ranked_title"							"Hodnocený:"
 		"menu_ranked_schedule_title"				"Dostupné časy:"
 		"menu_ranked_unavailable"					"Uzamčeno"
-		"menu_ranked_unavailable_desc"				"Pro možnost vyhledávat hodnocené zápasy musíš odehrát 50 standardních zápasů"
-		"menu_ranked_schedule_weekdays"				"Od pondělí do čtvrtka:"
-		"menu_ranked_schedule_weekends"				"Od pátku do neděle:"
+		"menu_ranked_unavailable_desc"				"Pro odemčení hodnocených zápasů musíš odehrát 50 standardních zápasů"
+		"menu_ranked_schedule_weekdays_monfri"		"Od pondělí do pátku:"
+		"menu_ranked_schedule_weekends_satsun"		"Od soboty do neděle:"
 		"menu_ranked_schedule_alldays"				"Denní rozpis:"
 		"menu_ranked_schedule_timeplaceholder"		"{t:t:start_time} – {t:t:end_time}"
 		"menu_ranked_select_schedule"				"Vybrat rozpis"
@@ -2476,18 +2537,27 @@
 		"Citadel_SetSchedule_SetSuccessfully"		"Rozpis byl úspěšně nastaven"
 		"Citadel_ranked_scheduleModal_title"		"Rozpisy hodnocených zápasů"
 		"Citadel_ranked_scheduleModal_desc"			"Vyber si časové okno, které ti nejvíce vyhovuje.<br><br>Nezávisle na vybraném rozpisu budeš vždy připojen na nejbližší dostupný server."
-		"Citadel_ranked_scheduleModal_warning"		"Poznámka: Vybraný rozpis nebudeš moci změnit do příští relace hodnocených zápasů."
+		"Citadel_ranked_scheduleModal_warning"		"Poznámka: Vybraný rozpis nebudeš moci sedm dní změnit."
 		"Citadel_ranked_open"						"Otevřeno"
 		"Citadel_ranked_closed"						"Vyhledávání hodnocených zápasů je uzavřeno"
 		"Citadel_ranked_comingsoon"					"První hodnocené zápasy začnou v úterý 15. října ve 22.00"
 		"Citadel_ranked_schedule_explainer"			"Vyhledávání hodnocených zápasů bude dostupné pouze v určité časy, a před hraním musíš vybrat, které časy ti nejvíce vyhovují."
 
-		"Citadel_ranked_explainer_button"				"Co jsou hodnocené zápasy?"
-		"Citadel_ranked_explainer_title"				"Vyhledávání hodnocených zápasů"
-		"Citadel_ranked_explainer_desc"					"Hodnocené zápasy nabízí kompetitivnější zážitek ze hry Deadlock a lze si je představit jako výzvu, ve které se postavíš proti podobně zdatným hráčům a na základě svého výkonu získáš hodnost určující tvoji pozici v globálním potravinovém řetězci.<br><br>Tuto výzvu mohou hráči podstoupit každý týden, nicméně vyhledávání hodnocených zápasů je pro jednotlivé regiony otevřeno jen v určité časy."
-		"Citadel_ranked_howitworks_title"				"Jak to funguje?"
-		"Citadel_ranked_howitworks_desc"				"Všichni hráči začínají jako „kolemjdoucí“ – aby ses kvalifikoval na hodnost, musíš v rámci týdne odehrát sedm hodnocených zápasů. Na konci týdne je ti následně podle tvých dovedností přidělena hodnost, která také v podobě odznaku zkrášlí tvůj profil.<br><br>Pokud nebudeš mít na konci týdne odehráno sedm hodnocených zápasů, budeš degradován zpět na kolemjdoucího a tvá dosavadní hodnost (včetně odznaku) zůstane skrytá, dokud se v některém z následujících týdnů znovu nekvalifikuješ. Metriky tvých dovedností nicméně zůstanou zachovány a budou i nadále používány při vyhledávání hodnocených zápasů.<br><br>Celkem existuje jedenáct různých hodností, přičemž každá se skládá ještě z podhodností (od I do VI), které dále specifikují tvé umístění v této hodnosti."
-		"Citadel_ranked_rankedmedals"					"Hodnosti:"
+		"Citadel_ranked_explainer_button"			"Co jsou hodnocené zápasy?"
+		"Citadel_ranked_explainer_title"			"Hodnocené zápasy"
+		"Citadel_ranked_explainer_desc"				"Hodnocené zápasy nabízí kompetitivnější zážitek ze hry Deadlock a lze si je představit jako výzvu, ve které se postavíš proti podobně zdatným hráčům a na základě svého výkonu získáš hodnost určující tvoji pozici v globálním potravinovém řetězci.<br><br>Tuto výzvu mohou hráči podstoupit každý týden, nicméně vyhledávání hodnocených zápasů je otevřeno jen v určité časy."
+		"Citadel_ranked_howitworks_title"			"Jak to funguje?"
+		"Citadel_ranked_howitworks_desc"			"Všichni hráči začínají jako „kolemjdoucí“ – aby ses kvalifikoval na hodnost, musíš v rámci týdne odehrát sedm hodnocených zápasů. Na konci týdne je ti následně podle tvých dovedností přidělena hodnost, která také v podobě odznaku zkrášlí tvůj profil.<br><br>Pokud nebudeš mít na konci týdne odehráno sedm hodnocených zápasů, budeš degradován zpět na kolemjdoucího a tvá dosavadní hodnost (včetně odznaku) zůstane skrytá, dokud se v některém z následujících týdnů znovu nekvalifikuješ. Metriky tvých dovedností nicméně zůstanou zachovány a budou i nadále používány při vyhledávání hodnocených zápasů.<br><br>Celkem existuje jedenáct různých hodností, přičemž každá se skládá ještě z podhodností (od I do <Panel class=\"starIcon\"></Panel>), které dále specifikují tvé umístění v této hodnosti."
+		"Citadel_ranked_rankedmedals"				"Hodnosti"
+		"Citadel_ranked_subranks_explainer"			"Podhodnosti: I, II, III, IV, V a <Panel class=\"starIcon\"></Panel>"
+
+		"Citadel_ranked_explainer_note"				"Vzhled odznaků bude odhalen společně s přidělením prvních hodností v úterý 22. října."
+
+		"Citadel_ranked_result_title"				"Zpráva o hodnosti"
+		"Citadel_ranked_result_rankup"				"Navýšení hodnosti"
+		"Citadel_ranked_result_adjustment"			"Úprava hodnosti"
+		"Citadel_ranked_numGamesPlayed"				"{s:games_played} odehraných zápasů"
+		"Citadel_ranked_match_history"				"Historie zápasů:"
 
 		"Citadel_ranks_rank0"						"Kolemjdoucí"
 		"Citadel_ranks_rank1"						"Zasvěcenec"
@@ -2496,8 +2566,8 @@
 		"Citadel_ranks_rank4"						"Arkánista"
 		"Citadel_ranks_rank5"						"Obřadník"
 		"Citadel_ranks_rank6"						"Vyslanec"
-		"Citadel_ranks_rank7"						"Prorok"
-		"Citadel_ranks_rank8"						"Archón"
+		"Citadel_ranks_rank7"						"Archón"
+		"Citadel_ranks_rank8"						"Prorok"
 		"Citadel_ranks_rank9"						"Fantóm"
 		"Citadel_ranks_rank10"						"Nadčlověk"
 		"Citadel_ranks_rank11"						"Eternus"
@@ -2509,7 +2579,7 @@
 		"Citadel_subranks_5"						"V"
 		"Citadel_subranks_6"						"VI"
 
-		"Citadel_rank_phase_example"				"15.–21. října | 2024"
+		"Citadel_rank_phase_example"				"{t:s:popup_start_day} – {t:s:popup_end_day}"
 
 
 		"item_info_abilities"						"Schopnosti"
@@ -2535,10 +2605,10 @@
 		"SafeToAbandon_Text"						"Tento zápas je možné bezpečně opustit."
 
 		"ModIconTooltip_UnlockTier2"				"Odemkne se po zničení dvou nepřátelských chodců."
-		"ModIconTooltip_UnlockGuardians"			"Odemkne se po zničení dvojice strážců nepřátelské základny."	
-		"ModIconTooltip_UnlockGenerators"			"Odemkne se po zničení nepřátelské svatyně."	
+		"ModIconTooltip_UnlockGuardians"			"Odemkne se po zničení dvojice strážců nepřátelské základny."
+		"ModIconTooltip_UnlockGenerators"			"Odemkne se po zničení obou nepřátelských svatyní."
 		//"ModIconTooltip_UnlockTier3"				"Unlocked after your team destroys the enemy Patron's first form"
-		"ModIconTooltip_UnlockAllTier1"				"Odemkne se po zničení všech nepřátelských strážců."
+		"ModIconTooltip_UnlockAllTier1"				"Odemkne se po zničení tří nepřátelských strážců."
 		"ModIconTooltip_UnlockAllTier2"				"Odemkne se po zničení všech nepřátelských chodců."
 
 		"HeroesPageTitle"							"Hrdinové"
@@ -2560,11 +2630,12 @@
 		"MyRosterSaveAndBack"						"Uložit a zpět"
 		"MyRosterCancelForEveryone"					"Zrušit pro všechny ve skupině"
 		"MyRosterRosterEmpty"						"PRÁZDNÁ SOUPISKA"
-		"MyRosterRosterDesc"						"Abys mohl zahájit vyhledávání zápasu, musíš mít na soupisce nejméně 3 hrdiny."
+		"MyRosterRosterDesc"						"Abys mohl zahájit vyhledávání zápasu, musíš mít na soupisce nejméně tři hrdiny."
 		"MyRosterNoHeroDesc"						"Jeden z těchto hrdinů ti bude náhodně přiřazen na začátku zápasu."
 		"MyRosterNumHeroesInRoster"					"HRDINOVÉ NA SOUPISCE: {i:num_heroes_in_roster}"
 		"MyRosterNumHeroesInRosterSingular"			"HRDINOVÉ NA SOUPISCE: {i:num_heroes_in_roster}"
 		"MyRosterGreatForNewPlayers"				"Ideální pro nováčky"
+		"MyRosterHeroLabsHero"						"Líheň hrdinů"
 		"MyRosterAssignedTesting"					"Přiřazené testování"
 		"MyRosterAssignedOpenTesting"				"Otevřené testování"
 		"MyRosterChangeHero"						"Změnit hrdinu"
@@ -2574,11 +2645,12 @@
 		"MyRosterWaitForParty"						"Čeká se na členy skupiny..."
 		"MyRosterExit"								"Opuštění soupisky"
 		"MyRosterExitRosterConfirm"					"Opravdu chceš opustit soupisku? Soupisku tím opustí celá tvoje skupina."
-		"MyRosterPartyHighSkillRange"				"Dovednosti členů tvé skupiny jsou velmi různorodé, důsledkem čehož bude OBTÍŽNĚJŠÍ ZÁPAS."
-
+		"MyRosterPartyHighSkillRangeTitle"			"Skupina s příliš různorodými dovednostmi"		
+		"MyRosterPartyHighSkillRange"				"Tvoje skupina má mezi svými členy větší rozptyl dovedností, než jaký je v zápasech běžně povolený. V důsledku toho bude spojována POUZE s podobně různorodými skupinami.<br><br>To také znamená, že pro méně schopné členy skupiny budou zápasy obtížnější."
 		"MyRosterPartyReadyCount"					"Připravení: {d:party_ready_count}/{d:party_player_count}"
 		"MyRosterPartyMemberRoster"					"Soupisky s tímto hrdinou:"
 
+		"MyRosterRosterDesc_HeroLabs"				"Na soupisce musíš mít nejméně tři hrdiny, z nichž dva musí být obyčejní, netestovaní hrdinové."
 
 		//-----------------------------------------------------------------------------
 		// SANDBOX - DEMO CONTROLS
@@ -2631,7 +2703,7 @@
 		//-----------------------------------------------------------------------------
 		// TUTORIAL - LANE TRAINING
 		//-----------------------------------------------------------------------------
-		
+
 		"LaneTraining_Intro_Title"					"Vítej v <b>tréninku na lince</b>"
 		"LaneTraining_Intro_Desc"					"Cílem rané fáze zápasu je získat sílu pro zničení nepřátelských struktur.<br><br><span class=\"introHighlight\">Až tedy dokončíš úkoly uvedené napravo</span>, poskytneme ti <span class=\"introHighlight\">sílu tak nepředstavitelnou</span>, že budeš schopen pokořit strážce linky."
 		"LaneTraining_Intro_Button"					"Zahájit"
@@ -2639,7 +2711,7 @@
 		"LaneTraining_Outro_Title"					"Dokončil jsi <b>trénink na lince</b>"
 
 		//"ReportCard_PlayerDamage"					"Player Damage"
-		//"ReportCard_PlayerDamage_Desc"				"Damage you’ve dealt to enemy heroes"	
+		//"ReportCard_PlayerDamage_Desc"				"Damage you’ve dealt to enemy heroes"
 		//"ReportCard_PlayerDamage_Progress"			"<span class=\"yourscore\">{i:playerDamage}</span> / {i:playerDamageNextGoal}"
 
 		"ReportCard_LastHits"						"Smrtící rány"
@@ -2684,9 +2756,9 @@
 		"ReportCard_KillGuardian"					"Znič nepřátelského strážce"
 		"ReportCard_KillGuardian_Desc"				"Zneškodni všechny, kdo se ti postaví do cesty!"
 
-		//"NewPlayer_NewPlayerFlow"					"Learn to Play"				
+		//"NewPlayer_NewPlayerFlow"					"Learn to Play"
 		"NewPlayer_Skip"							"Přeskočit tutoriál"
-		//"NewPlayer_NewPlayerFlow_Desc"				"To get started, check out the tasks within <span class=\"introText\">Learn</span>."	
+		//"NewPlayer_NewPlayerFlow_Desc"				"To get started, check out the tasks within <span class=\"introText\">Learn</span>."
 		//"NewPlayer_GetStarted"						"Review <span class='TaskHighlight'>Get Started</span>"
 		//"NewPlayer_GetStarted_Time"					"4 mins"
 		//"NewPlayer_HeroSandbox"						"Try out your moves in <span class='TaskHighlight'>Hero Training</span>"
@@ -2694,7 +2766,7 @@
 		//"NewPlayer_LaneTraining"					"Learn the early game in <span class='TaskHighlight'>Lane Training</span>"
 		//"NewPlayer_LaneTraining_Time"				"8 mins"
 		//"NewPlayer_YouAreFinished"					"You're ready! Try a bot match within Practice or Play your first game!"
-		//"NewPlayer_Finish"							"End Tutorial"				
+		//"NewPlayer_Finish"							"End Tutorial"
 
 		"HeroTraining_Intro_Title"					"Vítej v <b>tréninku s hrdinou</b>"
 		"HeroTraining_Intro_Desc"					"Zde si vyzkoušíš pohyby a schopnosti svého hrdiny. Ovládnutí těchto základů je klíčem k dokončení rituálu."
@@ -2706,10 +2778,10 @@
 		"NPE_Heroes_Modal_Title"					"Doporučení hrdinové"
 		"NPE_Heroes_Modal_Desc"						"<span class=\"introText\">Zdá se, že hraješ poprvé!</span><br><br>Abychom ti usnadnili vstup do hry Deadlock, zvýraznili jsme několik hrdinů, kteří jsou ideální pro nové hráče."
 		"NPE_Heroes_Modal_Button"					"Chápu!"
-		
+
 		"NPE_Bots_Modal_Desc"						"<span class=\"introText\">Tvůj první zápas s boty!</span><br><br>Zápasy s boty jsou výborné pro seznámení se s hrdiny, ale neodráží spád a týmovou povahu zápasů se skutečnými hráči.<br><br>Až se tedy otrkáš, doporučujeme přejít do vyhledávání standardních zápasů."
 		"NPE_Bots_Modal_Button"						"Chápu!"
-		
+
 
 		"Sandbox_Tutorial_Movement"					"Vyzkoušej si ovládání"
 		"Sandbox_Tutorial_Movement_desc"			"Proveď všechny základní pohyby."
@@ -2735,7 +2807,7 @@
 		"Sandbox_Tutorial_Step_1"					"1. krok z 6"
 		"Sandbox_Tutorial_Step_2"					"2. krok z 6"
 		"Sandbox_Tutorial_Step_3"					"3. krok z 6"
-		"Sandbox_Tutorial_Step_4"					"4. krok z 6"		
+		"Sandbox_Tutorial_Step_4"					"4. krok z 6"
 		"Sandbox_Tutorial_Step_5"					"5. krok z 6"
 		"Sandbox_Tutorial_Step_6"					"6. krok z 6"
 
@@ -2759,7 +2831,7 @@
 
 		"BrowseItems_Title"							"Všechny předměty"
 		"BrowseItems_Desc"							"Projdi si kompletní katalog předmětů dostupných v obchodu a připrav se na další zápas!"
-		
+
 		"CreateBuilds_Title"						"Vytvoření buildu pro hrdinu {s:hero_name}"
 		"CreateBuilds_Desc"							"Vyber předměty v obchodu a přidej je mezi doporučené."
 
@@ -2810,7 +2882,7 @@
 		"AbilityButtonHint_CastIceDome"				"Seslat Objetí zimy"
 		"AbilityButtonHint_CastLifeDrain"			"Začít sát nepřítele"
 		"AbilityButtonHint_AlotCastLifeDrain"				"Začít léčit spojence"
-		
+
 		//-----------------------------------------------------------------------------
 		// Guided Bot Match
 		//-----------------------------------------------------------------------------
@@ -2831,7 +2903,7 @@
 		"citadel_bot_name_prefix"				"[Bot]"
 		"citadel_purchasemessage"				"<span class=\"ChatTarget\">{s:target} <span class=\"ChatPersona\"><span class=\"{s:player_color_class}\">{s:persona}</span></span></span> <span class=\"{s:purchaseText}\">{s:soldOrPurchasedText}</span> <span class=\"{s:message_color_class}\">{s:message}</span>"
 		"citadel_ping_wheel_message"			"{s:message}"
-	
+
 		"citadel_ping_wheel_disabled_while_dead"				"Nelze použít, když jsi mrtvý"
 		"citadel_all_chat_label_prefix"							"[VŠICHNI] "
 		"citadel_chatwheel_label_Care"							"Opatrně"
@@ -2937,6 +3009,9 @@
 		//"citadel_quick_response_respond_onmyway"					"Respond 'On my Way'"
 
 		// These are loc strings for ping response rules. Good for if we don't have VO for a response rule to show what the player would've said.
+		"ping_message"											"{s:pre_punctuation}{s:ping}{s:post_punctuation}"
+		"ping_pre_exclamation"									""
+		"ping_post_exclamation"									"!"
 		"ping_headed_yellow"									"Mířím na žlutou"
 		"ping_headed_blue"										"Mířím na modrou"
 		"ping_headed_green"										"Mířím na zelenou"

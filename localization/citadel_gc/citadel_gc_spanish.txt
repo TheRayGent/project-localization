@@ -180,19 +180,7 @@
 		"Steam_Citadel_RP_MainMenu"								"Menú principal"
 		"Steam_Citadel_RP_InParty"								"Menú principal - Grupo"
 		"Steam_Citadel_RP_FindingMatch"							"Buscando partida"
-		
-		// These Match Mode ("MM_") tokens are for the %param0% below.
-		"Steam_Citadel_RP_MM_Unranked"							"una partida"
-		"Steam_Citadel_RP_MM_Ranked"							"una partida"
-		"Steam_Citadel_RP_MM_PrivateLobby"						"una partida privada"
-		"Steam_Citadel_RP_MM_CoopBot"							"una partida cooperativa contra bots"
-		"Steam_Citadel_RP_MM_Tutorial"							"Tutorial"
-		"Steam_Citadel_RP_MM_Sandbox"							"modo de pruebas"
-		
-		"Steam_Citadel_InGame_Sandbox"		"Probando a {%param2%} en modo de pruebas"
-		"Steam_Citadel_InGame_Hero"			"En {%param1%} como {%param2%} durante %param0% min"
-		"Steam_Citadel_InGame"				"En {%param1%} durante %param0% min"
-		"Steam_Citadel_Spectating"			"Viendo {%param1%} durante %param0% min"
+"Steam_Citadel_InGame_Sandbox"		"Probando a {%param2%} en modo de pruebas"
 		"Steam_Citadel_RP_Online"			"En línea"
 
 		"Steam_RP_hero_vampire"			"Vampire"

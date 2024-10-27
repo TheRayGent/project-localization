@@ -182,17 +182,18 @@
 		"Steam_Citadel_RP_FindingMatch"							"Szukanie meczu"
 		
 		// These Match Mode ("MM_") tokens are for the %param0% below.
-		"Steam_Citadel_RP_MM_Unranked"							"Mecz"
-		"Steam_Citadel_RP_MM_Ranked"							"Mecz"
-		"Steam_Citadel_RP_MM_PrivateLobby"						"Mecz prywatny"
-		"Steam_Citadel_RP_MM_CoopBot"							"Kooperacyjny mecz z botami"
-		"Steam_Citadel_RP_MM_Tutorial"							"Samouczek"
-		"Steam_Citadel_RP_MM_Sandbox"							"Tryb testowy"
+		"Steam_Citadel_RP_MM_Unranked"							"Deadlock:"
+		"Steam_Citadel_RP_MM_Ranked"							"Rankingowy:"
+		"Steam_Citadel_RP_MM_HeroLabs"							"Laboratoria bohaterów:"
+		"Steam_Citadel_RP_MM_PrivateLobby"						"Poczekalnia:"
+		"Steam_Citadel_RP_MM_CoopBot"							"Boty:"
+		"Steam_Citadel_RP_MM_Tutorial"							"Samouczek:"
+		"Steam_Citadel_RP_MM_Sandbox"							"Tryb testowy:"
 		
 		"Steam_Citadel_InGame_Sandbox"		"Gra jako {%param2%} w trybie testowym"
-		"Steam_Citadel_InGame_Hero"			"{%param1%} jako {%param2%}, %param0% min"
-		"Steam_Citadel_InGame"				"{%param1%}, %param0% min"
-		"Steam_Citadel_Spectating"			"{%param1%}, %param0% min (w trybie widza)"
+		"Steam_Citadel_InGame_Hero"			"{%param1%} {%param2%} (%param0% min)"
+		"Steam_Citadel_InGame"				"{%param1%}  (%param0% min)"
+		"Steam_Citadel_Spectating"			"Ogląda mecz"
 		"Steam_Citadel_RP_Online"			"Online"
 
 		"Steam_RP_hero_vampire"			"Vampire"
@@ -325,6 +326,8 @@
 		"hero_bomber"			"Bomber"
 		"hero_shieldguy"		"Koleś z tarczą"
 		"hero_viper"			"Viper"
+		"hero_vandal"			"Vandal"
+		"hero_magician"			"Magician"
 
 		//-----------------------------------------------------------------------------
 		// Upgrades: Weapon

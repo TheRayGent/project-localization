@@ -1,7 +1,7 @@
-﻿"lang" 
-{ 
-	"Language" "italian" 
-	"Tokens" 
+﻿"lang"
+{
+	"Language" "italian"
+	"Tokens"
 	{
 		"Citadel_Dashboard_BuildVersion"	"Build {d:buildNumber} - {s:buildTime}"
 
@@ -12,7 +12,7 @@
 
 		"Citadel_GameName"										"Deadlock"
 		"Citadel_PlaytestWarningTitle"							"Build iniziale di sviluppo"
-		"Citadel_PlaytestWarningBody"							"Ti diamo il benvenuto in Deadlock. Il gioco è in fase iniziale di sviluppo, con molti elementi grafici ancora provvisori e un gameplay sperimentale. Tutti i feedback sono graditi!"
+		"Citadel_PlaytestWarningBody"							"Ti diamo il benvenuto in Deadlock. Il gioco è in fase di sviluppo, con molti elementi grafici ancora provvisori e un gameplay sperimentale. Tutti i feedback sono graditi!"
 
 		// Client only rich presence
 		"Citadel_RP_PendingReceived"							"Richiesta di amicizia in sospeso"
@@ -83,7 +83,7 @@
 		"GameUI_Disconnect_ConnectionTimedout"		"Impossibile stabilire una connessione con il server di gioco."
 		"GameUI_Disconnect_ServerIncompatible"		"La versione del server non è compatibile."
 		"Player_DisconnectReason_Idle"				"Disconnesso dal server di gioco. Sei stato lontano dalla tastiera (AFK) per troppo a lungo."
-		
+
 
 		"GameUI_Disconnect_LocalProblem_ManyRelays"	"Connessione persa anche dopo ripetuti tentativi con relè in differenti posizioni geografiche. Probabilmente si tratta di un problema con la tua connessione a internet."
 		"GameUI_Disconnect_LocalProblem_HostedServerPrimaryRelay"	"Il server di gioco ha perso la connessione con il relè principale che il client stava utilizzando."
@@ -151,7 +151,7 @@
 		"Citadel_ViewMatchID_Loading_Error"					"Impossibile assistere alla partita"
 		"Citadel_ViewMatchID_InFlight_Title"				"La partita è ancora in corso"
 		"Citadel_ViewMatchID_InFlight_Body"					"Questa partita è ancora in corso. Vuoi assistere a questa partita?"
-		
+
 		//Playtest User
 		"Citadel_PlaytestUser_SubmitProcessing"				"Attendi"
 		"Citadel_PlaytestUser_SubmitProcessingTitle"		"Suggerimento utente in corso"
@@ -240,6 +240,12 @@
 		"Citadel_ReportPlayer_Reason_Comments"				"Commenti:"
 		"Citadel_ReportPlayer_CommentPlaceholder"			"Descrivi il problema che hai avuto con questo giocatore"
 
+		"Citadel_CommendPlayer_PopupTitle"					"Elogia giocatore"
+		"Citadel_CommendPlayer_PopupDesc"					"Congratulati con qualcuno per il modo in cui ha giocato e informa il sistema di matchmaking che ti piacerebbe vederlo nelle partite future."
+		"Citadel_CommendPlayer_Friendly"					"Amichevole e divertente"
+		"Citadel_CommendPlayer_Teamwork"					"Buon gioco di squadra"
+		"Citadel_CommendPlayer_Skilled"						"Giocatore esperto"
+
 		"Citadel_SkipTutorial_Title"						"Salta il tutorial"
 		"Citadel_SkipTutorial_Body"							"Vuoi davvero saltare il tutorial? A meno che tu non abbia già giocato a questo titolo, non te lo consigliamo."
 
@@ -285,6 +291,8 @@
 		"Citadel_Notification_Paused_Message"						"La partita è stata messa in pausa"
 		"Citadel_Notification_Unpaused_Title"						"Ripresa"
 		"Citadel_Notification_Unpaused_Message"						"La partita sta per riprendere..."
+		"Citadel_Notification_About_To_Respawn_Title"				"Tempo di ricomparsa"
+		"Citadel_Notification_About_To_Respawn_Message"				"Stai per ricomparire..."
 		"Citadel_Hud_PreGame_Countdown"								"Avvio della partita..."
 		"Citadel_Hud_CantPause"										"Impossibile mettere in pausa per altri {i:pause_cooldown} secondi"
 		"Citadel_Hud_CantUnpause"									"Impossibile riprendere la partita per altri {i:pause_cooldown} secondi"
@@ -321,6 +329,11 @@
 
 		"Citadel_InvalidCast_NoFullClips"							"NESSUN CARICATORE COMPLETO DA RICARICARE"
 
+		"Citadel_MatchInfo_Mode_Ranked"								"Classificata"
+		"Citadel_MatchInfo_Mode_Standard"							"Standard"
+		"Citadel_MatchInfo_Mode_HeroLabs"							"Laboratorio degli eroi"
+		"Citadel_MatchInfo_Mode_CoopBot"							"Co-op"
+		"Citadel_MatchInfo_Mode_Private"							"Privata"
 
 		"Citadel_Reconnect_IncompatibleVersionTitle"				"Versione incompatibile"
 		"Citadel_Reconnect_IncompatibleVersionBody"					"La versione del client non è più valida per connettersi a questo server"
@@ -336,7 +349,7 @@
 		"Citadel_Item_Tooltip_CantAfford"							"Anime insufficienti"
 		//"Citadel_Player_Level_AbilityPoints"						"<span class=\"boldText\">1 Ability Point</span> gained at levels 2, 3, 5, 7, and each level after"
 		//"Citadel_Player_Level_AbilityUnlocks"						"<span class=\"boldText\">1 Ability Unlock</span> gained at levels 1, 2, 4, and 6"
-		//"Citadel_Player_Level_WeaponPower"							"<span class=\"boldText\">+{s:weapon_bonus}% Base Bullet Damage</span>, <span class=\"boldText\">+{s:melee_bonus}% Base Melee damage</span> and <span class=\"boldText\">+{s:health_bonus} Max Health </span>"		
+		//"Citadel_Player_Level_WeaponPower"							"<span class=\"boldText\">+{s:weapon_bonus}% Base Bullet Damage</span>, <span class=\"boldText\">+{s:melee_bonus}% Base Melee damage</span> and <span class=\"boldText\">+{s:health_bonus} Max Health </span>"
 		"Citadel_Player_Level_APShort"								"Punti abilità"
 		"Citadel_Player_Level_AbilityUnlocksShort"					"Sblocco dell'abilità"
 		"Citadel_Player_Level_PowerIncreases"						"Aumenti di potenza"
@@ -350,6 +363,7 @@
 		"Citadel_Player_Level_BaseHealth"							"Salute di base"
 		"Citadel_Player_Level_SpiritAmp"							"Amplificazione dei danni spirituali"
 		"Citadel_Player_Level_BulletResist"							"Resistenza alle pallottole"
+		"Citadel_Player_Level_TechResist"							"Resistenza spirituale"
 		"Citadel_Player_Level_WeaponRange"							"Gittata dell'arma"
 		"Citadel_Hero_Stats_Tooltip_WeaponPower"					"Bonus totali ai danni da pistola e corpo a corpo ottenuti acquistando oggetti nell'albero delle armi"
 		"Citadel_Hero_Stats_Tooltip_HealthMult"						"Bonus totali alla salute di base ottenuti acquistando oggetti nell'albero della vitalità"
@@ -382,14 +396,14 @@
 		"Citadel_ShopStats_ShopBonuses"								"Bonus del negozio"
 		"Citadel_ShopStats_Mods"									"Mod"
 		"Citadel_ShopStats_GoldenStatues"							"Statue dorate"
-		"Citadel_ShopStats_SpiritScaling"							"Potere spirituale"
+		"Citadel_ShopStats_SpiritScaling"							"Spirito"
 
 		"Citadel_Shop_ImbueTooltip_Title"							"Scegli una capacità da infondere"
 		"Citadel_Shop_ActivePlacementTooltip_Title"					"Scegli uno slot dell'abilità per completare l'acquisto"
-		"Citadel_Shop_ActivePlacementTooltip_Drag"					"Trascina e rilascia per riassegnare le abilità attualmente attivate"	
+		"Citadel_Shop_ActivePlacementTooltip_Drag"					"Trascina e rilascia per riassegnare le abilità attualmente attivate"
 
-		"Citadel_Shop_SellMaxItems_Title"							"Tutti gli slot sono pieni!"	
-		"Citadel_Shop_SellMaxItems_Desc"							"Per completare l'acquisto, seleziona una mod da <span class='highlight'>vendere a metà prezzo e sostituire</span>"	
+		"Citadel_Shop_SellMaxItems_Title"							"Tutti gli slot sono pieni!"
+		"Citadel_Shop_SellMaxItems_Desc"							"Per completare l'acquisto, seleziona una mod da <span class='highlight'>vendere a metà prezzo e sostituire</span>"
 		"Citadel_Shop_SellMaxItems_SellButton"						"Vendi"
 
 		"Citadel_Shop_AbilityisImbued"								"L'abilità è infusa"
@@ -472,7 +486,10 @@
 		"Citadel_Play_RankedNoScheduleDesc"					"Devi selezionare una fascia oraria programmata prima di poter giocare in modalità classificata."
 
 		"Citadel_RankedGames_Played"						"{i:ranked_games_played}/{i:ranked_games_required} partite giocate"
-		"Citadel_RankedGames_PlayedQualified"				"Qualificate per la modalità classificata"
+		"Citadel_RankedGame_Played_desc"					"Partite qualificanti per ottenere un badge del grado"
+		"Citadel_RankedGames_PlayedQualified"				"Il tuo grado verrà calcolato in base alle partite aggiuntive"
+		"Citadel_RankedGames_Qualified1"						"Le partite aggiuntive giocate influiranno sul tuo grado finale"
+		"Citadel_RankedGames_Qualified2"						"Il grado finale verrà assegnato in data: {t:s:end_day}"
 
 		"Citadel_Play_BotsOfflineTitle"				"Bot temporaneamente offline"
 		"Citadel_Play_BotsOfflineText"				"I bot sono temporaneamente disabilitati, riprova più tardi."
@@ -561,7 +578,7 @@
 		"Citadel_PrivateLobby_SwapTeamsTooltip"						"Scambia i membri tra le due squadre, mantenendo le stesse corsie"
 		"Citadel_PrivateLobby_RandomizeTeams"						"Mescola tutti i giocatori"
 		"Citadel_PrivateLobby_ShuffleTeamsTooltip"					"Assegna in modo casuale i giocatori all'interno della lobby tra le due diverse squadre"
-		"Citadel_PrivateLobby_ShuffleTeams"							"Mescola i giocatori nella squadra"		
+		"Citadel_PrivateLobby_ShuffleTeams"							"Mescola i giocatori nella squadra"
 		"Citadel_PrivateLobby_ShuffleLanesTooltip"					"Assegna in modo casuale i giocatori delle squadre su corsie diverse"
 
 		"Citadel_ServerRegion_0"									"Selezione automatica della regione"
@@ -600,11 +617,11 @@
 		"Citadel_Party_CancelMM"									"Annulla"
 		"Citadel_Party_NotConnectedToGC"							"Non connesso alla rete di Deadlock"
 		"Citadel_Party_PlayerLabel"									"Giocatore"
-		"Citadel_Party_SpectatorLabel"								"Spettatore"	
+		"Citadel_Party_SpectatorLabel"								"Spettatore"
 		"Citadel_Party_Or"											"O"
 		"Citadel_Party_ReadyUp"										"Pronto"
 		"Citadel_Party_RolePlayer"									"Giocatore"
-		"Citadel_Party_RoleSpectator"								"Spettatore"	
+		"Citadel_Party_RoleSpectator"								"Spettatore"
 		"Citadel_Party_CreatePartyTitle"							"Creazione gruppo in corso"
 		"Citadel_Party_CreatePartyText"								"Attendi"
 		"Citadel_Party_JoinPartyTitle"								"Unione al gruppo in corso"
@@ -637,7 +654,7 @@
 		"Citadel_AcceptedInvitation_Title"							"Invito accettato"
 		"Citadel_Party_SetMatchModeTitle"							"Impostazione della modalità gruppo"
 		"Citadel_Party_SetMatchModeText"							"Attendi mentre configuriamo il tuo gruppo"
-		"Citadel_AcceptedInvitation_Name"							"{g:citadel_persona:accepted_invitation} ha accettato il tuo invito"		 
+		"Citadel_AcceptedInvitation_Name"							"{g:citadel_persona:accepted_invitation} ha accettato il tuo invito"
 		"Citadel_Party_KickedByTitle"								"Espulso dal gruppo"
 		"Citadel_Party_KickedByText"								"{g:citadel_persona:kicked_by_account} ti ha espulso dal gruppo"
 		"Citadel_Party_DraftEndedByTitle"							"Partita annullata"
@@ -659,8 +676,8 @@
 		"Citadel_PartyInviteFriend_InvitesFull"						"Troppi membri"
 		"Citadel_JoinParty_Title"									"Unisciti al gruppo"
 		"Citadel_JoinParty_Desc"									"Se hai ricevuto un codice gruppo, inseriscilo qui sotto."
-		"Citadel_JoinParty_Prompt"									"ID del gruppo"	
-		"Citadel_Party_Invites"										"Inviti al gruppo"
+		"Citadel_JoinParty_Prompt"									"ID del gruppo"
+		"Citadel_Party_Invites:p{party_invites}"					"<span class=\"InviteCount\">{d:party_invites} </span><span class=\"InviteHeaderText\">invito al gruppo</span>#|#<span class=\"InviteCount\">{d:party_invites} </span><span class=\"InviteHeaderText\">inviti al gruppo</span>"
 		"Citadel_PartyStartMatch"									"Inizia la partita"
 		"Citadel_PartyFindMatch"									"Avvia la ricerca"
 		"Citadel_Party_CreateEasyBot"								"Crea un gruppo a cui invitare i tuoi amici per giocare insieme contro i bot con una difficoltà bassa"
@@ -686,6 +703,7 @@
 
 		"Citadel_RosterMode_Party_Matchmaking"						"Gioca a Deadlock"
 		"Citadel_RosterMode_Party_RankedMatchmaking"				"Gioca una partita classificata"
+		"Citadel_RosterMode_Party_HeroLabsMatchmake"					"Gioca al laboratorio degli eroi"
 		"Citadel_RosterMode_Party_CoopBotMM"						"Gioca contro i bot"
 		"Citadel_RosterMode_Party_PrivateBotEasy"					"Partita di gruppo privata contro i bot - Facile"
 		"Citadel_RosterMode_Party_PrivateBotMedium"					"Partita di gruppo privata contro i bot - Media"
@@ -697,6 +715,7 @@
 
 		"Citadel_RosterMode_Matchmaking"							"Gioca a Deadlock"
 		"Citadel_RosterMode_RankedMatchmaking"						"Gioca una partita classificata"
+		"Citadel_RosterMode_HeroLabsMatchmaking"					"Gioca al laboratorio degli eroi"
 		"Citadel_RosterMode_CoopBotMM"								"Gioca contro i bot"
 		"Citadel_RosterMode_PrivateBotEasy"							"Partita privata contro i bot - Facile"
 		"Citadel_RosterMode_PrivateBotMedium"						"Partita privata contro i bot - Media"
@@ -726,6 +745,9 @@
 		"Citadel_Roster_Instructions_Desc"							"Seleziona un minimo di tre eroi; ti verrà assegnato automaticamente uno di questi eroi all'inizio della partita.<br><br>Puoi contrassegnare gli eroi come <span class='selected'><b>candidati</b></span>, <span class='priority'><b>prioritari</b></span> o ad <span class='high_priority'><b>alta priorità</b></span> per aumentare le probabilità che ti venga assegnato quell'eroe."
 		"Citadel_Roster_Instructions_Select"						"<span class='keybind'>{s:iv_attack}</span> Per selezionare un eroe"
 		"Citadel_Roster_Instructions_Prefer"						"<span class='keybind'>{s:iv_attack2}</span> Per passare da <b>priorità</b> ad <b>alta priorità</b>"
+
+		"Citadel_Roster_Instructions_Title_HeroLabs"				"Laboratorio degli eroi"
+		"Citadel_Roster_Instructions_Desc_HeroLabs"					"Mettiti in coda per giocare come o contro nuovi eroi sperimentali.<br><br>Seleziona un minimo di tre eroi, <b>due dei quali devono essere eroi standard, non sperimentali.</b> I giocatori avranno più probabilità di ricevere un eroe sperimentale dal loro roster in base a quanto tempo è passato dall'ultima volta che hanno giocato con un eroe sperimentale."
 
 		"Citadel_ViewMatchID_Title"									"ID partita"
 		"Citadel_ViewMatchID_Desc"									"Inserisci un ID partita per visualizzare i dettagli della partita"
@@ -805,7 +827,7 @@
 		//"Citadel_HUD_LevelReward_BulletResist"						"Spirit Damage"
 		//"Citadel_HUD_LevelReward_WeaponRange"						"Spirit Damage"
 		"Citadel_HUD_LevelReward_NextRewardsLabel"					"Prossime ricompense:"
-		
+
 		"Citadel_Hud_KillFeedNone"									"<Nessuno>"
 		"Citadel_Hud_KillFeedTrooper"								"Soldato n. {i:unit_num}"
 		"Citadel_Hud_KillFeedSuperNeutral"							"Il Guardiano del tempio"
@@ -857,7 +879,7 @@
 		"Objective_Enemy_ShieldGenerator"							"Santuario nemico"
 		"Objective_Team1_ShieldGenerator"							"Santuario dell'ambra"
 		"Objective_Team2_ShieldGenerator"							"Santuario dello zaffiro"
-		
+
 		"Objective_Friendly_Final"						"Patrono alleato (indebolito)"
 		"Objective_Enemy_Final"							"Patrono nemico (indebolito)"
 		"Objective_Team1_Final"							"Patrono dell'ambra (indebolito)"
@@ -868,8 +890,8 @@
 
 		"Citadel_Team1_Name"							"La Mano d'ambra"
 		"Citadel_Team2_Name"							"La Fiamma dello zaffiro"
-		"Citadel_Team1_Name_Uppercase"					"LA MANO D'AMBRA"
-		"Citadel_Team2_Name_Uppercase"					"LA FIAMMA DELLO ZAFFIRO"
+		"Citadel_Team1_Name_Uppercase:n"					"#|f|#LA MANO D'AMBRA"
+		"Citadel_Team2_Name_Uppercase:n"					"#|f|#LA FIAMMA DELLO ZAFFIRO"
 
 		"Citadel_Mod_Tooltip_Passive"									"Passiva"
 		"Citadel_Mod_Tooltip_Active"									"Attiva"
@@ -889,6 +911,7 @@
 
 
 		"Citadel_HUD_Damage_TooFar"									"Troppo lontano"
+		"Citadel_HUD_Damage_TooLow"									"Troppo in basso"
 		"Citadel_HUD_Damage_Invulnerable"							"Protetto"
 		"Citadel_HUD_Damage_NoTroopers"								"Servono soldati"
 		"Citadel_HUD_Damage_Resistant"								"Resistente"
@@ -915,7 +938,7 @@
 		"Citadel_HUD_DamageReport_DamageDealt"						"Danni inflitti"
 		"Citadel_HUD_DamageReport_TopDamageSources:p{num_damage_rows}"	"Fonte di danni principale#|#{i:num_damage_rows} fonti di danni principali"
 		"Citadel_HUD_DamageReport_ShowMore"							"Mostra altro"
-		
+
 		"Citadel_HUD_DamageReport_LastRespawn"						"Vita attuale"
 		"Citadel_HUD_DamageReport_Time600"							"10 minuti"
 		"Citadel_HUD_DamageReport_Time300"							"5 minuti"
@@ -934,7 +957,7 @@
 		"Citadel_HUD_DamageReport_DamagePercentAbility"				"{i:ability_damage_percent}%"
 
 		"Citadel_HUD_Impact_Kill"									"Uccisione"
-		"Citadel_HUD_Impact_Assist"									"Assist<br>uccisione"		
+		"Citadel_HUD_Impact_Assist"									"Assist<br>uccisione"
 
 		"Citadel_PartyChat_Title"									"Chat di gruppo"
 		"Citadel_PartyChat_VoiceAndText"							"Chat vocale e di testo"
@@ -943,7 +966,7 @@
 		"Citadel_ChatType_Disabled"									"Disabilitata"
 		"Citadel_ChatType_AllTeam"									"Tutta la squadra"
 		"Citadel_ChatType_PartyOnly"								"Solo il gruppo"
-		
+
 		"Citadel_HUD_DamageRows_DamageName"							"{s:damage_name}"
 		"Citadel_HUD_DamageRows_DamageValue"						"{i:damage_done}"
 		"Citadel_HUD_DamageRows_Hits:p{hit_count}"					"({i:hit_count} colpo)#|#({i:hit_count} colpi)"
@@ -993,6 +1016,9 @@
 		"Citadel_PlayerContextMenu_AudioVolume"						"Volume audio"
 		"Citadel_PlayerContextMenu_EmptyMenu"						"--"
 
+		"Citadel_PostGame_CopyMatchID"								"Copia ID partita"
+		"Citadel_PostGame_CopyMatchIDSuccess"						"Copiato"
+
 		"Citadel_PlayerCard_FavoriteHero"							"Eroe preferito"
 
 		"Citadel_Party_Context_Invite"								"Invita amici"
@@ -1005,6 +1031,9 @@
 		"Citadel_Party_Leave"										"Esci dal gruppo"
 		"Citadel_Party_Report"										"Segnala"
 		"Citadel_Party_Reported"									"Segnalato"
+
+		"Citadel_Party_Commend"										"Elogia"
+		"Citadel_Party_Commended"									"Elogiato"
 
 		"Citadel_PlayerList_Teammates"								"Compagni di squadra"
 		"Citadel_PlayerList_Enemy"									"Squadra nemica"
@@ -1061,7 +1090,7 @@
 		"Citadel_StartMatchmaking_PermanentBan"						"Hai ricevuto un ban permanente da questa modalità"
 		"Citadel_StartMatchmaking_RankedMMNotOpen"					"Il matchmaking classificato non è attualmente abilitato per la fascia selezionata"
 		"Citadel_StartMatchmaking_RankedNotUnlocked"				"Non hai ancora sbloccato il matchmaking classificato"
-		"Citadel_StartMatchmaking_NoRankedWhileInLowPri"			"Il matchmaking classificato non è consentito quando la priorità è bassa"
+		"Citadel_StartMatchmaking_NoRankedWhileInLowPri"			"Il matchmaking classificato non è consentito quando sei in bassa priorità"
 		"Citadel_StartMatchmaking_NoRankedWhileCommsBanned"			"Il matchmaking classificato non è consentito quando le comunicazioni sono vietate"
 		"Citadel_StartMatchmaking_NoRankedWhileReportBanned"		"Il matchmaking classificato non è consentito quando sei stato bannato dalle segnalazioni"
 		"Citadel_StartMatchmaking_TooManyPlayersOnTeam"				"Ci sono troppi giocatori nella stessa squadra"
@@ -1073,12 +1102,15 @@
 		"Citadel_StartMatchmaking_InvalidHeroSelection"				"Non hai selezionato eroi validi per il matchmaking."
 		"Citadel_StartMatchmaking_HeroRosterTooPopular"				"Il tuo roster di eroi contiene solo eroi già in uso"
 		"Citadel_StartMatchmaking_NoRegionPings"					"Impossibile comunicare con Steam Datagram Relay. Se sei connesso a internet, il problema è solitamente dovuto a un firewall, all'MTU o alla tua connessione a internet."
+		"Citadel_StartMatchmaking_HeroLabsMMNotOpen"				"Il matchmaking del laboratorio degli eroi non è attualmente disponibile."
+		"Citadel_StartMatchmaking_HeroLabsNotUnlocked"				"Non hai ancora sbloccato il matchmaking del laboratorio degli eroi."
+		"Citadel_StartMatchmaking_NoHeroLabsWhileInLowPri"			"Il matchmaking del laboratorio degli eroi non è consentito quando sei in bassa priorità."
 		"Citadel_StopMatchMaking_FailedToGetResponse"				"Il matchmaking si è interrotto. Impossibile ottenere una risposta dal coordinatore del gioco."
 		"Citadel_StopMatchMaking_GeneralError"						"Il matchmaking non è riuscito. Riprova."
 		"Citadel_LeaveLobby_FailedToGetResponse"					"Impossibile interrompere il matchmaking. Riprova."
 		"Citadel_AlreadyInGame"										"Impossibile avviare il matchmaking perché sei già in una partita. Abbandona la partita attuale per avviarne un'altra."
 		"Citadel_Dashboard_Matchmaking_SearchingForMatch"			"Ricerca di una partita"
-		"Citadel_Dashboard_Matchmaking_SearchingForBotMatchPlayers"	"PARTITA CONTRO I BOT (COOP): in attesa dei giocatori"
+		"Citadel_Dashboard_Matchmaking_SearchingForBotMatchPlayers"	"PARTITA CONTRO I BOT (CO-OP): in attesa dei giocatori"
 		"Citadel_Dashboard_Matchmaking_SearchingForBotMatchTime"	"PARTITA CONTRO I BOT (CO-OP): la partita inizia tra {s:coop_time_remaining}"
 		"Citadel_Dashboard_Matchmaking_UsersInQueue"				"{s:users_in_queue} giocatori in coda"
 		"Citadel_Dashboard_Matchmaking_UsersInQueue_Single"			"{s:users_in_queue} giocatori in coda"
@@ -1089,7 +1121,7 @@
 		"Citadel_IdleMatchmaking_IdleTimerExpired_Body"				"Non abbiamo rilevato alcuna attività nella coda del matchmaking per troppo tempo, muovi il mouse per mantenere la tua posizione in coda!"
 		"Citadel_IdleMatchmaking_Dialog_Title"						"Matchmaking inattivo"
 		"Citadel_IdleMatchmaking_Dialog_Body"						"Al momento sei in matchmaking, ma non sembra che tu sia davanti al tuo computer. Muovi il mouse o riceverai un'espulsione dal matchmaking."
-		
+
 		"Citadel_Dashboard_EnterMatchmaking"						"Accedi\nal matchmaking"
 		"Citadel_Dashboard_Roster_HeroTooPopular"					"Tutti gli eroi selezionati sono già in coda"
 		"Citadel_Dashboard_Roster_MissingHeroes"					"<span class=\"rosterErrorText\">Devi selezionare 3 eroi nel roster per entrare nel matchmaking</span>"
@@ -1118,7 +1150,15 @@
 		"Citadel_Dashboard_ShowAnnounceTooltip"						"Mostra annunci"
 		"Citadel_Dashboard_CloseAnnounceTooltip"					"Nascondi annunci"
 		"Citadel_Dashboard_ViewLibrary"								"Visualizza la Biblioteca"
-
+		"Citadel_Dashboard_ReloadPageTooltip"						"Ricarica la pagina corrente"
+		"Citadel_Dashboard_Status_Mode_Unranked"					"Partita standard"
+		"Citadel_Dashboard_Status_Mode_Ranked"						"Partita classificata"
+		"Citadel_Dashboard_Status_Mode_HeroLabs"					"Partita del laboratorio degli eroi"
+		"Citadel_Dashboard_Status_Mode_Private"						"Partita privata"
+		"Citadel_Dashboard_Status_Mode_Coop"						"Partita co-op contro i bot"
+		
+		"Citadel_Dashboard_ShowHeroLabHeroes"						"Mostra eroi sperimentali"
+		
 		"Citadel_Watch_Title"										"Guarda le partite"
 		"Citadel_Watch_Featured"									"Partite in evidenza"
 		"Citadel_Watch_Loading"										"Caricamento..."
@@ -1206,7 +1246,7 @@
 		"Citadel_PartyAction_TooBusy"							"Al momento la rete di Deadlock è troppo occupata per elaborare questa azione. Riprova tra poco."
 		"Citadel_PartyAction_RateLimited"						"Hai effettuato troppi tentativi in un breve lasso di tempo. Attendi un attimo e riprova."
 		"Citadel_PartyAction_AlreadyDrafting"					"Il gruppo ha già iniziato una partita. Devi interrompere la partita in corso prima di iniziarne un'altra."
-		
+
 		"Citadel_PartySetMode_ErrorTitle"						"Errore"
 		"Citadel_PartySetMode_FailedToGetResponse"				"In questo momento è impossibile contattare la rete di Deadlock. Riprova tra qualche minuto."
 		"Citadel_PartySetMode_InternalError"					"Si è verificato un errore interno imprevisto. Riprova tra qualche minuto."
@@ -1224,7 +1264,9 @@
 		"Citadel_PartySetMode_PlayerPermaBanned"				"Un membro del tuo gruppo {g:citadel_persona:nl:account_id} è permanentemente bandito dal gioco in questa modalità"
 		"Citadel_PartySetMode_CannotLeavePrivate"				"Al momento le lobby private non possono cambiare modalità"
 		"Citadel_PartySetMode_FiveStacksNotAllowed"				"Al momento i gruppi da cinque giocatori non sono ammessi al matchmaking. Riprova con un gruppo più grande o più piccolo."
-
+		"Citadel_PartySetMode_HeroLabsMMNotOpen"				"Il matchmaking del laboratorio degli eroi non è attualmente disponibile."
+		"Citadel_PartySetMode_HeroLabsNotUnlocked"				"Un membro del tuo gruppo {g:citadel_persona:nl:account_id} non è attualmente idoneo per il matchmaking del laboratorio degli eroi."
+		"Citadel_PartySetMode_NoHeroLabsWhileInLowPri"			"Un membro del tuo gruppo {g:citadel_persona:nl:account_id} è in bassa priorità e non può quindi unirsi al matchmaking del laboratorio degli eroi."
 		"Citadel_PartyInvite_ErrorTitle"						"Impossibile inviare l'invito"
 		"Citadel_PartyInvite_FailedToGetResponse"				"In questo momento è impossibile contattare la rete di Deadlock e invitare l'utente indicato. Riprova tra qualche minuto."
 		"Citadel_PartyInvite_InternalError"						"Si è verificato un errore interno durante l'invito dell'utente nel gruppo"
@@ -1285,17 +1327,19 @@
 		"Citadel_Profile_Win_Short"								"V"
 		"Citadel_Profile_Loss_Short"							"S"
 		"Citadel_Profile_Statistics"							"Statistiche"
+		"Citadel_Profile_RankHistory"							"Cronologia gradi"
 		"Citadel_Profile_Stats_All"								"Tutti gli eroi"
 		"Citadel_Profile_Stats_TitleSection"					"Statistiche globali"
 		"Citadel_Profile_Stats_GamesPlayed"						"Partite giocate"
-		"Citadel_Profile_Stats_GamesWon"						"Partite vinte"		
+		"Citadel_Profile_Stats_GamesWon"						"Partite vinte"
 		"Citadel_Profile_Stats_Kills"							"Uccisioni"
 		"Citadel_Profile_Stats_Assists"							"Assist"
-		"Citadel_Profile_Stats_HeroDamage"						"Danni agli eroi"		
-		"Citadel_Profile_Stats_ObjDamage"						"Danni agli obiettivi"		
-		"Citadel_Profile_Stats_LastHits"						"Colpi di grazia"		
-		"Citadel_Profile_Stats_Denies"							"Negazioni"		
-		"Citadel_Profile_Stats_Healing"							"Guarigione"		
+		"Citadel_Profile_Stats_HeroDamage"						"Danni agli eroi"
+		"Citadel_Profile_Stats_ObjDamage"						"Danni agli obiettivi"
+		"Citadel_Profile_Stats_LastHits"						"Colpi di grazia"
+		"Citadel_Profile_Stats_Denies"							"Negazioni"
+		"Citadel_Profile_Stats_Healing"							"Guarigione"
+		"Citadel_Profile_Stats_Commends"						"Elogi"
 		"Citadel_Profile_Stats_Networth"						"Anime raccolte"
 		"Citadel_Profile_Stats_Value_Networth_Low"				"{i:game_networth}"
 		"Citadel_Profile_Stats_Value_Networth_High"				"{i:game_networth}k"
@@ -1306,7 +1350,7 @@
 		"Citadel_Social_Party"									"Gruppo"
 		"Citadel_Social_Invite"									"Invita"
 
-		"Citadel_HeroPage_Sandbox"								"Prova eroi"
+		"Citadel_HeroPage_Sandbox"								"Prova eroe"
 		"Citadel_HeroPage_BaseStats"							"STATISTICHE DI BASE"
 		"Citadel_HeroPage_PlayerStats"							"Statistiche del giocatore"
 		"Citadel_HeroPage_MissingVideos"						"Al momento non sono disponibili filmati per le abilità dell'eroe"
@@ -1318,6 +1362,7 @@
 		"Citadel_MatchDetails_Report"							"S"
 		"Citadel_MatchDetails_ReportTooltip"					"Clicca per segnalare il giocatore"
 		"Citadel_MatchDetails_Reported"							"Giocatore segnalato!"
+		"Citadel_MatchDetails_CommendTooltip"					"Clicca per elogiare il giocatore"
 		"Citadel_MatchDetails_Team1NetWorth"					"{i:team1_networth}k"
 		"Citadel_MatchDetails_Team2NetWorth"					"{i:team2_networth}k"
 		"Citadel_MatchDetails_Team1Name"						"{i:team2_networth}k"
@@ -1364,6 +1409,7 @@
 		"Citadel_ProfileCard_StatTitle_Wins"					"Vittorie"
 		"Citadel_ProfileCard_StatTitle_Kills"					"Uccisioni"
 		"Citadel_ProfileCard_StatTitle_GamesPlayed"				"Partite"
+		"Citadel_ProfileCard_StatTitle_Commends"				"Elogi"
 
 		"Citadel_ProfileCard_StatValue_Int"						"{d:stat_value}"
 		"Citadel_ProfileCard_StatValue_Date"					"{t:s:stat_value}"
@@ -1389,7 +1435,7 @@
 		"Citadel_Replay_DownloadingPct"							"Download in corso: {d:replay_progress}%"
 		"Citadel_Replay_DecompressPct"							"Decompressione in corso: {d:replay_progress}%"
 		"Citadel_Replay_Delete"									"Elimina replay"
-		
+
 		"Citadel_Graph_Team1"							"Ambra"
 		"Citadel_Graph_Team2"							"Zaffiro"
 		"Citadel_Graph_WeaponDamage"					"Danni da pistola"
@@ -1464,8 +1510,8 @@
 		"CitadelHeroStats_SpiritPower_Impact"				"Impatto del potere spirituale"
 		"CitadelHeroStats_SpiritPower_Desc"					"Il potere spirituale aumenta l'efficacia delle tue abilità e dei tuoi oggetti."
 		"CitadelHeroStats_Weapon_Falloff"					"Gittata di riduzione dei danni"
-	
-		// Hero Builds UI	
+
+		// Hero Builds UI
 		"Citadel_HeroBuilds_Title"						"Build degli eroi"
 		"Citadel_HeroBuilds_SelectedBuild_Title"		"La mia build corrente:"
 		"Citadel_HeroBuilds_Browse_button"				"Visualizza o modifica build"
@@ -1513,9 +1559,9 @@
 
 		"Citadel_HeroBuilds_CurrenclyActive"			"Attiva"
 		"Citadel_HeroBuilds_AbilityBuildTitle"			"Ordine dei punti abilità"
-		"Citadel_HeroBuilds_AbilityBuildReset"			"Modifica"	
-		"Citadel_HeroBuilds_AbilityBuildInstructions"	"Per impostare l'ordine di potenziamento delle abilità consigliato, premi il pulsante di modifica, quindi potenzia ogni abilità nell'ordine che desideri mostrare agli utenti della tua build."	
-		
+		"Citadel_HeroBuilds_AbilityBuildReset"			"Modifica"
+		"Citadel_HeroBuilds_AbilityBuildInstructions"	"Per impostare l'ordine di potenziamento delle abilità consigliato, premi il pulsante di modifica, quindi potenzia ogni abilità nell'ordine che desideri mostrare agli utenti della tua build."
+
 		"Citadel_HeroBuilds_PublishBuildTitle"			"Pubblica la build dell'eroe"
 		"Citadel_HeroBuilds_PublishBuildDesc"			"Questa build sarà resa pubblica per essere condivisa con altri giocatori."
 		"Citadel_HeroBuilds_BuildNameTitle"				"Nome della build"
@@ -1536,10 +1582,10 @@
 		"Citadel_HeroBuilds_ErrorTitle"					"Errore"
 		"Citadel_HeroBuilds_ValidateErrorTitle"			"Errore durante il salvataggio della build"
 		"Citadel_HeroBuilds_ValidateErrorBody"			"Assicurati che la build abbia una descrizione e un nome, oltre ad almeno un oggetto consigliato."
-		"Citadel_HeroBuilds_FavoriteCount"				"{i:favorite_count}"		
-		"Citadel_HeroBuilds_DailyFavorite"				"Di tendenza"		
-		"Citadel_HeroBuilds_WeeklyFavorite"				"Popolare"		
-		"Citadel_HeroBuilds_AllTimeFavorite"			"Preferita in assoluto"		
+		"Citadel_HeroBuilds_FavoriteCount"				"{i:favorite_count}"
+		"Citadel_HeroBuilds_DailyFavorite"				"Di tendenza"
+		"Citadel_HeroBuilds_WeeklyFavorite"				"Popolare"
+		"Citadel_HeroBuilds_AllTimeFavorite"			"Preferita in assoluto"
 		"Citadel_HeroBuilds_New"						"Nuovo"
 		"Citadel_HeroBuilds_Old"						"Vecchia"
 		"Citadel_HeroBuilds_NameLabel"					"Nome della build"
@@ -1588,7 +1634,7 @@
 
 		"CitadelCategoryWeapon"					"Arma"
 		"CitadelCategoryArmor"					"Vitalità"
-		"CitadelCategoryTech"					"Potere spirituale"
+		"CitadelCategoryTech"					"Spirito"
 		"CitadelCategoryFlex"					"Flessibili"
 		"CitadelCategoryBuilds"					"Build"
 		"CitadelCategorySuggested"				"Oggetti consigliati"
@@ -1608,7 +1654,7 @@
 		// Item and Upgrade Modifiers
 
 
-			
+
 		"citadel_ability_sprint_roll"			"Scatto"
 		"modifier_citadel_sprint_start"			"Rinfoderare l'arma..."
 		"modifier_citadel_sprint_end"			"Estrarre l'arma..."
@@ -1626,7 +1672,7 @@
 
 		"citadel_ability_drone_boss_laser_beam"		"Laser del boss"
 
-		
+
 		"citadel_ability_dash"						"Scatto"
 		"citadel_ability_jump"						"Salta"
 		"citadel_ability_teleport"					"Teletrasporto"
@@ -1639,8 +1685,10 @@
 		"modifier_neutral_gold_pickup_aura/aura_target/timer"	"Recupero delle anime effimere"
 		"modifier_rejuv_pickup_aura/aura_target/timer"			"Recupero del rianimatore della squadra"
 		"modifier_early_gold_pickup_aura/aura_target/timer"		"Cattura delle anime della squadra"
-		"modifier_citadel_holding_golden_idol"  				"Visibile ai nemici! Porta l'Urna a un altare"							
+		"modifier_citadel_holding_golden_idol"  				"Porta l'Urna a un altare"
+		"modifier_citadel_holding_golden_idol_revealed"			"Sei visibile ai nemici! Porta l'Urna a un altare"
 		"modifier_citadel_returning_golden_idol"  				"Depositare l'Urna"
+		"modifier_citadel_idol_pickup_disabled"					"Raccolta dell'Urna delle anime disabilitata"
 		"modifier_knocked_off_zipline_slow"						"Buttato giù dalla filovia"
 		"modifier_citadel_respawn_credit" 						"Credito di rianimazione"
 
@@ -1661,7 +1709,7 @@
 		"CITADEL_ABILITY_INVALID_MUTED"					"L'audio disattivato disabilita le abilità e gli oggetti"
 		"CITADEL_ABILITY_INVALID_PREMATCH"				"Partita non ancora iniziata"
 		"CITADEL_ABILITY_INVALID_SILENCED"				"Non è possibile usare le abilità mentre si è silenziati"
-		"CITADEL_ABILITY_INVALID_SILENCED_IDOL"			"Non è possibile usare le abilità mentre si trasporta l'urna"
+		"CITADEL_ABILITY_INVALID_SILENCED_IDOL"			"Non è possibile usare le abilità mentre si trasporta l'Urna"
 		"CITADEL_ABILITY_INVALID_SILENCE_MOVEMENT_ABILITIES"		"Abilità di movimento disabilitate"
 		"CITADEL_ABILITY_INVALID_DISARMED"				"Sei disarmato"
 		"CITADEL_ABILITY_INVALID_ROOTED"				"Hai subito un'immobilizzazione"
@@ -1703,7 +1751,7 @@
 		"CITADEL_ABILITY_INVALID_NO_DAMAGE_TO_CLEAR"	"Nessun danno da cancellare"
 
 		"citadel_ability_interrupted"					"Interrotta da"
-		
+
 		"citadel_ability_quick_melee" "Corpo a corpo"
 		"citadel_hint_zoom"			"Tieni premuto <span class=\"hintTextEmphasis\">[{s:iv_attack2}]</span> per zoomare con la tua arma."
 		"citadel_hint_slide"		"Tieni premuto <span class=\"hintTextEmphasis\">[{s:duck}]</span> mentre corri lungo la rampa per scivolare."
@@ -1717,7 +1765,7 @@
 		"citadel_hint_upgrade_ability"	"Tieni premuto <span class=\"hintTextEmphasis\">[{s:show_scoreboard}]</span> per potenziare le tue abilità."
 		"citadel_hint_hero_testing_shop"	"Premi <span class=\"hintTextEmphasis\">[{s:citadel_open_hero_sheet}]</span> per aprire il negozio e impostare le opzioni di test."
 		"citadel_hint_teleport"				"Il tuo boss di livello 2 è sotto attacco, premi <span class=\"hintTextEmphasis\">[{s:key_teleport}]</span> per teletrasportarti e aiutarlo!"
-		
+
 		// Ability Hints
 		"citadel_hint_flamedash_boost" "Premi <span class=\"hintTextEmphasis\">[{s:key_innate_1}]</span> per potenziarti. Richiede resistenza."
 		"citadel_hint_activate_wall" "Premi <span class=\"hintTextEmphasis\">[{s:iv_attack}]</span> per creare il muro in anticipo."
@@ -1750,7 +1798,7 @@
 		"survival_powerup_pickup"							"Sopravvivenza"
 		"casting_powerup_pickup"							"Uso abilità"
 		"movement_powerup_pickup"							"Movimento"
-		
+
 		"spirit_permanent_pickup_label"					"+2 di potere spirituale"
 		"firerate_permanent_pickup_label"				"+1,5% di frequenza di fuoco"
 		"ammo_permanent_pickup_label"					"+4% di munizioni"
@@ -1798,7 +1846,7 @@
 		"citadel_settings_per_unit_hotkeys"				"Scorciatoie specifiche dell'eroe"
 		"citadel_Hotkeys_Tooltip_PerUnitHotkeys"		"Abilita/disabilita le scorciatoie specifiche dell'eroe"
 		"citadel_settings_defaultkeybinds"				"Predefinite"
-		"citadel_ClearHeroHotkeyBindings"				"Ripristina impostazioni predefinite"		
+		"citadel_ClearHeroHotkeyBindings"				"Ripristina impostazioni predefinite"
 		"citadel_settings_chatwheel"					"Chat radiale"
 		"chat_wheel_options"							"OPZIONI CHAT RADIALE"
 		"citadel_settings_volume"						"Volume"
@@ -1812,7 +1860,7 @@
 		"citadel_settings_musicvolume"					"Volume della musica del menu"
 		"citadel_settings_musicvolume_desc"				"Regola il volume della musica del menu principale"
 		"citadel_settings_voicevolume"					"Volume della chat vocale (altri giocatori)"
-		"citadel_settings_voicevolume_desc"				"Regola il volume dei microfoni degli altri giocatori"	
+		"citadel_settings_voicevolume_desc"				"Regola il volume dei microfoni degli altri giocatori"
 		"citadel_settings_gamevoicevolume"				"Volume del tuo input vocale"
 		"citadel_settings_gamevoicevolume_desc"			"Controlla il volume di ingresso del microfono"
 		"citadel_settings_playsoundinbackground" 		"Riproduci suoni in background"
@@ -1944,12 +1992,12 @@
 		"citadel_settings_crosshair_pip_width"				"Larghezza"
 		"citadel_settings_crosshair_pip_height"				"Altezza"
 		"citadel_settings_crosshair_pip_border"				"Mostra i contorni delle linee"
-		
+
 		"citadel_settings_crosshair_color"					"Colore"
 		"citadel_settings_crosshair_color_r"				"Rosso"
 		"citadel_settings_crosshair_color_g"				"Verde"
 		"citadel_settings_crosshair_color_b"				"Blu"
-		
+
 		"citadel_settings_crosshair_visibility"				"Punto"
 		"citadel_settings_crosshair_pip_opacity"			"Opacità delle linee"
 		"citadel_settings_crosshair_dot_opacity"			"Opacità del punto"
@@ -2103,6 +2151,8 @@
 		"citadel_keybind_backwards"						"Indietro"
 		"citadel_keybind_left"							"Movimento laterale a sinistra"
 		"citadel_keybind_right"							"Movimento laterale a destra"
+		"citadel_keybind_up"							"Vola su"
+		"citadel_keybind_down"							"Vola giù"
 		"citadel_keybind_mantle"						"Salta/arrampicati"
 		"citadel_keybind_attack"						"Fuoco"
 		"citadel_keybind_ads"							"Zoom"
@@ -2332,10 +2382,9 @@
 		"kill_hype_FirstBlood"	"primo sangue"
 
 		"team_msg_Idol_Desc"	"Urna delle anime"
-		
-		//"team_msg_Winner_SubText"	"The Patrons favor you"
-		"Citadel_GameOver_Victory"	"Vittoria"
-		"Citadel_GameOver_Defeat"	"Sconfitta"
+
+		"Citadel_GameOver_Victory:g"	"#|m|#Vittoria#|f|#Vittoria"
+		"Citadel_GameOver_Defeat:g"		"#|m|#Sconfitta#|f|#Sconfitta"
 
 
 		"Citadel_LaneColorPurple"						"Viola"
@@ -2350,8 +2399,8 @@
 		"Citadel_TeamMsg_TitanKilledTitle"				"Il tuo Patrono"
 
 		"Citadel_FlexSlot_Title"						"Sbloccato slot flessibile"
-		"Citadel_FlexSlotUnlockedAllTier1"				"Hai sbloccato uno slot flessibile per aver ucciso tutti i <span class=\"FlexSlotObjectiveName\">Guardiani nemici</span>"
-		"Citadel_FlexSlotUnlockedGenerator"				"Hai sbloccato uno slot flessibile per aver ucciso il primo <span class=\"FlexSlotObjectiveName\">Santuario</span>"
+		"Citadel_FlexSlotUnlockedAllTier1"				"Hai sbloccato uno slot flessibile per aver ucciso tutti e tre i <span class=\"FlexSlotObjectiveName\">Guardiani nemici</span>"
+		"Citadel_FlexSlotUnlockedGenerator"				"Hai sbloccato uno slot flessibile per aver ucciso entrambi i <span class=\"FlexSlotObjectiveName\">Santuari nemici</span>"
 		"Citadel_FlexSlotUnlockedAllTier2"				"Hai sbloccato uno slot flessibile per aver ucciso tutti i <span class=\"FlexSlotObjectiveName\">Mech nemici</span>"
 		"Citadel_FlexSlotUnlockedKill2Tier2"			"Hai sbloccato uno slot flessibile per aver ucciso due <span class=\"FlexSlotObjectiveName\">Mech nemici</span>"
 
@@ -2384,7 +2433,7 @@
 		"menu_abandon"								"Abbandona la partita"
 		"menu_leave"								"Abbandona partita"
 		"menu_disconnect"							"Disconnettiti"
-		"menu_leave_spectate"						"Esci dalla modalità spettatore"
+		"menu_leave_spectate"						"Esci come spettatore"
 		"menu_rejoin"								"Rientra"
 		"menu_watch"								"Guarda"
 		"menu_heroes"								"Eroi"
@@ -2393,6 +2442,7 @@
 		"menu_getstarted"							"Inizia"
 		"menu_bot_practice"							"Bot privati"
 		"menu_bot_custom"							"Partita personalizzata"
+		"menu_bot_hero_labs"						"Laboratorio degli eroi"
 		"menu_learn"								"Impara a giocare"
 		"menu_resources"							"Risorse"
 		"menu_training"								"Addestramento"
@@ -2408,7 +2458,11 @@
 		"Citadel_Confirm_Discord_InMatch_Body"		"Richiedi il tuo link Discord in un secondo momento, quando non sei in un gruppo o nel matchmaking"
 		"Citadel_Dashboard_Recommended"				"Consigliato"
 
-		"Citadel_Commend_Toast"						"{s:commender} ({s:commender_hero}) ti ha elogiato!"
+		"Citadel_Commend_Toast_NoHero_Generic"		"{s:commender} ti ha elogiato"
+		"Citadel_Commend_Toast_Generic"				"{s:commender} ({s:commender_hero}) ti ha elogiato."
+		"Citadel_Commend_Toast_Friendly"			"{s:commender} ({s:commender_hero}) ti ha elogiato perché ti trova amichevole e divertente."
+		"Citadel_Commend_Toast_Teamwork"			"{s:commender} ({s:commender_hero}) ti ha elogiato perché hai fatto un buon gioco di squadra."
+		"Citadel_Commend_Toast_Skilled"				"{s:commender} ({s:commender_hero}) ti ha elogiato per le tue abilità di gioco."
 
 		"menu_exit_db_page"							"Indietro"
 		"menu_settings"								"Impostazioni"
@@ -2436,6 +2490,8 @@
 		"menu_play_lane_training_desc"				"Scopri le prime fasi del gioco con un eroe facile da padroneggiare."
 		"menu_play_bots_easy_desc"					"Gioca una partita privata contro i bot."
 		"menu_play_custom_game_desc"				"Crea o partecipa a una partita personalizzata con un massimo di 12 giocatori."
+		"menu_play_hero_labs_desc"					"Aiutaci a testare nuovi eroi sperimentali"
+		"menu_play_hero_labs_locked_desc"			"Aiuta a testare nuovi eroi sperimentali. Funzione sbloccata dopo 50 partite giocate."
 		
 		"menu_play_get_started_time_est"			"4 minuti"
 		"menu_play_sandbox_time_est"				"5 minuti"
@@ -2448,18 +2504,21 @@
 		"menu_play_browse_shop_desc"				"Esplora tutti gli articoli nel negozio e preparati per la tua prossima partita!"
 		//"menu_play_learn_to_play_desc"			"Watch the tutorial then follow it up with some hero sandbox and lane training."
 		"menu_play_matchmaking"						"Gioca una partita standard contro altri giocatori."
-		"menu_play_low_priority_matchmaking"		"Sei contrassegnato per la Priorità bassa. Tu e il tuo gruppo vi confronterete solo con altri giocatori con priorità bassa."
+		"menu_play_low_priority_matchmaking"		"Sei nel gruppo di matchmaking a bassa priorità. Tu e il tuo gruppo giocherete solo con altri giocatori con priorità bassa."
 		"menu_learn_incomplete"						"Incompleto"
 		"menu_learn_completed"						"Completato"
 
+		"menu_hero_labs_unavailable"				"Bloccato"
+		"menu_hero_labs_schedule_title"				"Orari disponibili:"
+		"menu_hero_labs_schedule_times"				"{t:t:start_time} - {t:t:end_time}"
 		"menu_play_ranked"							"Gioca una partita classificata"
 		"menu_play_ranked_desc"						"Gioca una partita più competitiva contro giocatori con abilità simili alle tue."
 		"menu_ranked_title"							"Modalità classificata:"
 		"menu_ranked_schedule_title"				"Orari disponibili:"
 		"menu_ranked_unavailable"					"Bloccata"
 		"menu_ranked_unavailable_desc"				"Devi giocare 50 partite standard per partecipare alle partite classificate."
-		"menu_ranked_schedule_weekdays"				"Lun - Gio:"
-		"menu_ranked_schedule_weekends"				"Ven - Dom:"
+		"menu_ranked_schedule_weekdays_monfri"		"Lun - Ven:"
+		"menu_ranked_schedule_weekends_satsun"		"Sab - Dom:"
 		"menu_ranked_schedule_alldays"				"Fascia giornaliera:"
 		"menu_ranked_schedule_timeplaceholder"		"{t:t:start_time} - {t:t:end_time}"
 		"menu_ranked_select_schedule"				"Seleziona fascia"
@@ -2476,18 +2535,27 @@
 		"Citadel_SetSchedule_SetSuccessfully"		"Fascia impostata correttamente"
 		"Citadel_ranked_scheduleModal_title"		"Fasce partite classificate"
 		"Citadel_ranked_scheduleModal_desc"			"Seleziona le fasce orarie per le partite classificate che si adattano meglio ai tuoi orari di gioco.<br><br>Giocherai sempre nel server disponibile più vicino, indipendentemente dalla finestra temporale selezionata."
-		"Citadel_ranked_scheduleModal_warning"		"Nota: dopo aver selezionato una fascia temporale per questa sessione classificata, non potrai modificarla fino alla sessione successiva."
+		"Citadel_ranked_scheduleModal_warning"		"Nota: dopo aver selezionato una fascia oraria, dovrai attendere sette giorni prima di poter passare a una fascia diversa."
 		"Citadel_ranked_open"						"Aperte"
 		"Citadel_ranked_closed"						"Partite classificate chiuse"
 		"Citadel_ranked_comingsoon"					"Le prime partite classificate avranno inizio martedì 15 ottobre alle 22:00"
 		"Citadel_ranked_schedule_explainer"			"Le partite classificate sono disponibili solo in determinati orari. Prima di giocare devi selezionare l'orario che preferisci."
 
-		"Citadel_ranked_explainer_button"				"Cosa sono le partite classificate?"
-		"Citadel_ranked_explainer_title"				"Matchmaking classificato"
-		"Citadel_ranked_explainer_desc"					"La modalità [classificata] è una modalità di gioco che offre un'esperienza di Deadlock più competitiva, nella quale il matchmaking ti abbinerà a giocatori di abilità simili per determinare il tuo grado di abilità tra i giocatori di tutto il mondo.<br><br>Ogni settimana, i giocatori possono scegliere di partecipare a questa competizione giocando alle partite [classificate] durante le fasce orarie di disponibilità della propria regione per dimostrare le proprie abilità individuali."
-		"Citadel_ranked_howitworks_title"				"Come funziona?"
-		"Citadel_ranked_howitworks_desc"				"Tutti i giocatori iniziano con il grado provvisorio di Obscurus e devi completare sette partite [classificate] ogni settimana per qualificarti per la classifica settimanale. Alla fine di quella settimana ti verrà assegnato il tuo grado, che verrà mostrato come badge sul tuo profilo.<br><br>Se alla fine di una settimana non hai giocato sette partite [classificate], il tuo grado visibile tornerà a Obscurus e rimarrà nascosto fino a quando non ti qualificherai con successo per una settimana successiva. Gli indicatori di abilità relativi verranno comunque conservati e utilizzati per le tue future partite [classificate], ma fino a quel momento non verrà mostrato alcun badge.<br><br>Esistono undici gradi diversi e, all'interno di ogni grado, ai giocatori verrà assegnato anche un livello da I a VI, che distingue ulteriormente la tua posizione all'interno di quel determinato grado."
-		"Citadel_ranked_rankedmedals"					"Gradi:"
+		"Citadel_ranked_explainer_button"			"Cosa sono le partite classificate?"
+		"Citadel_ranked_explainer_title"			"Matchmaking classificato"
+		"Citadel_ranked_explainer_desc"				"La modalità classificata è una modalità di gioco che offre un'esperienza di Deadlock più competitiva, nella quale il matchmaking ti abbinerà a giocatori di abilità simili per determinare il tuo grado di abilità tra i giocatori di tutto il mondo.<br><br>Ogni settimana, i giocatori possono scegliere di partecipare a questa competizione giocando alle partite classificate durante le fasce orarie di disponibilità della propria regione per dimostrare le proprie abilità individuali."
+		"Citadel_ranked_howitworks_title"			"Come funziona?"
+		"Citadel_ranked_howitworks_desc"			"Tutti i giocatori iniziano con il grado provvisorio di Obscurus e devi completare sette partite classificate ogni settimana per qualificarti per la classifica settimanale. Alla fine di quella settimana riceverai il tuo grado, che verrà mostrato come badge sul tuo profilo.<br><br>Se alla fine di una settimana non hai giocato sette partite classificate, il tuo grado visibile tornerà a Obscurus e rimarrà nascosto fino a quando non ti qualificherai con successo per una settimana successiva. Gli indicatori di abilità relativi verranno comunque conservati e utilizzati per le tue future partite classificate, ma fino a quel momento non verrà mostrato alcun badge.<br><br>Esistono undici gradi diversi e, all'interno di ogni grado, ai giocatori verrà assegnato anche un livello da I a <Panel class=\"starIcon\"></Panel>, che distingue ulteriormente la tua posizione all'interno di quel determinato grado."
+		"Citadel_ranked_rankedmedals"				"Gradi:"
+		"Citadel_ranked_subranks_explainer"			"Livelli: I, II, III, IV, V, <Panel class=\"starIcon\"></Panel>"
+
+		"Citadel_ranked_explainer_note"				"I design dei badge verranno rivelati all'assegnazione dei primi gradi martedì 22 ottobre."
+
+		"Citadel_ranked_result_title"				"Rapporto sul grado"
+		"Citadel_ranked_result_rankup"				"Sali di grado!"
+		"Citadel_ranked_result_adjustment"			"Regolazione del grado"
+		"Citadel_ranked_numGamesPlayed"				"{s:games_played} partite giocate"
+		"Citadel_ranked_match_history"				"Cronologia delle partite:"
 
 		"Citadel_ranks_rank0"						"Obscurus"
 		"Citadel_ranks_rank1"						"Iniziato"
@@ -2496,8 +2564,8 @@
 		"Citadel_ranks_rank4"						"Arcanista"
 		"Citadel_ranks_rank5"						"Ritualista"
 		"Citadel_ranks_rank6"						"Emissario"
-		"Citadel_ranks_rank7"						"Oracolo"
-		"Citadel_ranks_rank8"						"Arconte"
+		"Citadel_ranks_rank7"						"Arconte"
+		"Citadel_ranks_rank8"						"Oracolo"
 		"Citadel_ranks_rank9"						"Fantasma"
 		"Citadel_ranks_rank10"						"Ascendente"
 		"Citadel_ranks_rank11"						"Eternus"
@@ -2509,7 +2577,7 @@
 		"Citadel_subranks_5"						"V"
 		"Citadel_subranks_6"						"VI"
 
-		"Citadel_rank_phase_example"				"15 - 21 ottobre | 2024"
+		"Citadel_rank_phase_example"				"{t:s:popup_start_day} - {t:s:popup_end_day}"
 
 
 		"item_info_abilities"						"Abilità"
@@ -2535,10 +2603,10 @@
 		"SafeToAbandon_Text"						"Ora è possibile abbandonare la partita senza penalità."
 
 		"ModIconTooltip_UnlockTier2"				"Si sblocca dopo che la tua squadra ha distrutto due Mech nemici"
-		"ModIconTooltip_UnlockGuardians"			"Si sblocca dopo che la tua squadra ha distrutto una serie di Guardiani della base nemici"	
-		"ModIconTooltip_UnlockGenerators"			"Si sblocca dopo che la tua squadra ha distrutto un Santuario nemico"	
+		"ModIconTooltip_UnlockGuardians"			"Si sblocca dopo che la tua squadra ha distrutto una serie di Guardiani della base nemici"
+		"ModIconTooltip_UnlockGenerators"			"Si sblocca dopo che la tua squadra ha distrutto entrambi i Santuari nemici"
 		//"ModIconTooltip_UnlockTier3"				"Unlocked after your team destroys the enemy Patron's first form"
-		"ModIconTooltip_UnlockAllTier1"				"Si sblocca dopo che la tua squadra ha distrutto tutti i Guardiani nemici"
+		"ModIconTooltip_UnlockAllTier1"				"Si sblocca dopo che la tua squadra ha distrutto tutti e tre i Guardiani nemici"
 		"ModIconTooltip_UnlockAllTier2"				"Si sblocca dopo che la tua squadra ha distrutto tutti i Mech nemici"
 
 		"HeroesPageTitle"							"Eroi"
@@ -2565,6 +2633,7 @@
 		"MyRosterNumHeroesInRoster"					"{i:num_heroes_in_roster} EROI NEL ROSTER"
 		"MyRosterNumHeroesInRosterSingular"			"{i:num_heroes_in_roster} EROE NEL ROSTER"
 		"MyRosterGreatForNewPlayers"				"Ideale per i nuovi giocatori"
+		"MyRosterHeroLabsHero"						"Laboratorio degli eroi"
 		"MyRosterAssignedTesting"					"Test assegnato"
 		"MyRosterAssignedOpenTesting"				"Test aperto"
 		"MyRosterChangeHero"						"Cambia eroe"
@@ -2574,11 +2643,10 @@
 		"MyRosterWaitForParty"						"In attesa dei membri del gruppo..."
 		"MyRosterExit"								"Esci dal roster"
 		"MyRosterExitRosterConfirm"					"Vuoi davvero uscire dal roster? Questa operazione eliminerà il roster per l'intero gruppo."
-		"MyRosterPartyHighSkillRange"				"I giocatori del tuo gruppo hanno abilità molto diversificate. Ciò comporterà una partita PIÙ DIFFICILE per il tuo gruppo."
-
 		"MyRosterPartyReadyCount"					"{d:party_ready_count}/{d:party_player_count} pronto/i"
 		"MyRosterPartyMemberRoster"					"Eroe già presente nei roster:"
 
+		"MyRosterRosterDesc_HeroLabs"				"Il tuo roster ha bisogno di almeno 3 eroi, 2 dei quali devono essere eroi standard e non di prova."
 
 		//-----------------------------------------------------------------------------
 		// SANDBOX - DEMO CONTROLS
@@ -2631,7 +2699,7 @@
 		//-----------------------------------------------------------------------------
 		// TUTORIAL - LANE TRAINING
 		//-----------------------------------------------------------------------------
-		
+
 		"LaneTraining_Intro_Title"					"Ti diamo il benvenuto all'<b>addestramento alle corsie</b>"
 		"LaneTraining_Intro_Desc"					"Lo scopo della parte iniziale del gioco è guadagnare potenza in modo da poter raggiungere gli obiettivi.<br><br>Quando completi <span class=\"introHighlight\">gli obiettivi elencati a destra</span>, ottieni <span class=\"introHighlight\">una potenza inimmaginabile</span> che ti consentirà di sconfiggere il Guardiano."
 		"LaneTraining_Intro_Button"					"Inizia"
@@ -2639,7 +2707,7 @@
 		"LaneTraining_Outro_Title"					"<b>Addestramento alle corsie</b> completato"
 
 		//"ReportCard_PlayerDamage"					"Player Damage"
-		//"ReportCard_PlayerDamage_Desc"				"Damage you’ve dealt to enemy heroes"	
+		//"ReportCard_PlayerDamage_Desc"				"Damage you’ve dealt to enemy heroes"
 		//"ReportCard_PlayerDamage_Progress"			"<span class=\"yourscore\">{i:playerDamage}</span> / {i:playerDamageNextGoal}"
 
 		"ReportCard_LastHits"						"Colpi mortali"
@@ -2684,9 +2752,9 @@
 		"ReportCard_KillGuardian"					"Abbatti il Guardiano nemico"
 		"ReportCard_KillGuardian_Desc"				"Elimina chiunque ti ostacoli il cammino verso la vittoria!"
 
-		//"NewPlayer_NewPlayerFlow"					"Learn to Play"				
+		//"NewPlayer_NewPlayerFlow"					"Learn to Play"
 		"NewPlayer_Skip"							"Salta il tutorial"
-		//"NewPlayer_NewPlayerFlow_Desc"				"To get started, check out the tasks within <span class=\"introText\">Learn</span>."	
+		//"NewPlayer_NewPlayerFlow_Desc"				"To get started, check out the tasks within <span class=\"introText\">Learn</span>."
 		//"NewPlayer_GetStarted"						"Review <span class='TaskHighlight'>Get Started</span>"
 		//"NewPlayer_GetStarted_Time"					"4 mins"
 		//"NewPlayer_HeroSandbox"						"Try out your moves in <span class='TaskHighlight'>Hero Training</span>"
@@ -2694,7 +2762,7 @@
 		//"NewPlayer_LaneTraining"					"Learn the early game in <span class='TaskHighlight'>Lane Training</span>"
 		//"NewPlayer_LaneTraining_Time"				"8 mins"
 		//"NewPlayer_YouAreFinished"					"You're ready! Try a bot match within Practice or Play your first game!"
-		//"NewPlayer_Finish"							"End Tutorial"				
+		//"NewPlayer_Finish"							"End Tutorial"
 
 		"HeroTraining_Intro_Title"					"Ti diamo il benvenuto all'<b>addestramento con gli eroi</b>"
 		"HeroTraining_Intro_Desc"					"Qui potrai mettere alla prova i movimenti e le abilità del tuo eroe. Padroneggiare questi concetti è fondamentale per completare il rituale."
@@ -2706,10 +2774,10 @@
 		"NPE_Heroes_Modal_Title"					"Eroi consigliati"
 		"NPE_Heroes_Modal_Desc"						"<span class=\"introText\">Sembra che sia la prima volta che giochi!</span><br><br>Abbiamo evidenziato alcuni eroi ideali per i nuovi giocatori. Ti consigliamo di provare uno di questi eroi se non sai da dove iniziare."
 		"NPE_Heroes_Modal_Button"					"Capito!"
-		
+
 		"NPE_Bots_Modal_Desc"						"<span class=\"introText\">La tua prima partita tra bot!</span><br><br>Le partite tra bot sono perfette per familiarizzare con un eroe, ma non riproducono fedelmente il flusso e il lavoro di squadra di una partita PvP.<br><br>Quando ti senti pronto, puoi abbandonare la partita tra bot ed entrare nel matchmaking."
 		"NPE_Bots_Modal_Button"						"Capito!"
-		
+
 
 		"Sandbox_Tutorial_Movement"					"Prova i controlli"
 		"Sandbox_Tutorial_Movement_desc"			"Usa quest'area per provare i tuoi controlli."
@@ -2735,7 +2803,7 @@
 		"Sandbox_Tutorial_Step_1"					"Fase 1 di 6"
 		"Sandbox_Tutorial_Step_2"					"Fase 2 di 6"
 		"Sandbox_Tutorial_Step_3"					"Fase 3 di 6"
-		"Sandbox_Tutorial_Step_4"					"Fase 4 di 6"		
+		"Sandbox_Tutorial_Step_4"					"Fase 4 di 6"
 		"Sandbox_Tutorial_Step_5"					"Fase 5 di 6"
 		"Sandbox_Tutorial_Step_6"					"Fase 6 di 6"
 
@@ -2757,9 +2825,9 @@
 		//"Sandbox_Tutorial_Completed"				"Sandbox Completed"
 		//"Sandbox_Tutorial_Completed_desc"			"Feel free to play around more. When you’re done, leave Sandbox and start Lane Training."
 
-		"BrowseItems_Title"							"Sfoglia gli oggetti"
+		"BrowseItems_Title"							"Esplora gli oggetti"
 		"BrowseItems_Desc"							"Sfoglia il catalogo degli oggetti e preparati alla tua prossima partita!"
-		
+
 		"CreateBuilds_Title"						"Crea una build per {s:hero_name}"
 		"CreateBuilds_Desc"							"Seleziona gli oggetti nel negozio per aggiungerli all'elenco delle build consigliate"
 
@@ -2810,7 +2878,7 @@
 		"AbilityButtonHint_CastIceDome"				"Utilizza Calotta di ghiaccio"
 		"AbilityButtonHint_CastLifeDrain"			"Prosciuga salute nemico"
 		"AbilityButtonHint_AlotCastLifeDrain"				"Guarisci alleato"
-		
+
 		//-----------------------------------------------------------------------------
 		// Guided Bot Match
 		//-----------------------------------------------------------------------------
@@ -2831,7 +2899,7 @@
 		"citadel_bot_name_prefix"				"[Bot]"
 		"citadel_purchasemessage"				"<span class=\"ChatTarget\">{s:target} <span class=\"ChatPersona\"><span class=\"{s:player_color_class}\">{s:persona}</span></span></span> <span class=\"{s:purchaseText}\">{s:soldOrPurchasedText}</span> <span class=\"{s:message_color_class}\">{s:message}</span>"
 		"citadel_ping_wheel_message"			"{s:message}"
-	
+
 		"citadel_ping_wheel_disabled_while_dead"				"Disabilitata durante la morte"
 		"citadel_all_chat_label_prefix"							"[TUTTI] "
 		"citadel_chatwheel_label_Care"							"Attenzione"
@@ -2925,11 +2993,11 @@
 		"citadel_chatwheel_message_Defend_Green"				"Difendi la verde"
 		"citadel_chatwheel_message_Defend_Purple"				"Difendi la viola"
 		"citadel_chatwheel_message_HeadedToYellow"				"Vado alla gialla"
-		"citadel_chatwheel_message_HeadedToBlue"				"Diretto alla blu"
-		"citadel_chatwheel_message_HeadedToGreen"				"Diretto alla verde"
-		"citadel_chatwheel_message_HeadedToPurple"				"Diretto alla viola"
-		"citadel_chatwheel_label_HeadedTo"						"Diretto alla base"
-		"citadel_chatwheel_message_HeadedTo"					"Diretto alla base!"
+		"citadel_chatwheel_message_HeadedToBlue"				"Vado alla blu"
+		"citadel_chatwheel_message_HeadedToGreen"				"Vado alla verde"
+		"citadel_chatwheel_message_HeadedToPurple"				"Vado alla viola"
+		"citadel_chatwheel_label_HeadedTo"						"Vado alla base"
+		"citadel_chatwheel_message_HeadedTo"					"Vado alla base!"
 		"citadel_chatwheel_message_HeadedToLane"				"Vado alla corsia..."
 
 		//"citadel_quick_response_cancel"							"Cancel Last Ping Message"
@@ -2937,10 +3005,12 @@
 		//"citadel_quick_response_respond_onmyway"					"Respond 'On my Way'"
 
 		// These are loc strings for ping response rules. Good for if we don't have VO for a response rule to show what the player would've said.
+		"ping_message"											"{s:pre_punctuation}{s:ping}{s:post_punctuation}"
+		"ping_post_exclamation"									"!"
 		"ping_headed_yellow"									"Vado alla gialla"
-		"ping_headed_blue"										"Diretto alla blu"
-		"ping_headed_green"										"Diretto alla verde"
-		"ping_headed_purple"									"Diretto alla viola"
+		"ping_headed_blue"										"Vado alla blu"
+		"ping_headed_green"										"Vado alla verde"
+		"ping_headed_purple"									"Vado alla viola"
 		"headed_this_way"										"Diretto da questa parte"
 		"ping_defend"											"Difendere"
 		"ping_defend_yellow"									"Difendere la gialla"

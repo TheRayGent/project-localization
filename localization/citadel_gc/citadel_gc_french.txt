@@ -182,17 +182,18 @@
 		"Steam_Citadel_RP_FindingMatch"							"Recherche une partie"
 		
 		// These Match Mode ("MM_") tokens are for the %param0% below.
-		"Steam_Citadel_RP_MM_Unranked"							"Partie"
-		"Steam_Citadel_RP_MM_Ranked"							"Partie"
-		"Steam_Citadel_RP_MM_PrivateLobby"						"Partie privée"
-		"Steam_Citadel_RP_MM_CoopBot"							"Partie coop avec bots"
-		"Steam_Citadel_RP_MM_Tutorial"							"Tutoriel"
-		"Steam_Citadel_RP_MM_Sandbox"							"Bac à sable"
+		"Steam_Citadel_RP_MM_Unranked"							"Deadlock :"
+		"Steam_Citadel_RP_MM_Ranked"							"Mode classé :"
+		"Steam_Citadel_RP_MM_HeroLabs"							"Labo d'occultisme :"
+		"Steam_Citadel_RP_MM_PrivateLobby"						"Salle d'attente :"
+		"Steam_Citadel_RP_MM_CoopBot"							"Bots :"
+		"Steam_Citadel_RP_MM_Tutorial"							"Tutoriel :"
+		"Steam_Citadel_RP_MM_Sandbox"							"Bac à sable :"
 		
 		"Steam_Citadel_InGame_Sandbox"		"Essaie {%param2%} en mode bac à sable"
-		"Steam_Citadel_InGame_Hero"			"Incarne {%param2%} ({%param1%}, %param0% min)"
-		"Steam_Citadel_InGame"				"{%param1%} (%param0% min)"
-		"Steam_Citadel_Spectating"			"Regarde {%param1%} (%param0% min)"
+		"Steam_Citadel_InGame_Hero"			"{%param1%} {%param2%} (%param0% min)"
+		"Steam_Citadel_InGame"				"{%param1%}  (%param0% min)"
+		"Steam_Citadel_Spectating"			"Regarde une partie"
 		"Steam_Citadel_RP_Online"			"En ligne"
 
 		"Steam_RP_hero_vampire"			"Vampire"
@@ -325,6 +326,8 @@
 		"hero_bomber"			"Bomber"
 		"hero_shieldguy"		"Shield Guy"
 		"hero_viper"			"Viper"
+		"hero_vandal"			"Vandal"
+		"hero_magician"			"Magician"
 
 		//-----------------------------------------------------------------------------
 		// Upgrades: Weapon

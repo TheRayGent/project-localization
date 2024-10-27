@@ -43,6 +43,7 @@
 		"Citadel_StatusEffectImmobilize" 		"Inmovilizar"
 		"Citadel_StatusEffectDisarmed"			"Desarmar"
 		"Citadel_StatusEffectInvisible"			"Invisible"
+		"Citadel_StatusEffectPetrify"				"Petrificar"
 		//"Citadel_StatusEffectStacks"			"Stacks "
 		//"Citadel_StatusEffectInfiniteClip"		"Infinite Ammo"
 		//"Citadel_StatusEffectBulletDebuff"		"Bullet Debuff"
@@ -109,16 +110,16 @@
 		"StatDesc_MeleeDamage"							"Daño cuerpo a cuerpo"
 		"StatDesc_LightMeleeDamage"						"Pelea cuerpo a cuerpo leve"
 		"StatDesc_HeavyMeleeDamage"						"Pelea cuerpo a cuerpo fuerte"
-		"StatDesc_MaxHealth"							"Vida máxima"
+		"StatDesc_MaxHealth"							"Vida máx."
 		"StatDesc_ClipSizeBonus"						"Munición"
 		"StatDesc_ClipSizeIncrease"						"Aumento del tamaño del cargador"
 		"StatDesc_ClipSizeIncrease_postfix"				" %"
 		//"StatDesc_BonusClips"							"Clips"
 		//"StatDesc_AmmoRegen"							"Ammo Regen"
-		"StatDesc_HealthRegen"							"Regeneración de vida"
-		"StatDesc_BaseHealthRegen"						"Regeneración de vida"
+		"StatDesc_HealthRegen"							"Regen. de vida"
+		"StatDesc_BaseHealthRegen"						"Regen. de vida"
 		//"StatDesc_ExternalHealthRegen"					"External Health Regen"
-		"StatDesc_RunSpeed"								"Velocidad de movimiento"
+		"StatDesc_RunSpeed"								"Vel. de mov."
 		"StatDesc_RunSpeed_postfix"						" m/s"
 		"StatDesc_SprintSpeed"							"Velocidad de sprint"
 		"StatDesc_SprintSpeed_postfix"					" m/s"
@@ -203,7 +204,9 @@
 		"StatDesc_HealingOutput"						"Amp. de curación"
 		"StatDesc_HealingOutput_postfix"				" %"
 		"StatDesc_CritDamageBonusScale"					"Escala de críticos adicional"
-		"StatDesc_CritDamageBonusScale_postfix"			"  %"
+		"StatDesc_CritDamageBonusScale_postfix"			" %"
+		"StatDesc_MeleeResist"							"de resistencia cuerpo a cuerpo"
+		"StatDesc_MeleeResist_postfix"					" %"
 
 		"StatDesc_BulletSpeed"							"Velocidad de las balas"
 		"StatDesc_BulletSpeed_postfix"					" m/s"
@@ -694,6 +697,9 @@
 
 		"HealAmpReceivePenaltyPercent_label"		"de reducción de curación"
 		"HealAmpReceivePenaltyPercent_postfix"			" %"
+		
+		"HealAmpRegenPenaltyPercent_label"		"de reducción de curación"
+		"HealAmpRegenPenaltyPercent_postfix"	" %"
 
 		"DegenResistance_label"						"de resistencia a la reducción de curación"
 		"DegenResistance_postfix"					" %"
@@ -1507,7 +1513,7 @@
 		"modifier_armor_reactive_armor"					"Devolver fuego"
 		"ReturnFireBulletResist_prefix"					"  +"
 		"ReturnFireBulletResist_label"					"de resist. a balas"
-		"ReturnFireBulletResist_postfix"					"  %"
+		"ReturnFireBulletResist_postfix"					" %"
 
 		//"RespawnBonusHealth_label"							"Respawn Bonus Health"
 		//"RespawnBonusHealthDuration_label"					"Respawn Bonus Health Duration"
@@ -1577,7 +1583,7 @@
 		"GalvanicProcDuration_label"			"de duración de la ralentización"
 		"GalvanicProcDuration_postfix"		" s"
 
-		"FireRateSlow_label"					"de ralentización de cadencia de tiro"
+		"FireRateSlow_label"					"de ralent. de cad. de tiro"
 		"FireRateSlow_postfix"				" %"
 
 		//"SlowFireRatePercent_label"			"Fire Rate Scale"
@@ -1791,11 +1797,18 @@
 		"ExplodeDamage_label"				"de daño al explotar"
 
 		"StaminaRegenPercent_label"			"de regen. de resistencia"
-		"StaminaRegenPercent_postfix"		"  %"
+		"StaminaRegenPercent_postfix"		" %"
 
-		//crow_mask_1827_comment
-		// crow_mask_1828_comment
-		//crow_mask_1829_comment
+		"MeleeResistPercent_prefix"			"{s:sign}"
+		"MeleeResistPercent_label"			"de resistencia cuerpo a cuerpo"
+		"MeleeResistPercent_postfix"		" %"
+		
+		"BuffDuration_label"				"de duración de efectos positivos"
+		"BuffDuration_postfix"				" s"
+
+		//crow_mask_1840_comment
+		// crow_mask_1841_comment
+		//crow_mask_1842_comment
 
 
 

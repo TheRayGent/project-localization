@@ -486,7 +486,9 @@
 		"MinSlowDuration_label"						"Minimum Durdurma Süresi"
 		"MinSlowDuration_postfix"						" sn"
 		"citadel_ability_chrono_kinetic_carbine/modifier_chrono_kinetic_carbine"  "Kinetik Tüfek"
-
+		"CarbineHeadshotBonus_prefix"				"+"
+		"CarbineHeadshotBonus_label"				"Kafadan Vuruş Bonusu"
+		"CarbineHeadshotBonus_postfix"				"%"
 
 		//-----------------------------------------------------------------------------
 		// Revenant
@@ -890,7 +892,7 @@
 		"WeaponPowerGainPercent_postfix"			"%"
 
 		//-----------------------------------------------------------------------------
-		// Hero Warden
+		// Warden 
 		//-----------------------------------------------------------------------------
 		"ability_warden_lock_down"				"Bağlayıcı Büyü"
 		"ability_warden_lock_down_quip"			"Hedefinizi lanetleyin, kaçmazsa onu hareketsizleştirin."
@@ -919,19 +921,25 @@
 
 		"ability_warden_crowd_control"			"Simya Şişesi"
 		"ability_warden_crowd_control_quip"		"Yakındaki düşmanlara hasar ve zayıflatma uygulayın."
-		"ability_warden_crowd_control_desc"		"İsabet ettiği düşmanlara <span class=\"highlight\">hasar veren ve onları yavaşlatan</span> ayrıca <span class=\"highlight\">silah hasarlarını</span> ve <span class=\"highlight\">kuvvetlerini</span> azaltan bir şişe fırlatın."
-		"ability_warden_crowd_control_t3_desc"		"<span class=\"highlight\">{s:AbilityCooldown} saniye</span> dolum süresine sahiptir ve <span class=\"highlight\">%{s:FireRateSlow}</span> atış hızı yavaşlatması uygular."
+		"ability_warden_crowd_control_desc"		"İsabet ettiği düşmanlara <span class=\"highlight\">hasar veren, hareketlerini yavaşlatan</span> ve <span class=\"highlight\">silah hasarlarını</span> azaltan bir şişe fırlatın."
+		"ability_warden_crowd_control_t1_desc"	"İsabet alan düşmanlar <span class=\"highlight\">{s:StaminaReduction} kuvvet</span> kaybeder."
+		"ability_warden_crowd_control_t3_desc"		"<span class=\"highlight\">{s:AbilityCooldown} saniye</span> dolum süresine sahiptir ve silah zayıflatması <span class=\"highlight\">%{s:FireRateSlow}</span> atış hızı yavaşlatması uygular."
 		"MoveSpeedSlowPct_label"					"Hareket Hızı Yavaşlatma"
 		"MoveSpeedSlowPct_postfix"				"%"
 		"WeaponPowerDebuff_label"					"Silah Hasarı"
 		"WeaponPowerDebuff_postfix"				"%"
 		"modifier_warden_crowd_control_debuff"	"Simya Şişesi"
+		"FlaskDebuffDuration_label"				"Silah Zayıflatma Süresi"
+		"FlaskDebuffDuration_postfix"			" sn"
 
 		"ability_warden_riot_protocol"			"Son Savunma"
 		"ability_warden_riot_protocol_quip"		"Düşmanlardan sağlık çalan darbeler yayın."
 		"ability_warden_riot_protocol_desc"		"{s:AbilityCastDelay} saniye boyunca şarj olduktan sonra <span class=\"highlight\">düşmanlara hasar veren ve verdiğiniz hasara bağlı olarak sizi iyileştiren</span> darbeler gönderir. <br>Son Savunma'yı yönlendirirken <span class=\"highlight\">mermi direnciniz</span> büyük ölçüde artar."
+		"ability_warden_riot_protocol_t3_desc"	"<span class=\"highlight\">{s:AbilityCooldown} saniye</span> dolum süresine sahiptir ve yönlendirme sırasında <span class=\"highlight\">durdurulamaz durum direnci</span> sağlar."
 		"modifier_warden_riot_protocol"			"Son Savunma"
 		"modifier_warden_riot_protocol_enemy_debuff"	"Yavaşlatıldı"
+
+		//UnstoppableCastDelay
 		"HealthStealPctHero_label"				"Kahramanlardan Can Çalma"
 		"HealthStealPctHero_postfix"				"%"
 
@@ -1163,7 +1171,7 @@
 
 		"citadel_ability_sticky_bomb"			"Yapışkan Bomba"
 		"citadel_ability_sticky_bomb_quip"		"Bir düşmana bomba yapıştırın."
-		"citadel_ability_sticky_bomb_desc"		"Yakındaki bir hedefe, kısa bir süre sonra infilak ederek <span class=\"highlight\">patlayıcı hasarı</span> veren bir yapışkan bomba atın.<br>Etkilenen her düşman için <span class=\"highlight\">+%{s:BonusDamagePctPerPlayerHit} bomba hasarı</span> veren bir bomba istifi kazanırsınız. Ölünce {s:BonusLossPerDeath} istif kaybedersiniz.<br>Yapışkan bombayı [{s:key_alt_cast}] tuşuna basarak kendi üzerinizde kullanabilirsiniz."
+		"citadel_ability_sticky_bomb_desc"		"Yakındaki bir hedefe, kısa bir süre sonra infilak ederek <span class=\"highlight\">patlayıcı hasarı</span> veren bir yapışkan bomba atın.<br>Etkilenen her düşman için <span class=\"highlight\">+%{s:BonusDamagePctPerPlayerHit} bomba hasarı</span> veren bir bomba istifi kazanırsınız. Ölünce istiflerin %{s:BonusLossPerDeath} kadarını kaybedersiniz (yuvarlanır).<br>Yapışkan bombayı [{s:key_alt_cast}] tuşuna basarak kendi üzerinizde kullanabilirsiniz."
 		"modifier_citadel_sticky_bomb_attached"	"Üzerinizde bomba var"
 		"citadel_ability_sticky_bomb_t3_desc"	"Yapıştığında hedefi <span class=\"highlight\">{s:DebuffDuration} saniye boyunca</span> <span class=\"highlight\">etkisizleştirir.</span>"
 		"StunTargetOnExplode_label"				"Süre"
@@ -1256,6 +1264,13 @@
 		//"MinAirTimeForStomp_postfix"				"s"
 		"ability_bounce_pad/speed_on_land""Hareket Hızı"
 
+		"ability_crackshot"						"Usta Nişancı"
+		"ability_crackshot_quip"				"Kafadan vuruşlarla bonus hasar verir ve yavaşlatma uygular."
+		"ability_crackshot_desc"				"Kafadan vuruşlar bonus <span class=\"highlight\">silah hasarı</span> verir ve <span class=\"highlight\">zamanla geçen yavaşlatma</span> uygular. Bu etki ancak yetenek dolum süresinde değilse meydana gelir.<br><br><span class=\"diminish\">Usta Nişancı yeteneğinin vereceği hasar, hedefle arasındaki mesafeden etkilenmez.</span>"
+		"FadingSlowPercent_label" "Zamanla Geçen Hareket Yavaşlatması"
+		"FadingSlowPercent_postfix" "%"
+		"AbilityCooldownPerHeadshot_label" "Kafadan Vuruş Başına Dolum Süresi"
+		"AbilityCooldownPerHeadshot_postfix" " sn"
 
 		//"citadel_ability_running_decoy"					"Decoy"
 		//"citadel_ability_running_decoy_desc"			"{s:hero_name} creates a temporary decoy that will run towards the target location and shoot at any nearby enemies."
@@ -1328,6 +1343,7 @@
 
 		"ability_perched_predator"				"Sekhmet'in Ruhu"
 		"ability_perched_predator_desc"			"Yoluna çıkan hedefleri tutan büyülü bir kedi gönderin. Kedinin bir kahramanı tutması kısa bir süre sonra bir patlamaya neden olur. <br>Patlamayı manuel olarak oluşturmak için [{s:in_ability1}] tuşuna basın."
+		"ability_perched_predator_quip"			"Düşmanları yakalayan büyülü bir kedi gönderin."	
 		//"CatExplosionCount_label"				"Explosions"
 		//"CatMaxSpeed_label"						"Ghostcat Max Speed"
 		"CatMaxSpeed_postfix"						" m/sn"
@@ -1351,9 +1367,9 @@ Dost Şarj Etme Süresi"
 		"PounceFriendlyTargetCD_postfix"			" sn"
 		"pounce_double_notify"					"Çift Atlama"
 
-		"ability_nano_proximity_ritual"			"Ava"
-		"ability_nano_proximity_ritual_quip"	"Yol arkadaşınızı düşmanlara saldırması için gönderin."
-		"ability_nano_proximity_ritual_desc"	"<span class=\"highlight\">Ava'yı</span> yakındaki bir düşmana <span class=\"highlight\">odaklanması</span> için gönderin. Hedeflenen düşmanlar hasar aldığında, iyileşmeleri azalır ve <span class=\"highlight\">hem Ava hem {s:hero_name} sağlık kazanır</span>. <span class=\"highlight\">Ava sadece {s:hero_name} yakındayken aktiftir</span>.<br>Ava'yı geri çağırmak için <span class=\"highlight\">[3]</span> tuşuna basın veya <br><span class=\"highlight\">[alternatif kullanma]</span> tuşuyla Ava'yı geri çağırın ve Ava'ya ışınlanın<br>. Ava'dan ne kadar uzaksanız geri çağırma/ışınlanma süresi de o kadar artar. Ava'yı geri çağırdığınızda sağlığını geri kazanır."
+		"ability_nano_proximity_ritual"			"Gardiyan Nekomata"
+		"ability_nano_proximity_ritual_quip"	"Bir alanı kolaçan eden bir heykel dikin."
+		"ability_nano_proximity_ritual_desc"	"Alandaki düşmanları takip eden bir <span class=\"highlight\">heykel</span> dikin. Gardiyan ayrıca, yakın zamanda {s:hero_name} tarafından hasar alan düşmanlara da saldırır. Hedeflenen düşmanların iyileşmeleri azalır ve hasar aldığında <span class=\"highlight\">{s:hero_name}'yu iyileştirir</span>."
 		"StatueLifetime_label"					"Otomatik Geri Çağırma Süresi"
 		"StatueLifetime_postfix"				" sn"
 		"StatueHeldRegen_label"						"Geri Çağırma Sırasında Ava'nın Yenilenmesi"
@@ -1361,16 +1377,16 @@ Dost Şarj Etme Süresi"
 		"StatueLifesteal_postfix"				"%"
 		"StatueLifestealNonHero_label"			"Kahraman Olmayanlardan Can Çalma"
 		"StatueLifestealNonHero_postfix"		"%"
-		"StatueActivateRange_label"				"Etki Menzili"
+		"StatueActivateRange_label"				"Açığa Çıkarma Menzili"
 		"StatueActivateRange_postfix"			" m"
 		"StatueHealth_label"					"Ava (Normalleşmiş)"
 		"StatueHealth_postfix"					"SP"
 		"StatueVictimDamageReduction_label"					"Hasar Azaltma"
 		"StatueVictimDamageReduction_postfix"				"%"
 
-		"ability_nano_proximity_ritual_t1_desc"  "<span class=\"highlight\">+%{s:StatueLifesteal}</span> Can Çalma"
-		"ability_nano_proximity_ritual_t2_desc"  "<span class=\"highlight\">+{s:DPS}</span> SBH ve hedef düşmanlar, {s:hero_name}'ya karşı <span class=\"highlight\">%{s:StatueVictimDamageReduction}</span> daha az hasar verir."
-		"ability_nano_proximity_ritual_t3_desc"  "<span class=\"highlight\">+%{s:DamageAmplification}</span> hasar artırımı ve kurbanlara %{s:HealAmpReceivePenaltyPercent} iyileşme azaltımı."
+		"ability_nano_proximity_ritual_t1_desc"  "Heykeller, saldırmadıklarında <span class=\"highlight\">görünmezlik</span> kazanır."
+		"ability_nano_proximity_ritual_t2_desc"  "<span class=\"highlight\">+{s:AbilityCharges}</span> yetenek şarjı ve <span class=\"highlight\">+{s:DPS}</span> SBH."
+		"ability_nano_proximity_ritual_t3_desc"  "Hedeflere <span class=\"highlight\">%{s:StatueVictimDamageReduction}</span> hasar azaltımı ve %{s:HealAmpReceivePenaltyPercent} iyileşme azaltımı."
 		"ability_nano_proximity_ritual_trigger"		"Ava'yı Geri Çağır"
 
 		"AvaRecallCooldown_label"				"Geri Çağırma Dolum Süresi"
@@ -1379,8 +1395,9 @@ Dost Şarj Etme Süresi"
 		"AbilityButtonHint_AvaWarp"			"Ava'ya Işınlan"
 		"CITADEL_ABILITY_NO_HEALTH_RESOURCE"	"Kullanılamaz"
 
-		"ability_nano_shadow_step"				"Gölge Adım"
-		"ability_nano_shadow_step_desc"			"Kendinizi gölgelerle sararak saldırılarınızı güçlendirin ve atılmalarınızı <span class=\"highlight\">görünmez</span> olarak yapın. Düşmanlara <span class=\"highlight\">yakın dövüş hasarı</span> vermek onların mermi direncini azaltır. Bu etki istiflenir."
+		"ability_nano_shadow_step"				"Gölgelerin Kraliçesi"
+		"ability_nano_shadow_step_desc"			"Düşmanlarınızı işaretleyin ve kendinizi gölgelerle sararak saldırılarınızı güçlendirin ve <span class=\"highlight\">görünmez</span> olun. Düşmanlara saldırmak sizi geçici süreliğine açığa çıkartır. Düşmanlara <span class=\"highlight\">yakın dövüş hasarı</span> vermek onların mermi direncini azaltır. Bu etki istiflenir."
+		"ability_nano_shadow_step_quip"			"Düşmanlarınıza karşı avantaj elde etmek için gölgelere saklanın."
 		"modifier_nano_shadow_step"			"Gölge Adım"
 		"NanoShadowBulletArmorReductionLight_prefix"	"-"
 		"NanoShadowBulletArmorReductionLight_label"	"Mermi Direnci (Hafif)"
@@ -1499,7 +1516,7 @@ Dost Şarj Etme Süresi"
 		"ability_blood_shards"				"Garez"
 		"ability_blood_shards_quip"			"Bir düşmanda hasar istifleyin."
 		"ability_blood_shards_desc"			"Bir Garez istifi uygulamak için <span class=\"highlight\">sağlığınızın bir kısmını feda ederek</span> kan parçaları fırlatın. Her istif kurbanınızı <span class=\"highlight\">yavaşlatır</span> ve <span class=\"highlight\">sizden aldığı hasarı artırır</span>. Yavaşlatma etkisi zamanla azalır."
-		"ability_blood_shards_t2_desc"		"+{s:HealthToDamage} Hasara Dönüşen Sağlık"
+		"ability_blood_shards_t2_desc"		"İstif başına <span class=\"highlight\">+{s:HealthToDamage}</span> hasara dönüşen sağlık ve <span class=\"highlight\">+%{s:VulnerabilityPerStack}</span> hasar artırımı."
 		"ability_blood_shards_t3_desc"		"+{s:NumBloodShards} Kan Parçası"
 		"NumBloodShards_label"				"Kan Parçası"
 		"MoveSpeedPenaltyPerStack_label"		"Hareket Yavaşlatma"
@@ -1610,7 +1627,7 @@ Dost Şarj Etme Süresi"
 		"HeadshotBonus_prefix"					"+"
 		"HeadshotBonus_label"					"Kafadan Vuruş Hasarı"
 		"HeadshotBonus_postfix"					"%"
-
+		"AbilityButtonHint_AssassinateFoVCycle"	"Yakınlaştırmayı Aç/Kapat"
 
 		//-----------------------------------------------------------------------------
 		// Digger (Formally Pouncer and Driller) Mo and Krill
@@ -1853,6 +1870,7 @@ Dost Şarj Etme Süresi"
 		//"TornadoDuration_postfix"			"s"
 		"modifier_mirage_tornado_lift"	"Hortum"
 		"modifier_mirage_tornado_slow"	"Hortum - Yavaşlatma"
+		"modifier_mirage_tornado_hold_in_place"	"Hortum"
 
 		"mirage_fire_beetles"			"Ateş Böcekleri"
 		"mirage_fire_beetles_quip"		"Düşmanlardan sağlık çalan böcekler gönderin."
@@ -1872,6 +1890,7 @@ Dost Şarj Etme Süresi"
 		"mirage_teleport_desc"	"Yönlendirilir. Mini haritadaki bir dost veya görünür düşman kahramanı hedefleyin, ardından hedefinizin, yönlendirmenin başladığı esnadaki konumuna <span class=\"highlight\">ışınlanın</span>. Işınlandıktan sonra <span class=\"highlight\">hareket hızı</span> ve <span class=\"highlight\">tekrar şarjör değiştirene kadar atış hızı</span> kazanırsınız."
 		"MirageTeleportMoveSpeed_conditional"	"Işınlanma Sonrası"
 		"mirage_teleport_movespeed"		"Gezgin - Bonus Hareket Hızı"
+		"mirage_teleport_t3_desc"	"Vardığınızda <span class=\"highlight\">{s:ImmunityDuration} sn </span> boyunca sersemletme, susturma, uyutma, bağlama ve etkisizleştirmeye karşı <span class=\"highlight\">bağışıklık</span> kazanırsınız."
 
 		"mirage_sand_phantom"			"Cinin İşareti"
 		"mirage_sand_phantom_quip"		"Giderek artan hasar istifleri uygulayın."
@@ -2140,6 +2159,29 @@ Dost Şarj Etme Süresi"
 //		"slork_chomp_t3_desc"		"Chomp deals <span class=\"highlight\">{s:DamageMissingPercentHealth}%</span> of the enemies missing health each second."
 		//"modifier_slork_chomp_grapple"	"Chomping an Enemy"
 		//"modifier_slork_chomp_hobbled" "Getting Chomped"
+
+		"fathom_scalding_spray"			"Haşlama Spreyi"
+		"fathom_scalding_spray_quip"	"Önünüze bir koni şeklinde kaynar su püskürtün."
+		"fathom_scalding_spray_desc"	"Önünüze bir koni şeklinde kaynar su püskürtün. Sprey bir düşman kahramanına hasar verdikçe fazladan silah hasarı kazanırsınız."
+		"WeaponDamageBonusPerSec_label"		"Saniye Başına Silah Hasarı Kazanımı"
+		"WeaponDamageBonusPerSec_postfix"	"%"
+
+		"fathom_breach"				"Dağılın"
+		"fathom_breach_quip"		"Düşmanlara doğru ileri atılın."
+		"fathom_breach_desc"		"İleri doğru fırlayarak indiğiniz yerdeki tüm düşmanlara hasar verin ve onları havaya fırlatın."
+
+		"fathom_defer_damage"		"Kan Akıtma"
+		"fathom_defer_damage_quip"	"Alınan hasarın bir kısmını erteleyin."
+
+		"fathom_reefdweller_harpoon"		"Resif Sakini Zıpkını"
+		"fathom_reefdweller_harpoon_quip"	"Bir yüzeye çıkmak için oraya bir zıpkın fırlatın."
+		"fathom_reefdweller_harpoon_desc"	"Bir yüzeye tutunan ve sizi kendine çeken bir zıpkın fırlatın. Zıpkına bağlıyken <span class=\"highlight\">görünmez ve hasar verilemez</span>olursunuz. Fathom'a doğrudan bakan düşmanlar görünmezliği kaldırır."
+		"fathom_reefdweller_harpoon_passive_desc" "Pasif: Savaş dışındayken ve mini haritada gizlendiğinizde, her saniye <span class=\"highlight\">maksimum sağlığınızın bir kısmı kadar iyileşin.</span>"
+		"modifier_fathom_reefdweller_harpoon_latched"	"Resif Sakini Zıpkını"
+		"fathom_reefdweller_harpoon/regen"	"Savaş Dışı Yenileme"
+		"fathom_reefdweller_harpoon/latched"	"Duvara Bağlı"
+		"OutOfCombatRegen_label"			"Maksimum Sağlık Yenileme"
+		"OutOfCombatRegen_postfix"			"%"
 
 
 		//"slork_ability_4"		"Torrent"
@@ -2547,7 +2589,7 @@ Dost Şarj Etme Süresi"
 		"viscous_restorative_goo_desc"					"Hedefi şifalı yapışkan bir maddeyle sararak <span class=\"highlight\">hasara karşı korur ve sağlık yenilemesini artırır</span>. Küp içerisindeki hedef <span class=\"highlight\">yeni bir eylemde bulunamaz</span>. Kendi üzerinizde kullanabilirsiniz. İçinden erkenden çıkmak için <span class=\"highlight\">[{s:in_mantle}]</span> tuşuna basın."
 		"viscous_restorative_goo_quip"					"Küp güvenli bir yerdir."
 		"viscous_restorative_goo_t1_desc"				"Hareket hızını ve kuvvet yenilemesini artırır."
-		"viscous_restorative_goo_t2_desc"				"<span class=\"highlight\">Tüm zayıflatmaları kaldırır</span> ve yetenek dolum sürelerini <span class=\"highlight\">{s:AbilityCooldown} saniye</span> azaltır."
+		"viscous_restorative_goo_t3_desc"				"<span class=\"highlight\">Tüm zayıflatmaları kaldırır</span> ve yetenek dolum sürelerini <span class=\"highlight\">{s:AbilityCooldown} saniye</span> azaltır."
 		"viscous_restorative_goo_buff_desc"				"Küpten çıktıktan sonra hedefin <span class=\"highlight\">hareket hızı ve kuvvet yenilemesi</span> kısa bir süreliğine artar."
 		"PostCubeBuffDuration_label"					"Güçlendirme Süresi"
 		"PostCubeBuffDuration_postfix"					" sn"
@@ -2741,6 +2783,91 @@ Dost Şarj Etme Süresi"
 
 		//"modifier_charged_bomb"	"Charged Bomb"
 
+		
+		//-----------------------------------------------------------------------------
+		// Hero Viper
+		//-----------------------------------------------------------------------------
+		"ability_viper_hookdagger" "Kanca Bıçağı"
+		"ability_viper_hookdagger_desc" "<span class=\"highlight_spirit\">Büyü hasarı</span> veren bir bıçak fırlatın. Bıçak ardından geri döner ve dönüş yolunda tekrar <span class=\"highlight_spirit\">büyü hasarı</span> verir ve <span class=\"highlight\">yavaşlatma</span> uygular."
+		"ability_viper_hookdagger_t3_desc"	"İlave <span class=\"highlight\">2 bıçak</span> fırlatır."
+		"ability_viper_hookdagger_quip" "Size geri dönen bir bıçak fırlatın."
+
+		"ability_viper_snakedash" "Sürünme"
+		"ability_viper_snakedash_desc" "Kayma mesafeniz arttı, yokuş yukarı kayabilirsiniz ve kayarken daha hızlı dönebilirsiniz.</span>"
+		"ability_viper_snakedash_t3_desc"	"Kayarken <span class=\"highlight\">+%{s:SlideBulletEvasion} mermilerden kaçınma</span> kazanırsınız."
+		"ability_viper_snakedash_quip" "Kayma çevikliğinizi artırın."
+
+		"modifier_snakedash" "Yılan Biçimi"
+		"OutgoingDamage_label" "İlk Hasar"
+		"ReturnDamage_label" "Kanca Hasarı"
+		"OutgoingProjectileLifetime_label" "Kanca Gecikmesi"
+		"OutgoingProjectileLifetime_postfix" " sn"
+
+		"ability_viper_venom" "Ölümcül Zehir"
+		"ability_viper_venom_desc" "Bir hedefe ölümcül zehir zerk edin. Zehir, biraz gecikmeden sonra tetiklenirek <span class=\"highlight_spirit\">büyü hasar</span> verir. Verilen hasar, hedefin eskik sağlığı kadar artar.<br><br><span class=\"diminish\">Tekrar zehir uygulamak süreyi yeniler.</span>"
+		"VenomMinDamage_label"			"Minimum Zehir Hasarı"
+		"VenomMaxDamage_label"			"Maksimum Zehir Hasarı"
+		"VenomDuration_label"			"Zehir Birikme Süresi"
+		"VenomDuration_postfix"		" sn"
+		"VenomMaxDamageHealthPercentage_label"		"Maksimum Hasara Ulaşma Sağlığı"
+		"VenomMaxDamageHealthPercentage_postfix"	"%"
+		"ability_viper_venom_t3_desc"	"+<span class=\"highlight\">%{s:VenomMissingHealthDamagePercentage} Eksik Sağlık Hasarı</span>"
+		"VenomMissingHealthDamagePercentage_label"		"Eksik Sağlık Hasarı"
+		"VenomMissingHealthDamagePercentage_postfix"	"%"
+		"ability_viper_venom_quip" "Düşmanlarınıza ölümcül bir zehir enjekte edin."
+
+		
+		"ability_viper_ult" "Taşa Çevirme"
+		"ability_viper_ult_desc" "Zeminde lanetli bir alan oluşturun. Bir süre sonra silindir şeklindeki bölgedeki TÜM birimler <span id=\"TestID\"/></span><span class=\"highlight\">taşa çevrilir</span>. Düşmanlar ayrıca <span class=\"highlight_spirit\">büyü hasarı</span> alır.<br><br><span class=\"diminish\">Taşa çevrilmiş birimler gelen hasarı engeller ancak bir eylemde bulunamaz.<br>Taşa çevrilmiş birimler yeterince hasar engelledikten sonra özgür kalırlar.</span>"
+		"PetrifyDuration_label"			"Taş Kalma Süresi"
+		"PetrifyDuration_postfix"		" sn"
+		"PetrifyDamageBreakThreshold_label"	"Taşkenki Maksimum Engelleme"
+		"ability_viper_ult/viper_ult_petrify" "Taşa Çevrildi"
+		"ability_viper_ult_quip" "Hem dostları hem de düşmanları taşa çevirin."
+		"HalfHeight_postfix"	" m"
+
+		//-----------------------------------------------------------------------------
+		// Hero Magician
+		//-----------------------------------------------------------------------------
+		
+		"ability_magician_magicbolt" "Büyülü Şimşek"
+		"ability_magician_magicbolt_desc" "<span class=\"highlight_spirit\">Büyü hasarı</span> veren ve <span class=\"highlight\">zamanla geçen yavaşlatma</span> uygulayan bir şimşek ateşleyin. <br><br> <span class=\"highlight\">[{s:in_ability1}]</span> tuşuna basarak şimşeği nişangahınıza doğru <span class=\"highlight\">yönlendirin.</span>"
+		"ProjectileRedirectCount_label" "Maksimum Yönlendirme"
+		"ability_magician_magicbolt_t3_desc" "+{s:ProjectileRedirectCount} maksimum yönlendirme ve +{s:Damage} hasar."
+		"ability_magician_magicbolt_quip" "Yönlendirilebilen büyülü bir şimşek ateşleyin."
+
+		"citadel_ability_magewalk" "Hedef Saptırma"
+		"citadel_ability_magewalkk_desc" "Hedeflediğiniz konumda belirmeden önce kısa süreliğine <span class=\"highlight\">hedeflenemez</span> olun. İlk <span class=\"highlight\">{s:EmpoweredAttackCount} saldırınız</span> bonus <span class=\"highlight_spirit\">büyü hasarı</span> verir. <br><br><span class=\"highlight\">[Kullanım]</span> Hedef konumda belirin.<br><span class=\"highlight\">[Alternatif Kullanım]</span> Yerinizde belirin.</span><br><span class=\"diminish\">Düşmanlar hangi kullanımı yaptığınızı bilmez.</span>"
+		"MageTime_label" "Hedeflenememe Süresi"
+		"MageTime_postfix" " sn"
+		"modifier_magewalk_empoweredattacks" "Şanslı Kart"
+
+		"ability_magician_cloneturret" "Hayalet Asistan"
+		"ability_magician_cloneturret_desc" "Hedeflediğiniz konuma bir <span class=\"highlight\">asistan</span> çağırın. Asistan, saldırılarınızı taklit ederek <span class=\"highlight_spirit\">büyü hasarı</span> veren kartlar fırlatır. <br><br><span class=\"highlight\">{s:in_ability2}</span> tuşuna basarak asistanınızla yer değiştirebilirsiniz."
+		"ability_magician_cloneturret_t3_desc" "Asistan ayrıca Büyülü Şimşek'i de taklit eder."
+		"ability_magician_cloneturret_quip" "Sadık asistanınızı çağırın."
+
+		"ability_magician_animalcurse" "Tavşan Büyüsü"
+		"ability_magician_animalcurse_desc" "Bir hedefe büyü yaparak onu <span class=\"highlight\">tavşana</span> dönüştürün. Tavşanlar küçüktürler ve daha hızlı hareket ederler ancak hasar artırımı alırlar ve çoğu eylemi gerçekleştiremezler.<br><span class=\"highlight\">[Kullanım]</span> Hedef kahramana büyü yap.<br><span class=\"highlight\">[Alternatif Kullanım]</span> Kendine büyü yap.<br><span class=\"diminish\">Büyü, yetenekleri kesintiye uğratmaz.</span>"
+		"ability_magician_animalcurse/animalhex_curse_modifier" "Büyülendi!"
+		"ability_magician_animalcurse_t3_desc" "Yakındaki düşmanları <span class=\"highlight\">sürenin yarısı kadar</span> <span class=\"highlight\">büyüleyin</span>."
+		"DamageAmpPercentage_label" "Hasar Artırımı"
+		"DamageAmpPercentage_postfix" "%"
+		"ability_magician_animalcurse_quip" "Düşmanınızı tavşana dönüştürün."
+		
+
+		"ability_magician_stage" "Tutsak Seyirci"
+		"ability_magician_stage_desc" "Bir düşmanı hedef alın. Siz ve hedef düşman sahneye bağlanırsınız ve çıkamazsınız. Diğer tüm karakterler alanın dışına itilir."
+
+		"ability_magician_shadowclone" "Büyük Homunkulus!"
+		"ability_magician_shadowclone_desc" "Sağlığı ve hasarı azaltılmış bir <span class=\"highlight\">kopyanızı</span> oluşturun. Klon öldüğünde veya süresi bittiğinde patlayarak büyü hasarı verir.<br><br><span class=\"diminish\">Kopya, son yeteneğini kullanamaz.</span>"
+		"CloneHealthPercentage_label" "Kopya Sağlığı"
+		"CloneHealthPercentage_postfix" "%"
+		"CloneDamagePercentage_label" "Kopya Hasarı"
+		"CloneDamagePercentage_postfix" "%"
+		"CloneLifetime_label" "Kopya Süresi"
+		"CloneLifetime_postfix" " sn" 
+		"ability_magician_shadowclone_t3_desc"	"Kopya <span class=\"highlight\">son yeteneğini</span> kullanabilir."
 
 		//-----------------------------------------------------------------------------
 		// END HERO ABILITIES
@@ -2776,13 +2903,17 @@ Dost Şarj Etme Süresi"
 		"citadel_weapon_hero_astro_set"				"Esrarengiz 45'lik"
 		"citadel_weapon_hero_chrono_set"			"Ticari Sır"
 		"citadel_weapon_hero_shiv_set"				"Fiyasko"		
-		"citadel_weapon_hero_tengu_set"				"Kedi Babasının Hayali"
+		"citadel_weapon_hero_tengu_set"				"Koruyucu'nun Eli"
 		"citadel_weapon_hero_krill_set"				"Sarı Kanarya"
 		"citadel_weapon_hero_lash_set"				"Kaset Hikayesi"
 		"citadel_weapon_hero_warden_set"			"Özgürlüğün Bedeli"
 		"citadel_weapon_hero_mirage_set"			"Tutulan Sözler"
 		"citadel_weapon_hero_synth_set"				"Kara Koyun"
-		
+		"citadel_weapon_hero_viper_set"				"Çıngıraklı"
+		"citadel_weapon_hero_magician_set"			"Hokkabaz"
+		"citadel_weapon_hero_slork_set"				"Girdap"
+	
+
 		//"citadel_weapon_hero_duo_set"				"Duo Gun"
 		//"citadel_weapon_hero_heavy_set"				"Heavy Gun"
 		//"citadel_weapon_hero_akimbo_set"			"Akimbo Gun"
@@ -2803,8 +2934,8 @@ Dost Şarj Etme Süresi"
 		//"citadel_weapon_hero_rutger_set"			"Rutger Gun"
 		//"citadel_weapon_hero_tokamak_set"			"Curie-ous Times"
 		//"citadel_weapon_hero_tempest_set"			"Tempest Gun"
-		"citadel_weapon_hero_wrecker_set"			"Yıkım Şarkısı"
-		
+		"citadel_weapon_hero_wrecker_set"			"Kasabın Eli"
+
 		// Melee names
 		"ability_melee_ghost"	"Yakın Dövüş"
 		"citadel_ability_melee_bull"			"Yakın Dövüş"
@@ -2868,7 +2999,10 @@ Dost Şarj Etme Süresi"
 		"hero_yamato_role"				"Ustalıkla güçlü saldırılar gerçekleştirir."
 		"hero_tengu_role"				"Şanslı bir dostla güçlü bir ikili olur."
 		"hero_mirage_role"				"Atışlarını zamanlar ve kaçan hedefleri yakalar."
+		"hero_slork_role"				"Savaşın ortasına girer ve ardından iyileşmek için saklanır."
 		"hero_synth_role"				"Düşmanın arka saflarına sızar ve ortalığı karıştırır."
+		"hero_viper_role"				"Düşmanların arasına sızar ve onları öldürür."
+		"hero_magician_role"			"Düşmanlarına hedef saptırır ve onları büyüler."
 
         //"hero_akimbo_playstyle"         "Akimbo excels at close range combat, where he relies on speed, cone attacks, and a whole lot of bullets to hit as many targets as possible." 
         "hero_astro_playstyle"          "Astro keskin nişancılık becerilerine güvenir ve havaya fırlattığı şeyleri vurur. İyi nişan aldığında ağır hasar verebilir. Hareket becerileri, düşmanlarını izole etmesini veya aceleyle geri çekilmesini sağlar."
@@ -2888,7 +3022,7 @@ Dost Şarj Etme Süresi"
         "hero_kelvin_playstyle"         "Tam zamanında yaptığı iyileştirmeler ve takım dövüşlerini bölebilme yetenekleriyle kolay bir zaferle yıkıcı bir yenilgi arasındaki farktır. Etrafta kayarak gezerken düşmanları yavaşlatabilmesi Kelvin'in takımına birçok manevra avantajı sağlar."
         "hero_lash_playstyle"           "Lash, çatışma başlatmak için uzak mesafelerden uçarak bihaber düşmanların kafasına inerek veya kendisinden kaçmaya çalışan düşmanların peşine düşerek hayatı onlara dar eder."
         "hero_krill_playstyle"			"Mo ve Krill, tünel kazarak neredeyse her düşmanı gafil avlayabilir. Gafil avlanan düşmanlar içinse bunun çok yıkıcı sonuçları olabilir."
-        //"hero_nano_playstyle"           "(in flux) Like any good politician, Nano turns people against each other and lets them do her dirty work before swooping in and claiming credit for everything."
+        "hero_nano_playstyle"           "Calico gölgeleri kullanarak avantaj elde eder, çatışmalara girip çıkarak düşmanlarını birer birer avlar."
         "hero_orion_playstyle"    		"Kurnaz bir avcı olan Grey Talon en zorlu rakiplerini alt etmek için ölümcül isabet, tuzaklar ve akıllıca konumlanmadan oluşan kombinasyonlarını kullanır."
         "hero_shiv_playstyle"           "Shiv'in âdil olmak gibi bir derdi olmadığından, düşmanlarını zayıflatıp ardından öldürücü darbeyi vumak için vurkaç taktiklerine bel bağlar."
         //"hero_tempest_playstyle"        "Much like how a child has no idea how a TV works, no one knows exactly HOW Tempest kills you.  Was it a tesla coil?  You didn't see a tesla coil.  Either way, you're dead and Tempest is laughing."
@@ -2901,9 +3035,10 @@ Dost Şarj Etme Süresi"
 		//"hero_rutger_playstyle"		"Rocket Launcher gives him some rocket-jumping capabilities, Force Field allows him to close off movement options, Cheat Death lets him turn bad fights around, and a Pulse released in the middle of a teamfight can dictate the outcome."
 		"hero_synth_playstyle"		"Güçlü bir pompalı tüfeğe ve ince bir yapıya sahip olan Pocket, yakın dövüşlerden sağ çıkabilmek için kısa süreliğine mistik çantasına kaçar ve uçan bir pelerin aracılığıyla ışınlanır."
 		"hero_mirage_playstyle"		"Mirage, güçlü bir hortumun içine girerek düşmanları yakalayıp havaya kaldırır. Böceklerin yardımıyla birden fazla düşmana direnebilir ve nerede olursa olsun daima bir dosta yardım etmeye veya bir düşmanı cezalandırmaya hazırdır."
-		//"hero_slork_playstyle"		"Slork's weapon poisons all it hits. Primary fire hits all in a cone, and aimed fire shoots a dart which crits when hitting a poisoned target."
+		"hero_slork_playstyle"		"Kısa menzilli bir suikastçı olan Fathom, savaşa girip çıkabilir ve uzun süreli çatışmaları kazanır."
 		"hero_tengu_playstyle"		"Ivy, düşmanları yavaşlatarak ve sersemleterek çatışmanın gidişatını değiştirebilecek yeteneklere sahiptir. Bir dosta bağlanarak kendisinin ve dostunun silahlarını güçlendirirme ve iyileştirme paylaşma konusunda oldukça etkilidir."
-
+		"hero_viper_playstyle"		"Güçlü (ve bir o kadar da zehirli) silahıyla Viper, takımların arkasına sarkabilir ve yüksek öncelikli hedefleri mermi fırtınalarıyla öldürebilir."
+		"hero_magician_playstyle"	"Magician, isteksiz asistanının yardımıyla düşmanlarını kavisli büyüler ve hızlı kartlarla şaşırtabilir."
 	
 		//"hero_akimbo_lore"				"Though he was built by a lonely gunslinger, Akimbo was taught that he couldn't use a gun to solve all his problems.  This frustrated the robot outlaw immensely, but as time passed Akimbo realized that his human father was right.  A gun only solved about 75% of his problems.  To solve ALL his problems, he would need at least 2 guns." 
 		"hero_astro_lore"				"Hayatı boyunca New York'a taşınmayı hayal eden insanlar var. Holliday onlardan biri değil. Küçük bir kasabada Şerif olmaktan memnun olan Holliday, silahını kullanmak zorunda kaldığı tek zamanın kent panayırındaki atış oyunları olduğu bir kariyerin tadını çıkardı... Sonra cinayetler başladı.\n\nDehşet verici ve insanlık dışı şeyler... Göğüs kafesleri açılmış halde cesetler bulundu... İç organları kuşlar tarafından parçalanmış... Holliday, medyanın \"The Troubadour\" adını verdiği gezgin bir halk müzisyeni olan katilin izini sürdü ancak onunla yüzleştiğinde katil, patlayarak kargalara dönüştü ve uçup gitti.\n\nBu 6 ay önceydi ve Illinois'un merkezindeki cinayetler durmuş olsa da Holliday'in araştırması durmadı. The Troubadour'ın New York'a gittiğine inanıyor ve onu bulduğunda o aşağılık herifi öldürecek."
@@ -2931,8 +3066,9 @@ Dost Şarj Etme Süresi"
 		"hero_tengu_lore"				"Gargoyle canlandığında etrafında olup bitenden haberi yoktu... Gözüne çarpan tek şey büyük ve küçük bir insanın zarar gördüğüydü. Gargoyle zaman harcamadan hemen duruma müdahil oldu ve onu gören saldırganlar dehşet içinde kaçtı. Küçük insan teşekkür etti ve ismini sordu. Bir adı yoktu. Küçük insan da \"Sana Ivy diyeceğim\" dedi. O esnada da her tarafı sarmaşıkla kaplıydı. Bu ad, ona pek yaratıcı gelmemişti ama küçük insanın hatırına kabul etti.\n\nİnsanlar, ona ne kadar müteşekkir olduğunu gösterebilmek için Ivy'i evlerine davet ettiler. Ivy bu daveti kabul etti ve yola koydular. Ivy o akşam çok şey öğrendi. Ailenin adının Arroyo, ufaklığın adının da Sophia, bir tabak dolusu lezzetin adının mofongo olduğunu öğrendi. Ancak en önemlisi, onlara saldıran kişilerin \"Mendoza Suç Örgütü\" mensubu olduğunu ve Arroyo ailesi gibi iyi insanlara zarar verdiğini öğrendi.\n\nArroyo ailesinin Ivy'i evlerinde ağırlamasından bu yana 18 yıl geçti. Ivy bu süre boyunca kendisini Mendoza Suç Örgütü'nü çökertmeye ve İspanyol Harlem bölgesini bu eşkıyalardan kurtarmaya adadı. Ancak hayatını 18 sene boyunca tek bir şeye adamanın kötü yanlarından biri, adanılan şeyi gerçekleştirdikten sonra ne yapacağını bilememektir. Ivy şimdi hayatında ilk defa İspanyol Harlem bölgesinin dışına çıkıyor ve dünyanın ona sunduğu şeyleri deneyimlemeye başlıyor."
 		"hero_synth_lore"				"Fairfax Industries'in en büyük vârisi olan Arin Fairfax, 18. yaş gününde vurulup ölüme terk edildiğinden beri, son beş yılını saklanarak geçirdi. Arin, onu aile şirketinin başına geçmekten kimin alıkoyduğunu bilmiyor... Açgözlü yılanlarla dolu Fairfax Industries'teki herhangi biri olabilir.\n\n\"Pocket\" adını alan Arin, gerçek kimliğini saklamak için elinden geleni yapıyor… Bunu sadece kendi güvenliği için değil aynı zamanda kendisine ailesinden farklı bir kimlik inşa etmek için yapıyor."
 		"hero_mirage_lore"				"Cinler, modern dünyadaki en meraklı gruplardan biridir. Kontrollü dozlarda kullanılan büyük güçlere sahip olan Cinler, dinlenmeden 48 dakikadan uzun süre bedensel formlarını koruyamazlar. Sonuç olarak, çoğu cin, ulaşım, koruma ve arkadaşlık için insan korumalar kullanır.\n\nMirage, bu korumalardan biridir. Cin elçisi Nashala Dion tarafından istihdam edilen Mirage, diplomatik bir görev için New York'tadır. Cinler, halkları için egemen bir ulus inşa edebilmek amacıyla Wyoming'in bir kısmının satışı için ABD hükûmetiyle anlaşmaya varabilmeyi umuyorlar."
-
-
+		"hero_slork_lore"				"Denizin derinliklerinde kötü şöhretiyle bilinen bir canavar olan Fathom, kendine gizemli ve korkutucu bir hava vermekten hep keyif aldı. Asi denizcilerden ziyafetler çekerek ve selkie'lerden vergi alarak hâlinden memnundu ancak Şeytan'ın gelişiyle tüm tadı kaçıverdi zira dehşet yayma konusunda, doğanın en azılı soykırımcı gücüyle nasıl rekabet edebilirdi ki? Bu hiç de âdil değildi. Bir şeyler yapmalıydı. Bu yüzden Koruyucuları çağırarak her zaman derinlerin en iyi avcısı olarak kalmaya çalışıyor."
+		"hero_viper_lore"				"Konu yasaları çiğnemeye gelince, yakalanmamak bu işin en önemli yanlarından biridir. Ancak Viper'ın bundan haberi yok gibiydi. Neyse ki tutuklanmaktan daha iyi bildiği bir şey varsa o da hapisten kaçmak.\n\nÜç eyalet bölgesindeki tüm büyük hapisanelerde yatmış olan Viper, ona iyilik borcu olan suçlulardan etkileyici olarak nitelendirilebilecek bir ağ kurdu. Tabii, kendisine borcu olan kişi sayısı kadar onu öldürmek isteyen kişi de var fakat Viper, bardağı dolu tarafından görmeyi seçen biridir."
+		"hero_magician_lore"			"Henry'nin ailesi ona gerçek sihirle uğraşamayacak kadar genç ve fevri olduğunu söyledi ve bu yüzden ona oynaması için bir kart destesi verdiler. Doğal olarak el çabukluğuna merak sardı ve kısa süre sonra mistik eşyalara veya büyüye ihtiyaç duymadan yaptığı fantastik yanılsamalarla sınıf arkadaşlarını şaşırtmaya başladı.\n\nLisedeyken Savannah ile tanıştı ve sahne sihirlerine olan sevgileri romantik bir kasırgaya dönüştü. Çok geçmeden âşık oldular ve birlikte bir gösteri yarattılar. Birbirileri için yaratıldıkları açıkça belliydi. Henry, mezuniyet balosunda Savannah'ya evlenme teklif etti ve mezun olduktan kısa bir süre sonra evlendiler.\n\nŞaşırtıcı olmayan bir şekilde, her ikisinin ebeveynleri de bunu pek istemiyordu ancak Henry ve Savannah ruh eşi olduklarını biliyorlardı. Daha sonra mistik kan bağıyla sonsuza kadar bağlanarak sevgilerini pekiştirdiler.\n\nSahnede yaşadıkları bir kaza ikisinin de hayatına mal olduğunda, kimse kimi suçlayacağından emin değildi. Henry, Savannah'nın konumunun dışında olduğunu iddia ediyor. Savannah, Henry'nin sırasını beklemediğini söylüyor. Ama kesin olan bir şey var. Ruhları birbirine bağlı olduğu için ikisi de hayatına devam edemedi. Şimdilerde sürekli didişen hayalet çift Henry ve Savannah, ebedî birlikteliklerini bozma şansına sahip olmak istiyorlarsa birlikte hareket etmek zorunda."
 
 	}
 }

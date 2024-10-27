@@ -182,17 +182,18 @@
 		"Steam_Citadel_RP_FindingMatch"							"Vyhledává zápas"
 		
 		// These Match Mode ("MM_") tokens are for the %param0% below.
-		"Steam_Citadel_RP_MM_Unranked"							"Zápas"
-		"Steam_Citadel_RP_MM_Ranked"							"Zápas"
-		"Steam_Citadel_RP_MM_PrivateLobby"						"Soukromý zápas"
-		"Steam_Citadel_RP_MM_CoopBot"							"Kooperativní zápas s boty"
+		"Steam_Citadel_RP_MM_Unranked"							"Standardní zápas"
+		"Steam_Citadel_RP_MM_Ranked"							"Hodnocený zápas"
+		"Steam_Citadel_RP_MM_HeroLabs"							"Líheň hrdinů"
+		"Steam_Citadel_RP_MM_PrivateLobby"						"Lobby"
+		"Steam_Citadel_RP_MM_CoopBot"							"Zápas s boty"
 		"Steam_Citadel_RP_MM_Tutorial"							"Tutoriál"
 		"Steam_Citadel_RP_MM_Sandbox"							"Zkoušení hrdiny"
 		
 		"Steam_Citadel_InGame_Sandbox"		"Zkouší hrdinu {%param2%}"
 		"Steam_Citadel_InGame_Hero"			"{%param1%}: {%param2%} (%param0%. min)"
 		"Steam_Citadel_InGame"				"{%param1%} (%param0%. min)"
-		"Steam_Citadel_Spectating"			"{%param1%}: divák (%param0%. min)"
+		"Steam_Citadel_Spectating"			"Sleduje zápas"
 		"Steam_Citadel_RP_Online"			"Online"
 
 		"Steam_RP_hero_vampire"			"Vampire"
@@ -325,6 +326,8 @@
 		"hero_bomber"			"Bomber"
 		"hero_shieldguy"		"Shield Guy"
 		"hero_viper"			"Viper"
+		"hero_vandal"			"Vandal"
+		"hero_magician"			"Magician"
 
 		//-----------------------------------------------------------------------------
 		// Upgrades: Weapon

@@ -1,7 +1,7 @@
-﻿"lang" 
-{ 
-	"Language" "thai" 
-	"Tokens" 
+﻿"lang"
+{
+	"Language" "thai"
+	"Tokens"
 	{
 		"Citadel_Dashboard_BuildVersion"	"บิลด์ {d:buildNumber} - {s:buildTime}"
 
@@ -29,7 +29,7 @@
 		"Citadel_AlertPlayer_MatchReadyText"					"เกมของคุณเริ่มต้นแล้ว"
 
 		// disconnection
-		"GameUI_Disconnected"						"ตัดการเชื่อมต่อจากเซิร์ฟเวอร์"
+		"GameUI_Disconnected"						"ขาดการเชื่อมต่อกับเซิร์ฟเวอร์"
 		"GameUI_Disconnect_ServerInfoOverflow"		"ข้อมูลเดต้าเกินขีดจำกัด"
 		"GameUI_Disconnect_TickMessage"				"ข้อผิดพลาดในการเขียนข้อความที่ทำเครื่องหมาย"
 		"GameUI_Disconnect_StringTableMessage"		"ข้อผิดพลาดในการเขียนข้อความอัปเดตตารางสตริง"
@@ -65,7 +65,7 @@
 		"GameUI_Disconnect_SteamInUse"				"บัญชี Steam นี้ กำลังถูกใช้อยู่ในสถานที่อื่น"
 		"GameUI_Disconnect_SteamOwnership"			"บัญชี Steam นี้ ไม่ได้เป็นเจ้าของเกมนี้\nโปรดล็อกอินด้วยบัญชี Steam ที่ถูกต้อง"
 		"GameUI_Disconnect_SteamVAC"				"ถูกแบน VAC โดยเซิร์ฟเวอร์รักษาความปลอดภัย"
-		"GameUI_Disconnect_SteamTimeOut"			"การทำงาน Valve Anti-Cheat หมดเวลา โปรดตรวจสอบให้แน่ใจว่าคุณไม่ได้กำลังใช้โปรแกรมที่อาจรบกวน VAC และตรวจสอบว่า Steam ได้ถูกติดตั้งอย่างถูกต้องแล้ว"
+		"GameUI_Disconnect_SteamTimeOut"			"การทำงาน Valve Anti-Cheat (VAC) หมดเวลา โปรดตรวจสอบให้แน่ใจว่าคุณไม่ได้ใช้โปรแกรมที่อาจรบกวน VAC และติดตั้ง Steam ไว้อย่างถูกต้องแล้ว"
 		"GameUI_Disconnect_SteamDropped"			"การอนุมัติ Steam ล้มเหลว คุณต้องเชื่อมต่อกับ Steam เพื่อเริ่มต้นการเชื่อมต่อไปยังเซิร์ฟเวอร์เกม"
 		"GameUI_Disconnect_SteamTicket"				"ตั๋วไอดีผู้ใช้ STEAM ไม่ถูกต้อง"
 		"GameUI_Disconnect_NoSpectators"			"แมตช์ไม่อนุญาตให้มีผู้ชม"
@@ -83,7 +83,7 @@
 		"GameUI_Disconnect_ConnectionTimedout"		"ไม่สามารถสร้างการเชื่อมต่อกับเซิร์ฟเวอร์เกมได้"
 		"GameUI_Disconnect_ServerIncompatible"		"เวอร์ชันเซิร์ฟเวอร์เข้ากันไม่ได้"
 		"Player_DisconnectReason_Idle"				"ตัดการเชื่อมต่อจากเซิร์ฟเวอร์เกมแล้ว คุณไม่อยู่หน้าหน้าจอนานเกินไป"
-		
+
 
 		"GameUI_Disconnect_LocalProblem_ManyRelays"	"ขาดการเชื่อมต่อ แม้หลังจากลองเซิร์ฟเวอร์ถ่ายทอดในหลายตำแหน่งทางภูมิศาสตร์แล้ว สาเหตุหลักอาจเป็นปัญหาเกี่ยวกับการเชื่อมต่ออินเทอร์เน็ตของคุณ"
 		"GameUI_Disconnect_LocalProblem_HostedServerPrimaryRelay"	"เซิร์ฟเวอร์เกมขาดการเชื่อมต่อกับเซิร์ฟเวอร์ถ่ายทอดหลักที่ไคลเอนต์กำลังใช้งาน"
@@ -151,7 +151,7 @@
 		"Citadel_ViewMatchID_Loading_Error"					"ไม่สามารถดูแมตช์ได้"
 		"Citadel_ViewMatchID_InFlight_Title"				"แมตช์ยังคงดำเนินอยู่"
 		"Citadel_ViewMatchID_InFlight_Body"					"แมตช์นี้ยังคงเล่นกันอยู่ คุณต้องการชมแมตช์นี้หรือไม่?"
-		
+
 		//Playtest User
 		"Citadel_PlaytestUser_SubmitProcessing"				"โปรดรอสักครู่"
 		"Citadel_PlaytestUser_SubmitProcessingTitle"		"กำลังส่งผู้ใช้"
@@ -240,6 +240,12 @@
 		"Citadel_ReportPlayer_Reason_Comments"				"ความเห็น:"
 		"Citadel_ReportPlayer_CommentPlaceholder"			"อธิบายปัญหาที่คุณพบเกี่ยวกับผู้เล่นคนนี้"
 
+		"Citadel_CommendPlayer_PopupTitle"					"ชมเชยผู้เล่น"
+		"Citadel_CommendPlayer_PopupDesc"					"แสดงความยินดีกับคนที่เล่นเกมเก่ง และแจ้งให้ระบบการค้นหาแมตช์ทราบว่าคุณยินดีที่จะเล่นกับบุคคลนั้นอีกในแมตช์หน้า"
+		"Citadel_CommendPlayer_Friendly"					"เป็นกันเองและสนุกสนาน"
+		"Citadel_CommendPlayer_Teamwork"					"ทีมเวิร์กดี"
+		"Citadel_CommendPlayer_Skilled"						"เล่นดี"
+
 		"Citadel_SkipTutorial_Title"						"ข้ามบทฝึกสอน"
 		"Citadel_SkipTutorial_Body"							"คุณแน่ใจหรือไม่ว่าต้องการข้ามบทฝึกสอน คุณควรทำแบบนี้เฉพาะเมื่อเคยเล่นมาก่อนเท่านั้น"
 
@@ -285,6 +291,8 @@
 		"Citadel_Notification_Paused_Message"						"เกมได้ถูกหยุดชั่วคราว"
 		"Citadel_Notification_Unpaused_Title"						"กำลังจะดำเนินต่อ"
 		"Citadel_Notification_Unpaused_Message"						"เกมกำลังจะดำเนินต่อ..."
+		"Citadel_Notification_About_To_Respawn_Title"				"เวลาเกิดใหม่"
+		"Citadel_Notification_About_To_Respawn_Message"				"คุณกำลังจะเกิดใหม่..."
 		"Citadel_Hud_PreGame_Countdown"								"เกมกำลังเริ่ม..."
 		"Citadel_Hud_CantPause"										"ไม่สามารถหยุดเกมได้อีก {i:pause_cooldown} วินาที"
 		"Citadel_Hud_CantUnpause"									"ไม่สามารถยกเลิกการหยุดเกมได้อีก {i:pause_cooldown} วินาที"
@@ -321,6 +329,11 @@
 
 		"Citadel_InvalidCast_NoFullClips"							"ไม่มีตับกระสุนเต็มให้เติมกระสุน"
 
+		"Citadel_MatchInfo_Mode_Ranked"								"จัดอันดับ"
+		"Citadel_MatchInfo_Mode_Standard"							"มาตรฐาน"
+		"Citadel_MatchInfo_Mode_HeroLabs"							"แล็บฮีโร่"
+		"Citadel_MatchInfo_Mode_CoopBot"							"ร่วมกันสู้"
+		"Citadel_MatchInfo_Mode_Private"							"ส่วนตัว"
 
 		"Citadel_Reconnect_IncompatibleVersionTitle"				"เวอร์ชันเข้ากันไม่ได้"
 		"Citadel_Reconnect_IncompatibleVersionBody"					"ไคลเอนต์ของคุณไม่ใช่เวอร์ชันที่ถูกต้องสำหรับเชื่อมต่อกับเซิร์ฟเวอร์นี้อีกต่อไป"
@@ -336,7 +349,7 @@
 		"Citadel_Item_Tooltip_CantAfford"							"โซลส์ไม่​เพียงพอ​ซื้อไอเท็ม"
 		//"Citadel_Player_Level_AbilityPoints"						"<span class=\"boldText\">1 Ability Point</span> gained at levels 2, 3, 5, 7, and each level after"
 		//"Citadel_Player_Level_AbilityUnlocks"						"<span class=\"boldText\">1 Ability Unlock</span> gained at levels 1, 2, 4, and 6"
-		//"Citadel_Player_Level_WeaponPower"							"<span class=\"boldText\">+{s:weapon_bonus}% Base Bullet Damage</span>, <span class=\"boldText\">+{s:melee_bonus}% Base Melee damage</span> and <span class=\"boldText\">+{s:health_bonus} Max Health </span>"		
+		//"Citadel_Player_Level_WeaponPower"							"<span class=\"boldText\">+{s:weapon_bonus}% Base Bullet Damage</span>, <span class=\"boldText\">+{s:melee_bonus}% Base Melee damage</span> and <span class=\"boldText\">+{s:health_bonus} Max Health </span>"
 		"Citadel_Player_Level_APShort"								"แต้มสกิล"
 		"Citadel_Player_Level_AbilityUnlocksShort"					"ปลดล็อก​สกิล"
 		"Citadel_Player_Level_PowerIncreases"						"พลังเพิ่มขึ้น"
@@ -350,6 +363,7 @@
 		"Citadel_Player_Level_BaseHealth"							"พลังชีวิตพื้นฐาน"
 		"Citadel_Player_Level_SpiritAmp"							"เพิ่มความ​เสียหาย​วิญญาณ"
 		"Citadel_Player_Level_BulletResist"							"ต้านทานกระสุน"
+		"Citadel_Player_Level_TechResist"							"ต้านทาน​วิญญาณ​"
 		"Citadel_Player_Level_WeaponRange"							"ระยะอาวุธ"
 		"Citadel_Hero_Stats_Tooltip_WeaponPower"					"โบนัสรวมสำหรับความเสียหายปืนและความเสียหาย​ประชิดที่ได้รับจากการซื้อไอเท็มในสายอาวุธ"
 		"Citadel_Hero_Stats_Tooltip_HealthMult"						"โบนัสรวมสำหรับพลังชีวิตพื้นฐานที่ได้รับจากการซื้อไอเท็มในสายชีวิต"
@@ -386,10 +400,10 @@
 
 		"Citadel_Shop_ImbueTooltip_Title"							"เลือกสกิลที่จะผสานพลัง"
 		"Citadel_Shop_ActivePlacementTooltip_Title"					"เลือกช่องสกิลเพื่อทำการซื้อให้เสร็จสมบูรณ์"
-		"Citadel_Shop_ActivePlacementTooltip_Drag"					"ลากและวางเพื่อเปลี่ยนตำแหน่งสกิลกดใช้ในปัจจุบัน"	
+		"Citadel_Shop_ActivePlacementTooltip_Drag"					"ลากและวางเพื่อเปลี่ยนตำแหน่งสกิลกดใช้ในปัจจุบัน"
 
-		"Citadel_Shop_SellMaxItems_Title"							"ช่องเต็มหมดแล้ว!"	
-		"Citadel_Shop_SellMaxItems_Desc"							"หากต้องการให้การสั่งซื้อครั้งนี้เสร็จสมบูรณ์ โปรดเลือกไอเท็มเพื่อ<span class='highlight'>ขายครึ่งราคาและแทนที่</span>"	
+		"Citadel_Shop_SellMaxItems_Title"							"ช่องเต็มหมดแล้ว!"
+		"Citadel_Shop_SellMaxItems_Desc"							"หากต้องการให้การสั่งซื้อครั้งนี้เสร็จสมบูรณ์ โปรดเลือกไอเท็มเพื่อ<span class='highlight'>ขายครึ่งราคาและแทนที่</span>"
 		"Citadel_Shop_SellMaxItems_SellButton"						"ขาย"
 
 		"Citadel_Shop_AbilityisImbued"								"สกิลได้รับการผสาน"
@@ -472,7 +486,10 @@
 		"Citadel_Play_RankedNoScheduleDesc"					"คุณต้องเลือกเวลาตามกำหนดการก่อนจึงจะสามารถเล่นแมตช์จัดอันดับได้"
 
 		"Citadel_RankedGames_Played"						"เล่นแล้ว {i:ranked_games_played}/{i:ranked_games_required} เกม"
-		"Citadel_RankedGames_PlayedQualified"				"มีสิทธิ์เข้าร่วมแมตช์จัดอันดับ"
+		"Citadel_RankedGame_Played_desc"					"จำนวนเกมที่ต้องเล่นเพื่อให้มีสิทธิ์เข้าร่วมการจัดอันดับ"
+		"Citadel_RankedGames_PlayedQualified"				"แรงก์ของคุณจะถูกคำนวณจากเกมเพิ่มเติม"
+		"Citadel_RankedGames_Qualified1"						"เกมเพิ่มเติมที่คุณเล่นจะมีผลต่อแรงก์สุดท้ายของคุณ"
+		"Citadel_RankedGames_Qualified2"						"แรงก์สุดท้ายจะมอบให้ในวันที่ {t:s:end_day}"
 
 		"Citadel_Play_BotsOfflineTitle"				"บอทออฟไลน์ชั่วคราว"
 		"Citadel_Play_BotsOfflineText"				"บอทถูกปิดการใช้งานชั่วคราว โปรดตรวจสอบอีกครั้งในภายหลัง"
@@ -561,7 +578,7 @@
 		"Citadel_PrivateLobby_SwapTeamsTooltip"						"สลับสมาชิกกันระหว่างสองทีม แต่ยังคงเลนเดิมไว้"
 		"Citadel_PrivateLobby_RandomizeTeams"						"สุ่มผู้เล่นทุกคน"
 		"Citadel_PrivateLobby_ShuffleTeamsTooltip"					"สุ่มกำหนดตัวผู้เล่นภายในล็อบบี้ไปยังสองทีมที่ต่างกัน"
-		"Citadel_PrivateLobby_ShuffleTeams"							"สับเปลี่ยนภายในทีม"		
+		"Citadel_PrivateLobby_ShuffleTeams"							"สับเปลี่ยนภายในทีม"
 		"Citadel_PrivateLobby_ShuffleLanesTooltip"					"สุ่มกำหนดตัวผู้เล่นภายในทีมเดียวกันไปยังเลนที่ต่างกัน"
 
 		"Citadel_ServerRegion_0"									"เลือกภูมิภาคอัตโนมัติ"
@@ -600,11 +617,11 @@
 		"Citadel_Party_CancelMM"									"ยกเลิก"
 		"Citadel_Party_NotConnectedToGC"							"ไม่ได้เชื่อมต่อกับเครือข่าย Deadlock"
 		"Citadel_Party_PlayerLabel"									"ผู้เล่น"
-		"Citadel_Party_SpectatorLabel"								"ผู้ชม"	
+		"Citadel_Party_SpectatorLabel"								"ผู้ชม"
 		"Citadel_Party_Or"											"หรือ"
 		"Citadel_Party_ReadyUp"										"พร้อม"
 		"Citadel_Party_RolePlayer"									"ผู้เล่น"
-		"Citadel_Party_RoleSpectator"								"ผู้ชม"	
+		"Citadel_Party_RoleSpectator"								"ผู้ชม"
 		"Citadel_Party_CreatePartyTitle"							"กำลังสร้างปาร์ตี้"
 		"Citadel_Party_CreatePartyText"								"โปรดรอสักครู่"
 		"Citadel_Party_JoinPartyTitle"								"กำลังเข้าร่วมปาร์ตี้"
@@ -637,7 +654,7 @@
 		"Citadel_AcceptedInvitation_Title"							"รับคำเชิญ"
 		"Citadel_Party_SetMatchModeTitle"							"กำลังตั้งค่าโหมดปาร์ตี้"
 		"Citadel_Party_SetMatchModeText"							"โปรดรอสักครู่ ขณะที่เรากำลังตั้งค่าปาร์ตี้ของคุณ"
-		"Citadel_AcceptedInvitation_Name"							"{g:citadel_persona:accepted_invitation} ได้ยอมรับ​คำเชิญ​ของคุณ"		 
+		"Citadel_AcceptedInvitation_Name"							"{g:citadel_persona:accepted_invitation} ได้ยอมรับ​คำเชิญ​ของคุณ"
 		"Citadel_Party_KickedByTitle"								"ถูกเตะออกจากปาร์ตี้"
 		"Citadel_Party_KickedByText"								"คุณถูกเตะออกจากปาร์ตี้โดย {g:citadel_persona:kicked_by_account}"
 		"Citadel_Party_DraftEndedByTitle"							"แมตช์ถูกยกเลิก"
@@ -659,8 +676,8 @@
 		"Citadel_PartyInviteFriend_InvitesFull"						"มีสมาชิกมากเกินไป"
 		"Citadel_JoinParty_Title"									"เข้าร่วมปาร์ตี้"
 		"Citadel_JoinParty_Desc"									"หากคุณได้รับรหัสปาร์ตี้ โปรดกรอกรหัสด้านล่างนี้"
-		"Citadel_JoinParty_Prompt"									"ไอดีปาร์ตี้"	
-		"Citadel_Party_Invites"										"คำเชิญปาร์ตี้"
+		"Citadel_JoinParty_Prompt"									"ไอดีปาร์ตี้"
+		"Citadel_Party_Invites:p{party_invites}"					"<span class=\"InviteCount\">{d:party_invites} </span><span class=\"InviteHeaderText\">คำเชิญปาร์ตี้</span>"
 		"Citadel_PartyStartMatch"									"เริ่มแมตช์"
 		"Citadel_PartyFindMatch"									"ค้นหาแมตช์"
 		"Citadel_Party_CreateEasyBot"								"สร้างปาร์ตี้ที่คุณสามารถเชิญเพื่อนของคุณมาเล่นด้วยกันเพื่อร่วมต่อสู้กับบอทระดับง่าย"
@@ -686,6 +703,7 @@
 
 		"Citadel_RosterMode_Party_Matchmaking"						"เล่น Deadlock"
 		"Citadel_RosterMode_Party_RankedMatchmaking"				"เล่นแมตช์จัดอันดับ"
+		"Citadel_RosterMode_Party_HeroLabsMatchmake"					"เล่นแล็บฮีโร่"
 		"Citadel_RosterMode_Party_CoopBotMM"						"เล่นกับบอท"
 		"Citadel_RosterMode_Party_PrivateBotEasy"					"ปาร์ตี้แมตช์บอทส่วนตัว - ง่าย"
 		"Citadel_RosterMode_Party_PrivateBotMedium"					"ปาร์ตี้แมตช์บอทส่วนตัว - ปานกลาง"
@@ -697,6 +715,7 @@
 
 		"Citadel_RosterMode_Matchmaking"							"เล่น Deadlock"
 		"Citadel_RosterMode_RankedMatchmaking"						"เล่นแมตช์จัดอันดับ"
+		"Citadel_RosterMode_HeroLabsMatchmaking"					"เล่นแล็บฮีโร่"
 		"Citadel_RosterMode_CoopBotMM"								"เล่นกับบอท"
 		"Citadel_RosterMode_PrivateBotEasy"							"บอทส่วนตัว - ง่าย"
 		"Citadel_RosterMode_PrivateBotMedium"						"บอทส่วนตัว - ปานกลาง"
@@ -726,6 +745,9 @@
 		"Citadel_Roster_Instructions_Desc"							"เลือกฮีโร่อย่างน้อย 3 ตัว คุณจะได้รับมอบหมายให้เป็น​ฮีโร่​ตัว​ใด​ตัว​หนึ่ง​โดย​อัตโนมัติ​ตอน​เริ่ม​แมตช์<br><br>คุณอาจทำเครื่องหมายให้ฮีโร่เป็น<span class='selected'><b>เลือก</b></span> <span class='priority'><b>สำคัญ</b></span> หรือ<span class='high_priority'><b>สำคัญสูง</b></span> เพื่อเพิ่มโอกาสที่คุณจะได้รับมอบหมายเป็นฮีโร่ตัวนั้น"
 		"Citadel_Roster_Instructions_Select"						"<span class='keybind'>{s:iv_attack}</span> เพื่อทำเครื่องหมายฮีโร่เป็นเลือก"
 		"Citadel_Roster_Instructions_Prefer"						"<span class='keybind'>{s:iv_attack2}</span> เพื่อเปลี่ยนระหว่าง<b>สำคัญ</b>กับ<b>สำคัญสูง</b>"
+
+		"Citadel_Roster_Instructions_Title_HeroLabs"				"แล็บฮีโร่"
+		"Citadel_Roster_Instructions_Desc_HeroLabs"					"เข้าคิวค้นหาแมตช์เพื่อลองเล่นหรือสู้กับฮีโร่ใหม่ในช่วงทดลอง<br><br>เลือกฮีโร่อย่างน้อย 3 ตัว<b>โดยฮีโร่ 2 ตัวต้องเป็นฮีโร่มาตรฐานที่ไม่ใช่ฮีโร่ทดสอบ</b> โอกาสที่ผู้เล่นจะได้รับฮีโร่ในช่วงทดลองจากรายชื่อฮีโร่ที่เลือกไว้จะขึ้นอยู่กับว่าผู้เล่นไม่ได้เล่นฮีโร่ในช่วงทดลองตัวใดเลยมานานเท่าใดแล้ว"
 
 		"Citadel_ViewMatchID_Title"									"ดูไอดีแมตช์"
 		"Citadel_ViewMatchID_Desc"									"กรอกไอดีแมตช์เพื่อดูรายละเอียดแมตช์"
@@ -805,7 +827,7 @@
 		//"Citadel_HUD_LevelReward_BulletResist"						"Spirit Damage"
 		//"Citadel_HUD_LevelReward_WeaponRange"						"Spirit Damage"
 		"Citadel_HUD_LevelReward_NextRewardsLabel"					"รางวัลถัดไป:"
-		
+
 		"Citadel_Hud_KillFeedNone"									"<ไม่มี>"
 		"Citadel_Hud_KillFeedTrooper"								"ทรูปเปอร์ #{i:unit_num}"
 		"Citadel_Hud_KillFeedSuperNeutral"							"การ์เดียนประจำวิหาร"
@@ -857,7 +879,7 @@
 		"Objective_Enemy_ShieldGenerator"							"ชรายน์ฝ่ายศัตรู"
 		"Objective_Team1_ShieldGenerator"							"ชรายน์อำพัน"
 		"Objective_Team2_ShieldGenerator"							"ชรายน์ไพลิน"
-		
+
 		"Objective_Friendly_Final"						"เพทรอนฝ่ายเดียวกัน (อ่อนแรง)"
 		"Objective_Enemy_Final"							"เพทรอนฝ่ายศัตรู (อ่อนแรง)"
 		"Objective_Team1_Final"							"เพทรอนอำพัน (อ่อนแรง)"
@@ -868,8 +890,8 @@
 
 		"Citadel_Team1_Name"							"หัตถ์อำพัน"
 		"Citadel_Team2_Name"							"เพลิงไพลิน"
-		"Citadel_Team1_Name_Uppercase"					"หัตถ์อำพัน"
-		"Citadel_Team2_Name_Uppercase"					"เพลิงไพลิน"
+		"Citadel_Team1_Name_Uppercase:n"					"หัตถ์อำพัน"
+		"Citadel_Team2_Name_Uppercase:n"					"เพลิงไพลิน"
 
 		"Citadel_Mod_Tooltip_Passive"									"ติดตัว"
 		"Citadel_Mod_Tooltip_Active"									"กดใช้"
@@ -889,6 +911,7 @@
 
 
 		"Citadel_HUD_Damage_TooFar"									"ไกลเกินไป"
+		"Citadel_HUD_Damage_TooLow"									"ต่ำเกินไป"
 		"Citadel_HUD_Damage_Invulnerable"							"ป้องกันความเสียหาย"
 		"Citadel_HUD_Damage_NoTroopers"								"ต้องมีทรูปเปอร์"
 		"Citadel_HUD_Damage_Resistant"								"ต้านทาน"
@@ -915,7 +938,7 @@
 		"Citadel_HUD_DamageReport_DamageDealt"						"ความเสียหายที่สร้าง"
 		"Citadel_HUD_DamageReport_TopDamageSources:p{num_damage_rows}"	"แหล่งความเสียหาย {i:num_damage_rows} อันดับสูงสุด"
 		"Citadel_HUD_DamageReport_ShowMore"							"แสดงเพิ่มเติม"
-		
+
 		"Citadel_HUD_DamageReport_LastRespawn"						"ชีวิตปัจจุบัน"
 		"Citadel_HUD_DamageReport_Time600"							"10 นาที"
 		"Citadel_HUD_DamageReport_Time300"							"5 นาที"
@@ -934,7 +957,7 @@
 		"Citadel_HUD_DamageReport_DamagePercentAbility"				"{i:ability_damage_percent}%"
 
 		"Citadel_HUD_Impact_Kill"									"สังหาร"
-		"Citadel_HUD_Impact_Assist"									"ช่วย<br>สังหาร"		
+		"Citadel_HUD_Impact_Assist"									"ช่วย<br>สังหาร"
 
 		"Citadel_PartyChat_Title"									"แช็ตปาร์ตี้"
 		"Citadel_PartyChat_VoiceAndText"							"การแช็ตด้วยข้อความและเสียง"
@@ -943,7 +966,7 @@
 		"Citadel_ChatType_Disabled"									"ปิดการใช้งาน"
 		"Citadel_ChatType_AllTeam"									"ทั้งทีม"
 		"Citadel_ChatType_PartyOnly"								"ปาร์ตี้​เท่านั้น"
-		
+
 		"Citadel_HUD_DamageRows_DamageName"							"{s:damage_name}"
 		"Citadel_HUD_DamageRows_DamageValue"						"{i:damage_done}"
 		"Citadel_HUD_DamageRows_Hits:p{hit_count}"					"({i:hit_count} ฮิต)"
@@ -993,6 +1016,9 @@
 		"Citadel_PlayerContextMenu_AudioVolume"						"ระดับเสียง"
 		"Citadel_PlayerContextMenu_EmptyMenu"						"--"
 
+		"Citadel_PostGame_CopyMatchID"								"คัดลอกไอดีแมตช์"
+		"Citadel_PostGame_CopyMatchIDSuccess"						"สำเร็จ"
+
 		"Citadel_PlayerCard_FavoriteHero"							"ฮีโร่ที่ชื่นชอบ"
 
 		"Citadel_Party_Context_Invite"								"เชิญเพื่อน"
@@ -1005,6 +1031,9 @@
 		"Citadel_Party_Leave"										"ออกจากปาร์ตี้"
 		"Citadel_Party_Report"										"รายงาน"
 		"Citadel_Party_Reported"									"รายงานแล้ว"
+
+		"Citadel_Party_Commend"										"ชมเชย"
+		"Citadel_Party_Commended"									"ชมเชยแล้ว"
 
 		"Citadel_PlayerList_Teammates"								"เพื่อนร่วมทีม"
 		"Citadel_PlayerList_Enemy"									"ทีมศัตรู"
@@ -1073,6 +1102,9 @@
 		"Citadel_StartMatchmaking_InvalidHeroSelection"				"คุณไม่ได้เลือกฮีโร่ที่ถูกต้องเพื่อเข้าสู่การค้นหาแมตช์"
 		"Citadel_StartMatchmaking_HeroRosterTooPopular"				"รายชื่อฮีโร่ของคุณมีแต่ฮีโร่ที่ถูกใช้แล้ว"
 		"Citadel_StartMatchmaking_NoRegionPings"					"ไม่สามารถติดต่อกับเครือข่าย Steam Datagram Relay ได้ หากคุณเชื่อมต่ออินเทอร์เน็ตแล้ว ปัญหานี้มักเกิดจากไฟร์วอลล์ของคุณ หรือ MTU หรือการเชื่อมต่ออินเทอร์เน็ตของคุณ"
+		"Citadel_StartMatchmaking_HeroLabsMMNotOpen"				"ขณะนี้การค้นหาแมตช์แล็บฮีโร่ยังไม่พร้อมใช้งาน"
+		"Citadel_StartMatchmaking_HeroLabsNotUnlocked"				"คุณยังไม่ได้ปลดล็อกการค้นหาแมตช์แล็บฮีโร่"
+		"Citadel_StartMatchmaking_NoHeroLabsWhileInLowPri"			"ไม่อนุญาตให้ค้นหาแมตช์แล็บฮีโร่ขณะที่มีสถานะความสำคัญต่ำ"
 		"Citadel_StopMatchMaking_FailedToGetResponse"				"ล้มเหลวในการตอบสนองจาก GC การค้นหาแมตช์ถูกหยุดแล้ว"
 		"Citadel_StopMatchMaking_GeneralError"						"การค้นหาแมตช์ล้มเหลว โปรดลองอีกครั้ง"
 		"Citadel_LeaveLobby_FailedToGetResponse"					"ไม่สามารถหยุดการค้นหาแมตช์ได้ โปรดลองอีกครั้ง"
@@ -1089,7 +1121,7 @@
 		"Citadel_IdleMatchmaking_IdleTimerExpired_Body"				"คุณได้นิ่งเฉยอยู่ในคิวการค้นหาแมตช์นานเกินไป โปรดขยับเมาส์เพื่อตรวจสอบให้แน่ใจว่าคุณยังอยู่!"
 		"Citadel_IdleMatchmaking_Dialog_Title"						"นิ่งเฉยขณะอยู่ในการค้นหาแมตช์"
 		"Citadel_IdleMatchmaking_Dialog_Body"						"ขณะนี้คุณกำลังค้นหาแมตช์อยู่ แต่ดูเหมือนว่าคุณจะไม่ได้อยู่ที่คอมพิวเตอร์ โปรดเลื่อนเมาส์ของคุณมิฉะนั้นคุณจะถูกนำออกจากคิวค้นหาแมตช์"
-		
+
 		"Citadel_Dashboard_EnterMatchmaking"						"เข้าสู่\nการค้นหาแมตช์"
 		"Citadel_Dashboard_Roster_HeroTooPopular"					"ฮีโร่ที่ถูกเลือกทั้งหมดอยู่ในคิวแล้ว"
 		"Citadel_Dashboard_Roster_MissingHeroes"					"<span class=\"rosterErrorText\">ต้องเลือกฮีโร่ 3 ตัวในรายชื่อฮีโร่เพื่อเข้าสู่การค้นหาแมตช์</span>"
@@ -1118,7 +1150,15 @@
 		"Citadel_Dashboard_ShowAnnounceTooltip"						"แสดงประกาศ"
 		"Citadel_Dashboard_CloseAnnounceTooltip"					"ปิดประกาศ"
 		"Citadel_Dashboard_ViewLibrary"								"ดูไลบรารี"
-
+		"Citadel_Dashboard_ReloadPageTooltip"						"โหลดหน้าปัจจุบันอีกครั้ง"
+		"Citadel_Dashboard_Status_Mode_Unranked"					"แมตช์มาตรฐาน"
+		"Citadel_Dashboard_Status_Mode_Ranked"						"แมตช์จัดอันดับ"
+		"Citadel_Dashboard_Status_Mode_HeroLabs"					"แมตช์แล็บฮีโร่"
+		"Citadel_Dashboard_Status_Mode_Private"						"แมตช์ส่วนตัว"
+		"Citadel_Dashboard_Status_Mode_Coop"						"แมตช์ร่วมกันสู้กับบอท"
+		
+		"Citadel_Dashboard_ShowHeroLabHeroes"						"แสดงฮีโร่ในช่วงทดลอง"
+		
 		"Citadel_Watch_Title"										"เข้าชมแมตช์"
 		"Citadel_Watch_Featured"									"แมตช์ที่แนะนำ"
 		"Citadel_Watch_Loading"										"กำลังโหลด..."
@@ -1206,7 +1246,7 @@
 		"Citadel_PartyAction_TooBusy"							"เครือข่าย Deadlock กำลังทำงานหนักเกินไปที่จะประมวลผลการกระทำนี้ในขณะนี้ โปรดลองอีกครั้งในอีกสักครู่"
 		"Citadel_PartyAction_RateLimited"						"คุณได้ดำเนินการมากเกินไปในช่วงเวลาสั้น ๆ โปรดรอสักครู่แล้วลองอีกครั้ง"
 		"Citadel_PartyAction_AlreadyDrafting"					"ปาร์ตี้ได้เริ่มแมตช์แล้ว คุณต้องหยุดแมตช์ปัจจุบันก่อนที่คุณจะเริ่มแมตช์ใหม่"
-		
+
 		"Citadel_PartySetMode_ErrorTitle"						"ข้อผิดพลาด"
 		"Citadel_PartySetMode_FailedToGetResponse"				"ไม่สามารถติดต่อกับเครือข่าย Deadlock ได้ในขณะนี้ โปรดลองอีกครั้งในอีกสักครู่"
 		"Citadel_PartySetMode_InternalError"					"มีความผิดพลาดภายในที่ไม่คาดคิดเกิดขึ้น โปรดลองอีกครั้งในอีกสักครู่"
@@ -1224,7 +1264,9 @@
 		"Citadel_PartySetMode_PlayerPermaBanned"				"สมาชิกในปาร์ตี้ของคุณ {g:citadel_persona:nl:account_id} ถูกแบนถาวรจากการเล่นในโหมดนี้"
 		"Citadel_PartySetMode_CannotLeavePrivate"				"ไม่อนุญาตให้ห้องส่วนตัวเปลี่ยนโหมดการเล่นในขณะนี้"
 		"Citadel_PartySetMode_FiveStacksNotAllowed"				"ปาร์ตี้ที่มีผู้เล่นห้าคนไม่ได้รับอนุญาตให้ค้นหาแมตช์ในขณะนี้ โปรดลองอีกครั้งด้วยปาร์ตี้ที่ใหญ่กว่าหรือเล็กกว่า"
-
+		"Citadel_PartySetMode_HeroLabsMMNotOpen"				"ขณะนี้การค้นหาแมตช์แล็บฮีโร่ยังไม่พร้อมใช้งาน"
+		"Citadel_PartySetMode_HeroLabsNotUnlocked"				"ขณะนี้สมาชิกในปาร์ตี้ของคุณ {g:citadel_persona:nl:account_id} ยังไม่มีสิทธิ์เข้าร่วมการค้นหาแมตช์แล็บฮีโร่"
+		"Citadel_PartySetMode_NoHeroLabsWhileInLowPri"			"ขณะนี้สมาชิกในปาร์ตี้ของคุณ {g:citadel_persona:nl:account_id} มีสถานะความสำคัญต่ำ จึงยังไม่มีสิทธิ์เข้าคิวเพื่อค้นหาแมตช์แล็บฮีโร่"
 		"Citadel_PartyInvite_ErrorTitle"						"ไม่สามารถส่งคำเชิญได้"
 		"Citadel_PartyInvite_FailedToGetResponse"				"ไม่สามารถติดต่อกับเครือข่าย Deadlock และไม่สามารถเชิญผู้ใช้ที่ระบุได้ในขณะนี้ โปรดลองอีกครั้งในอีกสักครู่"
 		"Citadel_PartyInvite_InternalError"						"เกิดข้อผิดพลาดภายในขึ้นขณะพยายามเชิญผู้ใช้รายนี้เข้าร่วมปาร์ตี้"
@@ -1285,17 +1327,19 @@
 		"Citadel_Profile_Win_Short"								"ช"
 		"Citadel_Profile_Loss_Short"							"พ"
 		"Citadel_Profile_Statistics"							"สถิติ"
+		"Citadel_Profile_RankHistory"							"ประวัติแรงก์"
 		"Citadel_Profile_Stats_All"								"ฮีโร่ทั้งหมด"
 		"Citadel_Profile_Stats_TitleSection"					"สถิติตลอดกาล"
 		"Citadel_Profile_Stats_GamesPlayed"						"จำนวนเกมที่เล่น"
-		"Citadel_Profile_Stats_GamesWon"						"เกมที่ชนะ"		
+		"Citadel_Profile_Stats_GamesWon"						"เกมที่ชนะ"
 		"Citadel_Profile_Stats_Kills"							"สังหาร"
 		"Citadel_Profile_Stats_Assists"							"ช่วยเหลือ"
-		"Citadel_Profile_Stats_HeroDamage"						"ความเสียหายต่อฮีโร่"		
-		"Citadel_Profile_Stats_ObjDamage"						"ความเสียหายต่อจุดมุ่งหมาย"		
-		"Citadel_Profile_Stats_LastHits"						"ลาสต์ฮิต"		
-		"Citadel_Profile_Stats_Denies"							"ดีนาย"		
-		"Citadel_Profile_Stats_Healing"							"รักษา"		
+		"Citadel_Profile_Stats_HeroDamage"						"ความเสียหายต่อฮีโร่"
+		"Citadel_Profile_Stats_ObjDamage"						"ความเสียหายต่อจุดมุ่งหมาย"
+		"Citadel_Profile_Stats_LastHits"						"ลาสต์ฮิต"
+		"Citadel_Profile_Stats_Denies"							"ดีนาย"
+		"Citadel_Profile_Stats_Healing"							"รักษา"
+		"Citadel_Profile_Stats_Commends"						"การชมเชย"
 		"Citadel_Profile_Stats_Networth"						"โซลส์ที่เก็บได้"
 		"Citadel_Profile_Stats_Value_Networth_Low"				"{i:game_networth}"
 		"Citadel_Profile_Stats_Value_Networth_High"				"{i:game_networth}k"
@@ -1318,6 +1362,7 @@
 		"Citadel_MatchDetails_Report"							"ร"
 		"Citadel_MatchDetails_ReportTooltip"					"คลิกเพื่อรายงานผู้เล่น"
 		"Citadel_MatchDetails_Reported"							"รายงานผู้เล่นแล้ว!"
+		"Citadel_MatchDetails_CommendTooltip"					"คลิกเพื่อชมเชยผู้เล่น"
 		"Citadel_MatchDetails_Team1NetWorth"					"{i:team1_networth}k"
 		"Citadel_MatchDetails_Team2NetWorth"					"{i:team2_networth}k"
 		"Citadel_MatchDetails_Team1Name"						"{i:team2_networth}k"
@@ -1364,6 +1409,7 @@
 		"Citadel_ProfileCard_StatTitle_Wins"					"ชนะ"
 		"Citadel_ProfileCard_StatTitle_Kills"					"สังหาร"
 		"Citadel_ProfileCard_StatTitle_GamesPlayed"				"แมตช์"
+		"Citadel_ProfileCard_StatTitle_Commends"				"การชมเชย"
 
 		"Citadel_ProfileCard_StatValue_Int"						"{d:stat_value}"
 		"Citadel_ProfileCard_StatValue_Date"					"{t:s:stat_value}"
@@ -1389,7 +1435,7 @@
 		"Citadel_Replay_DownloadingPct"							"กำลังดาวน์โหลด - {d:replay_progress}%"
 		"Citadel_Replay_DecompressPct"							"กำลังคลายข้อมูล - {d:replay_progress}%"
 		"Citadel_Replay_Delete"									"ลบรีเพลย์"
-		
+
 		"Citadel_Graph_Team1"							"อำพัน"
 		"Citadel_Graph_Team2"							"ไพลิน"
 		"Citadel_Graph_WeaponDamage"					"ความเสียหายปืน"
@@ -1464,8 +1510,8 @@
 		"CitadelHeroStats_SpiritPower_Impact"				"ผลกระทบพลังวิญญาณ"
 		"CitadelHeroStats_SpiritPower_Desc"					"พลังวิญญาณเพิ่มประสิทธิภาพ​ของ​สกิล​และ​ไอเท็มของคุณ"
 		"CitadelHeroStats_Weapon_Falloff"					"ระยะลดทอน"
-	
-		// Hero Builds UI	
+
+		// Hero Builds UI
 		"Citadel_HeroBuilds_Title"						"บิลด์ฮีโร่"
 		"Citadel_HeroBuilds_SelectedBuild_Title"		"บิลด์ปัจจุบันของฉัน:"
 		"Citadel_HeroBuilds_Browse_button"				"ดูหรือเปลี่ยนบิลด์"
@@ -1513,9 +1559,9 @@
 
 		"Citadel_HeroBuilds_CurrenclyActive"			"เปิดอยู่ในขณะนี้"
 		"Citadel_HeroBuilds_AbilityBuildTitle"			"ลำดับแต้มสกิล"
-		"Citadel_HeroBuilds_AbilityBuildReset"			"แก้ไข"	
-		"Citadel_HeroBuilds_AbilityBuildInstructions"	"กดปุ่มแก้ไขเพื่อกำหนดลำดับการอัปเกรดสกิลที่แนะนำ จากนั้นเลือกเพิ่มเลเวลแต่ละสกิลตามลำดับที่คุณ​ต้องการ​ให้ปรากฏแก่ผู้ใช้บิลด์ของคุณ"	
-		
+		"Citadel_HeroBuilds_AbilityBuildReset"			"แก้ไข"
+		"Citadel_HeroBuilds_AbilityBuildInstructions"	"กดปุ่มแก้ไขเพื่อกำหนดลำดับการอัปเกรดสกิลที่แนะนำ จากนั้นเลือกเพิ่มเลเวลแต่ละสกิลตามลำดับที่คุณ​ต้องการ​ให้ปรากฏแก่ผู้ใช้บิลด์ของคุณ"
+
 		"Citadel_HeroBuilds_PublishBuildTitle"			"เผยแพร่บิลด์ฮีโร่"
 		"Citadel_HeroBuilds_PublishBuildDesc"			"บิลด์นี้จะถูกเปิดเผยต่อสาธารณะเพื่อแบ่งปันกับผู้เล่นคนอื่น"
 		"Citadel_HeroBuilds_BuildNameTitle"				"ชื่อบิลด์"
@@ -1536,10 +1582,10 @@
 		"Citadel_HeroBuilds_ErrorTitle"					"ข้อผิดพลาด"
 		"Citadel_HeroBuilds_ValidateErrorTitle"			"เกิดข้อผิดพลาดในการบันทึกบิลด์"
 		"Citadel_HeroBuilds_ValidateErrorBody"			"ตรวจสอบให้แน่ใจว่าบิลด์มีคำอธิบายและชื่อ รวมถึงมีไอเท็มที่แนะนำอย่างน้อย 1 ชิ้น"
-		"Citadel_HeroBuilds_FavoriteCount"				"{i:favorite_count}"		
-		"Citadel_HeroBuilds_DailyFavorite"				"กำลังมาแรง"		
-		"Citadel_HeroBuilds_WeeklyFavorite"				"ยอดนิยม"		
-		"Citadel_HeroBuilds_AllTimeFavorite"			"ทุกช่วงเวลา"		
+		"Citadel_HeroBuilds_FavoriteCount"				"{i:favorite_count}"
+		"Citadel_HeroBuilds_DailyFavorite"				"กำลังมาแรง"
+		"Citadel_HeroBuilds_WeeklyFavorite"				"ยอดนิยม"
+		"Citadel_HeroBuilds_AllTimeFavorite"			"ทุกช่วงเวลา"
 		"Citadel_HeroBuilds_New"						"ใหม่"
 		"Citadel_HeroBuilds_Old"						"เก่า"
 		"Citadel_HeroBuilds_NameLabel"					"ชื่อบิลด์"
@@ -1608,7 +1654,7 @@
 		// Item and Upgrade Modifiers
 
 
-			
+
 		"citadel_ability_sprint_roll"			"วิ่ง"
 		"modifier_citadel_sprint_start"			"กำลังเก็บอาวุธเข้าตัว..."
 		"modifier_citadel_sprint_end"			"กำลังชักอาวุธออกมา..."
@@ -1626,7 +1672,7 @@
 
 		"citadel_ability_drone_boss_laser_beam"		"Boss Laser"
 
-		
+
 		"citadel_ability_dash"						"พุ่งตัว"
 		"citadel_ability_jump"						"กระโดด"
 		"citadel_ability_teleport"					"เทเลพอร์ต"
@@ -1639,8 +1685,10 @@
 		"modifier_neutral_gold_pickup_aura/aura_target/timer"	"กำลังหยิบโซลส์ไม่การันตี"
 		"modifier_rejuv_pickup_aura/aura_target/timer"			"กำลังหยิบรีจูวีเนเตอร์ของทีม"
 		"modifier_early_gold_pickup_aura/aura_target/timer"		"กำลังเก็บโซลส์ทีม"
-		"modifier_citadel_holding_golden_idol"  				"ศัตรูมองเห็นได้! จงนำโกศไปยังแท่นบูชา"							
+		"modifier_citadel_holding_golden_idol"  				"นำโกศไปยังแท่นบูชา"
+		"modifier_citadel_holding_golden_idol_revealed"			"ศัตรูมองเห็นได้! จงนำโกศไปยังแท่นบูชา"
 		"modifier_citadel_returning_golden_idol"  				"กำลังส่งโกศ"
+		"modifier_citadel_idol_pickup_disabled"					"ไม่สามารถหยิบโกศเก็บวิญญาณได้"
 		"modifier_knocked_off_zipline_slow"						"ถูกกระแทกออกจากซิปไลน์"
 		"modifier_citadel_respawn_credit" 						"เครดิต​รีจูวีเนเตอร์"
 
@@ -1703,7 +1751,7 @@
 		"CITADEL_ABILITY_INVALID_NO_DAMAGE_TO_CLEAR"	"ไม่มีความเสียหายให้ล้าง"
 
 		"citadel_ability_interrupted"					"ถูกขัดจังหวะโดย"
-		
+
 		"citadel_ability_quick_melee" "โจมตี​ประชิด"
 		"citadel_hint_zoom"			"กด <span class=\"hintTextEmphasis\">[{s:iv_attack2}]</span> ค้างเพื่อซูมเข้าด้วยอาวุธของคุณ"
 		"citadel_hint_slide"		"กด <span class=\"hintTextEmphasis\">[{s:duck}]</span> ค้างไว้เพื่อไถลตัวขณะวิ่งลงทางลาด"
@@ -1717,7 +1765,7 @@
 		"citadel_hint_upgrade_ability"	"กด <span class=\"hintTextEmphasis\">[{s:show_scoreboard}]</span> ค้างไว้เพื่ออัปเกรดสกิลของคุณ"
 		"citadel_hint_hero_testing_shop"	"กด <span class=\"hintTextEmphasis\">[{s:citadel_open_hero_sheet}]</span> เพื่อเปิดร้านค้าและตั้งค่าตัวเลือกการทดสอบ"
 		"citadel_hint_teleport"				"บอสชั้นที่ 2 ของคุณกำลังโดนโจมตี กด <span class=\"hintTextEmphasis\">[{s:key_teleport}]</span> เพื่อเทเลพอร์ตไปช่วย!"
-		
+
 		// Ability Hints
 		"citadel_hint_flamedash_boost" "กด <span class=\"hintTextEmphasis\">[{s:key_innate_1}]</span> เพื่อเร่งความเร็ว ต้องใช้สแตมินา"
 		"citadel_hint_activate_wall" "กด <span class=\"hintTextEmphasis\">[{s:iv_attack}]</span> เพื่อสร้างกำแพงก่อนกำหนด"
@@ -1750,7 +1798,7 @@
 		"survival_powerup_pickup"							"เอาตัวรอดดีขึ้น"
 		"casting_powerup_pickup"							"ร่ายสกิลดีขึ้น"
 		"movement_powerup_pickup"							"เคลื่อนที่ดีขึ้น"
-		
+
 		"spirit_permanent_pickup_label"					"+2 วิญญาณ"
 		"firerate_permanent_pickup_label"				"+1.5% อัตรายิง"
 		"ammo_permanent_pickup_label"					"+4% กระสุน"
@@ -1798,7 +1846,7 @@
 		"citadel_settings_per_unit_hotkeys"				"ปุ่มลัดเฉพาะฮีโร่"
 		"citadel_Hotkeys_Tooltip_PerUnitHotkeys"		"เปิด/ปิดการใช้งานปุ่มลัดเฉพาะฮีโร่"
 		"citadel_settings_defaultkeybinds"				"ค่าเริ่มต้น"
-		"citadel_ClearHeroHotkeyBindings"				"รีเซ็ตเป็นค่าเริ่มต้น"		
+		"citadel_ClearHeroHotkeyBindings"				"รีเซ็ตเป็นค่าเริ่มต้น"
 		"citadel_settings_chatwheel"					"วงล้อสนทนา"
 		"chat_wheel_options"							"ตัวเลือกวงล้อ"
 		"citadel_settings_volume"						"ระดับเสียง"
@@ -1812,7 +1860,7 @@
 		"citadel_settings_musicvolume"					"ระดับเสียงเพลงหน้าเมนู"
 		"citadel_settings_musicvolume_desc"				"ปรับระดับเสียงดนตรีในเมนูหลัก"
 		"citadel_settings_voicevolume"					"ระดับเสียงของแช็ตด้วยเสียง (ผู้เล่นคนอื่น)"
-		"citadel_settings_voicevolume_desc"				"ปรับระดับเสียงของไมโครโฟนของผู้เล่นอื่น"	
+		"citadel_settings_voicevolume_desc"				"ปรับระดับเสียงของไมโครโฟนของผู้เล่นอื่น"
 		"citadel_settings_gamevoicevolume"				"ระดับอินพุตเสียง (ของคุณ)"
 		"citadel_settings_gamevoicevolume_desc"			"ควบคุมระดับเสียงอินพุตของไมโครโฟนของคุณ"
 		"citadel_settings_playsoundinbackground" 		"เล่นเสียงในพื้นหลัง"
@@ -1944,12 +1992,12 @@
 		"citadel_settings_crosshair_pip_width"				"ความกว้าง"
 		"citadel_settings_crosshair_pip_height"				"ความสูง"
 		"citadel_settings_crosshair_pip_border"				"แสดงเส้นขอบของเส้นเล็ง"
-		
+
 		"citadel_settings_crosshair_color"					"สี"
 		"citadel_settings_crosshair_color_r"				"แดง"
 		"citadel_settings_crosshair_color_g"				"เขียว"
 		"citadel_settings_crosshair_color_b"				"น้ำเงิน"
-		
+
 		"citadel_settings_crosshair_visibility"				"จุดกึ่งกลาง"
 		"citadel_settings_crosshair_pip_opacity"			"ความทึบของเส้นเล็ง"
 		"citadel_settings_crosshair_dot_opacity"			"ความทึบของจุดกึ่งกลาง"
@@ -2103,6 +2151,8 @@
 		"citadel_keybind_backwards"						"เคลื่อนถอยหลัง"
 		"citadel_keybind_left"							"เคลื่อนไปทางซ้าย (เคลื่อนที่ด้านข้าง)"
 		"citadel_keybind_right"							"เคลื่อนไปทางขวา (เคลื่อนที่ด้านข้าง)"
+		"citadel_keybind_up"							"บินขึ้น"
+		"citadel_keybind_down"							"บินลง"
 		"citadel_keybind_mantle"						"กระโดด/ปีนป่าย"
 		"citadel_keybind_attack"						"ยิง"
 		"citadel_keybind_ads"							"ซูม"
@@ -2332,10 +2382,9 @@
 		"kill_hype_FirstBlood"	"เฟิร์สต์​บลัด"
 
 		"team_msg_Idol_Desc"	"โกศเก็บวิญญาณ"
-		
-		//"team_msg_Winner_SubText"	"The Patrons favor you"
-		"Citadel_GameOver_Victory"	"ชนะ"
-		"Citadel_GameOver_Defeat"	"พ่ายแพ้"
+
+		"Citadel_GameOver_Victory:g"	"ชนะ"
+		"Citadel_GameOver_Defeat:g"		"พ่ายแพ้"
 
 
 		"Citadel_LaneColorPurple"						"ม่วง"
@@ -2350,8 +2399,8 @@
 		"Citadel_TeamMsg_TitanKilledTitle"				"เพทรอนของคุณ"
 
 		"Citadel_FlexSlot_Title"						"ช่อง​ไอเท็ม​เฟล็กซ์ปลดล็อกแล้ว"
-		"Citadel_FlexSlotUnlockedAllTier1"				"คุณได้ปลดล็อกช่อง​ไอเท็ม​เฟล็กซ์จากการสังหาร<span class=\"FlexSlotObjectiveName\">การ์เดียนฝ่ายศัตรู</span>ทั้งหมด"
-		"Citadel_FlexSlotUnlockedGenerator"				"คุณได้ปลดล็อกช่อง​ไอเท็ม​เฟล็กซ์จากการสังหาร<span class=\"FlexSlotObjectiveName\">ชรายน์</span>อันแรก"
+		"Citadel_FlexSlotUnlockedAllTier1"				"คุณได้ปลดล็อกช่อง​ไอเท็ม​เฟล็กซ์จากการสังหาร<span class=\"FlexSlotObjectiveName\">การ์เดียนฝ่ายศัตรู</span> 3 ตัว"
+		"Citadel_FlexSlotUnlockedGenerator"				"คุณได้ปลดล็อกช่อง​ไอเท็ม​เฟล็กซ์จากการสังหาร<span class=\"FlexSlotObjectiveName\">ชรายน์ฝ่ายศัตรู</span>ทั้ง 2 อัน"
 		"Citadel_FlexSlotUnlockedAllTier2"				"คุณได้ปลดล็อกช่อง​ไอเท็ม​เฟล็กซ์จากการสังหาร<span class=\"FlexSlotObjectiveName\">วอล์กเกอร์ฝ่ายศัตรู</span>ทั้งหมด"
 		"Citadel_FlexSlotUnlockedKill2Tier2"			"คุณได้ปลดล็อกช่อง​ไอเท็ม​เฟล็กซ์จากการสังหาร<span class=\"FlexSlotObjectiveName\">วอล์กเกอร์ฝ่ายศัตรู</span> 2 ตัว"
 
@@ -2393,6 +2442,7 @@
 		"menu_getstarted"							"เริ่มต้น"
 		"menu_bot_practice"							"บอทส่วนตัว"
 		"menu_bot_custom"							"แมตช์แบบ​กำหนดเอง"
+		"menu_bot_hero_labs"						"แล็บฮีโร่"
 		"menu_learn"								"เรียนรู้การเล่น"
 		"menu_resources"							"แหล่งข้อมูล"
 		"menu_training"								"ฝึกฝน"
@@ -2408,7 +2458,11 @@
 		"Citadel_Confirm_Discord_InMatch_Body"		"โปรดรับลิงก์ Discord ของคุณในภายหลังเมื่อคุณไม่ได้อยู่ในปาร์ตี้หรือในการค้นหาแมตช์"
 		"Citadel_Dashboard_Recommended"				"แนะนำ"
 
-		"Citadel_Commend_Toast"						"{s:commender} ({s:commender_hero}) ชมเชยคุณ!"
+		"Citadel_Commend_Toast_NoHero_Generic"		"{s:commender} ชมเชยคุณ"
+		"Citadel_Commend_Toast_Generic"				"{s:commender} ({s:commender_hero}) ชมเชยคุณ"
+		"Citadel_Commend_Toast_Friendly"			"{s:commender} ({s:commender_hero}) ชมเชยว่าคุณเป็นกันเองและเล่นด้วยได้สนุก"
+		"Citadel_Commend_Toast_Teamwork"			"{s:commender} ({s:commender_hero}) ชมเชยว่าคุณมีทีมเวิร์กดี"
+		"Citadel_Commend_Toast_Skilled"				"{s:commender} ({s:commender_hero}) ชมเชยว่าคุณเล่นดี"
 
 		"menu_exit_db_page"							"ย้อนกลับ"
 		"menu_settings"								"การตั้งค่า"
@@ -2436,6 +2490,8 @@
 		"menu_play_lane_training_desc"				"เรียนรู้ช่วงต้นเกมด้วยฮีโร่ที่เล่นง่าย เพื่อนำทางสู่การเป็นผู้เล่นที่เก่งขึ้น"
 		"menu_play_bots_easy_desc"					"เล่นแมตช์ส่วนตัวสู้กับบอท"
 		"menu_play_custom_game_desc"				"สร้างหรือเข้าร่วมแมตช์​แบบกำหนดเอง​กับผู้เล่นสูงสุด 12 คน"
+		"menu_play_hero_labs_desc"					"ช่วยทดสอบฮีโร่ใหม่ในช่วงทดลอง"
+		"menu_play_hero_labs_locked_desc"			"ช่วยทดสอบฮีโร่ใหม่​ในช่วงทดลอง ปลดล็อก​หลังจาก​เล่น 50 เกม"
 		
 		"menu_play_get_started_time_est"			"4 นาที"
 		"menu_play_sandbox_time_est"				"5 นาที"
@@ -2452,14 +2508,17 @@
 		"menu_learn_incomplete"						"ไม่สมบูรณ์"
 		"menu_learn_completed"						"เสร็จสมบูรณ์"
 
+		"menu_hero_labs_unavailable"				"ยังไม่ปลดล็อก"
+		"menu_hero_labs_schedule_title"				"เวลาที่พร้อมให้เล่นได้:"
+		"menu_hero_labs_schedule_times"				"{t:t:start_time} - {t:t:end_time}"
 		"menu_play_ranked"							"เล่นแมตช์จัดอันดับ"
 		"menu_play_ranked_desc"						"เล่นแมตช์ที่มีการแข่งขันดุเดือดกว่าปกติกับผู้เล่นที่มีทักษะใกล้เคียงกัน"
 		"menu_ranked_title"							"จัดอันดับ:"
 		"menu_ranked_schedule_title"				"เวลาที่พร้อมให้เล่นได้:"
 		"menu_ranked_unavailable"					"ยังไม่ปลดล็อก"
 		"menu_ranked_unavailable_desc"				"คุณต้องเล่นแมตช์มาตรฐาน 50 แมตช์จึงจะมีสิทธิเข้าคิวเล่นแมตช์จัดอันดับ"
-		"menu_ranked_schedule_weekdays"				"จ. - พฤ.:"
-		"menu_ranked_schedule_weekends"				"ศ. - อา.:"
+		"menu_ranked_schedule_weekdays_monfri"		"จ. - ศ.:"
+		"menu_ranked_schedule_weekends_satsun"		"ส. - อา.:"
 		"menu_ranked_schedule_alldays"				"กำหนดเวลาประจำวัน:"
 		"menu_ranked_schedule_timeplaceholder"		"{t:t:start_time} - {t:t:end_time}"
 		"menu_ranked_select_schedule"				"เลือกกำหนดเวลา"
@@ -2476,18 +2535,27 @@
 		"Citadel_SetSchedule_SetSuccessfully"		"ตั้งกำหนดเวลาเรียบร้อยแล้ว"
 		"Citadel_ranked_scheduleModal_title"		"กำหนดเวลาจัดอันดับ"
 		"Citadel_ranked_scheduleModal_desc"			"เลือกช่วงเวลาจัดอันดับที่เหมาะสมกับเวลาที่คุณต้องการเล่นที่สุด<br><br>คุณจะได้เล่นในเซิร์ฟเวอร์ที่ใกล้ที่สุดเสมอ ไม่ว่าคุณจะเลือกช่วงเวลาใดก็ตาม"
-		"Citadel_ranked_scheduleModal_warning"		"หมายเหตุ: หลังจากเลือกกำหนดเวลาสำหรับเซสชันจัดอันดับนี้แล้ว คุณจะไม่สามารถเปลี่ยนแปลงได้จนกว่าจะถึงเซสชันถัดไป"
+		"Citadel_ranked_scheduleModal_warning"		"หมายเหตุ: หลังจากเลือกกำหนดเวลาแล้ว คุณจะต้องรอ 7 วันก่อนที่จะเปลี่ยนไปใช้กำหนดเวลาอื่น"
 		"Citadel_ranked_open"						"เปิดแล้ว"
 		"Citadel_ranked_closed"						"การจัดอันดับปิดแล้ว"
 		"Citadel_ranked_comingsoon"					"เกมจัดอันดับจะเริ่มเปิดให้เล่นในวันพุธที่ 16 ตุลาคม ณ 3.00 น. เวลาประเทศไทย"
-		"Citadel_ranked_schedule_explainer"			"แมตช์จัดอันดับจะเล่นได้เฉพาะในบางช่วงเวลาเท่านั้น ก่อนเล่นคุณต้องเลือกการตั้งค่าเวลาที่เหมาะกับกำหนดเวลาของคุณมากที่สุด"
+		"Citadel_ranked_schedule_explainer"			"แมตช์จัดอันดับจะเล่นได้เฉพาะในบางช่วงเวลาเท่านั้น ก่อนเล่นคุณต้องเลือกการตั้งค่าเวลาที่เหมาะกับ​กำหนดเวลา​ของคุณ​มากที่สุด"
 
-		"Citadel_ranked_explainer_button"				"แมตช์จัดอันดับคืออะไร?"
-		"Citadel_ranked_explainer_title"				"การค้นหาแมตช์จัดอันดับ"
-		"Citadel_ranked_explainer_desc"					"[จัดอันดับ] เป็นโหมดท้าทายที่มอบประสบการณ์การแข่งขันเกม Deadlock ที่ดุเดือดกว่าปกติ โดยคุณจะได้เล่นแมตช์กับผู้เล่นที่มีระดับทักษะใกล้เคียงกันเพื่อประเมินแรงก์ของคุณในกลุ่มผู้เล่นทั่วโลก<br><br>ในแต่ละสัปดาห์ ผู้เล่นสามารถเลือกเข้าร่วมการแข่งขันนี้ได้โดยการเล่นแมตช์[จัดอันดับ]ในช่วงเวลาที่เปิดให้เล่นในภูมิภาคของตน เพื่อวัดระดับทักษะส่วนบุคคล"
-		"Citadel_ranked_howitworks_title"				"การจัดอันดับมีกติกาอย่างไร?"
-		"Citadel_ranked_howitworks_desc"				"ผู้เล่นทุกคนจะเริ่มต้นด้วยแรงก์ชั่วคราว \"ออบสกูรัส\" และคุณต้องเล่นแมตช์[จัดอันดับ] 7 เกมในแต่ละสัปดาห์เพื่อให้มีคุณสมบัติสำหรับการจัดอันดับของสัปดาห์นั้น เมื่อสิ้นสุดสัปดาห์นั้นคุณจะได้รับแรงก์ซึ่งจะแสดงเป็นยศบนโปรไฟล์ของคุณ<br><br>หากในช่วงสิ้นสุดสัปดาห์คุณยังไม่ได้เล่นแมตช์[จัดอันดับ] 7 เกม แรงก์ที่ปรากฏของคุณจะจางหายกลับไปเป็น \"ออบสกูรัส\" และจะซ่อนอยู่จนกว่าจะมีคุณสมบัติสำหรับสัปดาห์ต่อไป ข้อมูลระดับทักษะจะยังคงถูกเก็บไว้ในระบบและนำมาใช้สำหรับเกม[จัดอันดับ]ในอนาคตของคุณ แต่จะไม่มีการแสดงยศแรงก์จนกว่าจะถึงเวลานั้น<br><br>แรงก์ต่าง ๆ มีทั้งหมด 11 แรงก์ และในแต่ละแรงก์ผู้เล่นจะได้รับการกำหนดแรงก์ย่อยตั้งแต่ I ถึง VI ซึ่งจะแสดงตำแหน่งของคุณภายในแรงก์นั้นอย่างละเอียดยิ่งขึ้น"
-		"Citadel_ranked_rankedmedals"					"แรงก์:"
+		"Citadel_ranked_explainer_button"			"แมตช์จัดอันดับคืออะไร?"
+		"Citadel_ranked_explainer_title"			"การค้นหาแมตช์จัดอันดับ"
+		"Citadel_ranked_explainer_desc"				"\"จัดอันดับ\" เป็นโหมดท้าทายที่มอบประสบการณ์การแข่งขันเกม Deadlock ที่ดุเดือดกว่าปกติ โดยคุณจะได้เล่นแมตช์กับผู้เล่นที่มีระดับทักษะใกล้เคียงกันเพื่อประเมินแรงก์​ของคุณ​ในกลุ่ม​ผู้เล่น​ทั่วโลก<br><br>ในแต่ละสัปดาห์ ผู้เล่นสามารถเลือกเข้าร่วมการแข่งขันนี้ได้โดยการเล่นแมตช์จัดอันดับในช่วงเวลาที่เปิดให้เล่นในภูมิภาคของตน เพื่อวัดระดับทักษะส่วนบุคคล"
+		"Citadel_ranked_howitworks_title"			"การจัดอันดับมีกติกาอย่างไร?"
+		"Citadel_ranked_howitworks_desc"			"ผู้เล่นทุกคนจะเริ่มต้นด้วยแรงก์ชั่วคราว \"ออบสกูรัส\" และคุณต้องเล่นแมตช์จัดอันดับ 7 เกมในแต่ละสัปดาห์เพื่อให้มีคุณสมบัติสำหรับการจัดอันดับของสัปดาห์นั้น เมื่อสิ้นสุดสัปดาห์นั้นคุณจะได้รับแรงก์ซึ่งจะแสดงเป็นยศบนโปรไฟล์ของคุณ<br><br>หากในช่วงสิ้นสุดสัปดาห์คุณยังไม่ได้เล่นแมตช์จัดอันดับ 7 เกม แรงก์ที่ปรากฏของคุณจะจางหายกลับไปเป็น \"ออบสกูรัส\" และจะซ่อนอยู่จนกว่าจะมีคุณสมบัติสำหรับสัปดาห์ต่อไป ข้อมูลระดับทักษะจะยังคงถูกเก็บไว้ในระบบและนำมาใช้สำหรับเกมจัดอันดับในอนาคตของคุณ แต่จะไม่มีการแสดงยศแรงก์จนกว่าจะถึงเวลานั้น<br><br>แรงก์ต่าง ๆ มีทั้งหมด 11 แรงก์ และในแต่ละแรงก์ผู้เล่นจะได้รับการกำหนดแรงก์ย่อยตั้งแต่ I ถึง <Panel class=\"starIcon\"></Panel> ซึ่งจะแสดงตำแหน่งของคุณภายในแรงก์นั้นอย่างละเอียดยิ่งขึ้น"
+		"Citadel_ranked_rankedmedals"				"แรงก์:"
+		"Citadel_ranked_subranks_explainer"			"แรงก์ย่อย: I, II, III, IV, V, <Panel class=\"starIcon\"></Panel>"
+
+		"Citadel_ranked_explainer_note"				"ดีไซน์ของยศจะได้รับการเปิดเผยเมื่อมีการมอบแรงก์เป็นครั้งแรกในวันอังคารที่ 22 ตุลาคม"
+
+		"Citadel_ranked_result_title"				"รายงานแรงก์"
+		"Citadel_ranked_result_rankup"				"แรงก์สูงขึ้น!"
+		"Citadel_ranked_result_adjustment"			"การปรับแรงก์"
+		"Citadel_ranked_numGamesPlayed"				"เล่นแล้ว {s:games_played} เกม"
+		"Citadel_ranked_match_history"				"ประวัติแมตช์:"
 
 		"Citadel_ranks_rank0"						"ออบสกูรัส"
 		"Citadel_ranks_rank1"						"อินิชิเอต"
@@ -2496,10 +2564,10 @@
 		"Citadel_ranks_rank4"						"อาร์คานิสต์"
 		"Citadel_ranks_rank5"						"ริชวลลิสต์"
 		"Citadel_ranks_rank6"						"เอมิสซารี"
-		"Citadel_ranks_rank7"						"ออราเคิล"
-		"Citadel_ranks_rank8"						"อาร์คอน"
+		"Citadel_ranks_rank7"						"อาร์คอน"
+		"Citadel_ranks_rank8"						"ออราเคิล"
 		"Citadel_ranks_rank9"						"แฟนธอม"
-		"Citadel_ranks_rank10"						"แอสเซนแดนต์"
+		"Citadel_ranks_rank10"						"แอสเซน​แดนต์"
 		"Citadel_ranks_rank11"						"อีเทอร์นัส"
 
 		"Citadel_subranks_1"						"I"
@@ -2509,7 +2577,7 @@
 		"Citadel_subranks_5"						"V"
 		"Citadel_subranks_6"						"VI"
 
-		"Citadel_rank_phase_example"				"15 - 21 ตุลาคม | 2024"
+		"Citadel_rank_phase_example"				"{t:s:popup_start_day} - {t:s:popup_end_day}"
 
 
 		"item_info_abilities"						"สกิล"
@@ -2535,10 +2603,10 @@
 		"SafeToAbandon_Text"						"ตอนนี้​สามารถ​ละทิ้ง​แมตช์​นี้​ได้​โดย​ไม่ต้อง​รับ​บทลงโทษ​ใด ๆ"
 
 		"ModIconTooltip_UnlockTier2"				"ปลดล็อกหลังจากทีมของคุณทำลายวอล์กเกอร์ของฝ่ายศัตรู 2 ตัว"
-		"ModIconTooltip_UnlockGuardians"			"ปลดล็อกหลังจากทีมของคุณทำลายชุดการ์เดียนประจำฐานของฝ่ายศัตรู"	
-		"ModIconTooltip_UnlockGenerators"			"ปลดล็อกหลังจากทีมของคุณทำลาย​ชรายน์​ของฝ่ายศัตรู"	
+		"ModIconTooltip_UnlockGuardians"			"ปลดล็อกหลังจากทีมของคุณทำลายชุดการ์เดียนประจำฐานของฝ่ายศัตรู"
+		"ModIconTooltip_UnlockGenerators"			"ปลดล็อกหลังจากที่ทีมของคุณทำลาย​ชรายน์ฝ่ายศัตรูทั้ง 2 อัน"
 		//"ModIconTooltip_UnlockTier3"				"Unlocked after your team destroys the enemy Patron's first form"
-		"ModIconTooltip_UnlockAllTier1"				"ปลดล็อกหลังจากที่ทีมของคุณทำลาย​การ์เดียน​ของฝ่ายศัตรู​ทั้งหมด"
+		"ModIconTooltip_UnlockAllTier1"				"ปลดล็อกหลังจากที่ทีมของคุณทำลาย​การ์เดียน​ของฝ่ายศัตรู​ 3 ตัว"
 		"ModIconTooltip_UnlockAllTier2"				"ปลดล็อกหลังจากทีมของคุณทำลายวอล์กเกอร์ของฝ่ายศัตรูทั้งหมด"
 
 		"HeroesPageTitle"							"ฮีโร่"
@@ -2565,6 +2633,7 @@
 		"MyRosterNumHeroesInRoster"					"{i:num_heroes_in_roster} ฮีโร่ในรายชื่อ"
 		"MyRosterNumHeroesInRosterSingular"			"{i:num_heroes_in_roster} ฮีโร่ในรายชื่อ"
 		"MyRosterGreatForNewPlayers"				"เหมาะสำหรับผู้เล่นมือใหม่"
+		"MyRosterHeroLabsHero"						"แล็บฮีโร่"
 		"MyRosterAssignedTesting"					"การทดสอบแบบมอบหมาย"
 		"MyRosterAssignedOpenTesting"				"การทดสอบแบบเปิด"
 		"MyRosterChangeHero"						"เลือกฮีโร่ตัวใหม่"
@@ -2574,11 +2643,10 @@
 		"MyRosterWaitForParty"						"กำลังรอสมาชิกปาร์ตี้..."
 		"MyRosterExit"								"ออกจากรายชื่อฮีโร่"
 		"MyRosterExitRosterConfirm"					"คุณแน่ใจหรือไม่ว่าต้องการออกจากรายชื่อฮีโร่? การดำเนินการดังกล่าวจะทำให้ทั้งปาร์ตี้ของคุณออกจากรายชื่อฮีโร่"
-		"MyRosterPartyHighSkillRange"				"ผู้เล่นในปาร์ตี้ของคุณมีระดับทักษะต่างกันมาก ซึ่งจะทำให้ปาร์ตี้ของคุณต้องเล่นแมตช์ที่ยากขึ้น"
-
 		"MyRosterPartyReadyCount"					"{d:party_ready_count}/{d:party_player_count} พร้อมแล้ว"
 		"MyRosterPartyMemberRoster"					"ฮีโร่ที่อยู่ในรายชื่อแล้ว:"
 
+		"MyRosterRosterDesc_HeroLabs"				"รายชื่อของคุณต้องมีฮีโร่อย่างน้อย 3 ตัว โดยที่ 2 ตัวต้องเป็นฮีโร่มาตรฐานที่ไม่ใช่ฮีโร่ทดสอบ"
 
 		//-----------------------------------------------------------------------------
 		// SANDBOX - DEMO CONTROLS
@@ -2631,7 +2699,7 @@
 		//-----------------------------------------------------------------------------
 		// TUTORIAL - LANE TRAINING
 		//-----------------------------------------------------------------------------
-		
+
 		"LaneTraining_Intro_Title"					"ยินดีต้อนรับสู่<b>การฝึกในเลน</b>"
 		"LaneTraining_Intro_Desc"					"เป้าหลักในช่วงต้นเกมคือการเพิ่มพลัง​เพื่อให้คุณสามารถจัดการยูนิตที่เป็นจุดมุ่งหมายของเกมได้<br><br>เมื่อคุณ<span class=\"introHighlight\">บรรลุเป้าหมายที่ระบุไว้ทางด้านขวา</span> เราจะมอบ<span class=\"introHighlight\">พลังเหนือจินตนาการ</span>ให้คุณ เพื่อให้คุณสามารถถล่มการ์เดียนได้"
 		"LaneTraining_Intro_Button"					"เริ่ม"
@@ -2639,7 +2707,7 @@
 		"LaneTraining_Outro_Title"					"<b>การฝึกในเลน</b>เสร็จสิ้น"
 
 		//"ReportCard_PlayerDamage"					"Player Damage"
-		//"ReportCard_PlayerDamage_Desc"				"Damage you’ve dealt to enemy heroes"	
+		//"ReportCard_PlayerDamage_Desc"				"Damage you’ve dealt to enemy heroes"
 		//"ReportCard_PlayerDamage_Progress"			"<span class=\"yourscore\">{i:playerDamage}</span> / {i:playerDamageNextGoal}"
 
 		"ReportCard_LastHits"						"โจมตีปลิดชีพ"
@@ -2684,9 +2752,9 @@
 		"ReportCard_KillGuardian"					"กำจัดการ์เดียนศัตรู"
 		"ReportCard_KillGuardian_Desc"				"กำจัดทุกคนที่ขวางทางคุณสู่ชัยชนะ!"
 
-		//"NewPlayer_NewPlayerFlow"					"Learn to Play"				
+		//"NewPlayer_NewPlayerFlow"					"Learn to Play"
 		"NewPlayer_Skip"							"ข้ามบทฝึกสอน"
-		//"NewPlayer_NewPlayerFlow_Desc"				"To get started, check out the tasks within <span class=\"introText\">Learn</span>."	
+		//"NewPlayer_NewPlayerFlow_Desc"				"To get started, check out the tasks within <span class=\"introText\">Learn</span>."
 		//"NewPlayer_GetStarted"						"Review <span class='TaskHighlight'>Get Started</span>"
 		//"NewPlayer_GetStarted_Time"					"4 mins"
 		//"NewPlayer_HeroSandbox"						"Try out your moves in <span class='TaskHighlight'>Hero Training</span>"
@@ -2694,7 +2762,7 @@
 		//"NewPlayer_LaneTraining"					"Learn the early game in <span class='TaskHighlight'>Lane Training</span>"
 		//"NewPlayer_LaneTraining_Time"				"8 mins"
 		//"NewPlayer_YouAreFinished"					"You're ready! Try a bot match within Practice or Play your first game!"
-		//"NewPlayer_Finish"							"End Tutorial"				
+		//"NewPlayer_Finish"							"End Tutorial"
 
 		"HeroTraining_Intro_Title"					"ยินดีต้อนรับสู่<b>การฝึกฮีโร่</b>"
 		"HeroTraining_Intro_Desc"					"คุณจะสามารถทดสอบการเคลื่อนไหวและสกิลของฮีโร่ของคุณได้ที่นี่ ความชำนาญในเรื่องเหล่านี้เป็นกุญแจสำคัญในการทำพิธีกรรมให้​เสร็จสมบูรณ์"
@@ -2706,10 +2774,10 @@
 		"NPE_Heroes_Modal_Title"					"ฮีโร่แนะนำ"
 		"NPE_Heroes_Modal_Desc"						"<span class=\"introText\">ดูเหมือนว่าคุณจะเล่นเกมนี้เป็นครั้งแรก!</span><br><br>เราได้เน้นฮีโร่บางตัวที่เหมาะสำหรับผู้เล่นมือใหม่ หากคุณไม่แน่ใจว่าจะเริ่มจากตรงไหนเราขอแนะนำให้ลองใช้หนึ่งในฮีโร่เหล่านี้"
 		"NPE_Heroes_Modal_Button"					"เข้าใจแล้ว!"
-		
+
 		"NPE_Bots_Modal_Desc"						"<span class=\"introText\">แมตช์บอทแรกของคุณ!</span><br><br>แมตช์บอทเหมาะสำหรับการทำความคุ้นเคยกับฮีโร่ แต่ไม่สามารถจำลองจังหวะเกมและการร่วมทีมกันเหมือนในแมตช์ที่แข่งกับผู้เล่นอื่นได้<br><br>เมื่อคุณเริ่มรู้สึกคุ้นเคยดีแล้ว คุณสามารถออกจากแมตช์บอทและเข้าร่วมการค้นหาแมตช์ได้เลย"
 		"NPE_Bots_Modal_Button"						"เข้าใจแล้ว!"
-		
+
 
 		"Sandbox_Tutorial_Movement"					"ทดสอบการควบคุม"
 		"Sandbox_Tutorial_Movement_desc"			"ใช้พื้นที่นี้เพื่อทดสอบการควบคุมของคุณ"
@@ -2735,7 +2803,7 @@
 		"Sandbox_Tutorial_Step_1"					"ขั้นตอนที่ 1 จาก 6"
 		"Sandbox_Tutorial_Step_2"					"ขั้นตอนที่ 2 จาก 6"
 		"Sandbox_Tutorial_Step_3"					"ขั้นตอนที่ 3 จาก 6"
-		"Sandbox_Tutorial_Step_4"					"ขั้นตอนที่ 4 จาก 6"		
+		"Sandbox_Tutorial_Step_4"					"ขั้นตอนที่ 4 จาก 6"
 		"Sandbox_Tutorial_Step_5"					"ขั้นตอนที่ 5 จาก 6"
 		"Sandbox_Tutorial_Step_6"					"ขั้นตอนที่ 6 จาก 6"
 
@@ -2759,7 +2827,7 @@
 
 		"BrowseItems_Title"							"เปิดหาไอเท็ม"
 		"BrowseItems_Desc"							"เปิดดูแค็ตตาล็อกไอเท็ม​เพื่อเตรียมตัวให้พร้อม​สำหรับแมตช์ถัดไปของคุณ!"
-		
+
 		"CreateBuilds_Title"						"สร้างบิลด์สำหรับ {s:hero_name}"
 		"CreateBuilds_Desc"							"เลือกไอเท็มในร้านค้าเพื่อเพิ่มลงในรายการบิลด์ที่แนะนำ"
 
@@ -2810,7 +2878,7 @@
 		"AbilityButtonHint_CastIceDome"				"ร่าย Frozen Shelter"
 		"AbilityButtonHint_CastLifeDrain"			"ดูดพลังชีวิตศัตรู"
 		"AbilityButtonHint_AlotCastLifeDrain"				"รักษาเพื่อนร่วมทีม"
-		
+
 		//-----------------------------------------------------------------------------
 		// Guided Bot Match
 		//-----------------------------------------------------------------------------
@@ -2831,7 +2899,7 @@
 		"citadel_bot_name_prefix"				"[บอท]"
 		"citadel_purchasemessage"				"<span class=\"ChatTarget\">{s:target} <span class=\"ChatPersona\"><span class=\"{s:player_color_class}\">{s:persona}</span></span></span> <span class=\"{s:purchaseText}\">{s:soldOrPurchasedText}</span> <span class=\"{s:message_color_class}\">{s:message}</span>"
 		"citadel_ping_wheel_message"			"{s:message}"
-	
+
 		"citadel_ping_wheel_disabled_while_dead"				"ปิดใช้งานขณะตาย"
 		"citadel_all_chat_label_prefix"							"[ทุกคน] "
 		"citadel_chatwheel_label_Care"							"ระวัง"
@@ -2937,6 +3005,9 @@
 		//"citadel_quick_response_respond_onmyway"					"Respond 'On my Way'"
 
 		// These are loc strings for ping response rules. Good for if we don't have VO for a response rule to show what the player would've said.
+		"ping_message"											"{s:pre_punctuation}{s:ping}{s:post_punctuation}"
+		"ping_pre_exclamation"									""
+		"ping_post_exclamation"									"!"
 		"ping_headed_yellow"									"มุ่งหน้า​ไปเลนเหลือง"
 		"ping_headed_blue"										"มุ่งหน้า​ไปเลนน้ำเงิน"
 		"ping_headed_green"										"มุ่งหน้า​ไปเลนเขียว"

@@ -144,7 +144,7 @@
 		"MagicShockDamage_postfix"	" %"
 
 		//Mystic Reverb
-		"upgrade_tech_bleed_desc" "Imprègne une capacité d'un <span class=\"highlight\">effet de ralentissement</span> appliqué dans une zone autour de la cible. La capacité inflige un <span class=\"highlight\">pourcentage des dégâts subis supplémentaire</span> aux unités ennemies autour de la cible après quelques instants."
+		"upgrade_tech_bleed_desc" "Imprègne une capacité d'un <span class=\"highlight\">effet de ralentissement</span> appliqué à l'impact. La capacité inflige un <span class=\"highlight\">pourcentage de dégâts subis supplémentaire</span> aux unités ennemies autour de la cible après quelques instants."
 		//"upgrade_tech_bleed/modifier_tech_bleed_proc/modifier_tech_bleed"			"Spirit Echo"	
 
 		//Toxic Bullets
@@ -274,7 +274,7 @@
 
 		//Siphon Bullets
 		//"upgrade_siphon_bullets_desc_passive1"	"When in <span class=\"highlight\">close range</span> of your target, deal additional <span class=\"highlight\">Weapon Damage</span>."
-		"upgrade_siphon_bullets_desc_passive2"	"Vos balles <span class=\"highlight\">volent temporairement les PV max.</span> de vos adversaires. Les unités ennemies récupèrent leurs PV à la fin de l'effet négatif. Si une unité sous cet effet meurt, vous lui volez une charge de PV. Vous perdez {s:StackLostPerDeath} charges à votre mort."
+		"upgrade_siphon_bullets_desc_passive2"	"Vos balles <span class=\"highlight\">volent temporairement les PV max.</span> de vos adversaires. Les unités ennemies récupèrent leurs PV à la fin de l'effet négatif. Si une unité sous cet effet meurt, vous lui volez {s:StealPerKill} charges de PV de manière permanente. Vous perdez {s:StackLostPerDeath} charges à votre mort."
 		"modifier_siphon_bullets_health_gain"		"Balles drainantes"
 		"modifier_siphon_bullets_health_loss"		"Balles drainantes"
 		"HealthSteal_label"						"Vol de PV max. par balle"
@@ -488,13 +488,13 @@
 		"SpiritPower_prefix"					"+"
 
 		//Ethereal Shift
-		"upgrade_self_bubble_desc"			"Vous entrez dans un état de vide pour devenir brièvement <span class=\"highlight\">intouchable et invincible</span>, ce qui vous empêche de bouger ou d'agir. Ensuite, votre arme est <span class=\"highlight\">instantanément rechargée</span> et vous obtenez du <span class=\"highlight\">pouvoir spirituel</span> supplémentaire."
+		"upgrade_self_bubble_desc"			"Vous entrez dans un état de vide pour devenir brièvement <span class=\"highlight\">intouchable et invincible</span>, ce qui vous empêche de bouger ou d'agir. Ensuite, vous obtenez un bonus de <span class=\"highlight\">vitesse de déplacement et de résistance spirituelle</span>."
 		"ShiftingVeilDuration_label"			"Durée"
 		"ShiftingVeilDuration_postfix"		" s"
 		"BonusSpiritDuration_label"			"Durée spirituelle bonus"
 		"BonusSpiritDuration_postfix"			" s"
 		"modifier_shifting_veil_buff"			"Refuge céleste"
-		"shifting_veil_bonus_spirit"			"Pouvoir spirituel bonus"
+		"shifting_veil_bonus"			"Vitesse et résist. spirituelle"
 		"modifier_citadel_bubble"				"Refuge céleste"
 
 		//Stasis Bomb
@@ -533,7 +533,7 @@
 		//"upgrade_aoe_tech_shield/modifier_duration" "Spirit Barrier Pulse"
 		
 		//Cold Front
-		"upgrade_cold_front_desc"			"Libère une explosion de glace qui s'étend et inflige des <span class=\"highlight\">dégâts spirituels</span> et <span class=\"highlight\">ralentit</span> les cibles à l'impact."
+		"upgrade_cold_front_desc"			"Libère une explosion de glace qui s'étend et inflige des <span class=\"highlight\">dégâts spirituels</span> et <span class=\"highlight\">ralentit</span> les cibles à l'impact. Inflige {s:NPCDamageMult} × plus de dégâts aux unités non occultistes."
 		
 		//Knockdown
 		"upgrade_target_stun_desc"			"La cible est <span class=\"highlight\">KO</span> et <span class=\"highlight\">étourdie</span> après un <span class=\"highlight\">délai de {s:StunDelay} s</span>, ce qui l'interrompt et l'empêche temporairement d'agir."
@@ -615,7 +615,7 @@
 		//"ClarityBonusSpirit_label"				"Next Ability Bonus Spirit Power"
 
 		//Surge of Power
-		"upgrade_magic_storm_desc"				"Imprègne une capacité de <span class=\"highlight\">pouvoir spirituel permanent</span>. Quand celle-ci est utilisée, vous obtenez un bonus de <span class=\"highlight\">vitesse de déplacement</span>."
+		"upgrade_magic_storm_desc"				"Imprègne une capacité de <span class=\"highlight\">pouvoir spirituel permanent</span>. Quand celle-ci est utilisée, vous obtenez un bonus de <span class=\"highlight\">vitesse de déplacement</span> qui continue même lorsque vous attaquez."
 		"modifier_upgrade_magic_storm"			"Regain de puissance"
 
 		//Suppressor
@@ -662,9 +662,7 @@
 		"upgrade_savior_desc"				"Accorde <span class=\"highlight\">un bouclier balistique, un bouclier spirituel et de la vitesse de déplacement</span> à la cible. Autociblage possible."
 		"SaviorBulletShieldHealth_label"		"Bouclier balistique"
 		"SaviorMagicShieldHealth_label"		"Bouclier spirituel"
-		"BuffDuration_label"					"Durée"
-		"BuffDuration_postfix"				" s"
-
+	
 		//Restorative Locket
 		"upgrade_restorative_locket_passive_desc"		"Quand l'adversaire utilise une capacité à moins de {s:Radius} m de vous, vous obtenez une <span class=\"highlight\">charge de restauration</span>."
 		"upgrade_restorative_locket_active_desc"		"Consomme toutes les charges pour <span class=\"highlight\">soigner la cible alliée</span> et restaurer un <span class=\"highlight\">point d'endurance</span>. Autoincantation possible."
@@ -936,10 +934,10 @@
 		"HealOnlevelHealAmount_label"	"Soins"
 		"upgrade_heal_on_level/heal_on_level_buff"			"Soins par niveau"
 
+		//crow_mask_936_comment
+		//crow_mask_937_comment
 		//crow_mask_938_comment
 		//crow_mask_939_comment
 		//crow_mask_940_comment
-		//crow_mask_941_comment
-		//crow_mask_942_comment
 	}
 }

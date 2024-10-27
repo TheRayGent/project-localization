@@ -486,8 +486,6 @@
 		"MinSlowDuration_label"						"de mín. duración de la detención"
 		"MinSlowDuration_postfix"						" s"
 		"citadel_ability_chrono_kinetic_carbine/modifier_chrono_kinetic_carbine"  "Carabina Cinética"
-
-
 		//-----------------------------------------------------------------------------
 		// Revenant
 		//-----------------------------------------------------------------------------
@@ -890,7 +888,7 @@
 		"WeaponPowerGainPercent_postfix"			" %"
 
 		//-----------------------------------------------------------------------------
-		// Hero Warden
+		// Warden 
 		//-----------------------------------------------------------------------------
 		"ability_warden_lock_down"				"Palabra Vinculante"
 		"ability_warden_lock_down_quip"			"Maldice a tu objetivo y lo inmoviliza si no escapa"
@@ -919,19 +917,17 @@
 
 		"ability_warden_crowd_control"			"Frasco Alquímico"
 		"ability_warden_crowd_control_quip"		"Inflige daño y debilita a los enemigos cercanos"
-		"ability_warden_crowd_control_desc"		"Lanza un frasco que <span class=\"highlight\">inflige daño, ralentiza</span> y reduce el <span class=\"highlight\">daño del arma</span> y el <span class=\"highlight\">aguante</span> de los enemigos contra los que impacta."
-		"ability_warden_crowd_control_t3_desc"		"<span class=\"highlight\">{s:AbilityCooldown} s</span> de tiempo de recarga y aplica un <span class=\"highlight\">{s:FireRateSlow} %</span> de reducción de la cadencia de tiro"
 		"MoveSpeedSlowPct_label"					"de ralent. de velocidad de movimiento"
 		"MoveSpeedSlowPct_postfix"				" %"
 		"WeaponPowerDebuff_label"					"de daño del arma"
 		"WeaponPowerDebuff_postfix"				" %"
 		"modifier_warden_crowd_control_debuff"	"Frasco Alquímico"
-
 		"ability_warden_riot_protocol"			"Última Defensa"
 		"ability_warden_riot_protocol_quip"		"Emite pulsaciones que roban la vida de los enemigos"
-		"ability_warden_riot_protocol_desc"		"Tras cargar durante {s:AbilityCastDelay} s, <span class=\"highlight\">emite pulsaciones que infligen daño a los enemigos y te curan</span> en función del daño infligido.<br>Mientras canalices Última Defensa, aumentarás considerablemente tu <span class=\"highlight\">resistencia a las balas</span>."
 		"modifier_warden_riot_protocol"			"Última Defensa"
 		"modifier_warden_riot_protocol_enemy_debuff"	"Ralentizado⁠/⁠a"
+
+		//UnstoppableCastDelay
 		"HealthStealPctHero_label"				"de robo de vida en héroes"
 		"HealthStealPctHero_postfix"				" %"
 
@@ -1163,7 +1159,6 @@
 
 		"citadel_ability_sticky_bomb"			"Bomba Lapa"
 		"citadel_ability_sticky_bomb_quip"		"Coloca una bomba sobre un enemigo"
-		"citadel_ability_sticky_bomb_desc"		"Adhiere una bomba lapa a un objetivo cercano que le inflige <span class=\"highlight\">daño explosivo</span> tras un breve tiempo de mecha.<br>Obtienes una acumulación de bomba que otorga <span class=\"highlight\">+{s:BonusDamagePctPerPlayerHit} % de daño de bomba</span> por cada héroe enemigo al que alcanza la explosión. Pierdes {s:BonusLossPerDeath} acumulaciones al morir. <br>Mantén pulsado [{s:key_alt_cast}] para lanzar una bomba lapa sobre ti mismo⁠/⁠a."
 		"modifier_citadel_sticky_bomb_attached"	"Tienes una bomba"
 		"citadel_ability_sticky_bomb_t3_desc"	"Al adherirse, <span class=\"highlight\">desarma</span> al objetivo durante <span class=\"highlight\">{s:DebuffDuration} s</span>"
 		"StunTargetOnExplode_label"				"de duración"
@@ -1255,7 +1250,6 @@
 		//"MinAirTimeForStomp_label"					"Min Air Time for Stomp"
 		//"MinAirTimeForStomp_postfix"				"s"
 		"ability_bounce_pad/speed_on_land""de vel. de movimiento"
-
 
 		//"citadel_ability_running_decoy"					"Decoy"
 		//"citadel_ability_running_decoy_desc"			"{s:hero_name} creates a temporary decoy that will run towards the target location and shoot at any nearby enemies."
@@ -1350,9 +1344,6 @@
 		"PounceFriendlyTargetCD_postfix"			" s"
 		"pounce_double_notify"					"Doble Asalto"
 
-		"ability_nano_proximity_ritual"			"Ava"
-		"ability_nano_proximity_ritual_quip"	"Envia a tu compañera para que ataque a los enemigos"
-		"ability_nano_proximity_ritual_desc"	"Envía a <span class=\"highlight\">Ava</span> para que <span class=\"highlight\">se concentre</span> en un enemigo cercano. Los objetivos enemigos ven reducida su curación, y <span class=\"highlight\">curan a Ava y a {s:hero_name}</span> cuando reciben daño. <span class=\"highlight\">Ava solo está activa cuando {s:hero_name} está cerca</span>. <br>Pulsa <span class=\"highlight\">[3]</span> para recuperar a Ava, o <span class=\"highlight\">[lanzamiento alternativo]</span> para recuperarla y teletransportarte hasta ella.<br>Cuanto más lejos estés de Ava, más tiempo llevará recuperarla o teletransportarte. Ava recobra vida al recuperarla."
 		"StatueLifetime_label"					"para recuperar a Ava automáticamente"
 		"StatueLifetime_postfix"				" s"
 		"StatueHeldRegen_label"						"de regen. para Ava al recuperarla"
@@ -1360,16 +1351,12 @@
 		"StatueLifesteal_postfix"				" %"
 		"StatueLifestealNonHero_label"			"de robo de vida de no héroes"
 		"StatueLifestealNonHero_postfix"		" %"
-		"StatueActivateRange_label"				"de alcance activo"
 		"StatueActivateRange_postfix"			" m"
 		"StatueHealth_label"					"Ava (normalizada)"
 		"StatueHealth_postfix"					"de vida"
 		"StatueVictimDamageReduction_label"					"de reducción del daño"
 		"StatueVictimDamageReduction_postfix"				" %"
 
-		"ability_nano_proximity_ritual_t1_desc"  "<span class=\"highlight\">+{s:StatueLifesteal} %</span> de robo de vida"
-		"ability_nano_proximity_ritual_t2_desc"  "<span class=\"highlight\">+{s:DPS}</span> de DPS y las víctimas infligen un <span class=\"highlight\">{s:StatueVictimDamageReduction} %</span> menos de daño a {s:hero_name}"
-		"ability_nano_proximity_ritual_t3_desc"  "<span class=\"highlight\">+{s:DamageAmplification} %</span> de amplificación de daño y un <span class=\"highlight\">{s:HealAmpReceivePenaltyPercent} %</span> de reducción de la curación en víctimas"
 		"ability_nano_proximity_ritual_trigger"		"Recuperar a Ava"
 
 		"AvaRecallCooldown_label"				"de t. de recarga para recuperar"
@@ -1378,8 +1365,6 @@
 		"AbilityButtonHint_AvaWarp"			"Teletransportarse hasta Ava"
 		"CITADEL_ABILITY_NO_HEALTH_RESOURCE"	"No disponible"
 
-		"ability_nano_shadow_step"				"Paso Sombrío"
-		"ability_nano_shadow_step_desc"			"Envuélvete en sombras para fortalecer tus ataques y hacer que tus impulsos sean <span class=\"highlight\">invisibles</span>. Al golpear a enemigos con <span class=\"highlight\">daño cuerpo a cuerpo</span>, su resistencia a balas se reducirá (acumulable)."
 		"modifier_nano_shadow_step"			"Paso Sombrío"
 		"NanoShadowBulletArmorReductionLight_prefix"	"-"
 		"NanoShadowBulletArmorReductionLight_label"	"de resist. a balas (ligero)"
@@ -1498,7 +1483,6 @@
 		"ability_blood_shards"				"Malicia"
 		"ability_blood_shards_quip"			"Acumula amplificación de daño en un enemigo"
 		"ability_blood_shards_desc"			"<span class=\"highlight\">Sacrifica parte de tu vida</span> para lanzar fragmentos de sangre que aplican una acumulación de Malicia. Cada acumulación <span class=\"highlight\">ralentiza</span> a la víctima y <span class=\"highlight\">aumenta el daño</span> que recibe de ti. El efecto de ralentización disminuye con el tiempo."
-		"ability_blood_shards_t2_desc"		"+{s:HealthToDamage} de vida como daño"
 		"ability_blood_shards_t3_desc"		"+{s:NumBloodShards} fragmentos de sangre"
 		"NumBloodShards_label"				"fragmentos de sangre"
 		"MoveSpeedPenaltyPerStack_label"		"de ralentización"
@@ -1609,8 +1593,6 @@
 		"HeadshotBonus_prefix"					"+"
 		"HeadshotBonus_label"					"de daño por disp. a la cabeza"
 		"HeadshotBonus_postfix"					" %"
-
-
 		//-----------------------------------------------------------------------------
 		// Digger (Formally Pouncer and Driller) Mo and Krill
 		//-----------------------------------------------------------------------------
@@ -1844,7 +1826,7 @@
 		"mirage_tornado"					"Tornado"
 		"mirage_tornado_quip"				"Transfórmate en un tornado que levanta a los enemigos"
 		"mirage_tornado_desc"				"Transfórmate en un tornado que, al avanzar, <span class=\"highlight\">daña a los enemigos</span> y <span class=\"highlight\">los levanta en el aire</span>. Tras salir del tornado, obtienes <span class=\"highlight\">evasión de balas</span>."
-		"HoldInPlaceDuration_label"			"de duración de la elevación"
+		"HoldInPlaceDuration_label"			"de elevación"
 		"HoldInPlaceDuration_postfix"		" s"
 		"EnemyLiftDuration_label"			"de elevación" 
 		"EnemyLiftDuration_postfix"		" s"
@@ -1852,7 +1834,6 @@
 		//"TornadoDuration_postfix"			"s"
 		"modifier_mirage_tornado_lift"	"Tornado"
 		"modifier_mirage_tornado_slow"	"Tornado - Ralentización"
-
 		"mirage_fire_beetles"			"Escarabajos de Fuego"
 		"mirage_fire_beetles_quip"		"Lanza escarabajos que roban vida a los enemigos"
 		"mirage_fire_beetles_desc"		"Empieza a lanzar escarabajos de fuego. Cada escarabajo puede <span class=\"highlight\">lanzarse por separado</span>, robando <span class=\"highlight\">vida máxima a los enemigos</span> y aplicando <span class=\"highlight\">reducción de resistencia a las balas</span>. No puedes usar varios escarabajos con el mismo enemigo. La obtención de vida al usarlos con héroes es 3 veces más efectiva que si se usan con unidades que no sean héroes."
@@ -1871,7 +1852,6 @@
 		"mirage_teleport_desc"	"Canalizada. Selecciona como objetivo a un héroe aliado o enemigo visible en el minimapa y <span class=\"highlight\">teletranspórtate</span> a la posición que ocupaba al empezar la canalización. Después de teletransportarte, obtienes mayor <span class=\"highlight\">velocidad de movimiento </span> y <span class=\"highlight\">cadencia de tiro hasta que vuelves a recargar</span>."
 		"MirageTeleportMoveSpeed_conditional"	"tras el teletransporte"
 		"mirage_teleport_movespeed"		"Viajero - Vel. de movimiento adicional"
-
 		"mirage_sand_phantom"			"Marca del Genio"
 		"mirage_sand_phantom_quip"		"Aplica la activación de daño creciente"
 		"mirage_sand_phantom_desc"		"Activa: <span class=\"highlight\">Consume el multiplicador</span> de Marca del Genio para infligir daño."
@@ -1895,7 +1875,7 @@
 		"ProcBonusMagicDamageEscalation_label"	"de daño espiritual creciente"
 		"WhirlwindEvasionChance_label"	"de prob. de evasión de balas"
 		"WhirlwindEvasionChance_postfix"	" %"
-		"WhirlwindDuration_label"			"de duración de la evasión de balas"
+		"WhirlwindDuration_label"			"de evasión de balas"
 		"WhirlwindDuration_postfix"		" s"
 		"SlowAuraPercent_label"			"de ralentización en enemigos"
 		"SlowAuraPercent_postfix"			" %"
@@ -2135,13 +2115,7 @@
 		//"slork_chomp_desc"			"<span class=\"highlight\">Dash forward and grab onto an enemy</span>, biting them repeatedly. The enemy is slowed, disarmed, and silenced while grappled. When the target is <span class=\"highlight\">below half health</span>, deal an additional <span class=\"highlight_tech\">{s:DamagePercentHealth}%</span> of their max health in damage."
 		"HobbledMovementSlow_Label" "de ralentización"
 		"HobbledMovementSlow_postfix" " %"
-		//"slork_chomp_t2_desc"		"+{s:ChompHealPercent}% Lifesteal from Chomp damage"
-//		"slork_chomp_t3_desc"		"Chomp deals <span class=\"highlight\">{s:DamageMissingPercentHealth}%</span> of the enemies missing health each second."
-		//"modifier_slork_chomp_grapple"	"Chomping an Enemy"
-		//"modifier_slork_chomp_hobbled" "Getting Chomped"
-
-
-		//"slork_ability_4"		"Torrent"
+//"slork_ability_4"		"Torrent"
 		//"slork_ability_4_desc"	"Slork creates a Jet of water that errupts from the ground damaging all nearby enemies and knocking them into the air."
 
 		//"slork_ability_invis"			"Ambush Predator"
@@ -2546,7 +2520,6 @@
 		"viscous_restorative_goo_desc"					"Encierra al objetivo en un cubo de sustancia pegajosa regeneradora que <span class=\"highlight\">protege del daño y aumenta la regeneración de vida</span>. El objetivo <span class=\"highlight\">no puede realizar ninguna acción nueva</span> mientras está en el cubo. Puedes usarlo contigo mismo. Pulsa <span class=\"highlight\">[{s:in_mantle}]</span> para escapar antes de tiempo."
 		"viscous_restorative_goo_quip"					"El Cubo es un lugar seguro"
 		"viscous_restorative_goo_t1_desc"				"Aumenta la velocidad de movimiento y la recuperación de aguante"
-		"viscous_restorative_goo_t2_desc"				"<span class=\"highlight\">Elimina todas las desventajas</span> y otorga <span class=\"highlight\">{s:AbilityCooldown} s</span> de tiempo de recarga de la habilidad"
 		"viscous_restorative_goo_buff_desc"				"Tras salir del cubo, el objetivo tiene mayor <span class=\"highlight\">velocidad de movimiento y recuperación de aguante</span> durante un breve periodo de tiempo."
 		"PostCubeBuffDuration_label"					"de duración de la mejora"
 		"PostCubeBuffDuration_postfix"					" s"
@@ -2717,31 +2690,7 @@
 		//"SummonCount_label"		"Gangsters Summoned"
 		//"SummonLifetime_label"	"Gangster Lifetime"
 		"SummonLifetime_postfix"	" s"
-		//"SummonCasterHealthPct_prefix" "Gangster Health"
-		//"SummonCasterHealthPct_label" "to Gangster Health"
-		//"SummonCasterHealthPct_postfix" "% of The Boss' health"
-
-		//"yakuza_protection_racket"		"Protection Racket"
-		//"yakuza_protection_racket_desc"	"Create a protective force shield to protect an ally and increase their crit damage. Purges negative effects on the target when cast."
-		 
-		//"yakuza_protection_racket_t1_desc" "-{s:WeaponRecoilReduction}% Weapon Recoil, -{s:MoveWhileShootingSpeedPenaltyReductionPercent}% move speed reduction when shooting."
-
-		//"MoveWhileShootingSpeedPenaltyReductionPercent_label" "Movement speed penalty while shooting reduction"
-
-		//"yakuza_setting_sun"		"Setting Sun"
-		//"yakuza_setting_sun_desc"	"Call down a precision Gamma Ray blast from orbit, hitting all units in the radius at every height regardless of cover. Units near the center of the beam take more damage."
-		//"CenterDamage_label"		"Damage at the center"
-		//"OuterDamage_label"			"Damage at the edge"
-		//"SecondHit_label"			"Double Strike a random hero in range."
-
-		//-----------------------------------------------------------------------------
-		// Hero Bomber
-		//-----------------------------------------------------------------------------
-
-		//"modifier_charged_bomb"	"Charged Bomb"
-
-
-		//-----------------------------------------------------------------------------
+//-----------------------------------------------------------------------------
 		// END HERO ABILITIES
 		//-----------------------------------------------------------------------------
 
@@ -2775,36 +2724,12 @@
 		"citadel_weapon_hero_astro_set"				"45 Oculta"
 		"citadel_weapon_hero_chrono_set"			"Secreto Comercial"
 		"citadel_weapon_hero_shiv_set"				"Escalera Quebrada"		
-		"citadel_weapon_hero_tengu_set"				"Fantasía de Papá Gato"
 		"citadel_weapon_hero_krill_set"				"Canario Amarillo"
 		"citadel_weapon_hero_lash_set"				"Narración del Combate"
 		"citadel_weapon_hero_warden_set"			"Coste de la Libertad"
 		"citadel_weapon_hero_mirage_set"			"Promesas Cumplidas"
 		"citadel_weapon_hero_synth_set"				"La Oveja Negra"
-		
-		//"citadel_weapon_hero_duo_set"				"Duo Gun"
-		//"citadel_weapon_hero_heavy_set"				"Heavy Gun"
-		//"citadel_weapon_hero_akimbo_set"			"Akimbo Gun"
-		//"citadel_weapon_hero_gunslinger_set"		"Gunslinger Gun"
-		//"citadel_weapon_hero_yakuza_set"			"Yakuza Boss Gun"
-		//"citadel_weapon_hero_phalanx_set"			"Phalanx Gun"
-		//"citadel_weapon_hero_kali_set"				"Kali Gun"
-		//"citadel_weapon_hero_revenant_set"			"Revenant Gun"
-		//"citadel_weapon_hero_demoman_set"			"Demoman Gun"
-		//"citadel_weapon_hero_hijack_set"			"Hijack Gun"
-		//"citadel_weapon_hero_mechaguy_set"			"Mechaguy Gun"
-		//"citadel_weapon_hero_zealot_set"			"Zealotry Gun"
-		//"citadel_weapon_hero_ballista_set"			"Ballista Gun"
-		//"citadel_weapon_hero_apocalypse_set"		"Apocalypse Gun"
-		//"citadel_weapon_hero_clawdril_set"			"Clawdril Gun"
-		//"citadel_weapon_hero_coldmetal_set"			"Cold Metal Gun"
-		//"citadel_weapon_hero_spade_set"				"Spade Dice Launcher"
-		//"citadel_weapon_hero_rutger_set"			"Rutger Gun"
-		//"citadel_weapon_hero_tokamak_set"			"Curie-ous Times"
-		//"citadel_weapon_hero_tempest_set"			"Tempest Gun"
-		"citadel_weapon_hero_wrecker_set"			"Himno de Demolición"
-		
-		// Melee names
+// Melee names
 		"ability_melee_ghost"	"Cuerpo a cuerpo"
 		"citadel_ability_melee_bull"			"Cuerpo a cuerpo"
 		"citadel_ability_melee_gigawatt"		"Cuerpo a cuerpo"
@@ -2868,8 +2793,7 @@
 		"hero_tengu_role"				"Crea un dúo poderoso con un aliado afortunado"
 		"hero_mirage_role"				"Calcula el momento de disparar y atrapa a los objetivos que huyen"
 		"hero_synth_role"				"Se infiltra e irrumpe en la retaguardia"
-
-        //"hero_akimbo_playstyle"         "Akimbo excels at close range combat, where he relies on speed, cone attacks, and a whole lot of bullets to hit as many targets as possible." 
+		//"hero_akimbo_playstyle"         "Akimbo excels at close range combat, where he relies on speed, cone attacks, and a whole lot of bullets to hit as many targets as possible." 
         "hero_astro_playstyle"          "Astro depende de sus habilidades como buena tiradora, disparando a cosas que lanza por los aires. Con su gran puntería, puede infligir grandes cantidades de daño. Sus habilidades de movimiento le permiten aislar a sus enemigos o emprender una retirada precipitada."
         "hero_atlas_playstyle"          "Abrams tiene el peso y el sustento necesarios para liderar desde el frente, y a menudo embiste contra sus enemigos para dispersarlos. Si sus adversarios desperdician su munición contra él, sus compañeros de retaguardia pueden infligir daño con total impunidad."
         //"hero_ballista_playstyle"       "You know what people hate?  Being knocked back by a shotgun.  You know what they hate even more?  Being knocked back into a mine field.  Do you know what they hate even more than that?  Being atomized by a fusion bomb.  Ballista turns the battlefield into an explosive Rube Goldberg device."
@@ -2887,7 +2811,6 @@
         "hero_kelvin_playstyle"         "La diferencia entre una victoria fácil o una derrota ruinosa es curar de forma oportuna y dividir una pelea en equipo de la forma adecuada. Deslizarse alrededor de enemigos lentos le da al equipo de Kelvin la ventaja de maniobrar para conseguirlo."
         "hero_lash_playstyle"           "Lash deja poco espacio para respirar a sus enemigos, ya sea volando desde largas distancias para iniciar un combate con adversarios desprevenidos o persiguiéndolos cuando estos intentan huir."
         "hero_krill_playstyle"			"Al excavar en el suelo, Mo y Krill pueden pillar por sorpresa a cualquier enemigo; y una vez que se acercan, los resultados pueden ser devastadores."
-        //"hero_nano_playstyle"           "(in flux) Like any good politician, Nano turns people against each other and lets them do her dirty work before swooping in and claiming credit for everything."
         "hero_orion_playstyle"    		"Grey Talon, un astuto depredador, utiliza una combinación de precisión letal, trampas y una posición inteligente para derrotar a los oponentes más duros."
         "hero_shiv_playstyle"           "Shiv no tiene ningún interés en jugar limpio, por lo que confía en tácticas de ataque y huida para debilitar a los enemigos antes de lanzarse a matarlos."
         //"hero_tempest_playstyle"        "Much like how a child has no idea how a TV works, no one knows exactly HOW Tempest kills you.  Was it a tesla coil?  You didn't see a tesla coil.  Either way, you're dead and Tempest is laughing."
@@ -2900,10 +2823,7 @@
 		//"hero_rutger_playstyle"		"Rocket Launcher gives him some rocket-jumping capabilities, Force Field allows him to close off movement options, Cheat Death lets him turn bad fights around, and a Pulse released in the middle of a teamfight can dictate the outcome."
 		"hero_synth_playstyle"		"Con una potente escopeta y una delgada figura, Pocket confía en su habilidad para escapar brevemente dentro de una maleta mística y teletransportarse mediante una capa voladora para poder sobrevivir a situaciones peligrosas."
 		"hero_mirage_playstyle"		"Mirage puede envolverse en un violento tornado para atrapar y elevar a los enemigos. Sus escarabajos le ayudan a resistir contra grupos de adversarios y siempre está preparado para ayudar a un aliado o castigar a un enemigo en cualquier parte."
-		//"hero_slork_playstyle"		"Slork's weapon poisons all it hits. Primary fire hits all in a cone, and aimed fire shoots a dart which crits when hitting a poisoned target."
 		"hero_tengu_playstyle"		"Ivy tiene trucos de combate disruptivos que ralentizan y aturden a los enemigos. Es más eficaz cuando se une a un aliado, ya que potencia su arma y la de su compañero, además de compartir curación."
-
-	
 		//"hero_akimbo_lore"				"Though he was built by a lonely gunslinger, Akimbo was taught that he couldn't use a gun to solve all his problems.  This frustrated the robot outlaw immensely, but as time passed Akimbo realized that his human father was right.  A gun only solved about 75% of his problems.  To solve ALL his problems, he would need at least 2 guns." 
 		"hero_astro_lore"				"Hay personas que han pasado toda su vida soñando con mudarse a Nueva York. Holliday no es una de ellas. Feliz de ser la sheriff de un pequeño pueblo, Holliday disfrutaba de una carrera en la que solo tenía que usar su arma cuando hacía prácticas de tiro en la feria del condado... y luego empezaron los asesinatos.\n\nComo algo totalmente espeluznante e inhumano, los cuerpos fueron encontrados con las cajas torácicas abiertas... y las entrañas despedazadas como si los hubieran descuartizado los pájaros. Holliday localizó al asesino, un músico folclórico ambulante al que los medios de comunicación llamaron «El Trovador», pero cuando se enfrentó a él, este explotó en una bandada de cuervos y se fue volando.\n\nEso fue hace 6 meses y, aunque los asesinatos en el centro de illinois han cesado, la investigación de Holliday no lo ha hecho. Cree que El Trovador se dirige a Nueva York y, cuando lo encuentre, matará a ese malvado hijo de perra."
 		"hero_atlas_lore"				"Duro de pelar, testarudo y bebedor empedernido; el detective Abrams ha sido un elemento clave en el panorama de investigación de Nueva York durante años. Desde obras de arte robadas hasta personas desaparecidas y asesinatos rituales, Abrams no se limitaba a aceptar cualquier caso que llegase a su escritorio, sino que lo resolvía.\n\nPero sus días de perseguir a cónyuges infieles llegaron a su fin el día en que abrió la puerta de su oficina y encontró El Tomo en su escritorio.\n\nNo le dejaron instrucciones, salvo una breve nota garabateada con sangre de ónice que decía: «No permitas que se hagan con él». Abrams no sabe de dónde salió el objeto, pero como han entrado en su casa, ha encontrado su oficina patas arriba en tres ocasiones diferentes y han hecho estallar su coche, tiene un gran interés en averiguar qué diablos está pasando."
@@ -2930,8 +2850,5 @@
 		"hero_tengu_lore"				"La gárgola no sabía lo que estaba pasando cuando cobró vida... solo que un humano grande y una humana pequeña estaban siendo atacados. Así que entró en acción y los agresores huyeron horrorizados. La pequeña humana le dio las gracias a la gárgola y le preguntó cómo se llamaba. La gárgola no tenía nombre, así que la humana dijo: «Te voy a llamar Ivy, hiedra en inglés». A la gárgola, que por aquel entonces estaba cubierta de enredaderas, le pareció un poco obvio, pero decidió aceptarlo por el bien de la humana.\n\nLos humanos le pidieron a Ivy que los acompañase a su casa para poder darle las gracias, así que fue con ellos. Esa noche aprendió mucho. Eran la familia Arroyo, y la pequeña se llamaba Sofía. Comían un manjar delicioso que se llamaba mofongo. Pero, sobre todo, se enteró de que quienes los atacaron pertenecían al «Sindicato de Mendoza» y que estaban haciendo daño a la gente... a buenas personas como los Arroyo.\n\nHan pasado 18 años desde el día en que los Arroyo la llevaron a su casa y, durante ese tiempo, Ivy se propuso desmantelar el Sindicato de Mendoza y liberar el Harlem del Este de sus garras. Sin embargo, lo que pasa cuando dedicas tu vida a una sola misión durante casi dos décadas es que no sabes muy bien qué hacer una vez que logras completarla. Por primera vez en su vida, Ivy está preparada para aventurarse fuera del Harlem del Este y ver qué le ofrece este mundo más allá de la justicia ciudadana."
 		"hero_synth_lore"				"Arin Fairfax, el heredero primogénito de Fairfax Industries, ha estado viviendo escondido durante los últimos 5 años, después de recibir un disparo y que le dieran por muerto en su decimoctavo cumpleaños. Arin no sabe quién está intentando impedir que se haga con el control de la empresa de sus padres... pero en el nido de víboras alimentado por la avaricia que es Fairfax Industries, podría ser cualquiera.\n\nAl adoptar el nombre de Pocket, Arin quiere desesperadamente mantener en secreto su verdadera identidad… no solo por su propia protección, sino también para forjar una identidad propia e independiente de la de sus padres."
 		"hero_mirage_lore"				"Los genios son uno de los grupos de personas más curiosos del mundo moderno. Con un gran poder en dosis controladas, los genios son incapaces de mantener la forma corporal durante más de 48 minutos sin descansar dentro de un recipiente. Debido a ello, la mayoría de los genios emplean guardaespaldas humanos que los transportan, los protegen y les hacen compañía.\n\nMirage es uno de esos guardaespaldas. Empleado por el embajador de los genios, Nashala Dion, Mirage se encuentra en Nueva York en misión diplomática. Los genios esperan poder negociar con el gobierno de los Estados Unidos la venta de una parte de Wyoming para poder construir una nación soberana para su pueblo."
-
-
-
-	}
+		}
 }

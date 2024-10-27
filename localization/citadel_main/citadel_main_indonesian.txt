@@ -1,7 +1,7 @@
-﻿"lang" 
-{ 
-	"Language" "indonesian" 
-	"Tokens" 
+﻿"lang"
+{
+	"Language" "indonesian"
+	"Tokens"
 	{
 		"Citadel_Dashboard_BuildVersion"	"Build {d:buildNumber} - {s:buildTime}"
 
@@ -32,26 +32,26 @@
 		"GameUI_Disconnected"						"Terputus dari Server"
 		"GameUI_Disconnect_ServerInfoOverflow"		"Overflow data info"
 		"GameUI_Disconnect_TickMessage"				"Eror saat mengetik pesan tentang tick"
-		"GameUI_Disconnect_StringTableMessage"		"Terjadi kesalahan saat menulis pesan pembaruan tabel string"
+		"GameUI_Disconnect_StringTableMessage"		"Eror saat mengetik pesan pembaruan tabel string"
 		"GameUI_Disconnect_DeltaEntMessage"			"Eror saat mengetik pesan tentang perubahan pada objek"
 		"GameUI_Disconnect_TempEntMessage"			"Eror saat mengetik pesan tentang objek sementara"
 		"GameUI_Disconnect_SoundsMessage"			"Eror saat mengetik pesan tentang suara game"
 		"GameUI_Disconnect_SnapshotOverflow"		"Eror: overflow snapshot andal"
 		"GameUI_Disconnect_SnapshotError"			"Eror saat mengirim snapshot"
 		"GameUI_Disconnect_ReliableOverflow"		"Eror: overflow buffer andal"
-		"GameUI_Disconnect_BadClientDeltaTick"		"Terdapat kesalahan pada delta tick client"
+		"GameUI_Disconnect_BadClientDeltaTick"		"Perubahan pada client tidak berurutan"
 		"GameUI_Disconnect_NoMoreSplits"			"Slot layar terpisah habis"
 		"GameUI_Disconnect_TimedOut"				"Koneksi dengan host jarak jauh terganggu"
 		"GameUI_Disconnect_Disconnected"			"Terputus"
 		"GameUI_Disconnect_ReliableChannelOverflow"	"Saluran andal untuk overflow"
 		"GameUI_Disconnect_LeavingSplit"			"Keluar dari layar terpisah"
-		"GameUI_Disconnect_DifferentClassTables"	"Server menggunakan class table yang berbeda"
+		"GameUI_Disconnect_DifferentClassTables"	"Server menggunakan tabel kelas yang berbeda"
 		"GameUI_Disconnect_ConnectionClosing"		"Koneksi ditutup"
 		"GameUI_Disconnect_User"					"Diputuskan oleh pengguna"
 		"GameUI_Disconnect_Server"					"Terputus dari Server"
 		"GameUI_Disconnect_ConnectionLost"			"Koneksi terputus"
 		"GameUI_Disconnect_ConnectionOverflow"		"Eror overflow"
-		"GameUI_Disconnect_BadRelayPassword"		"Kata sandi relai salah"
+		"GameUI_Disconnect_BadRelayPassword"		"Relai kata sandi salah"
 		"GameUI_Disconnect_BadSpectatorPassword"	"Kata sandi penonton salah"
 		"GameUI_Disconnect_HLTVRestricted"			"Server SourceTV dibatasi untuk penonton lokal (Class C)"
 		"GameUI_Disconnect_HLTVUnavailable"			"Tidak ada relai SourceTV yang tersedia"
@@ -65,7 +65,7 @@
 		"GameUI_Disconnect_SteamInUse"				"Akun Steam ini sedang digunakan di lokasi lain"
 		"GameUI_Disconnect_SteamOwnership"			"Akun Steam ini tidak memiliki game ini.\nSilakan login dengan akun yang benar."
 		"GameUI_Disconnect_SteamVAC"				"Di-ban dari server dengan pengaman VAC"
-		"GameUI_Disconnect_SteamTimeOut"			"Waktu Valve Anti-Cheat challenge habis. Pastikan kamu tidak menggunakan program apa pun yang dapat mengganggu VAC dan bahwa Steam telah diinstal dengan benar."
+		"GameUI_Disconnect_SteamTimeOut"			"Waktu permintaan otentikasi VAC habis. Pastikan kamu tidak menggunakan program apa pun yang dapat menggangggu VAC dan Steam diinstal dengan benar."
 		"GameUI_Disconnect_SteamDropped"			"Otorisasi Steam gagal. Kamu harus terhubung ke Steam untuk membuat koneksi awal ke server game."
 		"GameUI_Disconnect_SteamTicket"				"Tiket ID STEAM pengguna Tidak Valid"
 		"GameUI_Disconnect_NoSpectators"			"Pertandingan tidak memperbolehkan penonton"
@@ -83,7 +83,7 @@
 		"GameUI_Disconnect_ConnectionTimedout"		"Gagal menghubungkan koneksi ke server game."
 		"GameUI_Disconnect_ServerIncompatible"		"Versi server tidak kompatibel."
 		"Player_DisconnectReason_Idle"				"Terputus dari server. Kamu AFK terlalu lama."
-		
+
 
 		"GameUI_Disconnect_LocalProblem_ManyRelays"	"Sambungan terputus, bahkan setelah mencoba beberapa relai di lokasi geografis yang berbeda. Kemungkinan ada masalah pada koneksi internetmu."
 		"GameUI_Disconnect_LocalProblem_HostedServerPrimaryRelay"	"Koneksi server terputus dari relai utama yang digunakan client."
@@ -99,9 +99,9 @@
 		"GameUI_Disconnect_InternalError"					"Terputus karena kesalahan internal. Rincian selengkapnya mungkin dapat ditemukan di konsol."
 
 		"GameUI_ServerConnectOutOfDate"		"Server belum diperbarui ke versi terbaru.\n"
-		"GameUI_ServerChallengeIncorrect"	"Server tidak merespons dengan Challange yang tepat.\nServer mungkin belum diperbarui.\n"
+		"GameUI_ServerChallengeIncorrect"	"Server tidak merespons dengan otentikasi yang tepat.\nServer mungkin belum diperbarui.\n"
 		"GameUI_ServerInsecure"				"Kamu dalam mode tidak aman. Restart sebelum terhubung ulang ke server dengan pengaman.\n"
-		"GameUI_ServerRejectBadChallenge"	"Koneksi buruk.\n"
+		"GameUI_ServerRejectBadChallenge"	"Otentikasi gagal.\n"
 		"GameUI_ServerRejectLANRestrict"	"Server local dibatasi untuk client lokal (kelas C).\n"
 		"GameUI_ServerRejectBadPassword"	"Kata sandi salah.\n"
 		"GameUI_ServerRejectServerFull"		"Server penuh.\n"
@@ -151,7 +151,7 @@
 		"Citadel_ViewMatchID_Loading_Error"					"Tidak Dapat Menonton Pertandingan"
 		"Citadel_ViewMatchID_InFlight_Title"				"Pertandingan masih berlangsung"
 		"Citadel_ViewMatchID_InFlight_Body"					"Pertandingan ini masih berlangsung. Apakah kamu ingin menonton pertandingan ini?"
-		
+
 		//Playtest User
 		"Citadel_PlaytestUser_SubmitProcessing"				"Mohon tunggu"
 		"Citadel_PlaytestUser_SubmitProcessingTitle"		"Memasukkan Pengguna"
@@ -240,6 +240,12 @@
 		"Citadel_ReportPlayer_Reason_Comments"				"Komentar:"
 		"Citadel_ReportPlayer_CommentPlaceholder"			"Jelaskan masalahmu dengan pemain ini"
 
+		"Citadel_CommendPlayer_PopupTitle"					"Puji Pemain"
+		"Citadel_CommendPlayer_PopupDesc"					"Puji pemain lain atas permainan mereka dan memberi tahu matchmaking bahwa kamu ingin bermain dengan mereka lagi di masa mendatang."
+		"Citadel_CommendPlayer_Friendly"					"Ramah dan Seru"
+		"Citadel_CommendPlayer_Teamwork"					"Anggota Tim Keren"
+		"Citadel_CommendPlayer_Skilled"						"Gamer Andal"
+
 		"Citadel_SkipTutorial_Title"						"Lewati Tutorial"
 		"Citadel_SkipTutorial_Body"							"Apakah kamu yakin ingin melewati tutorial? Sebaiknya lewati langkah ini jika kamu sudah pernah bermain sebelumnya."
 
@@ -264,7 +270,7 @@
 
 		"Citadel_MatchHistory_Loss" "Kalah"
 		"Citadel_MatchHistory_Win" "Menang"
-		"Citadel_MatchHistory_Disbanded" "Dibatalkan"
+		"Citadel_MatchHistory_Disbanded" "Dibubarkan"
 
 		"Citadel_MatchDetails_NoResponse"							"Tidak dapat terhubung ke Jaringan Deadlock. Silakan coba lagi nanti"
 		"Citadel_MatchDetails_InternalError"						"Terjadi eror yang tidak terduga saat proses mendapatkan rincian pertandingan"
@@ -285,6 +291,8 @@
 		"Citadel_Notification_Paused_Message"						"Game dijedakan"
 		"Citadel_Notification_Unpaused_Title"						"Lanjutkan"
 		"Citadel_Notification_Unpaused_Message"						"Game dilanjutkan..."
+		"Citadel_Notification_About_To_Respawn_Title"				"Waktu Respawn"
+		"Citadel_Notification_About_To_Respawn_Message"				"Respwan dalam..."
 		"Citadel_Hud_PreGame_Countdown"								"Game Dimulai..."
 		"Citadel_Hud_CantPause"										"Jeda Tersedia dalam {i:pause_cooldown} detik"
 		"Citadel_Hud_CantUnpause"									"Dapat Dilanjutkan dalam {i:pause_cooldown} detik"
@@ -309,7 +317,7 @@
 		"Citadel_Hud_RideZipLineOnCooldownValue"					"{f:1:cooldown_seconds} dtk."
 		"Citadel_Hud_RideZipLineOnCooldown"							"Tidak tersedia setelah menerima damage"
 		"Citadel_Hud_CaptureZipLine"								"TAHAN {s:use_key}"
-		"Citadel_Hud_OpenShop"										"Tekan [ {s:upgrade_key} ] to Belanja"
+		"Citadel_Hud_OpenShop"										"Tekan [ {s:upgrade_key} ] untuk Belanja"
 		"Citadel_Hud_LoadingDeathReplay"							"Memuat tayangan ulang momen death"
 		"Citadel_Hud_DebugStats"									"PERTANDINGAN: {s:match_id}\nCLIENT FPS:{i:client_framerate}   PING: {i:ping}ms\nSERVER CPU: {i:server_frametime_avg_pct}% (peak: {i:server_frametime_max_pct}%)"
 		"Citadel_Hud_DeathCam"										"CAMERA DEATH"
@@ -321,6 +329,11 @@
 
 		"Citadel_InvalidCast_NoFullClips"							"TIDAK ADA KLIP UNTUK DIISI ULANG"
 
+		"Citadel_MatchInfo_Mode_Ranked"								"Mode Rank"
+		"Citadel_MatchInfo_Mode_Standard"							"Standar"
+		"Citadel_MatchInfo_Mode_HeroLabs"							"Lab Hero"
+		"Citadel_MatchInfo_Mode_CoopBot"							"Co-op"
+		"Citadel_MatchInfo_Mode_Private"							"Privat"
 
 		"Citadel_Reconnect_IncompatibleVersionTitle"				"Versi Tidak Kompatibel"
 		"Citadel_Reconnect_IncompatibleVersionBody"					"Versi client ini sudah tidak valid untuk dapat tersambung ke server ini"
@@ -336,13 +349,13 @@
 		"Citadel_Item_Tooltip_CantAfford"							"Tidak mampu membeli mod"
 		//"Citadel_Player_Level_AbilityPoints"						"<span class=\"boldText\">1 Ability Point</span> gained at levels 2, 3, 5, 7, and each level after"
 		//"Citadel_Player_Level_AbilityUnlocks"						"<span class=\"boldText\">1 Ability Unlock</span> gained at levels 1, 2, 4, and 6"
-		//"Citadel_Player_Level_WeaponPower"							"<span class=\"boldText\">+{s:weapon_bonus}% Base Bullet Damage</span>, <span class=\"boldText\">+{s:melee_bonus}% Base Melee damage</span> and <span class=\"boldText\">+{s:health_bonus} Max Health </span>"		
+		//"Citadel_Player_Level_WeaponPower"							"<span class=\"boldText\">+{s:weapon_bonus}% Base Bullet Damage</span>, <span class=\"boldText\">+{s:melee_bonus}% Base Melee damage</span> and <span class=\"boldText\">+{s:health_bonus} Max Health </span>"
 		"Citadel_Player_Level_APShort"								"PS"
-		"Citadel_Player_Level_AbilityUnlocksShort"					"Item Skill"
+		"Citadel_Player_Level_AbilityUnlocksShort"					"Skill Terbuka"
 		"Citadel_Player_Level_PowerIncreases"						"Peningkatan Kekuatan"
 		"Citadel_Player_Level_PowerIncreaseGrants"					"Setiap Peningkatan Kekuatan memberikan:"
 		"Citadel_Player_Level_Legend"								"Legenda:"
-		"Citadel_Player_Level_AbilityUnlock"						"Item Skill"
+		"Citadel_Player_Level_AbilityUnlock"						"Skill Terbuka"
 		"Citadel_Player_Level_PowerIncrease"						"Peningkatan Kekuatan"
 		"Citadel_Player_Level_AP"									"PS"
 		"Citadel_Player_Level_BaseBullet"							"Damage Peluru Dasar"
@@ -350,11 +363,12 @@
 		"Citadel_Player_Level_BaseHealth"							"Health Dasar"
 		"Citadel_Player_Level_SpiritAmp"							"Pembesaran Damage Spirit"
 		"Citadel_Player_Level_BulletResist"							"Pertahanan Peluru"
+		"Citadel_Player_Level_TechResist"							"Pertahanan Spirit"
 		"Citadel_Player_Level_WeaponRange"							"Jangkauan Senjata"
 		"Citadel_Hero_Stats_Tooltip_WeaponPower"					"Bonus Total untuk Senjatamu dan Damage Jarak Dekat yang didapatkan dari membeli item di bagian Senjata"
 		"Citadel_Hero_Stats_Tooltip_HealthMult"						"Bonus Total untuk Health Dasar yang didapatkan dari membeli item di bagian Vitalitas"
-		"Citadel_Hero_Stats_Tooltip_Spirit"							"<span class=\"spirit_color\">Kekuatan Spirit</span> meningkatkan efiktifitas Skill. Kekuatan Spirit diperoleh dari membeli item di bagian Spirit."
-		"Citadel_Hero_Stats_Tooltip_Spirit_IconDesc"				"Temukan ikon <span class=\"spirit_color\">Kekuatan Roh</span> pada Skill untuk melihat efek yang dihasilkan."
+		"Citadel_Hero_Stats_Tooltip_Spirit"							"<span class=\"spirit_color\">Kekuatan Spirit</span> meningkatkan efektivitas Skill. Kekuatan Spirit diperoleh dari membeli item di bagian Spirit."
+		"Citadel_Hero_Stats_Tooltip_Spirit_IconDesc"				"Temukan ikon <span class=\"spirit_color\">Kekuatan Spirit</span> pada Skill untuk melihat efek yang dihasilkan."
 		"Citadel_Hero_Stats_Tooltip_Shards"							"Dana yang kamu miliki untuk berbelanja item"
 		"Citadel_Hero_Stats_Souls"									"Jiwa"
 		"Citadel_Hero_Stats_Unsecured"								"Tidak aman"
@@ -386,13 +400,13 @@
 
 		"Citadel_Shop_ImbueTooltip_Title"							"Pilih skill untuk diisi"
 		"Citadel_Shop_ActivePlacementTooltip_Title"					"Pilih slot skill untuk menyelesaikan pembelian"
-		"Citadel_Shop_ActivePlacementTooltip_Drag"					"Seret dan lepas untuk mengatur ulang skill aktif saat ini"	
+		"Citadel_Shop_ActivePlacementTooltip_Drag"					"Seret dan lepas untuk mengatur ulang skill aktif saat ini"
 
-		"Citadel_Shop_SellMaxItems_Title"							"Semua slot penuh!"	
-		"Citadel_Shop_SellMaxItems_Desc"							"Untuk menyelesaikan pembelian ini, pilih mod yang ingin <span class='highlight'>dijual setengah harga dan diganti</span>"	
+		"Citadel_Shop_SellMaxItems_Title"							"Semua slot penuh!"
+		"Citadel_Shop_SellMaxItems_Desc"							"Untuk menyelesaikan pembelian ini, pilih mod yang ingin <span class='highlight'>dijual setengah harga dan diganti</span>"
 		"Citadel_Shop_SellMaxItems_SellButton"						"Jual"
 
-		"Citadel_Shop_AbilityisImbued"								"Skill diisi"
+		"Citadel_Shop_AbilityisImbued"								"Skill terisi"
 
 		"Citadel_Spectate_Connecting_Title"							"Menghubungkan ke Pertandingan"
 		"Citadel_Spectate_Connecting_Buffering"						"Terhubung ke pertandingan. Mohon tunggu saat buffer berlangsung."
@@ -417,7 +431,7 @@
 		"Citadel_FriendsCategory_PlayingCitadel"			"Bermain"
 		"Citadel_FriendsCategory_Online"					"Online"
 		"Citadel_FriendsCategory_Offline"					"Offline"
-		"Citadel_FriendsCategory_Invited"					"Undang Tertunda"
+		"Citadel_FriendsCategory_Invited"					"Undangan Tertunda"
 		"Citadel_FriendsCategory_InviteSent"				"Undangan Berhasil"
 		"Citadel_FriendsCategory_AlreadyOwned"				"Sudah dibergabung"
 		"Citadel_FriendsCategory_Pending"					"Tertunda"
@@ -465,8 +479,17 @@
 		"Citadel_Play_MatchmakingOfflineTitle"				"Matchmaking Ditutup"
 		"Citadel_Play_MatchmakingOfflineText"				"Matchmaking sedang ditutup. Silakan kembali saat jam uji game terjadwal."
 
+		"Citadel_Play_RankedMatchmakingOfflineTitle"		"Matchmaking Mode Rank Tutup"
+		"Citadel_Play_RankedMatchmakingOfflineText"			"Matchmaking Mode Rank sedang tutup. Silakan kembali pada jadwal Uji Game yang dipilih."
+
+		"Citadel_Play_RankedNoSchedule"						"Belum Ada Jadwal Terpilih"
+		"Citadel_Play_RankedNoScheduleDesc"					"Kamu harus memilih waktu yang sudah dijadwalkan untuk dapat bermain di Mode Rank."
+
 		"Citadel_RankedGames_Played"						"{i:ranked_games_played}/{i:ranked_games_required} Game Dimainkan"
-		"Citadel_RankedGames_PlayedQualified"				"Memenuhi Syarat Mendapatkan Ranking"
+		"Citadel_RankedGame_Played_desc"					"Game Dimainkan Untuk Mendapatkan Ranking"
+		"Citadel_RankedGames_PlayedQualified"				"Rankingmu akan dihiting berdasarkan game tambahan"
+		"Citadel_RankedGames_Qualified1"						"Game tambahan yang dimainkan akan menjadi faktor dalam penentuan Ranking"
+		"Citadel_RankedGames_Qualified2"						"Ranking akan diberikan pada {t:s:end_day}"
 
 		"Citadel_Play_BotsOfflineTitle"				"Bot Offline Sementara"
 		"Citadel_Play_BotsOfflineText"				"Bot dinonaktifkan sementara. Silakan periksa kembali nanti."
@@ -554,8 +577,8 @@
 		"Citadel_PrivateLobby_SwapTeams"							"Tukar Tim"
 		"Citadel_PrivateLobby_SwapTeamsTooltip"						"Tukar anggota antara kedua tim, mempertahankan jalur yang sama"
 		"Citadel_PrivateLobby_RandomizeTeams"						"Acak Semua Pemain"
-		"Citadel_PrivateLobby_ShuffleTeamsTooltip"					"Secara acak menetapkan pemain di lobi ke kedua tim berbeda"
-		"Citadel_PrivateLobby_ShuffleTeams"							"Acak dalam Tim"		
+		"Citadel_PrivateLobby_ShuffleTeamsTooltip"					"Secara acak menetapkan pemain di lobi kedua tim berbeda"
+		"Citadel_PrivateLobby_ShuffleTeams"							"Acak dalam Tim"
 		"Citadel_PrivateLobby_ShuffleLanesTooltip"					"Secara acak menetapkan pemain di dalam tim ke jalur-jalur berbeda"
 
 		"Citadel_ServerRegion_0"									"Pilih Wilayah Secara Otomatis"
@@ -563,13 +586,13 @@
 		"Citadel_ServerRegion_1"									"AS (Barat)"
 		"Citadel_ServerRegion_27"									"AS (Utara Tengah)"
 		"Citadel_ServerRegion_23"									"AS (Tenggara)"
-		"Citadel_ServerRegion_22"									"AS (Barat Selarat)"
+		"Citadel_ServerRegion_22"									"AS (Barat Daya)"
 		"Citadel_ServerRegion_2"									"AS (Timur)"
 		"Citadel_ServerRegion_5"									"Singapura"
 		"Citadel_ServerRegion_28"									"Polandia"
 		"Citadel_ServerRegion_19"									"Jepang"
 		"Citadel_ServerRegion_8"									"Swedia"
-		"Citadel_ServerRegion_14"									"Chile"
+		"Citadel_ServerRegion_14"									"Cile"
 		"Citadel_ServerRegion_44"									"Finlandia"
 		"Citadel_ServerRegion_24"									"Hong Kong"
 		"Citadel_ServerRegion_3"									"Prancis"
@@ -590,15 +613,15 @@
 		"Citadel_Party_CreatePrivateLobby"							"Buat Lobi Privat"
 		"Citadel_Party_PartyCodeLabel"								"Kode Undangan:"
 		"Citadel_Party_PartyCodeHidden"								"(disembunyikan)"
-		"Citadel_Party_InMatchMaking"								"Grup dalam matchmaking"
+		"Citadel_Party_InMatchMaking"								"Grup sedang mencari pertandingan"
 		"Citadel_Party_CancelMM"									"Batal"
 		"Citadel_Party_NotConnectedToGC"							"Tidak tersambung ke jaringan Deadlock"
 		"Citadel_Party_PlayerLabel"									"Pemain"
-		"Citadel_Party_SpectatorLabel"								"Penonton"	
+		"Citadel_Party_SpectatorLabel"								"Penonton"
 		"Citadel_Party_Or"											"Atau"
 		"Citadel_Party_ReadyUp"										"Siap"
 		"Citadel_Party_RolePlayer"									"Pemain"
-		"Citadel_Party_RoleSpectator"								"Penonton"	
+		"Citadel_Party_RoleSpectator"								"Penonton"
 		"Citadel_Party_CreatePartyTitle"							"Membuat Grup"
 		"Citadel_Party_CreatePartyText"								"Mohon tunggu"
 		"Citadel_Party_JoinPartyTitle"								"Bergabung ke Grup"
@@ -631,7 +654,7 @@
 		"Citadel_AcceptedInvitation_Title"							"Undangan yang Diterima"
 		"Citadel_Party_SetMatchModeTitle"							"Pengaturan Mode Grup"
 		"Citadel_Party_SetMatchModeText"							"Mohon tunggu saat grup dibuat"
-		"Citadel_AcceptedInvitation_Name"							"{g:citadel_persona:accepted_invitation} telah menerima undanganmu"		 
+		"Citadel_AcceptedInvitation_Name"							"{g:citadel_persona:accepted_invitation} telah menerima undanganmu"
 		"Citadel_Party_KickedByTitle"								"Dikeluarkan dari Grup"
 		"Citadel_Party_KickedByText"								"Kamu dikeluarkan dari grup oleh {g:citadel_persona:kicked_by_account}"
 		"Citadel_Party_DraftEndedByTitle"							"Pertandingan Dibatalkan"
@@ -653,8 +676,8 @@
 		"Citadel_PartyInviteFriend_InvitesFull"						"Terlalu banyak anggota"
 		"Citadel_JoinParty_Title"									"Bergabung ke Grup"
 		"Citadel_JoinParty_Desc"									"Jika kamu menerima kode grup, masukkan kodenya di bawah ini."
-		"Citadel_JoinParty_Prompt"									"ID Grup"	
-		"Citadel_Party_Invites"										"Undangan Grup"
+		"Citadel_JoinParty_Prompt"									"ID Grup"
+		"Citadel_Party_Invites:p{party_invites}"					"<span class=\"InviteCount\">{d:party_invites} </span><span class=\"InviteHeaderText\">Undangan Grup</span>"
 		"Citadel_PartyStartMatch"									"Mulai Pertandingan"
 		"Citadel_PartyFindMatch"									"Mencari Pertandingan"
 		"Citadel_Party_CreateEasyBot"								"Buat grup untuk mengundang temanmu agar dapat bermain bersama melawan bot mode mudah"
@@ -678,20 +701,22 @@
 		"Citadel_Party_OutOfDateClientTooltip"						"Game perlu diperbarui"
 		"Citadel_Party_InviteSent"									"Undangan Dikirim"
 
-		"Citadel_RosterMode_Party_Matchmaking"						"Mainkan Deadlock"
+		"Citadel_RosterMode_Party_Matchmaking"						"Deadlock"
 		"Citadel_RosterMode_Party_RankedMatchmaking"				"Main di Mode Rank"
-		"Citadel_RosterMode_Party_CoopBotMM"						"Main Melawan Bot"
+		"Citadel_RosterMode_Party_HeroLabsMatchmake"					"Mainkan Mode Lab Hero"
+		"Citadel_RosterMode_Party_CoopBotMM"						"Melawan Bot"
 		"Citadel_RosterMode_Party_PrivateBotEasy"					"Pertandingan Bot Grup Privat - Mudah"
 		"Citadel_RosterMode_Party_PrivateBotMedium"					"Matchmaking Bot Grup Privat - Sedang"
 		"Citadel_RosterMode_Party_PrivateBotHard"					"Pertandingan Bot Grup Privat - Sulit"
 
 		"Citadel_BotMatchModal_Desc"								"Pilih Tingkat Kesulitan:"
 		"Citael_PrivateLobbyModal_CreateNewButton"					"Buat Pertandingan Kustom Baru"
-		"Citael_PrivateLobbyModal_JoinCode"							"Gabung ke Pertandingan yang ada via Kode"
+		"Citael_PrivateLobbyModal_JoinCode"							"Gabung via Kode"
 
-		"Citadel_RosterMode_Matchmaking"							"Mainkan Deadlock"
+		"Citadel_RosterMode_Matchmaking"							"Deadlock"
 		"Citadel_RosterMode_RankedMatchmaking"						"Main di Mode Rank"
-		"Citadel_RosterMode_CoopBotMM"								"Main Melawan Bot"
+		"Citadel_RosterMode_HeroLabsMatchmaking"					"Mainkan Mode Lab Hero"
+		"Citadel_RosterMode_CoopBotMM"								"Melawan Bot"
 		"Citadel_RosterMode_PrivateBotEasy"							"Bot Privat - Mudah"
 		"Citadel_RosterMode_PrivateBotMedium"						"Bot Privat - Sedang"
 		"Citadel_RosterMode_PrivateBotHard"							"Bot Privat - Sulit"
@@ -720,6 +745,9 @@
 		"Citadel_Roster_Instructions_Desc"							"Pilih setidaknya 3 hero untuk secara otomatis mendapatkan salah satu hero tersebut ketika pertandingan dimulai.<br><br>Kamu dapat menandai hero sebagai <span class='selected'><b>Terpilih</b></span>, <span class='priority'><b>Prioritas</b></span>, atau <span class='high_priority'><b>Prioritas Tinggi</b></span> untuk meningkatkan kesempatanmu mendapatkan hero tersebut."
 		"Citadel_Roster_Instructions_Select"						"<span class='keybind'>{s:iv_attack}</span> Untuk menandai Hero sebagai Dipilih"
 		"Citadel_Roster_Instructions_Prefer"						"<span class='keybind'>{s:iv_attack2}</span> Untuk beralih antara <b>Prioritas</b> atau <b>Prioritas Tinggi</b>"
+
+		"Citadel_Roster_Instructions_Title_HeroLabs"				"Lab Hero"
+		"Citadel_Roster_Instructions_Desc_HeroLabs"					"Antre untuk bermain sebagai atau melawan Hero Eksperimental.<br><br>Pilih minimum tiga Hero, <b>dua di antaranya harus merupakan Hero standar (non-percobaan).</b> Pemain akan lebih mungkin diberikan Hero Eksperimental dari daftar berdasarkan waktu sejak terakhir kali mereka memainkan Hero Eksperimental."
 
 		"Citadel_ViewMatchID_Title"									"Lihat ID Pertandingan"
 		"Citadel_ViewMatchID_Desc"									"Masukkan ID pertandingan untuk melihat rincian pertandingan"
@@ -775,7 +803,7 @@
 		"Citadel_Hud_KillFeedPlayerDeath"							"{s:killer_name} membutuhkan <span class=\"yellowGold\">{i:bounty_amount}</span>"
 		//"Citadel_HUD_LevelUpLocalPlayerMessage"						"You've Reached"
 		//"Citadel_HUD_LevelUpSpectatingPlayerMessage"				"{s:leveled_up_hero_name} has Reached"
-		"Citadel_HUD_LevelUpAbilityUnlocksAnnouncement"				"Item Skill"
+		"Citadel_HUD_LevelUpAbilityUnlocksAnnouncement"				"Skill Terbuka"
 		"Citadel_HUD_LevelUpUltimateAbilityUnlocked"				"Skill Ultimate Terbuka"
 		"Citadel_HUD_LevelUpAbilityPointAnnouncement"				"Poin Skill"
 		"Citadel_HUD_PatronBoon"									"Hadiah dari Patron-mu..."
@@ -799,12 +827,12 @@
 		//"Citadel_HUD_LevelReward_BulletResist"						"Spirit Damage"
 		//"Citadel_HUD_LevelReward_WeaponRange"						"Spirit Damage"
 		"Citadel_HUD_LevelReward_NextRewardsLabel"					"Hadiah Berikutnya:"
-		
+
 		"Citadel_Hud_KillFeedNone"									"<None>"
 		"Citadel_Hud_KillFeedTrooper"								"Pasukan #{i:unit_num}"
 		"Citadel_Hud_KillFeedSuperNeutral"							"Pelindung Kuil"
 		"Citadel_Hud_KillFeedNeutral"								"Netral #{i:unit_num}"
-		"Citadel_Hud_KillFeedSentry"								"Senjata Penjaga"
+		"Citadel_Hud_KillFeedSentry"								"Menara Penjaga"
 		"Citadel_Hud_KillFeedGuardian"								"Pelindung"
 		"Citadel_Hud_KillFeedAllGuardians"							"Pelindung Musuh"
 		"Citadel_Hud_KillFeedBarracksBoss"							"Pelindung Markas"
@@ -844,14 +872,14 @@
 
 		"Objective_Friendly_BarrackBoss"						"Bos Markas Rekan"
 		"Objective_Enemy_BarrackBoss"							"Bos Markas Musuh"
-		"Objective_Team1_BarrackBoss"							"Api Bos Markas"
-		"Objective_Team2_BarrackBoss"							"Safir Bos Markas"
+		"Objective_Team1_BarrackBoss"							"Bos Markas Amber"
+		"Objective_Team2_BarrackBoss"							"Bos Markas Safir"
 
 		"Objective_Friendly_ShieldGenerator"						"Kuil Rekan"
 		"Objective_Enemy_ShieldGenerator"							"Kuil Musuh"
 		"Objective_Team1_ShieldGenerator"							"Kuil Amber"
 		"Objective_Team2_ShieldGenerator"							"Kuil Safir"
-		
+
 		"Objective_Friendly_Final"						"Patron Rekan (melemah)"
 		"Objective_Enemy_Final"							"Patron Musuh (melemah)"
 		"Objective_Team1_Final"							"Patron Amber (melemah)"
@@ -862,8 +890,8 @@
 
 		"Citadel_Team1_Name"							"Sang Tangan Amber"
 		"Citadel_Team2_Name"							"Kobaran Safir"
-		"Citadel_Team1_Name_Uppercase"					"SANG TANGAN AMBER"
-		"Citadel_Team2_Name_Uppercase"					"KOBARAN SAFIR"
+		"Citadel_Team1_Name_Uppercase:n"					"SANG TANGAN AMBER"
+		"Citadel_Team2_Name_Uppercase:n"					"KOBARAN SAFIR"
 
 		"Citadel_Mod_Tooltip_Passive"									"Pasif"
 		"Citadel_Mod_Tooltip_Active"									"Aktif"
@@ -883,6 +911,7 @@
 
 
 		"Citadel_HUD_Damage_TooFar"									"Terlalu Jauh"
+		"Citadel_HUD_Damage_TooLow"									"Terlalu Rendah"
 		"Citadel_HUD_Damage_Invulnerable"							"Terlindungi"
 		"Citadel_HUD_Damage_NoTroopers"								"Butuh Pasukan"
 		"Citadel_HUD_Damage_Resistant"								"Tahan Damage"
@@ -909,7 +938,7 @@
 		"Citadel_HUD_DamageReport_DamageDealt"						"Damage Diberikan"
 		"Citadel_HUD_DamageReport_TopDamageSources:p{num_damage_rows}"	"{i:num_damage_rows} Sumber Damage Teratas"
 		"Citadel_HUD_DamageReport_ShowMore"							"Tampilkan Lainnya"
-		
+
 		"Citadel_HUD_DamageReport_LastRespawn"						"Status Saat Ini"
 		"Citadel_HUD_DamageReport_Time600"							"10 menit"
 		"Citadel_HUD_DamageReport_Time300"							"5 menit"
@@ -928,7 +957,7 @@
 		"Citadel_HUD_DamageReport_DamagePercentAbility"				"{i:ability_damage_percent}%"
 
 		"Citadel_HUD_Impact_Kill"									"Kill"
-		"Citadel_HUD_Impact_Assist"									"Bantuan<br>Kill"		
+		"Citadel_HUD_Impact_Assist"									"Assist<br>Kill"
 
 		"Citadel_PartyChat_Title"									"Obrolan Grup"
 		"Citadel_PartyChat_VoiceAndText"							"Obrolan Suara dan Teks"
@@ -937,7 +966,7 @@
 		"Citadel_ChatType_Disabled"									"Dinonaktifkan"
 		"Citadel_ChatType_AllTeam"									"Semua Tim"
 		"Citadel_ChatType_PartyOnly"								"Hanya Grup"
-		
+
 		"Citadel_HUD_DamageRows_DamageName"							"{s:damage_name}"
 		"Citadel_HUD_DamageRows_DamageValue"						"{i:damage_done}"
 		"Citadel_HUD_DamageRows_Hits:p{hit_count}"					"#({i:hit_count} hit)"
@@ -987,6 +1016,9 @@
 		"Citadel_PlayerContextMenu_AudioVolume"						"Volume Audio"
 		"Citadel_PlayerContextMenu_EmptyMenu"						"--"
 
+		"Citadel_PostGame_CopyMatchID"								"Salin ID Pertandingan"
+		"Citadel_PostGame_CopyMatchIDSuccess"						"Berhasil"
+
 		"Citadel_PlayerCard_FavoriteHero"							"Hero Favorit"
 
 		"Citadel_Party_Context_Invite"								"Undang Teman"
@@ -999,6 +1031,9 @@
 		"Citadel_Party_Leave"										"Tinggalkan Grup"
 		"Citadel_Party_Report"										"Laporan"
 		"Citadel_Party_Reported"									"Dilaporkan"
+
+		"Citadel_Party_Commend"										"Memuji"
+		"Citadel_Party_Commended"									"Dipuji"
 
 		"Citadel_PlayerList_Teammates"								"Rekan Tim"
 		"Citadel_PlayerList_Enemy"									"Tim Musuh"
@@ -1032,8 +1067,8 @@
 		"Citadel_StartMatchmaking_AlreadyFindingMatch"				"Tidak dapat memasuki matchmaking karena kamu sudah mencoba untuk mencari game."
 		"Citadel_StartMatchmaking_PartyMemberInLobby"				"Tidak dapat memasuki matchmaking karena kamu sudah berada dalam game. Tinggalkan game tersebut terlebih dahulu."
 		"Citadel_StartMatchmaking_InvalidClientVersion"				"Tidak dapat memasuki matchmaking karena client sudah kedaluwarsa. Silakan perbarui dan restart game."
-		"Citadel_StartMatchmaking_MatchmakingDisabled"				"Matchmaking sedang dinonaktifkan untuk mode ini. Coba lagi dalam beberapa menit."
-		"Citadel_StartMatchmaking_MatchmakingTooBusy"				"Matchmaking sedang penuh. Coba lagi dalam beberapa menit."
+		"Citadel_StartMatchmaking_MatchmakingDisabled"				"Matchmaking sedang dinonaktifkan untuk mode ini. Silakan coba lagi dalam beberapa menit."
+		"Citadel_StartMatchmaking_MatchmakingTooBusy"				"Matchmaking sedang penuh. Silakan coba lagi dalam beberapa menit."
 		"Citadel_StartMatchmaking_InternalError"					"Eror internal telah terjadi saat mencoba memasuki matchmaking."
 		"Citadel_StartMatchmaking_FailedToGetResponse"				"Saat ini, tidak dapat terhubung ke Jaringan Deadlock dan masuk ke matchmaking. Silakan coba lagi dalam beberapa menit."
 		"Citadel_StartMatchmaking_InvalidParty"						"Grup telah dibubarkan dan tidak dapat memasuki matchmaking"
@@ -1054,7 +1089,7 @@
 		"Citadel_StartMatchmaking_ModeBanned"						"Kamu di-ban sementara dari bermain di mode ini sampai {t:s:time_stamp} pukul {t:t:time_stamp}"
 		"Citadel_StartMatchmaking_PermanentBan"						"Kamu di-ban secara permanen dari memainkan mode ini"
 		"Citadel_StartMatchmaking_RankedMMNotOpen"					"Matchmaking mode Rank sedang nonaktif untuk jadwal yang dipilih"
-		"Citadel_StartMatchmaking_RankedNotUnlocked"				"Kamu belum membukan matchmaking mode Rank"
+		"Citadel_StartMatchmaking_RankedNotUnlocked"				"Kamu belum membuka matchmaking mode Rank"
 		"Citadel_StartMatchmaking_NoRankedWhileInLowPri"			"Matchmaking mode Rank tidak diperbolehkan saat berada dalam antrean prioritas rendah"
 		"Citadel_StartMatchmaking_NoRankedWhileCommsBanned"			"Matchmaking mode Rank tidak diperbolehkan saat komunikasimu di-ban"
 		"Citadel_StartMatchmaking_NoRankedWhileReportBanned"		"Matchmaking mode Rank tidak diperbolehkan saat kamu dilaporkan untuk di-ban"
@@ -1067,6 +1102,9 @@
 		"Citadel_StartMatchmaking_InvalidHeroSelection"				"Kamu belum memilih hero yang valid untuk memasuki matchmaking."
 		"Citadel_StartMatchmaking_HeroRosterTooPopular"				"Semua hero di daftarmu sudah digunakan"
 		"Citadel_StartMatchmaking_NoRegionPings"					"Tidak dapat berkomunikasi dengan Steam Datagram Relay. Jika kamu terhubung ke Internet, ini biasanya disebabkan oleh masalah dengan firewall atau MTU, atau koneksi Internet."
+		"Citadel_StartMatchmaking_HeroLabsMMNotOpen"				"Matchmaking Lab Hero sedang tidak tersedia."
+		"Citadel_StartMatchmaking_HeroLabsNotUnlocked"				"Kamu belum membuka matchmaking Lab Hero."
+		"Citadel_StartMatchmaking_NoHeroLabsWhileInLowPri"			"Matchmaking Lab Hero tidak diperbolehkan saat berada dalam antrean prioritas rendah."
 		"Citadel_StopMatchMaking_FailedToGetResponse"				"Matchmaking dihentikan. Gagal mendapatkan respons dari Game Koordinator."
 		"Citadel_StopMatchMaking_GeneralError"						"Matchmaking gagal. Silakan coba lagi"
 		"Citadel_LeaveLobby_FailedToGetResponse"					"Gagal menghentikan matchmaking. Silakan coba lagi."
@@ -1083,7 +1121,7 @@
 		"Citadel_IdleMatchmaking_IdleTimerExpired_Body"				"Kamu sudah idle terlalu lama saat berada di antrean Matchmaking. Gerakan mouse untuk memastikan kamu masih di sini!"
 		"Citadel_IdleMatchmaking_Dialog_Title"						"Idle saat Matchmaking"
 		"Citadel_IdleMatchmaking_Dialog_Body"						"Kelihatannya kamu AFK saat sedang berada di matchmaking. Gerakan mouse atau kamu akan dikeluarkan dari matchmaking."
-		
+
 		"Citadel_Dashboard_EnterMatchmaking"						"Masuk\nMatchmaking"
 		"Citadel_Dashboard_Roster_HeroTooPopular"					"Semua hero terpilih sudah mengantre"
 		"Citadel_Dashboard_Roster_MissingHeroes"					"<span class=\"rosterErrorText\">Harus memilih 3 hero untuk mengikuti matchmaking</span>"
@@ -1100,19 +1138,27 @@
 		"Citadel_GC_updating"										"Tidak dapat melakukan matchmaking. Jaringan Deadlock sedang diperbarui."
 		"Citadel_GC_noconnection"									"Tidak dapat melakukan matchmaking. Tidak ada koneksi ke Jaringan Deadlock."
 		"Citadel_Dashboard_Status_ConnectingToServer"				"Menghubungkan ke Server Game"
-		"Citadel_Dashboard_Status_ConnectingToServer_Detail"		"Game-mu akan segera dimulai"
+		"Citadel_Dashboard_Status_ConnectingToServer_Detail"		"Pertandingan segera dimulai"
 		"Citadel_Dashboard_Status_GCOffline"						"Jaringan Deadlock Offline"
 		"Citadel_Dashboard_Status_GCOffline_Detail"					"Beberapa fitur mungkin tidak tersedia"
 		"Citadel_Dashboard_Status_OutOfDateClient"					"Pembaruan Game Tersedia"
 		"Citadel_Dashboard_Status_OutOfDateClient_Detail"			"Unduh pembaruan terkini di Steam"
-		"Citadel_Dashboard_RejoinTooltip"							"Bergabung kembali ke game-mu yang sedang berlangsung"
-		"Citadel_Dashboard_AbandonTooltip"							"Meninggalkanmu dari pertandingan yang sedang kamu mainkan"
+		"Citadel_Dashboard_RejoinTooltip"							"Bergabung kembali ke pertandingan yang sedang berlangsung"
+		"Citadel_Dashboard_AbandonTooltip"							"Mengeluarkanmu dari pertandingan yang sedang berjalan"
 		"Citadel_Dashboard_PatchNotesTooltip"						"Lihat catatan patch terbaru"
 		"Citadel_Dashboard_SettingsTooltip"							"Sesuaikan pengaturan seperti tampilan dan audio"
 		"Citadel_Dashboard_ShowAnnounceTooltip"						"Tampilkan Pengumuman"
 		"Citadel_Dashboard_CloseAnnounceTooltip"					"Tutup Pengumuman"
 		"Citadel_Dashboard_ViewLibrary"								"Lihat Perpustakaan"
-
+		"Citadel_Dashboard_ReloadPageTooltip"						"Muat Ulang Halaman Saat Ini"
+		"Citadel_Dashboard_Status_Mode_Unranked"					"Pertandingan Standar"
+		"Citadel_Dashboard_Status_Mode_Ranked"						"Pertandingan Mode Rank"
+		"Citadel_Dashboard_Status_Mode_HeroLabs"					"Pertandingan Lab Hero"
+		"Citadel_Dashboard_Status_Mode_Private"						"Pertandingan Privat"
+		"Citadel_Dashboard_Status_Mode_Coop"						"Pertandingan Co-op Bot"
+		
+		"Citadel_Dashboard_ShowHeroLabHeroes"						"Tampilkan Hero Eksperimental"
+		
 		"Citadel_Watch_Title"										"Tonton Pertandingan"
 		"Citadel_Watch_Featured"									"Pertandingan yang Difiturkan"
 		"Citadel_Watch_Loading"										"Memuat..."
@@ -1124,7 +1170,7 @@
 		"Citadel_Watch_Page_MatchID"								"ID: {s:match_id}"
 		"Citadel_Watch_FriendsCheckbox"								"Hanya Teman"
 
-		"Citadel_ZiplineBoostDesc"									"Boost Zipline"
+		"Citadel_ZiplineBoostDesc"									"Percepat Zipline"
 		"Citadel_ZiplineBoost_Active"								"Aktif"
 		"Citadel_ZiplineBoost_Cooldown"								"Sedang Cooldown"
 
@@ -1200,7 +1246,7 @@
 		"Citadel_PartyAction_TooBusy"							"Saat ini, Jaringan Deadlock sedang sibuk untuk memproses tindakan ini. Silakan coba lagi dalam beberapa menit."
 		"Citadel_PartyAction_RateLimited"						"Kamu telah melakukan terlalu banyak tindakan dalam waktu singkat. Mohon tunggu sebentar dan coba lagi."
 		"Citadel_PartyAction_AlreadyDrafting"					"Grup sudah memulai matchmaking. Hentikan matchmaking saat ini sebelum memulai matchmaking lain."
-		
+
 		"Citadel_PartySetMode_ErrorTitle"						"Eror"
 		"Citadel_PartySetMode_FailedToGetResponse"				"Saat ini, tidak dapat terhubung ke Jaringan Deadlock. Silakan coba lagi dalam beberapa menit."
 		"Citadel_PartySetMode_InternalError"					"Terjadi eror internal yang tidak terduga. Silakan coba lagi dalam beberapa menit."
@@ -1218,7 +1264,9 @@
 		"Citadel_PartySetMode_PlayerPermaBanned"				"Salah satu anggota grupmu {g:citadel_persona:nl:account_id} di-ban secara permanen dari bermain di mode ini"
 		"Citadel_PartySetMode_CannotLeavePrivate"				"Lobi Privat sedang tidak diizinkan untuk mengubah mode saat ini"
 		"Citadel_PartySetMode_FiveStacksNotAllowed"				"Saat ini, grup-grup dengan 5 anggota tidak diizinkan untuk melakukan matchmaking. Silakan coba lagi dengan lebih banyak atau lebih sedikit pemain."
-
+		"Citadel_PartySetMode_HeroLabsMMNotOpen"				"Matchmaking Lab Hero sedang tidak tersedia."
+		"Citadel_PartySetMode_HeroLabsNotUnlocked"				"Anggota grupmu, {g:citadel_persona:nl:account_id}, belum memenuhi syarat untuk Matchmaking Lab Hero."
+		"Citadel_PartySetMode_NoHeroLabsWhileInLowPri"			"Anggota grupmu, {g:citadel_persona:nl:account_id}, ada di prioritas rendah sehingga tidak dapat mengantri di Matchmaking Lab Hero."
 		"Citadel_PartyInvite_ErrorTitle"						"Tidak Dapat Mengirimkan Undangan"
 		"Citadel_PartyInvite_FailedToGetResponse"				"Saat ini, tidak dapat terhubung ke Jaringan Deadlock dan mengundang pengguna yang dipilih. Silakan coba lagi dalam beberapa menit."
 		"Citadel_PartyInvite_InternalError"						"Eror internal telah terjadi saat mencoba untuk mengundang pemain ke grup"
@@ -1260,7 +1308,7 @@
 		"Citadel_SpectateUser_InternalError"					"Eror internal telah terjadi saat mencoba menonton pemain ini"
 		"Citadel_SpectateUser_Disabled"							"Menonton pertandingan dinonaktifkan sementara. Silakan coba lagi nanti."
 		"Citadel_SpectateUser_TooBusy"							"Saat ini, Jaringan Deadlock sedang sibuk untuk memproses permintaan untuk menonton. Silakan coba lagi dalam beberapa menit."
-		"Citadel_SpectateUser_RateLimited"						"Aku sudah meminta untuk menonton terlalu banyak pengguna baru-baru ini. Mohon tunggu sebentar dan coba lagi."
+		"Citadel_SpectateUser_RateLimited"						"Kamu sudah meminta untuk menonton terlalu banyak pengguna baru-baru ini. Mohon tunggu sebentar dan coba lagi."
 		"Citadel_SpectateUser_NotInGame"						"Pemain yang kamu ingin tonton sudah tidak lagi di dalam game."
 		"Citadel_SpectateUser_DisabledForGame"					"Game di mana pemain ini sedang bermain tidak mengizinkan pemain lain untuk menonton."
 		"Citadel_SpectateUser_ServerFull"						"Saat ini, server memiliki jumlah maksimum penonton yang diizinkan. Silakan coba lagi nanti."
@@ -1279,17 +1327,19 @@
 		"Citadel_Profile_Win_Short"								"M"
 		"Citadel_Profile_Loss_Short"							"K"
 		"Citadel_Profile_Statistics"							"Statistik"
+		"Citadel_Profile_RankHistory"							"Riwayat Ranking"
 		"Citadel_Profile_Stats_All"								"Semua Hero"
 		"Citadel_Profile_Stats_TitleSection"					"Statistik Keseluruhan"
 		"Citadel_Profile_Stats_GamesPlayed"						"Game Dimainkan"
-		"Citadel_Profile_Stats_GamesWon"						"Game Dimenangkan"		
+		"Citadel_Profile_Stats_GamesWon"						"Game Dimenangkan"
 		"Citadel_Profile_Stats_Kills"							"Kill"
 		"Citadel_Profile_Stats_Assists"							"Assist"
-		"Citadel_Profile_Stats_HeroDamage"						"Damage Hero"		
-		"Citadel_Profile_Stats_ObjDamage"						"Damage Minion"		
-		"Citadel_Profile_Stats_LastHits"						"Serangan Terakhir"		
-		"Citadel_Profile_Stats_Denies"							"Ditangkal"		
-		"Citadel_Profile_Stats_Healing"							"Heal"		
+		"Citadel_Profile_Stats_HeroDamage"						"Damage Hero"
+		"Citadel_Profile_Stats_ObjDamage"						"Damage Minion"
+		"Citadel_Profile_Stats_LastHits"						"Serangan Terakhir"
+		"Citadel_Profile_Stats_Denies"							"Ditangkal"
+		"Citadel_Profile_Stats_Healing"							"Penyembuhan"
+		"Citadel_Profile_Stats_Commends"						"Pujian"
 		"Citadel_Profile_Stats_Networth"						"Jiwa Dikumpulkan"
 		"Citadel_Profile_Stats_Value_Networth_Low"				"{i:game_networth}"
 		"Citadel_Profile_Stats_Value_Networth_High"				"{i:game_networth}k"
@@ -1312,6 +1362,7 @@
 		"Citadel_MatchDetails_Report"							"L"
 		"Citadel_MatchDetails_ReportTooltip"					"Klik Untuk Melaporkan Pemain"
 		"Citadel_MatchDetails_Reported"							"Pemain Dilaporkan!"
+		"Citadel_MatchDetails_CommendTooltip"					"Klik Untuk Memuji Pemain"
 		"Citadel_MatchDetails_Team1NetWorth"					"{i:team1_networth}k"
 		"Citadel_MatchDetails_Team2NetWorth"					"{i:team2_networth}k"
 		"Citadel_MatchDetails_Team1Name"						"{i:team2_networth}k"
@@ -1358,6 +1409,7 @@
 		"Citadel_ProfileCard_StatTitle_Wins"					"Menang"
 		"Citadel_ProfileCard_StatTitle_Kills"					"Kill"
 		"Citadel_ProfileCard_StatTitle_GamesPlayed"				"Pertandingan"
+		"Citadel_ProfileCard_StatTitle_Commends"				"Pujian"
 
 		"Citadel_ProfileCard_StatValue_Int"						"{d:stat_value}"
 		"Citadel_ProfileCard_StatValue_Date"					"{t:s:stat_value}"
@@ -1383,7 +1435,7 @@
 		"Citadel_Replay_DownloadingPct"							"Mengunduh - {d:replay_progress}%"
 		"Citadel_Replay_DecompressPct"							"Dekompresi - {d:replay_progress}%"
 		"Citadel_Replay_Delete"									"Hapus Tayangan Ulang"
-		
+
 		"Citadel_Graph_Team1"							"Amber"
 		"Citadel_Graph_Team2"							"Safir"
 		"Citadel_Graph_WeaponDamage"					"Damage Senjata"
@@ -1431,7 +1483,7 @@
 		"Citadel_Post_Game_Healing"						"Penyembuhan"
 		"Citadel_Post_Game_HighestNetworth"				"Perolehan Tertingi"
 		"Citadel_Post_Game_Networth"					"Perolehan"
-		"Citadel_Post_Game_MostAssits"					"Bantuan Terbanyak"
+		"Citadel_Post_Game_MostAssits"					"Assist Terbanyak"
 		"Citadel_Post_Game_Assits"						"Assist"
 		"Citadel_Post_Game_MostHeroDamage"				"Damage Hero Terbanyak"
 		"Citadel_Post_Game_HeroDamage"					"Damage Hero"
@@ -1458,8 +1510,8 @@
 		"CitadelHeroStats_SpiritPower_Impact"				"Benturan Kekuatan Spirit"
 		"CitadelHeroStats_SpiritPower_Desc"					"Kekuatan Spirit meningkatkan efiktifitas Skill dan Item."
 		"CitadelHeroStats_Weapon_Falloff"					"Rentang Penurunan"
-	
-		// Hero Builds UI	
+
+		// Hero Builds UI
 		"Citadel_HeroBuilds_Title"						"Build Hero"
 		"Citadel_HeroBuilds_SelectedBuild_Title"		"Build Saat Ini:"
 		"Citadel_HeroBuilds_Browse_button"				"Lihat atau Ubah Build"
@@ -1507,9 +1559,9 @@
 
 		"Citadel_HeroBuilds_CurrenclyActive"			"Sedang Aktif"
 		"Citadel_HeroBuilds_AbilityBuildTitle"			"Urutan Poin Skill"
-		"Citadel_HeroBuilds_AbilityBuildReset"			"Edit"	
-		"Citadel_HeroBuilds_AbilityBuildInstructions"	"Untuk mengatur urutan Upgrade Skill yang direkomendasikan, tekan tombol edit, lalu tingkatkan setiap skill dalam urutan yang ingin kamu tampilkan kepada pengguna build-mu."	
-		
+		"Citadel_HeroBuilds_AbilityBuildReset"			"Edit"
+		"Citadel_HeroBuilds_AbilityBuildInstructions"	"Untuk mengatur urutan Upgrade Skill yang direkomendasikan, tekan tombol edit, lalu tingkatkan setiap skill dalam urutan yang ingin kamu tampilkan kepada pengguna build-mu."
+
 		"Citadel_HeroBuilds_PublishBuildTitle"			"Publikasikan Build Hero"
 		"Citadel_HeroBuilds_PublishBuildDesc"			"Build ini akan dipublikasian ke publik untuk dibagikan ke pemain lain."
 		"Citadel_HeroBuilds_BuildNameTitle"				"Nama Build"
@@ -1530,10 +1582,10 @@
 		"Citadel_HeroBuilds_ErrorTitle"					"Eror"
 		"Citadel_HeroBuilds_ValidateErrorTitle"			"Eror Menyimpan Build"
 		"Citadel_HeroBuilds_ValidateErrorBody"			"Pastikan build memiliki deskripsi dan nama, dan setidaknya satu item yang direkomendasikan."
-		"Citadel_HeroBuilds_FavoriteCount"				"{i:favorite_count}"		
-		"Citadel_HeroBuilds_DailyFavorite"				"Sedang Tren"		
-		"Citadel_HeroBuilds_WeeklyFavorite"				"Populer"		
-		"Citadel_HeroBuilds_AllTimeFavorite"			"Sepanjang Waktu"		
+		"Citadel_HeroBuilds_FavoriteCount"				"{i:favorite_count}"
+		"Citadel_HeroBuilds_DailyFavorite"				"Sedang Tren"
+		"Citadel_HeroBuilds_WeeklyFavorite"				"Populer"
+		"Citadel_HeroBuilds_AllTimeFavorite"			"Sepanjang Waktu"
 		"Citadel_HeroBuilds_New"						"Baru"
 		"Citadel_HeroBuilds_Old"						"Lama"
 		"Citadel_HeroBuilds_NameLabel"					"Nama Build"
@@ -1577,7 +1629,7 @@
 		"EShopFilterMelee"						"Jarak Dekat"
 		"EShopFilterHealing"					"Penyembuhan"
 		"EShopFilterMovement"					"Gerakan"
-		"EShopFilterDisruption"					"Disruption"
+		"EShopFilterDisruption"					"Gangguan"
 		"EShopFilterNone"						"Tidak Ada"
 
 		"CitadelCategoryWeapon"					"Senjata"
@@ -1592,7 +1644,7 @@
 		"CitadelShop_SearchExampleLine1"		"Cari Contoh:"
 		"CitadelShop_SearchExampleLine2"		"Nama: <span class=\"highlight\">Phantom Strike</span>"
 		"CitadelShop_SearchExampleLine3"		"Properti: <b>Pertahanan Peluru</b>"
-		"CitadelShop_SearchExampleAlt"			"Coba cari berdasarkan <span class=\"highlight\">Nama Item</span> atau atribut seperti <span class=\"highlight_weapon\">Ammo</span>, <span class=\"highlight_vitality\">Lifesteal</span>, atau <span class=\"highlight_spirit\">Kekuatan Spirit</span>."
+		"CitadelShop_SearchExampleAlt"			"Coba cari berdasarkan <span class=\"highlight\">Nama Item</span> atau atribut seperti <span class=\"highlight_weapon\">Amunisi</span>, <span class=\"highlight_vitality\">Curi HP</span>, atau <span class=\"highlight_spirit\">Kekuatan Spirit</span>."
 
 		"Citadel_Dead_ShopReminder"				"Belanja & Upgrade"
 		"Citadel_Dead_ReplayDeath"				"Putar Ulang Momen Death"
@@ -1602,7 +1654,7 @@
 		// Item and Upgrade Modifiers
 
 
-			
+
 		"citadel_ability_sprint_roll"			"Sprint"
 		"modifier_citadel_sprint_start"			"Menyarungkan Senjata..."
 		"modifier_citadel_sprint_end"			"Mengeluarkan Senjata..."
@@ -1620,7 +1672,7 @@
 
 		"citadel_ability_drone_boss_laser_beam"		"Laser Bos"
 
-		
+
 		"citadel_ability_dash"						"Dash"
 		"citadel_ability_jump"						"Lompat"
 		"citadel_ability_teleport"					"Teleportasi"
@@ -1633,8 +1685,10 @@
 		"modifier_neutral_gold_pickup_aura/aura_target/timer"	"Ambil Roh Liar"
 		"modifier_rejuv_pickup_aura/aura_target/timer"			"Ambil Penyembuh Tim"
 		"modifier_early_gold_pickup_aura/aura_target/timer"		"Menangkap Roh Tim"
-		"modifier_citadel_holding_golden_idol"  				"Terlihat oleh musuh! Bawa Guci ke Altar!"							
+		"modifier_citadel_holding_golden_idol"  				"Bawa Guci ke Altar"
+		"modifier_citadel_holding_golden_idol_revealed"			"Terlihat oleh musuh! Bawa Guci ke Altar!"
 		"modifier_citadel_returning_golden_idol"  				"Menyimpan Guci"
+		"modifier_citadel_idol_pickup_disabled"					"Pengambilan Guci Jiwa Dinonaktifkan"
 		"modifier_knocked_off_zipline_slow"						"Terlempar dari zipline"
 		"modifier_citadel_respawn_credit" 						"Kredit Penyembuhan"
 
@@ -1650,7 +1704,7 @@
 		"CITADEL_ABILITY_INVALID_IN_COOLDOWN"			"Masih cooldown"
 		"CITADEL_ABILITY_INVALID_NOT_LEARNED"			"Belum dipelajari"
 		"CITADEL_ABILITY_INVALID_CANT_CAST_NO_CHARGES"	"Tidak cukup daya"
-		"CITADEL_ABILITY_INVALID_CANT_CAST_IN_CHARGE_DELAY"	"Tunda Pengisian"
+		"CITADEL_ABILITY_INVALID_CANT_CAST_IN_CHARGE_DELAY"	"Penundaan Pengisian Daya"
 		"CITADEL_ABILITY_INVALID_BUSY_WITH_ACTION"		"Kamu sedang sibuk"
 		"CITADEL_ABILITY_INVALID_MUTED"					"Efek Bungkam menonaktifkan skill dan item"
 		"CITADEL_ABILITY_INVALID_PREMATCH"				"Matchmaking belum dimulai"
@@ -1697,7 +1751,7 @@
 		"CITADEL_ABILITY_INVALID_NO_DAMAGE_TO_CLEAR"	"Tidak ada damage untuk dihapus"
 
 		"citadel_ability_interrupted"					"Diinterupsi oleh"
-		
+
 		"citadel_ability_quick_melee" "Jarak Dekat"
 		"citadel_hint_zoom"			"Tahan <span class=\"hintTextEmphasis\">{s:iv_attack2}</span> untuk memperbesar dengan senjatamu."
 		"citadel_hint_slide"		"Tahan <span class=\"hintTextEmphasis\">{s:duck}</span> saat berlari menuruni tanjakan untuk meluncur."
@@ -1709,19 +1763,19 @@
 		"citadel_hint_learn_initial_ability"	"Tahan <span class=\"hintTextEmphasis\">{s:show_scoreboard}</span> untuk memilih skill mana yang akan dibuka."
 		"citadel_hint_learn_ability"	"Tahan <span class=\"hintTextEmphasis\">key skill 1—4</span> untuk mempelajari skill."
 		"citadel_hint_upgrade_ability"	"Tahan <span class=\"hintTextEmphasis\">{s:show_scoreboard}</span> untuk upgrade skill."
-		"citadel_hint_hero_testing_shop"	"Tekan <span class=\"hintTextEmphasis\">[{s:citadel_open_hero_sheet}]</span> untuk membuka Toko dan mengtur opsi pengujian."
+		"citadel_hint_hero_testing_shop"	"Tekan <span class=\"hintTextEmphasis\">[{s:citadel_open_hero_sheet}]</span> untuk membuka Toko dan mengatur opsi pengujian."
 		"citadel_hint_teleport"				"Bos Tingkat 2 milikmu sedang diserang, tekan <span class=\"hintTextEmphasis\">{s:key_teleport}</span> untuk melakukan teleportasi ke sana dan membantunya!"
-		
+
 		// Ability Hints
 		"citadel_hint_flamedash_boost" "Press <span class=\"hintTextEmphasis\">[{s:key_innate_1}]</span> untuk meningkatkan. Stamina diperlukan."
 		"citadel_hint_activate_wall" "Tekan <span class=\"hintTextEmphasis\">{s:iv_attack}</span> untuk membuat dinding lebih awal."
-		"citadel_hint_guided_arrow_boost" "Hold <span class=\"hintTextEmphasis\">[{s:iv_attack}]</span> untuk meningkatkan kecepatan panah."
+		"citadel_hint_guided_arrow_boost" "Tahan <span class=\"hintTextEmphasis\">[{s:iv_attack}]</span> untuk meningkatkan kecepatan panah."
 		"citadel_hint_flying_strike_early_activate" "Tekan <span class=\"hintTextEmphasis\">{s:iv_attack}</span> untuk terbang ke targetmu lebih awal."
 
 		//-----------------------------------------------------------------------------
 		// Breakble Prop modifiers
 		//-----------------------------------------------------------------------------
-		"fire_rate_pickup/small_fire_rate"				"Tingkat tembakan Ditingkatkan"
+		"fire_rate_pickup/small_fire_rate"				"Tingkat tembakan ditingkatkan"
 		"health_regen_pickup/small_health_regen"		"Pemulihan kesehatan meningkat"
 		"move_speed_pickup/small_move_speed"			"Kecepatan Gerakan Ditingkatkan"
 		"double_jump_pickup/double_jump"				"Lompat Ganda dan Kecepatan Zipline"
@@ -1744,29 +1798,29 @@
 		"survival_powerup_pickup"							"Survival"
 		"casting_powerup_pickup"							"Penggunaan Skill"
 		"movement_powerup_pickup"							"Gerakan"
-		
+
 		"spirit_permanent_pickup_label"					"+2 Spirit"
-		"firerate_permanent_pickup_label"				"+1.5% Tingkat tembakan"
+		"firerate_permanent_pickup_label"				"+1.5% Tingkat Tembakan"
 		"ammo_permanent_pickup_label"					"+4% Amunisi"
 		"hp_permanent_pickup_label"						"+20 HP Maks."
 		"cd_permanent_pickup_label"						"+0.75% Pengurangan Cooldown"
 		"wp_permanent_pickup_label"						"+3% Damage Senjata"
 
 		"spirit_permanent_pickup_label_lv2"				"+3 Spirit"
-		"firerate_permanent_pickup_label_lv2"			"+2% Tingkat tembakan"
+		"firerate_permanent_pickup_label_lv2"			"+2% Tingkat Tembakan"
 		"ammo_permanent_pickup_label_lv2"				"+6% Amunisi"
 		"hp_permanent_pickup_label_lv2"					"+30 HP Maks."
 		"cd_permanent_pickup_label_lv2"					"+1% Pengurangan Cooldown"
 		"wp_permanent_pickup_label_lv2"					"+4% Damage Senjata"
 
 		"spirit_permanent_pickup_label_lv3"				"+5 Spirit"
-		"firerate_permanent_pickup_label_lv3"			"+2.5% Tingkat tembakan"
+		"firerate_permanent_pickup_label_lv3"			"+2.5% Tingkat Tembakan"
 		"ammo_permanent_pickup_label_lv3"				"+8% Amunisi"
 		"hp_permanent_pickup_label_lv3"					"+40 HP Maks."
 		"cd_permanent_pickup_label_lv3"					"+1.5% Pengurangan Cooldown"
 		"wp_permanent_pickup_label_lv3"					"+7% Damage Senjata"
 
-		"breakable_pickup_missing_loc"					"AMBIL NAMA LOC YANG TIDAK ADA"
+		"breakable_pickup_missing_loc"					"OBJEK TIDAK MEMILIKI NAMA YANG DILOKALKAN"
 
 		"Item_Rejuvenator"								"Pemulih"
 
@@ -1792,7 +1846,7 @@
 		"citadel_settings_per_unit_hotkeys"				"Kombinasi Tombol Khusus Hero"
 		"citadel_Hotkeys_Tooltip_PerUnitHotkeys"		"Aktifkan/Nonaktifkan Kombinasi Tombol Khusus Hero"
 		"citadel_settings_defaultkeybinds"				"Default"
-		"citadel_ClearHeroHotkeyBindings"				"Reset ke Default"		
+		"citadel_ClearHeroHotkeyBindings"				"Reset ke Default"
 		"citadel_settings_chatwheel"					"Roda Obrolan"
 		"chat_wheel_options"							"OPSI RODA OBROLAN"
 		"citadel_settings_volume"						"Volume"
@@ -1806,7 +1860,7 @@
 		"citadel_settings_musicvolume"					"Volume Musik Menu"
 		"citadel_settings_musicvolume_desc"				"Sesuaikan volume musik di menu utama"
 		"citadel_settings_voicevolume"					"Volume Obrolan Suara (Pemain Lain)"
-		"citadel_settings_voicevolume_desc"				"Sesuaikan volume mikrofron pemain lain"	
+		"citadel_settings_voicevolume_desc"				"Sesuaikan volume mikrofron pemain lain"
 		"citadel_settings_gamevoicevolume"				"Volume Input Suara (milikmu)"
 		"citadel_settings_gamevoicevolume_desc"			"Kontrol volume input mikrofon"
 		"citadel_settings_playsoundinbackground" 		"Mainkan Suara di Latar"
@@ -1819,7 +1873,7 @@
 		"citadel_hotkeys_tooltip_chatvoiceparty"		"Gunakan mikrofonmu untuk berkomunikasi dengan semua anggota grup. Jika diatur untuk menggunakan mikrofon terbuka, ini juga akan bekerja di dasbor."
 		"citadel_hotkeys_tooltip_chatvoiceteam"			"Gunakan mikrofon untuk berkomunikasi dengan semua anggota tim."
 		"citadel_settings_monitor_mic_desc"				"Nyalakan untuk mendengarkan mikrofon saat menyesuaikan pengaturan suara."
-		"citadel_settings_streamlined_mic_desc"			"Nyalakan perangkat perekam saat game dimulai (bukan saat mikrofon digunakan)."
+		"citadel_settings_streamlined_mic_desc"			"Buka perekam saat game dimulai (bukan saat mikrofon digunakan)."
 		"citadel_settings_defaultaudio"					"Default"
 		"citadel_settings_sounddevice"					"Perangkat Suara:"
 		"citadel_settings_voice_sounddevice"			"Perangkat Input Suara:"
@@ -1841,7 +1895,7 @@
 		"citadel_settings_aspectratio219"				"21x9"
 		"citadel_settings_fullscreen_focus_behavior"	"Perilaku Fokus Layar Penuh"
 		"citadel_settings_light_sensitivity_mode"		"Kurangi Efek Flash"
-		"citadel_settings_light_sensitivity_mode_desc"	"Pengaturan ini akan mengurangi efek flash dan strobing, tapi tadiak akan menghilangkan sepenuhnya. Fungsi ini untuk membuat gameplay lebih nyaman, tapi beberapa efek masih ada."
+		"citadel_settings_light_sensitivity_mode_desc"	"Pengaturan ini akan mengurangi efek flash dan strobing, tapi tidak akan menghilangkan sepenuhnya. Fungsi ini untuk membuat gameplay lebih nyaman, tapi beberapa efek masih ada."
 		"citadel_settings_apply"						"Terapkan Pengaturan"
 		"citadel_settings_videodefaults"				"Pulihkan ke Default"
 		"citadel_settings_enable_console"				"Aktifkan Konsol"
@@ -1874,8 +1928,8 @@
 		"citadel_settings_alt_cast_key_tooltip"			"Berganti Skill dengan memilihnya dan menekan tombol Berganti Skill atau dengan menekan tombol Beralih Skill lalu menekan tombol skill"
 		"citadel_settings_alt_cast_press_and_hold"		"Tekan dan Tahan"
 		"citadel_settings_alt_cast_press_and_hold_tooltip"		"Tahan tombol skill untuk waktu singkat untuk menggunakan skill secara bergantian"
-		"citadel_settings_alt_cast_double_tap_window"		"Penggeser Berganti Skill"
-		"citadel_settings_alt_cast_hold_time"			"Dipelrukan Waktu Menahan Key Berganti Skill"
+		"citadel_settings_alt_cast_double_tap_window"		"Ketuk Jendela dua kali untuk Berganti Skill"
+		"citadel_settings_alt_cast_hold_time"			"Waktu Diperlukan untuk Menahan Pergantian Skill"
 		"citadel_settings_cancel_ability_mode"				"Ubah Mode Pembatalan:"
 		"citadel_settings_cancel_ability_mode_cancel_key"	"Tombol Batal"
 		"citadel_settings_cancel_ability_mode_ability_key"	"Tombol Skill"
@@ -1894,7 +1948,7 @@
 		"citadel_settings_fullscreenbrightness"			"Kecerahan Layar Penuh"
 		"citadel_settings_borderless"					"Jendela Tanpa Pinggiran"
 		"citadel_settings_chat_ptt"						"Tekan untuk Bicara"
-		"citadel_settings_chat_openmic"					"Mikrofon Terbuka"
+		"citadel_settings_chat_openmic"					"Buka Mikrofon"
 		"citadel_settings_monitor_mic"					"Dengarkan Mikrofon Saya"
 		"citadel_settings_streamlined_mic"				"Efisienkan Mikrofon"
 		"citadel_settings_chat_invert_ping"				"Balikkan Ping"
@@ -1911,7 +1965,7 @@
 		"citadel_settings_spectatorkeybinds"			"Tombol Pintasan Penonton"
 		"citadel_settings_replaykeybinds"				"Tombol Pintasan Tayangan Ulang"
 		"citadel_settings_ping_wheel_contextual"		"Gunakan Slot Roda Berkonteks"
-		"citadel_settings_ping_wheel_contextual_desc"	"Slot Berkonteks berubah selama gameplay sesuai dengan konteks saat ini"
+		"citadel_settings_ping_wheel_contextual_desc"	"Slot Berkonteks berubah selama gameplay sesuai dengan konteks terkini"
 		"citadel_settings_ui_language"					"Bahasa:"
 		"citadel_settings_language_change_title"		"Restart Diperlukan"
 		"citadel_settings_language_change_body"			"Restart client Deadlock untuk menerapkan perubahan bahasa."
@@ -1938,12 +1992,12 @@
 		"citadel_settings_crosshair_pip_width"				"Lebar"
 		"citadel_settings_crosshair_pip_height"				"Tinggi"
 		"citadel_settings_crosshair_pip_border"				"Tampilkan Pinggiran"
-		
+
 		"citadel_settings_crosshair_color"					"Warna"
 		"citadel_settings_crosshair_color_r"				"Merah"
 		"citadel_settings_crosshair_color_g"				"Hijau"
 		"citadel_settings_crosshair_color_b"				"Biru"
-		
+
 		"citadel_settings_crosshair_visibility"				"Titik"
 		"citadel_settings_crosshair_pip_opacity"			"Opasitas"
 		"citadel_settings_crosshair_dot_opacity"			"Opasitas"
@@ -2019,7 +2073,7 @@
 		"citadel_settings_shadow_quality_high"			"Tinggi"
 		"citadel_settings_shadow_quality_ultra"			"Ultra"
 		"citadel_settings_upscaling"					"Teknologi Tinggi"
-		"citadel_settings_upscaling_desc"				"Menghasilkan frame beresolusi tinggi dari resolusi rendah, frame internal yang cepar untuk dirender.<br><br>FSR2 menggunakan anti-aliasing (TAA).<br><br>Penggunaan sumber: sedang/konsisten"
+		"citadel_settings_upscaling_desc"				"Menghasilkan frame beresolusi tinggi dari resolusi rendah, frame internal yang cepat untuk dirender.<br><br>FSR2 menggunakan anti-aliasing (TAA).<br><br>Penggunaan sumber: sedang/konsisten"
 		"citadel_settings_upscaling_none"				"Tidak Ada"
 		"citadel_settings_upscaling_fsr"				"FSR"
 		"citadel_settings_upscaling_fsr2"				"FSR2 (TAA)"
@@ -2031,7 +2085,7 @@
 		"citadel_settings_particlequality"				"Kualitas Efek"
 		"citadel_settings_particlequality_desc"			"Menghapus bagian efek yang tidak diperlukan untuk kinerja yang lebih baik. Saat ini tidak digunakan."
 		"citadel_settings_particlequality_low"			"Rendah"
-		"citadel_settings_particlequality_med"			"Media"
+		"citadel_settings_particlequality_med"			"Sedang"
 		"citadel_settings_particlequality_high"			"Tinggi"
 		"citadel_settings_fsr_rcas_sharpness"			"Ketajaman FSR"
 		"citadel_settings_fsr_rcas_sharpness_desc"		"Ketajaman FSR"
@@ -2097,9 +2151,12 @@
 		"citadel_keybind_backwards"						"Mundur"
 		"citadel_keybind_left"							"Kiri (mengintai)"
 		"citadel_keybind_right"							"Kanan (mengintai)"
+		"citadel_keybind_up"							"Terbang"
+		"citadel_keybind_down"							"Mendarat"
 		"citadel_keybind_mantle"						"Lompat/Panjat"
 		"citadel_keybind_attack"						"Tembak"
 		"citadel_keybind_ads"							"Zoom"
+		"citadel_keybind_reset_camera"					"Reset Kamera"
 		"citadel_keybind_ping"							"Ping"
 		"citadel_keybind_quick_response"				"Respon Cepat"
 		"citadel_keybind_extra_info"					"Info Ekstra"
@@ -2124,8 +2181,8 @@
 		"citadel_keybind_spec_chase"					"Mode Kamera Mengikuti"
 		"citadel_keybind_cancel_ability"				"Batalkan Skill"
 
-		"citadel_keybind_replay_next_target"				"Orang Berikutnya"
-		"citadel_keybind_replay_prev_target"				"Orang Sebelumnya"
+		"citadel_keybind_replay_next_target"				"Tayangan Ulang Pemain Berikutnya"
+		"citadel_keybind_replay_prev_target"				"Tayangan Ulang Pemain Sebelumnya"
 		"citadel_keybind_replay_change_Team"				"Ubah Tim yang Ditonton"
 		"citadel_keybind_toggle_replay_camera"				"Ubah mode Kamera Putar Ulang"
 		"citadel_keybind_replay_fly_up"						"Naik"
@@ -2142,7 +2199,7 @@
 		"citadel_keybind_reload"						"Isi Ulang"
 		"citadel_keybind_pause"							"Jeda"
 		"citadel_keybind_zipline"						"Zipline"
-		"citadel_keybind_toggle_mute"					"Nyala/Mati Bisukan"
+		"citadel_keybind_toggle_mute"					"Audio Nyala/Mati"
 		"citadel_keybind_crouch"						"Jongkok/Meluncur"
 		"citadel_keybind_push_to_talk"					"Obrolan Suara (TIM)"
 		"citadel_keybind_push_to_talk_party"			"Obrolan Suara (GRUP)"
@@ -2172,7 +2229,7 @@
 		"PushToTalk"									"Tekan untuk bicara"
 		"OpenHeroSheet"									"Buka Toko"
 		"Citadel_DuplicateKeybind"						"Duplikat Tombol Pintasan"
-		"Citadel_DuplicateKeybindDescKey"				"Key"
+		"Citadel_DuplicateKeybindDescKey"				"Tombol"
 		"Citadel_DuplicateKeybindDescBoundMultiple"		" terikat pada beberapa perintah: "
 		"Citadel_UnableToBindKey"						"Tidak dapat Mengikat Tombol"
 		"Citadel_ModifierKeybindOnly"					"Hanya Tombol Pengubah yang dapat diikatkan ke tombol kombinasi ini."
@@ -2322,13 +2379,12 @@
 		"hud_spectate_minimap_view"			"Map Mini"
 
 		"kill_hype_KillStreak:p{kills}"	"{i:kills} kill beruntun"
-		"kill_hype_FirstBlood"	"tetesan darah pertama"
+		"kill_hype_FirstBlood"	"pembunuhan pertama"
 
 		"team_msg_Idol_Desc"	"Guci Jiwa"
-		
-		//"team_msg_Winner_SubText"	"The Patrons favor you"
-		"Citadel_GameOver_Victory"	"Menang"
-		"Citadel_GameOver_Defeat"	"Kalah"
+
+		"Citadel_GameOver_Victory:g"	"Menang"
+		"Citadel_GameOver_Defeat:g"		"Kalah"
 
 
 		"Citadel_LaneColorPurple"						"Ungu"
@@ -2343,8 +2399,8 @@
 		"Citadel_TeamMsg_TitanKilledTitle"				"Patron milikmu"
 
 		"Citadel_FlexSlot_Title"						"Slot Fleksible Terbuka"
-		"Citadel_FlexSlotUnlockedAllTier1"				"Kamu telah membuka slot fleksibel karena membunuh semua <span class=\"FlexSlotObjectiveName\">Pelindung Musuh</span>"
-		"Citadel_FlexSlotUnlockedGenerator"				"Kamu telah membuka slot fleksibel karena menghancurkan <span class=\"FlexSlotObjectiveName\">Kuil</span> pertama"
+		"Citadel_FlexSlotUnlockedAllTier1"				"Kamu telah membuka slot fleksibel karena membunuh tiga <span class=\"FlexSlotObjectiveName\">Pelindung Musuh</span>"
+		"Citadel_FlexSlotUnlockedGenerator"				"Kamu telah membuka slot fleksibel karena membunuh dua <span class=\"FlexSlotObjectiveName\">Kuil Musuh</span>"
 		"Citadel_FlexSlotUnlockedAllTier2"				"Kamu telah membuka slot fleksibel karena membunuh semua <span class=\"FlexSlotObjectiveName\">Penjaga Musuh</span>"
 		"Citadel_FlexSlotUnlockedKill2Tier2"			"Kamu telah membuka slot fleksibel karena membunuh dua <span class=\"FlexSlotObjectiveName\">Penjaga Musuh</span>"
 
@@ -2363,7 +2419,7 @@
 
 
 		"menu_play"									"Main"
-		"menu_play_normal"							"Mainkan Deadlock"
+		"menu_play_normal"							"Deadlock"
 		"menu_play_normal_count"					"{s:mm_unranked_count} dalam Antrean"
 		"menu_play_allmodes_count"					"{s:queued_users} dalam Antrean"
 		"menu_ready_up"								"Bersiap"
@@ -2386,6 +2442,7 @@
 		"menu_getstarted"							"Permulaan"
 		"menu_bot_practice"							"Bot Privat"
 		"menu_bot_custom"							"Pertandingan Kustom"
+		"menu_bot_hero_labs"						"Lab Hero"
 		"menu_learn"								"Pelajari Cara Main"
 		"menu_resources"							"Sumber Daya"
 		"menu_training"								"Latihan"
@@ -2401,7 +2458,11 @@
 		"Citadel_Confirm_Discord_InMatch_Body"		"Klaim tautan Discord nanti ketika kamu tidak berada di grup atau dalam matchmaking"
 		"Citadel_Dashboard_Recommended"				"Direkomendasikan"
 
-		"Citadel_Commend_Toast"						"{s:commender} ({s:commender_hero}) memujimu!"
+		"Citadel_Commend_Toast_NoHero_Generic"		"{s:commender} memujimu"
+		"Citadel_Commend_Toast_Generic"				"{s:commender} ({s:commender_hero}) memujimu"
+		"Citadel_Commend_Toast_Friendly"			"{s:commender} ({s:commender_hero}) memujimu karena Ramah dan Seru untuk mabar."
+		"Citadel_Commend_Toast_Teamwork"			"{s:commender} ({s:commender_hero}) memujimu karena menjadi Anggota Tim Keren."
+		"Citadel_Commend_Toast_Skilled"				"{s:commender} ({s:commender_hero}) memujimu karena menjadi Gamer Andal."
 
 		"menu_exit_db_page"							"Kembali"
 		"menu_settings"								"Pengaturan"
@@ -2420,7 +2481,7 @@
 		"menu_bots_medium"							"Sedang"
 		"citadel_bot_name"							"Bot"
 		"menu_watch_live_games"						"{d:live_matches} Sedang Live"
-		"menu_botmatchmaking"						"Main Melawan Bot"
+		"menu_botmatchmaking"						"Melawan Bot"
 		"menu_botmatchmaking_count"					"{s:mm_coopbot_count} Dalam Antrean"
 		"menu_changehero"							"Ubah Hero"
 
@@ -2429,6 +2490,8 @@
 		"menu_play_lane_training_desc"				"Pelajari tahap awal game bersama hero yang memandumu."
 		"menu_play_bots_easy_desc"					"Mainkan pertandingan privat melawan bot"
 		"menu_play_custom_game_desc"				"Buat atau bergabung dengan pertandingan kustom bersama hingga 12 pemain"
+		"menu_play_hero_labs_desc"					"Bantu menguji Hero baru eksperimental"
+		"menu_play_hero_labs_locked_desc"			"Bantu menguji Hero baru eksperimental. Terbuka setelah memainkan 50 pertandingan."
 		
 		"menu_play_get_started_time_est"			"4 Menit"
 		"menu_play_sandbox_time_est"				"5 Menit"
@@ -2436,7 +2499,7 @@
 		"menu_play_lane_training"					"Pelatihan Jalur"
 		"menu_play_unavailable_in_queue"			"Tidak tersedia saat berada di Antrean"
 		"menu_play_unavailable_in_party"			"Tidak tersedia saat sedang Menangkis"
-		"menu_play_get_started_desc"				"Rincian tentang Tujuan dan Kontrol game."
+		"menu_play_get_started_desc"				"Rincian tentang Misi dan Kontrol game."
 		"menu_play_botmatchmaking_desc"				"Mainkan pertandingan melawan Bot bersama pemain lain"
 		"menu_play_browse_shop_desc"				"Telusuri semua item di Toko dan bersiaplah untuk pertandingan berikutnya!"
 		//"menu_play_learn_to_play_desc"			"Watch the tutorial then follow it up with some hero sandbox and lane training."
@@ -2445,19 +2508,23 @@
 		"menu_learn_incomplete"						"Belum Dimulai"
 		"menu_learn_completed"						"Selesai"
 
+		"menu_hero_labs_unavailable"				"Terkunci"
+		"menu_hero_labs_schedule_title"				"Waktu Tersedia:"
+		"menu_hero_labs_schedule_times"				"{t:t:start_time} — {t:t:end_time}"
 		"menu_play_ranked"							"Main di Mode Rank"
 		"menu_play_ranked_desc"						"Mainkan pertandingan yang lebih kompetitif melawan pemain dengan kemampuan yang sama."
 		"menu_ranked_title"							"Mode Rank:"
-		"menu_ranked_schedule_title"				"Waktu yang Tersedia:"
+		"menu_ranked_schedule_title"				"Waktu Tersedia:"
 		"menu_ranked_unavailable"					"Terkunci"
-		"menu_ranked_unavailable_desc"				"Kamu harus bermain 50 Game Standar agar dapat mengantre di mode Rank"
-		"menu_ranked_schedule_weekdays"				"Senin—Kamis:"
-		"menu_ranked_schedule_weekends"				"Jumat—Minggu:"
+		"menu_ranked_unavailable_desc"				"Kamu harus memainkan 50 Game Standar agar dapat mengantre di mode Rank"
+		"menu_ranked_schedule_weekdays_monfri"		"Senin—Jumat:"
+		"menu_ranked_schedule_weekends_satsun"		"Sabtu—Minggu:"
 		"menu_ranked_schedule_alldays"				"Jadwal Harian:"
 		"menu_ranked_schedule_timeplaceholder"		"{t:t:start_time} - {t:t:end_time}"
 		"menu_ranked_select_schedule"				"Pilih Jadwal"
 		"menu_ranked_view_schedules"				"Lihat Semua Jadwal"
 		"menu_ranked_set_schedule"					"Pilih Jadwal"
+		"menu_ranked_week_dates"					"{t:s:start_day} — {t:s:end_day}"
 		"Citadel_SetSchedule_Failed"				"Eror Pengaturan Jadwal"
 		"Citadel_SetSchedule_FailedToSetSchedule"	"Gagal mengatur jadwal. Silakan coba lagi nanti."
 		"Citadel_SetSchedule_AlreadySet"			"Tidak dapat mengatur jadwal karena jadwal telah diatur."
@@ -2468,17 +2535,27 @@
 		"Citadel_SetSchedule_SetSuccessfully"		"Pengaturan Jadwal Berhasil"
 		"Citadel_ranked_scheduleModal_title"		"Jadwal mode Rank"
 		"Citadel_ranked_scheduleModal_desc"			"Pilih waktu mode Rank yang paling sesuai dengan waktu bermain pilihanmu.<br><br>Kamu akan selalu bermain di server terdekat yang tersedia, terlepas dari waktu yang dipilih."
-		"Citadel_ranked_scheduleModal_warning"		"Catatan: Setelah memilih jadwal untuk sesi mode Rank ini, kamu tidak dapat mengubahnya sampai sesi berikutnya."
+		"Citadel_ranked_scheduleModal_warning"		"Catatan: Setelah memilih jadwal, kamu harus menunggu tujuh hari sebelum dapat mengubah ke jadwal yang berbeda."
 		"Citadel_ranked_open"						"Sekarang Dibuka"
 		"Citadel_ranked_closed"						"Mode Rank Tutup"
-		"Citadel_ranked_comingsoon"					"Game dalam mode Rank pertama akan dimulai Selasa, 15 Oktober pukul 20.00 GMT"
+		"Citadel_ranked_comingsoon"					"Game dalam mode Rank pertama akan dimulai Selasa, 15 Oktober pukul 20.00 UTC"
 		"Citadel_ranked_schedule_explainer"			"Mode Rank hanya akan tersedia selama jam tertentu. Sebelum bermain, kamu harus memilih waktu yang paling sesuai dengan jadwalmu."
 
-		"Citadel_ranked_explainer_button"				"Apa itu mode Rank?"
-		"Citadel_ranked_explainer_title"				"Matchmaking Mode Rank"
-		"Citadel_ranked_explainer_desc"					"[Mode Rank] adalah mode tantangan yang memberimu pengalaman Deadlock yang lebih kompetitif, di mana kamu akan dicocokkan dengan pemain berkemampuan sama untuk menentukan Rankingmu di peringkat global.<br><br>Setiap minggu, pemain dapat memilih untuk bergabung di kompetisi ini dengan bermain pertandingan [Mode Rank] saat periode waktu di wilayah mereka terbuka untuk mendemonstrasikan kemampuan mereka."
-		"Citadel_ranked_howitworks_title"				"Cara Kerja"
-		"Citadel_ranked_rankedmedals"					"Ranking:"
+		"Citadel_ranked_explainer_button"			"Apa itu mode Rank?"
+		"Citadel_ranked_explainer_title"			"Matchmaking Mode Rank"
+		"Citadel_ranked_explainer_desc"				"Mode Rank adalah mode tantangan yang memberimu pengalaman Deadlock yang lebih kompetitif, di mana kamu akan dicocokkan dengan pemain berkemampuan sama untuk menentukan Rankingmu di peringkat global.<br><br>Setiap minggu, pemain dapat memilih untuk bergabung di kompetisi ini dengan memainkan pertandingan Mode Rank saat periode waktu di wilayah mereka terbuka untuk mendemonstrasikan kemampuan mereka."
+		"Citadel_ranked_howitworks_title"			"Cara Kerja"
+		"Citadel_ranked_howitworks_desc"			"Semua pemain mulai sebagai Penyihir Amatir sementara dan harus menyelesaikan 7 pertandingan Mode Rank setiap minggunya untuk mendapatkan Ranking minggu tersebut. Di akhir minggu, kamu akan mendapatkan Ranking yang akan ditampilkan sebagai lencana di profilmu.<br><br>Jika pada suatu minggu kamu belum memainkan 7 pertandingan Mode Rank, Rankingmu akan kembali menjadi Penyihir Amatir dan akan disembunyikan sampai kamu berhasil di minggu selanjutnya. Metrik kemampuan akan tetap ada dan akan digunakan untuk pertandingan Mode Rank berikutnya, tapi tidak ada lencana yang dapat ditampilkan sampai kamu berhasil memainkan 7 pertandingan.<br><br>Terdapat 11 Ranking, dan dalam setiap Ranking, pemain akan mendapatkan sub-ranking, dari I sampai <Panel class=\"starIcon\"></Panel>, yang akan membedakan posisimu dalam Ranking tertentu."
+		"Citadel_ranked_rankedmedals"				"Ranking:"
+		"Citadel_ranked_subranks_explainer"			"Sub-ranking: I, II, III, IV, V, <Panel class=\"starIcon\"></Panel>"
+
+		"Citadel_ranked_explainer_note"				"Desain Lencana akan ditampilkan saat Rangking pertama diberikan pada hari Selasa, 22 Oktober."
+
+		"Citadel_ranked_result_title"				"Laporan Ranking"
+		"Citadel_ranked_result_rankup"				"Naik Ranking!"
+		"Citadel_ranked_result_adjustment"			"Penyesuaian Ranking"
+		"Citadel_ranked_numGamesPlayed"				"{s:games_played} Game Dimainkan"
+		"Citadel_ranked_match_history"				"Riwayat Pertandingan:"
 
 		"Citadel_ranks_rank0"						"Penyihir Amatir"
 		"Citadel_ranks_rank1"						"Penyihir Pemula"
@@ -2487,8 +2564,8 @@
 		"Citadel_ranks_rank4"						"Penyihir Arkana"
 		"Citadel_ranks_rank5"						"Penyihir Gelap"
 		"Citadel_ranks_rank6"						"Penyihir Utusan"
-		"Citadel_ranks_rank7"						"Penyihir Bijak"
-		"Citadel_ranks_rank8"						"Penyihir Pengatur"
+		"Citadel_ranks_rank7"						"Penyihir Pengatur"
+		"Citadel_ranks_rank8"						"Penyihir Bijak"
 		"Citadel_ranks_rank9"						"Penyihir Bayangan"
 		"Citadel_ranks_rank10"						"Penyihir Penguasa"
 		"Citadel_ranks_rank11"						"Penyihir Abadi"
@@ -2500,7 +2577,7 @@
 		"Citadel_subranks_5"						"V"
 		"Citadel_subranks_6"						"VI"
 
-		"Citadel_rank_phase_example"				"15—21 Oktober | 2024"
+		"Citadel_rank_phase_example"				"{t:s:popup_start_day} — {t:s:popup_end_day}"
 
 
 		"item_info_abilities"						"Skill"
@@ -2513,7 +2590,7 @@
 		"item_info_actives_full"					"Efek Aktif Penuh"
 
 		"AbandonMatchPrompt_Title"					"Tinggalkan pertandingan ini?"
-		"AbandonMatchPrompt_Text"					"Pertandingan tidak aman untuk ditinggalkan. Kamu akan tidak dapat terhubung kembali ke game ini, timmu akan kekurangan pemain, dan penalti matchmaking akan diterapkan.<br/>Lanjutkan?"
+		"AbandonMatchPrompt_Text"					"Pertandingan tidak aman untuk ditinggalkan. Kamu tidak akan dapat terhubung kembali ke game ini, timmu akan kekurangan pemain, dan penalti matchmaking akan diterapkan.<br/>Lanjutkan?"
 		"AbandonMatchPrompt_Countdown"				"Tinggalkan dengan Penalti ({d:countdown_seconds})"
 		"AbandonMatchPrompt_Confirm"				"Tinggalkan dengan Penalti"
 		"AbandonMatchPrompt_Cancel"					"Tetap bermain"
@@ -2526,10 +2603,10 @@
 		"SafeToAbandon_Text"						"Pertandingan ini sekarang aman untuk ditinggalkan tanpa penalti."
 
 		"ModIconTooltip_UnlockTier2"				"Terbuka setelah tim menghancurkan dua Penjaga musuh"
-		"ModIconTooltip_UnlockGuardians"			"Terbuka setelah timmu menghancurkan satu set Pelindung Markas musuh"	
-		"ModIconTooltip_UnlockGenerators"			"Terbuka setelah timmu menghancurkan satu Kuil musuh"	
+		"ModIconTooltip_UnlockGuardians"			"Terbuka setelah timmu menghancurkan satu set Pelindung Markas musuh"
+		"ModIconTooltip_UnlockGenerators"			"Terbuka setelah timmu menghancurkan kedua Kuil musuh"
 		//"ModIconTooltip_UnlockTier3"				"Unlocked after your team destroys the enemy Patron's first form"
-		"ModIconTooltip_UnlockAllTier1"				"Terbuka setelah tim menghancurkan semua Pelindung musuh"
+		"ModIconTooltip_UnlockAllTier1"				"Terbuka setelah tim menghancurkan tiga Pelindung musuh"
 		"ModIconTooltip_UnlockAllTier2"				"Terbuka setelah tim menghancurkan semua Penjaga musuh"
 
 		"HeroesPageTitle"							"Hero"
@@ -2556,6 +2633,7 @@
 		"MyRosterNumHeroesInRoster"					"{i:num_heroes_in_roster} HERO DALAM DAFTAR"
 		"MyRosterNumHeroesInRosterSingular"			"{i:num_heroes_in_roster} HERO DALAM DAFTAR"
 		"MyRosterGreatForNewPlayers"				"Cocok untuk Pemain Baru"
+		"MyRosterHeroLabsHero"						"Lab Hero"
 		"MyRosterAssignedTesting"					"Pengujian yang Diberikan"
 		"MyRosterAssignedOpenTesting"				"Buka Pengujian"
 		"MyRosterChangeHero"						"Ubah Hero"
@@ -2565,11 +2643,10 @@
 		"MyRosterWaitForParty"						"Menunggu anggota grup lain..."
 		"MyRosterExit"								"Tutup Daftar"
 		"MyRosterExitRosterConfirm"					"Apa kamu yakin ingin menutup daftar? Ini akan menutup daftar untuk keseluruhan grupmu."
-		"MyRosterPartyHighSkillRange"				"Grupmu berisi pemain dengan berbagai keterampilan. Ini akan menyebabkan pertandingan YANG LEBIH SULIT bagi grupmu."
-
 		"MyRosterPartyReadyCount"					"{d:party_ready_count}/{d:party_player_count} Siap"
 		"MyRosterPartyMemberRoster"					"Hero Sudah Ada di Daftar:"
 
+		"MyRosterRosterDesc_HeroLabs"				"Daftarmu membutuhkan paling tidak 3 Hero, 2 di antaranya harus merupakan Hero Standar (Hero non-percobaan)"
 
 		//-----------------------------------------------------------------------------
 		// SANDBOX - DEMO CONTROLS
@@ -2577,10 +2654,10 @@
 
 		"HeroTesting_LastHits"						"Serangan Terakhir: {i:lastHits}"
 		"HeroTesting_OrbsSecured"					"Bola yang Diambil: {i:orbsSecured}"
-		"HeroTesting_OrbsDenied"					"Bola yang terlepas: {i:orbsDenied}"
+		"HeroTesting_OrbsDenied"					"Bola yang Terlepas: {i:orbsDenied}"
 		"HeroTesting_TestTools"						"Alat Pengujian"
 		"HeroTesting_HoldAlt"						"Tahan {s:show_scoreboard}"
-		"HeroTesting_LaneChallenge"					"Beralih Jalur"
+		"HeroTesting_LaneChallenge"					"Tantangan Jalur"
 		"HeroTesting_HeroTools"						"Alat Hero"
 		"HeroTesting_ChangeHero"					"Ubah Hero"
 		"HeroTesting_ChangeTeam"					"Ubah Tim"
@@ -2622,15 +2699,15 @@
 		//-----------------------------------------------------------------------------
 		// TUTORIAL - LANE TRAINING
 		//-----------------------------------------------------------------------------
-		
+
 		"LaneTraining_Intro_Title"					"Selamat datang di <b>Pelatihan Jalur</b>"
-		"LaneTraining_Intro_Desc"					"Tujuan dari game Pengenalan adalah untuk mendapatkan kekuatan sehingga kamu dapat meraih tujuanmu.<br><br>Ketika kamu<span class=\"introHighlight\"> menyelesaikan tujuan yang tercantum di sebelah kanan</span>, kami akan memberimu <span class=\"introHighlight\">kekuatan luar biasa</span> agar kamu dapat mengalahkan Pelindung."
+		"LaneTraining_Intro_Desc"					"Di awal permainan, kamu harus mendapatkan kekuatan untuk dapat menyelesaikan misi.<br><br>Saat kamu berhasil <span class=\"introHighlight\">menyelesaikan misi yang tercantum di sebelah kanan</span>, kami akan memberimu <span class=\"introHighlight\">kekuatan luar biasa</span> agar kamu dapat mengalahkan Pelindung."
 		"LaneTraining_Intro_Button"					"Mulai"
-		"LaneTraining_Intro_Targets"				"Tujuan Pelatihan:"
+		"LaneTraining_Intro_Targets"				"Misi Latihan:"
 		"LaneTraining_Outro_Title"					"<b>Pelatihan Jalur</b> selesai"
 
 		//"ReportCard_PlayerDamage"					"Player Damage"
-		//"ReportCard_PlayerDamage_Desc"				"Damage you’ve dealt to enemy heroes"	
+		//"ReportCard_PlayerDamage_Desc"				"Damage you’ve dealt to enemy heroes"
 		//"ReportCard_PlayerDamage_Progress"			"<span class=\"yourscore\">{i:playerDamage}</span> / {i:playerDamageNextGoal}"
 
 		"ReportCard_LastHits"						"Serangan Mematikan"
@@ -2645,11 +2722,11 @@
 		//"ReportCard_OrbsSecured_Progress"			"<span class=\"yourscore\">{i:orbsSecured}</span> / {i:orbsSecuredNextGoal}"
 
 		"ReportCard_OrbsDenied"						"Jiwa Oranye Tertembak"
-		"ReportCard_OrbsDeniedDesc"					"Curi Bola Oranye dari kill yang dilakukan musuh dengan menembaknya"
+		"ReportCard_OrbsDeniedDesc"					"Curi Bola Oranye dari membunuh musuh dengan menembaknya"
 		//"ReportCard_OrbsDenied_Desc"				"Souls you've denied"
 		//"ReportCard_OrbsDenied_Progress"			"<span class=\"yourscore\">{i:orbsDenied}</span> / {i:orbsDeniedNextGoal}"
 
-		"ReportCard_ModsPurchased"					"Item yang Dibeli"
+		"ReportCard_ModsPurchased"					"Item Dibeli"
 		"ReportCard_ModsPurchased_Desc"				"Beli item di Toko"
 		"ReportCard_ModsPurchased_Progress"			"<span class=\"yourscore\">{i:modsPurchased}</span>/{i:modsPurchasedNextGoal}"
 
@@ -2657,7 +2734,7 @@
 		"ReportCard_AbilitiesUpgraded_Desc"			"Upgrade Skill dengan menahan [{s:show_scoreboard}]"
 		"ReportCard_AbilitiesUpgraded_Progress"		"<span class=\"yourscore\">{i:abilitiesUpgraded}</span>/{i:abilitiesUpgradedNextGoal}"
 
-		"ReportCard_SoulsCollected_Desc"			"Kumpulkan 1000 Jiwa dari membunuh pasukan musuh"
+		"ReportCard_SoulsCollected_Desc"			"Kumpulkan 1000 Jiwa dengan membunuh pasukan musuh"
 
 		//"ReportCard_GuardianDamage"					"Guardian Damage"
 		//"ReportCard_GuardianDamage_Desc"			"Damage you’ve dealt to enemy objectives"
@@ -2675,9 +2752,9 @@
 		"ReportCard_KillGuardian"					"Hancurkan Pelindung Musuh"
 		"ReportCard_KillGuardian_Desc"				"Kalahkan semua yang menghalangi jalanmu menuju kemenangan!"
 
-		//"NewPlayer_NewPlayerFlow"					"Learn to Play"				
+		//"NewPlayer_NewPlayerFlow"					"Learn to Play"
 		"NewPlayer_Skip"							"Lewati Tutorial"
-		//"NewPlayer_NewPlayerFlow_Desc"				"To get started, check out the tasks within <span class=\"introText\">Learn</span>."	
+		//"NewPlayer_NewPlayerFlow_Desc"				"To get started, check out the tasks within <span class=\"introText\">Learn</span>."
 		//"NewPlayer_GetStarted"						"Review <span class='TaskHighlight'>Get Started</span>"
 		//"NewPlayer_GetStarted_Time"					"4 mins"
 		//"NewPlayer_HeroSandbox"						"Try out your moves in <span class='TaskHighlight'>Hero Training</span>"
@@ -2685,7 +2762,7 @@
 		//"NewPlayer_LaneTraining"					"Learn the early game in <span class='TaskHighlight'>Lane Training</span>"
 		//"NewPlayer_LaneTraining_Time"				"8 mins"
 		//"NewPlayer_YouAreFinished"					"You're ready! Try a bot match within Practice or Play your first game!"
-		//"NewPlayer_Finish"							"End Tutorial"				
+		//"NewPlayer_Finish"							"End Tutorial"
 
 		"HeroTraining_Intro_Title"					"Selamat datang di <b>Pelatihan Hero</b>"
 		"HeroTraining_Intro_Desc"					"Di sini, kamu akan menguji gerakan dan skill Hero. Menguasai konsep-konsep ini merupakan kunci untuk menyelesaikan ritual."
@@ -2697,10 +2774,10 @@
 		"NPE_Heroes_Modal_Title"					"Hero yang Direkomendasikan"
 		"NPE_Heroes_Modal_Desc"						"<span class=\"introText\">Kelihatannya ini pertama kalinya kamu bermain!</span><br><br>Kami telah menandai beberapa Hero yang cocok untuk pemain baru. Kami sarankan untuk mencoba salah satunya jika belum yakin harus memulai dari mana."
 		"NPE_Heroes_Modal_Button"					"OK!"
-		
-		"NPE_Bots_Modal_Desc"						"<span class=\"introText\">Pertandingan bot pertamamu!</span><br><br>Pertandingan melawan bot cocok untuk melatihmu untuk mengenal keterampilan hero, tapi tidak secara akurat menangkap alur dan kerja sama tim di pertandingan PvP.<br><br>Setelah kamu merasa lebih nyaman, jangan ragu untuk meninggalkan pertandingan bot dan bergabung ke matchmaking."
+
+		"NPE_Bots_Modal_Desc"						"<span class=\"introText\">Pertandingan bot pertamamu!</span><br><br>Pertandingan melawan bot cocok untuk membiasakan dirimu dengan hero, tapi tidak secara akurat menggambarkan alur dan kerja sama tim dalam pertandingan PvP.<br><br>Setelah kamu merasa siap, jangan ragu untuk meninggalkan pertandingan bot dan bergabung ke matchmaking."
 		"NPE_Bots_Modal_Button"						"OK!"
-		
+
 
 		"Sandbox_Tutorial_Movement"					"Uji Kontrol"
 		"Sandbox_Tutorial_Movement_desc"			"Gunakan area ini untuk menguji kontrol."
@@ -2713,7 +2790,7 @@
 		"Sandbox_Tutorial_Controls_Reload"			"<span class='keybind'>{s:key_reload}</span>"
 		"Sandbox_Tutorial_Controls_Dash"			"<span class='keybind'>{s:key_innate_1}</span>"
 		"Sandbox_Tutorial_Controls_Mantle"			"<span class='keybind'>Tahan {s:in_mantle}</span>"
-		"Sandbox_Tutorial_Controls_Mantle_desc"		"Jubah<br><span class='footnote'>(Mendaki tebing)</span>"
+		"Sandbox_Tutorial_Controls_Mantle_desc"		"Panjat <br><span class='footnote'>(Mendaki tebing)</span>"
 
 
 		"Sandbox_Tutorial_Controls_task_Move"			"Bergerak"
@@ -2726,7 +2803,7 @@
 		"Sandbox_Tutorial_Step_1"					"Langkah 1 dari 6"
 		"Sandbox_Tutorial_Step_2"					"Langkah 2 dari 6"
 		"Sandbox_Tutorial_Step_3"					"Langkah 3 dari 6"
-		"Sandbox_Tutorial_Step_4"					"Langkah 4 dari 6"		
+		"Sandbox_Tutorial_Step_4"					"Langkah 4 dari 6"
 		"Sandbox_Tutorial_Step_5"					"Langkah 5 dari 6"
 		"Sandbox_Tutorial_Step_6"					"Langkah 6 dari 6"
 
@@ -2750,7 +2827,7 @@
 
 		"BrowseItems_Title"							"Telusuri Item"
 		"BrowseItems_Desc"							"Telusuri katalog item untuk mempersiapkan diri untuk pertandingan berikutnya!"
-		
+
 		"CreateBuilds_Title"						"Buat Build untuk {s:hero_name}"
 		"CreateBuilds_Desc"							"Pilih item di Toko untuk ditambahkan ke daftar build yang direkomendasikan"
 
@@ -2769,7 +2846,7 @@
 		"AbilityButtonHint_MoveDown"				"Bergerak ke bawah"
 		"AbilityButtonHint_FlyUp"					"Terbang"
 		"AbilityButtonHint_FlyDown"					"Mendarat"
-		"AbilityButtonHint_DropIdol"				"Jatuhkan Stoples"
+		"AbilityButtonHint_DropIdol"				"Jatuhkan Guci"
 		"AbilityButtonHint_RollingGooAccelerate"	"Maju Cepat"
 		"AbilityButtonHint_RollingGooJump"			"Lompat"
 		"AbilityButtonHint_RollingGooCancel"		"Batal"
@@ -2801,7 +2878,7 @@
 		"AbilityButtonHint_CastIceDome"				"Luncurkan Kubah Es"
 		"AbilityButtonHint_CastLifeDrain"			"Kuras Musuh"
 		"AbilityButtonHint_AlotCastLifeDrain"				"Sembuhkan Rekan Tim"
-		
+
 		//-----------------------------------------------------------------------------
 		// Guided Bot Match
 		//-----------------------------------------------------------------------------
@@ -2822,7 +2899,7 @@
 		"citadel_bot_name_prefix"				"[Bot]"
 		"citadel_purchasemessage"				"<span class=\"ChatTarget\">{s:target} <span class=\"ChatPersona\"><span class=\"{s:player_color_class}\">{s:persona}</span></span></span> <span class=\"{s:purchaseText}\">{s:soldOrPurchasedText}</span> <span class=\"{s:message_color_class}\">{s:message}</span>"
 		"citadel_ping_wheel_message"			"{s:message}"
-	
+
 		"citadel_ping_wheel_disabled_while_dead"				"Dinonaktifkan saat Mati"
 		"citadel_all_chat_label_prefix"							"[SEMUA] "
 		"citadel_chatwheel_label_Care"							"Hati-hati"
@@ -2846,8 +2923,8 @@
 		"citadel_chatwheel_push_green"							"Hajar Maju Jalur Hijau"
 		"citadel_chatwheel_push_purple"							"Hajar Maju Jalur Ungu"
 
-		"citadel_chatwheel_label_Missing"						"Hilang"
-		"citadel_chatwheel_message_Missing"						"Hilang!"
+		"citadel_chatwheel_label_Missing"						"Tidak ada Hero"
+		"citadel_chatwheel_message_Missing"						"Tidak ada Hero!"
 		"citadel_chatwheel_label_GoodJob"						"Kerja Bagus"
 		"citadel_chatwheel_message_GoodJob"						"Kerja Bagus!"
 		"citadel_chatwheel_label_thanks"						"Terima Kasih"
@@ -2859,8 +2936,8 @@
 		"citadel_chat_placeholder"								"Ke (SEMUA):"
 		"citadel_chat_placeholder_team"							"Ke (REKAN TIM):"
 		"citadel_chat_placeholder_spec_team"					"Ke (PENONTON):"
-		"citadel_chatwheel_label_missing_hero"					"Hilang"
-		"citadel_chatwheel_message_missing_hero"				"{s:param_1} Hilang"
+		"citadel_chatwheel_label_missing_hero"					"Tidak ada Hero"
+		"citadel_chatwheel_message_missing_hero"				"{s:param_1} Tidak ada Hero"
 		"citadel_chatwheel_label_missing_yellow"				"Tidak ada Hero di Jalur Kuning"
 		"citadel_chatwheel_message_missing_yellow"				"Tidak ada Hero di Jalur Kuning!"
 		"citadel_chatwheel_label_missing_blue"					"Tidak ada Hero di Jalur Biru"
@@ -2915,24 +2992,26 @@
 		"citadel_chatwheel_message_Defend_Blue"					"Pertahankan Jalur Biru"
 		"citadel_chatwheel_message_Defend_Green"				"Pertahankan Jalur Hijau"
 		"citadel_chatwheel_message_Defend_Purple"				"Pertahankan Jalur Ungu"
-		"citadel_chatwheel_message_HeadedToYellow"				"Menuju ke Jalur Kuning"
-		"citadel_chatwheel_message_HeadedToBlue"				"Menuju ke Jalur Biru"
-		"citadel_chatwheel_message_HeadedToGreen"				"Menuju ke Jalur Hijau"
-		"citadel_chatwheel_message_HeadedToPurple"				"Menuju ke Jalur Ungu"
-		"citadel_chatwheel_label_HeadedTo"						"Menuju ke Markas"
-		"citadel_chatwheel_message_HeadedTo"					"Menuju ke Markas!"
-		"citadel_chatwheel_message_HeadedToLane"				"Menuju ke Jalur..."
+		"citadel_chatwheel_message_HeadedToYellow"				"Bergerak ke Jalur Kuning"
+		"citadel_chatwheel_message_HeadedToBlue"				"Bergerak ke Jalur Biru"
+		"citadel_chatwheel_message_HeadedToGreen"				"Bergerak ke Jalur Hijau"
+		"citadel_chatwheel_message_HeadedToPurple"				"Bergerak ke Jalur Ungu"
+		"citadel_chatwheel_label_HeadedTo"						"Bergerak ke Markas"
+		"citadel_chatwheel_message_HeadedTo"					"Bergerak ke Markas!"
+		"citadel_chatwheel_message_HeadedToLane"				"Bergerak ke Jalur..."
 
 		//"citadel_quick_response_cancel"							"Cancel Last Ping Message"
 		//"citadel_quick_response_respond_onmyway_to_hero"		"Respond 'On my Way' to {s:hero_name}"
 		//"citadel_quick_response_respond_onmyway"					"Respond 'On my Way'"
 
 		// These are loc strings for ping response rules. Good for if we don't have VO for a response rule to show what the player would've said.
+		"ping_message"											"{s:pre_punctuation}{s:ping}{s:post_punctuation}"
+		"ping_post_exclamation"									"!"
 		"ping_headed_yellow"									"Menuju ke Jalur Kuning"
 		"ping_headed_blue"										"Menuju ke Jalur Biru"
 		"ping_headed_green"										"Menuju ke Jalur Hijau"
 		"ping_headed_purple"									"Menuju ke Jalur Ungu"
-		"headed_this_way"										"Menuju ke sini"
+		"headed_this_way"										"Bergerak ke sini"
 		"ping_defend"											"Pertahankan"
 		"ping_defend_yellow"									"Pertahankan Jalur Kuning"
 		"ping_defend_blue"										"Pertahankan Jalur Biru"
@@ -2972,7 +3051,7 @@
 		"ping_retreat"											"Mundur!"
 		"ping_careful"											"Hati-hati, {s:param_1}"
 		"ping_thank_you"										"Terima kasih!"
-		"ping_going_shop"										"Mau belanja"
+		"ping_going_shop"										"Pergi Belanja"
 		"ping_right_back"										"BRB"
 		"ping_be_back"											"BRB"
 		"_back_"												"{s:param_1}, mudur!"
@@ -2985,7 +3064,7 @@
 		"headed_to_purple"										"{s:param_1} menuju ke Jalur Ungu"
 		"ping_attack"											"Ayo, kalahkan {s:param_1}"
 		"ping_stun"												"Stun {s:param_1}!"
-		"ping_jar_call"											"Stoples Spirit ada di sini!"
+		"ping_jar_call"											"Guci Spirit ada di sini!"
 		"ping_enemy_take_mid"									"Mid sudah diambil alih!"
 		"ping_take_mid"											"Ayo ambil mid!"
 		"ping_use_ability"										"{s:param_1} siap!"
@@ -3010,14 +3089,14 @@
 		"ping_need_heal"										"Heal aku, dong!"
 		"Citadel_Ping_HealMessage"								"Aku perlu Heal!"
 		"ping_can_heal"											"Aku bisa menyembuhkanmu, {s:param_1}"
-		"Citadel_Ping_CanHealMessage"							"Bisa Menyembuhkan"
+		"Citadel_Ping_CanHealMessage"							"Bisa Heal"
 		"ping_need_plan"										"Apa rencananya?"
 		"ping_help_with_idol_label"								"Bantu aku dengan Guci ini."
 		"ping_help_with_idol_message"							"Bantu aku mengirim guci ini."
 		"ping_youre_welcome"									"Sama-Sama!"
 		"ping_sorry"											"Maaf"
 		"ping_enemy_has_item"									"Hati-hati! {s:param_1} punya {s:param_2}."
-		"Citadel_Ping_Customize_Reminder"						"Kmau dapat mengubah opsi di roda ping di <b>Pengaturan</b>."
+		"Citadel_Ping_Customize_Reminder"						"Kamu dapat mengubah opsi di roda ping di <b>Pengaturan.</b>"
 
 		//-----------------------------------------------------------------------------
 		// END Chat

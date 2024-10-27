@@ -43,6 +43,7 @@
 		"Citadel_StatusEffectImmobilize" 		"Hareketsizleştirme"
 		"Citadel_StatusEffectDisarmed"			"Etkisizleştirme"
 		"Citadel_StatusEffectInvisible"			"Görünmez"
+		"Citadel_StatusEffectPetrify"				"Taşa Çevirme"
 		//"Citadel_StatusEffectStacks"			"Stacks "
 		//"Citadel_StatusEffectInfiniteClip"		"Infinite Ammo"
 		//"Citadel_StatusEffectBulletDebuff"		"Bullet Debuff"
@@ -204,6 +205,8 @@
 		"StatDesc_HealingOutput_postfix"				"%"
 		"StatDesc_CritDamageBonusScale"					"Bonus Kritik Vuruş Ölçeği"
 		"StatDesc_CritDamageBonusScale_postfix"			"%"
+		"StatDesc_MeleeResist"							"Yakın Dövüş Direnci"
+		"StatDesc_MeleeResist_postfix"					"%"
 
 		"StatDesc_BulletSpeed"							"Mermi Hızı"
 		"StatDesc_BulletSpeed_postfix"					" m/sn"
@@ -694,6 +697,9 @@
 
 		"HealAmpReceivePenaltyPercent_label"		"İyileştirme Azaltması"
 		"HealAmpReceivePenaltyPercent_postfix"			"%"
+		
+		"HealAmpRegenPenaltyPercent_label"		"İyileştirme Azaltması"
+		"HealAmpRegenPenaltyPercent_postfix"	"%"
 
 		"DegenResistance_label"						"İyileştirme Azaltması Direnci"
 		"DegenResistance_postfix"					"%"
@@ -1793,9 +1799,16 @@
 		"StaminaRegenPercent_label"			"Kuvvet Yenilenmesi"
 		"StaminaRegenPercent_postfix"		"%"
 
-		//crow_mask_1827_comment
-		// crow_mask_1828_comment
-		//crow_mask_1829_comment
+		"MeleeResistPercent_prefix"			"{s:sign}"
+		"MeleeResistPercent_label"			"Yakın Dövüş Direnci"
+		"MeleeResistPercent_postfix"		"%"
+		
+		"BuffDuration_label"				"Güçlendirme Süresi"
+		"BuffDuration_postfix"				" sn"
+
+		//crow_mask_1840_comment
+		// crow_mask_1841_comment
+		//crow_mask_1842_comment
 
 
 

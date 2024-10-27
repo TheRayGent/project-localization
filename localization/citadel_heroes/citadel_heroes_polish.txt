@@ -486,7 +486,9 @@
 		"MinSlowDuration_label"						"Min. czas trwania zatrzymania"
 		"MinSlowDuration_postfix"						" s"
 		"citadel_ability_chrono_kinetic_carbine/modifier_chrono_kinetic_carbine"  "Kinetyczny Karabinek"
-
+		"CarbineHeadshotBonus_prefix"				"+"
+		"CarbineHeadshotBonus_label"				"Dodatkowe obrażenia za trafienie w głowę"
+		"CarbineHeadshotBonus_postfix"				"%"
 
 		//-----------------------------------------------------------------------------
 		// Revenant
@@ -890,7 +892,7 @@
 		"WeaponPowerGainPercent_postfix"			"%"
 
 		//-----------------------------------------------------------------------------
-		// Hero Warden
+		// Warden 
 		//-----------------------------------------------------------------------------
 		"ability_warden_lock_down"				"Wiążące Słowo"
 		"ability_warden_lock_down_quip"			"Przeklnij swój cel, unieruchamiając go, jeśli nie ucieknie."
@@ -919,19 +921,25 @@
 
 		"ability_warden_crowd_control"			"Alchemiczna Flaszka"
 		"ability_warden_crowd_control_quip"		"Zadaj obrażenia i osłab pobliskich wrogów."
-		"ability_warden_crowd_control_desc"		"Rzuć flaszką, która <span class=\"highlight\">zadaje obrażenia, spowalnia,</span> a także zmniejsza <span class=\"highlight\">obrażenia od broni</span> oraz <span class=\"highlight\">wytrzymałość</span> trafionych wrogów."
-		"ability_warden_crowd_control_t3_desc"		"<span class=\"highlight\">{s:AbilityCooldown} s</span> do czasu oczekiwania i nakłada <span class=\"highlight\">{s:FireRateSlow}%</span> spowolnienia szybkostrzelności."
+		"ability_warden_crowd_control_desc"		"Rzuć flaszką, która <span class=\"highlight\">zadaje obrażenia, spowalnia ruch,</span> a także zmniejsza <span class=\"highlight\">obrażenia od broni</span> trafionych wrogów."
+		"ability_warden_crowd_control_t1_desc"	"Trafieni wrogowie tracą <span class=\"highlight\">{s:StaminaReduction} pkt. wytrzymałości</span>."
+		"ability_warden_crowd_control_t3_desc"		"<span class=\"highlight\">{s:AbilityCooldown} s</span> do czasu oczekiwania, a osłabienie broni nakłada <span class=\"highlight\">{s:FireRateSlow}%</span> spowolnienia szybkostrzelności."
 		"MoveSpeedSlowPct_label"					"Spowolnienie szybkości ruchu"
 		"MoveSpeedSlowPct_postfix"				"%"
 		"WeaponPowerDebuff_label"					"Obrażenia od broni"
 		"WeaponPowerDebuff_postfix"				"%"
 		"modifier_warden_crowd_control_debuff"	"Alchemiczna Flaszka"
+		"FlaskDebuffDuration_label"				"Czas trwania osłabienia broni"
+		"FlaskDebuffDuration_postfix"			" s"
 
 		"ability_warden_riot_protocol"			"Ostatni Bastion"
 		"ability_warden_riot_protocol_quip"		"Emituj impulsy, które kradną zdrowie wrogów."
-		"ability_warden_riot_protocol_desc"		"Po inkantacji przez {s:AbilityCastDelay} s <span class=\"highlight\">wyzwalasz impulsy, które zadają obrażenia wrogom i leczą cię</span> na podstawie zadanych obrażeń.<br>Podczas inkantowania Ostatniego Bastionu masz znacznie większą <span class=\"highlight\">odporność na naboje</span>."
+		"ability_warden_riot_protocol_desc"		"Po inkantacji przez {s:AbilityCastDelay} s <span class=\"highlight\">wyzwalasz impulsy, które zadają obrażenia wrogom i leczą cię</span> na podstawie zadanych obrażeń.<br>Podczas inkantowania ostatniego bastionu masz znacznie większą <span class=\"highlight\">odporność na naboje</span>."
+		"ability_warden_riot_protocol_t3_desc"	"<span class=\"highlight\">{s:AbilityCooldown} s</span> do czasu oczekiwania oraz zyskujesz <span class=\"highlight\">niepowstrzymywalną odporność na statusy</span> podczas inkantacji."
 		"modifier_warden_riot_protocol"			"Ostatni bastion"
 		"modifier_warden_riot_protocol_enemy_debuff"	"Spowolniono"
+
+		//UnstoppableCastDelay
 		"HealthStealPctHero_label"				"Kradzież zdrowia bohaterom"
 		"HealthStealPctHero_postfix"				"%"
 
@@ -961,7 +969,7 @@
 		"MoveSpeedLimit_label"				"Szybkość ruchu"
 		"MoveSpeedLimit_postfix"				" m/s"
 		"modifier_wrecking_ball_auto_throw"	"Burząca Kula"
-		"hint_throw_wrecking_ball"			"Rzuć kulą."
+		"hint_throw_wrecking_ball"			"Rzuć kulą"
 
 		"ability_wrecker_salvage"				"Konsumpcja"
 		"ability_wrecker_salvage_desc"		"<span class=\"highlight\">Ogłusza</span> wrogiego szturmowca lub NPC, <span class=\"highlight\">zadając obrażenia</span> podczas przetrzymywania. Udane zabójstwo zapewnia dodatkową <span class=\"highlight\">szybkostrzelność</span> i przywraca instancję <span class=\"highlight\">biologicznego wybuchu</span>. Ta premia kumuluje się niezależnie."
@@ -1163,7 +1171,7 @@
 
 		"citadel_ability_sticky_bomb"			"Bomba Samoprzylepna"
 		"citadel_ability_sticky_bomb_quip"		"Podłóż bombę na wrogu."
-		"citadel_ability_sticky_bomb_desc"		"Przyczep do pobliskiego celu bombę samoprzylepną, która zadaje <span class=\"highlight\">obrażenia od eksplozji</span> po krótkim czasie zapłonu.<br>Zyskujesz instancję bomb zadającą <span class=\"highlight\">+{s:BonusDamagePctPerPlayerHit}% obrażeń od bomby</span> za każdego trafionego wrogiego bohatera. Utrata {s:BonusLossPerDeath} instancji po śmierci. <br>Przytrzymaj [{s:key_alt_cast}], by przylepić bombę do siebie."
+		"citadel_ability_sticky_bomb_desc"		"Przyczep do pobliskiego celu bombę samoprzylepną, która zadaje <span class=\"highlight\">obrażenia od eksplozji</span> po krótkim czasie zapłonu.<br>Zyskujesz instancję bomby zadającą <span class=\"highlight\">+{s:BonusDamagePctPerPlayerHit}% obrażeń od bomby</span> za każdego trafionego wrogiego bohatera. Utrata {s:BonusLossPerDeath}% instancji po śmierci (zaokrąglone). <br>Przytrzymaj [{s:key_alt_cast}], by przylepić bombę do siebie."
 		"modifier_citadel_sticky_bomb_attached"	"Bomba na tobie"
 		"citadel_ability_sticky_bomb_t3_desc"	"Po przyczepieniu <span class=\"highlight\">rozbraja</span> cel na <span class=\"highlight\">{s:DebuffDuration} s</span>."
 		"StunTargetOnExplode_label"				"Czas trwania"
@@ -1222,7 +1230,7 @@
 		"ability_explosive_barrel"					"Beczka Prochu"
 		"ability_explosive_barrel_quip"				"Rzuć beczką, która eksploduje po strzeleniu w nią."
 		"ability_explosive_barrel_desc"				"Umieść beczkę, która eksploduje po <span class=\"highlight\">strzeleniu w nią</span> lub po lądowaniu po wystrzeleniu z <span class=\"highlight\">ataku wręcz</span> lub <span class=\"highlight\">trampoliny</span>. Ma minimalny czas uzbrojenia, zanim będzie mogła eksplodować."
-		"ability_explosive_barrel_t3_desc"			"Czas oczekiwania wynosi teraz {s:AbilityCooldown}.<br>Brak czasu uzbrojenia."
+		"ability_explosive_barrel_t3_desc"			"{s:AbilityCooldown} do czasu oczekiwania.<br>Brak czasu uzbrojenia."
 		//"BarrelLifetime_label"						"Barrel Life Time"
 		"BarrelLifetime_postfix"						" s"
 		//MinExplodeTime_label						"Min Time to Explode"
@@ -1256,6 +1264,13 @@
 		//"MinAirTimeForStomp_postfix"				"s"
 		"ability_bounce_pad/speed_on_land""Szybkość ruchu"
 
+		"ability_crackshot"						"Celne Oko"
+		"ability_crackshot_quip"				"Zadaje dodatkowe obrażenia i nakłada spowolnienie przy strzałach w głowę."
+		"ability_crackshot_desc"				"Strzały w głowę zadają dodatkowe <span class=\"highlight\">obrażenia od broni</span> i nakładają <span class=\"highlight\">zanikające spowolnienie</span>. Ten efekt może wystąpić tylko co jakiś czas.<br><br><span class=\"diminish\">Umiejętność ignoruje zasięg efektywności broni.</span>"
+		"FadingSlowPercent_label" "Zanikające spowolnienie ruchu"
+		"FadingSlowPercent_postfix" "%"
+		"AbilityCooldownPerHeadshot_label" "Czas oczekiwania na efekt"
+		"AbilityCooldownPerHeadshot_postfix" " s"
 
 		//"citadel_ability_running_decoy"					"Decoy"
 		//"citadel_ability_running_decoy_desc"			"{s:hero_name} creates a temporary decoy that will run towards the target location and shoot at any nearby enemies."
@@ -1326,8 +1341,9 @@
 		// Hero Nano // Calico
 		//-----------------------------------------------------------------------------
 
-		"ability_perched_predator"				"Duch Sekhmet"
+		"ability_perched_predator"				"Duch Sechmet"
 		"ability_perched_predator_desc"			"Poślij naprzód duchowego kota, który chwyta cele na swojej drodze. Schwytanie bohatera spowoduje po chwili eksplozję. <br>Wciśnij [{s:in_ability1}], by wywołać eksplozję ręcznie."
+		"ability_perched_predator_quip"			"Wyślij duchowego kota, by chwytał wrogów."	
 		//"CatExplosionCount_label"				"Explosions"
 		//"CatMaxSpeed_label"						"Ghostcat Max Speed"
 		"CatMaxSpeed_postfix"						" m/s"
@@ -1350,9 +1366,9 @@
 		"PounceFriendlyTargetCD_postfix"			" s"
 		"pounce_double_notify"					"Podwójny naskok"
 
-		"ability_nano_proximity_ritual"			"Ava"
-		"ability_nano_proximity_ritual_quip"	"Wypuść swoją towarzyszkę, by atakowała wrogów."
-		"ability_nano_proximity_ritual_desc"	"Poślij <span class=\"highlight\">Avę</span>, by <span class=\"highlight\">skupiła się</span> na pobliskim wrogu. Obrani za cel wrogowie mają zredukowane leczenie oraz <span class=\"highlight\">leczą {s:hero_name} i Avę</span>, gdy otrzymują oni obrażenia. <span class=\"highlight\">Ava jest aktywna tylko wtedy, gdy {s:hero_name} znajduje się w pobliżu.</span><br>Wciśnij <span class=\"highlight\">[3]</span>, by przywołać Avę.<br>Wciśnij <span class=\"highlight\">[alternatywny rzut]</span>, by przywołać i teleportować się do niej.<br>Im dalej znajdujesz się od Avy, tym dłużej zajmie przywołanie/teleport. Ava odzyskuje zdrowie podczas przywoływania jej."
+		"ability_nano_proximity_ritual"			"Nekomata-stróż"
+		"ability_nano_proximity_ritual_quip"	"Rozstawia posąg, który obserwuje obszar."
+		"ability_nano_proximity_ritual_desc"	"Rozstaw <span class=\"highlight\">posąg</span>, by śledził wrogów na obszarze. Stróż będzie także atakował wrogów, którym {s:hero_name} niedawno zadała obrażenia. Obrani za cel wrogowie mają zredukowane leczenie, a <span class=\"highlight\">{s:hero_name} kradnie im zdrowie</span>, gdy otrzymają oni obrażenia."
 		"StatueLifetime_label"					"Czas automatycznego przywołania"
 		"StatueLifetime_postfix"				" s"
 		"StatueHeldRegen_label"						"Reg. zdrowia Avy przy przywołaniu"
@@ -1360,16 +1376,16 @@
 		"StatueLifesteal_postfix"				"%"
 		"StatueLifestealNonHero_label"			"Kradzież zdrowia (pozostali)"
 		"StatueLifestealNonHero_postfix"		"%"
-		"StatueActivateRange_label"				"Zasięg umiejętności"
+		"StatueActivateRange_label"				"Zasięg ujawnienia"
 		"StatueActivateRange_postfix"			" m"
 		"StatueHealth_label"					"Ava (unormowane)"
 		"StatueHealth_postfix"					" pkt. zdrowia"
 		"StatueVictimDamageReduction_label"					"Redukcja obrażeń"
 		"StatueVictimDamageReduction_postfix"				"%"
 
-		"ability_nano_proximity_ritual_t1_desc"  "<span class=\"highlight\">+{s:StatueLifesteal}%</span> kradzieży zdrowia."
-		"ability_nano_proximity_ritual_t2_desc"  "<span class=\"highlight\">+{s:DPS} pkt.</span> obr./s oraz zmniejszenie obrażeń, jakie {s:hero_name} otrzymuje od ofiar, <span class=\"highlight\">o {s:StatueVictimDamageReduction}%</span>."
-		"ability_nano_proximity_ritual_t3_desc"  "<span class=\"highlight\">+{s:DamageAmplification}%</span> do przyrostu obrażeń i {s:HealAmpReceivePenaltyPercent}% redukcji leczenia na ofiarach."
+		"ability_nano_proximity_ritual_t1_desc"  "Posągi zyskują <span class=\"highlight\">niewidzialność</span>, gdy nie atakują."
+		"ability_nano_proximity_ritual_t2_desc"  "<span class=\"highlight\">+{s:AbilityCharges}</span> do liczby ładunków oraz <span class=\"highlight\">+{s:DPS}</span> pkt. obr./s."
+		"ability_nano_proximity_ritual_t3_desc"  "<span class=\"highlight\">{s:StatueVictimDamageReduction}%</span> redukcji obrażeń oraz {s:HealAmpReceivePenaltyPercent}% redukcji leczenia na celach."
 		"ability_nano_proximity_ritual_trigger"		"Przywołaj Avę"
 
 		"AvaRecallCooldown_label"				"Czas oczekiwania na przywołanie"
@@ -1378,8 +1394,9 @@
 		"AbilityButtonHint_AvaWarp"			"Teleportuj się do Avy"
 		"CITADEL_ABILITY_NO_HEALTH_RESOURCE"	"Niedostępne"
 
-		"ability_nano_shadow_step"				"Krok w Cień"
-		"ability_nano_shadow_step_desc"			"Okryj się cieniem, by wzmocnić swoje ataki i uczynić swój sprint <span class=\"highlight\">niewidzialnym</span>. Trafienie wrogów <span class=\"highlight\">atakiem wręcz</span> zmniejszy ich odporność na naboje (efekt kumuluje się)."
+		"ability_nano_shadow_step"				"Królowa Cieni"
+		"ability_nano_shadow_step_desc"			"Oznacz swoich wrogów i spowij się cieniem, by wzmocnić swoje ataki i uczynić się <span class=\"highlight\">niewidzialnym</span>. Wykonanie ataku ujawni cię tylko tymczasowo. Trafienie wrogów <span class=\"highlight\">atakiem wręcz</span> zmniejszy ich odporność na naboje (efekt kumuluje się)."
+		"ability_nano_shadow_step_quip"			"Wejdź w cień, by zdobyć przewagę nad swoimi wrogami."
 		"modifier_nano_shadow_step"			"Krok w Cień"
 		"NanoShadowBulletArmorReductionLight_prefix"	"-"
 		"NanoShadowBulletArmorReductionLight_label"	"Odporność na naboje (lekki atak)"
@@ -1498,7 +1515,7 @@
 		"ability_blood_shards"				"Złośliwość"
 		"ability_blood_shards_quip"			"Kumuluj przyrost obrażeń na wrogu."
 		"ability_blood_shards_desc"			"<span class=\"highlight\">Poświęć część swojego zdrowia</span>, aby wystrzelić krwawe odłamki, które nakładają instancję Złośliwości. Każda instancja <span class=\"highlight\">spowalnia</span> ofiarę i <span class=\"highlight\">zwiększa obrażenia</span> otrzymywane od ciebie. Efekt spowolnienia zmniejsza się z czasem."
-		"ability_blood_shards_t2_desc"		"+{s:HealthToDamage} pkt. zdrowia jako obrażenia."
+		"ability_blood_shards_t2_desc"		"<span class=\"highlight\">+{s:HealthToDamage} pkt.</span> konwersji zdrowia na obrażenia i <span class=\"highlight\">+{s:VulnerabilityPerStack}%</span> przyrostu obrażeń."
 		"ability_blood_shards_t3_desc"		"+{s:NumBloodShards} do liczby krwawych odłamków."
 		"NumBloodShards_label"				"Krwawe Odłamki"
 		"MoveSpeedPenaltyPerStack_label"		"Spowolnienie ruchu"
@@ -1609,7 +1626,7 @@
 		"HeadshotBonus_prefix"					"+"
 		"HeadshotBonus_label"					"Obrażenia przy strzale w głowę"
 		"HeadshotBonus_postfix"					"%"
-
+		"AbilityButtonHint_AssassinateFoVCycle"	"Przełącz przybliżenie"
 
 		//-----------------------------------------------------------------------------
 		// Digger (Formally Pouncer and Driller) Mo and Krill
@@ -1852,6 +1869,7 @@
 		//"TornadoDuration_postfix"			"s"
 		"modifier_mirage_tornado_lift"	"Tornado"
 		"modifier_mirage_tornado_slow"	"Tornado – spowolnienie"
+		"modifier_mirage_tornado_hold_in_place"	"Tornado"
 
 		"mirage_fire_beetles"			"Ogniste Skarabeusze"
 		"mirage_fire_beetles_quip"		"Wypuść skarabeusze, które kradną zdrowie wrogom."
@@ -1871,6 +1889,7 @@
 		"mirage_teleport_desc"	"Inkantacja. Wskaż sojuszniczego lub widocznego wrogiego bohatera na minimapie, a następnie <span class=\"highlight\">przeteleportuj się</span> w miejsce, w którym był w momencie rozpoczęcia inkantacji. Po teleportacji zyskujesz <span class=\"highlight\">szybkość ruchu</span> oraz <span class=\"highlight\">szybkostrzelność do momentu kolejnego przeładowania</span>."
 		"MirageTeleportMoveSpeed_conditional"	"Po teleportacji"
 		"mirage_teleport_movespeed"		"Podróżnik – szybszy ruch"
+		"mirage_teleport_t3_desc"	"Po teleportacji stań się <span class=\"highlight\">niewrażliwy</span> na ogłuszenie, uciszenie, uśpienie, unieruchomienie i rozbrojenie na <span class=\"highlight\">{s:ImmunityDuration} s</span>."
 
 		"mirage_sand_phantom"			"Znak Dżina"
 		"mirage_sand_phantom_quip"		"Nakładaj instancje rosnących obrażeń."
@@ -2139,6 +2158,29 @@
 //		"slork_chomp_t3_desc"		"Chomp deals <span class=\"highlight\">{s:DamageMissingPercentHealth}%</span> of the enemies missing health each second."
 		//"modifier_slork_chomp_grapple"	"Chomping an Enemy"
 		//"modifier_slork_chomp_hobbled" "Getting Chomped"
+
+		"fathom_scalding_spray"			"Parzący Plusk"
+		"fathom_scalding_spray_quip"	"Chluśnij wrzącą wodą w stożku przed sobą."
+		"fathom_scalding_spray_desc"	"Chluśnij wrzącą wodą w stożku przed sobą. Kumulujesz tym większe obrażenia od broni, im większa część strumienia zada obrażenia wrogiemu bohaterowi."
+		"WeaponDamageBonusPerSec_label"		"Zyskiwane obrażenia od broni na sekundę"
+		"WeaponDamageBonusPerSec_postfix"	"%"
+
+		"fathom_breach"				"Wyłom"
+		"fathom_breach_quip"		"Rzuć się prosto we wrogów."
+		"fathom_breach_desc"		"Rzuć się naprzód, zadając obrażenia wszystkim wrogom w pobliżu twojego miejsca lądowania i wyrzucając ich w powietrze."
+
+		"fathom_defer_damage"		"Upuszczanie Krwi"
+		"fathom_defer_damage_quip"	"Opóźnij część otrzymanych obrażeń."
+
+		"fathom_reefdweller_harpoon"		"Harpun Mieszkańca Rafy"
+		"fathom_reefdweller_harpoon_quip"	"Rzuć harpun, by podciągnąć się w kierunku powierzchni."
+		"fathom_reefdweller_harpoon_desc"	"Wyrzuć harpun, który przyczepia się do powierzchni i cię przyciąga. Będąc przyczepionym do powierzchni, jesteś <span class=\"highlight\">niewidzialny i nietykalny</span>. Wrogowie, którzy spojrzą bezpośrednio na Fathoma, ujawniają jego niewidzialność."
+		"fathom_reefdweller_harpoon_passive_desc" "Efekt pasywny: gdy nie bierzesz udziału w walce i jesteś ukrty na minimapie, <span class=\"highlight\">leczysz część swojego maksymalnego zdrowia</span> na sekundę."
+		"modifier_fathom_reefdweller_harpoon_latched"	"Harpun Mieszkańca Rafy"
+		"fathom_reefdweller_harpoon/regen"	"Regeneracja poza walką"
+		"fathom_reefdweller_harpoon/latched"	"Przyczepiono do ściany"
+		"OutOfCombatRegen_label"			"Maksymalna regeneracja zdrowia"
+		"OutOfCombatRegen_postfix"			"%"
 
 
 		//"slork_ability_4"		"Torrent"
@@ -2546,7 +2588,7 @@
 		"viscous_restorative_goo_desc"					"Zamknij cel w sześcianie z regeneratywnej mazi, która <span class=\"highlight\">chroni przed obrażeniami oraz zwiększa regenerację zdrowia. Cel <span class=\"highlight\">nie może podejmować żadnych nowych działań</span>, będąc w sześcianie. Można użyć na sobie. Wciśnij <span class=\"highlight\">[{s:in_mantle}]</span>, by wyjść z sześcianu wcześniej."
 		"viscous_restorative_goo_quip"					"Sześcian to bezpieczne miejsce."
 		"viscous_restorative_goo_t1_desc"				"Zwiększa szybkość ruchu i regenerację wytrzymałości."
-		"viscous_restorative_goo_t2_desc"				"<span class=\"highlight\">Oczyszcza wszystkie osłabienia</span> i skraca czas oczekiwania do <span class=\"highlight\">{s:AbilityCooldown} s</span>."
+		"viscous_restorative_goo_t3_desc"				"<span class=\"highlight\">Oczyszczenie wszystkich osłabień</span> i <span class=\"highlight\">{s:AbilityCooldown} s</span> do czasu oczekiwania."
 		"viscous_restorative_goo_buff_desc"				"Po wyjściu z sześcianu cel ma zwiększoną <span class=\"highlight\">szybkość ruchu i regenerację wytrzymałości</span> na krótki czas."
 		"PostCubeBuffDuration_label"					"Czas trwania wzmocnienia"
 		"PostCubeBuffDuration_postfix"					" s"
@@ -2740,6 +2782,91 @@
 
 		//"modifier_charged_bomb"	"Charged Bomb"
 
+		
+		//-----------------------------------------------------------------------------
+		// Hero Viper
+		//-----------------------------------------------------------------------------
+		"ability_viper_hookdagger" "Ostrze z Hakiem"
+		"ability_viper_hookdagger_desc" "Rzuć ostrze, zadając <span class=\"highlight_spirit\">obrażenia spirytualne</span>. Ostrze następnie wraca razem z hakiem, nakładając <span class=\"highlight_spirit\">obrażenia spirytualne</span> oraz <span class=\"highlight\">spowolnienie</span>."
+		"ability_viper_hookdagger_t3_desc"	"Rzuć dodatkowe <span class=\"highlight\">2 sztylety</span>."
+		"ability_viper_hookdagger_quip" "Rzuć ostrzem, które do ciebie wraca."
+
+		"ability_viper_snakedash" "Pełznięcie"
+		"ability_viper_snakedash_desc" "Masz zwiększony dystans ślizgu oraz możesz wślizgiwać się w górę i obracać się szybciej podczas ślizgu.</span>"
+		"ability_viper_snakedash_t3_desc"	"<span class=\"highlight\">+{s:SlideBulletEvasion}% szansy na uniknięcie nabojów</span> podczas ślizgu."
+		"ability_viper_snakedash_quip" "Zwiększ swoją zręczność przy ślizgu."
+
+		"modifier_snakedash" "Postać Węża"
+		"OutgoingDamage_label" "Początkowe obrażenia"
+		"ReturnDamage_label" "Obrażenia od haka"
+		"OutgoingProjectileLifetime_label" "Opóźnienie haka"
+		"OutgoingProjectileLifetime_postfix" " s"
+
+		"ability_viper_venom" "Śmiertelna Trucizna"
+		"ability_viper_venom_desc" "Wstrzyknij celowi zabójczą truciznę. Po pewnym opóźnieniu trucizna zostaje aktywowana, zadając <span class=\"highlight_spirit\">obrażenia spirytualne</span>. Obrażenia są zwiększane o brakujące zdrowie celu.<br><br><span class=\"diminish\">Ponowne nałożenie trucizny odświeża czas trwania.</span>"
+		"VenomMinDamage_label"			"Minimalne obrażenia od trucizny"
+		"VenomMaxDamage_label"			"Maksymalne obrażenia od trucizny"
+		"VenomDuration_label"			"Czas trwania narastania trucizny"
+		"VenomDuration_postfix"		" s"
+		"VenomMaxDamageHealthPercentage_label"		"Zdrowie do maksymalnych obrażeń"
+		"VenomMaxDamageHealthPercentage_postfix"	"%"
+		"ability_viper_venom_t3_desc"	"<span class=\"highlight\">+{s:VenomMissingHealthDamagePercentage}%</span> do konwersji brakującego zdrowia na obrażenia."
+		"VenomMissingHealthDamagePercentage_label"		"Konwersja brakującego zdrowia na obrażenia"
+		"VenomMissingHealthDamagePercentage_postfix"	"%"
+		"ability_viper_venom_quip" "Wstrzyknij wrogom śmiercionośny jad."
+
+		
+		"ability_viper_ult" "Skamienienie"
+		"ability_viper_ult_desc" "Utwórz zaklęty obszar na ziemi. Po opóźnieniu WSZYSTKIE jednostki na obszarze w kształcie walca zostają <span id=\"TestID\"/></span><span class=\"highlight\">przemienione w kamień</span>. Wrogowie otrzymują także <span class=\"highlight_spirit\">obrażenia spirytualne</span>.<br><br><span class=\"diminish\">Jednostki przemienione w kamień blokują wszystkie obrażenia, ale nie mogą także podejmować działań.<br>Jednostki przemienione w kamień uwalniają się po zablokowaniu wystarczającej ilości obrażeń.</span>"
+		"PetrifyDuration_label"			"Czas trwania skamienienia"
+		"PetrifyDuration_postfix"		" s"
+		"PetrifyDamageBreakThreshold_label"	"Maks. zablokowanych pkt. obr."
+		"ability_viper_ult/viper_ult_petrify" "Przemieniono"
+		"ability_viper_ult_quip" "Zamień sojuszników i wrogów w kamień."
+		"HalfHeight_postfix"	" m"
+
+		//-----------------------------------------------------------------------------
+		// Hero Magician
+		//-----------------------------------------------------------------------------
+		
+		"ability_magician_magicbolt" "Irytujący Grom"
+		"ability_magician_magicbolt_desc" "Wystrzel magiczny grom zadający <span class=\"highlight_spirit\">obrażenia spirytualne</span> oraz nakładający <span class=\"highlight\">zanikające spowolnienie ruchu</span>.<br><br>Wciśnij <span class=\"highlight\">[{s:in_ability1}]</span>, by <span class=\"highlight\">przekierować</span> ją w kierunku twojego celownika."
+		"ProjectileRedirectCount_label" "Maksymalne przekierowania"
+		"ability_magician_magicbolt_t3_desc" "+{s:ProjectileRedirectCount} do liczby maksymalnych przekierowań oraz +{s:Damage} pkt. obrażeń."
+		"ability_magician_magicbolt_quip" "Wystrzel naprowadzany magiczny grom."
+
+		"citadel_ability_magewalk" "Zwód"
+		"citadel_ability_magewalkk_desc" "Na krótko stań się <span class=\"highlight\">nieobieralny za cel</span>, a następnie przeteleportuj się do wskazanego miejsca. Twoje pierwsze <span class=\"highlight\">{s:EmpoweredAttackCount} ataki</span> zadają dodatkowe <span class=\"highlight_spirit\">obrażenia spirytualne</span>.<br><br><span class=\"highlight\">Zwykły rzut</span> to teleportacja do lokalizacji celu.<br><span class=\"highlight\">Rzut alternatywny</span> to teleportacja na miejsce.<br><span class=\"diminish\">Wrogowie nie będą wiedzieć, który rodzaj teleportacji wybierzesz.</span>"
+		"MageTime_label" "Czas nieobieralności za cel"
+		"MageTime_postfix" " s"
+		"modifier_magewalk_empoweredattacks" "Szczęśliwa Karta"
+
+		"ability_magician_cloneturret" "Widmowy Asystent"
+		"ability_magician_cloneturret_desc" "Przyzwij <span class=\"highlight\">asystentkę</span> we wskazanym miejscu. Asystentka kopiuje twoje ataki, rzucając karty zadające <span class=\"highlight_spirit\">obrażenia spirytualne</span>.<br><br>Wciśnij <span class=\"highlight\">[{s:in_ability2}]</span>, by zamienić ciebie i asystentkę miejscami."
+		"ability_magician_cloneturret_t3_desc" "Asystent kopiuje także Irytujący Grom."
+		"ability_magician_cloneturret_quip" "Przywołaj swoją wierną asystentkę."
+
+		"ability_magician_animalcurse" "Królicza Klątwa"
+		"ability_magician_animalcurse_desc" "Zaklnij cel, transformując go w <span class=\"highlight\">królika</span>. Króliki są mniejsze i poruszają się szybciej, ale otrzymują przyrost obrażeń i nie mogą wykonywać większości działań.<br><span class=\"highlight\">Zwykły rzut</span> przemienia wskazanego bohatera.<br><span class=\"highlight\">Alternatywny rzut</span> przemienia ciebie.<br><span class=\"diminish\">Klątwa nie przerywa umiejętności.</span>"
+		"ability_magician_animalcurse/animalhex_curse_modifier" "Zaklęto!"
+		"ability_magician_animalcurse_t3_desc" "<span class=\"highlight\">Zaklnij</span> pobliskich wrogów na <span class=\"highlight\">połowę czasu trwania</span>."
+		"DamageAmpPercentage_label" "Przyrost obrażeń"
+		"DamageAmpPercentage_postfix" "%"
+		"ability_magician_animalcurse_quip" "Przemień swojego wroga w królika."
+		
+
+		"ability_magician_stage" "Oczaruj Publikę"
+		"ability_magician_stage_desc" "Obierz wroga za cel. Ty i ten bohater jesteście zmuszeni do pozostania na scenie i nie możecie jej opuścić. Wszystkie inne postacie są odpychane dalej."
+
+		"ability_magician_shadowclone" "Wielki Homunkulus!"
+		"ability_magician_shadowclone_desc" "Stwórz <span class=\"highlight\">kopię</span> siebie z mniejszą ilością zdrowia i zadawanych obrażeń. Gdy klon umrze lub jego czas dobiegnie końca, eksploduje, zadając obrażenia spirytualne.<br><br><span class=\"diminish\">Kopia nie może używać swojej umiejętności ostatecznej.</span>"
+		"CloneHealthPercentage_label" "Zdrowie kopii"
+		"CloneHealthPercentage_postfix" "%"
+		"CloneDamagePercentage_label" "Obrażenia kopii"
+		"CloneDamagePercentage_postfix" "%"
+		"CloneLifetime_label" "Czas trwania kopii"
+		"CloneLifetime_postfix" " s" 
+		"ability_magician_shadowclone_t3_desc"	"Kopia może rzucać swoją <span class=\"highlight\">umiejętność ostateczną</span>."
 
 		//-----------------------------------------------------------------------------
 		// END HERO ABILITIES
@@ -2775,13 +2902,17 @@
 		"citadel_weapon_hero_astro_set"				"Okultystyczna 45"
 		"citadel_weapon_hero_chrono_set"			"Sekret Branżowy"
 		"citadel_weapon_hero_shiv_set"				"Niepełny Kolor"		
-		"citadel_weapon_hero_tengu_set"				"Ulubieniec Kociego Taty"
+		"citadel_weapon_hero_tengu_set"				"Dłoń Obrończyni"
 		"citadel_weapon_hero_krill_set"				"Żółty Kanarek"
 		"citadel_weapon_hero_lash_set"				"Miara Zawodników"
 		"citadel_weapon_hero_warden_set"			"Cena Wolności"
 		"citadel_weapon_hero_mirage_set"			"Dotrzymane Obietnice"
 		"citadel_weapon_hero_synth_set"				"Czarna Owca"
-		
+		"citadel_weapon_hero_viper_set"				"Grzechotnik"
+		"citadel_weapon_hero_magician_set"			"Kuglarstwo"
+		"citadel_weapon_hero_slork_set"				"Prąd Odpływowy"
+	
+
 		//"citadel_weapon_hero_duo_set"				"Duo Gun"
 		//"citadel_weapon_hero_heavy_set"				"Heavy Gun"
 		//"citadel_weapon_hero_akimbo_set"			"Akimbo Gun"
@@ -2802,8 +2933,8 @@
 		//"citadel_weapon_hero_rutger_set"			"Rutger Gun"
 		//"citadel_weapon_hero_tokamak_set"			"Curie-ous Times"
 		//"citadel_weapon_hero_tempest_set"			"Tempest Gun"
-		"citadel_weapon_hero_wrecker_set"			"Hymn Demolki"
-		
+		"citadel_weapon_hero_wrecker_set"			"Dłoń Rzeźnika"
+
 		// Melee names
 		"ability_melee_ghost"	"Atak wręcz"
 		"citadel_ability_melee_bull"			"Atak wręcz"
@@ -2867,7 +2998,10 @@
 		"hero_yamato_role"				"Wykonuje naładowane ataki z gracją i finezją."
 		"hero_tengu_role"				"Tworzy duet mocy ze szczęśliwym sojusznikiem."
 		"hero_mirage_role"				"Oddaje zgrane czasowo strzały i dopada uciekające cele."
+		"hero_slork_role"				"Wchodzi do akcji, a potem ukrywa się, by odzyskać siły."
 		"hero_synth_role"				"Infiltruje i zakłóca tyły wroga."
+		"hero_viper_role"				"Wślizguje się i morduje wrogów."
+		"hero_magician_role"			"Zwodzi i zaklina wrogów."
 
         //"hero_akimbo_playstyle"         "Akimbo excels at close range combat, where he relies on speed, cone attacks, and a whole lot of bullets to hit as many targets as possible." 
         "hero_astro_playstyle"          "Astro zdaje się na swoje umiejętności doskonałego strzelca, strzelając we wszystko, co wybije w powietrze. Ma dobre oko, dzięki któremu jest w stanie zadać ciężkie obrażenia. Jej umiejętności oparte na ruchu umożliwiają jej oddzielanie wrogów od grupy lub wykonanie pospiesznego odwrotu."
@@ -2887,7 +3021,7 @@
         "hero_kelvin_playstyle"         "Leczenie w odpowiednim momencie oraz umiejętne rozpraszanie walk oddziela łatwe zwycięstwo od sromotnej porażki. Zdolność do ślizgania się po lodzie i spowalniania wrogów zapewnia drużynie Kelvina przewagę w manewrowaniu po polu bitwy, by wszystko poszło pomyślnie."
         "hero_lash_playstyle"           "Lash nie daje swoim wrogom chwili wytchnienia, a to za sprawą albo podlatywania z dużej odległości, by wszcząć walkę z niczego nieświadomymi wrogami, albo pościgu za tymi właśnie wrogami, gdy podejmą próbę ucieczki."
         "hero_krill_playstyle"			"Wkopując się w ziemię, Mo i Krill są w stanie zdobyć przewagę praktycznie nad każdym. A gdy już znajdą się bliżej, to skutki mogą okazać się katastrofalne."
-        //"hero_nano_playstyle"           "(in flux) Like any good politician, Nano turns people against each other and lets them do her dirty work before swooping in and claiming credit for everything."
+        "hero_nano_playstyle"           "Calico wykorzystuje cienie na swoją korzyść, wplatając i wyplatając się z walki, by polować na wrogów jeden za drugim."
         "hero_orion_playstyle"    		"Jako przebiegły drapieżca Grey Talon wykorzystuje połączenie zabójczej celności, pułapek i sprytnego zajmowania pozycji, by obalić nawet najtwardszych przeciwników."
         "hero_shiv_playstyle"           "Shiva absolutnie nie interesuje uczciwa gra i właśnie dlatego zdaje się na strategie polegające na uderzaniu i uciekaniu, by osłabić wrogów przed daniem nura po zabójstwo."
         //"hero_tempest_playstyle"        "Much like how a child has no idea how a TV works, no one knows exactly HOW Tempest kills you.  Was it a tesla coil?  You didn't see a tesla coil.  Either way, you're dead and Tempest is laughing."
@@ -2900,9 +3034,10 @@
 		//"hero_rutger_playstyle"		"Rocket Launcher gives him some rocket-jumping capabilities, Force Field allows him to close off movement options, Cheat Death lets him turn bad fights around, and a Pulse released in the middle of a teamfight can dictate the outcome."
 		"hero_synth_playstyle"		"Pocket dysponuje potężną strzelbą, a dzięki szczupłej budowie ciała może polegać na swojej umiejętności ucieczki na krótki czas do mistycznego nesesera i teleportacji za pomocą latającego płaszcza, by przetrwać bliskie starcia."
 		"hero_mirage_playstyle"		"Mirage może otoczyć się gwałtownym tornadem, by dogonić wrogów i unieść ich w powietrze. Jego skarabeusze pomagają mu przetrwać w walce z wieloma wrogami, a on sam jest zawsze gotowy pomóc sojusznikowi lub dać się we znaki wrogowi niezależnie od jego położenia."
-		//"hero_slork_playstyle"		"Slork's weapon poisons all it hits. Primary fire hits all in a cone, and aimed fire shoots a dart which crits when hitting a poisoned target."
+		"hero_slork_playstyle"		"Będący zabójcą na krótki dystans Fathom płynnie wchodzi i wychodzi z walki oraz wygrywa przedłużające się starcia."
 		"hero_tengu_playstyle"		"Ivy dysponuje sztuczkami zakłócającymi walkę, które spowalniają i ogłuszają wrogów. Jest najskuteczniejsza, gdy połączy siły z sojusznikiem, dzięki czemu współdzielą leczenie, a ich broń zostaje wzmocniona."
-
+		"hero_viper_playstyle"		"Dysponująca potężną bronią i śmiercionośnym jadem Viper jest w stanie prześlizgnąć się na tyły wroga i zdjąć cele o wysokim priorytecie w huraganie kul."
+		"hero_magician_playstyle"	"Z pomocą swojego niechętnego asystenta Magician może dezorientować wrogów poprzez wykręcające rzeczywistość na drugą stronę klątwy i szybko przelatujące karty."
 	
 		//"hero_akimbo_lore"				"Though he was built by a lonely gunslinger, Akimbo was taught that he couldn't use a gun to solve all his problems.  This frustrated the robot outlaw immensely, but as time passed Akimbo realized that his human father was right.  A gun only solved about 75% of his problems.  To solve ALL his problems, he would need at least 2 guns." 
 		"hero_astro_lore"				"Są ludzie, którzy całe życie marzyli o przeprowadzce do Nowego Jorku. Ale Holliday do nich nie należy. Zadowalała ją kariera szeryfki w małym miasteczku, gdzie wykonywane przez nią sztuczki z bronią palną na miejscowym jarmarku były jedyną okazją do jej użycia… A potem zaczęły się morderstwa.\n\nMakabryczne i nieludzkie – ciała zostały znalezione z rozprutymi klatkami piersiowymi… a wnętrzności walały się poszarpane jakby przez ptaki. Holliday namierzyła mordercę, wędrownego muzyka folkowego, któremu media nadały miano „Trubadura”. Jednak gdy stanęła z nim twarzą w twarz, przemienił się w chmarę wron i odleciał.\n\nOd tego zdarzenia minęło pół roku i mimo że morderstwa w środkowym Illinois ustały, to dochodzenie Holliday wręcz przeciwnie. Jej zdaniem Trubadur podróżuje do Nowego Jorku i gdy tylko Holliday go dorwie, to zabije tego złego sukinsyna."
@@ -2930,8 +3065,9 @@
 		"hero_tengu_lore"				"Gargulec nie wiedział, co się działo, gdy nagle obudził się do życia… Wiedział tylko, że dużemu człowiekowi i małemu działa się krzywda. Gargulec wskoczył więc do akcji, sprawiając, że napastnicy w popłochu rzucili się do ucieczki. Mały człowiek podziękował gargulcowi i zapytał go o imię. Ale gargulec nie miał imienia. Mały człowiek powiedział więc: „Nazwę cię Ivy”. Gargulec pokryty w tym czasie bluszczem pomyślał, że to trochę zbyt oczywiste, ale zdecydował się nie protestować przez wzgląd na małego człowieka.\n\n Ludzie zapytali, czy Ivy chce iść z nimi do domu, by mogli się odwdzięczyć, więc Ivy z nimi poszła. Tego wieczora dowiedziała się wielu rzeczy. Rodzina nazywała się Arroyo. A ta mała nazywała się Sophia. Talerz pyszności nazywali mofongo. Ale co najważniejsze, dowiedziała się, że napastnicy nazywali się „Syndykatem Mendoza” i krzywdzili ludzi… miłych ludzi takich jak rodzina Arroyo.\n\nOd momentu, gdy rodzina Arroyo zabrała Ivy do domu, minęło 18 lat… i w tym właśnie czasie z rozbicia Syndykatu Mendoza i wyrwania Hiszpańskiego Harlemu z jego szponów uczyniła swoją misję. Jednak tak to bywa, że kiedy poświęcisz swoje życie pogoni tylko za jednym celem przez niemal 2 dekady, to po jego osiągnięciu nie wiesz, co ze sobą zrobić. Po raz pierwszy w swoim życiu Ivy jest gotowa wyruszyć poza Hiszpański Harlem, by zobaczyć, co prócz wymierzania sprawiedliwości na własną rękę ma do zaoferowania świat."
 		"hero_synth_lore"				"Arin Fairfax, najstarszy spadkobierca Fairfax Industries, żył w ukryciu przez ostatnie 5 lat po tym, gdy został postrzelony i pozostawiony na pastwę losu w dniu swoich 18 urodzin. Arin nie wie, kto stara się go powstrzymać przed przejęciem kontroli nad firmą jego rodziców… ale w przepełnionym chciwością gnieździe żmij, jakim jest Fairfax Industries, to mógł być ktokolwiek.\n\nPrzyjąwszy przydomek „Pocket”, Arin desperacko stara się utrzymać swoją prawdziwą tożsamość w tajemnicy… nie tylko dla własnej ochrony, ale dlatego, że chce wytworzyć swoją własną tożsamość, odrębną od swoich rodziców."
 		"hero_mirage_lore"				"Dżiny stanowią jedną z ciekawszych grup ludzi we współczesnym świecie. Dysponując wielką mocą w kontrolowanych dawkach, dżiny nie są w stanie utrzymać cielesnej formy dłużej niż 48 minut bez spoczynku w naczyniu. W rezultacie większość dżinów zatrudnia ludzkich ochroniarzy do transportu, ochrony osobistej i towarzystwa.\n\nJednym z takich ochroniarzy jest Mirage, który został najęty przez dżinowego ambasadora Nashalę Diona i który przebywa w Nowym Jorku na misji dyplomatycznej. Dżin żywi nadzieję, że uda się im wynegocjować z rządem amerykańskim sprzedaż części Wyoming, by mogli utworzyć niepodległe państwo dla swego ludu."
-
-
+		"hero_slork_lore"				"Dla owianego złą sławą potwora z głębin znanego jako Fathom przyjemność leżała w kultywowaniu wokół siebie aury tajemniczości i strachu. Był zadowolony z ucztowania na zbłąkanych żeglarzach i wymuszania danin od pobliskich selkie, ale potem pojawił się Adwersarz i wszystko zepsuł. W końcu jeśli chodzi o sianie terroru, to jak można się mierzyć z ludobójczą siłą natury? To było nieuczciwe. Fathom musiał coś zrobić, by uratować siebie samego od odejścia w cień i zapomnienie… tak więc stara się on przyzwać patrona, by zapewnić, że na zawsze pozostanie drapieżnikiem szczytowym, jaki żyje w głębinach."
+		"hero_viper_lore"				"Gdy przychodzi do łamania prawa, to bycie nieuchwytnym jest tak jakby istotną częścią zadania. Z tym, że Viper nikt tego nigdy nie powiedział. Fortunnie dla niej, jeśli jest jedna rzecz, w której jest ona lepsza od bycia aresztowaną, to uciekanie z kicia.\n\nSpędziwszy czas za kratami każdego większego więzienia nowojorskiego obszaru metropolitarnego, Viper wykreowała imponującą siatkę ulicznych szumowin, które wiszą jej przysługę. Wykreowała też imponującą siatkę ulicznych szumowin, które chcą jej śmierci, ale ona stara się koncentrować na pozytywach."
+		"hero_magician_lore"			"Rodzice Henry'ego mówili mu, że był on zbyt młody i impulsywny, by zadzierać z prawdziwą magią, toteż dali mu talię kart, by się nimi bawił. Zręczne palce okazały się jego drugą naturą i wkrótce potem oczarowywał kolegów z klasy fantastycznymi wyczynami iluzji pozbawionymi mistycznych artefaktów czy inkantacji.\n\nZa czasów liceum poznał Savannę, a ich wspólna miłość do magii na scenie wytworzyła porywający romans. Niedługo potem zakochali się w sobie i przygotowali wspólny występ. Oczywiście byli sobie przeznaczeni, tak więc Henry oświadczył się Savannie na studniówce i pobrali się po ukończeniu szkoły.\n\nJak można było się spodziewać, rodzice obydwojga nowożeńców nie cieszyli się na myśl o tym, ale Henry i Savannah wiedzieli, że są bratnimi duszami. Tak więc zapieczętowali ich wzajemną miłość przez poproszenie mistyka krwi, by powiązał ich dusze na wieczność.\n\nGdy sceniczny wypadek pochłonął ich życia, nikt nie wiedział, kogo za to winić. Henry twierdzi, że Savannah była w złym miejscu. Savannah twierdzi, że Henry nie poczekał na swój znak. Jedno jest pewne: odkąd ich dusze są ze sobą powiązane, żadne z nich nie może się z tym pogodzić. Teraz ta przekomarzająca się para duchów musi współpracować, jeśli chce mieć choć cień szansy na odczynienie ich wiecznego pojednania."
 
 	}
 }

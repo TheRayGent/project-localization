@@ -10,10 +10,10 @@
 
 		"MODIFIER_STATE_ROOTED"								"Lumpuh"
 		"MODIFIER_STATE_DISARMED"							"Senjata Dilucuti"
-		"MODIFIER_STATE_SILENCED"							"Silenced"
-		"MODIFIER_STATE_STUNNED"							"Stun"
+		"MODIFIER_STATE_SILENCED"							"Dibungkam"
+		"MODIFIER_STATE_STUNNED"							"Terkena Stun"
 		"MODIFIER_STATE_INVULNERABLE"						"Kebal"
-		"MODIFIER_STATE_TECH_INVULNERABLE"					"Kekebalan Spirit"
+		"MODIFIER_STATE_TECH_INVULNERABLE"					"Spirit Kebal"
 		//"MODIFIER_STATE_BURNING"							"Burning"
 
 		// Commenting this out so it doesn't show overhead of the player your applied it to
@@ -34,15 +34,16 @@
 		// Status Effects
 		"Citadel_StatusEffect"					"Efek Status"
 		"Citadel_StatusEffectStun"				"Stun"
-		"Citadel_StatusEffectEMP"				"Silenced"
+		"Citadel_StatusEffectEMP"				"Dibungkam"
 		"Citadel_StatusEffectFreeze"			"Beku"
 		"Citadel_StatusEffectBurn"				"Terbakar"
 		"Citadel_StatusEffectBleed"				"Pendarahan"
 		"Citadel_StatusEffectSleep"				"Tidur"
-		"Citadel_StatusEffectTethered"			"Tether"
+		"Citadel_StatusEffectTethered"			"Tambat"
 		"Citadel_StatusEffectImmobilize" 		"Lumpuh"
-		"Citadel_StatusEffectDisarmed"			"Senjata Dilucuti"
-		"Citadel_StatusEffectInvisible"			"Invisible"
+		"Citadel_StatusEffectDisarmed"			"Pelucutan Senjata"
+		"Citadel_StatusEffectInvisible"			"Tak Terlihat"
+		"Citadel_StatusEffectPetrify"				"Membatu"
 		//"Citadel_StatusEffectStacks"			"Stacks "
 		//"Citadel_StatusEffectInfiniteClip"		"Infinite Ammo"
 		//"Citadel_StatusEffectBulletDebuff"		"Bullet Debuff"
@@ -54,14 +55,17 @@
 		//"modifier_citadel_rapid_fire"			"Bullet Storm"
 		//"modifier_citadel_damageboost"			"Damage Boost"
 		//"modifier_citadel_damage_reduction" 	"Armor Boost"
-		"modifier_slowaura" 					"Slowed"
-		"modifier_citadel_slowtarget" 			"Slowed"
-		"modifier_citadel_lineslow"				"Slowed"
-		"modifier_slow_base"																		"Slowed"
+		"modifier_slowaura" 					"Diperlambat"
+		"modifier_citadel_slowtarget" 			"Diperlambat"
+		"modifier_citadel_lineslow"				"Diperlambat"
+		"modifier_slow_base"																		"Diperlambat"
 		"modifier_damageovertime" 				"Pendarahan"
-		"modifier_citadel_stunned" 				"Stun"
-		"modifier_citadel_knockdown"			"Stun"
-//"modifier_citadel_speed_boost" 			"Speed Boost"
+		"modifier_citadel_stunned" 				"Terkena Stun"
+		"modifier_citadel_knockdown"			"Terkena Stun"
+		//"modifier_citadel_delayed_stun"			"Delayed Stun"
+		//"modifier_citadel_knockdown_stumble"	"Stumble"
+		"modifier_citadel_banished"				"Dibuang"
+		//"modifier_citadel_speed_boost" 			"Speed Boost"
 		//"modifier_pullaura" 					"Pulled"
 		//"modifier_healaura" 					"Healing"
 		"modifier_citadel_root"					"Lumpuh"
@@ -70,7 +74,7 @@
 		//"modifier_invis_start_delay" 			"Entering Stealth"
 		//"modifier_invis_fading"					"Fading"
 		//"modifier_camouflage_invis"				"Camouflaged"
-		"modifier_citadel_silenced"				"Silenced"
+		"modifier_citadel_silenced"				"Dibungkam"
 		//"emp_immune"							"Silenced Immune"
 		//"modifier_citadel_muted"				"Muted"
 		"modifier_citadel_disarmed"				"Senjata Dilucuti"
@@ -93,9 +97,9 @@
 		//-----------------------------------------------------------------------------
 		// Ability Property Text
 		//-----------------------------------------------------------------------------
-		"Citadel_AbilityProperty_OnHit"			"Saat terkena:"
+		"Citadel_AbilityProperty_OnHit"			"Saat Terkena:"
 		"Citadel_AbilityProperty_OnExplode"	"Saat Meledak:"
-		"Citadel_AbilityProperty_OnAttach"	"Saat Menempel:"
+		"Citadel_AbilityProperty_OnAttach"	"Saat Dipasang:"
 
 
 		//-----------------------------------------------------------------------------
@@ -166,7 +170,7 @@
 		"StatDesc_TechCooldownBetweenCharges_postfix"	"%"
 		"StatDesc_TechRange"							"Jangkauan Skill"
 		"StatDesc_TechRange_postfix"					"%"
-		"StatDesc_MaxChargesIncrease"					"Isi Daya Maks. Meningkat"
+		"StatDesc_MaxChargesIncrease"					"Peningkatan Isi Daya Maks."
 		//"StatDesc_RechargeRate"							"Recharge Rate"
 		"StatDesc_TechDuration"							"Durasi Skill"
 		"StatDesc_TechDuration_postfix"					" %"
@@ -188,7 +192,7 @@
 		"StatDesc_ReloadSpeed_prefix"					"{s:sign}"
 		"StatDesc_ReloadSpeed"							"Pengurangan Isi Ulang"
 		"StatDesc_ReloadSpeed_postfix"					"%"
-		"StatDesc_CritDamageReceivedScale"				"Pengurangan Kritis"
+		"StatDesc_CritDamageReceivedScale"				"Pengurangan Damage Kritis"
 		"StatDesc_CritDamageReceivedScale_postfix"		"%"
 		"StatDesc_StaminaCooldown"						"Cooldown Stamina"
 		"StatDesc_StaminaCooldown_postfix"				"dtk."
@@ -201,6 +205,8 @@
 		"StatDesc_HealingOutput_postfix"				"%"
 		"StatDesc_CritDamageBonusScale"					"Tingkat Bonus Kritis"
 		"StatDesc_CritDamageBonusScale_postfix"			"%"
+		"StatDesc_MeleeResist"							"Pertahanan Jarak Dekat"
+		"StatDesc_MeleeResist_postfix"					"%"
 
 		"StatDesc_BulletSpeed"							"Kecepatan Peluru"
 		"StatDesc_BulletSpeed_postfix"					"m/dtk."
@@ -215,17 +221,17 @@
 		//"StatDesc_DefensePower"							"Defense Power"
 
 		"StatDesc_TechLifesteal_prefix"					"{s:sign}"
-		"StatDesc_TechLifesteal"						"Curi Nyawa Spirit"
+		"StatDesc_TechLifesteal"						"Curi HP Spirit"
 		"StatDesc_TechLifesteal_postfix"				"%"
 
 		"StatDesc_TechLifestealNonHero_prefix"			"{s:sign}"
-		"StatDesc_TechLifestealNonHero"					"Curi Nywa Spirit pada Non Hero"
+		"StatDesc_TechLifestealNonHero"					"Curi HP Spirit pada Non-Hero"
 
 		"StatDesc_BulletLifesteal_prefix"					"{s:sign}"
-		"StatDesc_BulletLifesteal"						"Curi Nyawa Peluru"
+		"StatDesc_BulletLifesteal"						"Curi HP Peluru"
 		"StatDesc_BulletLifesteal_postfix"				"%"
 
-		"Attribute_EWeaponAttribute_RapidFire"			"Rapid Fire"
+		"Attribute_EWeaponAttribute_RapidFire"			"Tembakan Beruntun"
 		"Attribute_EWeaponAttribute_BurstFire"			"Semburan Tembakan"
 		"Attribute_EWeaponAttribute_Spreadshot"			"Tembakan Tersebar"
 		"Attribute_EWeaponAttribute_BeamWeapon"			"Senjata Laser"
@@ -233,7 +239,7 @@
 		"Attribute_EWeaponAttribute_MediumRange"		"Jarak Menengah"
 		"Attribute_EWeaponAttribute_LongRange"			"Jarak Jauh"
 		"Attribute_EWeaponAttribute_HeavyHitter"		"Si Palu Godam"
-		"Attribute_EWeaponAttribute_Projectile"			"Tembakan"
+		"Attribute_EWeaponAttribute_Projectile"			"Proyektil"
 
 		//"WeaponPowerAttribute_Desc"						"%s1 to any weapon damage bonus"
 		//"ArmorAttribute_Desc"							"%s1 to any bullet and spirit armor bonus"
@@ -256,7 +262,7 @@
 		//-----------------------------------------------------------------------------
 		"EMultiplyBase_postfix"						"%"
 
-		"HealAmount_label"							"Jumlah Penyembuhan"
+		"HealAmount_label"							"Besar Penyembuhan"
 		"HealInterval_label"						"Interval Penyembuhan"
 		"HealInterval_postfix"						"dtk."
 		
@@ -320,7 +326,7 @@
 		"BaseAttackDamage_label"						"Damage Dasar"
 
 		"BonusHealth_prefix"							"{s:sign}"
-		"BonusHealth_label"							"Health Bonus"
+		"BonusHealth_label"							"Bonus Health"
 
 		"MaxHealth_prefix"							"{s:sign}"
 		"MaxHealth_label"							"Health Maks."
@@ -361,15 +367,15 @@
 		//"ActiveHealthRegenBoost_postfix"				"hp/sec"
 		"ActiveHealthRegenBoost_label"				"Pemulihan Health"
 
-		"NonPlayerBonusWeaponPower_label"			"Damage Senjata vs NPC"
+		"NonPlayerBonusWeaponPower_label"			"Damage Senjata terhadap NPC"
 		"NonPlayerBonusWeaponPower_prefix"			"+"
 		"NonPlayerBonusWeaponPower_postfix"			"%"
-		"NonPlayerBonusWeaponPower_conditional"		"vs NPC"
+		"NonPlayerBonusWeaponPower_conditional"		"terhadap NPC"
 
-		"NonPlayerBulletResist_label"			"Pertahanan Peluru vs NPC"
+		"NonPlayerBulletResist_label"			"Pertahanan Peluru terhadap NPC"
 		"NonPlayerBulletResist_prefix"			"+"
 		"NonPlayerBulletResist_postfix"			"%"
-		"NonPlayerBulletResist_conditional"		"vs NPC"
+		"NonPlayerBulletResist_conditional"		"terhadap NPC"
 
 		"BonusMeleeDamagePercent_prefix"				"{s:sign}"
 		"BonusMeleeDamagePercent_postfix"				"%"
@@ -378,6 +384,7 @@
 		"BonusMeleeDamage_prefix"						"{s:sign}"
 		"BonusMeleeDamage_label"						"Damage Jarak Dekat"
 
+		"FuseTime_label"								"Waktu Tunggu Peledakan"
 		"FuseTime_postfix"								"dtk."
 
 		"BonusAmmoRegen_prefix"							"{s:sign}"
@@ -511,17 +518,17 @@
 
 		"BonusFireRatePlayerUnit_prefix"				"{s:sign}"
 		"BonusFireRatePlayerUnit_postfix"				"%"
-		"BonusFireRatePlayerUnit_label"					"Tingkat Tembakan Anak Buah"
+		"BonusFireRatePlayerUnit_label"					"Tingkat Tembakan Minion"
 
 		"BonusFireRateNPC_prefix"							"{s:sign}"
 		"BonusFireRateNPC_postfix"							"%"
-		"BonusFireRateNPC_label"							"Tingkat tembakan NPC"
+		"BonusFireRateNPC_label"							"Tingkat Tembakan NPC"
 
 		"BonusMeleeAttackSpeed_prefix"					"{s:sign}"
 		"BonusMeleeAttackSpeed_postfix"					"%"
 		//"BonusMeleeAttackSpeed_label"					"Melee Speed"
 
-		"AbilityDamageReduction_label"				"Pengurangan Damage Roh"
+		"AbilityDamageReduction_label"				"Pengurangan Damage Spirit"
 		"AbilityDamageReduction_postfix"				"%"
 
 		//"SlowProcChance_label"						"Chance to slow on hit"
@@ -546,16 +553,18 @@
 
 		"CooldownReduction_prefix"						"{s:sign}"
 		"CooldownReduction_postfix"						"%"
-		"CooldownReduction_label"						"Cooldown Turun"
+		"CooldownReduction_label"						"Pengurangan Cooldown"
 
 		"ImbuedCooldownReduction_prefix"				"{s:sign}"
 		"ImbuedCooldownReduction_postfix"				"%"
-		"ImbuedCooldownReduction_label"					"Pengurangan Cooldown Kemampuan yang Diisi"
+		"ImbuedCooldownReduction_label"					"Pengurangan Cooldown Skill Terisi"
 
 		"NonImbuedCooldownReduction_prefix"				"{s:sign}"
 		"NonImbuedCooldownReduction_postfix"			"%"
+		"NonImbuedCooldownReduction_label"				"Pengurangan Cooldown Skill Tidak Terisi"
+
 		"CooldownReductionFlat_postfix"					"dtk."
-		"CooldownReductionFlat_label"					"Cooldown Turun"
+		"CooldownReductionFlat_label"					"Pengurangan Cooldown"
 
 		"BonusAbilityCharges_prefix"					"{s:sign}"
 		"BonusAbilityCharges_label"					"Bonus Isi Daya Skill"
@@ -565,7 +574,7 @@
 		"BonusChargedAbilityDamage_postfix"				"%"
 
 		"CooldownBetweenChargeReduction_prefix"			"+"
-		"CooldownBetweenChargeReduction_label"			"Waktu Lebih Cepat Antara Isi Daya"
+		"CooldownBetweenChargeReduction_label"			"Pengisian Lebih Cepat per Isi Daya"
 		"CooldownBetweenChargeReduction_postfix"		"%"
 
 		"BonusSprintSpeed_prefix"						"{s:sign}"
@@ -585,7 +594,7 @@
 		"BonusSuperSprintSpeedPercent_prefix"			"{s:sign}"
 		"BonusSuperSprintSpeedPercent_postfix"			"%"
 
-		"TotalHealthRegen_label"						"Total HP Pemulihan"
+		"TotalHealthRegen_label"						"Total Pemulihan HP"
 
 		"StatusResistancePercent_postfix"				"%"
 		"StatusResistancePercent_label"				"Pertahanan Debuff"
@@ -611,27 +620,27 @@
 		"BonusBulletSpeedPercent_label"					"Kecepatan Peluru"
 
 		"LifeStealPercent_prefix"						"{s:sign}"
-		"LifeStealPercent_label"						"Lifesteal"
+		"LifeStealPercent_label"						"Curi HP"
 		"LifeStealPercent_postfix"						"%"
 
 		"LifestealPercentHero_prefix"						"{s:sign}"
-		"LifestealPercentHero_label"					"Lifesteal"
+		"LifestealPercentHero_label"					"Curi HP"
 		"LifestealPercentHero_postfix"					"%"
 
 		"LifestealPercentNonHero_prefix"						"{s:sign}"
-		"LifestealPercentNonHero_label"					"Curi Nyawa pada Non Hero"
+		"LifestealPercentNonHero_label"					"Curi HP pada Non-Hero"
 		"LifestealPercentNonHero_postfix"				"%"
 
 		"BulletLifestealPercent_prefix"						"{s:sign}"
-		"BulletLifestealPercent_label"					"Curi Nyawa Peluru"
+		"BulletLifestealPercent_label"					"Curi HP Peluru"
 		"BulletLifestealPercent_postfix"				"%"
 
 		"TechLifestealPercent_prefix"					"{s:sign}"
-		"TechLifestealPercent_label"						"Curi Nyawa Spirit"
+		"TechLifestealPercent_label"						"Curi HP Spirit"
 		"TechLifestealPercent_postfix"					"%"
 
 		"MeleeLifestealPercent_prefix"						"{s:sign}"
-		"MeleeLifestealPercent_label"					"Curi Nyawa Jarak Dekat"
+		"MeleeLifestealPercent_label"					"Curi HP Jarak Dekat"
 		"MeleeLifestealPercent_postfix"					"%"
 
 		"StunDuration_label"							"Durasi Stun"
@@ -641,10 +650,10 @@
 		"StunDelay_postfix"								"dtk."
 
 		"MinStunDuration_postfix"						"dtk."
-		"MinStunDuration_label"							"Durasi Min. Stun"
+		"MinStunDuration_label"							"Durasi Stun Min."
 
 		"MaxStunDuration_postfix"						"dtk."
-		"MaxStunDuration_label"							"Durasi Maks. Stun"
+		"MaxStunDuration_label"							"Durasi Stun Maks."
 
 		//"MeleeDamageReduction_label"					"Melee Armor"
 
@@ -665,7 +674,7 @@
 		"ChainCount_label"							"Lompatan Maks."
 		"BonusPerChain_label"						"Damage saat Melompat"
 
-		"RichochetChance_label"						"Kesempatan Aktivasi"
+		"RichochetChance_label"						"Peluang Aktivasi"
 		"RichochetChance_postfix"						"%"
 
 		//"SlowSpeedLimit_label"						"Speed Reduced To"
@@ -688,12 +697,15 @@
 
 		"HealAmpReceivePenaltyPercent_label"		"Pengurangan Penyembuhan"
 		"HealAmpReceivePenaltyPercent_postfix"			"%"
+		
+		"HealAmpRegenPenaltyPercent_label"		"Pengurangan Penyembuhan"
+		"HealAmpRegenPenaltyPercent_postfix"	"%"
 
 		"DegenResistance_label"						"Pertahanan Pengurangan Penyembuhan"
 		"DegenResistance_postfix"					"%"
 		"DegenResistance_prefix"					"{s:sign}"
 
-		"ProcChance_label"							"Kesempatan Aktivasi"
+		"ProcChance_label"							"Peluang Aktivasi"
 		"ProcChance_postfix"							"%"
 
 		//"OutgoingDamageReduction_label"				"Attack Damage"
@@ -762,7 +774,7 @@
 		//"DodgeAnimSpeedScale_label"					"Dodge Speed Multiplier"
 		"DodgeAnimSpeedScale_postfix"					"x"
 
-		"BonusDamagePercent_label"					"Damage Bonus"
+		"BonusDamagePercent_label"					"Bonus Damage"
 		"BonusDamagePercent_postfix"					"%"
 
 		"BulletDamagePercent_prefix"					"{s:sign}"
@@ -770,15 +782,15 @@
 		"BulletDamagePercent_postfix"					"%"
 
 		"AbilityLifestealPercent_prefix"					"{s:sign}"
-		"AbilityLifestealPercent_label"				"Curi Nyawa Spirit"
+		"AbilityLifestealPercent_label"				"Curi HP Spirit"
 		"AbilityLifestealPercent_postfix"				"%"
 		
 		"AbilityLifestealPercentHero_prefix"					"{s:sign}"
-		"AbilityLifestealPercentHero_label"				"Curi Nyawa Spirit"
+		"AbilityLifestealPercentHero_label"				"Curi HP Spirit"
 		"AbilityLifestealPercentHero_postfix"			"%"
 
 		"AbilityLifestealPercentNonHero_prefix"					"{s:sign}"
-		"AbilityLifestealPercentNonHero_label"			"Curi Nywa Spirit pada Non Hero"
+		"AbilityLifestealPercentNonHero_label"			"Curi HP Spirit pada Non-Hero"
 		"AbilityLifestealPercentNonHero_postfix"		"%"
 
 		"RegenDuration_label"							"Durasi Pemulihan"
@@ -822,6 +834,8 @@
 
 		"BonusAttackRangePercent_prefix"				"{s:sign}"
 		"BonusAttackRangePercent_postfix"				"%"
+		"BonusAttackRangePercent_label"					"Jarak Jangkauan Senjata"
+
 		"WeaponRecoilReduction_postfix"					"%"
 		//"WeaponRecoilReduction_label"					"Recoil Reduction"
 
@@ -837,7 +851,7 @@
 		"TurretFireRate_prefix"							"+"
 		"TurretFireRate_postfix"						"%"
 
-		"TurretDPS_label"								"DPS Senjata"
+		"TurretDPS_label"								"DPS Tank Mini"
 
 		//"MobileResupplyRegenMultiplier_label"			"Mobile Resupply Regen Multiplier"
 		"MobileResupplyRegenMultiplier_postfix"			"x"
@@ -920,10 +934,10 @@
 		//"TechResistReduction_label"					"Target Spirit Resist"
 		//"TechResistReduction_prefix"					""
 		"TechResistReduction_postfix"					"%"
-		"DamagePulseAmount_label"						"Damage Getaran"
-		"DamagePulseInterval_label"					"Interval Getaran"
+		"DamagePulseAmount_label"						"Damage Denyut"
+		"DamagePulseInterval_label"					"Interval Denyut"
 		"DamagePulseInterval_postfix"					"dtk."
-		"DamagePulseRadius_label"						"Radius getaran"
+		"DamagePulseRadius_label"						"Radius Denyut"
 		"DamagePulseRadius_postfix"					"m"
 
 		"CloseRangeBonusDamagePercent_prefix"			"+"
@@ -965,9 +979,11 @@
 		"TechRangeMultiplier_postfix"					"%"
 
 		"ImbuedTechRangeMultiplier_prefix"				"{s:sign}"
+		"ImbuedTechRangeMultiplier_label"				"Jangkauan Skill Terisi"
 		"ImbuedTechRangeMultiplier_postfix"				"%"
 
 		"NonImbuedTechRangeMultiplier_prefix"			"{s:sign}"
+		"NonImbuedTechRangeMultiplier_label"			"Jangkauan Skill Tidak Terisi"
 		"NonImbuedTechRangeMultiplier_postfix"			"%"
 
 		//"ThrowRange_label"								"Throw Range"
@@ -1013,7 +1029,7 @@
 		"BonusZipLineSpeed_prefix"						"{s:sign}"
 		//"BonusZipLineSpeed_label"						"Hyperline Speed"
 
-		"MaxProjectiles_label"						"Jumlah Tembakan"
+		"MaxProjectiles_label"						"Jumlah Proyektil"
 
 		//"DeathDelay_label"							"Delay Death Duration"
 
@@ -1062,7 +1078,7 @@
 		"Range_postfix"									"m"
 		"Range_label"									"Jangkauan"
 
-		"MinRange_label"								"Jarak Min."
+		"MinRange_label"								"Jangkauan Min."
 		"MinRange_postfix"								"m"
 
 		//"ConeRadius_label"							"Lightning Distance"
@@ -1090,7 +1106,7 @@
 		"HealingPercent_label"						"% Penyembuhan"
 		"HealingPercent_postfix"						"%"
 
-		"AbilityCooldownBetweenCharge_label"			"Tunda Pengisian"
+		"AbilityCooldownBetweenCharge_label"			"Penundaan Pengisian Daya"
 		"AbilityCooldownBetweenCharge_postfix"			"dtk."
 
 		"AbilityDuration_postfix"						"dtk."
@@ -1112,7 +1128,7 @@
 		"AbilityChannelTime_label"					"Durasi Skill"
 
 		"AbilityCastDelay_postfix"					"dtk."
-		"AbilityCastDelay_label"					"Penundaan Skill"
+		"AbilityCastDelay_label"					"Penundaan Penggunaan Skill"
 
 		"AbilityCharges_label"						"Daya"
 		
@@ -1123,15 +1139,17 @@
 		
 		
 		"NonImbuedBonusDuration_prefix"				"{s:sign}"
+		"NonImbuedBonusDuration_label"				"Durasi Skill Tidak Terisi"
 		"NonImbuedBonusDuration_postfix"			"%"		
 		
 		"ImbuedBonusDuration_prefix"					"{s:sign}"
+		"ImbuedBonusDuration_label"						"Durasi Skill Terisi"
 		"ImbuedBonusDuration_postfix"					"%"
 
 		"MissCooldown_postfix"							"dtk."
 		//"MissCooldown_label"							"Cooldown on miss"
 
-		"ShockDelay_label"							"Tunda Sebelum Stun"
+		"ShockDelay_label"							"Penundaan sebelum Stun"
 		"ShockDelay_postfix"							"dtk."
 
 		"ArmTime_label"									"Waktu Aktif"
@@ -1198,6 +1216,7 @@
 		"BaseDamagePct_postfix"							"%"
 
 		"TargetsPerTick_label"						"Target Kena per Tembakan"
+		"HealthToDamage_label"						"Rasio Health:Damage"
 		"DamageHealPerTarget_label"						"Damage/Penyembuhan per Target"
 
 		//"DeathTaxHeal_label"							"Health Per Kill"
@@ -1214,7 +1233,7 @@
 		//"ImpaleDuration_label"						"Impale Duration"
 		"ImpaleDuration_postfix"						"dtk."
 
-		"ExplosionRadius_label"						"Radius Ledakan"
+		"ExplosionRadius_label"						"Radius Tembakan"
 		"ExplosionRadius_postfix"						"m"
 
 		"MinExplosionRadius_label"					"Radius Ledakan Min."
@@ -1246,7 +1265,7 @@
 		//"MeleeAttackLength_label"						"Melee Range"
 		"MeleeAttackLength_postfix"						"m"
 
-		"ArmingDuration_label"						"Durasi Bersiap"
+		"ArmingDuration_label"						"Durasi Siap Meledak"
 		"ArmingDuration_postfix"						"dtk."
 
 		"AirJumpVerticalSpeedPercent_prefix"			"{s:sign}"
@@ -1274,10 +1293,10 @@
 
 		//"BouncePadStompCount_label"					"Max Head Stomps"
 
-		"NPCProcChance_label"							"Kesempatan Aktivasi Pasukan"
+		"NPCProcChance_label"							"Peluang Aktivasi Pasukan"
 		"NPCProcChance_postfix"							"%"
 
-		"HeroProcChance_label"						"Kesempatan Aktivasi Hero"
+		"HeroProcChance_label"						"Peluang Aktivasi Hero"
 		"HeroProcChance_postfix"						"%"
 		
 		//"AbilityProjectileSpeedPercent_label"			"Speed Increase"
@@ -1397,6 +1416,7 @@
 		"WeaponPowerPerStack_prefix"				"{s:sign}"
 		"WeaponPowerPerStack_label"					"Damage Senjata per Akumulasi"
 		"WeaponPowerPerStack_postfix"				"%"
+		"DamageToStack_label"						"Damage yang diterima per Akumulasi"
 		"DamageDuration_label"						"Durasi"
 		"DamageDuration_postfix"						"dtk."
 
@@ -1414,7 +1434,7 @@
 		"BulletShieldMaxHealth_prefix"				"{s:sign}"
 		"BulletShieldMaxHealth_label"				"Health Perisai Peluru"
 		"TechShieldMaxHealth_prefix"				"{s:sign}"
-		"TechShieldMaxHealth_label"					"Health Perisai Roh"
+		"TechShieldMaxHealth_label"					"Health Perisai Spirit"
 
 		"ActiveBulletShieldMaxHealth_prefix"		"{s:sign}"
 		"ActiveBulletShieldMaxHealth_label"			"Health Perisai Peluru"
@@ -1488,7 +1508,7 @@
 		"BulletDamageReflectedPct_postfix"					"%"
 		"SpiritDamageReflectedPct_label"					"Damage Spirit Kembali"
 		"SpiritDamageReflectedPct_postfix"					"%"
-		"DamageReflectedFrequencyPct_label"				"Kesempatan Aktivasi"
+		"DamageReflectedFrequencyPct_label"				"Peluang Aktivasi"
 		"DamageReflectedFrequencyPct_postfix"			"%"
 		"modifier_armor_reactive_armor"					"Tembakan balasan"
 		"ReturnFireBulletResist_prefix"					"+"
@@ -1511,7 +1531,7 @@
 
 		//"upgrade_quarantine/modifier_citadel_quarantine"	"Quarantined"
 
-		"HealPercentAmount_label"				"Jumlah Penyembuhan"
+		"HealPercentAmount_label"				"Besar Penyembuhan"
 		"HealPercentAmount_postfix"			"%"
 
 		"Stamina_label"							"Stamina"
@@ -1570,7 +1590,7 @@
 		"SlowFireRatePercent_prefix"			"{s:sign}"
 		"SlowFireRatePercent_postfix"			"%"
 
-		"MaxFireRateSlowPercent_label"			"Perlambatan Tingkat Tembakan Maks."
+		"MaxFireRateSlowPercent_label"			"Penurunan Tingkat Tembakan Maks."
 		"MaxFireRateSlowPercent_postfix"		" %"
 
 		//"FireRateScale_label"					"Fire Rate Scale"
@@ -1634,7 +1654,7 @@
 		"BaseAttackDamagePercent_postfix"					"%"
 
 		"ImbuedTechPower_prefix"					"{s:sign}"
-		"ImbuedTechPower_label"						"Skill dengan Kekuatan Spirit"
+		"ImbuedTechPower_label"						"Kekuatan Spirit Skill Terisi"
 
 		"MovementSpeedBonusDuration_label"			"Durasi Kecepatan Gerakan"
 		"MovementSpeedBonusDuration_postfix"		"dtk."
@@ -1686,6 +1706,10 @@
 		"StealDuration_label"					"Durasi Mencuri"
 		"StealDuration_postfix"					"dtk."
 
+		"VeilCross_conditional"					"Menyebrangi Tabir Kosmik"
+		"modifier_veil_walker_triggered"			"Tingkat Tembakan Tabir"
+		"modifier_veil_walker_stealth"			"Penjaga Tabir Tak Terlihat"
+
 		"InvisDuration_label"						"Durasi Tak Terlihat"
 		"InvisDuration_postfix"					"dtk."
 
@@ -1701,6 +1725,7 @@
 		"ActiveReloadPercent_postfix"				"%"
 		"ActiveReloadPercent_prefix"				"+"
 
+		"RespawnHealthPercent_label"				"Health Reinkarnasi"
 		"RespawnHealthPercent_postfix"			"%"
 
 		"ActiveBonusMoveSpeed_label"					"Kecepatan Gerakan"
@@ -1736,7 +1761,7 @@
 		"LowHealthWeaponPowerPercent_prefix"			"{s:sign}"
 		"LowHealthWeaponPowerPercent_postfix"			"%"
 
-		"BuildupDuration_label"							"Peningkatan Penyusutan Waktu"
+		"BuildupDuration_label"							"Reset Durasi Peningkatan"
 		"BuildupDuration_postfix"						"dtk."
 		//"BuildupExpire_label"							"Buildup Expire"
 		"BuildupExpire_postfix"							"dtk."
@@ -1756,7 +1781,7 @@
 		"MaxHealthLossPercent_postfix"			"%"
 
 		"BonusClipPerKill_prefix"				"{s:sign}"
-		"BonusClipPerKill_label"				"Bonus Amunasi per Kill"
+		"BonusClipPerKill_label"				"Bonus Amunisi per Kill"
 
 		"BonusSpiritPerKill_prefix"				"{s:sign}"
 		//"BonusSpiritPerKill_label"				"Bonus Spirit Power Per Kill"
@@ -1767,16 +1792,23 @@
 		"SummonDuration_postfix" 				"dtk."
 
 		"Reloaded"							"Penuh!"
-		"BonusAmmo"							"Amunisi Bonus!"
+		"BonusAmmo"							"Bonus Amunisi!"
 
 		"ExplodeDamage_label"				"Damage Ledakan"
 
 		"StaminaRegenPercent_label"			"Pemulihan Stamina"
 		"StaminaRegenPercent_postfix"		"%"
 
-		//crow_mask_1827_comment
-		// crow_mask_1828_comment
-		//crow_mask_1829_comment
+		"MeleeResistPercent_prefix"			"{s:sign}"
+		"MeleeResistPercent_label"			"Pertahanan Jarak Dekat"
+		"MeleeResistPercent_postfix"		"%"
+		
+		"BuffDuration_label"				"Durasi Buff"
+		"BuffDuration_postfix"				"dtk."
+
+		//crow_mask_1840_comment
+		// crow_mask_1841_comment
+		//crow_mask_1842_comment
 
 
 

@@ -43,6 +43,7 @@
 		"Citadel_StatusEffectImmobilize" 		"Immobilisation"
 		"Citadel_StatusEffectDisarmed"			"Désarmement"
 		"Citadel_StatusEffectInvisible"			"Invisibilité"
+		"Citadel_StatusEffectPetrify"				"Pétrifier"
 		//"Citadel_StatusEffectStacks"			"Stacks "
 		//"Citadel_StatusEffectInfiniteClip"		"Infinite Ammo"
 		//"Citadel_StatusEffectBulletDebuff"		"Bullet Debuff"
@@ -204,6 +205,8 @@
 		"StatDesc_HealingOutput_postfix"				" %"
 		"StatDesc_CritDamageBonusScale"					"Échelle de dégâts critiques bonus"
 		"StatDesc_CritDamageBonusScale_postfix"			" %"
+		"StatDesc_MeleeResist"							"Résistance aux attaques de mêlée"
+		"StatDesc_MeleeResist_postfix"					" %"
 
 		"StatDesc_BulletSpeed"							"Vitesse des balles"
 		"StatDesc_BulletSpeed_postfix"					" m/s"
@@ -694,6 +697,9 @@
 
 		"HealAmpReceivePenaltyPercent_label"		"Réduction des soins"
 		"HealAmpReceivePenaltyPercent_postfix"			" %"
+		
+		"HealAmpRegenPenaltyPercent_label"		"Réduction des soins"
+		"HealAmpRegenPenaltyPercent_postfix"	" %"
 
 		"DegenResistance_label"						"Résistance à la réduction des soins"
 		"DegenResistance_postfix"					" %"
@@ -1793,9 +1799,16 @@
 		"StaminaRegenPercent_label"			"Régénération d'endurance"
 		"StaminaRegenPercent_postfix"		" %"
 
-		//crow_mask_1827_comment
-		// crow_mask_1828_comment
-		//crow_mask_1829_comment
+		"MeleeResistPercent_prefix"			"{s:sign}"
+		"MeleeResistPercent_label"			"Résistance aux attaques de mêlée"
+		"MeleeResistPercent_postfix"		" %"
+		
+		"BuffDuration_label"				"Durée de l'effet positif"
+		"BuffDuration_postfix"				" s"
+
+		//crow_mask_1840_comment
+		// crow_mask_1841_comment
+		//crow_mask_1842_comment
 
 
 

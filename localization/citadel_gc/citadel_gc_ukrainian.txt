@@ -9,8 +9,10 @@
 		"ItemNameCraftNumberFormat"					" №%s1"
 		"ItemTypeDesc"								"%s2 %s1-го рівня"			// s1 is the level number, s2 is the item type. Example: "Level 4 Medigun"
 		"ItemTypeDescNoLevel"						"%s1-го рівня"				// s1 is the level number. Example: "Level 12"
-"ItemTypeDescKillEaterAlt"					"%s2: %s1"				// "Kills: 123"
-"Econ_Store_PurchaseType_Standard"			"%s1"
+		"ItemTypeDescKillEater"						"%s2 %s1"				// s1 is the rarity, s2 is the item type
+		"ItemTypeDescKillEaterAlt"					"%s2: %s1"				// "Kills: 123"
+		"RarityTypeDesc"							"%s2 %s1"				// s1 is the rarity, s2 is the item type
+		"Econ_Store_PurchaseType_Standard"			"%s1"
 
 		//Market description attributes
 		"AttribFormat_AdditionalNote"				"(%s1)"
@@ -174,17 +176,18 @@
 		"Steam_Citadel_RP_FindingMatch"							"Шукає матч"
 		
 		// These Match Mode ("MM_") tokens are for the %param0% below.
-		"Steam_Citadel_RP_MM_Unranked"							"Матч"
-		"Steam_Citadel_RP_MM_Ranked"							"Матч"
-		"Steam_Citadel_RP_MM_PrivateLobby"						"Приватний матч"
-		"Steam_Citadel_RP_MM_CoopBot"							"Кооперативний матч із ботами"
-		"Steam_Citadel_RP_MM_Tutorial"							"Навчається"
-		"Steam_Citadel_RP_MM_Sandbox"							"Пісочниця"
+		"Steam_Citadel_RP_MM_Unranked"							"Deadlock:"
+		"Steam_Citadel_RP_MM_Ranked"							"Рейтинговий:"
+		"Steam_Citadel_RP_MM_HeroLabs"							"Лабораторії героїв:"
+		"Steam_Citadel_RP_MM_PrivateLobby"						"Лобі:"
+		"Steam_Citadel_RP_MM_CoopBot"							"Боти:"
+		"Steam_Citadel_RP_MM_Tutorial"							"Навчання:"
+		"Steam_Citadel_RP_MM_Sandbox"							"Пісочниця:"
 		
 		"Steam_Citadel_InGame_Sandbox"		"Тестує героя {%param2%} в пісочниці"
-		"Steam_Citadel_InGame_Hero"			"{%param1%}: {%param2%}, %param0% хв"
-		"Steam_Citadel_InGame"				"{%param1%}: %param0% хв"
-		"Steam_Citadel_Spectating"			"Переглядає: {%param1%}, %param0% хв"
+		"Steam_Citadel_InGame_Hero"			"{%param1%} {%param2%} (%param0% хв)"
+		"Steam_Citadel_InGame"				"{%param1%} (%param0% хв)"
+		"Steam_Citadel_Spectating"			"Переглядає матч"
 		"Steam_Citadel_RP_Online"			"У мережі"
 
 		"Steam_RP_hero_vampire"			"Вампір"
@@ -406,8 +409,8 @@
 		"upgrade_healing_booster"						"Посилювач лікування"
 		"upgrade_health"								"Додаткове здоров’я"
 		//"upgrade_proc_melee_stun"						"Melee Knockdown"
-		"upgrade_debuff_reducer"						"Зменшувач негативу"
-		"upgrade_reduce_debuff_duration"				"Усувач негативу"
+		"upgrade_debuff_reducer"						"Зменшувач ослаблення"
+		"upgrade_reduce_debuff_duration"				"Усувач ослаблення"
 		//"upgrade_high_impact_armor"						"High Impact Armor"
 		"upgrade_rupture"								"Ослаблення"
 		//"upgrade_discord"								"Discord"	

@@ -144,7 +144,7 @@
 		"MagicShockDamage_postfix"	" %"
 
 		//Mystic Reverb
-		"upgrade_tech_bleed_desc" "Imbuye una habilidad para que aplique <span class=\"highlight\">ralentización</span> en un radio alrededor del objetivo e inflija un <span class=\"highlight\">porcentaje adicional del daño casuado</span> a los enemigos que estén alrededor del objetivo tras un corto retraso."
+		"upgrade_tech_bleed_desc" "Imbuye una habilidad para que aplique <span class=\"highlight\">ralentización</span> sobre un objetivo e inflija un <span class=\"highlight\">porcentaje adicional del daño causado</span> a los enemigos que estén alrededor del objetivo tras un corto retraso."
 		//"upgrade_tech_bleed/modifier_tech_bleed_proc/modifier_tech_bleed"			"Spirit Echo"	
 
 		//Toxic Bullets
@@ -274,7 +274,7 @@
 
 		//Siphon Bullets
 		//"upgrade_siphon_bullets_desc_passive1"	"When in <span class=\"highlight\">close range</span> of your target, deal additional <span class=\"highlight\">Weapon Damage</span>."
-		"upgrade_siphon_bullets_desc_passive2"	"Tus balas <span class=\"highlight\">roban temporalmente la vida máxima</span> de los enemigos. Los enemigos recuperan la vida robada cuando expira el efecto negativo. Robas permanentemente una acumulación de vida si un objetivo afectado por Balas Drenantes muere y pierdes {s:StackLostPerDeath} acumulaciones si tú mueres."
+		"upgrade_siphon_bullets_desc_passive2"	"Tus balas <span class=\"highlight\">roban la vida máxima</span> de los enemigos temporalmente. Los enemigos recuperan la vida robada cuando expira el efecto negativo. Robas permanentemente  {s:StealPerKill} acumulaciones de vida si un objetivo afectado por Balas Drenantes muere y pierdes {s:StackLostPerDeath} acumulaciones si mueres."
 		"modifier_siphon_bullets_health_gain"		"Balas absorbentes"
 		"modifier_siphon_bullets_health_loss"		"Balas absorbentes"
 		"HealthSteal_label"						"de robo de vida máx. por bala"
@@ -488,13 +488,13 @@
 		"SpiritPower_prefix"					"+"
 
 		//Ethereal Shift
-		"upgrade_self_bubble_desc"			"Entras en un estado de vacío y te conviertes en <span class=\"highlight\">no seleccionable como objetivo e invencible</span> por un corto período de tiempo, en el cual no puedes moverte ni realizar ninguna acción. Después, <span class=\"highlight\">recargas instantáneamente</span> y obtienes <span class=\"highlight\">poder espiritual</span>adicional.<br>Presiona [{s: in_mantle}] para cancelar antes de tiempo."
+		"upgrade_self_bubble_desc"			"Entras en un estado de vacío y te conviertes en <span class=\"highlight\">no seleccionable como objetivo e invencible</span> por un corto período de tiempo, en el cual no puedes moverte ni realizar ninguna acción. Después, obtienes <span class=\"highlight\">velocidad de movimiento y resistencia espiritual</span>."
 		"ShiftingVeilDuration_label"			"de duración"
 		"ShiftingVeilDuration_postfix"		"s"
 		"BonusSpiritDuration_label"			"de duración espiritual adicional"
 		"BonusSpiritDuration_postfix"			"s"
 		"modifier_shifting_veil_buff"			"Cambio Etéreo"
-		"shifting_veil_bonus_spirit"			"Poder espiritual adicional"
+		"shifting_veil_bonus"			"Velocidad y resistencia espiritual"
 		"modifier_citadel_bubble"				"Cambio Etéreo"
 
 		//Stasis Bomb
@@ -533,7 +533,7 @@
 		//"upgrade_aoe_tech_shield/modifier_duration" "Spirit Barrier Pulse"
 		
 		//Cold Front
-		"upgrade_cold_front_desc"			"Lanza una explosión de hielo expansiva que inflige <span class=\"highlight\">daño espiritual</span> y <span class=\"highlight\">ralentiza</span> a los objetivos a los que alcanza."
+		"upgrade_cold_front_desc"			"Lanza una explosión de hielo expansiva que inflige <span class=\"highlight\">daño espiritual</span> y <span class=\"highlight\">ralentiza</span> a los objetivos a los que alcanza.  Inflige {s:NPCDamageMult} veces de daño a unidades que no sean héroes."
 		
 		//Knockdown
 		"upgrade_target_stun_desc"			" <span class=\"highlight\">Derriba</span> y <span class=\"highlight\">aturde</span> al objetivo después <span class=\"highlight\">{s:StunDelay} s de retraso</span>, lo que lo interrumpe e impide temporalmente que realicen cualquier acción."
@@ -615,7 +615,7 @@
 		//"ClarityBonusSpirit_label"				"Next Ability Bonus Spirit Power"
 
 		//Surge of Power
-		"upgrade_magic_storm_desc"				"Imbuye una habilidad de <span class=\"highlight\">poder espiritual permanente</span>. Al usar esa habilidad, obtienes <span class=\"highlight\">velocidad de movimiento</span> adicional."
+		"upgrade_magic_storm_desc"				"Imbuye una habilidad de <span class=\"highlight\">poder espiritual permanente</span>. Al usar esa habilidad, obtienes <span class=\"highlight\">velocidad de movimiento</span> adicional y mantienes máxima velocidad cuando atacas."
 		"modifier_upgrade_magic_storm"			"Oleada de energía"
 
 		//Suppressor
@@ -662,9 +662,7 @@
 		"upgrade_savior_desc"				"Proporciona <span class=\"highlight\">escudo antibalas, escudo espiritual y velocidad de movimiento</span> al objetivo. Se puede lanzar sobre uno mismo."
 		"SaviorBulletShieldHealth_label"		"de escudo antibalas"
 		"SaviorMagicShieldHealth_label"		"de escudo espiritual"
-		"BuffDuration_label"					"de duración"
-		"BuffDuration_postfix"				"s"
-
+	
 		//Restorative Locket
 		"upgrade_restorative_locket_passive_desc"		"Almacena una <span class=\"highlight\">acumulación de restauración</span> si un enemigo usa una habilidad dentro de una distancia de {s:Radius} m de ti."
 		"upgrade_restorative_locket_active_desc"		"Consume todas las acumulaciones para <span class=\"highlight\">curar al aliado objetivo</span> y regenerar un <span class=\"highlight\">punto de resistencia</span>. Se puede lanzar sobre uno mismo."
@@ -759,7 +757,7 @@
 		"RespawnDelay_postfix"						" s"
 		"SpawnTimePenalty_prefix"				"  +"
 		"SpawnTimePenalty_label"				"de tiempo de reaparición"
-		"SpawnTimePenalty_postfix"				"  s"
+		"SpawnTimePenalty_postfix"				" s"
 
 		//Phantom Strike
 		"upgrade_phantom_strike_desc"			"<span class=\"highlight\">Te teletransporta</span> hasta un objetivo enemigo para <span class=\"highlight\">desarmarlo</span>, <span class=\"highlight\">ralentizarlo</span> e infligirle <span class=\"highlight\">daño</span>."
@@ -936,10 +934,10 @@
 		"HealOnlevelHealAmount_label"	"de curación"
 		"upgrade_heal_on_level/heal_on_level_buff"			"Bendición curativa"
 
+		//crow_mask_936_comment
+		//crow_mask_937_comment
 		//crow_mask_938_comment
 		//crow_mask_939_comment
 		//crow_mask_940_comment
-		//crow_mask_941_comment
-		//crow_mask_942_comment
 	}
 }

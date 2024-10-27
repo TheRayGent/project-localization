@@ -204,7 +204,6 @@
 		"StatDesc_HealingOutput_postfix"				" %"
 		"StatDesc_CritDamageBonusScale"					"Escala de críticos adicional"
 		"StatDesc_CritDamageBonusScale_postfix"			" %"
-
 		"StatDesc_BulletSpeed"							"Velocidad de las balas"
 		"StatDesc_BulletSpeed_postfix"					" m/s"
 		"StatDesc_BulletSpeedIncrease"					"Aumento de la velocidad de las balas"
@@ -694,7 +693,7 @@
 
 		"HealAmpReceivePenaltyPercent_label"		"de reducción de la curación"
 		"HealAmpReceivePenaltyPercent_postfix"			" %"
-
+		
 		"DegenResistance_label"						"de resistencia a la reducción de la curación"
 		"DegenResistance_postfix"					" %"
 		"DegenResistance_prefix"					"{s:sign}"
@@ -1650,7 +1649,7 @@
 		"ImbuedTechPower_prefix"					"{s:sign}"
 		"ImbuedTechPower_label"						"de poder espiritual de la habilidad imbuida"
 
-		"MovementSpeedBonusDuration_label"			"de duración de la velocidad de movimiento"
+		"MovementSpeedBonusDuration_label"			"de velocidad de movimiento"
 		"MovementSpeedBonusDuration_postfix"		" s"
 
 		//"EnemyLifeThreshold_label"					"Threshold"
@@ -1793,9 +1792,9 @@
 		"StaminaRegenPercent_label"			"de regeneración de aguante"
 		"StaminaRegenPercent_postfix"		" %"
 
-		//crow_mask_1827_comment
-		// crow_mask_1828_comment
-		//crow_mask_1829_comment
+		//crow_mask_1840_comment
+		// crow_mask_1841_comment
+		//crow_mask_1842_comment
 
 
 

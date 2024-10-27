@@ -38,7 +38,7 @@
 		"citadel_ability_bull_leap_desc"		"<span class=\"highlight\">Fai un gran salto in aria</span> e scegli una posizione in cui schiantarti. Quando ti schianti al suolo, <span class=\"highlight\">tutti i nemici nel raggio vengono danneggiati e storditi</span>.<br>Premi [{s:iv_attack}] per anticipare lo schianto."
 		//"modifier_citadel_bull_leap"			"Boosting"
 		"citadel_ability_bull_leap_t2_desc"		"Guadagni {s:BonusMaxHealthPerHero} HP max e {s:BonusFireRatePerHero}% di frequenza di fuoco per eroe colpito. Dura {s:LandingBonusesDuration} s."
-		"citadel_ability_bull_leap_t3_desc"		"Quando usato, diventi <span class=\"highlight\">immune</span> a <span class=\"highlight\">Stordimento, Silenziamento, Sonno, Radicamento e Disarmo</span>. Scade {s:ImmunityDuration} s dopo aver colpito."
+		"citadel_ability_bull_leap_t3_desc"		"All'utilizzo, diventi <span class=\"highlight\">immune</span> a <span class=\"highlight\">stordimento, silenziamento, sonno, radicamento e disarmo</span>. Scade {s:ImmunityDuration} s dopo aver colpito."
 		"AbilityButtonHint_BullLeapCrash"			"Schianto"
 		//"modifier_abrams_immunity"				"Immunity"
 
@@ -486,7 +486,9 @@
 		"MinSlowDuration_label"						"Durata min. dell'arresto"
 		"MinSlowDuration_postfix"						" s"
 		"citadel_ability_chrono_kinetic_carbine/modifier_chrono_kinetic_carbine"  "Carabina cinetica"
-
+		"CarbineHeadshotBonus_prefix"				"+"
+		"CarbineHeadshotBonus_label"				"Bonus colpo alla testa"
+		"CarbineHeadshotBonus_postfix"				"%"
 
 		//-----------------------------------------------------------------------------
 		// Revenant
@@ -890,7 +892,7 @@
 		"WeaponPowerGainPercent_postfix"			"%"
 
 		//-----------------------------------------------------------------------------
-		// Hero Warden
+		// Warden 
 		//-----------------------------------------------------------------------------
 		"ability_warden_lock_down"				"Parola vincolante"
 		"ability_warden_lock_down_quip"			"Maledici il tuo bersaglio, immobilizzandolo se non scappa"
@@ -919,19 +921,25 @@
 
 		"ability_warden_crowd_control"			"Fialetta alchemica"
 		"ability_warden_crowd_control_quip"		"Danneggi e infliggi effetti negativi ai nemici vicini"
-		"ability_warden_crowd_control_desc"		"Lanci una fialetta che <span class=\"highlight\">danneggia, rallenta </span> e riduce i <span class=\"highlight\">danni da arma</span> e la <span class=\"highlight\">resistenza</span> dei nemici colpiti."
-		"ability_warden_crowd_control_t3_desc"		"<span class=\"highlight\">{s:AbilityCooldown} s</span> di tempo di ricarica e applica <span class=\"highlight\">{s:FireRateSlow}%</span> di riduzione della frequenza di fuoco"
+		"ability_warden_crowd_control_desc"		"Lanci una fialetta che <span class=\"highlight\">danneggia, rallenta i movimenti</span> e riduce i <span class=\"highlight\">danni da arma</span> dei nemici colpiti."
+		"ability_warden_crowd_control_t1_desc"	"I nemici colpidi perdono <span class=\"highlight\">{s:StaminaReduction} di resistenza</span>"
+		"ability_warden_crowd_control_t3_desc"		"<span class=\"highlight\">{s:AbilityCooldown} s</span> di tempo di ricarica e l'effetto negativo dell'arma applica <span class=\"highlight\">{s:FireRateSlow}%</span> di riduzione della frequenza di fuoco"
 		"MoveSpeedSlowPct_label"					"Riduzione velocità di movimento"
 		"MoveSpeedSlowPct_postfix"				"%"
 		"WeaponPowerDebuff_label"					"Danni da arma"
 		"WeaponPowerDebuff_postfix"				"%"
 		"modifier_warden_crowd_control_debuff"	"Fialetta alchemica"
+		"FlaskDebuffDuration_label"				"Durata dell'effetto negativo dell'arma"
+		"FlaskDebuffDuration_postfix"			" s"
 
 		"ability_warden_riot_protocol"			"Ultima spiaggia"
 		"ability_warden_riot_protocol_quip"		"Emetti impulsi che rubano salute ai nemici"
 		"ability_warden_riot_protocol_desc"		"Dopo una carica di {s:AbilityCastDelay} s, <span class=\"highlight\"> emetti degli impulsi che danneggiano i nemici e ti guariscono</span> in base ai danni inflitti. <br>Durante la canalizzazione di Ultima spiaggia, la tua <span class=\"highlight\">resistenza alle pallottole</span> aumenta significativamente."
+		"ability_warden_riot_protocol_t3_desc"	"<span class=\"highlight\">{s:AbilityCooldown} s</span> di ricarica e ottieni <span class=\"highlight\">resistenza allo stato Inarrestabile</span> durante la canalizzazione."
 		"modifier_warden_riot_protocol"			"Ultima spiaggia"
 		"modifier_warden_riot_protocol_enemy_debuff"	"Rallentamento"
+
+		//UnstoppableCastDelay
 		"HealthStealPctHero_label"				"Prosciugamento salute (eroi)"
 		"HealthStealPctHero_postfix"				"%"
 
@@ -1163,7 +1171,7 @@
 
 		"citadel_ability_sticky_bomb"			"Bomba adesiva"
 		"citadel_ability_sticky_bomb_quip"		"Piazzi una bomba su un'unità"
-		"citadel_ability_sticky_bomb_desc"		"Attacchi a un bersaglio vicino una bomba adesiva che infligge <span class=\"highlight\">danni esplosivi</span> dopo un breve timer del detonatore. <br>Ottieni un'istanza della bomba che infligge <span class=\"highlight\">+{s:BonusDamagePctPerPlayerHit}% di danni da bomba</span> per ogni eroe nemico colpito. Perdi {s:BonusLossPerDeath} istanze alla morte. <br>Tieni premuto [{s:key_alt_cast}] per utilizzare una bomba adesiva su di te."
+		"citadel_ability_sticky_bomb_desc"		"Attacchi a un bersaglio vicino una bomba adesiva che infligge <span class=\"highlight\">danni esplosivi</span> dopo un breve timer del detonatore. <br>Ottieni un'istanza della bomba che infligge <span class=\"highlight\">+{s:BonusDamagePctPerPlayerHit}% di danni da bomba</span> per ogni eroe nemico colpito. Perdi {s:BonusLossPerDeath}% istanze alla morte (valore arrotondato per eccesso). <br>Tieni premuto [{s:key_alt_cast}] per utilizzare una bomba adesiva su di te."
 		"modifier_citadel_sticky_bomb_attached"	"Hai la bomba"
 		"citadel_ability_sticky_bomb_t3_desc"	"Quando viene applicata, <span class=\"highlight\">disarma</span> il bersaglio per <span class=\"highlight\">{s:DebuffDuration} s</span>"
 		"StunTargetOnExplode_label"				"Durata"
@@ -1256,6 +1264,13 @@
 		//"MinAirTimeForStomp_postfix"				"s"
 		"ability_bounce_pad/speed_on_land""Velocità di movimento"
 
+		"ability_crackshot"						"Franco tiratore"
+		"ability_crackshot_quip"				"Infligge danni bonus e applica un rallentamento con colpi alla testa"
+		"ability_crackshot_desc"				"I colpi alla testa infliggono <span class=\"highlight\">danni da arma</span> bonus e applicano un <span class=\"highlight\">rallentamento graduale</span>. Questo effetto può verificarsi solo quando l'abilità non è in fase di ricarica. <br><br><span class=\"diminish\">I danni di questa abilità non sono influenzati dalla distanza.</span>"
+		"FadingSlowPercent_label" "Rallentamento del movimento (graduale)"
+		"FadingSlowPercent_postfix" "%"
+		"AbilityCooldownPerHeadshot_label" "Tempo di ricarica per colpo alla testa"
+		"AbilityCooldownPerHeadshot_postfix" " s"
 
 		//"citadel_ability_running_decoy"					"Decoy"
 		//"citadel_ability_running_decoy_desc"			"{s:hero_name} creates a temporary decoy that will run towards the target location and shoot at any nearby enemies."
@@ -1328,6 +1343,7 @@
 
 		"ability_perched_predator"				"Spirito di Sekhmet"
 		"ability_perched_predator_desc"			"Evochi un Gatto spirituale che cattura i bersagli sul suo cammino. Afferrare un eroe causa un'esplosione subito dopo. <br>Premi [{s:in_ability1}] per attivare l'esplosione manualmente."
+		"ability_perched_predator_quip"			"Evochi un Gatto spirituale che cattura i nemici"	
 		//"CatExplosionCount_label"				"Explosions"
 		//"CatMaxSpeed_label"						"Ghostcat Max Speed"
 		"CatMaxSpeed_postfix"						" m/s"
@@ -1350,9 +1366,9 @@
 		"PounceFriendlyTargetCD_postfix"			" s"
 		"pounce_double_notify"					"Doppio balzo"
 
-		"ability_nano_proximity_ritual"			"Ava"
-		"ability_nano_proximity_ritual_quip"	"Schieri il tuo compagno per attaccare i nemici"
-		"ability_nano_proximity_ritual_desc"	"Schieri <span class=\"highlight\">Ava</span> perché si <span class=\"highlight\">concentri</span> su un nemico vicino. I nemici bersagliati hanno una guarigione ridotta e <span class=\"highlight\">guariscono Ava e {s:hero_name}</span> quando sono danneggiati. <span class=\"highlight\">Ava è attiva solo quando {s:hero_name} è nelle vicinanze</span>. <br>Premi <span class=\"highlight\">[3]</span> per richiamare Ava, o <br><span class=\"highlight\">[Uso alternativo]</span> per richiamare Ava e teletrasportarti da lei. <br>Più lontano sei da Ava, più tempo sarà necessario per richiamarla e teletrasportarti da lei. Ava recupera salute mentre viene richiamata."
+		"ability_nano_proximity_ritual"			"Guardiano Nekomata"
+		"ability_nano_proximity_ritual_quip"	"Dispieghi una statua che sorveglia un'area"
+		"ability_nano_proximity_ritual_desc"	"Dispieghi una <span class=\"highlight\">statua</span> per ingaggiare i nemici in un'area. Il Guardiano attaccherà i nemici recentemente danneggiati da {s:hero_name}. I nemici bersagliati hanno una guarigione ridotta e <span class=\"highlight\">guariscono{s:hero_name}</span> quando vengono danneggiati."
 		"StatueLifetime_label"					"Tempo di richiamo automatico"
 		"StatueLifetime_postfix"				" s"
 		"StatueHeldRegen_label"						"Rigen. di Ava durante il richiamo"
@@ -1360,16 +1376,16 @@
 		"StatueLifesteal_postfix"				"%"
 		"StatueLifestealNonHero_label"			"Prosciugamento salute (non eroi)"
 		"StatueLifestealNonHero_postfix"		"%"
-		"StatueActivateRange_label"				"Gittata attiva"
+		"StatueActivateRange_label"				"Raggio della rivelazione"
 		"StatueActivateRange_postfix"			" m"
 		"StatueHealth_label"					"Ava (normalizzata)"
 		"StatueHealth_postfix"					"PS"
 		"StatueVictimDamageReduction_label"					"Riduzione dei danni"
 		"StatueVictimDamageReduction_postfix"				"%"
 
-		"ability_nano_proximity_ritual_t1_desc"  "<span class=\"highlight\">+{s:StatueLifesteal}%</span> di prosciugamento della salute"
-		"ability_nano_proximity_ritual_t2_desc"  "<span class=\"highlight\">+{s:DPS}</span> danni al secondo e le vittime infliggono <span class=\"highlight\">{s:StatueVictimDamageReduction}%</span> di danni in meno a {s:hero_name}."
-		"ability_nano_proximity_ritual_t3_desc"  "<span class=\"highlight\">+{s:DamageAmplification}%</span> di amplificazione dei danni e {s:HealAmpReceivePenaltyPercent}% di riduzione della guarigione sulle vittime"
+		"ability_nano_proximity_ritual_t1_desc"  "Le statue ottengono <span class=\"highlight\">invisibilità</span> quando non attaccano"
+		"ability_nano_proximity_ritual_t2_desc"  "<span class=\"highlight\">+{s:AbilityCharges}</span> cariche per l'abilità e <span class=\"highlight\">+{s:DPS}</span> danni al secondo"
+		"ability_nano_proximity_ritual_t3_desc"  "<span class=\"highlight\">{s:StatueVictimDamageReduction}%</span> di riduzione dei danni e {s:HealAmpReceivePenaltyPercent}% di riduzione della guarigione sui bersagli"
 		"ability_nano_proximity_ritual_trigger"		"Richiama Ava"
 
 		"AvaRecallCooldown_label"				"Richiama il tempo di ricarica"
@@ -1378,8 +1394,9 @@
 		"AbilityButtonHint_AvaWarp"			"Teletrasporto da Ava"
 		"CITADEL_ABILITY_NO_HEALTH_RESOURCE"	"Non disponibile"
 
-		"ability_nano_shadow_step"				"Passo furtivo"
-		"ability_nano_shadow_step_desc"			"Ti immergi nell'ombra per potenziare i tuoi attacchi e rendere i tuoi scatti <span class=\"highlight\">invisibili</span>. Quando i nemici subiscono <span class=\"highlight\">danni corpo a corpo</span> la loro resistenza alle pallottole sarà ridotta (si accumula)."
+		"ability_nano_shadow_step"				"Regina delle ombre"
+		"ability_nano_shadow_step_desc"			"Marchi i tuoi nemici e ti immergi nell'ombra per potenziare i tuoi attacchi e divenire <span class=\"highlight\">invisibile</span>. Gli attacchi ti riveleranno solo temporaneamente. Quando infliggi <span class=\"highlight\">danni corpo a corpo</span> ai nemici, la loro resistenza alle pallottole sarà ridotta (si accumula)."
+		"ability_nano_shadow_step_quip"			"Entri nell'ombra per ottenere un vantaggio sui tuoi nemici"
 		"modifier_nano_shadow_step"			"Passo furtivo"
 		"NanoShadowBulletArmorReductionLight_prefix"	"-"
 		"NanoShadowBulletArmorReductionLight_label"	"Resistenza alle pallottole (debole)"
@@ -1498,7 +1515,7 @@
 		"ability_blood_shards"				"Malizia"
 		"ability_blood_shards_quip"			"Amplificazione dei danni per istanza su un nemico"
 		"ability_blood_shards_desc"			"<span class=\"highlight\">Sacrifichi parte della tua salute</span> per lanciare grumi di sangue che infliggono un'istanza di Malvagità. Ogni istanza <span class=\"highlight\">rallenta</span> la vittima e <span class=\"highlight\">aumenta i danni</span> che le infliggi. L'effetto del rallentamento si riduce nel tempo."
-		"ability_blood_shards_t2_desc"		"+{s:HealthToDamage} di salute convertita in danni"
+		"ability_blood_shards_t2_desc"		"<span class=\"highlight\">+{s:HealthToDamage}</span> di salute convertita in danni e <span class=\"highlight\">+{s:VulnerabilityPerStack}%</span> di amplificazione dei danni"
 		"ability_blood_shards_t3_desc"		"+{s:NumBloodShards} di grumi di sangue"
 		"NumBloodShards_label"				"Grumi di sangue"
 		"MoveSpeedPenaltyPerStack_label"		"Rallentamento del movimento"
@@ -1607,9 +1624,9 @@
 		"assassin_modifier"						"+Danni da arma"
 		//"modifier_citadel_assassinate_target"	"Assassination Target - Find Cover!"
 		"HeadshotBonus_prefix"					"+"
-		"HeadshotBonus_label"					"Danni da Colpo alla testa"
+		"HeadshotBonus_label"					"Danni da colpo alla testa"
 		"HeadshotBonus_postfix"					"%"
-
+		"AbilityButtonHint_AssassinateFoVCycle"	"Cambia zoom"
 
 		//-----------------------------------------------------------------------------
 		// Digger (Formally Pouncer and Driller) Mo and Krill
@@ -1688,7 +1705,7 @@
 		"citadel_ability_shiv_dash_desc"		"Esegui uno <span class=\"highlight\">scatto in avanti e danneggi i nemici lungo il tuo cammino</span>.<br><br>Sblocco dell'abilità ultimate: <span class=\"highlight\">mentre la furia è al massimo</span>, un'eco di Shiv traccia nuovamente il percorso dello scatto dopo un breve ritardo, danneggiando nuovamente i nemici."
 		"citadel_ability_shiv_dash_t3_tooltip"	"Al colpo"
 		"DashRange_label"							"Gittata dello scatto"
-		"DashRange_postfix"						" m"
+		"DashRange_postfix"						" m"
 		"ImpactDamage_label"						"Danni"
 		"ImpactSlowDuration_label"				"Durata del rallentamento da impatto"
 		"ImpactSlowDuration_postfix"				" s"
@@ -1852,6 +1869,7 @@
 		//"TornadoDuration_postfix"			"s"
 		"modifier_mirage_tornado_lift"	"Tornado"
 		"modifier_mirage_tornado_slow"	"Tornado (rallentamento)"
+		"modifier_mirage_tornado_hold_in_place"	"Tornado"
 
 		"mirage_fire_beetles"			"Scarabei di fuoco"
 		"mirage_fire_beetles_quip"		"Lanci degli scarabei che prosciugano la salute dei nemici"
@@ -1871,6 +1889,7 @@
 		"mirage_teleport_desc"	"Canalizzata. Scegli come bersaglio un alleato o un eroe nemico visibile sulla minimappa, poi <span class=\"highlight\">ti teletrasporti</span> nel punto in cui si trovava quando è iniziata la canalizzazione. Dopo il teletrasporto, aumenti brevemente la tua <span class=\"highlight\">velocità di movimento</span> e la <span class=\"highlight\">frequenza di fuoco fino alla prossima ricarica</span>."
 		"MirageTeleportMoveSpeed_conditional"	"Dopo il teletrasporto"
 		"mirage_teleport_movespeed"		"Viaggiatore - Movimento bonus"
+		"mirage_teleport_t3_desc"	"All'arrivo, diventi <span class=\"highlight\">immune</span> a stordimento, silenziamento, sonno, radicamento e disarmo per <span class=\"highlight\">{s:ImmunityDuration} s</span>."
 
 		"mirage_sand_phantom"			"Marchio dei Djinn"
 		"mirage_sand_phantom_quip"		"Applica attivazioni di danni crescenti"
@@ -2139,6 +2158,29 @@
 //		"slork_chomp_t3_desc"		"Chomp deals <span class=\"highlight\">{s:DamageMissingPercentHealth}%</span> of the enemies missing health each second."
 		//"modifier_slork_chomp_grapple"	"Chomping an Enemy"
 		//"modifier_slork_chomp_hobbled" "Getting Chomped"
+
+		"fathom_scalding_spray"			"Ustione"
+		"fathom_scalding_spray_quip"	"Spruzzi acqua bollente in un cono davanti a te."
+		"fathom_scalding_spray_desc"	"Spruzzi acqua bollente in un cono davanti a te. I tuoi danni da arma bonus aumentano man mano che lo spruzzo danneggia l'eroe nemico."
+		"WeaponDamageBonusPerSec_label"		"Aumento danni da arma al secondo"
+		"WeaponDamageBonusPerSec_postfix"	"%"
+
+		"fathom_breach"				"Carica"
+		"fathom_breach_quip"		"Ti lanci in direzione dei nemici"
+		"fathom_breach_desc"		"Carichi in avanti, danneggiando tutti i nemici vicini al punto in cui atterri e lanciandoli in aria."
+
+		"fathom_defer_damage"		"Salasso"
+		"fathom_defer_damage_quip"	"Posticipi una quota di danni subiti"
+
+		"fathom_reefdweller_harpoon"		"Arpione corallino"
+		"fathom_reefdweller_harpoon_quip"	"Lanci un arpione per tirarti verso una superficie."
+		"fathom_reefdweller_harpoon_desc"	"Lanci un arpione che si aggancia a una superficie e ti attira verso di essa. Mentre sei appeso alla superficie a cui è agganciato l'arpione, sei <span class=\"highlight\">invisibile e invulnerabile</span>. I nemici che guardano direttamente Fathom rivelano l'invisibilità."
+		"fathom_reefdweller_harpoon_passive_desc" "Passiva: mentre sei fuori dal combattimento e nascosto sulla minimappa, <span class=\"highlight\">guarisci una parte della tua salute massima</span> ogni secondo."
+		"modifier_fathom_reefdweller_harpoon_latched"	"Arpione corallino"
+		"fathom_reefdweller_harpoon/regen"	"Rigenerazione fuori dal combattimento"
+		"fathom_reefdweller_harpoon/latched"	"Agganciato al muro"
+		"OutOfCombatRegen_label"			"Rigenerazione della salute max"
+		"OutOfCombatRegen_postfix"			"%"
 
 
 		//"slork_ability_4"		"Torrent"
@@ -2546,7 +2588,7 @@
 		"viscous_restorative_goo_desc"					"Racchiudi il bersaglio in un cubo gelatinoso rigenerante che <span class=\"highlight\">protegge dai danni e aumenta la rigenerazione della salute</span>. Il bersaglio <span class=\"highlight\">non può effettuare nuove azioni</span> mentre è bloccato. Utilizzabile su se stessi. Premi <span class=\"highlight\">[{s:in_mantle}]</span> per liberarti prima del tempo."
 		"viscous_restorative_goo_quip"					"ll cubo è un luogo sicuro"
 		"viscous_restorative_goo_t1_desc"				"Aumenti la velocità di movimento e il recupero della resistenza"
-		"viscous_restorative_goo_t2_desc"				"<span class=\"highlight\">Rimuove tutti gli effetti negativi</span> e <span class=\"highlight\">{s:AbilityCooldown} s</span> di tempo di ricarica dell'abilità"
+		"viscous_restorative_goo_t3_desc"				"<span class=\"highlight\">Rimuove tutti gli effetti negativi</span> e <span class=\"highlight\">{s:AbilityCooldown} s</span> di tempo di ricarica dell'abilità"
 		"viscous_restorative_goo_buff_desc"				"Dopo essere uscito dal cubo, la <span class=\"highlight\">velocità di movimento e il recupero della resistenza</span> del bersaglio aumentano brevemente."
 		"PostCubeBuffDuration_label"					"Durata degli effetti positivi"
 		"PostCubeBuffDuration_postfix"					" s"
@@ -2627,7 +2669,7 @@
 		//"StackDamage_label"					"Stack Damage"
 				//"citadel_ability_spade_sleeve_toss"		"Sleeve toss"
 		//"citadel_ability_spade_sleeve_toss_desc" "Spade pulls dove from her sleeve and throws it into the air. It will follow Spade's crosshair until detonation."
-		"EffectDuration_label"					"Durata degli effetti negativi"
+		"EffectDuration_label"					"Durata dell'effetto negativo"
 		"EffectDuration_postfix"					" s"
 		//"Projectiles_label"					" Projectiles"
 
@@ -2740,6 +2782,91 @@
 
 		//"modifier_charged_bomb"	"Charged Bomb"
 
+		
+		//-----------------------------------------------------------------------------
+		// Hero Viper
+		//-----------------------------------------------------------------------------
+		"ability_viper_hookdagger" "Lama a boomerang"
+		"ability_viper_hookdagger_desc" "Lanci una lama, infliggendo <span class=\"highlight_spirit\">danni spirituali</span>. La lama torna da te, infliggendo nuovi <span class=\"highlight_spirit\">danni spirituali</span> e applicando un <span class=\"highlight\">rallentamento</span>."
+		"ability_viper_hookdagger_t3_desc"	"Lanci altre <span class=\"highlight\">2 daghe</span>"
+		"ability_viper_hookdagger_quip" "Lanci una lama che ritorna da te"
+
+		"ability_viper_snakedash" "Serpeggiamento"
+		"ability_viper_snakedash_desc" "La distanza della scivolata aumenta, puoi scivolare sui dislivelli e girarti più velocemente mentre scivoli.</span>"
+		"ability_viper_snakedash_t3_desc"	"<span class=\"highlight\">+{s:SlideBulletEvasion}% di elusività alle pallottole</span> durante la scivolata"
+		"ability_viper_snakedash_quip" "Aumenti l'agilità della tua scivolata"
+
+		"modifier_snakedash" "Serpentiforme"
+		"OutgoingDamage_label" "Danni iniziali"
+		"ReturnDamage_label" "Danni da aggancio"
+		"OutgoingProjectileLifetime_label" "Ritardo dell'aggancio"
+		"OutgoingProjectileLifetime_postfix" " s"
+
+		"ability_viper_venom" "Veleno letale"
+		"ability_viper_venom_desc" "Inietti un veleno letale a un bersaglio. Dopo un certo periodo di tempo il veleno si innesca, infliggendo <span class=\"highlight_spirit\">danni spirituali</span>. I danni aumentano in base alla salute mancante del bersaglio.<br><br><span class=\"diminish\">Applicare nuovamente il veleno ne aumenta la durata.</span>"
+		"VenomMinDamage_label"			"Danno minimo da veleno"
+		"VenomMaxDamage_label"			"Danno massimo da veleno"
+		"VenomDuration_label"			"Durata accumulo veleno"
+		"VenomDuration_postfix"		" s"
+		"VenomMaxDamageHealthPercentage_label"		"Salute per danni max"
+		"VenomMaxDamageHealthPercentage_postfix"	"%"
+		"ability_viper_venom_t3_desc"	"+<span class=\"highlight\">+{s:VenomMissingHealthDamagePercentage}% di salute mancante convertita in danni</span>"
+		"VenomMissingHealthDamagePercentage_label"		"Salute mancante convertita in danni"
+		"VenomMissingHealthDamagePercentage_postfix"	"%"
+		"ability_viper_venom_quip" "Inietti ai tuoi nemici un veleno mortale"
+
+		
+		"ability_viper_ult" "Pietrificazione"
+		"ability_viper_ult_desc" "Crei un'area maledetta sul terreno. Dopo un ritardo, TUTTE le unità nell'area bersaglio cilindrica sono <span id=\"TestID\"/></span><span class=\"highlight\">pietrificate</span>. Inoltre, i nemici subiscono <span class=\"highlight_spirit\">danni spirituali</span>.<br><br><span class=\"diminish\">Le unità pietrificate bloccano tutti i danni, ma non possono intraprendere alcuna azione.<br>Le unità pietrificate si liberano dopo aver bloccato un numero sufficiente di danni</span>."
+		"PetrifyDuration_label"			"Durata della pietrificazione"
+		"PetrifyDuration_postfix"		" s"
+		"PetrifyDamageBreakThreshold_label"	"Blocco max pietrificazione"
+		"ability_viper_ult/viper_ult_petrify" "Pietrificato"
+		"ability_viper_ult_quip" "Trasformi in pietra alleati e nemici"
+		"HalfHeight_postfix"	" m"
+
+		//-----------------------------------------------------------------------------
+		// Hero Magician
+		//-----------------------------------------------------------------------------
+		
+		"ability_magician_magicbolt" "Raggio persecutorio"
+		"ability_magician_magicbolt_desc" "Emetti un raggio magico che infligge <span class=\"highlight_spirit\">danni spirituali</span> e applica un <span class=\"highlight\">rallentamento del movimento graduale</span>. <br><br>Premi <span class=\"highlight\">[{s:in_ability1}]</span> per <span class=\"highlight\">reindirizzare</span> il raggio verso il tuo mirino."
+		"ProjectileRedirectCount_label" "Reindirizzamenti max"
+		"ability_magician_magicbolt_t3_desc" "+{s:ProjectileRedirectCount} di reindirizzamenti max e +{s:Damage} di danni"
+		"ability_magician_magicbolt_quip" "Lanci un raggio magico guidato"
+
+		"citadel_ability_magewalk" "Disorientamento"
+		"citadel_ability_magewalkk_desc" "Diventi brevemente <span class=\"highlight\">non bersagliabile</span> prima di apparire nella tua destinazione. I tuoi primi <span class=\"highlight\">{s:EmpoweredAttackCount} attacchi</span> infliggono <span class=\"highlight_spirit\">danni spirituali</span> bonus. <br><br><span class=\"highlight\">[Uso standard]</span> Appari nella posizione designata.<br><span class=\"highlight\">[Uso alternativo]</span> Appari in posizione.</span><br><span class=\"diminish\">I nemici non sapranno quale uso hai eseguito.</span>"
+		"MageTime_label" "Durata non bersagliabile"
+		"MageTime_postfix" " s"
+		"modifier_magewalk_empoweredattacks" "Carta della sorte"
+
+		"ability_magician_cloneturret" "Assistente spettrale"
+		"ability_magician_cloneturret_desc" "Evochi un <span class=\"highlight\">Assistente </span> nella posizione bersaglio. Questo imita i tuoi attacchi, lanciando carte che infliggono <span class=\"highlight_spirit\">danni spirituali</span>. <br><br>Premi <span class=\"highlight\">[{s:in_ability2}]</span> per scambiare la tua posizione con quella del tuo Assistente."
+		"ability_magician_cloneturret_t3_desc" "L'Assistente imita anche il Raggio persecutorio"
+		"ability_magician_cloneturret_quip" "Evochi il tuo fedele assistente"
+
+		"ability_magician_animalcurse" "Maledizione del coniglio"
+		"ability_magician_animalcurse_desc" "Maledici un bersaglio, trasformandolo in un <span class=\"highlight\">coniglio</span>. I conigli sono più piccoli e si muovono più velocemente, ma ricevono un'amplificazione dei danni e non possono eseguire la maggior parte delle azioni.<br><span class=\"highlight\">[Uso standard]</span> Maledici un eroe bersaglio.<br><span class=\"highlight\">[Uso alternativo]</span> Maledici il tuo eroe.<br><span class=\"diminish\">La maledizione non interrompe le abilità.</span>"
+		"ability_magician_animalcurse/animalhex_curse_modifier" "Maledetto!"
+		"ability_magician_animalcurse_t3_desc" "<span class=\"highlight\">Maledici</span> i nemici vicini per <span class=\"highlight\">metà della durata</span>."
+		"DamageAmpPercentage_label" "Amplificazione dei danni"
+		"DamageAmpPercentage_postfix" "%"
+		"ability_magician_animalcurse_quip" "Trasformi il tuo nemico in un coniglio"
+		
+
+		"ability_magician_stage" "Pubblico catturato"
+		"ability_magician_stage_desc" "Scegli come bersaglio un nemico. Tu e il nemico bersaglio siete legati sul palco, incapaci di andarvene. Tutti gli altri personaggi vengono spinti fuori dal raggio."
+
+		"ability_magician_shadowclone" "Il grande omuncolo!"
+		"ability_magician_shadowclone_desc" "Crei una <span class=\"highlight\">copia</span> del tuo eroe con salute e danni ridotti. Il clone esplode quando muore o scade, infliggendo danni spirituali.<br><br><span class=\"diminish\">La copia non può usare la sua abilità ultimate.</span>"
+		"CloneHealthPercentage_label" "Salute della copia"
+		"CloneHealthPercentage_postfix" "%"
+		"CloneDamagePercentage_label" "Danni della copia"
+		"CloneDamagePercentage_postfix" "%"
+		"CloneLifetime_label" "Durata della copia"
+		"CloneLifetime_postfix" " s" 
+		"ability_magician_shadowclone_t3_desc"	"La copia può usare la sua <span class=\"highlight\">abilità ultimate</span>"
 
 		//-----------------------------------------------------------------------------
 		// END HERO ABILITIES
@@ -2775,13 +2902,17 @@
 		"citadel_weapon_hero_astro_set"				"45 occulta"
 		"citadel_weapon_hero_chrono_set"			"Segreto commerciale"
 		"citadel_weapon_hero_shiv_set"				"Flush colore"		
-		"citadel_weapon_hero_tengu_set"				"Le bizze di papà gatto"
+		"citadel_weapon_hero_tengu_set"				"Mano del protettore"
 		"citadel_weapon_hero_krill_set"				"Canarino giallo"
 		"citadel_weapon_hero_lash_set"				"Il racconto del nastro"
 		"citadel_weapon_hero_warden_set"			"Il prezzo della libertà"
 		"citadel_weapon_hero_mirage_set"			"Promesse mantenute"
 		"citadel_weapon_hero_synth_set"				"La pecora nera"
-		
+		"citadel_weapon_hero_viper_set"				"La serpe"
+		"citadel_weapon_hero_magician_set"			"Gioco di prestigio"
+		"citadel_weapon_hero_slork_set"				"Risacca"
+	
+
 		//"citadel_weapon_hero_duo_set"				"Duo Gun"
 		//"citadel_weapon_hero_heavy_set"				"Heavy Gun"
 		//"citadel_weapon_hero_akimbo_set"			"Akimbo Gun"
@@ -2802,8 +2933,8 @@
 		//"citadel_weapon_hero_rutger_set"			"Rutger Gun"
 		//"citadel_weapon_hero_tokamak_set"			"Curie-ous Times"
 		//"citadel_weapon_hero_tempest_set"			"Tempest Gun"
-		"citadel_weapon_hero_wrecker_set"			"Inno alla demolizione"
-		
+		"citadel_weapon_hero_wrecker_set"			"La mano del macellaio"
+
 		// Melee names
 		"ability_melee_ghost"	"Corpo a corpo"
 		"citadel_ability_melee_bull"			"Corpo a corpo"
@@ -2867,7 +2998,10 @@
 		"hero_yamato_role"				"Sferra potenti attacchi con finezza"
 		"hero_tengu_role"				"Forma un duo inespugnabile con un alleato di sua scelta"
 		"hero_mirage_role"				"Pianifica i suoi colpi e cattura i bersagli in fuga"
+		"hero_slork_role"				"Entra furtivamente in combattimento e si nasconde per riprendersi"
 		"hero_synth_role"				"Si infiltra e sconvolge le retrovie"
+		"hero_viper_role"				"Si intrufola tra i nemici e li assassina"
+		"hero_magician_role"			"Disorienti e maledici i nemici"
 
         //"hero_akimbo_playstyle"         "Akimbo excels at close range combat, where he relies on speed, cone attacks, and a whole lot of bullets to hit as many targets as possible." 
         "hero_astro_playstyle"          "Astro fa affidamento sulle sue capacità di tiratrice esperta, sparando a oggetti che fa rimbalzare in aria. Con una buona mira può infliggere danni ingenti. Le sue abilità di movimento le permettono di isolare i nemici o di ritirarsi velocemente."
@@ -2887,7 +3021,7 @@
         "hero_kelvin_playstyle"         "Kelvin guarisce e interrompe gli scontri di squadra al momento opportuno, cambiando così le sorti della battaglia. Scivola attorno ai suoi avversari per rallentarli e migliorare la manovrabilità della sua squadra."
         "hero_lash_playstyle"           "Lash non dà un attimo di tregua ai suoi nemici: vola per lunghe distanze per sferrare attacchi ai nemici ignari oppure li insegue senza sosta quando tentano di scappare."
         "hero_krill_playstyle"			"Mo e Krill scavano gallerie sotterranee che permettono loro di cogliere quasi chiunque alla sprovvista. Quando emergono, è per infliggere danni devastanti."
-        //"hero_nano_playstyle"           "(in flux) Like any good politician, Nano turns people against each other and lets them do her dirty work before swooping in and claiming credit for everything."
+        "hero_nano_playstyle"           "Calico usa le ombre a suo vantaggio, entrando e uscendo dal combattimento per dare la caccia ai suoi nemici uno per uno."
         "hero_orion_playstyle"    		"Grey Talon è un astuto predatore. La sua precisione mortale, il suo arsenale di trappole e il suo posizionamento strategico gli permettono di abbattere gli avversari più difficili."
         "hero_shiv_playstyle"           "Shiv non ha alcun interesse a giocare secondo le regole, motivo per cui si affida a tattiche mordi e fuggi per indebolire i nemici prima di lanciarsi per ucciderli."
         //"hero_tempest_playstyle"        "Much like how a child has no idea how a TV works, no one knows exactly HOW Tempest kills you.  Was it a tesla coil?  You didn't see a tesla coil.  Either way, you're dead and Tempest is laughing."
@@ -2900,9 +3034,10 @@
 		//"hero_rutger_playstyle"		"Rocket Launcher gives him some rocket-jumping capabilities, Force Field allows him to close off movement options, Cheat Death lets him turn bad fights around, and a Pulse released in the middle of a teamfight can dictate the outcome."
 		"hero_synth_playstyle"		"Dotato di un potente fucile e di una corporatura esile, Pocket fa affidamento sulla sua capacità di rifugiarsi in qualsiasi momento in una valigetta mistica e di teletrasportarsi con un mantello volante per sopravvivere a scontri troppo rischiosi."
 		"hero_mirage_playstyle"		"Mirage può avvolgersi in un tornado distruttivo per raggiungere gli avversari e sollevarli in aria. Grazie ai suoi scarabei, può rimanere in vita contro più nemici, ed è sempre pronto ad aiutare un alleato o punire un nemico ovunque si trovi."
-		//"hero_slork_playstyle"		"Slork's weapon poisons all it hits. Primary fire hits all in a cone, and aimed fire shoots a dart which crits when hitting a poisoned target."
+		"hero_slork_playstyle"		"Un vero e proprio assassino che colpisce a distanza ravvicinata, Fathom può entrare e uscire dagli scontri e vincere combattimenti prolungati."
 		"hero_tengu_playstyle"		"Ivy dispone di trucchi di combattimento dirompenti che rallentano e stordiscono i nemici. È più efficace quando si unisce a un alleato, poiché potenzia la sua arma e quella del compagno e condivide la sua capacità di guarigione."
-
+		"hero_viper_playstyle"		"Con un'arma potente (accompagnata da un veleno letale), Viper può infilarsi nelle retrovie delle squadre e assassinare bersagli ad alta priorità in una tempesta di pallottole."
+		"hero_magician_playstyle"	"Con l'aiuto del suo riluttante assistente, Magician può confondere i nemici con maledizioni a effetto e carte rapide."
 	
 		//"hero_akimbo_lore"				"Though he was built by a lonely gunslinger, Akimbo was taught that he couldn't use a gun to solve all his problems.  This frustrated the robot outlaw immensely, but as time passed Akimbo realized that his human father was right.  A gun only solved about 75% of his problems.  To solve ALL his problems, he would need at least 2 guns." 
 		"hero_astro_lore"				"Ci sono persone che hanno trascorso l'intera vita a sognare di trasferirsi a New York. Holliday non è una di queste. Appagata dal rivestire la carica di sceriffa in una piccola cittadina, Holliday ha avuto una carriera priva di stress, in cui l'unica volta che ha dovuto impugnare la pistola è stata alla fiera della contea, durante il tiro a segno... poi, sono iniziati gli omicidi.\n\nRaccapriccianti e disumani. I corpi venivano trovati con le casse toraciche squarciate... le viscere sminuzzate come dagli avvoltoi. Holliday scovò l'assassino, un musicista folk itinerante che i media avevano soprannominato \"Il Trovatore\", ma quando cercò di arrestarlo lui si trasformò in uno stormo di corvi e volò via.\n\nDa allora sono trascorsi sei mesi, e mentre gli omicidi nel centro dell'Illinois sono cessati, le indagini di Holliday non si fermano. Lei crede che \"Il Trovatore\" sia in viaggio verso New York e, quando lo troverà, ucciderà quel figlio di puttana."
@@ -2930,8 +3065,9 @@
 		"hero_tengu_lore"				"La gargoyle non sapeva cosa stesse succedendo quando venne alla vita... sapeva solo che si stava facendo del male a un essere umano grande e a uno piccolo. E così la gargoyle entrò in azione e fece fuggire gli aggressori inorriditi. Il piccolo umano ringraziò e chiese il nome della gargoyle, ma lei non ne aveva uno. E così il piccolo umano disse che l'avrebbe chiamata Ivy. La gargoyle, che all'epoca era ricoperta di edera, trovò il nome un po' banale, ma decise di prenderlo per buono per accontentare il piccolo umano.\n\nGli umani chiesero se Ivy avrebbe accettato di tornare a casa con loro, come segno della loro riconoscenza, e così Ivy s'incamminò con loro. Quella notte imparò tante cose: la famiglia si chiamava Arroyo, la più piccola era Sofia e un piatto di prelibatezze lo chiamavano Mofongo. Ma cosa ancora più importante, Ivy scoprì che la gente che li aveva attaccati si faceva chiamare il Sindacato di Mendoza ed era avvezzo a far del male alle persone... brave persone come gli Arroyo.\n\nSono passati 18 anni dal giorno in cui gli Arroyo portarono Ivy a casa... e in quel lasso di tempo il suo compito fu di smantellare il Sindacato di Mendoza e liberare il ghetto spagnolo dalle sue grinfie. Ad ogni buon conto, il problema è che, dopo aver conseguito quell'obiettivo a cui ci si è dedicati anima e corpo per quasi due decenni, ci si ritrova davvero a non saper cosa fare. Per la prima volta nella sua vita, Ivy è pronta a cercare avventure fuori dal ghetto spagnolo e scoprire cos'abbia il mondo da offrire, oltre all'attività di giustiziera."
 		"hero_synth_lore"				"Arin Fairfax, l'erede primogenito delle Industrie Fairfax, vive nell'ombra da 5 anni, dopo che qualcuno gli ha sparato e lo ha lasciato per morto il giorno del suo 18° compleanno. Arin non sa chi stia cercando di impedire che prenda il controllo dell'azienda dei genitori... ma in quel covo di vipere fomentate dall'ingordigia quali sono le industrie Fairfax, potrebbe essere chiunque.\n\nArin, noto anche col nome di \"Pocket\", intende disperatamente tenere nascosta la sua vera identità… non solo per proteggersi, ma perché vuole crearsi una propria identità distinta da quella dei suoi genitori."
 		"hero_mirage_lore"				"I Djinn sono uno dei gruppi di persone più singolari del mondo moderno. Con un immenso potere di cui possono disporre in dosi controllate, i Djinn non riescono a mantenere la forma del loro corpo per più di 48 minuti senza dover riposare all'interno di un qualsiasi ospite. Di conseguenza, la maggior parte dei Djinn si serve di guardie del corpo umane per il trasporto, la protezione e la compagnia.\n\nMirage è una di queste guardie del corpo. Assunto da Nashala Dion, ambasciatrice dei Djinn, Mirage è a New York per una missione diplomatica. I Djinn sperano di poter negoziare con il governo degli Stati Uniti la vendita di una parte del Wyoming, in modo che il loro popolo possa vantare una propria nazione sovrana."
-
-
+		"hero_slork_lore"				"Famigerato mostro degli abissi, Fathom si divertiva a coltivare intorno a sé un'aura di mistero e terrore. Era felice di nutrirsi di marinai ribelli e di riscuotere le decime dalle selkie, ma poi è arrivato l'Avversario a rovinare ogni cosa. Dopotutto, quando si trattava di seminare terrore, come poteva competere con una forza genocida della natura? Era una lotta impari. Doveva fare qualcosa per evitare di svanire nell'oscurità... e così cerca di evocare i Patroni per assicurarsi di rimanere il predatore dominante degli abissi."
+		"hero_viper_lore"				"Quando si tratta di infrangere la legge, non farsi scoprire è una parte piuttosto importante del lavoro. Viper non ha mai imparato questa lezione. Fortunatamente per lei, se c'è una cosa in cui è più brava che essere arrestata, è evadere di prigione.\n\nDopo aver scontato la pena in tutte le principali prigioni dell'area dei tre stati, Viper ha costruito una rete impressionante di delinquenti che le devono un favore. Ha anche costruito una rete impressionante di delinquenti di strada che vogliono la sua morte, ma cerca di vedere il bicchiere mezzo pieno."
+		"hero_magician_lore"			"I genitori di Henry gli dissero che era troppo giovane e impulsivo per scherzare con la vera magia, e così gli diedero un mazzo di carte con cui giocare. Prese familiarità con i giochi di prestigio e ben presto riuscì a stupire i suoi compagni di classe con fantastiche illusioni realizzate senza artefatti mistici o incantesimi.\n\nQuando era al liceo conobbe Savannah e il loro amore reciproco per la magia del palcoscenico scatenò una vorticosa storia d'amore. Ben presto si innamorarono e crearono uno spettacolo insieme. Ovviamente erano destinati l'uno all'altra; e così, al ballo di fine anno, Henry chiese la mano di Savannah e si sposarono subito dopo il diploma.\n\nNon sorprende che entrambi i genitori non fossero entusiasti di questa prospettiva, ma Henry e Savannah sapevano di essere anime gemelle. E così consolidarono il loro amore reciproco facendo legare le loro anime per l'eternità da un mistico del sangue.\n\nQuando un incidente sul palco costò la vita a entrambi, nessuno seppe di chi fosse la colpa. Henry affermò che Savannah non era in posizione. Savannah disse che Henry non aveva aspettato il momento giusto. Ma una cosa era certa: dal momento che le loro anime erano legate l'una all'altra, nessuno dei due riuscì a passare oltre. Ora Henry e Savannah sono una coppia di fantasmi litigiosi e devono lavorare insieme se vogliono avere qualche possibilità di annullare la loro unione eterna."
 
 	}
 }

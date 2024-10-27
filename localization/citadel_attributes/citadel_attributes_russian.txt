@@ -43,6 +43,7 @@
 		"Citadel_StatusEffectImmobilize" 		"Обездвиживание"
 		"Citadel_StatusEffectDisarmed"			"Обезоруживание"
 		"Citadel_StatusEffectInvisible"			"Невидимость"
+		"Citadel_StatusEffectPetrify"				"Окаменение"
 		//"Citadel_StatusEffectStacks"			"Stacks "
 		//"Citadel_StatusEffectInfiniteClip"		"Infinite Ammo"
 		//"Citadel_StatusEffectBulletDebuff"		"Bullet Debuff"
@@ -204,6 +205,8 @@
 		"StatDesc_HealingOutput_postfix"				"%"
 		"StatDesc_CritDamageBonusScale"					"Размер критического урона"
 		"StatDesc_CritDamageBonusScale_postfix"			"%"
+		"StatDesc_MeleeResist"							"Сопротивляемость в ближнем бою"
+		"StatDesc_MeleeResist_postfix"					"%"
 
 		"StatDesc_BulletSpeed"							"Скорость пуль"
 		"StatDesc_BulletSpeed_postfix"					" м/с"
@@ -694,6 +697,9 @@
 
 		"HealAmpReceivePenaltyPercent_label"		"Снижение лечения"
 		"HealAmpReceivePenaltyPercent_postfix"			"%"
+		
+		"HealAmpRegenPenaltyPercent_label"		"Снижение лечения"
+		"HealAmpRegenPenaltyPercent_postfix"	"%"
 
 		"DegenResistance_label"						"к сопротивлению снижению лечения"
 		"DegenResistance_postfix"					"%"
@@ -1793,9 +1799,16 @@
 		"StaminaRegenPercent_label"			"Восстановление выносливости"
 		"StaminaRegenPercent_postfix"		"%"
 
-		//crow_mask_1827_comment
-		// crow_mask_1828_comment
-		//crow_mask_1829_comment
+		"MeleeResistPercent_prefix"			"{s:sign}"
+		"MeleeResistPercent_label"			"Сопротивляемость в ближнем бою"
+		"MeleeResistPercent_postfix"		"%"
+		
+		"BuffDuration_label"				"Длительность эффекта"
+		"BuffDuration_postfix"				" с."
+
+		//crow_mask_1840_comment
+		// crow_mask_1841_comment
+		//crow_mask_1842_comment
 
 
 

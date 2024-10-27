@@ -43,6 +43,7 @@
 		"Citadel_StatusEffectImmobilize" 		"Immobilizzazione"
 		"Citadel_StatusEffectDisarmed"			"Disarma"
 		"Citadel_StatusEffectInvisible"			"Invisibile"
+		"Citadel_StatusEffectPetrify"				"Pietrificazione"
 		//"Citadel_StatusEffectStacks"			"Stacks "
 		//"Citadel_StatusEffectInfiniteClip"		"Infinite Ammo"
 		//"Citadel_StatusEffectBulletDebuff"		"Bullet Debuff"
@@ -204,6 +205,8 @@
 		"StatDesc_HealingOutput_postfix"				"%"
 		"StatDesc_CritDamageBonusScale"					"Scala dei danni critici bonus"
 		"StatDesc_CritDamageBonusScale_postfix"			"%"
+		"StatDesc_MeleeResist"							"Resistenza corpo a corpo"
+		"StatDesc_MeleeResist_postfix"					"%"
 
 		"StatDesc_BulletSpeed"							"Velocità delle pallottole"
 		"StatDesc_BulletSpeed_postfix"					" m/s"
@@ -694,6 +697,9 @@
 
 		"HealAmpReceivePenaltyPercent_label"		"Riduzione della guarigione"
 		"HealAmpReceivePenaltyPercent_postfix"			"%"
+		
+		"HealAmpRegenPenaltyPercent_label"		"Riduzione della guarigione"
+		"HealAmpRegenPenaltyPercent_postfix"	"%"
 
 		"DegenResistance_label"						"Resistenza alla riduzione della guarigione"
 		"DegenResistance_postfix"					"%"
@@ -1577,7 +1583,7 @@
 		"GalvanicProcDuration_label"			"Durata dei rallentamenti"
 		"GalvanicProcDuration_postfix"		" s"
 
-		"FireRateSlow_label"					"Riduzione della frequenza di fuoco"
+		"FireRateSlow_label"					"Riduzione frequenza di fuoco"
 		"FireRateSlow_postfix"				"%"
 
 		//"SlowFireRatePercent_label"			"Fire Rate Scale"
@@ -1793,9 +1799,16 @@
 		"StaminaRegenPercent_label"			"Rigenerazione della resistenza"
 		"StaminaRegenPercent_postfix"		"%"
 
-		//crow_mask_1827_comment
-		// crow_mask_1828_comment
-		//crow_mask_1829_comment
+		"MeleeResistPercent_prefix"			"{s:sign}"
+		"MeleeResistPercent_label"			"Resistenza corpo a corpo"
+		"MeleeResistPercent_postfix"		"%"
+		
+		"BuffDuration_label"				"Durata degli effetti positivi"
+		"BuffDuration_postfix"				" s"
+
+		//crow_mask_1840_comment
+		// crow_mask_1841_comment
+		//crow_mask_1842_comment
 
 
 

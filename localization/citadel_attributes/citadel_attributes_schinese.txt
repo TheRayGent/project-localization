@@ -43,6 +43,7 @@
 		"Citadel_StatusEffectImmobilize" 		"定身"
 		"Citadel_StatusEffectDisarmed"			"缴械"
 		"Citadel_StatusEffectInvisible"			"隐身"
+		"Citadel_StatusEffectPetrify"				"石化"
 		//"Citadel_StatusEffectStacks"			"Stacks "
 		//"Citadel_StatusEffectInfiniteClip"		"Infinite Ammo"
 		//"Citadel_StatusEffectBulletDebuff"		"Bullet Debuff"
@@ -204,7 +205,6 @@
 		"StatDesc_HealingOutput_postfix"				"%"
 		"StatDesc_CritDamageBonusScale"					"暴击伤害比例"
 		"StatDesc_CritDamageBonusScale_postfix"			"%"
-
 		"StatDesc_BulletSpeed"							"子弹速度"
 		"StatDesc_BulletSpeed_postfix"					"m/s"
 		"StatDesc_BulletSpeedIncrease"					"子弹速度增加"
@@ -694,6 +694,9 @@
 
 		"HealAmpReceivePenaltyPercent_label"		"治疗降幅"
 		"HealAmpReceivePenaltyPercent_postfix"			"%"
+		
+		"HealAmpRegenPenaltyPercent_label"		"治疗降幅"
+		"HealAmpRegenPenaltyPercent_postfix"	"%"
 
 		"DegenResistance_label"						"治疗减少抗性"
 		"DegenResistance_postfix"					"%"
@@ -1793,9 +1796,16 @@
 		"StaminaRegenPercent_label"			"耐力恢复"
 		"StaminaRegenPercent_postfix"		"%"
 
-		//crow_mask_1827_comment
-		// crow_mask_1828_comment
-		//crow_mask_1829_comment
+		"MeleeResistPercent_prefix"			"{s:sign}"
+		"MeleeResistPercent_label"			"近战抗性"
+		"MeleeResistPercent_postfix"		"%"
+		
+		"BuffDuration_label"				"增益持续时间"
+		"BuffDuration_postfix"				"s"
+
+		//crow_mask_1840_comment
+		// crow_mask_1841_comment
+		//crow_mask_1842_comment
 
 
 

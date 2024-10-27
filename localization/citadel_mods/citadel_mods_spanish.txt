@@ -142,10 +142,7 @@
 		"upgrade_magic_shock_desc"	"Las habilidades infligen <span class=\"highlight\">daño espiritual</span> adicional si infligen {s:MinimumDamage} de daño o más con un solo impacto.<br/>Tras recibir daño, los objetivos son inmunes a los efectos de Explosión Mejorada durante <span class=\"highlight\">{s:ReProcLockoutTime} s</span>."
 		"MagicShockDamage_label"		"de daño adicional según vida máxima"
 		"MagicShockDamage_postfix"	" %"
-
-		//Mystic Reverb
-		"upgrade_tech_bleed_desc" "Imbuye una habilidad para que aplique <span class=\"highlight\">ralentización</span> en un radio alrededor del objetivo e inflija un <span class=\"highlight\">porcentaje adicional del daño casuado</span> a los enemigos que estén alrededor del objetivo tras un breve retraso."
-		//"upgrade_tech_bleed/modifier_tech_bleed_proc/modifier_tech_bleed"			"Spirit Echo"	
+//"upgrade_tech_bleed/modifier_tech_bleed_proc/modifier_tech_bleed"			"Spirit Echo"	
 
 		//Toxic Bullets
 		"upgrade_toxic_bullets_desc"	"Tus balas generan un efecto de <span class=\"highlight\">sangrado</span> en los enemigos, lo que hace que pierdan un <span class=\"highlight\">porcentaje de su vida actual</span> a lo largo del tiempo. También aplica <span class=\"highlight\">reducción de curación</span> al objetivo que esté sangrando."
@@ -268,14 +265,7 @@
 		"ActiveBonusLifesteal_label"		"de robo de vida balístico"
 		"ActiveBonusLifesteal_postfix"	" %"
 		"modifier_surging_power"		 "Poder Creciente"
-		//"upgrade_surging_power/surge/windup"					"Surging Power"
-		//"upgrade_surging_power/surge/active"					"Surging Power"
-		//"upgrade_surging_power/surge"					"Surging Power"
-
-		//Siphon Bullets
-		//"upgrade_siphon_bullets_desc_passive1"	"When in <span class=\"highlight\">close range</span> of your target, deal additional <span class=\"highlight\">Weapon Damage</span>."
-		"upgrade_siphon_bullets_desc_passive2"	"Tus balas <span class=\"highlight\">roban temporalmente la vida máxima</span> de los enemigos. Los enemigos recuperan la vida robada cuando expira la desventaja. Robas permanentemente una acumulación de vida si un objetivo afectado por Balas Drenantes muere y pierdes {s:StackLostPerDeath} acumulaciones si tú mueres."
-		"modifier_siphon_bullets_health_gain"		"Balas Drenantes"
+"modifier_siphon_bullets_health_gain"		"Balas Drenantes"
 		"modifier_siphon_bullets_health_loss"		"Balas Drenantes"
 		"HealthSteal_label"						"de robo de vida máxima por bala"
 
@@ -486,15 +476,11 @@
 		"WitheringWhipDisarmDuration_postfix"	" s"
 		"SpiritPower_label"					"de poder espiritual"
 		"SpiritPower_prefix"					"+"
-
-		//Ethereal Shift
-		"upgrade_self_bubble_desc"			"Entras en un estado de vacío y te conviertes en <span class=\"highlight\">no seleccionable como objetivo e invencible</span> durante un breve período de tiempo, durante el cual no puedes moverte ni realizar ninguna acción. Después, <span class=\"highlight\">recargas instantáneamente</span> y obtienes <span class=\"highlight\">poder espiritual</span> adicional."
-		"ShiftingVeilDuration_label"			"de duración"
+"ShiftingVeilDuration_label"			"de duración"
 		"ShiftingVeilDuration_postfix"		" s"
 		"BonusSpiritDuration_label"			"de duración espiritual adicional"
 		"BonusSpiritDuration_postfix"			" s"
 		"modifier_shifting_veil_buff"			"Transformación Etérea"
-		"shifting_veil_bonus_spirit"			"Poder espiritual adicional"
 		"modifier_citadel_bubble"				"Transformación Etérea"
 
 		//Stasis Bomb
@@ -526,16 +512,7 @@
 		
 		//Refresher
 		"upgrade_ability_refresher_desc"	"<span class=\"highlight\">Restablece el tiempo de recarga</span> de todas tus habilidades y <span class=\"highlight\">restaura todas tus cargas</span>."
-		//"upgrade_ability_refresher_innate_desc" "Health<br>Spirit Power"
-
-		//Spirit Barrier Pulse
-		//"upgrade_aoe_tech_shield_desc"		"Temporarily gain <span class=\"highlight\">spirit barrier</span> for you and all nearby allied units."
-		//"upgrade_aoe_tech_shield/modifier_duration" "Spirit Barrier Pulse"
-		
-		//Cold Front
-		"upgrade_cold_front_desc"			"Lanza una explosión de hielo expansiva que inflige <span class=\"highlight\">daño espiritual</span> y <span class=\"highlight\">ralentiza</span> a los objetivos a los que alcanza."
-		
-		//Knockdown
+//Knockdown
 		"upgrade_target_stun_desc"			"<span class=\"highlight\">Derriba</span> y <span class=\"highlight\">aturde</span> al objetivo tras <span class=\"highlight\">{s:StunDelay} s de retraso</span>, lo que lo interrumpe e impide temporalmente que realice cualquier acción."
 		
 		//Vacuum Web
@@ -612,11 +589,7 @@
 		//Clarity
 		//"upgrade_magic_clarity_desc"			"On ability or item use, gain a <span class=\"highlight\">move speed</span> bonus for {s:AbilityDuration}s.  Your next ability cast will remove the move speed bonus and apply a <span class=\"highlight\">Spirit</span> bonus to that ability."
 		"ClarityBonusSpirit_prefix"				"{s:sign}"
-		//"ClarityBonusSpirit_label"				"Next Ability Bonus Spirit Power"
-
-		//Surge of Power
-		"upgrade_magic_storm_desc"				"Imbuye de <span class=\"highlight\">poder espiritual permanente</span> una habilidad. Al usar esa habilidad, obtienes <span class=\"highlight\">velocidad de movimiento</span> adicional."
-		"modifier_upgrade_magic_storm"			"Subidón de Poder"
+"modifier_upgrade_magic_storm"			"Subidón de Poder"
 
 		//Suppressor
 		"upgrade_suppressor_desc"					"Cuando infliges <span class=\"highlight\">daño espiritual</span> a los enemigos, también <span class=\"highlight\">reduces su cadencia de tiro</span>."
@@ -662,9 +635,7 @@
 		"upgrade_savior_desc"				"Proporciona <span class=\"highlight\">escudo antibalas, escudo espiritual y velocidad de movimiento</span> al objetivo. Se puede lanzar sobre uno mismo."
 		"SaviorBulletShieldHealth_label"		"de escudo antibalas"
 		"SaviorMagicShieldHealth_label"		"de escudo espiritual"
-		"BuffDuration_label"					"de duración"
-		"BuffDuration_postfix"				" s"
-
+	
 		//Restorative Locket
 		"upgrade_restorative_locket_passive_desc"		"Almacena una <span class=\"highlight\">acumulación de restauración</span> cuando un enemigo usa una habilidad a una distancia máxima de {s:Radius} m de ti."
 		"upgrade_restorative_locket_active_desc"		"Consume todas las acumulaciones para <span class=\"highlight\">curar al aliado objetivo</span> y regenerar un <span class=\"highlight\">punto de aguante</span>. Se puede lanzar sobre uno mismo."
@@ -936,10 +907,10 @@
 		"HealOnlevelHealAmount_label"	"de curación"
 		"upgrade_heal_on_level/heal_on_level_buff"			"Curación al subir de nivel"
 
+		//crow_mask_936_comment
+		//crow_mask_937_comment
 		//crow_mask_938_comment
 		//crow_mask_939_comment
 		//crow_mask_940_comment
-		//crow_mask_941_comment
-		//crow_mask_942_comment
 	}
 }

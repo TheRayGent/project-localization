@@ -486,7 +486,9 @@
 		"MinSlowDuration_label"						"Мин. время остановки"
 		"MinSlowDuration_postfix"						" с."
 		"citadel_ability_chrono_kinetic_carbine/modifier_chrono_kinetic_carbine"  "Кинетический карабин"
-
+		"CarbineHeadshotBonus_prefix"				"+"
+		"CarbineHeadshotBonus_label"				"к урону при попадании в голову"
+		"CarbineHeadshotBonus_postfix"				"%"
 
 		//-----------------------------------------------------------------------------
 		// Revenant
@@ -890,7 +892,7 @@
 		"WeaponPowerGainPercent_postfix"			"%"
 
 		//-----------------------------------------------------------------------------
-		// Hero Warden
+		// Warden 
 		//-----------------------------------------------------------------------------
 		"ability_warden_lock_down"				"Сковывающее слово"
 		"ability_warden_lock_down_quip"			"Проклятие, которое обездвиживает цели, если они не убегут"
@@ -919,19 +921,25 @@
 
 		"ability_warden_crowd_control"			"Алхимическая колба"
 		"ability_warden_crowd_control_quip"		"Нанесение урона врагам поблизости и накладывание негативных эффектов"
-		"ability_warden_crowd_control_desc"		"Дозорный бросает колбу, которая <span class=\"highlight\">наносит врагам урон, замедляет их</span>, уменьшает <span class=\"highlight\">урон от их пуль</span> и <span class=\"highlight\">их выносливость</span>."
-		"ability_warden_crowd_control_t3_desc"		"<span class=\"highlight\">{s:AbilityCooldown} c.</span> от времени перезарядки и замедление скорострельности на <span class=\"highlight\">{s:FireRateSlow}%</span>"
+		"ability_warden_crowd_control_desc"		"{s:hero_name} бросает колбу, которая <span class=\"highlight\">наносит врагам урон, замедляет их передвижение</span> и уменьшает <span class=\"highlight\">урон от их пуль</span>."
+		"ability_warden_crowd_control_t1_desc"	"Жертвы теряют <span class=\"highlight\">{s:StaminaReduction} ед. выносливости</span>"
+		"ability_warden_crowd_control_t3_desc"		"<span class=\"highlight\">{s:AbilityCooldown} c.</span> от времени перезарядки. Добавляет к уменьшению урона замедление скорострельности на <span class=\"highlight\">{s:FireRateSlow}%</span>"
 		"MoveSpeedSlowPct_label"					"Замедление передвижения"
 		"MoveSpeedSlowPct_postfix"				"%"
 		"WeaponPowerDebuff_label"					"Урон от пуль"
 		"WeaponPowerDebuff_postfix"				"%"
 		"modifier_warden_crowd_control_debuff"	"Алхимическая колба"
+		"FlaskDebuffDuration_label"				"Длительность ослабления оружия"
+		"FlaskDebuffDuration_postfix"			" с."
 
 		"ability_warden_riot_protocol"			"Последний бой"
 		"ability_warden_riot_protocol_quip"		"Импульсы, отнимающие здоровье у врагов"
 		"ability_warden_riot_protocol_desc"		"После подготовки в {s:AbilityCastDelay} с. {s:hero_name} <span class=\"highlight\">выпускает импульсы, которые наносят урон врагам и лечат его</span> пропорционально нанесённому урону. <br>При подготовке этого умения ваша <span class=\"highlight\">сопротивляемость пулям</span> значительно увеличивается."
+		"ability_warden_riot_protocol_t3_desc"	"<span class=\"highlight\">{s:AbilityCooldown} с.</span> от времени перезарядки и <span class=\"highlight\">иммунитет к отрицательным эффектам</span> на время применения."
 		"modifier_warden_riot_protocol"			"Последний бой"
 		"modifier_warden_riot_protocol_enemy_debuff"	"Замедление"
+
+		//UnstoppableCastDelay
 		"HealthStealPctHero_label"				"Кража здоровья у героев"
 		"HealthStealPctHero_postfix"				"%"
 
@@ -1163,7 +1171,7 @@
 
 		"citadel_ability_sticky_bomb"			"Бомба-липучка"
 		"citadel_ability_sticky_bomb_quip"		"Бибоп прикрепляет бомбу к врагу"
-		"citadel_ability_sticky_bomb_desc"		"{s:hero_name} прикрепляет к цели поблизости бомбу-липучку, которая после короткой задержки <span class=\"highlight\">взрывается и наносит урон</span>. <br>Каждое попадание по вражескому герою <span class=\"highlight\">увеличивает урон на {s:BonusDamagePctPerPlayerHit}%</span>. В случае смерти эффект увеличения урона снижается на {s:BonusLossPerDeath} ед. <br>Удерживайте [{s:key_alt_cast}], чтобы прикрепить бомбу к себе."
+		"citadel_ability_sticky_bomb_desc"		"{s:hero_name} прикрепляет к цели поблизости бомбу-липучку, которая после короткой задержки <span class=\"highlight\">взрывается и наносит урон</span>. <br>Каждое попадание по вражескому герою даёт эффект, <span class=\"highlight\">увеличивающий урон бомбы на {s:BonusDamagePctPerPlayerHit}%</span>. В случае смерти вы теряете {s:BonusLossPerDeath}% ед. эффектов (округляется в большую сторону). <br>Удерживайте [{s:key_alt_cast}], чтобы прикрепить бомбу к себе."
 		"modifier_citadel_sticky_bomb_attached"	"На вас бомба"
 		"citadel_ability_sticky_bomb_t3_desc"	"Прикрепление бомбы <span class=\"highlight\">обезоруживает</span> цель на <span class=\"highlight\">{s:DebuffDuration} с.</span>"
 		"StunTargetOnExplode_label"				"Длительность"
@@ -1256,6 +1264,13 @@
 		//"MinAirTimeForStomp_postfix"				"s"
 		"ability_bounce_pad/speed_on_land""Скорость передвижения"
 
+		"ability_crackshot"						"Меткий глаз"
+		"ability_crackshot_quip"				"Попадания в голову наносят дополнительный урон и замедление"
+		"ability_crackshot_desc"				"Попадания в голову наносят дополнительный <span class=\"highlight\">урон от пуль</span> и накладывают <span class=\"highlight\">затухающее замедление</span>. Этот эффект срабатывает, только когда не на перезарядке. <br><br><span class=\"diminish\">На умение не действует снижение урона с увеличением расстояния.</span>"
+		"FadingSlowPercent_label" "Затухающее замедление передвижения"
+		"FadingSlowPercent_postfix" "%"
+		"AbilityCooldownPerHeadshot_label" "Перезарядка при попадании в голову"
+		"AbilityCooldownPerHeadshot_postfix" " с."
 
 		//"citadel_ability_running_decoy"					"Decoy"
 		//"citadel_ability_running_decoy_desc"			"{s:hero_name} creates a temporary decoy that will run towards the target location and shoot at any nearby enemies."
@@ -1328,6 +1343,7 @@
 
 		"ability_perched_predator"				"Дух Сехмета"
 		"ability_perched_predator_desc"			"{s:hero_name} отправляет вперёд дух кота, который хватает цели на своём пути. Если схвачен герой, вскоре происходит взрыв. <br>Нажмите [{s:in_ability1}], чтобы произвести взрыв вручную."
+		"ability_perched_predator_quip"			"Отправка духа кота, хватающего врагов"	
 		//"CatExplosionCount_label"				"Explosions"
 		//"CatMaxSpeed_label"						"Ghostcat Max Speed"
 		"CatMaxSpeed_postfix"						" м/с"
@@ -1350,9 +1366,9 @@
 		"PounceFriendlyTargetCD_postfix"			" с."
 		"pounce_double_notify"					"Двойной наскок"
 
-		"ability_nano_proximity_ritual"			"Ава"
-		"ability_nano_proximity_ritual_quip"	"Компаньон, атакующий ваших врагов"
-		"ability_nano_proximity_ritual_desc"	"{s:hero_name} отправляет <span class=\"highlight\">Аву</span> <span class=\"highlight\">сосредоточиться</span> на враге поблизости. Урон этого умения уменьшает лечение противников, а также <span class=\"highlight\">излечивает Аву и {s:hero_name}</span>. <span class=\"highlight\">Ава действует, только если {s:hero_name} находится поблизости</span>. <br>Нажмите <span class=\"highlight\">[3]</span>, чтобы вернуть Аву. <br>Нажмите <span class=\"highlight\">[Alt-Cast]</span>, чтобы вернуть Аву и телепортироваться на её место.<br> Чем дальше находится Ава, тем больше времени занимают возвращение и телепортация. При возращении Ава восстанавливает своё здоровье."
+		"ability_nano_proximity_ritual"			"Страж-нэкомата"
+		"ability_nano_proximity_ritual_quip"	"Призыв статуи, наблюдающей за областью"
+		"ability_nano_proximity_ritual_desc"	"{s:hero_name} призывает <span class=\"highlight\">статую</span>, отслеживающую врагов в области. Статуя атакует противников, которым {s:hero_name} недавно наносила урон, и снижает их лечение, при этом <span class=\"highlight\">восстанавливая здоровье владелицы</span>."
 		"StatueLifetime_label"					"Время автоматического возвращения"
 		"StatueLifetime_postfix"				" с."
 		"StatueHeldRegen_label"						"Восстановление Авы при возвращении"
@@ -1360,16 +1376,16 @@
 		"StatueLifesteal_postfix"				"%"
 		"StatueLifestealNonHero_label"			"Кража здоровья (у всех, кроме героев)"
 		"StatueLifestealNonHero_postfix"		"%"
-		"StatueActivateRange_label"				"Радиус действия"
+		"StatueActivateRange_label"				"Дальность выявления"
 		"StatueActivateRange_postfix"			" м"
 		"StatueHealth_label"					"Ава"
 		"StatueHealth_postfix"					" здоровья"
 		"StatueVictimDamageReduction_label"					"Уменьшение урона"
 		"StatueVictimDamageReduction_postfix"				"%"
 
-		"ability_nano_proximity_ritual_t1_desc"  "<span class=\"highlight\">+{s:StatueLifesteal}%</span> к краже здоровья"
-		"ability_nano_proximity_ritual_t2_desc"  "<span class=\"highlight\">+{s:DPS}</span> ед. к урону в секунду, и {s:hero_name} получает на <span class=\"highlight\">{s:StatueVictimDamageReduction}%</span> меньше урона от жертв."
-		"ability_nano_proximity_ritual_t3_desc"  "<span class=\"highlight\">+{s:DamageAmplification}%</span> к урону по жертвам и {s:HealAmpReceivePenaltyPercent}% от их лечения"
+		"ability_nano_proximity_ritual_t1_desc"  "Статуи становятся <span class=\"highlight\">невидимыми</span>, когда не атакуют."
+		"ability_nano_proximity_ritual_t2_desc"  "<span class=\"highlight\">+{s:AbilityCharges}</span> заряд умения и <span class=\"highlight\">+{s:DPS} ед.</span> урона в секунду."
+		"ability_nano_proximity_ritual_t3_desc"  "<span class=\"highlight\">{s:StatueVictimDamageReduction}%</span> от наносимого целями урона и {s:HealAmpReceivePenaltyPercent}% от их восстановления."
 		"ability_nano_proximity_ritual_trigger"		"Вернуть Аву"
 
 		"AvaRecallCooldown_label"				"Мин. время до возвращения"
@@ -1378,8 +1394,9 @@
 		"AbilityButtonHint_AvaWarp"			"Перенестись к Аве"
 		"CITADEL_ABILITY_NO_HEALTH_RESOURCE"	"Недоступно"
 
-		"ability_nano_shadow_step"				"Теневая поступь"
-		"ability_nano_shadow_step_desc"			"{s:hero_name} окутывает себя тенью, отчего сила её атак повышается, рывки становятся <span class=\"highlight\">невидимыми</span>, а урон от её <span class=\"highlight\">ударов ближнего боя</span> снижает сопротивляемость пулям у жертв (эффект суммируется)."
+		"ability_nano_shadow_step"				"Королева теней"
+		"ability_nano_shadow_step_desc"			"{s:hero_name} помечает врагов и окутывает себя тенью, которая повышает силу её атак и делает её <span class=\"highlight\">невидимой</span>. Атакуя, {s:hero_name} временно теряет невидимость. При нанесении врагам <span class=\"highlight\">ударов в ближнем бою</span> снижается их сопротивляемость пулям (эффект суммируется)."
+		"ability_nano_shadow_step_quip"			"Уход в тень для получения преимущества над врагами"
 		"modifier_nano_shadow_step"			"Теневая поступь"
 		"NanoShadowBulletArmorReductionLight_prefix"	"–"
 		"NanoShadowBulletArmorReductionLight_label"	"от сопротивляемости пулям (лёгкая атака)"
@@ -1453,7 +1470,7 @@
 
 		"ability_life_drain"				"Высасывание жизни"
 		"ability_life_drain_quip"			"Постепенная кража здоровья у врага"
-		"ability_life_drain_desc"			"{s:hero_name} создаёт путы, которыми <span class=\"highlight\">постепенно высасывает здоровье у врагов</span> и <span class=\"highlight\">лечит себя</span>. Цель должна находиться в пределах видимости и радиуса действия. Во время действия можно стрелять и применять другие умения, но скорость передвижения снижается вдвое. <br><span class=\"highlight\">Нажмите [Alt-Cast], чтобы излечивать союзных героев</span>. Нажмите [{s:in_ability2}], чтобы отменить."
+		"ability_life_drain_desc"			"{s:hero_name} создаёт путы, которыми <span class=\"highlight\">постепенно высасывает здоровье у врагов</span> и <span class=\"highlight\">лечит себя</span>. Цель должна находиться в пределах видимости и радиуса действия. Во время действия можно стрелять и применять другие умения, но скорость передвижения снижается вдвое. <br><span class=\"highlight\">Нажмите [кнопку альт. огня], чтобы излечивать союзных героев</span>. Нажмите [{s:in_ability2}], чтобы отменить."
 		"ability_life_drain/modifier_life_drain" "Высасывание жизни"
 		"ability_life_drain/modifier_life_drain_caster" "Высасывание жизни"
 		"modifier_life_drain_silence"		"Безмолвие"
@@ -1497,10 +1514,10 @@
 
 		"ability_blood_shards"				"Порча"
 		"ability_blood_shards_quip"			"Суммирование усиленного урона врагу"
-		"ability_blood_shards_desc"			"Леди Гайст <span class=\"highlight\">жертвует частью здоровья</span>, чтобы бросить кровавые шары, которые накладывают суммирующуюся порчу. Каждая добавленная единица <span class=\"highlight\">замедляет</span> жертву и <span class=\"highlight\">увеличивает урон</span>, получаемый от Леди Гайст. Замедление со временем ослабевает."
-		"ability_blood_shards_t2_desc"		"+{s:HealthToDamage} ед. здоровья трансформируется в урон"
-		"ability_blood_shards_t3_desc"		"+{s:NumBloodShards} кровавых шаров"
-		"NumBloodShards_label"				"Кровавые шары"
+		"ability_blood_shards_desc"			"{s:hero_name} <span class=\"highlight\">жертвует частью здоровья</span>, чтобы бросить кровавые осколки, которые накладывают суммирующийся эффект порчи. Каждый эффект <span class=\"highlight\">замедляет</span> жертву и <span class=\"highlight\">увеличивает урон</span>, получаемый от {s:hero_name}. Замедление со временем ослабевает."
+		"ability_blood_shards_t2_desc"		"<span class=\"highlight\">+{s:HealthToDamage} ед.</span> к здоровью в урон и <span class=\"highlight\">+{s:VulnerabilityPerStack}%</span> к увеличению урона"
+		"ability_blood_shards_t3_desc"		"+{s:NumBloodShards} к числу кровавых осколков"
+		"NumBloodShards_label"				"Кровавые осколки"
 		"MoveSpeedPenaltyPerStack_label"		"Замедление передвижения"
 		"MoveSpeedPenaltyPerStack_postfix"	"%"
 		"VulnerabilityPerStack_label"			"Увеличение урона"
@@ -1609,7 +1626,7 @@
 		"HeadshotBonus_prefix"					"+"
 		"HeadshotBonus_label"					"Урон при попадании в голову"
 		"HeadshotBonus_postfix"					"%"
-
+		"AbilityButtonHint_AssassinateFoVCycle"	"Переключение приближения"
 
 		//-----------------------------------------------------------------------------
 		// Digger (Formally Pouncer and Driller) Mo and Krill
@@ -1852,6 +1869,7 @@
 		//"TornadoDuration_postfix"			"s"
 		"modifier_mirage_tornado_lift"	"Торнадо"
 		"modifier_mirage_tornado_slow"	"Замедление от «Торнадо»"
+		"modifier_mirage_tornado_hold_in_place"	"Торнадо"
 
 		"mirage_fire_beetles"			"Огненные скарабеи"
 		"mirage_fire_beetles_quip"		"Метает во врагов скарабеев, которые крадут здоровье"
@@ -1871,6 +1889,7 @@
 		"mirage_teleport_desc"	"Подготавливаемое умение. Выберите союзного или видимого вражеского героя на мини-карте, чтобы <span class=\"highlight\">телепортироваться</span> туда, где он был в момент начала подготовки умения. После телепортации {s:hero_name} получает <span class=\"highlight\">бонус к скорости передвижения</span>, а также <span class=\"highlight\">увеличенную скорострельность до следующей перезарядки</span>."
 		"MirageTeleportMoveSpeed_conditional"	"после телепортации"
 		"mirage_teleport_movespeed"		"Бонус к скорости передвижения от «Путника»"
+		"mirage_teleport_t3_desc"	"После телепортации {s:hero_name} получает <span class=\"highlight\">невосприимчивость</span> к <span class=\"highlight\">оглушению, безмолвию, усыплению, обездвиживанию и обезоруживанию</span> на {s:ImmunityDuration} с."
 
 		"mirage_sand_phantom"			"Метка джинна"
 		"mirage_sand_phantom_quip"		"Накладывает эффекты увеличивающегося урона"
@@ -2139,6 +2158,29 @@
 //		"slork_chomp_t3_desc"		"Chomp deals <span class=\"highlight\">{s:DamageMissingPercentHealth}%</span> of the enemies missing health each second."
 		//"modifier_slork_chomp_grapple"	"Chomping an Enemy"
 		//"modifier_slork_chomp_hobbled" "Getting Chomped"
+
+		"fathom_scalding_spray"			"Жгучие брызги"
+		"fathom_scalding_spray_quip"	"Фатом распыляет в конусе перед собой обжигающий кипяток."
+		"fathom_scalding_spray_desc"	"{s:hero_name} разбрызгивает кипяток в конусообразной области перед собой. При попадании во вражеских героев у вас накапливается бонус к урону от пуль."
+		"WeaponDamageBonusPerSec_label"		"Повышение урона от пуль в сек."
+		"WeaponDamageBonusPerSec_postfix"	"%"
+
+		"fathom_breach"				"Прорыв"
+		"fathom_breach_quip"		"Прыжок на врагов"
+		"fathom_breach_desc"		"{s:hero_name} прыгает вперёд, нанося урон врагам в области приземления и подбрасывая их в воздух."
+
+		"fathom_defer_damage"		"Кровопускание"
+		"fathom_defer_damage_quip"	"Откладывает получение части урона"
+
+		"fathom_reefdweller_harpoon"		"Рифовый гарпун"
+		"fathom_reefdweller_harpoon_quip"	"Фатом подтягивает себя к поверхности с помощью гарпуна."
+		"fathom_reefdweller_harpoon_desc"	"{s:hero_name} бросает гарпун, который прикрепляется к поверхности и подтягивает героя. Пока {s:hero_name} висит на поверхности, он <span class=\"highlight\">невидим и неуязвим</span>. Враги, которые смотрят прямо на героя, лишают его невидимости."
+		"fathom_reefdweller_harpoon_passive_desc" "Пассивное: когда {s:hero_name} находится вне боя и враги не видят его на мини-карте, у него <span class=\"highlight\">восстанавливается часть макс. здоровья</span> каждую секунду."
+		"modifier_fathom_reefdweller_harpoon_latched"	"Рифовый гарпун"
+		"fathom_reefdweller_harpoon/regen"	"Восстановление вне боя"
+		"fathom_reefdweller_harpoon/latched"	"Прикреплён к стене"
+		"OutOfCombatRegen_label"			"Восстановление от макс. здоровья"
+		"OutOfCombatRegen_postfix"			"%"
 
 
 		//"slork_ability_4"		"Torrent"
@@ -2546,7 +2588,7 @@
 		"viscous_restorative_goo_desc"					"Вязкус помещает цель в куб из целебной слизи, которая <span class=\"highlight\">защищает от урона и повышает восстановление здоровья</span>. Во время нахождения в кубе <span class=\"highlight\">нельзя ничего делать</span>. В куб можно поместить себя. Нажмите <span class=\"highlight\">[{s:in_mantle}]</span>, чтобы выйти из куба раньше."
 		"viscous_restorative_goo_quip"					"Куб — безопасное место"
 		"viscous_restorative_goo_t1_desc"				"Увеличивает скорость передвижения и восстановление выносливости"
-		"viscous_restorative_goo_t2_desc"				"Куб <span class=\"highlight\">снимает все отрицательные эффекты</span>. <span class=\"highlight\">{s:AbilityCooldown} с.</span> перезарядки."
+		"viscous_restorative_goo_t3_desc"				"Куб <span class=\"highlight\">снимает все отрицательные эффекты</span>. <span class=\"highlight\">{s:AbilityCooldown} с.</span> перезарядки."
 		"viscous_restorative_goo_buff_desc"				"Выйдя из куба, цель ненадолго получит бонус к <span class=\"highlight\">скорости передвижения и восстановлению выносливости</span>."
 		"PostCubeBuffDuration_label"					"Длительность эффекта"
 		"PostCubeBuffDuration_postfix"					" с."
@@ -2740,6 +2782,91 @@
 
 		//"modifier_charged_bomb"	"Charged Bomb"
 
+		
+		//-----------------------------------------------------------------------------
+		// Hero Viper
+		//-----------------------------------------------------------------------------
+		"ability_viper_hookdagger" "Крюк-лезвие"
+		"ability_viper_hookdagger_desc" "{s:hero_name} бросает лезвие, которое наносит <span class=\"highlight_spirit\">спиритический урон</span>. Лезвие быстро возвращается, снова нанося <span class=\"highlight_spirit\">спиритический урон</span> и ненадолго <span class=\"highlight\">замедляя</span> врагов."
+		"ability_viper_hookdagger_t3_desc"	"{s:hero_name} бросает ещё <span class=\"highlight\">2 лезвия</span>"
+		"ability_viper_hookdagger_quip" "Бросок возвращающегося лезвия"
+
+		"ability_viper_snakedash" "Ползание"
+		"ability_viper_snakedash_desc" "{s:hero_name} имеет повышенную дальность скольжения и скорость поворота в нём, а также может скользить вверх по склону.</span>"
+		"ability_viper_snakedash_t3_desc"	"<span class=\"highlight\">+{s:SlideBulletEvasion}% к уклонению от пуль</span> при скольжении"
+		"ability_viper_snakedash_quip" "Повышенная ловкость при скольжении"
+
+		"modifier_snakedash" "Змеиное обличие"
+		"OutgoingDamage_label" "Начальный урон"
+		"ReturnDamage_label" "Урон от возврата"
+		"OutgoingProjectileLifetime_label" "Задержка перед возвратом"
+		"OutgoingProjectileLifetime_postfix" " с."
+
+		"ability_viper_venom" "Смертельный яд"
+		"ability_viper_venom_desc" "{s:hero_name} вводит в цель смертельный яд. Через определённое время яд срабатывает и наносит <span class=\"highlight_spirit\">спиритический урон</span>. Урон увеличивается в зависимости от того, сколько здоровья недостаёт цели.<br><br><span class=\"diminish\">Повторное введение яда обновляет длительность его действия.</span>"
+		"VenomMinDamage_label"			"Мин. урон от яда"
+		"VenomMaxDamage_label"			"Макс. урон от яда"
+		"VenomDuration_label"			"Длительность накопления яда"
+		"VenomDuration_postfix"		" с."
+		"VenomMaxDamageHealthPercentage_label"		"Здоровье для макс. урона"
+		"VenomMaxDamageHealthPercentage_postfix"	"%"
+		"ability_viper_venom_t3_desc"	"+<span class=\"highlight\">{s:VenomMissingHealthDamagePercentage}% к урону за недостающее здоровье</span>"
+		"VenomMissingHealthDamagePercentage_label"		"Урон за недостающее здоровье"
+		"VenomMissingHealthDamagePercentage_postfix"	"%"
+		"ability_viper_venom_quip" "Введение смертельного яда врагам"
+
+		
+		"ability_viper_ult" "Окаменение"
+		"ability_viper_ult_desc" "{s:hero_name} создаёт на земле заколдованную область. После задержки ВСЕ существа в области <span id=\"TestID\"/></span><span class=\"highlight\">каменеют</span>, а врагам наносится <span class=\"highlight_spirit\">спиритический урон</span>.<br><br><span class=\"diminish\">Окаменение полностью защищает от урона, но не позволяет совершать никаких действий.<br>Действия окаменения прекращается, когда оно заблокирует достаточно урона.</span>"
+		"PetrifyDuration_label"			"Длительность окаменения"
+		"PetrifyDuration_postfix"		" с."
+		"PetrifyDamageBreakThreshold_label"	"Макс. блокировка урона"
+		"ability_viper_ult/viper_ult_petrify" "Под окаменением"
+		"ability_viper_ult_quip" "Союзники и враги превращаются в камень"
+		"HalfHeight_postfix"	" м"
+
+		//-----------------------------------------------------------------------------
+		// Hero Magician
+		//-----------------------------------------------------------------------------
+		
+		"ability_magician_magicbolt" "Досаждающий заряд"
+		"ability_magician_magicbolt_desc" "{s:hero_name} выпускает магический заряд, который наносит <span class=\"highlight_spirit\">спиритический урон</span> и накладывает <span class=\"highlight\">затухающее замедление</span>. <br><br>Нажмите <span class=\"highlight\">[{s:in_ability1}]</span>, чтобы <span class=\"highlight\">перенаправить</span> заряд в сторону вашего прицела."
+		"ProjectileRedirectCount_label" "Максимум перенаправлений"
+		"ability_magician_magicbolt_t3_desc" "+{s:ProjectileRedirectCount} к макс. числу перенаправлений и +{s:Damage} ед. к урону"
+		"ability_magician_magicbolt_quip" "Запуск управляемого заряда магии"
+
+		"citadel_ability_magewalk" "Дезориентация"
+		"citadel_ability_magewalkk_desc" "В течение короткого периода перед появлением {s:hero_name} <span class=\"highlight\">не может быть выбран целью</span>. Первые <span class=\"highlight\">атаки ({s:EmpoweredAttackCount})</span> наносят дополнительный <span class=\"highlight_spirit\">спиритический урон</span>. <br><br><span class=\"highlight\">[Огонь]</span> Появление в новом месте.<br><span class=\"highlight\">[Альт. огонь]</span> Появление в старом месте.</span><br><span class=\"diminish\">Враги не знают, где именно вы появитесь.</span>"
+		"MageTime_label" "Нельзя сделать целью"
+		"MageTime_postfix" " с."
+		"modifier_magewalk_empoweredattacks" "Счастливая карта"
+
+		"ability_magician_cloneturret" "Призрачная помощница"
+		"ability_magician_cloneturret_desc" "{s:hero_name} призывает <span class=\"highlight\">помощницу</span> в выбранном месте. Помощница повторяет ваши атаки, бросая карты, которые наносят <span class=\"highlight_spirit\">спиритический урон</span>. <br> <br>Нажмите <span class=\"highlight\">[{s:in_ability2}]</span>, чтобы поменяться с помощницей местами."
+		"ability_magician_cloneturret_t3_desc" "Помощница также имитирует применение «Досаждающего заряда»"
+		"ability_magician_cloneturret_quip" "Призыв верной помощницы"
+
+		"ability_magician_animalcurse" "Кроличий сглаз"
+		"ability_magician_animalcurse_desc" "{s:hero_name} превращает цель в <span class=\"highlight\">кролика</span>. Кролики меньше и быстрее героев, но получают увеличенный урон и не могут выполнять большинство действий.<br><span class=\"highlight\">[Огонь]</span> Превращение выбранного героя.<br><span class=\"highlight\">[Альт. огонь]</span> Превращение себя.<br><span class=\"diminish\">Превращение не прерывает умения.</span>"
+		"ability_magician_animalcurse/animalhex_curse_modifier" "Сглазили!"
+		"ability_magician_animalcurse_t3_desc" "Враги поблизости тоже <span class=\"highlight\">превращаются в кроликов</span>, но на <span class=\"highlight\">половину длительности</span>"
+		"DamageAmpPercentage_label" "Повышение урона"
+		"DamageAmpPercentage_postfix" "%"
+		"ability_magician_animalcurse_quip" "Превращение врага в кролика"
+		
+
+		"ability_magician_stage" "Невольный зритель"
+		"ability_magician_stage_desc" "{s:hero_name} заточает себя и выбранного героя на сцене, выталкивая с неё остальных существ."
+
+		"ability_magician_shadowclone" "Великий гомункул!"
+		"ability_magician_shadowclone_desc" "{s:hero_name} создаёт своего <span class=\"highlight\">клона</span> с уменьшенным уровнем здоровья и уроном. Когда клон умирает или срок его жизни истекает, он взрывается, нанося спиритический урон.<br><br><span class=\"diminish\">Клон не может использовать ульт.</span>"
+		"CloneHealthPercentage_label" "Здоровье клона"
+		"CloneHealthPercentage_postfix" "%"
+		"CloneDamagePercentage_label" "Урон клона"
+		"CloneDamagePercentage_postfix" "%"
+		"CloneLifetime_label" "Срок жизни клона"
+		"CloneLifetime_postfix" " с." 
+		"ability_magician_shadowclone_t3_desc"	"Клон может применять собственный <span class=\"highlight\">ульт</span>"
 
 		//-----------------------------------------------------------------------------
 		// END HERO ABILITIES
@@ -2775,13 +2902,17 @@
 		"citadel_weapon_hero_astro_set"				"Оккульт-45"
 		"citadel_weapon_hero_chrono_set"			"Секрет фирмы"
 		"citadel_weapon_hero_shiv_set"				"Дохлый номер"		
-		"citadel_weapon_hero_tengu_set"				"Мечта кошатника"
+		"citadel_weapon_hero_tengu_set"				"Рука защитника"
 		"citadel_weapon_hero_krill_set"				"Жёлтая канарейка"
 		"citadel_weapon_hero_lash_set"				"Боксёрские габариты"
 		"citadel_weapon_hero_warden_set"			"Цена свободы"
 		"citadel_weapon_hero_mirage_set"			"Сдержанные обещания"
 		"citadel_weapon_hero_synth_set"				"Белая ворона"
-		
+		"citadel_weapon_hero_viper_set"				"Трещотка"
+		"citadel_weapon_hero_magician_set"			"Ловкость рук"
+		"citadel_weapon_hero_slork_set"				"Разрывное течение"
+	
+
 		//"citadel_weapon_hero_duo_set"				"Duo Gun"
 		//"citadel_weapon_hero_heavy_set"				"Heavy Gun"
 		//"citadel_weapon_hero_akimbo_set"			"Akimbo Gun"
@@ -2802,8 +2933,8 @@
 		//"citadel_weapon_hero_rutger_set"			"Rutger Gun"
 		//"citadel_weapon_hero_tokamak_set"			"Curie-ous Times"
 		//"citadel_weapon_hero_tempest_set"			"Tempest Gun"
-		"citadel_weapon_hero_wrecker_set"			"Гимн разрушения"
-		
+		"citadel_weapon_hero_wrecker_set"			"Рука мясника"
+
 		// Melee names
 		"ability_melee_ghost"	"Ближний бой"
 		"citadel_ability_melee_bull"			"Ближний бой"
@@ -2867,7 +2998,10 @@
 		"hero_yamato_role"				"Изящно выполняет мощные атаки"
 		"hero_tengu_role"				"Отличная напарница для везучих союзников"
 		"hero_mirage_role"				"Совершает точные выстрелы и ловит убегающих врагов"
+		"hero_slork_role"				"Проникает в гущу боя, а затем скрывается, чтобы восстановить силы"
 		"hero_synth_role"				"Проникает в тыл врага и наводит хаос"
+		"hero_viper_role"				"Проскальзывает к противникам и устраняет их"
+		"hero_magician_role"			"Дезориентирует и заклинает врагов"
 
         //"hero_akimbo_playstyle"         "Akimbo excels at close range combat, where he relies on speed, cone attacks, and a whole lot of bullets to hit as many targets as possible." 
         "hero_astro_playstyle"          "{s:hero_name} полагается на свою исключительную меткость, выстреливая по целям, которые она запускает в воздух. При хорошем прицеливании она может нанести большой урон, а навыки передвижения позволяют ей изолировать врагов и быстро отступать."
@@ -2887,7 +3021,7 @@
         "hero_kelvin_playstyle"         "Своевременное лечение и правильное разделение командного боя — вот разница между лёгкой победой и сокрушительным поражением. Кельвин быстро скользит по полю боя и замедляет врагов, чем обеспечивает своей команде преимущество в манёвренности."
         "hero_lash_playstyle"           "Хлыст не даёт врагам передышки: то налетит издалека и навяжет бой ничего не подозревающим неприятелям, то преследует тех, кто пытается убежать."
         "hero_krill_playstyle"			"Зарывшись в землю, Мо и Мелкий могут настигнуть практически любого — оказавшимся вблизи недругам несдобровать."
-        //"hero_nano_playstyle"           "(in flux) Like any good politician, Nano turns people against each other and lets them do her dirty work before swooping in and claiming credit for everything."
+        "hero_nano_playstyle"           "Использование теней для ловкого вступления в бой и ухода из-под огня позволяет Калико устранять врагов одного за другим."
         "hero_orion_playstyle"    		"Серый Коготь — хитрый охотник, использующий смертельную точность, ловушки и продуманный выбор позиции, чтобы одолеть даже самых сильных противников."
         "hero_shiv_playstyle"           "Играть по-честному — не про Заточку. Он изматывает врагов, сматываясь до того, как те успеют спохватиться, а затем наносит смертельный удар."
         //"hero_tempest_playstyle"        "Much like how a child has no idea how a TV works, no one knows exactly HOW Tempest kills you.  Was it a tesla coil?  You didn't see a tesla coil.  Either way, you're dead and Tempest is laughing."
@@ -2900,9 +3034,10 @@
 		//"hero_rutger_playstyle"		"Rocket Launcher gives him some rocket-jumping capabilities, Force Field allows him to close off movement options, Cheat Death lets him turn bad fights around, and a Pulse released in the middle of a teamfight can dictate the outcome."
 		"hero_synth_playstyle"		"Несмотря на своё хрупкое телосложение, Карман ведёт бой на ближней дистанции, расстреливая врагов из мощного дробовика, укрываясь в мистическом чемоданчике и телепортируясь с помощью летающего плаща."
 		"hero_mirage_playstyle"		"Мираж может окутать себя яростным торнадо, чтобы догнать врагов и подбросить их в воздух, а скарабеи помогают ему выжить в неравном бою. Он всегда готов помочь союзнику или наказать противника, где бы тот ни был."
-		//"hero_slork_playstyle"		"Slork's weapon poisons all it hits. Primary fire hits all in a cone, and aimed fire shoots a dart which crits when hitting a poisoned target."
+		"hero_slork_playstyle"		"Фатом сближается с противниками и ловко уходит от них, отчего побеждает в длительных схватках."
 		"hero_tengu_playstyle"		"Плющица замедляет и оглушает врагов, применяя в бою хитрость. Она наиболее эффективна в паре с союзником, поскольку может повышать мощность оружия и ускорять регенерацию для обоих."
-
+		"hero_viper_playstyle"		"Проскальзывая за спины противников, Змея устраняет первостепенные цели шквалом выстрелов из своего мощного оружия и не уступающим ему в смертоносности ядом."
+		"hero_magician_playstyle"	"Фокусник сбивает врагов с толку, используя свою неохотную помощницу, превращающие заклинания и быстрые карты."
 	
 		//"hero_akimbo_lore"				"Though he was built by a lonely gunslinger, Akimbo was taught that he couldn't use a gun to solve all his problems.  This frustrated the robot outlaw immensely, but as time passed Akimbo realized that his human father was right.  A gun only solved about 75% of his problems.  To solve ALL his problems, he would need at least 2 guns." 
 		"hero_astro_lore"				"Есть люди, главная мечта в жизни которых — переехать в Нью-Йорк. Но Holliday к ним не относится. Она вполне счастлива работать шерифом в небольшом городке, ведь единственный раз за всю карьеру, когда ей довелось использовать пистолет, — это стрельба по баночкам на ярмарке... А потом начались убийства.\n\nЗверские и бесчеловечные. Тела находили со вскрытыми грудными клетками... с выпотрошенными внутренностями, словно их клевали птицы. Holliday выследила убийцу — бродячего музыканта, которого журналисты окрестили Трубадуром, но когда она встретилась с ним лицом к лицу, он превратился в стаю ворон и скрылся.\n\nСлучилось это шесть месяцев назад. С тех пор убийства в центральном Иллинойсе прекратились, но расследование Holliday всё ещё продолжается. Она считает, что Трубадур отправился в Нью-Йорк, и намерена убить этого сукиного сына, как только до него доберётся."
@@ -2930,8 +3065,9 @@
 		"hero_tengu_lore"				"Когда гаргулья ожила, она не знала, что происходит... просто кто-то причинил боль большому и маленькому человеку. Гаргулья бросилась на помощь, заставив нападавших в ужасе бежать. Маленький человек поблагодарил спасительницу и спросил, как её зовут. У гаргульи не было имени, и маленький человек сказал: «Я буду звать тебя Плющица». Покрытой плющом гаргулье это показалось более чем логичным, поэтому она решила принять его.\n\nЛюди спросили, не хочет ли она пойти к ним домой, где они смогут её отблагодарить, и она согласилась. Той ночью она много чего узнала: что эта семья носила фамилию Арройо, а маленького человека звали София, тарелку со вкусностями они называли мофонго. Но самое главное — она узнала, что нападавшие на её новых друзей были из «Синдиката Мендосы», и они причиняли людям страдания... хорошим людям, таким как Арройо.\n\nС тех пор как Арройо привели Плющицу домой прошло 18 лет... это время она посвятила уничтожению синдиката и освобождению Испанского Гарлема. К сожалению, если посвящаешь почти два десятилетия своей жизни одной цели, совершенно не знаешь, что делать дальше, когда цель достигнута. Впервые в своей жизни Плющица готова отправиться в путешествие за пределы Испанского Гарлема, чтобы узнать, что ждёт её в этом мире помимо справедливой мести."
 		"hero_synth_lore"				"Эрин Фэрфакс, чьим наследством по праву старшинства должна стать компания Fairfax Industries, скрывается уже пять лет, со дня своего восемнадцатилетия... и чудом пережитого покушения. Неизвестно, кто именно не желал видеть, как Эрин возглавит компанию родителей, но ненавистником в этом полном алчности гадюшнике мог оказаться каждый.\n\nВзяв себе имя «Карман», Эрин отчаянно желает сохранить своё истинное происхождение в тайне... не только ради безопасности, но и чтобы обрести отдельное от родителей, собственное «я»."
 		"hero_mirage_lore"				"Джинны — одна из самых любопытных групп населения в современном мире. Обладающие огромной силой в контролируемых дозах, джинны способны сохранять свою физическую форму без сосуда не дольше 48 минут. Поэтому большинство из них используют людей-телохранителей для собственной транспортировки, защиты и общения.\n\nМираж — один из таких телохранителей. Он был нанят специальным представителем джиннов по имени Нашала Дион и прибыл в Нью-Йорк с дипломатической миссией. Цель джиннов — провести переговоры с правительством США о покупке части штата Вайоминг и строительства на этой территории независимого государства для своего народа."
-
-
+		"hero_slork_lore"				"Фатом, глубинный монстр с дурной славой, создавал вокруг себя атмосферу таинственности и страха, от чего получал немалое удовольствие. Ему нравилось жить, закусывая непутёвыми матросами и требуя десятину от селки, но однажды пришёл Супостат и положил всему конец. Ну как Фатому тягаться в сеянии ужаса со смертоносной силой самой природы? Так нечестно. Нужно было что-то делать, чтобы спасти себя от забвения... поэтому Фатом пытается призвать покровителя, который бы навсегда утвердил его верховным хищником глубин."
+		"hero_viper_lore"				"Когда дело касается нарушения закона, очень важно, чтобы тебя не поймали. Змея эту мудрость так и не постигла. К счастью, если в этом мире и есть что-то, что ей удаётся лучше, чем оставаться непойманной, так это сбегать из тюрьмы.\n\nОтсидев срок в каждой крупной тюрьме Нью-Йорка и его окрестностей, она умудрилась создать впечатляющую сеть гопников, каждый из которых у неё в долгу. Ещё она создала впечатляющую сеть гопников, которые хотят видеть её мёртвой. Но Змея старается не замечать плохого."
+		"hero_magician_lore"			"Родители Генри твердили, что он слишком юн и порывист, чтобы заниматься настоящей магией, и выдали ему колоду карт. Благодаря природной ловкости рук он быстро стал удивлять одноклассников фантастическими иллюзиями, не прибегая к мистическим талисманам и заклинаниям.\n\nВ старших классах он встретил Саванну, и их общая любовь к магическим представлениям зажгла искру романтических чувств. Генри и Саванна полюбили друг друга и создали совместный номер. Не вызывало сомнений, что им суждено быть вместе, поэтому на выпускном вечере Генри сделал предложение Саванне, и вскоре они поженились.\n\nНеудивительно, что родители обоих были не в восторге от этой затеи, но Генри и Саванна знали, что они родственные души, и скрепили свою любовь друг к другу кровным ритуалом, связавшим их души навечно.\n\nКогда в результате несчастного случая они оба погибли прямо на сцене, никто не знал, кого в этом винить. По словам Генри, Саванна заняла неверную позицию. Саванна же утверждает, что Генри не дождался своей очереди. Одно лишь можно сказать наверняка: их души связаны навек, а значит просто так им эту страницу не перелистнуть. Став призраками, они должны покончить с беконечными распрями и научиться работать совместно, если хотят разрушить свой вечный союз."
 
 	}
 }

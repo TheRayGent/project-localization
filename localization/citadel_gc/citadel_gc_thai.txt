@@ -182,17 +182,18 @@
 		"Steam_Citadel_RP_FindingMatch"							"กำลังค้นหาแมตช์"
 		
 		// These Match Mode ("MM_") tokens are for the %param0% below.
-		"Steam_Citadel_RP_MM_Unranked"							"แมตช์"
-		"Steam_Citadel_RP_MM_Ranked"							"แมตช์"
-		"Steam_Citadel_RP_MM_PrivateLobby"						"แมตช์ส่วนตัว"
-		"Steam_Citadel_RP_MM_CoopBot"							"แมตช์ร่วมกันสู้กับบอท"
-		"Steam_Citadel_RP_MM_Tutorial"							"โหมดฝึกสอน"
-		"Steam_Citadel_RP_MM_Sandbox"							"แซนด์บ็อกซ์"
+		"Steam_Citadel_RP_MM_Unranked"							"Deadlock:"
+		"Steam_Citadel_RP_MM_Ranked"							"จัดอันดับ:"
+		"Steam_Citadel_RP_MM_HeroLabs"							"แล็บฮีโร่:"
+		"Steam_Citadel_RP_MM_PrivateLobby"						"ล็อบบี้:"
+		"Steam_Citadel_RP_MM_CoopBot"							"บอท:"
+		"Steam_Citadel_RP_MM_Tutorial"							"ฝึกสอน:"
+		"Steam_Citadel_RP_MM_Sandbox"							"แซนด์บ็อกซ์:"
 		
 		"Steam_Citadel_InGame_Sandbox"		"กำลังทดสอบ {%param2%} ในโหมด​แซนด์บ็อกซ์"
-		"Steam_Citadel_InGame_Hero"			"เล่น {%param2%} ใน{%param1%} เป็นเวลา %param0% นาที"
-		"Steam_Citadel_InGame"				"อยู่ใน{%param1%} เป็นเวลา %param0% นาที"
-		"Steam_Citadel_Spectating"			"กำลังเข้าชม{%param1%} เป็นเวลา %param0% นาที"
+		"Steam_Citadel_InGame_Hero"			"{%param1%} {%param2%} (%param0% นาที)"
+		"Steam_Citadel_InGame"				"{%param1%}  (%param0% นาที)"
+		"Steam_Citadel_Spectating"			"รับชมแมตช์"
 		"Steam_Citadel_RP_Online"			"ออนไลน์"
 
 		"Steam_RP_hero_vampire"			"Vampire"
@@ -325,6 +326,8 @@
 		"hero_bomber"			"Bomber"
 		"hero_shieldguy"		"Shield Guy"
 		"hero_viper"			"Viper"
+		"hero_vandal"			"Vandal"
+		"hero_magician"			"Magician"
 
 		//-----------------------------------------------------------------------------
 		// Upgrades: Weapon

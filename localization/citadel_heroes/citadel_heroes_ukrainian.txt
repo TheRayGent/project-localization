@@ -15,8 +15,8 @@
 		"modifier_charge_drag_enemy"			"Таран"
 
 		"citadel_ability_bull_heal"				"Відкачування життя"
-		"citadel_ability_bull_heal_quip"		"Витягує здоров’я ворогів попереду вас."
-		"citadel_ability_bull_heal_desc"		"Витягує здоров’я ворогів попереду вас, поки вони в області дії."
+		"citadel_ability_bull_heal_quip"		"Витягує здоров’я з ворогів попереду."
+		"citadel_ability_bull_heal_desc"		"Витягує здоров’я з ворогів попереду, поки вони в області дії."
 
 		"HealingFactor_label"					"лікуванню від героїв"
 		"HealingFactor_postfix"					"%"
@@ -26,8 +26,8 @@
 		"citadel_ability_bull_heal/modifier_bull_heal_aura"				"Відкачування життя"
 
 		"citadel_ability_passive_beefy"			"Пекельна стійкість"
-		"citadel_ability_passive_beefy_quip"	"Відновлює здоров’я від частки зазнаної вами шкоди."
-		"citadel_ability_passive_beefy_desc"	"Періодично <span class=\"highlight\">відновлює здоров’я</span> від частки зазнаної шкоди."
+		"citadel_ability_passive_beefy_quip"	"Відновлює здоров’я від частки зазнаної шкоди."
+		"citadel_ability_passive_beefy_desc"	"Поступово <span class=\"highlight\">відновлює здоров’я</span> від частки зазнаної шкоди."
 		"RegenIncomingDamagePercent_label"		"відновленню шкодою"
 		"RegenIncomingDamagePercent_postfix"		"%"
 		"RegenIncomingDamageDuration_label"		"часу відновлення"
@@ -54,18 +54,18 @@
 
 		"citadel_ability_static_charge"			"Статичний заряд"
 		"citadel_ability_static_charge_desc"		"Накладає на цільового ворожого героя статичний заряд. Через короткий проміжок часу заряд <span class=\"highlight\">приголомшує та ушкоджує</span> ворогів у радіусі дії.<br>Альтернативне застосування накладає заряд на себе."
-		"citadel_ability_static_charge_quip"	"Накладає на ворожого героя приголомшення по площі із затримкою."
+		"citadel_ability_static_charge_quip"	"Накладає на ворожого героя приголомшення по області із затримкою."
 		"citadel_ability_static_charge/modifier_citadel_staticcharge"	"Статичний заряд"
 
 		"citadel_ability_lightning_ball"		"Кульова блискавка"
 		"citadel_ability_lightning_ball_quip"	"Запускає кульову блискавку, що завдає шкоди."
-		"citadel_ability_lightning_ball_desc"	"Стріляє кульовою блискавкою, яка летить прямою лінією. Вона завдає <span class=\"highlight\">шкоди всім цілям у радіусі дії</span>. Сповільнюється, коли ушкоджує ворогів, і зупиняється, коли влучає в поверхню."
+		"citadel_ability_lightning_ball_desc"	"Випускає кульову блискавку, яка летить прямою лінією. Вона завдає <span class=\"highlight\">шкоди всім цілям у радіусі дії</span>. Сповільнюється, коли ушкоджує ворогів, і зупиняється, коли влучає в поверхню."
 		"citadel_ability_lightning_ball_t3_desc" "+{s:DPS} ШЗС і +{s:ShockRadius} м радіусу."
 		"citadel_ability_lightning_ball/modifier_citadel_lightningball"	"Сповільнення кульовою блискавкою"
 
 		"ability_power_surge"					"Стрибок напруги"
 		"ability_power_surge_quip"			"Створює електричні розряди від пострілів."
-		"ability_power_surge_desc"			"Посилює вашу зброю електричним ефектом, через який <span class=\"highlight\">ваші кулі викликають спрацювання електричного розряду на вашу ціль</span>. Ця електрична шкода <span class=\"highlight\">відскакує до ворогів</span> поруч із вашою ціллю. Спрацьовує один раз на залп."
+		"ability_power_surge_desc"			"Посилює зброю електричним ефектом, через який <span class=\"highlight\">кулі викликають спрацювання електричного розряду на цілі</span>. Ця електрична шкода <span class=\"highlight\">відскакує до ворогів</span> поруч із ціллю. Спрацьовує один раз на залп."
 		"ability_power_surge_t1_desc"			"Шкода від розряду накладає {s:TechResistDebuff}% духовного опору на {s:DebuffDuration} с."
 		"ability_power_surge_t3_desc"			"+{s:DamagePerChain} шкоді розряду, покращений ріст духу та +{s:ChainCount} до макс. стрибків."
 		"modifier_power_surge"				"Ланцюгова блискавка"
@@ -83,7 +83,7 @@
 
 		"citadel_ability_storm_cloud"			"Грозова хмара"
 		"citadel_ability_storm_cloud_quip"		"Підсмажує всіх ворогів у великій області."
-		"citadel_ability_storm_cloud_desc"		"Заряджає навколо себе штормову хмару, що поступово розширюється й завдає <span class=\"highlight\">шкоди всім ворогам</span> у радіусі дії. Вороги не зазнають шкоди, коли вони за межами видимості. Ви маєте збільшений <span class=\"highlight\">опір кулям</span> під час заряджання."
+		"citadel_ability_storm_cloud_desc"		"Заряджає навколо себе штормову хмару, що поступово розширюється й завдає <span class=\"highlight\">шкоди всім ворогам</span> у радіусі дії. Вороги не зазнають шкоди, коли вони за межами видимості. Сьомий має збільшений <span class=\"highlight\">опір кулям</span> під час заряджання."
 		"citadel_ability_storm_cloud_t1_desc"		"<span class=\"highlight\">+{s:BulletResistOnActive}% опору кулям</span> під час заряджання штормової хмари."
 		"citadel_ability_storm_cloud_t2_desc"		"<span class=\"highlight\">+{s:AbilityChannelTime} с</span> часу заряджання та <span class=\"highlight\">+{s:Radius} м</span> радіусу."
 		"citadel_ability_storm_cloud_t3_desc"		"+{s:DPS} ШЗС."
@@ -175,7 +175,7 @@
 		//TurretHealMult_label					"Turret Heal Mult"
 		//TurretHealMult_postfix				"x"
 
-		"citadel_ability_mobile_resupply_t1_desc" "<span class=\"highlight\">+{s:AuraFireRateBonus}% швидкострільності</span> для вилікуваних лікувальною примарою істот."
+		"citadel_ability_mobile_resupply_t1_desc" "<span class=\"highlight\">+{s:AuraFireRateBonus}% швидкострільності</span> для зцілених лікувальним привидом істот."
 		"citadel_ability_mobile_resupply_t3_desc"	"+{s:MaxHealthRegenPct}% відновленню макс. здоров’я за с."
 
 		"citadel_ability_shieldedsentry"		"Мінітурель"
@@ -204,7 +204,7 @@
 
 		//"ability_shielded_sentry_rocket"			"Sentry Rocket"
 
-		"citadel_ability_fissure_wall/modifier_fissure_wall/modifier_bonus_damage_percent"			"Зменшення шкоди стіні"
+		"citadel_ability_fissure_wall/modifier_fissure_wall/modifier_bonus_damage_percent"			"Ослаблення шкоди від стіні"
 
 		"citadel_ability_rocket_barrage"		"Важкий обстріл"
 		"citadel_ability_rocket_barrage_quip"	"Бомбардує область ракетами."
@@ -217,17 +217,17 @@
 		"MaxDistance_postfix"					" м"
 		"MinDistance_label"						"мін. дальності"
 		"MinDistance_postfix"					" м"
-		"citadel_ability_rocket_barrage/modifier_forge_heavy_barrage_stacking_slow" "Сповільнення від обстрілу"	 
+		"citadel_ability_rocket_barrage/modifier_forge_heavy_barrage_stacking_slow" "Сповільнення від важкого обстрілу"	 
 
 		//-----------------------------------------------------------------------------
 		// Wraith
 		//-----------------------------------------------------------------------------
 
 		"citadel_ability_psychic_lift"			"Телекінез"
-		"citadel_ability_psychic_lift_quip"		"Підіймає ворога в повітря, перериваючи і знемовлюючи його."
+		"citadel_ability_psychic_lift_quip"		"Підіймає ворога в повітря, перериваючи й знемовлюючи його."
 		"citadel_ability_psychic_lift_desc"		"Підіймає ворога в повітря, ненадовго його <span class=\"highlight\">приголомшуючи</span>. Коли підйом завершується, ціль зазнає шкоди від телекінезу."
 		"citadel_ability_psychic_lift/lift"		"Телекінез"
-		"citadel_ability_psychic_lift_t3_desc"	"Телекінез націлиться на ворогів навколо {s:hero_name}."
+		"citadel_ability_psychic_lift_t3_desc"	"Телекінез націлюється на ворогів навколо {s:hero_name}."
 		"modifier_citadel_psychiclift"			"Піднято в повітря — о, ні!"
 		//"modifier_citadel_psychiclift_self"		"Lifting - Silenced + Disarmed"
 
@@ -381,8 +381,8 @@
 		//"chrono_time_trap_debuff"					"Time Bomb"
 
 		"citadel_ability_chrono_pulse_grenade"			"Пульсова граната"
-		"citadel_ability_chrono_pulse_grenade_quip"		"Кидає гранату, що пульсує, завдаючи шкоди та сповільнення."
-		"citadel_ability_chrono_pulse_grenade_desc"		"Кидає гранату, яка починає пульсувати, коли падає. Кожна пульсація накладає <span class=\"highlight\">шкоду, сповільнення руху й поєднуване посилення шкоди</span> проти цілі для {s:hero_name}."
+		"citadel_ability_chrono_pulse_grenade_quip"		"Кидає гранату, що пульсує, завдаючи шкоди та сповільнюючи ворогів."
+		"citadel_ability_chrono_pulse_grenade_desc"		"Кидає гранату, яка починає пульсувати, коли торкнеться землі. Кожна пульсація <span class=\"highlight\">завдає шкоди цілі, сповільнює її рух і накладає поєднуване посилення шкоди</span> Парадокса."
 		"citadel_ability_chrono_pulse_grenade_t3_desc"		"<span class=\"highlight\">+{s:PulseDamage}</span> пульсовій шкоді та <span class=\"highlight\">+{s:RadiusIncreasePerPulse} м</span> радіусу за пульс."
 		"Pulses_label"                           			 "до пульсів"
 		"InitialDamage_label"									"початковій шкоді"
@@ -428,7 +428,7 @@
 		"citadel_ability_chrono_swap"				"Парадоксальна підміна"
 		"citadel_ability_chrono_swap_quip"		"Міняється місяцями з ворожим героєм."
 		"modifier_chrono_swap_bubble_move"		"Парадоксальна підміна"
-		"citadel_ability_chrono_swap_desc"		"Кидає снаряд, що <span class=\"highlight\">міняє вас місцями з цільовим ворожим героєм</span>. Коли ефект відбувається, ви здобуваєте <span class=\"highlight\">духовний вампіризм</span>, а ворог <span class=\"highlight\">зазнає періодичної шкоди</span>."
+		"citadel_ability_chrono_swap_desc"		"Кидає снаряд, що <span class=\"highlight\">міняє вас місцями з цільовим ворожим героєм</span>. Коли ефект відбувається, ви здобуваєте <span class=\"highlight\">духовний вампіризм</span>, а ворог <span class=\"highlight\">поступово зазнає шкоди</span>."
 		"modifier_citadel_chrono_swap_debuff"		"Сповільнення"
 		"modifier_citadel_chrono_swap_buff"		"Духовний імунітет"
 		//"CooldownOnMiss_Label"					"Cooldown on miss"
@@ -461,7 +461,7 @@
 		"citadel_ability_chrono_kinetic_carbine"		"Кінетичний карабін"
 		"citadel_ability_chrono_kinetic_carbine_quip"	"Накопичує заряд вашої зброї, щоби завдати великої шкоди та призупинити час."
 		"citadel_ability_chrono_kinetic_carbine_desc"	"Починає накопичувати заряд вашої зброї і здобуває <span class=\"highlight\">збільшену швидкість руху</span>, коли заряд повний. Ваш наступний постріл вивільняє енергію, що завдає <span class=\"highlight\">духовної шкоди</span> та накладає <span class=\"highlight\">призупинення часу</span> на ворога, в якого влучає. Завдана шкода — це посилення вашої поточної збройової шкоди. <br><br>Ви можете сповільнити час для себе, натиснувши [{s:iv_attack2}], коли доступний посилений постріл."
-		"citadel_ability_chrono_kinetic_carbine_t2_desc"	"{s:AbilityCooldown} с зарядці та +{s:SpeedBoostDuration} с часу посилення швидкості."
+		"citadel_ability_chrono_kinetic_carbine_t2_desc"	"{s:AbilityCooldown} с зарядці та +{s:SpeedBoostDuration} с часу пришвидшення."
 		"citadel_ability_chrono_kinetic_carbine_charged"	"ЗАРЯДЖЕНО!"
 		"citadel_ability_chrono_kinetic_carbine_expiring"	"СПЛИВАЄ ЧАС ДІЇ"
 
@@ -486,7 +486,9 @@
 		"MinSlowDuration_label"						"мін. часу призупинення"
 		"MinSlowDuration_postfix"						" с"
 		"citadel_ability_chrono_kinetic_carbine/modifier_chrono_kinetic_carbine"  "Кінетичний карабін"
-
+		"CarbineHeadshotBonus_prefix"				"+"
+		"CarbineHeadshotBonus_label"				"додачі пострілам у голову"
+		"CarbineHeadshotBonus_postfix"				"%"
 
 		//-----------------------------------------------------------------------------
 		// Revenant
@@ -554,7 +556,7 @@
 		"FlameDashDebuff_postfix"		"%"
 		"GroundFlameDuration_label"		"часу сліду"
 		"GroundFlameDuration_postfix"		" с"
-		"FlameDashDebuffDuration_label"	"часу негативів"
+		"FlameDashDebuffDuration_label"	"часу ослаблення"
 		"FlameDashDebuffDuration_postfix" " с"
 
 		"DashTime_label"					"часу ривка"
@@ -565,7 +567,7 @@
 		"FlameAuraMovementSlow_postfix"		"%"
 		//"FlameAuraSlowFireRate_label"			"Enemy Fire Rate"
 		"FlameAuraSlowFireRate_postfix"		"%"
-		"FlameAuraDuration_label"				"часу негативів"
+		"FlameAuraDuration_label"				"часу ослаблення"
 		"FlameAuraDuration_postfix"			" с"
 		"modifier_flamedash_debuff"			"Полум’яний ривок"
 
@@ -710,7 +712,7 @@
 		"ability_sleep_dagger_quip"		"Присипляє ворога."
 		"ability_sleep_dagger_desc"		"Удар кинджалом <span class=\"highlight\">завдає шкоди</span> цілі та <span class=\"highlight\">присипляє</span> її. Жертви прокидаються невдовзі після зазнавання шкоди. Удар кинджалом не впливає на невидимість героїні та не перериває заряджальні вміння ворога."
 		"ability_sleep_dagger/modifier_citadel_sleep_bomb/modifier_citadel_sleep_dagger_asleep"		"Спить"
-		"ability_sleep_dagger_t1_desc"	"<span class=\"highlight\">Усуває {s:StaminaReduction} витривалості</span>."
+		"ability_sleep_dagger_t1_desc"	"<span class=\"highlight\">Споживає {s:StaminaReduction} витривалості</span>"
 		"ability_sleep_dagger_t3_desc"	"На {s:BulletResistReductionDuration} с після пробудження застосовує <span class=\"highlight\">{s:BulletResistReduction}% опору кулям</span>."
 
 		"modifier_citadel_sleep_dagger_asleep"	"У сні"
@@ -762,9 +764,9 @@
 		// Sumo // dynamo
 		//-----------------------------------------------------------------------------
 		"citadel_ability_stomp"					"Кінетичний імпульс"
-		"citadel_ability_stomp_quip"			"Вивільняє ґрунтовий імпульс, що підкидає ворогів у повітря."
+		"citadel_ability_stomp_quip"			"Вивільняє наземний імпульс, що підкидає ворогів у повітря."
 		"citadel_ability_stomp_desc"			"Вивільняє енергетичний імпульс, що підкидає ворогів у повітря."
-		"citadel_ability_stomp_t1_desc"			"Уражені вороги зазнають <span class=\"highlight\">сповільнення стрільби та руху</span> на <span class=\"highlight\">{s:SlowPercent}%</span> упродовж <span class=\"highlight\">{s:SlowDuration} с</span>."
+		"citadel_ability_stomp_t1_desc"			"Уражені вороги на <span class=\"highlight\">{s:SlowPercent}%</span> <span class=\"highlight\">повільніше стріляють і рухаються</span> впродовж <span class=\"highlight\">{s:SlowDuration} с</span>."
 		"citadel_ability_stomp_t2_desc"			"{s:hero_name} завдає ворогам на <span class=\"highlight\">{s:BulletArmorReduction}% більше шкоди від куль</span> упродовж <span class=\"highlight\">{s:BulletArmorReductionDuration} с</span>."
 		"StompRange_label"						"дальності імпульсу"
 		"StompRange_postfix"					" м"
@@ -773,11 +775,11 @@
 		"BulletArmorReductionDuration_postfix"	" с"
 		"StompWidth_label"						"ширині вміння"
 		"StompWidth_postfix"					" м"
-		"modifier_stomp_debuff"					"Негатив від імпульсу"
+		"modifier_stomp_debuff"					"Ослаблення від імпульсу"
 
 		"citadel_ability_void_sphere"				"Квантова сплутаність"
-		"citadel_ability_void_sphere_quip"		"Застрибує й вистрибує з існування."
-		"citadel_ability_void_sphere_desc"		"{s:hero_name} ненадовго <span class=\"highlight\">зникає в порожнечі</span>, а потім з’являється неподалік. Після появи ваша зброя <span class=\"highlight\">перезаряджається</span> й ви маєте <span class=\"highlight\">додаткову швидкострільність</span> для наступної обойми (макс. {s:FireRateBonusDurationMax} с). Можна застосувати з [{s:key_alt_cast}], щоби прихопити з собою союзників поблизу й дати їм половину додаткової швидкострільності."
+		"citadel_ability_void_sphere_quip"		"Матеріалізується й дематеріалізується."
+		"citadel_ability_void_sphere_desc"		"{s:hero_name} ненадовго <span class=\"highlight\">зникає в порожнечі</span>, а потім з’являється неподалік із <span class=\"highlight\">перезарядженою/span> зброєю та <span class=\"highlight\">додатковою швидкострільністю</span> для наступної обойми (макс. {s:FireRateBonusDurationMax} с). Можна застосувати з [{s:key_alt_cast}], щоби прихопити з собою союзників поблизу й дати їм половину додаткової швидкострільності."
 		"citadel_ability_void_sphere_t3_desc"		"<span class=\"highlight\">-{s:AbilityCooldown} с</span> зарядці вміння та <span class=\"highlight\">+{s:BonusClipSizePercent}%</span> базовим набоям після повторної появи."
 		"modifier_void_sphere"					"Квантова сплутаність"
 		//"modifier_voidsphere_buff"				"Void Sphere +Fire Rate"
@@ -814,7 +816,7 @@
 
 		"citadel_ability_nikuman"				"Відновлювальне сяйво"
 		"citadel_ability_nikuman_quip"			"Лікує вас і союзників навколо."
-		"citadel_ability_nikuman_desc"			"Під час заряджання <span class=\"highlight\">періодично поновлює здоров’я</span> вам і всім союзникам поблизу. Ривок не перериває заряджання."
+		"citadel_ability_nikuman_desc"			"Під час заряджання <span class=\"highlight\">поступово поновлює здоров’я</span> вам і всім союзникам поблизу. Ривок не перериває заряджання."
 		"citadel_ability_nikuman/modifier_nikuman"	"Відновлювальне сяйво"
 		//"TechShieldPerSecond_label"				"Spirit Shield Added"
 		"TechShieldPerSecond_postfix"			"/с"
@@ -890,10 +892,10 @@
 		"WeaponPowerGainPercent_postfix"			"%"
 
 		//-----------------------------------------------------------------------------
-		// Hero Warden
+		// Warden 
 		//-----------------------------------------------------------------------------
 		"ability_warden_lock_down"				"Сковувальний проклін"
-		"ability_warden_lock_down_quip"			"Проклинає ціль, знерухомлюючи її, щоби та не могла втекти."
+		"ability_warden_lock_down_quip"			"Проклинає ціль, знерухомлюючи її, якщо вона не втече."
 		"ability_warden_lock_down_desc"			"Проклинає ворожого героя. Якщо той не відійде від своєї початкової позиції впродовж <span class=\"highlight\">часу на втечу</span>, зазнає <span class=\"highlight\">шкоди</span> і <span class=\"highlight\">знерухомлення</span>."
 		"ability_warden_lock_down_t3_desc"		"{s:hero_name} завдає на <span class=\"highlight\">+{s:BulletArmorReduction}% більше шкоди від куль</span> прив’язаним героям упродовж <span class=\"highlight\">{s:BulletArmorReductionDuration} с</span>."
 		"StaminaReduction_label"					"зменшенню витривалості"
@@ -907,7 +909,7 @@
 		"modifier_warden_lockdown_root"			"Сковувальний проклін"
 
 		"ability_warden_high_alert"				"Сила волі"
-		"ability_warden_high_alert_quip"			"Здобуває духовний щит і швидкість руху."
+		"ability_warden_high_alert_quip"			"Здобуває духовний щит і збільшену швидкість руху."
 		"ability_warden_high_alert_desc"			"Дає <span class=\"highlight\">духовний щит</span> і <span class=\"highlight\">додаткову швидкість руху</span>."
 		"ability_warden_high_alert_t3_desc"		"<span class=\"highlight\">+{s:TechShieldPoints}</span> здоров‘ю духовного щита й тепер він змінюється відповідно до духовної сили."
 		"MoveSpeedBonusPct_label"					"додачі швидкості руху"
@@ -918,20 +920,26 @@
 		//"modifier_warden_high_alert_hint"			""
 
 		"ability_warden_crowd_control"			"Алхімічна колба"
-		"ability_warden_crowd_control_quip"		"Завдає шкоди й негативу ворогам поблизу."
-		"ability_warden_crowd_control_desc"		"Кидає колбу, що завдає <span class=\"highlight\">шкоди і сповільнення</span>, а також зменшує <span class=\"highlight\">збройову шкоду</span> і <span class=\"highlight\">витривалість</span> уражених ворогів."
+		"ability_warden_crowd_control_quip"		"Завдає шкоди й ослаблення ворогам поблизу."
+		"ability_warden_crowd_control_desc"		"Кидає колбу, що завдає <span class=\"highlight\">шкоди і сповільнює рух</span>, а також зменшує <span class=\"highlight\">збройову шкоду</span> зачеплених ворогів."
+		"ability_warden_crowd_control_t1_desc"	"Зачеплені вороги втрачають <span class=\"highlight\">{s:StaminaReduction} витривалості</span>."
 		"ability_warden_crowd_control_t3_desc"		"<span class=\"highlight\">{s:AbilityCooldown} c</span> зарядки й накладає <span class=\"highlight\">{s:FireRateSlow}%</span> сповільнення стрільби."
 		"MoveSpeedSlowPct_label"					"сповільненню руху"
 		"MoveSpeedSlowPct_postfix"				"%"
 		"WeaponPowerDebuff_label"					"збройовій шкоді"
 		"WeaponPowerDebuff_postfix"				"%"
 		"modifier_warden_crowd_control_debuff"	"Алхімічна колба"
+		"FlaskDebuffDuration_label"				"часу ослаблення зброї"
+		"FlaskDebuffDuration_postfix"			" с"
 
 		"ability_warden_riot_protocol"			"Оборонна позиція"
 		"ability_warden_riot_protocol_quip"		"Випромінює імпульси, що викрадають у ворогів здоров’я."
 		"ability_warden_riot_protocol_desc"		"Після заряджання впродовж {s:AbilityCastDelay} с <span class=\"highlight\">вивільняє імпульси, що завдають шкоди ворогам і лікують вас</span> відповідно до завданої шкоди.<br>Під час заряджання оборонної позиції ви маєте суттєво підвищений <span class=\"highlight\">опір кулям</span>."
+		"ability_warden_riot_protocol_t3_desc"	"<span class=\"highlight\">{s:AbilityCooldown} с</span> зарядці і здобуває <span class=\"highlight\">неспинний опір ефектам стану</span> під час заряджання."
 		"modifier_warden_riot_protocol"			"Оборонна позиція"
 		"modifier_warden_riot_protocol_enemy_debuff"	"Сповільнення"
+
+		//UnstoppableCastDelay
 		"HealthStealPctHero_label"				"вампіризму від героїв"
 		"HealthStealPctHero_postfix"				"%"
 
@@ -948,15 +956,16 @@
 		"PulseRadius_label"						"радіусу імпульсу"
 		"PulseRadius_postfix"						" м"
 "ability_wrecking_ball_quip"			"Кидає купу брухту, що приголомшує ворогів."
-		"ability_wrecking_ball_desc"			"Створює велику купу брухту, яку можна кинути й завдати <span class=\"highlight\">шкоди та приголомшення</span> всьому, у що вона влучить. Створення купи займає час і ви рухаєтеся повільніше, коли несете її."
+		"ability_wrecking_ball_desc"			"Створює велику купу брухту, яку можна кинути й <span class=\"highlight\">завдати нею шкоди та приголомшити</span> все, у що вона влучить. Створення купи займає час, і герой рухаєтеся повільніше, коли несе її."
 		"WreckingBallDamage_label"			"шкоді"
 		"WreckingBallPickupTime_label"		"часу створення"
 		"WreckingBallPickupTime_postfix"		" с"
 		"MoveSpeedLimit_label"				"швидкості руху"
 		"MoveSpeedLimit_postfix"				" м/с"
 		"modifier_wrecking_ball_auto_throw"	"Руйнівний брухт"
+		"ability_wrecker_salvage"				"Поглинання"
 		"ability_wrecker_salvage_desc"		"<span class=\"highlight\">Приголомшує</span> ворожого вояку або НГП і <span class=\"highlight\">завдає шкоди</span>, поки його тримає. Успішне вбивство дає додаткову <span class=\"highlight\">швидкострільність</span> та відновлює заряд <span class=\"highlight\">біовибуху</span>. Це посилення поєднуються незалежно."
-		"ability_wrecker_salvage_quip"		"Споживає ворожого вояку чи нейтральну істоту."
+		"ability_wrecker_salvage_quip"		"Поглинає ворожого вояку чи нейтральну істоту."
 		"FireRateBuffDuration_label"			"додачі тривалості"
 		"FireRateBuffDuration_postfix"		" с"
 		"SalvageBonus_FireRate_label"			"швидкострільності за додачу"
@@ -967,7 +976,7 @@
 
 		"modifier_wrecker_salvage_buff"		"Швидкострільність збільшено"
 
-		"ability_scrap_blast_desc"			"Стріляє хвилею спожитих останків, <span class=\"highlight\">ушкоджуючи</span> та <span class=\"highlight\">сповільнюючи</span> ворогів. Кілька влучань збільшують сповільнення."
+		"ability_scrap_blast_desc"			"Стріляє хвилею поглинених останків, <span class=\"highlight\">ушкоджуючи</span> та <span class=\"highlight\">сповільнюючи</span> ворогів. Кілька влучань збільшують сповільнення."
 		"ability_scrap_blast_quip"			"Стріляє хвилею біомаси."
 		"EnemyMoveSlow_label"					"сповільненню ворогів за влучання"
 		"EnemyMoveSlow_postfix"				"%"
@@ -982,7 +991,9 @@
 		"GrabRange_postfix"					" м"
 		"ability_wrecker_ultimate_t3_desc"	"Руйнівник <span class=\"highlight\">невразливий</span> під час використання."
 
-		"ability_wrecker_teleport_desc"		"Випускає <span class=\"highlight\">контрольовану летючу тіньову копію себе</span>, <span class=\"highlight\">телепортуючи</span> своє справжнє тіло туди, куди приземлиться копія. Вибух після телепортації <span class=\"highlight\">сповільнює ворогів і завдає шкоди</span> відповідно до того, як довго ви летіли."
+		"wrecker_ultimate_grab_debuff"		"Стазис"
+
+		"ability_wrecker_teleport_desc"		"Випускає <span class=\"highlight\">контрольовану летючу тіньову копію себе</span>, <span class=\"highlight\">телепортуючи</span> своє справжнє тіло туди, куди приземлиться копія. Вибух після телепортації <span class=\"highlight\">сповільнює ворогів і завдає шкоди</span> відповідно до тривалості польоту."
 		"ability_wrecker_teleport_quip"		"Випускає летючу версію себе й телепортує справжнє тіло туди, де приземлиться ілюзія."
 		"DamagePerSecondFlown_label"			"шкоді за секунду польоту"
 
@@ -994,7 +1005,7 @@
 		"citadel_ability_lash_desc"				"<span class=\"highlight\">Підтягує себе через повітря</span> до цілі. Використання захвату скине обмеження на <span class=\"highlight\">стрибки й ривки в повітрі</span>."
 
 		"citadel_ability_lash_t2_desc"			"<span class=\"highlight\">+{s:AbilityCastRange} м</span> дальності застосування та <span class=\"highlight\">+{s:WeaponDamageBonus}</span> збройовій шкоді на {s:WeaponDamageBonusDuration} с."
-		"citadel_ability_lash_t3_desc"			"<span class=\"highlight\">+{s:WeaponFireRateBonus}%</span> швидкострільності як додачі збройовій шкоді."
+		"citadel_ability_lash_t3_desc"			"<span class=\"highlight\">+{s:WeaponFireRateBonus}%</span> швидкострільності як посилення збройової шкоди."
 		"LashDamage_label"						"шкоді захвату"
 		"WeaponFireRateBonus_label"				"швидкострільності"
 		"WeaponFireRateBonus_prefix"				"+"
@@ -1007,7 +1018,7 @@
 
 		"citadel_ability_lash_down_strike"			"Удар об землю"
 		"citadel_ability_lash_down_strike_quip"		"Б’є в землю, завдаючи шкоди ворогам."
-		"citadel_ability_lash_down_strike_desc"		"Б’є в землю під собою, <span class=\"highlight\">завдаючи шкоди ворогам</span> перед вами. Якщо здійснюєте удар об землю в повітрі, то швидко летите вниз. Шкода зростає повільніше після 25 м."
+		"citadel_ability_lash_down_strike_desc"		"Б’є в землю, <span class=\"highlight\">завдаючи шкоди ворогам</span> перед собою. Якщо удар здійснюється в повітрі, швидко летить униз. Шкода зростає повільніше після 25 м."
 		"StompDamagePerMeterPrimary_label"					"шкоді за метр"
 		"citadel_ability_lash_down_strike_t2_desc"	"Уражені вороги <span class=\"highlight\">підкидаються в повітря</span> та сповільнюються на <span class=\"highlight\">{s:EnemySlowPct}%</span> упродовж <span class=\"highlight\">{s:SlowDuration} с</span>."
 		"citadel_ability_lash_down_strike_t3_desc"	"+110% <span class=\"highlight\">шкоді за метр</span> й покращене збільшення шкоди."
@@ -1029,7 +1040,7 @@
 		"LashLaunchHeight_postfix"				" м"
 
 		"ability_lash_flog"						"Шмагання"
-		"ability_lash_flog_quip"				"Вампіризм від цілей попереду вас."
+		"ability_lash_flog_quip"				"Вампіризм від цілей попереду."
 		"ability_lash_flog_desc"				"Б’є ворогів своїм батогом, <span class=\"highlight\">викрадаючи в них життя</span>."
 		"ability_lash_flog_t1_desc"				"Накладає <span class=\"highlight\">{s:EnemySlowPct}%</span> сповільнення руху на {s:EnemySlowDuration} с."
 		"ability_lash_flog_t3_desc"				"+{s:Damage} шкоді й накладає {s:FireRateSlow}% сповільнення стрільби."
@@ -1082,7 +1093,7 @@
 
 		"ability_icebeam"					"Арктичний промінь"
 		"ability_icebeam_quip"				"Накладає посилювальне сповільнення."
-		"ability_icebeam_desc"				"Стріляє перед собою морозною енергією, яка <span class=\"highlight\">ушкоджує цілі</span> й <span class=\"highlight\">накопичує для них сповільнення руху та швидкості стрільби</span>, що довше діє промінь. Під час використання арктичного променя швидкість руху Кельвіна зменшується. Променем також можна стріляти в сфери з душами."
+		"ability_icebeam_desc"				"Стріляє перед собою морозною енергією, яка <span class=\"highlight\">ушкоджує цілі</span> й <span class=\"highlight\">дедалі більше сповільнює їхній рух та швидкість стрільби</span>, що довше діє промінь. Під час використання арктичного променя швидкість руху Кельвіна зменшується. Променем також можна стріляти у сфери з душами."
 		"ability_icebeam_t3_desc"			"Стріляє <span class=\"highlight\">{s:BeamSplitCount} додатковими арктичними променями</span> у ворогів у межах {s:BeamSplit} м від останньої враженої цілі."
 		"modifier_citadel_kelvin_frozen"	"Замороження"
 		"ability_icebeam/modifier_slow"		"Сповільнення арктичним променем"
@@ -1100,7 +1111,7 @@
 
 		"ability_icepath"					"Крижана стежина"
 		"ability_icepath_quip"				"Пришвидшення на летючій крижаній стежині."
-		"ability_icepath_desc"				"{s:hero_name} створює <span class=\"highlight\">летючу стежину</span> з льоду й снігу, яка дає додачу руху йому самому та союзникам. Кельвін здобуває {s:SlowResistancePercent}% опору сповільненню на час дії. Вороги також можуть ходити летючою стежиною. <br>Натисність [{s:key_innate_1}] / [{s:key_duck}], щоб опуститися з крижаної стежини чи піднятися на неї."
+		"ability_icepath_desc"				"{s:hero_name} створює <span class=\"highlight\">летючу стежину</span> з льоду й снігу, яка пришвидшує його рух і рух союзників. Кельвін здобуває {s:SlowResistancePercent}% опору сповільненню на час дії. Вороги також можуть ходити летючою стежиною. <br>Натисніть [{s:key_innate_1}] / [{s:key_duck}] для руху крижаною стежиною вгору чи вниз."
 		"ability_icepath_t3_desc"			"Під час дії дає +{s:BonusSpiritMeter} духовної сили за метр створеної крижаної стежини. Максимум: {s:BonusSpiritMax} духовної сили."
 		"SprintSpeedBonus_label"				"швидкості бігу"
 		"SprintSpeedBonus_prefix"				"+"
@@ -1131,11 +1142,11 @@
 		"citadel_ability_uppercut"				"Вибуховий аперкот"
 		"citadel_ability_uppercut_quip"			"Відштовхує будь-кого від вас."
 		"citadel_ability_uppercut_desc"			"Завдає <span class=\"highlight\">легку ближню шкоду</span> істотам поруч і <span class=\"highlight\">відкидає їх назад</span>, що призводить до отримання <span class=\"highlight\">шкоди в області</span> та <span class=\"highlight\">сповільнення стрільби</span> в місці їхнього приземлення. Не завдає шкоди союзникам."
-		"citadel_ability_uppercut_t2_desc"		"У разі аперкоту на ворожого героя, здобуває <span class=\"highlight\">швидший час підготовки до стрільби, подвійну дальність та +{s:BuffBaseWeaponPct}% збройовій шкоді</span> на {s:UppercutBuffOnHit} с."
+		"citadel_ability_uppercut_t2_desc"		"У разі аперкоту на ворожого героя здобуває <span class=\"highlight\">швидший час підготовки до стрільби, подвійну дальність та +{s:BuffBaseWeaponPct}% збройовій шкоді</span> на {s:UppercutBuffOnHit} с."
 		"citadel_ability_uppercut_t3_desc"		"У разі аперкоту на ворожого героя ставить <span class=\"highlight\">зарядку гака на 0</span> й миттєво додає <span class=\"highlight\">+{s:ClipSizeBonus}% кулям</span> вашої поточної обойми."
 		//"modifier_citadel_enemy_uppercutted"	"Uppercutted!"
 		"UppercutDamage_label"					"шкоді аперкоту"
-		"LandingDamage_label"					"шкоді по площі"
+		"LandingDamage_label"					"шкоді по області"
 		"OnLandDamageRadius_label"				"радіусу приземлення"
 		"OnLandDamageRadius_postfix"			" м"
 		"modifier_uppercut_buff"					"Підсилення зброї"
@@ -1149,7 +1160,7 @@
 
 		"citadel_ability_sticky_bomb"			"Бомба-липучка"
 		"citadel_ability_sticky_bomb_quip"		"Чіпляє на ціль бомбу."
-		"citadel_ability_sticky_bomb_desc"		"Чіпляє до цілі поблизу бомбу-липучку, що завдає <span class=\"highlight\">вибухової шкоди</span> після короткого часу запалу. <br>Здобуває бомбове поєднання, що дає <span class=\"highlight\">+{s:BonusDamagePctPerPlayerHit}% бомбовій шкоді</span> за кожного враженого ворожого героя. Після смерті втрачає частину поєднань ({s:BonusLossPerDeath}).<br>Утримуйте [{s:key_alt_cast}] для застосування бомби-липучки на себе."
+		"citadel_ability_sticky_bomb_desc"		"Чіпляє до цілі поблизу бомбу-липучку, що завдає <span class=\"highlight\">вибухової шкоди</span> після короткого часу запалу. <br>Здобуває бомбове поєднання, що дає <span class=\"highlight\">+{s:BonusDamagePctPerPlayerHit}% бомбовій шкоді</span> за кожного враженого ворожого героя. Після смерті втрачає {s:BonusLossPerDeath}% поєднань (це значення округлюється).<br>Утримуйте [{s:key_alt_cast}] для застосування бомби-липучки на себе."
 		"modifier_citadel_sticky_bomb_attached"	"На вас бомба"
 		"citadel_ability_sticky_bomb_t3_desc"	"Причеплення бомби <span class=\"highlight\">роззброює</span> ціль на <span class=\"highlight\">{s:DebuffDuration} с</span>."
 		"StunTargetOnExplode_label"				"часу дії"
@@ -1157,9 +1168,9 @@
 
 		"citadel_ability_bebop_laser_beam"		"Гіперпромінь"
 		"citadel_ability_bebop_laser_beam_quip"	"Випускає промінь, що завдає потужної шкоди."
-		"citadel_ability_bebop_laser_beam_desc" "Накопичує заряд лазера й випускає потужний струмінь енергії, що <span class=\"highlight\">завдає шкоди</span> і <span class=\"highlight\">сповільнює ворожий рух та ривки</span>. На час дії у вас сповільнено рух і обертання. Якщо задіяти в повітрі, ви зависнете, доки не вивільните промінь."
+		"citadel_ability_bebop_laser_beam_desc" "Накопичує заряд лазера й випускає потужний струмінь енергії, що <span class=\"highlight\">завдає шкоди</span> і <span class=\"highlight\">сповільнює ворожий рух та ривки</span>. На час дії рух і обертання героя сповільнені. Якщо задіяти в повітрі, герой зависне, доки не вивільнить промінь."
 		"modifier_bebop_laser_beam"				"Гіперпромінь"
-		"citadel_ability_bebop_laser_beam_t3_desc"	"{s:hero_name} лікується від гіперпроменя на <span class=\"highlight\">{s:BeamLifesteal}%</span> своєї шкоди по героях. {s:BeamLifestealNonHeroPercent}%, якщо по негероях."
+		"citadel_ability_bebop_laser_beam_t3_desc"	"{s:hero_name} лікується від гіперпроменя на <span class=\"highlight\">{s:BeamLifesteal}%</span> своєї шкоди по героях і на {s:BeamLifestealNonHeroPercent}% — по негероях."
 		"BeamLength_label"						"довжині променя"
 		"BeamLength_postfix"					" м"
 		"BeamWidth_label"						"ширині променя"
@@ -1192,6 +1203,7 @@
 		//"TargetReloadSpeedPenalty_label"	"Target Reload Speed Penalty"
 		"TargetReloadSpeedPenalty_postfix"	"%"
 
+		"akimbo_bulletshield"		"Щит від куль"
 		//"akimbo_bulletshield_desc"	"Creates a shield that protects {s:hero_name} from bullets and prevents bullet based procs. Bullet shield explodes when it expires.  <br>Prevents "
 		//"akimbo_bulletshield/modifier_duration"		"{s:hero_name}'s Bullet Shield"
 
@@ -1225,8 +1237,8 @@
 		"ability_hat_trick_quip"				"Кидає в атаку капелюх і виявляє ворогів."
 		"ability_hat_trick_desc"				"Кидає свій <span class=\"highlight\">капелюх</span>, що б’є ворогів, <span class=\"highlight\">сповільнює</span> та <span class=\"highlight\">виявляє</span> їх крізь стіни."
 
-		"ability_bounce_pad_quip"				"Підкидає в повітря вас та інших."
-		"ability_bounce_pad_desc"				"Викидає трамплін, з допомогою якого <span class=\"highlight\">ви та інші герої можуть злетіти в повітря</span>. Ви тупотите після приземлення, <span class=\"highlight\">завдаючи шкоди</span> всім ворогам поблизу."
+		"ability_bounce_pad_quip"				"Підкидає в повітря себе та інших."
+		"ability_bounce_pad_desc"				"Викидає трамплін, за допомогою якого <span class=\"highlight\">будь-який герой може злетіти в повітря</span>. Тупотить після приземлення, <span class=\"highlight\">завдаючи шкоди</span> всім ворогам поблизу."
 		"ability_bounce_pad_t1_desc"			"Ви й ваші союзники здобуваєте після приземлення +{s:SpeedOnLand} м/с додаткової швидкості руху на {s:SpeedOnLandDuration} с."
 		"ability_bounce_pad_t2_desc"			"<span class=\"highlight\">+{s:StompDamage}</span> шкоді від тупоту з покращеним зростанням."
 		"ability_bounce_pad_t3_desc"			"<span class=\"highlight\">+{s:StompStunDuration} с приголомшенню</span> від тупоту."
@@ -1239,6 +1251,12 @@
 		//"MinAirTimeForStomp_postfix"				"s"
 		"ability_bounce_pad/speed_on_land""швидкості руху"
 
+		"ability_crackshot_quip"				"Завдає додаткової шкоди та накладає сповільнення пострілами в голову."
+		"ability_crackshot_desc"				"Влучання в голову завдають додаткову <span class=\"highlight\">збройову шкоду</span> й накладають <span class=\"highlight\">зникаюче сповільнення</span>. Цей ефект спрацьовує, лише коли вміння не заряджається. <br><br><span class=\"diminish\">Вміння ігнорує зменшення шкоди через збільшення відстані.</span>"
+		"FadingSlowPercent_label" "зникаючому сповільненню руху"
+		"FadingSlowPercent_postfix" "%"
+		"AbilityCooldownPerHeadshot_label" "зарядці за постріл у голову"
+		"AbilityCooldownPerHeadshot_postfix" " с"
 
 		//"citadel_ability_running_decoy"					"Decoy"
 		//"citadel_ability_running_decoy_desc"			"{s:hero_name} creates a temporary decoy that will run towards the target location and shoot at any nearby enemies."
@@ -1309,7 +1327,7 @@
 		//-----------------------------------------------------------------------------
 
 		"ability_perched_predator"				"Дух Сехмета"
-		"ability_perched_predator_desc"			"Надсилає вперед кота-духа, що хапає цілі на шляху. Хапання героя призведе до вибуху незабаром.<br>Натисніть [{s:in_ability1}], щоби створити вибух вручну."
+		"ability_perched_predator_desc"			"Надсилає вперед кота-духа, що хапає цілі на шляху. Хапання героя призведе до вибуху незабаром.<br>Натисніть [{s:in_ability1}], щоби здійснити вибух вручну."
 		//"CatExplosionCount_label"				"Explosions"
 		//"CatMaxSpeed_label"						"Ghostcat Max Speed"
 		"CatMaxSpeed_postfix"						" м/с"
@@ -1332,9 +1350,9 @@
 		"PounceFriendlyTargetCD_postfix"			" с"
 		"pounce_double_notify"					"Подвійний наскок"
 
-		"ability_nano_proximity_ritual"			"Ава"
-		"ability_nano_proximity_ritual_quip"	"Розгортає компаньйона, який атакує ворогів."
-		"ability_nano_proximity_ritual_desc"	"Розгортає <span class=\"highlight\">Аву</span>, що <span class=\"highlight\">фокусується</span> на ворогу поблизу. Цільові вороги зазнають зменшення лікування, а <span class=\"highlight\">{s:hero_name} й Ава лікуються</span>, якщо ці вороги зазнають шкоди. <span class=\"highlight\">Ава діє, лише коли {s:hero_name} поруч</span>. <br>Натисніть <span class=\"highlight\">[3]</span>, щоби відкликати Аву. <br>Скористайтеся <span class=\"highlight\">[альтернативним застосуванням]</span> для відкликання й перенесення до Ави. <br>Що далі знаходиться Ава, то довше триватиме відкликання/перенесення. Після відкликання Ава повертає назад здоров’я."
+		"ability_nano_proximity_ritual"			"Захисний некомата"
+		"ability_nano_proximity_ritual_quip"	"Розгортає статую, що наглядає за областю."
+		"ability_nano_proximity_ritual_desc"	"Розгортає <span class=\"highlight\">статую</span>, що відстежує ворогів в області, а також атакує тих, кому {s:hero_name} нещодавно завдав шкоди. Цілі зазнають зменшення лікування та <span class=\"highlight\">лікують героя</span>, коли отримують шкоду."
 		"StatueLifetime_label"					"часу автовідкликання"
 		"StatueLifetime_postfix"				" с"
 		"StatueHeldRegen_label"						"відновленню відкликанням Ави"
@@ -1342,16 +1360,16 @@
 		"StatueLifesteal_postfix"				"%"
 		"StatueLifestealNonHero_label"			"вампіризму від негероїв"
 		"StatueLifestealNonHero_postfix"		"%"
-		"StatueActivateRange_label"				"дієвій дальності"
+		"StatueActivateRange_label"				"дальності виявлення"
 		"StatueActivateRange_postfix"			" м"
 		"StatueHealth_label"					"Ава (нормалізовано)"
 		"StatueHealth_postfix"					"ОЗ"
 		"StatueVictimDamageReduction_label"					"зменшенню шкоди"
 		"StatueVictimDamageReduction_postfix"				"%"
 
-		"ability_nano_proximity_ritual_t1_desc"  "<span class=\"highlight\">+{s:StatueLifesteal}%</span> вампіризму."
-		"ability_nano_proximity_ritual_t2_desc"  "<span class=\"highlight\">+{s:DPS}</span> ШЗС і {s:hero_name} зазнає на <span class=\"highlight\">{s:StatueVictimDamageReduction}%</span> менше шкоди від жертв."
-		"ability_nano_proximity_ritual_t3_desc"  "<span class=\"highlight\">+{s:DamageAmplification}%</span> посиленню шкоди та {s:HealAmpReceivePenaltyPercent}% зменшенню лікування для жертв."
+		"ability_nano_proximity_ritual_t1_desc"  "Статуї стають <span class=\"highlight\">невидимими</span>, коли не атакують."
+		"ability_nano_proximity_ritual_t2_desc"  "<span class=\"highlight\">+{s:AbilityCharges}</span> до зарядів уміння й <span class=\"highlight\">+{s:DPS}</span> ШЗС."
+		"ability_nano_proximity_ritual_t3_desc"  "<span class=\"highlight\">{s:StatueVictimDamageReduction}%</span> зменшенню шкоди та {s:HealAmpReceivePenaltyPercent}% зменшенню лікування для цілей."
 		"ability_nano_proximity_ritual_trigger"		"Відкликати Аву"
 
 		"AvaRecallCooldown_label"				"зарядці відкликання"
@@ -1360,8 +1378,8 @@
 		"AbilityButtonHint_AvaWarp"			"Перенесення до Ави"
 		"CITADEL_ABILITY_NO_HEALTH_RESOURCE"	"Не доступно"
 
-		"ability_nano_shadow_step"				"Тіньовий крок"
-		"ability_nano_shadow_step_desc"			"Огортає себе тінню, що посилює атаку й робить ривки <span class=\"highlight\">невидимими</span>. Влучання у ворогів <span class=\"highlight\">ближньою шкодою</span> зменшить їхній опір кулям (ефект поєднується)."
+		"ability_nano_shadow_step_desc"			"Позначає ворогів та огортає себе тінню, що зміцнює атаки й дає <span class=\"highlight\">невидимість</span>. Атаки лише ненадовго припиняють невидимість. Влучання у ворогів <span class=\"highlight\">у ближньому бою</span> зменшить їхній опір кулям (ефект поєднується)."
+		"ability_nano_shadow_step_quip"			"Заходить у тіні, щоби здобути перевагу над ворогами."
 		"modifier_nano_shadow_step"			"Тіньовий крок"
 		"NanoShadowBulletArmorReductionLight_prefix"	"-"
 		"NanoShadowBulletArmorReductionLight_label"	"опору кулям (слабкому)"
@@ -1388,14 +1406,14 @@
 		"ability_charged_shot_quip"	"Накопичує заряд, щоби вистрілити на далеку відстань."
 		"ability_charged_shot_desc"	"<span class=\"highlight\">Накопичує заряд для пострілу</span>, який потужно пробиває ворогів. Утримуйте [{s:ability_key}] чи [{s:iv_attack}], щоби затримати постріл."
 		"ability_charged_shot_t2_desc"	"<span class=\"highlight\">+{s:Damage} шкоді</span>."
-		"ability_charged_shot_t3_desc"	"<span class=\"highlight\">Покращено приріст шкоди</span> та <span class=\"highlight\">{s:AbilityCooldownBetweenCharge} с</span> затримці заряду."
+		"ability_charged_shot_t3_desc"	"<span class=\"highlight\">Покращення приросту шкоди</span> та <span class=\"highlight\">{s:AbilityCooldownBetweenCharge} с</span> затримці заряду."
 
 		//"PowerJumpChannelTime_label"			"In Power Jump Channel"
 		"PowerJumpChannelTime_postfix"		" с"
 
 		"ability_power_jump"			"Дощ зі стріл"
-		"ability_power_jump_quip"		"Стрибає високо в повітря та стріляє багатьма пострілами."
-		"ability_power_jump_desc"		"Високо підстрибує в повітря, де повільно планерує. У повітрі здобуваєте <span class=\"highlight\">збройовій шкоді</span> та <span class=\"highlight\">мультипостріл для своєї зброї</span>.<br>Альтернативне застосування зменшує висоту стрибка.<br>Натисніть [{s:in_mantle}], щоби скасувати планерування."
+		"ability_power_jump_quip"		"Стрибає високо в повітря та випускає багато стріл."
+		"ability_power_jump_desc"		"Високо підстрибує в повітря й повільно планерує. У повітрі здобуває <span class=\"highlight\">збройову шкоду</span> та <span class=\"highlight\">мультипостріл для своєї зброї</span>.<br>Альтернативне застосування зменшує висоту стрибка.<br>Натисніть [{s:in_mantle}], щоби скасувати планерування."
 		"ability_power_jump_t2_desc"	"У повітрі дає <span class=\"highlight\">+{s:WeaponDamageBonus}</span> збройовій шкоді й вона накладає <span class=\"highlight\">{s:SlowPercent}%</span> сповільнення руху впродовж {s:SlowDuration} с."
 		"ability_power_jump_t3_desc"	"У повітрі дає <span class=\"highlight\">+{s:TechLifestealPercent}%</span> вампіризму від куль та <span class=\"highlight\">+{s:BulletLifestealPercent}%</span> духовному вампіризму."
 		//"modifier_citadel_archer_air_raid"			"Power Jump"
@@ -1412,13 +1430,13 @@
 		"ability_immobilize_trap_quip"		"Ставить пастку, яка знерухомлює ворогів."
 		"ability_immobilize_trap_desc"		"<span class=\"highlight\">Кидає пастку</span>, яка починає розгортатися. Після розгортання пастка спрацює, якщо ворог потрапить у радіус її дії, <span class=\"highlight\">знерухомить</span> його, а потім <span class=\"highlight\">сповільнить</span>."
 		"modifier_citadel_immobilize_trap_immobilize"	"Знерухомлююча пастка"
-		"modifier_citadel_immobilize_trap_immobilize_debuff" "Негатив від знерухомлюючої пастки"
+		"modifier_citadel_immobilize_trap_immobilize_debuff" "Ослаблення від знерухомлюючої пастки"
 		"ability_immobilize_trap_t3_desc"	"Упродовж <span class=\"highlight\">{s:DebuffDuration} с</span> {s:hero_name} завдає на <span class=\"highlight\">+{s:BulletVulnerbility}%</span> більше шкоди від куль ворогам, враженим знерухомлюючою пасткою."
 		"ability_immobilize_trap/trap_debuff"	"Зменшення духовної броні"
 
 		"ability_guided_arrow"		"Керована сова"
-		"ability_guided_arrow_quip"	"Летить своєю совою, щоби та звіддаля завдала шкоди ворогам."
-		"ability_guided_arrow_desc"	"Через {s:AbilityCastDelay} с часу застосування <span class=\"highlight\">запускає сову-духа, яку ви контролюєте</span> і яка вибухає під час зіткнення, завдаючи <span class=\"highlight\">шкоди та сповільнення</span> ворогам. Утримуйте [{s:iv_attack}] для прискорення сови. <br>Натисніть [{s:in_mantle}], щоби перестати її контролювати. Здобуває <span class=\"highlight\">постійну духовну силу</span> за кожного ворога, вбитого спрямованою совою."
+		"ability_guided_arrow_quip"	"Запускає свою сову, щоби та звіддаля завдала шкоди ворогам."
+		"ability_guided_arrow_desc"	"Через {s:AbilityCastDelay} с часу застосування <span class=\"highlight\">запускає керовану сову-духа</span>, яка вибухає під час зіткнення, завдаючи <span class=\"highlight\">шкоди та сповільнення</span> ворогам. Утримуйте [{s:iv_attack}] для прискорення сови. <br>Натисніть [{s:in_mantle}], щоби перестати її контролювати. Здобуває <span class=\"highlight\">постійну духовну силу</span> за кожного ворога, вбитого керованою совою."
 		"ability_guided_arrow_t3_desc"	"Після влучання вбиває ворога, який має менше ніж <span class=\"highlight\">{s:LowHealthEnemyThresholdPct}% здоров’я</span>."
 		"BonusTechPowerPerKill_label"		"духовній силі за вбивство"
 
@@ -1430,12 +1448,12 @@
 		//-----------------------------------------------------------------------------
 		"ability_blood_bomb"				"Жертовна бомба"
 		"ability_blood_bomb_quip"			"Жертвує своїм здоров’ям, щоби кинути бомбу."
-		"ability_blood_bomb_desc"			"<span class=\"highlight\">Жертвує своїм здоров’ям</span>, щоби кинути бомбу, яка <span class=\"highlight\">завдає шкоди</span> після короткого часу заряджання.<br>Тип шкоди собі — духовний, і шкоду не можна зменшити."
+		"ability_blood_bomb_desc"			"<span class=\"highlight\">Жертвує своїм здоров’ям</span>, щоби кинути бомбу, яка <span class=\"highlight\">завдає шкоди</span> після короткого часу заряджання.<br>Тип шкоди собі — духовний, і шкоду можна зменшити."
 		"ability_blood_bomb_t3_desc"	"Бомби лишають на землі токсичний безлад, завдаючи <span class=\"highlight\">{s:BloodSpillDPSPercent}%</span> від початкової <span class=\"highlight\">шкоди за секунду</span> впродовж <span class=\"highlight\">{s:BloodSpillDuration} с</span>."
 
 		"ability_life_drain"				"Висмоктування життя"
 		"ability_life_drain_quip"			"Періодично викрадає життя у ворога."
-		"ability_life_drain_desc"			"Створює зв’язок, що <span class=\"highlight\">періодично витягує життя з ворога</span> й <span class=\"highlight\">лікує вас</span>. Ціль повинна бути в полі зору і в межах максимальної відстані витягування. Під час витягування можна стріляти й використовувати інші вміння, але вашу швидкість руху наполовину зменшено.<br><span class=\"highlight\">[Альтернативне застосування] дає здоров’я союзним героям</span>.<br><span class=\"highlight\">Натисніть [{s:in_ability2}]</span> для скасування."
+		"ability_life_drain_desc"			"Створює зв’язок, що <span class=\"highlight\">поступово витягує життя з ворога</span> й <span class=\"highlight\">лікує вас</span>. Ціль повинна бути в полі зору і в межах максимальної відстані витягування. Під час витягування можна стріляти й використовувати інші вміння, але вашу швидкість руху наполовину зменшено.<br><span class=\"highlight\">[Альтернативне застосування] дає здоров’я союзним героям</span>.<br><span class=\"highlight\">Натисніть [{s:in_ability2}]</span> для скасування."
 		"ability_life_drain/modifier_life_drain" "Висмоктування життя"
 		"ability_life_drain/modifier_life_drain_caster" "Висмоктування життя"
 		"modifier_life_drain_silence"		"Знемовлено"
@@ -1466,7 +1484,7 @@
 		"EnemySlowPct_postfix"				"%"
 		//"ability_health_swap/modifier_health_swap_debuff"	"Health Swap"
 
-		"HealthSwapBuffDuration_label"		"часу ефекту"
+		"HealthSwapBuffDuration_label"		"часу посилення"
 		"HealthSwapBuffDuration_postfix"		" с"
 		"modifier_health_swap_buff"			"Обмін здоров’ям"
 
@@ -1478,9 +1496,9 @@
 		//"ability_death_tax_t3_desc"	"Increase Spirit Power by <span class=\"highlight\">{s:TechPowerAmpBonus}</span> for <span class=\"highlight\">{s:TechPowerAmpBonusDuration}s</span> when a marked enemy dies.  Stacks up to <span class=\"highlight\">{s:TechPowerAmpBonusMaxStacks}</span> times."
 
 		"ability_blood_shards"				"Злість"
-		"ability_blood_shards_quip"			"Поєднує посилення шкоди на ворога."
-		"ability_blood_shards_desc"			"<span class=\"highlight\">Жертвує частку свого здоров’я</span>, щоби кинути кульки крові, які накладають заряд злості. Кожен заряд <span class=\"highlight\">сповільнює</span> жертву та <span class=\"highlight\">збільшує шкоду</span>, якої та може зазнати від вас. Ефект сповільнення поступово слабшає."
-		"ability_blood_shards_t2_desc"		"+{s:HealthToDamage}% здоров’ю як шкоді."
+		"ability_blood_shards_quip"			"Поєднує посилення шкоди, завданої ворогу."
+		"ability_blood_shards_desc"			"<span class=\"highlight\">Жертвує частку свого здоров’я</span>, щоби кинути криваві кульки, які накладають заряд злості. Кожен заряд <span class=\"highlight\">сповільнює</span> жертву та <span class=\"highlight\">збільшує шкоду</span>, якої та може зазнати від героїні. Ефект сповільнення поступово слабшає."
+		"ability_blood_shards_t2_desc"		"<span class=\"highlight\">+{s:HealthToDamage}</span> здоров’ю як шкоді та <span class=\"highlight\">+{s:VulnerabilityPerStack}%</span> посиленню шкоди."
 		"ability_blood_shards_t3_desc"		"+{s:NumBloodShards} до кривавих кульок."
 		"NumBloodShards_label"				"до кривавих кульок"
 		"MoveSpeedPenaltyPerStack_label"		"сповільненню руху"
@@ -1543,7 +1561,7 @@
 
 		"citadel_ability_hornet_leap"			"Політ"
 		"citadel_ability_hornet_leap_quip"		"Здіймається в політ і посилює свою зброю."
-		"citadel_ability_hornet_leap_desc"		"Стрибає в повітря й <span class=\"highlight\">летить</span>. У польоті ваша зброя завдає <span class=\"highlight\">додаткову духовну шкоду</span>."
+		"citadel_ability_hornet_leap_desc"		"Стрибає в повітря й <span class=\"highlight\">летить</span>. У польоті зброя завдає <span class=\"highlight\">додаткову духовну шкоду</span>."
 		"citadel_ability_hornet_leap_t1_desc"	"<span class=\"highlight\">+{s:BonusClipSizePercent}%</span> основним набоям у польоті."
 		"MagicDamagePerBullet_label"				"духовній шкоді за кулю"
 
@@ -1569,10 +1587,10 @@
 		//"modifier_citadel_hornetmark"			"Vindicta's Mark"
 
 		"citadel_ability_hornet_sting"			"Ворон-фамільяр"
-		"citadel_ability_hornet_sting_quip"		"Змушує ціль періодично стікати кров’ю."
+		"citadel_ability_hornet_sting_quip"		"Змушує ціль поступово стікати кров’ю."
 		"citadel_ability_hornet_sting_desc"		"Ваш ворон-фамільяр завдає <span class=\"highlight\">шкоди під час влучання</span>, зменшує опір кулям і накладає <span class=\"highlight\">кровотечу</span>, що завдає шкоду відповідно до <span class=\"highlight\">поточного здоров’я цілі</span>."
 		"citadel_ability_hornet_sting_t1_desc"	"Ворон <span class=\"highlight\">кидається до двох разів</span> на інших ворогів у радіусі {s:TargetBounceRange} м."
-		"citadel_ability_hornet_sting_t3_desc"	"+{s:DotHealthPercent}% кровотечі й пригнічення лікування на {s:HealAmpReceivePenaltyPercent}%."
+		"citadel_ability_hornet_sting_t3_desc"	"+{s:DotHealthPercent}% кровотечі та зменшення лікування на {s:HealAmpReceivePenaltyPercent}%."
 		"citadel_ability_hornet_sting/modifier_citadel_hornet_sting_debuff"		"Ворон-фамільяр"
 		"BulletVulnerbility_prefix"				"{s:sign}"
 		//"BulletVulnerbility_label"				"Weapon Damage Amplification"
@@ -1580,7 +1598,7 @@
 
 		"citadel_ability_hornet_snipe"			"Контрольний постріл"
 		"citadel_ability_hornet_snipe_quip"		"Снайперський постріл у поранені цілі з великою шкодою."
-		"citadel_ability_hornet_snipe_desc"		"Скористайтеся прицілом своєї гвинтівки, щоби здійснити потужний постріл на велику відстань. Завдає лише часткову шкоду, доки не накопичить повний заряд упродовж 1 с після прицілювання. Завдає <span class=\"highlight\">додаткової шкоди</span> ворогам, у яких <span class=\"highlight\">менше ніж {s:LowHealthEnemyThresholdPct}% здоров’я</span>. Добивання ворога спланованим вбивством <span class=\"highlight\">дає вам додаткові душі</span>."
+		"citadel_ability_hornet_snipe_desc"		"Скористайтеся прицілом гвинтівки, щоби здійснити потужний постріл на велику відстань. Завдає лише часткову шкоду, доки не накопичить повний заряд за 1 с прицілювання. Завдає <span class=\"highlight\">додаткової шкоди</span> ворогам, у яких <span class=\"highlight\">менше ніж {s:LowHealthEnemyThresholdPct}% здоров’я</span>. Добивання ворога спланованим вбивством <span class=\"highlight\">дає додаткові душі</span>."
 		//"citadel_ability_hornet_snipe_t3_desc"	"Assassinate kills grant +{s:BonusGoldOnKill} souls"
 		"LowHealthEnemyDamageBonus_label"		"додачі шкоди"
 		"LowHealthEnemyThresholdPct_label"		"порогу малого здоров’я"
@@ -1591,7 +1609,7 @@
 		"HeadshotBonus_prefix"					"+"
 		"HeadshotBonus_label"					"шкоді в голову"
 		"HeadshotBonus_postfix"					"%"
-
+		"AbilityButtonHint_AssassinateFoVCycle"	"Перемикання наближення"
 
 		//-----------------------------------------------------------------------------
 		// Digger (Formally Pouncer and Driller) Mo and Krill
@@ -1615,7 +1633,7 @@
 		"ability_intimidate"			"Зневага"
 		"ability_intimidate_quip"		"Завдають шкоди ворогам поблизу, лікуючись від кожного влучання."
 		"ability_intimidate_desc"		"Завдаєте <span class=\"highlight\">шкоди</span> ворогам поблизу й <span class=\"highlight\">лікуєтеся</span> відповідно до завданої шкоди. Лікування від ворожих героїв сильніше."
-		"ability_intimidate_t3_desc"	"Додає негативний ефект ворогам, завдяки якому {s:hero_name} можуть завдати тим <span class=\"highlight\">+{s:DamageBonus}% шкоди</span>. Поєднується та триває {s:DebuffDuration} с."
+		"ability_intimidate_t3_desc"	"Накладає ослаблення на ворогів, завдяки якому {s:hero_name} можуть завдати тим <span class=\"highlight\">+{s:DamageBonus}% шкоди</span>. Поєднується та триває {s:DebuffDuration} с."
 		"DamageHealMult_label"			"шкоді героям як лікування"
 		"DamageHealMult_postfix"		"×"
 		"DamageHealMultNonHero_label"		"шкоді як лікування"
@@ -1631,7 +1649,7 @@
 
 		"ability_ult_combo"				"Комбінація"
 		"ability_ult_combo_quip"		"Тримають ворожого героя на місці та лупцюють його."
-		"ability_ult_combo_desc"		"Утримують ціль на місці, <span class=\"highlight\">приголомшуючи їх та завдаючи шкоди</span> під час заряджання. Якщо вороги загинуть під час комбінації, ви назавжди отримаєте приріст максимального здоров’я."
+		"ability_ult_combo_desc"		"Утримують ціль на місці, <span class=\"highlight\">приголомшуючи її та завдаючи шкоди</span> під час заряджання. Якщо ціль загине під час комбінації, ви назавжди отримаєте приріст максимального здоров’я."
 		"ability_ult_combo_t1_desc"		"<span class=\"highlight\">+{s:ComboBulletResist}%</span> опору кулям під час комбінації."
 		"ability_ult_combo_t2_desc"		"Комбінація триває <span class=\"highlight\">+{s:AbilityChannelTime} с</span>."
 		"ability_ult_combo_t3_desc"		"<span class=\"highlight\">+{s:DPS}</span> шкоді за секунду та <span class=\"highlight\">{s:LifeStealPercentOnHit}% вампіризму</span>."
@@ -1666,8 +1684,8 @@
 		"BleedDuration_postfix"					" с"
 
 		"citadel_ability_shiv_dash"				"Різанина"
-		"citadel_ability_shiv_dash_quip"		"Мчить уперед, ушкоджуючи всіх ворогів на шляху."
-		"citadel_ability_shiv_dash_desc"		"Здійснює <span class=\"highlight\">ривок уперед, ушкоджуючи всіх ворогів на шляху</span>.<br><br>Розблокування ульта: <span class=\"highlight\">коли лють заповнено</span>, відлуння героя після короткої затримки повертається шляхом ривку назад, знову ушкоджуючи ворогів."
+		"citadel_ability_shiv_dash_quip"		"Мчить уперед, ушкоджуючи всіх ворогів на своєму шляху."
+		"citadel_ability_shiv_dash_desc"		"Здійснює <span class=\"highlight\">ривок уперед, ушкоджуючи всіх ворогів на своєму шляху</span>.<br><br>Розблокування ульта: <span class=\"highlight\">коли лють заповнено</span>, відлуння героя після короткої затримки повертається назад шляхом ривку, знову ушкоджуючи ворогів."
 		"citadel_ability_shiv_dash_t3_tooltip"	"З ударом"
 		"DashRange_label"							"дальності ривка"
 		"DashRange_postfix"						" м"
@@ -1680,13 +1698,13 @@
 		"modifier_citadel_shiv_dash"				"Різанина"
 		"modifier_shiv_bleed_dash"				"Різанина"
 		"modifier_citadel_shiv_dash_impact_slow"	"Різанина"
-		"modifier_shiv_dash_heal_reduction"		"Зменшення лікування від різанини"
+		"modifier_shiv_dash_heal_reduction"		"Ослаблення лікування від різанини"
 		"BurstFireOnHeroHit_postfix"				" с"
 		"citadel_ability_shiv_dash_t3_desc"		"Зарядка зменшується на {s:CooldownReductionOnHit} с після кожного завданого удару по ворожому герою (на {s:CooldownReductionOnHitNonHero} с — по інших істотах). Максимально —{s:MaxCooldownReductionsFromHits} с за ривок."
 
 		"citadel_ability_shiv_defer_damage"		"Кровопускання"
-		"citadel_ability_shiv_defer_damage_quip"	"Відкладає частку зазнаної шкоди."
-		"citadel_ability_shiv_defer_damage_desc"	"Одразу зазнає лише частки вхідної шкоди, а решту відкладає, щоби доотримати періодично. Задіяння <span class=\"highlight\">очищує частину відкладеної шкоди</span>. "
+		"citadel_ability_shiv_defer_damage_quip"	"Відкладає отримання частки зазнаної шкоди."
+		"citadel_ability_shiv_defer_damage_desc"	"Одразу зазнає лише частки вхідної шкоди, а решту відкладає, щоби доотримувати поступово. Задіяння <span class=\"highlight\">очищує частину відкладеної шкоди</span>. "
 		"citadel_ability_shiv_defer_damage_max_rage_desc" "Розблокування ульта: <span class=\"highlight\">коли лють заповнено</span>, кількість відкладеної шкоди зростає."
 		"citadel_ability_shiv_defer_damage_on_cast" "Задіяння"
 		"DamagePctDeferred_label"					"відкладеній вхідній шкоді"
@@ -1786,7 +1804,7 @@
 
 		"synth_barrage"				"Обстріл"
 		"synth_barrage_quip"			"Ковзає в повітрі, випускаючи численні снаряди."
-		"synth_barrage_desc"			"Заряджає, щоби почати випускати снаряди, які <span class=\"highlight\">завдають шкоди</span> й <span class=\"highlight\">накладають сповільнення руху</span> навколо місця свого влучання. Кожен снаряд, що влучив у героя, дає вам <span class=\"highlight\">поєднуваний ефект, який посилює всю вашу шкоду</span>.<br>Якщо застосувати в повітрі, ви <span class=\"highlight\">летітимете</span> зі збереженням горизонтальної інерції, яку мали на початку."
+		"synth_barrage_desc"			"Після заряджання починає випускати снаряди, які <span class=\"highlight\">завдають шкоди</span> й <span class=\"highlight\">накладають сповільнення руху</span> навколо місця свого влучання. Кожен снаряд, що влучив у героя, дає <span class=\"highlight\">поєднуване посилення, яке збільшує всю шкоду</span>.<br>Якщо застосувати в повітрі, Мак-Ґінніс <span class=\"highlight\">летітиме</span> зі збереженням горизонтальної інерції, яку мала на початку."
 		"synth_barrage_t3_desc"			"<span class=\"highlight\">+{s:AmpPercentPerStack}%</span> посиленню за поєднання та <span class=\"highlight\">{s:Radius} м</span> радіусу."
 		"DamagePerProjectile_label"	"шкоді за снаряд"
 		"ProjectileAmount_label"		"кількості снарядів"
@@ -1815,8 +1833,8 @@
 
 		"synth_affliction"			"Недуга"
 		"synth_affliction_quip"		"Накладає періодичну шкоду на ворогів поблизу."
-		"synth_affliction_desc"		"Накладає <span class=\"highlight\">періодичну шкоду</span> на всіх ворогів поблизу.<br>Шкода від недуги несмертельна й не викликає спрацювання від предметів."
-		"synth_affliction_t2_desc"	"Пригнічує лікування цілі на {s:HealAmpReceivePenaltyPercent}%."
+		"synth_affliction_desc"		"<span class=\"highlight\">Поступово завдає шкоди</span> всім ворогам поблизу.<br>Шкода від недуги несмертельна й не викликає спрацювання від предметів."
+		"synth_affliction_t2_desc"	"Зменшує лікування цілі на {s:HealAmpReceivePenaltyPercent}%."
 		"synth_affliction_t3_desc"	"+{s:DPS} ШЗС."
 		"modifier_synth_affliction_debuff"	"Недуга"
 
@@ -1834,10 +1852,11 @@
 		//"TornadoDuration_postfix"			"s"
 		"modifier_mirage_tornado_lift"	"Торнадо"
 		"modifier_mirage_tornado_slow"	"Сповільнення від торнадо"
+		"modifier_mirage_tornado_hold_in_place"	"Торнадо"
 
 		"mirage_fire_beetles"			"Вогняні скарабеї"
 		"mirage_fire_beetles_quip"		"Відсилає скарабеїв, що викрадають здоров’я у ворогів."
-		"mirage_fire_beetles_desc"		"Починає випускати вогняних скарабеїв. Кожного скарабея можна <span class=\"highlight\">випустити окремо</span>, він викрадає <span class=\"highlight\">максимальне здоров’я у ворогів</span> та накладає <span class=\"highlight\">зменшення опору кулям</span>. На одного ворога не можуть діяти кілька скарабеїв. Викрадення здоров’я в героїв утричі ефективніше, ніж у негероїв."
+		"mirage_fire_beetles_desc"		"Починає випускати вогняних скарабеїв. Кожного скарабея можна <span class=\"highlight\">випустити окремо</span>: він викрадає <span class=\"highlight\">максимальне здоров’я у ворогів</span> та накладає <span class=\"highlight\">зменшення опору кулям</span>. На одного ворога не можуть діяти кілька скарабеїв. Викрадення здоров’я в героїв утричі ефективніше, ніж у негероїв."
 		"modifier_mirage_fire_beetles_launch_window"	"Запуск вогняних скарабеїв"
 		"LaunchWindowDuration_label"	"до вікна запуску"
 		"LaunchWindowDuration_postfix"	" с"
@@ -1850,9 +1869,10 @@
 
 		"mirage_teleport"		"Мандрівник"
 		"mirage_teleport_quip"	"Телепортується до союзного чи ворожого героя."
-		"mirage_teleport_desc"	"Заряджається. Націлюється на союзного чи видимого ворожого героя на мінімапі, а потім <span class=\"highlight\">телепортується</span> до місця, де той був на момент початку заряджання. Після телепортації Міраж ненадовго здобуває <span class=\"highlight\">швидкість руху</span>, а також <span class=\"highlight\">швидкострільність до свого наступного перезаряджання</span>."
+		"mirage_teleport_desc"	"Заряджається. Націлюється на союзного чи видимого ворожого героя на мінімапі, а потім <span class=\"highlight\">телепортується</span> до місця, де той був на момент початку заряджання. Після телепортації Міраж здобуває <span class=\"highlight\">швидкість руху</span> та <span class=\"highlight\">швидкострільність до свого наступного перезаряджання</span>."
 		"MirageTeleportMoveSpeed_conditional"	"після телепортації"
 		"mirage_teleport_movespeed"		"Мандрівник — пришвидшення руху"
+		"mirage_teleport_t3_desc"	"Після телепортації отримує <span class=\"highlight\">імунітет</span> до приголомшення, знемовлення, сну, знерухомлення й роззброєння на {s:ImmunityDuration} с."
 
 		"mirage_sand_phantom"			"Джинова мітка"
 		"mirage_sand_phantom_quip"		"Накладає спрацювання посилюваної шкоди."
@@ -1920,7 +1940,7 @@
 		// TENGU // IVY
 		//-----------------------------------------------------------------------------
 		"citadel_ability_tengu_urn"			"Кудзу-бомба"
-		"citadel_ability_tengu_urn_quip"	"Ушкоджує і сповільнює ворогів в області."
+		"citadel_ability_tengu_urn_quip"	"Ушкоджує і сповільнює ворогів в області дії."
 		"citadel_ability_tengu_urn_desc"	"Прикликає ділянку задушливої лози, що <span class=\"highlight\">ушкоджує</span> і <span class=\"highlight\">сповільнює</span> ворогів у радіусі дії."
 		"citadel_ability_tengu_urn_t3_desc"	"<span class=\"highlight\">+{s:DPS} ШЗС</span> і <span class=\"highlight\">+{s:Radius}м радіусу</span>."
 
@@ -1929,8 +1949,8 @@
 		//"citadel_ability_tengu_ghost_t3_desc"	"Bounces +{s:Bounces} additional times"
 
 		"citadel_ability_tengu_stone_form"			"Кам’яна форма"
-		"citadel_ability_tengu_stone_form_quip"		"Обертається на непроникний камінь і приголомшує ворогів поблизу."
-		"citadel_ability_tengu_stone_form_desc"		"Обертається на <span class=\"highlight\">непроникний камінь</span> і падає на землю, <span class=\"highlight\">приголомшуючи та ушкоджуючи</span> ворогів поблизу. Лікує вас на відсоток від вашого максимального здоров’я. Ви можете трохи керувати рухом у повітрі перед падінням."
+		"citadel_ability_tengu_stone_form_quip"		"Перетворюється на невразливий камінь і приголомшує ворогів поблизу."
+		"citadel_ability_tengu_stone_form_desc"		"Перетворюється на <span class=\"highlight\">невразливий камінь</span> і падає на землю, <span class=\"highlight\">приголомшуючи та ушкоджуючи</span> ворогів поблизу. Лікує себе на відсоток від свого максимального здоров’я. Можна трохи керувати рухом у повітрі перед падінням."
 		"citadel_ability_tengu_stone_form_t2_desc"	"<span class=\"highlight\">+{s:Damage} шкоді</span> та <span class=\"highlight\">+{s:StunDuration} с</span> приголомшенню."
 		"MaxHealthRegen_label"						"лікуванню від макс. здоров’я"
 		"MaxHealthRegen_postfix"					"%"
@@ -1939,7 +1959,7 @@
 		"citadel_ability_tangotether"		"Союзний пакт"
 		"citadel_ability_tangotether_quip"	"Посилює вас і союзника поблизу."
 		"citadel_ability_tangotether_desc"	"Здобуває посилення й автоматично зв’язується з союзником поблизу, щоби поділитися ними. <span class=\"highlight\">Лікування повторюється</span> для всіх пов’язаних. Для зв’язку потрібно бути в полі зору. Натисніть [{s:in_ability2}], щоби закріпити ціль."
-		"citadel_ability_tangotether_t2_desc" "+{s:MoveSpeedBonus} м/с додачі швидкості руху"
+		"citadel_ability_tangotether_t2_desc" "+{s:MoveSpeedBonus} м/с швидкості руху"
 		//"tether_disconnecting"				"Covenant - Disconnecting..."
 		//"tether_disconnected"				"Covenant - Disconnected"
 		//"SelfMovementBonus_label"			"Ivy Speed Bonus"
@@ -2114,10 +2134,22 @@
 		//"slork_chomp_desc"			"<span class=\"highlight\">Dash forward and grab onto an enemy</span>, biting them repeatedly. The enemy is slowed, disarmed, and silenced while grappled. When the target is <span class=\"highlight\">below half health</span>, deal an additional <span class=\"highlight_tech\">{s:DamagePercentHealth}%</span> of their max health in damage."
 		"HobbledMovementSlow_Label" "сповільненню руху"
 		"HobbledMovementSlow_postfix" "%"
-		//"slork_chomp_t2_desc"		"+{s:ChompHealPercent}% Lifesteal from Chomp damage"
-//		"slork_chomp_t3_desc"		"Chomp deals <span class=\"highlight\">{s:DamageMissingPercentHealth}%</span> of the enemies missing health each second."
-		//"modifier_slork_chomp_grapple"	"Chomping an Enemy"
-		//"modifier_slork_chomp_hobbled" "Getting Chomped"
+"fathom_scalding_spray_quip"	"Бризкає кип’ятком перед собою у формі конуса."
+		"fathom_scalding_spray_desc"	"Розбризкує кип’яток у конусоподібній області попереду. Влучання у ворожих героїв накопичує додаткову збройову шкоду."
+		"WeaponDamageBonusPerSec_label"		"приросту збройової шкоди за с"
+		"WeaponDamageBonusPerSec_postfix"	"%"
+
+		"fathom_breach_quip"		"Стрибає до ворогів."
+		"fathom_breach_desc"		"Стрибає вперед, ушкоджуючи всіх ворогів поблизу місця приземлення та підкидаючи їх у повітря."
+
+		"fathom_defer_damage"		"Кровопускання"
+		"fathom_defer_damage_quip"	"Відкладає отримання частки зазнаної шкоди."
+
+		"fathom_reefdweller_harpoon_quip"	"Кидає гарпун, що підтягує до поверхні."
+		"fathom_reefdweller_harpoon/regen"	"Відновлення поза боєм"
+		"fathom_reefdweller_harpoon/latched"	"Прикріплено до стіни"
+		"OutOfCombatRegen_label"			"відновленню макс. здоров’я"
+		"OutOfCombatRegen_postfix"			"%"
 
 
 		//"slork_ability_4"		"Torrent"
@@ -2426,7 +2458,7 @@
 
 		"citadel_ability_flying_strike"			"Летюче лезо"
 		"citadel_ability_flying_strike_quip"	"Летить до ворожої цілі."
-		"citadel_ability_flying_strike_desc"	"Кидає гак із зачепом, що <span class=\"highlight\">підтягує вас до ворога, завдаючи шкоди та сповільнення цілі</span>, коли ви прибуваєте."
+		"citadel_ability_flying_strike_desc"	"Кидає гак із зачепом, що <span class=\"highlight\">підтягує до ворога, завдаючи шкоди та сповільнення</span> після прибуття до цілі."
 		"citadel_ability_flying_strike/slow" "Сповільнення від летючого леза"
 		//"citadel_ability_flying_strike/weapon_buff" "+Weapon Damage"
 		"citadel_ability_flying_strike_t3_desc" "<span class=\"highlight\">+{s:WeaponDamageBonus}</span> збройовій шкоді на <span class=\"highlight\">{s:WeaponPowerIncreaseDuration} с</span> після удару по цілі."
@@ -2447,8 +2479,8 @@
 		"citadel_ability_infinity_slash/timer"	"Тіньова форма"
 
 		"citadel_ability_healing_slash"			"Багряний поріз"
-		"citadel_ability_healing_slash_quip"	"Завдає шкоди ворогам поблизу, лікуючись від влучання."
-		"citadel_ability_healing_slash_desc"	"Рубає ворогів перед собою, <span class=\"highlight\">завдаючи їм шкоди та сповільнюючи їхню стрільбу</span>. За влучання у ворожого героя ви <span class=\"highlight\">лікуєтеся</span>."
+		"citadel_ability_healing_slash_quip"	"Завдає шкоди ворогам поблизу та лікується від влучань."
+		"citadel_ability_healing_slash_desc"	"Рубає ворогів перед собою, <span class=\"highlight\">завдаючи їм шкоди та сповільнюючи їхню стрільбу</span>. <span class=\"highlight\">Лікується</span>, якщо влучає у ворожого героя."
 		"citadel_ability_healing_slash/debuff"	"Багряний поріз"
 		"HealMaxHealth_label"					"лікуванню за влучання в героя"
 		"HealMaxHealth_postfix"					"% макс. здоров’я"
@@ -2522,12 +2554,12 @@
 		"PuddleDuration_postfix"						" с"
 
 		"viscous_restorative_goo"						"Куб"
-		"viscous_restorative_goo_desc"					"Поміщує ціль у куб цілющого слизу, що <span class=\"highlight\">захищає від шкоди та збільшує відновлення здоров’я</span>. Ціль у кубі <span class=\"highlight\">не може вчиняти жодних дій</span>. Можна застосувати на себе. Натисніть <span class=\"highlight\">[{s:in_mantle}]</span> для раннього звільнення."
-		"viscous_restorative_goo_quip"					"Куб — безпечне місце"
+		"viscous_restorative_goo_desc"					"Поміщає ціль у куб цілющого слизу, що <span class=\"highlight\">захищає від шкоди та збільшує відновлення здоров’я</span>. Ціль у кубі <span class=\"highlight\">не може вчиняти жодних дій</span>. Можна застосувати на себе. Натисніть <span class=\"highlight\">[{s:in_mantle}]</span>, щоби вийти з нього раніше."
+		"viscous_restorative_goo_quip"					"Куб — безпечне місце."
 		"viscous_restorative_goo_t1_desc"				"Збільшує швидкість руху та поновлення витривалості."
-		"viscous_restorative_goo_t2_desc"				"<span class=\"highlight\">Усуває всі негативні ефекти</span> та <span class=\"highlight\">{s:AbilityCooldown} с</span> зарядки вмінь."
+		"viscous_restorative_goo_t3_desc"				"<span class=\"highlight\">Усуває всі ослаблення</span> та скорочує зарядку вмінь до <span class=\"highlight\">{s:AbilityCooldown} с</span>."
 		"viscous_restorative_goo_buff_desc"				"Після виходу з куба ціль на короткий час отримує збільшену <span class=\"highlight\">швидкість руху та поновлення витривалості</span>."
-		"PostCubeBuffDuration_label"					"часу ефекту"
+		"PostCubeBuffDuration_label"					"часу посилення"
 		"PostCubeBuffDuration_postfix"					" с"
 		"modifier_restorative_goo"						"Куб"
 		//"viscous_restorative_goo/modifier_restorative_goo/breakoutProgress"		"Breaking out"
@@ -2537,7 +2569,7 @@
 		//"viscous_goo_puddle_t3_desc"					"[Not Yet Implemented]"
 
 		"viscous_goo_bowling_ball"						"Сфера слизу"
-		"viscous_goo_bowling_ball_desc"					"Перетворюється на велику сферу слизу, що <span class=\"highlight\">завдає шкоди</span> та <span class=\"highlight\">приголомшення</span> ворогам, у яких влучає. Сфера дає великий обсяг <span class=\"highlight\">опору кулям</span> та <span class=\"highlight\">духовного опору</span>, відскакує від стін і може робити <span class=\"highlight\">подвійний стрибок</span>."
+		"viscous_goo_bowling_ball_desc"					"Перетворюється на велику сферу слизу, що <span class=\"highlight\">завдає шкоди</span> ворогам, у яких влучає, та <span class=\"highlight\">приголомшує</span> їх. Сфера дає великий обсяг <span class=\"highlight\">опору кулям</span> та <span class=\"highlight\">духовного опору</span>, відскакує від стін і може робити <span class=\"highlight\">подвійний стрибок</span>."
 		"viscous_goo_bowling_ball_quip"					"Всюди катається і зчиняє хаос."
 		"viscous_goo_bowling_ball_t3_desc"				"Під час котіння може застосовувати вміння та предмети."
 
@@ -2605,7 +2637,7 @@
 		//"StackDamage_label"					"Stack Damage"
 				//"citadel_ability_spade_sleeve_toss"		"Sleeve toss"
 		//"citadel_ability_spade_sleeve_toss_desc" "Spade pulls dove from her sleeve and throws it into the air. It will follow Spade's crosshair until detonation."
-		"EffectDuration_label"					"часу негативів"
+		"EffectDuration_label"					"часу ослаблення"
 		"EffectDuration_postfix"					" с"
 		//"Projectiles_label"					" Projectiles"
 
@@ -2718,6 +2750,77 @@
 
 		//"modifier_charged_bomb"	"Charged Bomb"
 
+		
+		//-----------------------------------------------------------------------------
+		// Hero Viper
+		//-----------------------------------------------------------------------------
+		"ability_viper_hookdagger" "Гак-клинок"
+		"ability_viper_hookdagger_desc" "Кидає клинок, завдаючи <span class=\"highlight_spirit\">духовної шкоди</span>. Після кидка клинок повертається, знову завдаючи <span class=\"highlight_spirit\">духовної шкоди</span> та <span class=\"highlight\">сповільнюючи</span> ціль."
+		"ability_viper_hookdagger_t3_desc"	"Кидає ще <span class=\"highlight\">2 клинки</span>"
+		"ability_viper_hookdagger_quip" "Кидає клинок, що повертається назад."
+
+		"ability_viper_snakedash_desc" "Має збільшену відстань ковзання, може ковзати вгору схилом і швидше повертатися під час ковзання."
+		"ability_viper_snakedash_t3_desc"	"<span class=\"highlight\">+{s:SlideBulletEvasion}% ухиленню від куль</span> під час ковзання."
+		"ability_viper_snakedash_quip" "Збільшує спритність ковзання."
+
+		"OutgoingDamage_label" "початковій шкоді"
+		"ReturnDamage_label" "шкоді гака"
+		"OutgoingProjectileLifetime_label" "затримці гака"
+		"OutgoingProjectileLifetime_postfix" " с"
+
+		"ability_viper_venom" "Смертельна отрута"
+		"ability_viper_venom_desc" "Вприскує в ціль смертельну отруту, що починає діяти після затримки й завдає <span class=\"highlight_spirit\">духовної шкоди</span>. Завдає додаткової шкоди за відсутній відсоток здоров’я цілі.<br><br><span class=\"diminish\">Повторне накладання отрути оновлює тривалість ефекту.</span>"
+		"VenomMinDamage_label"			"мін. шкоді від отрути"
+		"VenomMaxDamage_label"			"макс. шкоді від отрути"
+		"VenomDuration_label"			"часу накопичення отрути"
+		"VenomDuration_postfix"		" с"
+		"VenomMaxDamageHealthPercentage_label"		"здоров‘ю для макс. шкоди"
+		"VenomMaxDamageHealthPercentage_postfix"	"%"
+		"ability_viper_venom_t3_desc"	"+<span class=\"highlight\">{s:VenomMissingHealthDamagePercentage}% шкоді за відсутнє здоров’я</span>."
+		"VenomMissingHealthDamagePercentage_label"		"шкоді за відсутнє здоров’я"
+		"VenomMissingHealthDamagePercentage_postfix"	"%"
+		"ability_viper_venom_quip" "Уприскує ворогам смертельну отруту."
+
+		
+		"ability_viper_ult" "Скам’яніння"
+		"ability_viper_ult_desc" "Утворює зачакловану зону на землі. Після затримки ВСІ істоти всередині зони у формі циліндра <span id=\"TestID\"/></span><span class=\"highlight\">перетворюються на камінь</span>, а вороги також зазнають <span class=\"highlight_spirit\">духовної шкоди</span>.<br><br><span class=\"diminish\">Скам’янілі істоти блокують усю шкоду, але не можуть вчиняти жодних дій.<br>Скам’янілі істоти вириваються на волю після того, як заблокують достатній обсяг шкоди.</span>"
+		"PetrifyDuration_label"			"часу скам’яніння"
+		"PetrifyDuration_postfix"		" с"
+		"PetrifyDamageBreakThreshold_label"	"макс. блокуванню шкоди"
+		"ability_viper_ult/viper_ult_petrify" "Під дією скам’яніння"
+		"ability_viper_ult_quip" "Перетворює союзників і ворогів на камінь."
+		"HalfHeight_postfix"	" м"
+"ability_magician_magicbolt_desc" "Випускає магічний снаряд, що завдає <span class=\"highlight_spirit\">духовної шкоди</span> й накладає <span class=\"highlight\">зникаюче сповільнення</span>. <br><br>Натискання <span class=\"highlight\">[{s:in_ability1}]</span> <span class=\"highlight\">переспрямовує</span> снаряд у точку прицілу."
+		"ProjectileRedirectCount_label" "макс. переспрямувань"
+		"ability_magician_magicbolt_t3_desc" "+{s:ProjectileRedirectCount} до макс. кількості переспрямувань і +{s:Damage} шкоді."
+		"ability_magician_magicbolt_quip" "Запускає керований магічний снаряд."
+
+		"citadel_ability_magewalkk_desc" "На героя тимчасово <span class=\"highlight\">не можна націлитися</span> до його появи в місці призначення. <span class=\"highlight\">Перші атаки ({s:EmpoweredAttackCount})</span> завдають додаткової <span class=\"highlight_spirit\">духовної шкоди</span>. <br><br><span class=\"highlight\">Застосування:</span> з’являється в цільовому місці.<br><span class=\"highlight\">Альтернативне застосування:</span> з’являється на місці.</span><br><span class=\"diminish\">Ворогам не буде відомий тип застосування.</span>"
+		"MageTime_label" "часу ненацілюваності"
+		"MageTime_postfix" " с"
+		"ability_magician_cloneturret" "Спектральний помічник"
+		"ability_magician_cloneturret_t3_desc" "Помічник також імітує надокучливий снаряд."
+		"ability_magician_cloneturret_quip" "Прикликає відданого помічника."
+
+		"ability_magician_animalcurse_desc" "Зачакловує ціль, перетворюючи її на <span class=\"highlight\">кролика</span>. Після перетворення розмір цілі зменшується, вона починає рухатися швидше, але також отримує посилену шкоду й не може вчиняти більшість дій.<br><span class=\"highlight\">Застосування:</span> зачакловує цільового героя.<br><span class=\"highlight\">Альтернативне застосування:</span> зачакловує себе.<br><span class=\"diminish\">Не перериває використання вмінь.</span>"
+		"ability_magician_animalcurse/animalhex_curse_modifier" "Перетворено!"
+		"ability_magician_animalcurse_t3_desc" "<span class=\"highlight\">Перетворює</span> ворогів поблизу на <span class=\"highlight\">половину часу дії</span>."
+		"DamageAmpPercentage_label" "посиленню шкоди"
+		"DamageAmpPercentage_postfix" "%"
+		"ability_magician_animalcurse_quip" "Перетворює ворога на кролика."
+		
+
+		"ability_magician_stage_desc" "Цілиться на ворога. Герой і цільовий ворог зв’язуються на сцені й не можуть її полишити. Усі інші істоти виштовхуються за межу радіусу дії."
+
+		"ability_magician_shadowclone" "Великий гомункул"
+		"ability_magician_shadowclone_desc" "Створює <span class=\"highlight\">копію</span> себе зі зменшеним здоров’ям і шкодою. Коли клон помирає чи спливає час його життя, він вибухає, завдаючи духовної шкоди.<br><br><span class=\"diminish\">Копія не може застосовувати ультимативне вміння.</span>"
+		"CloneHealthPercentage_label" "здоров’ю копії"
+		"CloneHealthPercentage_postfix" "%"
+		"CloneDamagePercentage_label" "шкоді копії"
+		"CloneDamagePercentage_postfix" "%"
+		"CloneLifetime_label" "часу копії"
+		"CloneLifetime_postfix" " с" 
+		"ability_magician_shadowclone_t3_desc"	"Копія може застосовувати <span class=\"highlight\">ультимативне вміння</span>."
 
 		//-----------------------------------------------------------------------------
 		// END HERO ABILITIES
@@ -2728,14 +2831,59 @@
 		//"citadel_weapon_combo_melee"				"Melee Combo"
 	
 		"citadel_weapon_hero_yamato_set"			"Сестрин плач"
+		"citadel_weapon_hero_inferno_set"			"Запальні зауваження"
+		"citadel_weapon_hero_gigawatt_set"			"Холодний розрахунок"
+		"citadel_weapon_hero_hornet_set"			"Помста скромниці"
+		"citadel_weapon_hero_orion_set"				"І прийде жалоба"
+		"citadel_weapon_hero_ghost_set"				"Дарунок Йохана"
+		
+		"citadel_weapon_hero_atlas_set"				"Закрита справа"
 		"citadel_weapon_hero_atlas_set_desc"		"Перезаряджає один снаряд за раз. Можна перервати."
 		
+		"citadel_weapon_hero_wraith_set"			"Комісія"
+
+		"citadel_weapon_hero_forge_set"				"Надані послуги"
 		"citadel_weapon_hero_forge_set_desc"		"Швидкострільність збільшується після розкручування."
 		
+		"citadel_weapon_hero_bebop_set"				"Доза смирення"
 		"citadel_weapon_hero_bebop_set_desc"		"Випускає постійний промінь без часу польоту кулі."
 
+		"citadel_weapon_hero_nano_set"				"Найсолодша брехня"
+		"citadel_weapon_hero_dynamo_set"			"Воннеґан"
+		"citadel_weapon_hero_kelvin_set"			"Кінець експедиції"
+		"citadel_weapon_hero_viscous_set"			"Глибоководний перекладач"
+		"citadel_weapon_hero_haze_set"				"Осуд і каяття"
+		"citadel_weapon_hero_astro_set"				"Окульт .45"
+		"citadel_weapon_hero_chrono_set"			"Комерційна таємниця"
+		"citadel_weapon_hero_shiv_set"				"Невдалий номер"		
+		"citadel_weapon_hero_krill_set"				"Жовта канарка"
+		"citadel_weapon_hero_lash_set"				"Історія про стрічку"
+		"citadel_weapon_hero_warden_set"			"Ціна свободи"
 		"citadel_weapon_hero_mirage_set"			"Дотримані обітниці"
-// Melee names
+		"citadel_weapon_hero_synth_set"				"Чорна вівця"
+		//"citadel_weapon_hero_duo_set"				"Duo Gun"
+		//"citadel_weapon_hero_heavy_set"				"Heavy Gun"
+		//"citadel_weapon_hero_akimbo_set"			"Akimbo Gun"
+		//"citadel_weapon_hero_gunslinger_set"		"Gunslinger Gun"
+		//"citadel_weapon_hero_yakuza_set"			"Yakuza Boss Gun"
+		//"citadel_weapon_hero_phalanx_set"			"Phalanx Gun"
+		//"citadel_weapon_hero_kali_set"				"Kali Gun"
+		//"citadel_weapon_hero_revenant_set"			"Revenant Gun"
+		//"citadel_weapon_hero_demoman_set"			"Demoman Gun"
+		//"citadel_weapon_hero_hijack_set"			"Hijack Gun"
+		//"citadel_weapon_hero_mechaguy_set"			"Mechaguy Gun"
+		//"citadel_weapon_hero_zealot_set"			"Zealotry Gun"
+		//"citadel_weapon_hero_ballista_set"			"Ballista Gun"
+		//"citadel_weapon_hero_apocalypse_set"		"Apocalypse Gun"
+		//"citadel_weapon_hero_clawdril_set"			"Clawdril Gun"
+		//"citadel_weapon_hero_coldmetal_set"			"Cold Metal Gun"
+		//"citadel_weapon_hero_spade_set"				"Spade Dice Launcher"
+		//"citadel_weapon_hero_rutger_set"			"Rutger Gun"
+		//"citadel_weapon_hero_tokamak_set"			"Curie-ous Times"
+		//"citadel_weapon_hero_tempest_set"			"Tempest Gun"
+		"citadel_weapon_hero_wrecker_set"			"Рука м’ясника"
+
+		// Melee names
 		"ability_melee_ghost"	"Ближній бій"
 		"citadel_ability_melee_bull"			"Ближній бій"
 		"citadel_ability_melee_gigawatt"		"Ближній бій"
@@ -2773,7 +2921,7 @@
 		"ability_melee_wrecker"					"Ближній бій"
 
 		"hero_astro_role"				"Відскакує після здійснення сміливих ударів"
-		"hero_atlas_role"				"Безстрашно кидається в ближній бій"
+		"hero_atlas_role"				"Кидається в ближній бій"
 		//"hero_ballista_role"			"Shields up to drop the bomb"
 		"hero_bebop_role"				"Чіпляє ворога гаком і добиває комбінацією"
 		"hero_wrecker_role"				"Збирає брухт для створення зброї"
@@ -2788,7 +2936,7 @@
 		"hero_inferno_role"				"Підпалює ворогів і дивиться, як ті горять"
 		"hero_kelvin_role"				"Сповільнює ворогів морозом"
 		"hero_lash_role"				"Стрибає вниз і топче ворогів"
-		"hero_krill_role"				"Прокопується під ворогами"
+		"hero_krill_role"				"Прокопуються під ворогами"
 		"hero_nano_role"				"Сіє безлад звіддаля"
 		"hero_orion_role"				"Влучно стріляє здалеку"
 		"hero_shiv_role"				"Викликає у ворогів кровотечу, а потім добиває їх"
@@ -2798,7 +2946,10 @@
 		"hero_yamato_role"				"Майстерно завдає накопичені удари"
 		"hero_tengu_role"				"Створює потужний дует із союзником"
 		"hero_mirage_role"				"Планує постріли й ловить утікачів."
+		"hero_slork_role"				"Вступає до бою, а потім ховається для відновлення"
 		"hero_synth_role"				"Проникає в тил ворога і чинить там безлад"
+		"hero_viper_role"				"Прослизає до ворогів і вбиває їх"
+		"hero_magician_role"			"Заплутує й перетворює ворогів"
 
         //"hero_akimbo_playstyle"         "Akimbo excels at close range combat, where he relies on speed, cone attacks, and a whole lot of bullets to hit as many targets as possible." 
         "hero_astro_playstyle"          "Голідей покладається передусім на свої стрілецькі навички, відстрілюючи те, що підкинула в повітря. Добре прицілившись, вона може завдати суттєвої шкоди. Її навички руху дозволяють ізолювати ворогів або швидко відступати."
@@ -2806,34 +2957,34 @@
         //"hero_ballista_playstyle"       "You know what people hate?  Being knocked back by a shotgun.  You know what they hate even more?  Being knocked back into a mine field.  Do you know what they hate even more than that?  Being atomized by a fusion bomb.  Ballista turns the battlefield into an explosive Rube Goldberg device."
         "hero_bebop_playstyle"          "Може сполучати свої вміння найрізноманітнішими способами — для порушення ворожих позицій, порятунку товариша чи завдавання потужної шкоди. Коли ж ситуація не потребує тонкощів, його велетенський лазер вирішує більшість проблем."
 		"hero_wrecker_playstyle"		"Любитель збирати різний мотлох, Руйнівник може розбирати на запчастини вояк, нищити ворогів своїм руйнівним брухтом та захоплювати ворогів у стазисну пастку."
-        "hero_chrono_playstyle"         "Маніпуляції з часом дозволяють героїні випереджати ворога в бою віч-на-віч. Вона спритно переносить суперника в часопросторі, підставляючи його під імпульсну гранату, стіну або ж натовп товаришів по команді."
+        "hero_chrono_playstyle"         "Маніпуляції з часом дозволяють героїні випереджати ворога в бою віч-на-віч. Вона вчасно переносить суперника в часопросторі, підставляючи його під пульсову гранату, в стіну або ж у натовп товаришів по команді."
         "hero_dynamo_playstyle"         "Підтримує своє й союзницьке здоров’я, очікуючи на слушну нагоду. Мало що може перевернути командний бій так, як добре скоординована сингулярність."
         "hero_forge_playstyle"			"Точне розміщення — найважливіше для героїні: і не важливо, чи вона створює зону ураження, чи роз’єднує ворожу команду. З нею ворогу буде важко витіснити команду із зайнятих позицій."
         "hero_ghost_playstyle"          "Витрачати своє здоров’я, щоби завдати руйнівних наслідків — ось джерело сили героїні. Коли в неї залишається мало здоров’я, вона може висмоктувати життя зі своїх ворогів."
-        "hero_gigawatt_playstyle"       "Чудово почувається біля сутички, очікуючи на час для головного удару, а потім залітає в бій мов буря та б’є ворогів численними блискавками."
+        "hero_gigawatt_playstyle"       "Обожнює сутички й вичікує, коли б завдати головного удару, а потім залітає в бій мов буря та б’є ворогів численними блискавками."
         "hero_haze_playstyle"           "Коли зосереджується на цілі, то може без проблем вистояти в сутичці. Вона намагається домінувати в перестрілці, уникаючи отримання шкоди, а потім по черзі поливає свинцем ворогів поблизу, які ні про що не здогадуються."
         "hero_hornet_playstyle"         "Достатньо мобільна, щоби йти на контакт лише за власним бажанням. Вона вистежує здобич, повільно знекровлюючи її. Поранені вороги мають боятися за свої життя, коли вона на мапі."
-        "hero_inferno_playstyle"        "Інфернус володіє багатьма способами завдавати періодичної шкоди, підпалюючи ворогів, перш ніж їх добити. Завдяки його стрімкій швидкості вороги не зможуть утекти від полум’я."
+        "hero_inferno_playstyle"        "Інфернус може багатьма способами завдавати шкоди, що діє поступово, підпалюючи ворогів, перш ніж їх добити. Завдяки його стрімкій швидкості вороги не зможуть утекти від полум’я."
         //"hero_kali_playstyle"           "Kali is positively lethal with his boomerang, however if he misses catching the blade on it's return path his effectiveness reduces dramatically."
-        "hero_kelvin_playstyle"         "Своєчасне лікування та вигідне розділення командного бою визначає різницю між легкою перемогою та руйнівною поразкою. Ковзання навколо сповільнених ворогів дозволяє команді героя здобути суттєву маневрову перевагу на свою користь."
+        "hero_kelvin_playstyle"         "Своєчасне лікування та вигідне розділення командного бою визначає різницю між легкою перемогою та руйнівною поразкою. Ковзання навколо сповільнених ворогів дозволяє команді Кельвіна здобути суттєву маневрову перевагу на свою користь."
         "hero_lash_playstyle"           "Не дає ворогам і дихнути спокійно — залітає здалеку, ініціюючи бій із ворогами, які цього зовсім не очікували, а потім переслідує їх, коли ті намагаються втекти."
         "hero_krill_playstyle"			"Зариваються під землю, отримуючи перевагу майже над будь-ким. А коли підбираються ближче, то наслідки для ворогів можуть стати катастрофічними."
-        //"hero_nano_playstyle"           "(in flux) Like any good politician, Nano turns people against each other and lets them do her dirty work before swooping in and claiming credit for everything."
-        "hero_orion_playstyle"    		"Хитрий мов хижак, він користає з комбінації смертоносної влучності, пасток і розумного позиціювання, щоби ліквідувати й найміцніших суперників."
+        "hero_orion_playstyle"    		"Хитрий мов хижак, він використовує комбінацію смертоносної влучності, пасток і розумного позиціювання, щоби ліквідувати найміцніших суперників."
         "hero_shiv_playstyle"           "Не зацікавлений у чесній грі, тож покладається на тактику «бий і тікай», щоби максимально ослабити ворогів перед тим, як спробувати їх убити."
         //"hero_tempest_playstyle"        "Much like how a child has no idea how a TV works, no one knows exactly HOW Tempest kills you.  Was it a tesla coil?  You didn't see a tesla coil.  Either way, you're dead and Tempest is laughing."
         "hero_viscous_playstyle"        "Докучає суперникам кмітливим ухилянням та стратегічним застосуванням лікування, що дозволяє йому витримувати найжорстокіші атаки ворогів."
-        "hero_warden_playstyle"         "Наступає з передньої лінії, застрибуючи в бій і заважаючи опонентам ефективно битися. Однак те, що він має за сміливість, інші мають за необачність, і, як наслідок, йому не завадить стерегтися, щоби не втрапити в халепу."
+        "hero_warden_playstyle"         "Наступає з передньої лінії, застрибуючи в бій і заважаючи опонентам ефективно битися. Однак те, що він вважає сміливістю, інші вважають необачністю, і, якщо він не буде обережним, може легко втрапити в халепу."
         "hero_wraith_playstyle"         "Їй немає рівних у бою віч-на-віч. Вона ізолює цілі, безжально знищує їх, а потім телепортується подалі ще до того, як ворог встигне помститися."
-        "hero_yamato_playstyle"         "Застосовує точні удари, щоби нищити суперників. Однак ці потужні атаки роблять її вразливою, тож їй слід обдумувати кожен постріл."
+        "hero_yamato_playstyle"         "Застосовує точні удари, щоби нищити суперників. Однак ці потужні атаки роблять її вразливою, тож їй слід обдумувати кожен свій удар."
         //"hero_spade_playstyle"          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 		//"hero_tokamak_playstyle"	"Shooting Tokamak's weapon builds heat which bleeds off whenever the gun isn't shooting. High heat levels can be used to increase the power of some abilities."
 		//"hero_rutger_playstyle"		"Rocket Launcher gives him some rocket-jumping capabilities, Force Field allows him to close off movement options, Cheat Death lets him turn bad fights around, and a Pulse released in the middle of a teamfight can dictate the outcome."
 		"hero_synth_playstyle"		"Має потужний дробовик і тендітну статуру. Вміє ненадовго ховатися в містичну валізу, а також телепортуватися за допомогою летючого плаща, що дозволяє виживати в ближньому бою."
-		"hero_mirage_playstyle"		"Міраж може оточити себе сильним торнадо, щоби наздогнати ворогів і здійняти їх у повітря. Його скарабеї допомагають протистояти численним ворогам і він завжди готовий допомогти союзнику або покарати ворога в будь-якому місці мапи."
-		//"hero_slork_playstyle"		"Slork's weapon poisons all it hits. Primary fire hits all in a cone, and aimed fire shoots a dart which crits when hitting a poisoned target."
+		"hero_mirage_playstyle"		"Міраж може оточити себе сильним торнадо, щоби наздогнати ворогів і здійняти їх у повітря. Його скарабеї допомагають вистояти в сутичці з численними ворогами, і він завжди готовий допомогти союзнику чи покарати ворога в будь-якому місці мапи."
+		"hero_slork_playstyle"		"Убивця з невеликої відстані, Фатом легко вступає в бій і виходить із нього, що дає перевагу в тривалих сутичках."
 		"hero_tengu_playstyle"		"Уміє порушувати ворожі порядки хитрощами зі сповільненням та приголомшенням. Вона найефективніша у зв’язці з союзником, бо це посилює зброю та лікування обох."
-
+		"hero_viper_playstyle"		"Потужна зброя і смертельна отрута дозволяють Гадюці прослизати за спини ворогів і вбивати високопріоритетні цілі шквалом куль."
+		"hero_magician_playstyle"	"За допомогою неохочого помічника заплутує ворогів прокльонами-перетвореннями та швидкими картами."
 	
 		//"hero_akimbo_lore"				"Though he was built by a lonely gunslinger, Akimbo was taught that he couldn't use a gun to solve all his problems.  This frustrated the robot outlaw immensely, but as time passed Akimbo realized that his human father was right.  A gun only solved about 75% of his problems.  To solve ALL his problems, he would need at least 2 guns." 
 		"hero_astro_lore"				"Є люди, які все життя мріють перебратися жити в Нью-Йорк. Голідей до них не належить. Цілком задоволена посадою шерифа в маленькому містечку, Голідей насолоджувалася роботою, де єдиним її випадком із застосуванням зброї були показові стрільби на ярмарку… Але потім почалися вбивства.\n\nЖахливі й нелюдські. Тіла знаходили розпатраними, з вирваною грудиною… Всюди розкидані нутрощі, ніби їх жерли птахи. Голідей відстежила вбивцю, мандрівного народного музиканта, якого преса прозвала «Трубадуром». Та коли вона зійшлася з ним, він вибухнув, перетворившись на зграю воронів, і відлетів.\n\nЦе сталося 6 місяців тому. І хоч убивства в центральній частині штату Іллінойс припинилися, Голідей не стала зупиняти свого розслідування. Вона переконана, що Трубадур вирушив до Нью-Йорка, і коли вона його знайде, то вб’є цього сучого сина."
@@ -2841,28 +2992,26 @@
 		"hero_bebop_lore"				"Виготовлений руками вдови, що працювала на сортуванні металобрухту, Бібоп був для неї не просто ґолемом-чорноробом із брухту… він заміняв їй сина, якого вона ніколи не мала. Вони разом працювали на розбірці металу вдень і слухали джаз увечері. Це був передбачуваний і загалом приємний розпорядок. Однак нині пані Шеллі захворіла. І хоч вона не схвалила б, що Бібоп робить уночі для оплати її ліків, — їй не може нашкодити те, про що вона не знає."
 		"hero_wrecker_lore"				"Коли Вихор уперше вразив Нью-Йорк, він не лише розпочав нову містичну добу світу… він також змінив геополітику. Найняті ЦРУ провидці, що виявляли загрози впродовж минулих десятиліть, тепер посилилися й влаштовують окультні угоди в задимлених таємних кімнатах. Незліченним війнам і насильству, що могло б змінити історію, вдалося запобігти. Та це не значить, що війни немає… просто війна змінилася.\n\nНа перший план виступили паранормальні воєнні компанії. Ці групи використовують комбінацію потойбічних істот і різноманітної кривавої магії та знаходять способи обійти обмеження, встановлені національними сторожовими оракулами, що дозволяє їм діяти в ролі проксі-сил для тих країн, які хочуть розпочати війну.\n\nРуйнівник — один із таких солдатів.\n\nВін був найнятий «Надприродними тактичними рішеннями», підрозділом «Фейрфакс Індастріс», і є елітним солдатом удачі, що має репутацію виконавця брудної роботи, за яку інші ПВК не беруться."
 		"hero_chrono_lore"				"Парадокс. Часовий артефакт і назва гільдії злодіїв із лихою славою… Гільдії, що пишається плануванням найскладніших грабежів, ціллю яких є найбільш недосяжні індивіди й інституції. Що Парадокс робить із незліченними артефактами, державними таємницями й тестами на батьківство знаменитостей, які викрадає? Виставляє їх на показ на тимчасових виставках, аби весь світ бачив, що ніхто не сховається від Парадокса.\n\nКожен учасник Парадокса огорнутий таємницею, носить маску й бере собі ім’я організації. Вони повсюди. Вони ніде. Коли вони щось хочуть, від них не сховатися."
-		"hero_dynamo_lore"				"Як науковець, професор Динамо завжди мав допитливий розум. Тож коли в центральному парку відкрився розрив у часопросторі, він перший з’явився там для досліджень. І хоч професор передбачав, що така могутня подія може змінити життя, він думав про це радше метафорично й не очікував, що його тіло атомізується та зменшиться до форми маленької помираючої зорі.\n\nТіло він утратив, але дух і жага до знань лишилися з ним. Довічний викладач Колумбійського університету Динамо прагне більше з’ясувати про власний стан і зберегти інтерес до знань у своїх студентів. Зрештою, йому треба надихати й майбутні покоління вчених."
+		"hero_dynamo_lore"				"Як науковець, професор Динамо завжди мав допитливий розум. Тож коли в Центральному парку відкрився розрив у часопросторі, він перший з’явився там для досліджень. І хоч професор передбачав, що така могутня подія може змінити життя, він думав про це радше метафорично й не очікував, що його тіло атомізується та зменшиться до форми маленької помираючої зорі.\n\nТіло він утратив, але дух і жага до знань лишилися з ним. Довічний викладач Колумбійського коледжу, Динамо прагне більше з’ясувати про власний стан і зберегти інтерес до знань у своїх студентів. Зрештою, йому треба надихати й майбутні покоління вчених."
 		"hero_forge_lore"				"Меґі Мак-Ґінніс завжди мала хист до створення різних штукенцій. У 4 роки вона будувала шедеври архітектури з дитячих «Лінкольнівських брусків». У 10 створила й налаштувала освітлювальний прилад на ювілей своїх батьків. У 15 розробила машину, яка очищувала душі померлих… І ця машина привернула трохи більше уваги за творіння з дитячого конструктора.\n\nТепер Мак-Ґінніс очолює військовий дослідницький підрозділ у «Фейрфакс Індастріс», але більшу частину свого часу вона проводить у механічному цеху, а не в лабораторії. Теорія її не цікавить, для неї наука — це магія, до якої можна доторкнутися."
 		"hero_ghost_lore"				"Колись леді Жанна Ґейст була місцевою знаменитістю. Та проходили роки, її краса згасала, а славетні часи у світському товаристві відходили в минуле, допоки, зрештою, вона не стала лиш немічною жіночкою в будинку для літніх, де розповідала історії зі своїх «золотих днів». Отоді і з’явився Хранитель Присяги. Цей могутній дух з іншого виміру запропонував їй спосіб повернути свою колишню славу… Він міг відновити її юність. Усе, що їй потрібно було робити — витягувати життєві сили з інших, щоби підтримувати власні.\n\nҐейст розривалася. Безперечно, вбивство — мерзенна справа, та й сам Хранитель Присяги не надто заслуговував на довіру… Однак думка про те, що в неї буде шанс знову прожити свою молодість, була надто заманлива, щоби не пристати на таку пропозицію… Тож леді Ґейст вигадала план: після угоди з Хранителем вона його осліпила та скувала, і так обмежила вплив на себе. Вона годувала його, але вже на власних умовах.\n\nУтім, роки переходили в десятиліття, сила пут слабла, а голод Хранителя Присяги ставав сильнішим, ніж будь-коли раніше… "
-		"hero_gigawatt_lore"			"Коли на Землі прокинулася містична енергія, світ змінився… Все стало можливим. Та хоч тепер усе БУЛО можливим, це не означало, що все МАЛО БУТИ можливим. Тож уряд запровадив нові правила. Закони. Які дозволяли громадянам США насолоджуватися перевагами надприродного світу в безпеці. Однак правила й закони — це для маленьких людей. Для обмежених людей. Не для Сьомого.\n\nХодить багато різних чуток про те, що зробив Сьомий, аби опинитися в «Утраченому шепоті» — підземній в’язниці для найнебезпечніших окультистів. Та немає сумнівів у тому, що сталося в ніч його страти.\n\nОхорона, встановлена наймогутнішими ритуалістами семи різних націй… охорона, призначена не лише запобігати містичному втручанню в страту, а й одночасно стерти душу Сьомого так, щоби його послідовники не могли вийти з нею на контакт, воскресити чи ще якось використати… ця охорона не впоралася.\n\nСвідки з жахом дивилися, як голова наймогутнішого менталіста, найнятого головнокомандувачем армії США, хряснула мов диня. Вони закричали, коли головний окультний розслідувач Скотленд-Ярду, що нібито впіймав Сьомого, розсипався на попіл. Тіло Сьомого вигиналося й корчилося в оковах, його шкіра горіла від надприродного струму… але він не помер. Він засміявся.\n\nВін сміявся, коли вивільняв себе з пут.\n\nСміявся, коли його наглядачі зіщулилися від страху.\n\nСміявся, коли вбивав своїх мучителів.\n\nСміявся, коли зміг дихнути свіжим повітрям, до якого не мав доступу впродовж років.\n\nІ сміявся, розмірковуючи про те, що зробить, як повернеться в Нью-Йорк."
+		"hero_gigawatt_lore"			"Коли на Землі прокинулася містична енергія, світ змінився… Все стало можливим. Та хоч тепер усе БУЛО можливим, це не означало, що все МАЛО БУТИ можливим. Тож уряд запровадив нові правила. Закони. Вони дозволяли громадянам США насолоджуватися перевагами надприродного світу в безпеці. Однак правила й закони — це для маленьких людей. Для обмежених людей. Не для Сьомого.\n\nХодить багато різних чуток про те, що зробив Сьомий, аби опинитися в «Утраченому шепоті» — підземній в’язниці для найнебезпечніших окультистів. Та немає сумнівів у тому, що сталося в ніч його страти.\n\nОхорона, встановлена наймогутнішими ритуалістами семи різних націй… охорона, призначена не лише запобігати містичному втручанню в страту, а й одночасно стерти душу Сьомого так, щоби його послідовники не могли вийти з нею на контакт, воскресити чи ще якось використати… ця охорона не впоралася.\n\nСвідки з жахом дивилися, як голова наймогутнішого менталіста, найнятого головнокомандувачем армії США, хряснула мов диня. Вони закричали, коли головний окультний розслідувач Скотленд-Ярду, що нібито впіймав Сьомого, розсипався на попіл. Тіло Сьомого вигиналося й корчилося в оковах, його шкіра горіла від надприродного струму… але він не помер. Він засміявся.\n\nВін сміявся, коли вивільняв себе з пут.\n\nСміявся, коли його наглядачі зіщулилися від страху.\n\nСміявся, коли вбивав своїх мучителів.\n\nСміявся, коли зміг дихнути свіжим повітрям, до якого не мав доступу впродовж років.\n\nІ сміявся, розмірковуючи про те, що зробить, як дістанеться до Нью-Йорка."
 		"hero_haze_lore"				"Комісія з безпеки та розслідування окультизму — таємна урядова організація, у порівнянні з якою навіть ЦРУ вигладає прозорою інституцією. Завданням чоловіків, жінок та підопічних КБРО є захист країни від згубних сил, з якими не можуть впоратися місцеві правоохоронні органи.\n\nІмла входить до славнозвісного підрозділу «Дрімота» й часто отримує завдання проникнути в сни підозрюваних, щоб оцінити їхній рівень небезпеки, і, якщо потрібно… приспати їх."
-		"hero_hornet_lore"				"Жертва Джона Гаторна під час процесу над салемськими відьмами. Вона здобула другий шанс на життя, коли її дух повернувся до виміру смертних під час першого Вихору — події, після якої надприродне стало буденністю.\n\nВона веде війну привидів проти «Друзів людства», неоінквізиції, створеної нащадками Гаторна, і прагне захистити надприродне від його ворогів, а для цього готова нагромадити стільки трупів, скільки знадобиться."
-		"hero_inferno_lore"				"Як і більшість підлітків, Інфернус був диким, бунтівним та імпульсивним. На відміну від більшості підлітків, Інфернус був істотою з іншого виміру й мав надприродну владу над вогнем. Що тут сказати: його юність була сповнена чималою кількістю підпалів, убивств і приховування доказів. Та це було колись. Подорослішавши, Інфернус став спокійнішим. Йому подобалося працювати в барі з гарною живою музикою та спілкуватися з цікавими людьми. Коли ж хтось у барі поводився агресивно чи намагався почати бійку, Інфернус не боявся пригадати вміння, які колись відточив."
-		"hero_kelvin_lore"				"Кельвін — відомий науковець-мандрівник, котрий присвятив своє життя дослідженню та спробам зрозуміти незбагненне. Природно, коли з’явилися чутки про восьму астральну браму в Арктиці, Кельвін не барився зі зборами експедиційної команди. Він згуртував найкращі мізки свого покоління й вони вирушили на експедицію з великими почестями.\n\nІ не повернулися.\n\nЧерез півтора роки заморожене тіло Кельвіна знайшов риболовецький траулер. Його труп стискав камінь із сяючими рунами. Рибалки відкололи кригу, щоби глянути на тіло ближче й були шоковані, коли Кельвін розплющив очі. Вони перевірили його життєві показники… пульсу не було. Хотіли перев’язати його відкриті рани… там не було крові. Однак, хоч це й неможливо, Кельвін був «живий».\n\nОскільки Кельвін не пам’ятає нічого про події в експедиції, він шукає відповіді."
-		"hero_lash_lore"				"Яків Батіг — ще той вар’ят."
+		"hero_hornet_lore"				"Жертва Джона Гаторна під час процесу над салемськими відьмами, вона здобула другий шанс на життя, коли її дух повернувся до виміру смертних під час першого Вихору — події, після якої надприродне стало буденністю.\n\nВона веде потаємну війну проти «Друзів людства» — неоінквізиції, створеної нащадками Гаторна, і прагне захистити від неї надприродне, а для цього готова нагромадити стільки трупів, скільки знадобиться."
+		"hero_inferno_lore"				"Як і більшість підлітків, Інфернус був диким, бунтівним та імпульсивним. На відміну від більшості підлітків, Інфернус був істотою з іншого виміру й мав надприродну владу над вогнем. Що тут сказати: його юність була сповнена чималою кількістю підпалів, убивств і знищення доказів. Та це було колись. Подорослішавши, Інфернус став спокійнішим. Тепер йому подобається працювати в барі з гарною живою музикою та спілкуватися з цікавими людьми. Однак коли хтось у барі поводиться агресивно чи намагається почати бійку, Інфернус не боїться пригадати вміння, які колись відточив."
+		"hero_kelvin_lore"				"Кельвін — відомий науковець-мандрівник, котрий присвятив своє життя дослідженню та спробам зрозуміти незбагненне. Природно, коли з’явилися чутки про восьму астральну браму в Арктиці, Кельвін не барився зі зборами експедиційної команди. Він згуртував найкращі мізки свого покоління й вони вирушили на експедицію з великими почестями.\n\nІ не повернулися.\n\nЧерез півтора роки заморожене тіло Кельвіна знайшов риболовецький траулер. Його труп стискав камінь із сяючими рунами. Рибалки відкололи кригу, щоби глянути на тіло ближче, й були шоковані, коли Кельвін розплющив очі. Вони перевірили ознаки життя… пульсу не було. Хотіли перев’язати його відкриті рани… там не було крові. Однак, хоч це й неможливо, Кельвін був «живий».\n\nОскільки Кельвін не пам’ятає нічого про події в експедиції, він шукає відповіді."
+		"hero_lash_lore"				"Яків Батіг — той ще покидьок."
 		"hero_krill_lore"				"Мо та Кріл — учасники «Тунельних пацюків», групи, що допомагає налагоджувати незаконну торгівлю й інші оборудки між різними районами Нью-Йорка за допомогою мережі підземних тунелів. Хоча більшість підземних мешканців поважають роботу «пацюків», деякі банди іноді пробують скористатися тунельною системою задля особистої помсти… Тоді з’являються Мо та Кріл і нагадують місту, що трапляється з тими, хто не поважає їхню гостинність."
 		"hero_nano_lore"				"Вона заслужила сумнівне звання «найнебезпечнішої жінки на планеті» від журналу «Тайм». Таємничий торговець окультною зброєю, що готова співпрацювати з усіма сторонами конфлікту, якщо ціна її влаштує.\n\nХоча її критики (і друзі) цілком правильно вважають її аморальною, вона все ж має деякі принципи… На яких би холодних розрахунках ці принципи не ґрунтувалися."
 		"hero_orion_lore"				"Один із засновників «Бакстерського товариства», Веслі Сивий Кіготь витратив понад 40 років, полюючи на чудовиськ, які полювали на людей. Зрештою, він знайшов собі заміну й відклав свій лук убік. Обов’язки не давали йому проводити багато часу з дружиною й дитиною, а тепер, коли в його сина вже власна сім’я, Сивий Кіготь зрозумів, що це його останній шанс відновити зв’язок із рідними.\n\nВихід на пенсію задовольняв Веслі. Він повертав утрачений час дружині. Бавився з онуками. Щосереди готував обід для всієї родини. Він був щасливим.\n\nА потім отримав дзвінок.\n\nМісцева влада запевняла, що то був дивний нещасний випадок… що вогонь поглинув дім його сина раніше, ніж хто-небудь міг би вибратися звідти. Та Веслі знав, що це не так. Дружиною сина була іксіанка… а вони відчувають вогонь навіть подумки. Якщо їхні тіла знайдено спаленими, значить, вони були мертвими задовго до того, як почало горіти.\n\nТож Сивий Кіготь знову підняв свій лук. І коли він з’ясує, хто за цим стоїть, почнеться кривава розплата."
-		"hero_shiv_lore"				"Вірний член «Бакстерського товариства», міжнародного ордену мисливців на чудовиськ, він подорожує Північною Америкою в пошуку істот, які полюють на живих.\n\nХоча його не надто вишуканий характер і кримінальне минуле турбують традиційніших учасників товариства, але ніхто не ставить під сумнів його ефективність."
-		"hero_viscous_lore"				"Бермудський трикутник ніколи не був міфом — це тіньовий вузол у глибинах Атлантичного океану. У більшості випадків істоти, що втікають через цю астральну браму, миролюбні (як-от Нессі), та наразі щось темне й хижацьке на ймення Немезида полює цими водами… тож океан перелякано до смерті.\n\nОдин із підводних мешканців, парапсихічний морський анемон, хоче щось із цим зробити. Прикликавши тілесну форму з ектоплазмового слизу для виходу на поверхню, В’язкий відчайдушно намагається викликати покровителів для захисту Глибини від жаху, який причаївся на дні океану."
-		"hero_warden_lore"				"Більшість людей гадають, що надприродне прийшло в наш світ 50 років тому. Вони помиляються. Присутність надприродного була в фольклорі впродовж багатьох поколінь… І весь час, коли одні боялися тіней, інші присвячували свої життя боротьбі з тінями.\n\nГерой походить із роду бойових алхіміків, і його сім’я завжди готувалася до дня, коли доведеться захищатися від містичного апокаліпсису… Та з плином часу важливість цих уроків ставала все меншою й меншою. Те, що спершу було суворим попередженням, згодом перетворилося на розважальні анекдоти від марновірних дідусів і бабусь.\n\nКоли відкрився портал у Центральному парку, батьки героя зрозуміли не тільки те, що все почуте ними було правдою. Вони збагнули, що не готові. Не бажаючи, аби наступні покоління знову все проспали, вони від народження навчали сина так, щоби той став машиною для винищення надприродного, яка має єдину ціль: не дати потойбічним покровителям потрапити в наш світ."
+		"hero_shiv_lore"				"Вірний член «Бакстерського товариства», міжнародного ордену мисливців на чудовиськ, він подорожує Північною Америкою в пошуку істот, які полюють на живих.\n\nХоча його не надто вишуканий характер і кримінальне минуле турбують традиційніших учасників товариства, ніхто не ставить під сумнів його ефективність."
+		"hero_viscous_lore"				"Бермудський трикутник ніколи не був міфом — це тіньовий вузол у глибинах Атлантичного океану. У більшості випадків істоти, що втікають через цю астральну браму, миролюбні (як-от Нессі), та наразі щось темне й хижацьке на ймення Немезида полює цими водами… тож океан перелякано до смерті.\n\nОдин із підводних мешканців, парапсихічний морський анемон, хоче щось із цим зробити. Прикликавши тілесну форму з ектоплазматичного слизу для виходу на поверхню, В’язкий відчайдушно намагається викликати покровителя для захисту Глибини від жаху, який причаївся на дні океану."
+		"hero_warden_lore"				"Більшість людей гадають, що надприродне прийшло в наш світ 50 років тому. Вони помиляються. Присутність надприродного була в фольклорі впродовж багатьох поколінь… І весь час, коли одні боялися тіней, інші присвячували свої життя боротьбі в тінях.\n\nПостовий походить із роду бойових алхіміків, і його сім’я завжди готувалася до дня, коли доведеться захищатися від містичного апокаліпсису… Та з плином часу важливість цих уроків ставала все меншою й меншою. Те, що спершу було суворим попередженням, згодом перетворилося на розважальні анекдоти від марновірних дідусів і бабусь.\n\nКоли відкрився портал у Центральному парку, батьки Постового зрозуміли не тільки те, що все почуте ними було правдою. Вони збагнули, що не готові. Не бажаючи, аби наступні покоління знову все проспали, вони від народження навчали сина так, щоби той став машиною для винищення надприродного, яка має єдину ціль: не дати потойбічним покровителям потрапити в наш світ."
 		"hero_wraith_lore"				"Організація героїні — у центрі азартного світу Нью-Йорку й настільки відома всім таємниця, наскільки це взагалі можливо. Однак завдяки нетривіальній кількості хабарів, шахрайств і шантажу вона знає, що перебуває вище закону."
 		"hero_yamato_lore"				"犯罪組織のボスの家に生まれた花桜梨とその兄の\n大和にとって、父の死後に「セブンスムーン」の跡目を\n継ぐのは自明のことでもあった。 そして何年もの間、\nかれらは対等の立場で組織を率いて利益と成功を\nもたらし、やがてはアメリカへの進出をも目論むように\nなった。\n\n思い描いていた計画は単純で、 大和がアメリカに渡って\n花桜梨の国際的な存在感を高め、その間花桜梨は日本に\n残って国内を統制する、といったものだった。 兄妹に\nとって不運だったのは、花桜梨が日本で指揮をとると\nいう計画を快く思わない部下たちがいたことだった。\n\nそして迅速かつ暴力的な形で、反乱は発生した。\n大和は花桜梨を守るために命を落とし、花桜梨と数人の\n忠実な部下たちは、その大和の犠牲のおかげもあって、\n日本からアメリカへと逃げ延びることに成功した。\n\nアメリカに着いた花桜梨たちを出迎えたのは、\n本来であれば大和が会う予定となっていた男であった。\n彼は日本人の名前になじみがなかったため性別の\n区別がついておらず、花桜梨のことを「ヤマト」と\n呼んだ。花桜梨は男の間違いを正そうと思ったが、\n結局そのままにした。兄の記憶を残し続けるためにも、\nその名を名乗り、その夢を受け継ぐことが最善の\n道であろうと考えたからだ。"   
 		"hero_tengu_lore"				"Ґарґулья не знала, що сталося, коли вона ожила… Пам’ятає лише велику людину й маленьку людину, яким було боляче. Ґарґулья кинулася вперед, а нападники, сповнені жаху, почали втікати. Маленька людина подякувала й запитала, як ґарґулью звати. Але в ґарґульї не було імені. І тоді маленька людина сказала: «Я зватиму тебе Плющ». Ґарґульї, яка тоді була вкрита плющем, це здалося надто очевидним, але вона вирішила взяти це ім’я заради маленької людини.\n\nЛюди запросили ґарґулью до свого додому, щоби віддячити їй, і вона пішла. Тієї ночі ґарґулья дізналася багато всього. Це була сім’я Арройо. Маленьку людину звали Софія. Тарілку зі смаколиками вони називали мофонґо. Та, найважливіше, вона довідалася, хто напав на цих людей — це був Синдикат Мендози, погані люди, які завдавали болю іншим людям… хорошим людям, як Арройо.\n\nМинуло 18 років, відколи Арройо забрали ґарґулью додому… І весь цей час вона присвятила знищенню Синдикату Мендози та звільненню від нього Іспанського Гарлему. Та коли майже два десятиліття свого життя присвячуєш одній меті, то потім не знаєш, що робити далі. Уперше в своєму житті ґарґулья готується вирушити за межі Іспанського Гарлему й подивитися, що ще може запропонувати цей світ, окрім відновлення справедливості."
-		"hero_synth_lore"				"Ерін Фейрфакс, що має право успадкувати «Фейрфакс Індастріс», переховується останні 5 років після спроби свого вбивства під час святкування вісімнадцятиліття. Ерін не знає, хто прагне завадити контролю над батьківською компанією… Та знає, яким жадібним гадючим гніздом є «Фейрфакс Індастріс», і що це може бути кожен.\n\nПрибравши ім’я «Кишеня», Ерін відчайдушно намагається тримати свою справжню особистість у таємниці… І не лише задля власної безпеки, а й тому, що хоче цілковито відокремити себе від батьків."
+		"hero_synth_lore"				"Ерін Фейрфакс, що має право успадкувати «Фейрфакс Індастріс», переховується останні 5 років після спроби свого вбивства під час святкування вісімнадцятиліття. Ерін не знає, хто прагне взяти під контроль батьківську компанію… Та знає, яким жадібним гадючим гніздом є «Фейрфакс Індастріс», тому це може бути будь-хто зі співробітників компанії.\n\nУзявши собі ім’я «Кишеня», Ерін відчайдушно намагається тримати свою справжню особистість у таємниці… І не лише задля власної безпеки, а й тому, що хоче цілковито відокремити себе від батьків."
 		"hero_mirage_lore"				"Джини — одна з найдопитливіших народностей у сучасному світі. Вони володіють неймовірною силою, але в контрольованих дозах, і не можуть підтримувати тілесну форму за межами посудини більше ніж 48 хвилин. Через це джини зазвичай наймають людей-охоронців, що їх перевозять, захищають і просто складають їм товариство.\n\nМіраж — один із таких охоронців. Його найняв посол джинів Нашала Діон, і Міраж перебуває в Нью-Йорку з дипломатичною місією. Джини сподіваються, що він проведе переговори з урядом США про купівлю частини штату Вайомінг, де джини могли б створити власну суверенну націю."
-
-
-
-	}
+		"hero_viper_lore"				"Коли йдеться про порушення закону, важливо вміти не потрапити до рук сил правопорядку. Гадюка ніколи про це не думала. На щастя для неї, краще за потрапляння під арешт вона вміє тільки втікати з в’язниці.\n\nПобувавши у всіх великих тюрмах у районі трьох штатів, Гадюка створила вражаючу мережу різних покидьків, які їй завинили, і не менш вражаючу мережу покидьків, які бажають їй смерті. Утім, вона намагається фокусуватися на позитивному."
+		}
 }

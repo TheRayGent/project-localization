@@ -135,7 +135,7 @@
 		"upgrade_tech_damage_pulse_desc"	"สร้าง<span class=\"highlight\">ความ​เสียหาย​วิญญาณ​</span>เป็นระยะ​แก่ศัตรู​ที่อยู่​ใกล้​ที่สุด 2 ตัว"
 
 		//Mystic Burst
-		"upgrade_magic_burst_desc"	"สกิลจะสร้าง<span class=\"highlight\">ความ​เสียหาย​วิญญาณ</span>เพิ่มเติมหากสร้างความเสียหาย {s:MinimumDamage} หน่วยหรือมากกว่าในครั้งเดียว"
+		"upgrade_magic_burst_desc"	"สกิลจะสร้าง<span class=\"highlight\">ความ​เสียหาย​วิญญาณ</span>เพิ่มเติมหากสร้างความเสียหาย {s:MinimumDamage} หน่วย​หรือมากกว่าในครั้งเดียว"
 		"MagicBurstDamage_label"		"ความเสียหายเพิ่มเติม"
 
 		//Improved Burst
@@ -144,7 +144,7 @@
 		"MagicShockDamage_postfix"	"%"
 
 		//Mystic Reverb
-		"upgrade_tech_bleed_desc" "ผสานสกิลเพื่อทำให้รัศมีรอบเป้าหมาย<span class=\"highlight\">ช้าลง</span> และสร้าง<span class=\"highlight\">ความเสียหายเพิ่มเติมเป็นเปอร์เซ็นต์ของ​ความเสียหาย​ที่สร้าง</span>ต่อศัตรูรอบเป้าหมายหลังจากดีเลย์สั้น ๆ"
+		"upgrade_tech_bleed_desc" "ผสานสกิลเพื่อ<span class=\"highlight\">ลดความเร็ว</span>เป้าหมายที่โดน และสร้าง<span class=\"highlight\">ความเสียหายเพิ่มเติมเป็นเปอร์เซ็นต์ของ​ความเสียหาย​ที่สร้าง</span>แก่ศัตรูรอบเป้าหมายหลังจาก​ดีเลย์สั้น ๆ"
 		//"upgrade_tech_bleed/modifier_tech_bleed_proc/modifier_tech_bleed"			"Spirit Echo"	
 
 		//Toxic Bullets
@@ -274,7 +274,7 @@
 
 		//Siphon Bullets
 		//"upgrade_siphon_bullets_desc_passive1"	"When in <span class=\"highlight\">close range</span> of your target, deal additional <span class=\"highlight\">Weapon Damage</span>."
-		"upgrade_siphon_bullets_desc_passive2"	"กระสุนของคุณ<span class=\"highlight\">ขโมยพลังชีวิตสูงสุด</span>จากศัตรูชั่วคราว เมื่อดีบัฟหมดเวลาศัตรูจะได้รับพลังชีวิตที่ถูกขโมยคืน คุณจะขโมยพลังชีวิตหนึ่งการซ้อนทับอย่างถาวร​หากเป้าหมาย​ที่ถูกดูด​พลังชีวิต​ตาย และ​คุณจะสูญเสีย​ {s:StackLostPerDeath} การซ้อนทับ​หากคุณตาย"
+		"upgrade_siphon_bullets_desc_passive2"	"กระสุนของคุณ<span class=\"highlight\">ขโมยพลังชีวิตสูงสุด</span>จากศัตรูชั่วคราว เมื่อดีบัฟหมดเวลาศัตรูจะได้รับพลังชีวิตที่ถูกขโมยคืน คุณจะขโมยพลังชีวิต {s:StealPerKill} การซ้อนทับอย่างถาวร​หากเป้าหมาย​ที่ถูกดูด​พลังชีวิต​ตาย และ​คุณจะสูญเสีย​ {s:StackLostPerDeath} การซ้อนทับ​หากคุณตาย"
 		"modifier_siphon_bullets_health_gain"		"Siphon Bullets"
 		"modifier_siphon_bullets_health_loss"		"Siphon Bullets"
 		"HealthSteal_label"						"ขโมย​พลังชีวิต​สูงสุด​ต่อกระสุน​"
@@ -363,7 +363,7 @@
 		"BulletResistDuration_postfix"			"วิ"
 
 		//Lucky Shot
-		"upgrade_critshot_desc"				"กระสุนของคุณมีโอกาสที่จะได้รับการเสริมพลัง ทำให้กระสุนสร้าง<span class=\"highlight\">ความเสียหายเพิ่มเติม</span>พร้อมทั้ง<span class=\"highlight\">ลดความเร็ว​การเคลื่อนที่</span>ของเป้าหมายเมื่อยิงโดน"
+		"upgrade_critshot_desc"				"กระสุนของคุณมีโอกาสที่จะได้รับการเสริมพลัง ทำให้กระสุนสร้าง<span class=\"highlight\">ความเสียหายเพิ่มเติม</span>พร้อมทั้ง​<span class=\"highlight\">ลดความเร็ว​​การเคลื่อนที่​</span>ของเป้าหมายเมื่อยิงโดน"
 		"CritDamagePercent_label"				"ความเสียหายเพิ่มเติม"
 		"CritDamagePercent_postfix"			"%"
 
@@ -443,7 +443,7 @@
 		"CooldownReductionOnChargedAbilities_prefix" "+"
 
 		//Alchemical Fire
-		"upgrade_thermal_detonator_desc"		"ขว้างขวดแก้วที่จะระเบิดเมื่อปะทะ กลายเป็นอาณาบริเวณที่สร้าง<span class=\"highlight\">ความ​เสียหาย​วิญญาณต่อวินาที</span>​เพิ่มขึ้นเรื่อย ๆ และทำให้ศัตรูได้รับ<span class=\"highlight\">ความเสียหายอาวุธ</span>เพิ่มเติมจากทีมของคุณ<br><br>สร้างความเสียหายต่อวินาทีน้อยลง {s:NonHeroReductionPercent}% แก่เป้าหมายที่ไม่ใช่ฮีโร่"
+		"upgrade_thermal_detonator_desc"		"ขว้างขวดแก้วที่จะระเบิดเมื่อปะทะ กลายเป็นอาณาบริเวณที่สร้าง<span class=\"highlight\">ความ​เสียหาย​วิญญาณต่อวินาที</span>​เพิ่มขึ้นเรื่อย ๆ และทำให้ศัตรูได้รับ<span class=\"highlight\">ความเสียหายอาวุธ</span>​เพิ่มเติม​จากทีมของคุณ​<br><br>สร้างความเสียหายต่อวินาทีน้อยลง {s:NonHeroReductionPercent}% แก่เป้าหมายที่ไม่ใช่ฮีโร่"
 		"BonusBaseWeaponDamageTaken_prefix"		"+"
 		"BonusBaseWeaponDamageTaken_label"		"ความเสียหายอาวุธ"
 		"BonusBaseWeaponDamageTaken_postfix"	"%"
@@ -488,13 +488,13 @@
 		"SpiritPower_prefix"					"+"
 
 		//Ethereal Shift
-		"upgrade_self_bubble_desc"			"คุณเข้าสู่สภาวะว่างเปล่า <span class=\"highlight\">ไม่สามารถถูกเลือกเป็นเป้าหมายการโจมตีได้​และกลายเป็นอมตะ</span>เป็นช่วงระยะเวลาสั้น ๆ ในระหว่างนั้นคุณจะไม่สามารถเคลื่อนที่หรือกระทำการใด ๆ ได้ หลังจากนั้นคุณจะได้รับการ<span class=\"highlight\">เติมกระสุนทันที</span>​พร้อมทั้งได้รับ​<span class=\"highlight\">พลังวิญญาณ​</span>เพิ่มเติม"
+		"upgrade_self_bubble_desc"			"คุณเข้าสู่สภาวะว่างเปล่า <span class=\"highlight\">ไม่สามารถถูกเลือกเป็นเป้าหมายการโจมตีได้​และกลายเป็นอมตะ</span>เป็นช่วงระยะเวลาสั้น ๆ ในระหว่างนั้นคุณจะไม่สามารถเคลื่อนที่หรือกระทำการใด ๆ ได้ หลังจากนั้นคุณจะได้รับ​<span class=\"highlight\">ความเร็ว​การ​เคลื่อนที่และต้านทาน​วิญญาณ​</span>เพิ่มเติม"
 		"ShiftingVeilDuration_label"			"ระยะเวลา"
 		"ShiftingVeilDuration_postfix"		"วิ"
 		"BonusSpiritDuration_label"			"ระยะเวลาเพิ่มวิญญาณ"
 		"BonusSpiritDuration_postfix"			"วิ"
 		"modifier_shifting_veil_buff"			"Ethereal Shift"
-		"shifting_veil_bonus_spirit"			"เพิ่มพลังวิญญาณ"
+		"shifting_veil_bonus"			"ความเร็วและต้านทาน​วิญญาณ​"
 		"modifier_citadel_bubble"				"Ethereal Shift"
 
 		//Stasis Bomb
@@ -507,7 +507,7 @@
 		//"upgrade_quarantine_desc"			"Quarantine an enemy Hero, making them <span class=\"highlight\">invincible</span> but also <span class=\"highlight\">silencing and disarming</span> them."
 		
 		//Rescue Beam
-		"upgrade_rescue_beam_desc"		"<span class=\"highlight\">รักษา</span>ฮีโร่เพื่อนร่วมทีมเป้าหมายและตัวคุณเองเป็น​เปอร์เซ็นต์​ของ​<span class=\"highlight\">พลังชีวิตสูงสุด</span> โดยระหว่างการรักษาคุณสามารถ<span class=\"highlight\">ดึง</span>เป้าหมายเข้าหาตัวคุณได้ 1 ครั้ง สามารถร่ายใส่ตนเองได้"
+		"upgrade_rescue_beam_desc"		"<span class=\"highlight\">รักษา</span>ฮีโร่เพื่อนร่วมทีมเป้าหมายและตัวคุณเองเป็น​เปอร์เซ็นต์​ของ​<span class=\"highlight\">พลังชีวิตสูงสุด</span> โดยระหว่างการรักษาคุณสามารถ<span class=\"highlight\">ดึง</span>เป้าหมายเข้าหา​ตัวคุณ​ได้ 1 ครั้ง สามารถร่ายใส่ตนเองได้"
 		//"SelfModifier_label"			"Self Modifier"
 		"SelfModifier_postfix"			"%"
 		"upgrade_rescue_beam_pull"		"ดึงเป้าหมาย"
@@ -533,10 +533,10 @@
 		//"upgrade_aoe_tech_shield/modifier_duration" "Spirit Barrier Pulse"
 		
 		//Cold Front
-		"upgrade_cold_front_desc"			"ปลดปล่อยพลังระเบิดน้ำแข็งออกไปซึ่งสร้าง<span class=\"highlight\">ความ​เสียหาย​วิญญาณ</span>และ<span class=\"highlight\">ลดความเร็ว​</span>เป้าหมายที่โดน"
+		"upgrade_cold_front_desc"			"ปลดปล่อยพลังระเบิดน้ำแข็งออกไปซึ่งสร้าง<span class=\"highlight\">ความ​เสียหาย​วิญญาณ</span>และ<span class=\"highlight\">ลดความเร็ว​</span>เป้าหมายที่โดน โดยจะสร้างความเสียหายแก่ยูนิตที่ไม่ใช่ฮีโร่ {s:NPCDamageMult} เท่า"
 		
 		//Knockdown
-		"upgrade_target_stun_desc"			"เป้าหมายจะถูก<span class=\"highlight\">กระแทก</span>ด้วยทั่งและ<span class=\"highlight\">ถูกสตัน</span>หลังจาก<span class=\"highlight\">ดีเลย์ {s:StunDelay}วิ</span> ซึ่งจะขัดจังหวะและหยุดทุกการกระทำของเป้าหมายชั่วคราว"
+		"upgrade_target_stun_desc"			"เป้าหมายจะถูก<span class=\"highlight\">กระแทก</span>ด้วยทั่งและ<span class=\"highlight\">ถูกสตัน​</span>หลังจาก​<span class=\"highlight\">ดีเลย์ {s:StunDelay}วิ</span> ซึ่งจะขัดจังหวะและหยุดทุกการกระทำของเป้าหมายชั่วคราว"
 		
 		//Vacuum Web
 		//"upgrade_aoe_root_active"		"Throw a <span class=\"highlight\">vacuum</span> grenade, pulling all enemies into a small area where they remain <span class=\"highlight\">tethered</span>."
@@ -615,7 +615,7 @@
 		//"ClarityBonusSpirit_label"				"Next Ability Bonus Spirit Power"
 
 		//Surge of Power
-		"upgrade_magic_storm_desc"				"ผสานสกิลด้วย<span class=\"highlight\">พลังวิญญาณถาวร</span> เมื่อใช้สกิลที่ผสานพลังจะเพิ่ม<span class=\"highlight\">ความเร็ว​การ​เคลื่อนที่</span>"
+		"upgrade_magic_storm_desc"				"ผสานสกิลด้วย<span class=\"highlight\">พลังวิญญาณถาวร</span> เมื่อใช้สกิลที่ผสานพลังจะเพิ่ม<span class=\"highlight\">ความเร็ว​การ​เคลื่อนที่</span> และยังรักษาความเร็วสูงสุดขณะโจมตี"
 		"modifier_upgrade_magic_storm"			"Surge of Power"
 
 		//Suppressor
@@ -655,16 +655,14 @@
 		//"upgrade_health_regen_1_desc"					"Increases <span class=\"highlight\">health regen</span>."
 
 		//Healing Rite
-		"upgrade_health_stimpak_desc"					"มอบ<span class=\"highlight\">อัตรา​ฟื้นฟู​พลังชีวิต</span>และ<span class=\"highlight\">ความเร็ว​การวิ่ง</span>แก่เป้าหมาย บัฟนี้จะถูกลบล้างหากคุณได้รับความเสียหายจากผู้เล่นฝ่ายศัตรู​หรือยูนิตที่เป็นจุดมุ่งหมายของเกม สามารถร่ายใส่ตนเองได้"
+		"upgrade_health_stimpak_desc"					"มอบ<span class=\"highlight\">อัตรา​ฟื้นฟู​พลังชีวิต</span>และ<span class=\"highlight\">ความเร็ว​การวิ่ง</span>แก่เป้าหมาย บัฟนี้จะถูกลบล้างหากคุณได้รับความเสียหาย​จากผู้เล่นฝ่ายศัตรู​​หรือยูนิตที่เป็นจุดมุ่งหมายของเกม สามารถร่ายใส่ตนเองได้"
 		"upgrade_health_stimpak/modifier_stimpak_regen"			"Healing Rite"
 		"modifier_stimpak_regen" "Healing Rite"
 		//Divine Barrier
 		"upgrade_savior_desc"				"เพิ่ม<span class=\"highlight\">โล่กันกระสุน โล่กันวิญญาณ และความเร็ว​การ​เคลื่อนที่</span>แก่เป้าหมาย สามารถร่ายใส่ตนเองได้"
 		"SaviorBulletShieldHealth_label"		"โล่กันกระสุน"
 		"SaviorMagicShieldHealth_label"		"โล่กันวิญญาณ"
-		"BuffDuration_label"					"ระยะเวลา"
-		"BuffDuration_postfix"				"วิ"
-
+	
 		//Restorative Locket
 		"upgrade_restorative_locket_passive_desc"		"เมื่อศัตรูใช้สกิลในระยะใกล้คุณ {s:Radius}ม คุณจะได้รับหนึ่ง<span class=\"highlight\">ชาร์จการฟื้นฟู</span>"
 		"upgrade_restorative_locket_active_desc"		"ใช้ชาร์จทั้งหมดเพื่อ<span class=\"highlight\">รักษาเพื่อนร่วมทีมเป้าหมาย</span>และ​เติมหนึ่ง<span class=\"highlight\">สแตมินา</span> สามารถร่ายใส่ตนเองได้"
@@ -916,7 +914,7 @@
 		//"modifier_citadel_active_disarm_spirit_steal"	"Drain Will"
 
 		//Reactive Barrier
-		"upgrade_vex_barrier_desc"		"สร้าง<span class=\"highlight\">โล่กันกระสุนและโล่กันวิญญาณ</span>แบบชั่วคราวโดยอัตโนมัติ​เมื่อคุณ<span class=\"highlight\">ถูกหยุดยั้งการเคลื่อนที่ ถูกสตัน ถูกล่าม ถูกตรึง หรือถูกทำให้หลับ</span>"
+		"upgrade_vex_barrier_desc"		"สร้าง<span class=\"highlight\">โล่กันกระสุนและโล่กันวิญญาณ</span>แบบชั่วคราว​โดยอัตโนมัติ​​เมื่อคุณ<span class=\"highlight\">ถูกหยุดยั้งการเคลื่อนที่ ถูกสตัน ถูกล่าม ถูกตรึง หรือถูกทำให้หลับ</span>"
 		"upgrade_vex_barrier_shield"	"Reactive Barrier"
 		"VexBarrierBulletMaxHealth_label"	"พลังชีวิตโล่กันกระสุน"
 		"VexBarrierTechMaxHealth_label"		"พลังชีวิตโล่กันวิญญาณ"
@@ -936,10 +934,10 @@
 		"HealOnlevelHealAmount_label"	"จำนวนการรักษา"
 		"upgrade_heal_on_level/heal_on_level_buff"			"รักษาเมื่อเพิ่มเลเวล"
 
+		//crow_mask_936_comment
+		//crow_mask_937_comment
 		//crow_mask_938_comment
 		//crow_mask_939_comment
 		//crow_mask_940_comment
-		//crow_mask_941_comment
-		//crow_mask_942_comment
 	}
 }

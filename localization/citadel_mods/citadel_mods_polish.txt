@@ -139,12 +139,12 @@
 		"MagicBurstDamage_label"		"Premia do obrażeń"
 
 		//Improved Burst
-		"upgrade_magic_shock_desc"	"Umiejętności zadają dodatkowe <span class=\"highlight\">obrażenia spirytualne</span>, jeśli zadadzą co najmniej {s:MinimumDamage} pkt. obrażeń jednym trafieniem.<br/>Cele są niewrażliwe na efekt Ulepszonego Uderzenia przez <span class=\"highlight\">{s:ReProcLockoutTime} s</span>po otrzymaniu obrażeń od niego."
+		"upgrade_magic_shock_desc"	"Umiejętności zadają dodatkowe <span class=\"highlight\">obrażenia spirytualne</span>, jeśli zadadzą co najmniej {s:MinimumDamage} pkt. obrażeń jednym trafieniem.<br/>Cele są niewrażliwe na efekt ulepszonego wybuchu przez <span class=\"highlight\">{s:ReProcLockoutTime} s</span> po otrzymaniu obrażeń od niego."
 		"MagicShockDamage_label"		"Dodatkowe obrażenia przeciwko maksymalnemu zdrowiu"
 		"MagicShockDamage_postfix"	"%"
 
 		//Mystic Reverb
-		"upgrade_tech_bleed_desc" "Nasyć umiejętność, by nakładać <span class=\"highlight\">spowolnienie</span> w promieniu wokół celu oraz zadawać <span class=\"highlight\">dodatkowy procent zadanych obrażeń</span> wrogom wokół celu po krótkim opóźnieniu."
+		"upgrade_tech_bleed_desc" "Nasyć umiejętność, by nakładać <span class=\"highlight\">spowolnienie</span> na trafiony cel oraz zadawać <span class=\"highlight\">dodatkowy procent zadanych obrażeń</span> wrogom wokół celu po krótkim opóźnieniu."
 		//"upgrade_tech_bleed/modifier_tech_bleed_proc/modifier_tech_bleed"			"Spirit Echo"	
 
 		//Toxic Bullets
@@ -274,7 +274,7 @@
 
 		//Siphon Bullets
 		//"upgrade_siphon_bullets_desc_passive1"	"When in <span class=\"highlight\">close range</span> of your target, deal additional <span class=\"highlight\">Weapon Damage</span>."
-		"upgrade_siphon_bullets_desc_passive2"	"Twoje naboje tymczasowo <span class=\"highlight\">kradną maksymalne zdrowie</span> wrogom. Wrogowie odzyskują skradzione zdrowie po wygaśnięciu osłabienia. Trwale kradniesz jedną instancję zdrowia, jeśli cel pod wpływem syfonu zginie. Utrata {s:StackLostPerDeath} instancji po śmierci."
+		"upgrade_siphon_bullets_desc_passive2"	"Twoje naboje tymczasowo <span class=\"highlight\">kradną maksymalne zdrowie</span> wrogom. Wrogowie odzyskują skradzione zdrowie po wygaśnięciu osłabienia. Trwale kradniesz {s:StealPerKill} instancje zdrowia, jeśli cel pod wpływem syfonu zginie. Utrata {s:StackLostPerDeath} instancji po śmierci."
 		"modifier_siphon_bullets_health_gain"		"Naboje Syfonowe"
 		"modifier_siphon_bullets_health_loss"		"Naboje Syfonowe"
 		"HealthSteal_label"						"Maksymalna kradzież zdrowia na nabój"
@@ -488,13 +488,13 @@
 		"SpiritPower_prefix"					"+"
 
 		//Ethereal Shift
-		"upgrade_self_bubble_desc"			"Przechodzisz w stan pustki i stajesz się <span class=\"highlight\">nieobieralny za cel i nietykalny</span> na krótki czas, w którym nie możesz się poruszać ani wykonywać żadnych działań. Następnie <span class=\"highlight\">natychmiastowo przeładowujesz swoją broń</span> oraz zyskujesz dodatkową <span class=\"highlight\">moc spirytualną</span>."
+		"upgrade_self_bubble_desc"			"Przechodzisz w stan pustki i stajesz się <span class=\"highlight\">nieobieralny za cel i nietykalny</span> na krótki czas, w którym nie możesz się poruszać ani wykonywać żadnych działań. Następnie zyskujesz <span class=\"highlight\">szybkość ruchu oraz odporność spirytualną</span>."
 		"ShiftingVeilDuration_label"			"Czas trwania"
 		"ShiftingVeilDuration_postfix"		" s"
 		"BonusSpiritDuration_label"			"Czas trwania dodatkowego spirytualizmu"
 		"BonusSpiritDuration_postfix"			" s"
 		"modifier_shifting_veil_buff"			"Eteryczne Przejście"
-		"shifting_veil_bonus_spirit"			"Dodatkowa moc spirytualna"
+		"shifting_veil_bonus"			"Szybkość oraz odporność spirytualna"
 		"modifier_citadel_bubble"				"Eteryczne Przejście"
 
 		//Stasis Bomb
@@ -533,7 +533,7 @@
 		//"upgrade_aoe_tech_shield/modifier_duration" "Spirit Barrier Pulse"
 		
 		//Cold Front
-		"upgrade_cold_front_desc"			"Wyzwól rozszerzający się lodowy wybuch, który zadaje <span class=\"highlight\">obrażenia spirytualne</span> i <span class=\"highlight\">spowalnia</span> cele, które trafi."
+		"upgrade_cold_front_desc"			"Wyzwól rozszerzający się lodowy wybuch, który zadaje <span class=\"highlight\">obrażenia spirytualne</span> oraz <span class=\"highlight\">spowalnia</span> cele, które trafi. Zadaje {s:NPCDamageMult}× więcej obrażeń celom innym niż bohaterowie."
 		
 		//Knockdown
 		"upgrade_target_stun_desc"			"Po <span class=\"highlight\">{s:StunDelay}-sekundowym opóźnieniu</span> cel zostaje <span class=\"highlight\">obalony</span> i <span class=\"highlight\">ogłuszony</span>, przerywając i uniemożliwiając mu podjęcie jakichkolwiek działań."
@@ -615,7 +615,7 @@
 		//"ClarityBonusSpirit_label"				"Next Ability Bonus Spirit Power"
 
 		//Surge of Power
-		"upgrade_magic_storm_desc"				"Nasyć umiejętność <span class=\"highlight\">trwałą mocą spirytualną</span>. Po użyciu tej umiejętności zyskujesz premię do <span class=\"highlight\">szybkości ruchu</span>."
+		"upgrade_magic_storm_desc"				"Nasyć umiejętność <span class=\"highlight\">trwałą mocą spirytualną</span>. Po użyciu tej umiejętności zyskujesz premię do <span class=\"highlight\">szybkości ruchu</span> i utrzymujesz pełną szybkość przy ataku."
 		"modifier_upgrade_magic_storm"			"Narastająca Moc"
 
 		//Suppressor
@@ -662,9 +662,7 @@
 		"upgrade_savior_desc"				"Przyznaj celowi <span class=\"highlight\">tarczę kuloodporną, tarczę spirytualną i premię do szybkości ruchu</span>. Można rzucić na siebie."
 		"SaviorBulletShieldHealth_label"		"Tarcza kuloodporna"
 		"SaviorMagicShieldHealth_label"		"Tarcza spirytualna"
-		"BuffDuration_label"					"Czas trwania"
-		"BuffDuration_postfix"				" s"
-
+	
 		//Restorative Locket
 		"upgrade_restorative_locket_passive_desc"		"Gdy wróg użyje umiejętności w zasięgu {s:Radius} m od ciebie, przechowujesz 1 <span class=\"highlight\">instancję odnowienia</span>."
 		"upgrade_restorative_locket_active_desc"		"Zużyj wszystkie instancje, by <span class=\"highlight\">uleczyć wskazanego sojusznika</span> i przywrócić mu <span class=\"highlight\">punkt wytrzymałości</span>. Można rzucić na siebie."
@@ -936,10 +934,10 @@
 		"HealOnlevelHealAmount_label"	"Wartość leczenia"
 		"upgrade_heal_on_level/heal_on_level_buff"			"Leczenie na poziom"
 
+		//crow_mask_936_comment
+		//crow_mask_937_comment
 		//crow_mask_938_comment
 		//crow_mask_939_comment
 		//crow_mask_940_comment
-		//crow_mask_941_comment
-		//crow_mask_942_comment
 	}
 }

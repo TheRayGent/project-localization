@@ -182,16 +182,18 @@
 		"Steam_Citadel_RP_FindingMatch"							"Partie wird gesucht"
 		
 		// These Match Mode ("MM_") tokens are for the %param0% below.
-		"Steam_Citadel_RP_MM_Unranked"							"Partie"
-		"Steam_Citadel_RP_MM_PrivateLobby"						"Private Partie"
-		"Steam_Citadel_RP_MM_CoopBot"							"Bot-Partie (Koop)"
-		"Steam_Citadel_RP_MM_Tutorial"							"Tutorial"
-		"Steam_Citadel_RP_MM_Sandbox"							"Demo-Modus"
+		"Steam_Citadel_RP_MM_Unranked"							"Deadlock:"
+		"Steam_Citadel_RP_MM_Ranked"							"Wettkampf:"
+		"Steam_Citadel_RP_MM_HeroLabs"							"Helden-Labor:"
+		"Steam_Citadel_RP_MM_PrivateLobby"						"Private Lobby:"
+		"Steam_Citadel_RP_MM_CoopBot"							"Bot-Partie:"
+		"Steam_Citadel_RP_MM_Tutorial"							"Tutorial:"
+		"Steam_Citadel_RP_MM_Sandbox"							"Demo-Modus:"
 		
 		"Steam_Citadel_InGame_Sandbox"		"Testet {%param2%} im Demo-Modus"
-		"Steam_Citadel_InGame_Hero"			"Spielt {%param1%} als {%param2%} (%param0%. Min.)"
-		"Steam_Citadel_InGame"				"Spielt {%param1%} (%param0%. Min.)"
-		"Steam_Citadel_Spectating"			"Schaut {%param1%} zu (%param0%. Min.)"
+		"Steam_Citadel_InGame_Hero"			"{%param1%} {%param2%} (%param0%. Min.)"
+		"Steam_Citadel_InGame"				"{%param1%} (%param0%. Min.)"
+		"Steam_Citadel_Spectating"			"Schaut einer Partie zu"
 		"Steam_Citadel_RP_Online"			"Online"
 
 		"Steam_RP_hero_vampire"			"Vampire"
@@ -323,6 +325,10 @@
 		"hero_targetdummy"		"Ziel-Dummy"
 		"hero_bomber"			"Bomber"
 		"hero_shieldguy"		"Shield Guy"
+		"hero_viper"			"Viper"
+		"hero_vandal"			"Vandal"
+		"hero_magician"			"Magician"
+
 		//-----------------------------------------------------------------------------
 		// Upgrades: Weapon
 		//-----------------------------------------------------------------------------

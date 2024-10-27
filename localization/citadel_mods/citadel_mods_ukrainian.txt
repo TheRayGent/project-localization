@@ -126,7 +126,7 @@
 		"WarpStoneRange_label"		"дальності телепортації"
 		"WarpStoneRange_postfix"		" м"
 		"modifier_warp_stone_caster"	"Камінь спотворення"
-		"CasterBuffDuration_label"	"часу ефекту"
+		"CasterBuffDuration_label"	"часу посилення"
 		"CasterBuffDuration_postfix"	" с"
 		//"CasterSlowPercent_label"		"Self Slow"
 		"CasterSlowPercent_postfix"	"%"
@@ -144,11 +144,11 @@
 		"MagicShockDamage_postfix"	"%"
 
 		//Mystic Reverb
-		"upgrade_tech_bleed_desc" "Насичує вміння, накладаючи <span class=\"highlight\">сповільнення</span> в радіусі навколо цілі й завдає <span class=\"highlight\">додатковий відсоток завданої шкоди</span> ворогам навколо цілі після невеликої затримки."
+		"upgrade_tech_bleed_desc" "Насичує вміння, накладаючи <span class=\"highlight\">сповільнення</span> на зачеплену ціль і завдає <span class=\"highlight\">додатковий відсоток завданої шкоди</span> ворогам навколо цілі після невеликої затримки."
 		//"upgrade_tech_bleed/modifier_tech_bleed_proc/modifier_tech_bleed"			"Spirit Echo"	
 
 		//Toxic Bullets
-		"upgrade_toxic_bullets_desc"	"Від куль у ворогів накопичується <span class=\"highlight\">кровотеча</span>, через що вони періодично втрачають <span class=\"highlight\">відсоток свого поточного здоров’я</span>. Також на цілі з кровотечею накладається <span class=\"highlight\">зменшення лікування</span>."
+		"upgrade_toxic_bullets_desc"	"Від куль у ворогів накопичується <span class=\"highlight\">кровотеча</span>, через що вони поступово втрачають <span class=\"highlight\">відсоток свого поточного здоров’я</span>. Також на цілі з кровотечею накладається <span class=\"highlight\">зменшення лікування</span>."
 		"upgrade_toxic_bullets_buildup"					"Накопичення токсину…"
 		"upgrade_bleeding_bullets_buildup"				"Накопичення ран від зубців…"
 		//"upgrade_hemorrhage_buildup"					"Eviscerator building..."
@@ -237,7 +237,7 @@
 		//"upgrade_frenzy/modifier_frenzy_aura/modifier_frenzy_kill"		"Killed Frenzy"
 
 		//Soul Shredder Bullets
-		"upgrade_tech_defense_shredders_desc"	"Кулі накладають негативний ефект, що посилює <span class=\"highlight\">духовну шкоду</span> й дає <span class=\"highlight\">духовний вампіризм</span> проти цілі."
+		"upgrade_tech_defense_shredders_desc"	"Кулі накладають ослаблення, що збільшує <span class=\"highlight\">духовну шкоду</span> по цілі й дає проти неї <span class=\"highlight\">духовний вампіризм</span>."
 		"ShreddersTechAmp_label"				"посиленню духу"
 		"ShreddersTechAmp_postfix"			"%"
 		"modifier_tech_defense_shredders_debuff"																"Душодробні кулі"
@@ -274,7 +274,7 @@
 
 		//Siphon Bullets
 		//"upgrade_siphon_bullets_desc_passive1"	"When in <span class=\"highlight\">close range</span> of your target, deal additional <span class=\"highlight\">Weapon Damage</span>."
-		"upgrade_siphon_bullets_desc_passive2"	"Кулі власника тимчасово <span class=\"highlight\">викрадають максимальне здоров’я</span> ворогів. Викрадене здоров’я повернеться до ворогів після завершення дії негативного ефекту. Назавжди викрадає один заряд здоров’я, якщо ціль під сифоном помирає. Власник втрачаєте заряди ({s:StackLostPerDeath}), якщо помирає."
+		"upgrade_siphon_bullets_desc_passive2"	"Кулі власника тимчасово <span class=\"highlight\">викрадають максимальне здоров’я</span> ворогів. Викрадене здоров’я повернеться до ворогів після завершення дії ослаблення. Назавжди викрадає заряди ({s:StealPerKill}) здоров’я, якщо ціль під сифоном помирає. Власник втрачаєте заряди ({s:StackLostPerDeath}), якщо помирає."
 		"modifier_siphon_bullets_health_gain"		"Сифонні кулі"
 		"modifier_siphon_bullets_health_loss"		"Сифонні кулі"
 		"HealthSteal_label"						"викраденню макс. ОЗ за кулю"
@@ -369,7 +369,7 @@
 
 		//Veil Walker
 		"upgrade_veil_walker_desc"			"Прохід крізь <span class=\"highlight\">космічну вуаль</span> дасть <span class=\"highlight\">непомітність</span>, збільшить <span class=\"highlight\">швидкість руху</span> й поновить усі <span class=\"highlight\">духовні й кульові щити</span>."
-		"VeilWalker_MoveSpeed_label"			"швидкості руху в невидимості"
+		"VeilWalker_MoveSpeed_label"			"руху в невидимості"
 		"VeilWalker_MoveSpeed_postfix"		" м/с"
 
 
@@ -488,13 +488,13 @@
 		"SpiritPower_prefix"					"+"
 
 		//Ethereal Shift
-		"upgrade_self_bubble_desc"			"Ви входите у стан порожнечі й на вас <span class=\"highlight\">не можна націлитися чи подолати</span> вас упродовж короткого проміжку часу, коли ви також не можете рухатися чи вчиняти будь-які дії. Опісля ви <span class=\"highlight\">миттєво перезаряджаєтеся</span> та здобуваєте додаткову <span class=\"highlight\">духовну силу</span>."
+		"upgrade_self_bubble_desc"			"Власник входить у стан порожнечі й <span class=\"highlight\">на нього не можна націлитися чи вразити його</span> впродовж короткого проміжку часу, коли він також не може рухатися чи вчиняти будь-які дії. Опісля власник здобуває додаткову <span class=\"highlight\">швидкість руху та духовний опір</span>."
 		"ShiftingVeilDuration_label"			"часу дії"
 		"ShiftingVeilDuration_postfix"		" с"
 		"BonusSpiritDuration_label"			"додачі часу духу"
 		"BonusSpiritDuration_postfix"			" с"
 		"modifier_shifting_veil_buff"			"Ефірне зміщення"
-		"shifting_veil_bonus_spirit"			"Додача духовної сили"
+		"shifting_veil_bonus"			"швидкості й духовному опору"
 		"modifier_citadel_bubble"				"Ефірне зміщення"
 
 		//Stasis Bomb
@@ -533,7 +533,7 @@
 		//"upgrade_aoe_tech_shield/modifier_duration" "Spirit Barrier Pulse"
 		
 		//Cold Front
-		"upgrade_cold_front_desc"			"Випускає крижаний вибух, що завдає <span class=\"highlight\">духовної шкоди</span> та <span class=\"highlight\">сповільнює</span> цілі, в які влучає."
+		"upgrade_cold_front_desc"			"Випускає крижаний вибух, що завдає <span class=\"highlight\">духовної шкоди</span> та <span class=\"highlight\">сповільнює</span> цілі, в які влучає. Завдає ×{s:NPCDamageMult} шкоди негероям."
 		
 		//Knockdown
 		"upgrade_target_stun_desc"			"Ціль <span class=\"highlight\">збивається з ніг</span> і <span class=\"highlight\">приголомшується</span> через <span class=\"highlight\">{s:StunDelay} с затримки</span>, що перериває її дії й тимчасово не дозволяє нічого робити."
@@ -615,7 +615,7 @@
 		//"ClarityBonusSpirit_label"				"Next Ability Bonus Spirit Power"
 
 		//Surge of Power
-		"upgrade_magic_storm_desc"				"Насичує вміння <span class=\"highlight\">постійною духовною силою</span>. Коли це вміння використовується, воно дає додаткову <span class=\"highlight\">швидкість руху</span>."
+		"upgrade_magic_storm_desc"				"Насичує вміння <span class=\"highlight\">постійною духовною силою</span>. Коли це вміння використовується, воно дає додаткову <span class=\"highlight\">швидкість руху</span> й підтримує повну швидкість під час атак."
 		"modifier_upgrade_magic_storm"			"Приплив сили"
 
 		//Suppressor
@@ -662,9 +662,7 @@
 		"upgrade_savior_desc"				"Дає цілі <span class=\"highlight\">щит від куль, духовний щит і швидкість руху</span>. Можна застосувати на себе."
 		"SaviorBulletShieldHealth_label"		"щиту від куль"
 		"SaviorMagicShieldHealth_label"		"духовному щиту"
-		"BuffDuration_label"					"часу дії"
-		"BuffDuration_postfix"				" с"
-
+	
 		//Restorative Locket
 		"upgrade_restorative_locket_passive_desc"		"Коли ворог використовує вміння на відстані до {s:Radius} м від власника, зберігає один <span class=\"highlight\">заряд поновлення</span>."
 		"upgrade_restorative_locket_active_desc"		"Споживає всі заряди, щоби <span class=\"highlight\">вилікувати цільового союзника</span> й поновити йому <span class=\"highlight\">очко витривалості</span>. Можна застосувати на себе."
@@ -722,7 +720,7 @@
 		"damage_reduction_postfix"						"%"
 
 		//Decay
-		"upgrade_rupture_desc"				"Зменшує отримане цільовим ворогом <span class=\"highlight\">лікування</span> й завдає <span class=\"highlight\">періодичної шкоди</span> відповідно до його поточного здоров’я.<br>Шкода від розпаду несмертельна."
+		"upgrade_rupture_desc"				"Зменшує отримане цільовим ворогом <span class=\"highlight\">лікування</span> й <span class=\"highlight\">поступово завдає шкоди</span> відповідно до його поточного здоров’я.<br>Шкода від розпаду несмертельна."
 		"upgrade_rupture/modifier_rupture"	"Ослаблення"
 		//"modifier_citadel_rupture"				"Ruptured - Don't Move"
 
@@ -829,7 +827,7 @@
 		"modifier_slow_immunity"						"Нестримність"
 
 		//Unstoppable
-		"upgrade_unstoppable_desc"				"Тимчасово зменшує <span class=\"highlight\">негативні ефекти стану</span> й дає <span class=\"highlight\">імунітет</span> до <span class=\"highlight\">приголомшення, знемовлення, сну, вкорінення та роззброєння</span>.<br>Не можна використовувати під час <span class=\"highlight\">приголомшення</span> чи <span class=\"highlight\">сну</span>."
+		"upgrade_unstoppable_desc"				"Тимчасово зменшує <span class=\"highlight\">негативні ефекти стану</span> й дає <span class=\"highlight\">імунітет</span> до <span class=\"highlight\">приголомшення, знемовлення, сну, знерухомлення та роззброєння</span>.<br>Не можна використовувати під час <span class=\"highlight\">приголомшення</span> чи <span class=\"highlight\">сну</span>."
 		"modifier_unstoppable"							"Нестримність"
 
 		//Colossus
@@ -924,7 +922,7 @@
 		"VexBarrierShieldDuration_postfix"	" с"
 
 		//Spell Shield
-		"upgrade_spellshield_desc"		"Блокує наступну <span class=\"highlight\">духовну шкоду</span> чи <span class=\"highlight\">негативний ефект</span>, запобігаючи їхньому впливу. Відновлюється лише за межами бою."
+		"upgrade_spellshield_desc"		"Блокує наступну <span class=\"highlight\">духовну шкоду</span> чи <span class=\"highlight\">ослаблення</span>, запобігаючи їхньому впливу. Відновлюється лише за межами бою."
 		"upgrade_spellshield_shield"	"Протидуховний знак"
 		"upgrade_spellshield/modifier_spellshield_buff"  "Захист із фольги"
 		"upgrade_spellshield/modifier_spellshield_linger_buff"  "Захист із фольги зламано!"
@@ -936,10 +934,10 @@
 		"HealOnlevelHealAmount_label"	"обсягу лікування"
 		"upgrade_heal_on_level/heal_on_level_buff"			"Лікування підвищенням рівня"
 
+		//crow_mask_936_comment
+		//crow_mask_937_comment
 		//crow_mask_938_comment
 		//crow_mask_939_comment
 		//crow_mask_940_comment
-		//crow_mask_941_comment
-		//crow_mask_942_comment
 	}
 }

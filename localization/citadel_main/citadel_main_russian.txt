@@ -1,7 +1,7 @@
-﻿"lang" 
-{ 
-	"Language" "russian" 
-	"Tokens" 
+﻿"lang"
+{
+	"Language" "russian"
+	"Tokens"
 	{
 		"Citadel_Dashboard_BuildVersion"	"Сборка {d:buildNumber} — {s:buildTime}"
 
@@ -83,7 +83,7 @@
 		"GameUI_Disconnect_ConnectionTimedout"		"Не удаётся установить соединение с сервером игры."
 		"GameUI_Disconnect_ServerIncompatible"		"Версия игры на сервере несовместима с вашей."
 		"Player_DisconnectReason_Idle"				"Вас отключили от игрового сервера, поскольку вы слишком долго бездействовали."
-		
+
 
 		"GameUI_Disconnect_LocalProblem_ManyRelays"	"Потеряно соединение, в том числе с различными узлами связи в различных географических регионах. Наиболее вероятная причина — проблемы вашего соединения с интернетом."
 		"GameUI_Disconnect_LocalProblem_HostedServerPrimaryRelay"	"Игровой сервер потерял соединение с основным узлом сети, который использовался в клиенте."
@@ -151,7 +151,7 @@
 		"Citadel_ViewMatchID_Loading_Error"					"Не удалось запустить просмотр матча"
 		"Citadel_ViewMatchID_InFlight_Title"				"Матч ещё идёт"
 		"Citadel_ViewMatchID_InFlight_Body"					"Этот матч ещё не закончился. Хотите посмотреть его?"
-		
+
 		//Playtest User
 		"Citadel_PlaytestUser_SubmitProcessing"				"Пожалуйста, подождите"
 		"Citadel_PlaytestUser_SubmitProcessingTitle"		"Рекомендация пользователя"
@@ -240,6 +240,12 @@
 		"Citadel_ReportPlayer_Reason_Comments"				"Комментарии:"
 		"Citadel_ReportPlayer_CommentPlaceholder"			"Опишите проблему, возникшую с этим игроком"
 
+		"Citadel_CommendPlayer_PopupTitle"					"Похвалить игрока"
+		"Citadel_CommendPlayer_PopupDesc"					"Поздравьте кого-то с успешной игрой и сообщите системе подбора матчей, что хотели бы играть с этим человеком в дальнейшем."
+		"Citadel_CommendPlayer_Friendly"					"Весёлый и дружелюбный"
+		"Citadel_CommendPlayer_Teamwork"					"Командный игрок"
+		"Citadel_CommendPlayer_Skilled"						"Искусный игрок"
+
 		"Citadel_SkipTutorial_Title"						"Пропустить обучение"
 		"Citadel_SkipTutorial_Body"							"Вы точно хотите пропустить обучение? Вам стоит его пройти, если вы ещё не играли в Deadlock."
 
@@ -285,6 +291,8 @@
 		"Citadel_Notification_Paused_Message"						"Матч приостановлен"
 		"Citadel_Notification_Unpaused_Title"						"Конец паузы"
 		"Citadel_Notification_Unpaused_Message"						"Матч продолжается..."
+		"Citadel_Notification_About_To_Respawn_Title"				"Возрождение"
+		"Citadel_Notification_About_To_Respawn_Message"				"Вы вот-вот возродитесь..."
 		"Citadel_Hud_PreGame_Countdown"								"Матч скоро начнётся..."
 		"Citadel_Hud_CantPause"										"Приостановить матч нельзя ещё {i:pause_cooldown} с."
 		"Citadel_Hud_CantUnpause"									"Возобновить матч нельзя ещё {i:pause_cooldown} с."
@@ -321,6 +329,11 @@
 
 		"Citadel_InvalidCast_NoFullClips"							"НЕТ ПОЛНЫХ ОБОЙМ ДЛЯ ПЕРЕЗАРЯДКИ"
 
+		"Citadel_MatchInfo_Mode_Ranked"								"Ранговый режим"
+		"Citadel_MatchInfo_Mode_Standard"							"Обычный режим"
+		"Citadel_MatchInfo_Mode_HeroLabs"							"Лаборатория героев"
+		"Citadel_MatchInfo_Mode_CoopBot"							"Кооперативный режим"
+		"Citadel_MatchInfo_Mode_Private"							"Закрытое лобби"
 
 		"Citadel_Reconnect_IncompatibleVersionTitle"				"Несовместимая версия"
 		"Citadel_Reconnect_IncompatibleVersionBody"					"Версия вашего клиента устарела, поэтому подключение к серверу невозможно"
@@ -336,7 +349,7 @@
 		"Citadel_Item_Tooltip_CantAfford"							"Не хватает на модификацию"
 		//"Citadel_Player_Level_AbilityPoints"						"<span class=\"boldText\">1 Ability Point</span> gained at levels 2, 3, 5, 7, and each level after"
 		//"Citadel_Player_Level_AbilityUnlocks"						"<span class=\"boldText\">1 Ability Unlock</span> gained at levels 1, 2, 4, and 6"
-		//"Citadel_Player_Level_WeaponPower"							"<span class=\"boldText\">+{s:weapon_bonus}% Base Bullet Damage</span>, <span class=\"boldText\">+{s:melee_bonus}% Base Melee damage</span> and <span class=\"boldText\">+{s:health_bonus} Max Health </span>"		
+		//"Citadel_Player_Level_WeaponPower"							"<span class=\"boldText\">+{s:weapon_bonus}% Base Bullet Damage</span>, <span class=\"boldText\">+{s:melee_bonus}% Base Melee damage</span> and <span class=\"boldText\">+{s:health_bonus} Max Health </span>"
 		"Citadel_Player_Level_APShort"								"ОУ"
 		"Citadel_Player_Level_AbilityUnlocksShort"					"Разблок. умения"
 		"Citadel_Player_Level_PowerIncreases"						"Увеличения мощи"
@@ -350,6 +363,7 @@
 		"Citadel_Player_Level_BaseHealth"							"к базовому здоровью"
 		"Citadel_Player_Level_SpiritAmp"							"ед. к спиритическому урону"
 		"Citadel_Player_Level_BulletResist"							"к сопротивляемости пулям"
+		"Citadel_Player_Level_TechResist"							"к сопротивляемости спиритизму"
 		"Citadel_Player_Level_WeaponRange"							"к дальности стрельбы"
 		"Citadel_Hero_Stats_Tooltip_WeaponPower"					"Общий бонус к урону от пуль и в ближнем бою, полученный за покупку предметов из раздела оружия"
 		"Citadel_Hero_Stats_Tooltip_HealthMult"						"Общий бонус к базовому здоровью, полученный за покупку предметов из раздела живучести"
@@ -386,10 +400,10 @@
 
 		"Citadel_Shop_ImbueTooltip_Title"							"Выберите умение, которое хотите усилить"
 		"Citadel_Shop_ActivePlacementTooltip_Title"					"Выберите ячейку умения, чтобы совершить покупку"
-		"Citadel_Shop_ActivePlacementTooltip_Drag"					"Перетаскивайте умения, чтобы переназначить их ячейки"	
+		"Citadel_Shop_ActivePlacementTooltip_Drag"					"Перетаскивайте умения, чтобы переназначить их ячейки"
 
-		"Citadel_Shop_SellMaxItems_Title"							"Все ячейки заполнены!"	
-		"Citadel_Shop_SellMaxItems_Desc"							"Чтобы совершить покупку, выберите модификацию, которую <span class='highlight'>продадите за полцены и замените</span>"	
+		"Citadel_Shop_SellMaxItems_Title"							"Все ячейки заполнены!"
+		"Citadel_Shop_SellMaxItems_Desc"							"Чтобы совершить покупку, выберите модификацию, которую <span class='highlight'>продадите за полцены и замените</span>"
 		"Citadel_Shop_SellMaxItems_SellButton"						"Продать"
 
 		"Citadel_Shop_AbilityisImbued"								"Умение усилено"
@@ -465,13 +479,18 @@
 		"Citadel_Play_MatchmakingOfflineTitle"				"Подбор матчей закрыт"
 		"Citadel_Play_MatchmakingOfflineText"				"Подбор матчей сейчас закрыт. Повторите попытку в запланированное время тестирования."
 
-		"Citadel_Play_RankedMatchmakingOfflineTitle"		"Подбор рейтинговых матчей закрыт"
-		"Citadel_Play_RankedMatchmakingOfflineText"			"Подбор рейтинговых матчей сейчас закрыт. Повторите попытку в выбранное время тестирования."
+		"Citadel_Play_RankedMatchmakingOfflineTitle"		"Подбор ранговых матчей закрыт"
+		"Citadel_Play_RankedMatchmakingOfflineText"			"Подбор ранговых матчей сейчас закрыт. Повторите попытку в выбранное время тестирования."
 
 		"Citadel_Play_RankedNoSchedule"						"Расписание не выбрано"
-		"Citadel_Play_RankedNoScheduleDesc"					"Вы должны выбрать время в расписании, чтобы участвовать в рейтинговых матчах."
+		"Citadel_Play_RankedNoScheduleDesc"					"Вы должны выбрать время в расписании, чтобы участвовать в ранговых матчах."
 
 		"Citadel_RankedGames_Played"						"Сыграно {i:ranked_games_played} из {i:ranked_games_required} матчей"
+		"Citadel_RankedGame_Played_desc"					"Сыграно матчей для присвоения ранга"
+		"Citadel_RankedGames_PlayedQualified"				"Ваш ранг будет определён по результатам дополнительных матчей"
+		"Citadel_RankedGames_Qualified1"						"Дополнительные сыгранные матчи повлияют на ваш финальный ранг"
+		"Citadel_RankedGames_Qualified2"						"Финальный ранг будет присвоен {t:s:end_day}"
+
 		"Citadel_Play_BotsOfflineTitle"				"Боты временно отключены"
 		"Citadel_Play_BotsOfflineText"				"Боты временно отключены, повторите попытку позже."
 
@@ -559,7 +578,7 @@
 		"Citadel_PrivateLobby_SwapTeamsTooltip"						"Инвертирование команд с сохранением веток"
 		"Citadel_PrivateLobby_RandomizeTeams"						"Распределить игроков случайным образом"
 		"Citadel_PrivateLobby_ShuffleTeamsTooltip"					"Случайное распределение игроков в лобби по командам"
-		"Citadel_PrivateLobby_ShuffleTeams"							"Перемешать внутри команд"		
+		"Citadel_PrivateLobby_ShuffleTeams"							"Перемешать внутри команд"
 		"Citadel_PrivateLobby_ShuffleLanesTooltip"					"Случайное распределение игроков по веткам"
 
 		"Citadel_ServerRegion_0"									"Выбрать регион автоматически"
@@ -585,7 +604,7 @@
 		"Citadel_ServerRegion_11"									"Южная Африка"
 "Citadel_Party_PrivateMatch"								"Закрытый матч"
 		"Citadel_Party_MatchMaking"									"Обычный матч"
-		"Citadel_Party_MatchMakingRanked"							"Рейтинговый матч"
+		"Citadel_Party_MatchMakingRanked"							"Ранговый матч"
 		"Citadel_Party_PartyPlayer"									"Игрок"
 		"Citadel_Party_PartySpectator"								"Зритель"
 		"Citadel_Party_JoinParty"									"Присоединиться к группе"
@@ -598,11 +617,11 @@
 		"Citadel_Party_CancelMM"									"Отмена"
 		"Citadel_Party_NotConnectedToGC"							"Нет подключения к сети Deadlock"
 		"Citadel_Party_PlayerLabel"									"Игрок"
-		"Citadel_Party_SpectatorLabel"								"Зритель"	
+		"Citadel_Party_SpectatorLabel"								"Зритель"
 		"Citadel_Party_Or"											"или"
 		"Citadel_Party_ReadyUp"										"Готовы"
 		"Citadel_Party_RolePlayer"									"Игрок"
-		"Citadel_Party_RoleSpectator"								"Зритель"	
+		"Citadel_Party_RoleSpectator"								"Зритель"
 		"Citadel_Party_CreatePartyTitle"							"Создание группы"
 		"Citadel_Party_CreatePartyText"								"Пожалуйста, подождите"
 		"Citadel_Party_JoinPartyTitle"								"Вступление в группу"
@@ -635,7 +654,7 @@
 		"Citadel_AcceptedInvitation_Title"							"Принятое приглашение"
 		"Citadel_Party_SetMatchModeTitle"							"Смена группового режима"
 		"Citadel_Party_SetMatchModeText"							"Подождите, идёт подготовка группы"
-		"Citadel_AcceptedInvitation_Name"							"{g:citadel_persona:accepted_invitation} принял(а) ваше приглашение"		 
+		"Citadel_AcceptedInvitation_Name"							"{g:citadel_persona:accepted_invitation} принял(а) ваше приглашение"
 		"Citadel_Party_KickedByTitle"								"Вас выгнали из группы"
 		"Citadel_Party_KickedByText"								"{g:citadel_persona:kicked_by_account} выгнал(а) вас из группы"
 		"Citadel_Party_DraftEndedByTitle"							"Матч отменён"
@@ -657,8 +676,8 @@
 		"Citadel_PartyInviteFriend_InvitesFull"						"Слишком много участников"
 		"Citadel_JoinParty_Title"									"Присоединиться к группе"
 		"Citadel_JoinParty_Desc"									"Если вы получили код группы, введите его ниже."
-		"Citadel_JoinParty_Prompt"									"ID группы"	
-		"Citadel_Party_Invites"										"Приглашения в группу"
+		"Citadel_JoinParty_Prompt"									"ID группы"
+		"Citadel_Party_Invites:p{party_invites}"					"<span class=\"InviteCount\">{d:party_invites} </span><span class=\"InviteHeaderText\">приглашение в группу</span>#|#<span class=\"InviteCount\">{d:party_invites} </span><span class=\"InviteHeaderText\">приглашения в группу</span>#|#<span class=\"InviteCount\">{d:party_invites} </span><span class=\"InviteHeaderText\">приглашений в группу</span>#|#<span class=\"InviteCount\">{d:party_invites} </span><span class=\"InviteHeaderText\">приглашений в группу</span>#|#<span class=\"InviteCount\">{d:party_invites} </span><span class=\"InviteHeaderText\">приглашения в группу</span>"
 		"Citadel_PartyStartMatch"									"Начать матч"
 		"Citadel_PartyFindMatch"									"Найти матч"
 		"Citadel_Party_CreateEasyBot"								"Создайте группу, чтобы пригласить друзей и вместе сыграть против ботов низкой сложности"
@@ -683,7 +702,8 @@
 		"Citadel_Party_InviteSent"									"Приглашение отправлено"
 
 		"Citadel_RosterMode_Party_Matchmaking"						"Deadlock"
-		"Citadel_RosterMode_Party_RankedMatchmaking"				"Рейтинговый матч"
+		"Citadel_RosterMode_Party_RankedMatchmaking"				"Ранговый матч"
+		"Citadel_RosterMode_Party_HeroLabsMatchmake"					"Лаборатория героев"
 		"Citadel_RosterMode_Party_CoopBotMM"						"Игра против ботов"
 		"Citadel_RosterMode_Party_PrivateBotEasy"					"Закрытый матч с ботами — простой, для группы"
 		"Citadel_RosterMode_Party_PrivateBotMedium"					"Закрытый матч с ботами — обычный, для группы"
@@ -694,7 +714,8 @@
 		"Citael_PrivateLobbyModal_JoinCode"							"Присоединиться с помощью кода"
 
 		"Citadel_RosterMode_Matchmaking"							"Deadlock"
-		"Citadel_RosterMode_RankedMatchmaking"						"Рейтинговый матч"
+		"Citadel_RosterMode_RankedMatchmaking"						"Ранговый матч"
+		"Citadel_RosterMode_HeroLabsMatchmaking"					"Лаборатория героев"
 		"Citadel_RosterMode_CoopBotMM"								"Игра против ботов"
 		"Citadel_RosterMode_PrivateBotEasy"							"Закрытый матч с ботами — простой"
 		"Citadel_RosterMode_PrivateBotMedium"						"Закрытый матч с ботами — обычный"
@@ -724,6 +745,9 @@
 		"Citadel_Roster_Instructions_Desc"							"Выберите хотя бы трёх героев — вам будет автоматически назначен один из них в начале матча.<br><br>Героя можно просто <span class='selected'><b>выбрать</b></span> либо выставить ему <span class='priority'><b>обычный</b></span> или <span class='high_priority'><b>высокий</b></span> приоритет. Это повысит шанс того, что вам назначат именно этого героя."
 		"Citadel_Roster_Instructions_Select"						"<span class='keybind'>{s:iv_attack}</span> Выбрать героя"
 		"Citadel_Roster_Instructions_Prefer"						"<span class='keybind'>{s:iv_attack2}</span> Сменить приоритет"
+
+		"Citadel_Roster_Instructions_Title_HeroLabs"				"Лаборатория героев"
+		"Citadel_Roster_Instructions_Desc_HeroLabs"					"Сыграйте новыми экспериментальными героями (или против них).<br><br>Выберите хотя бы трёх героев, <b>два из которых должны быть обычными, не экспериментальными</b>. Чем давнее вы играли экспериментальным героем, тем выше шанс получить такого героя из вашего состава."
 
 		"Citadel_ViewMatchID_Title"									"Показать номер матча"
 		"Citadel_ViewMatchID_Desc"									"Введите номер матча, чтобы просмотреть информацию о нём"
@@ -803,7 +827,7 @@
 		//"Citadel_HUD_LevelReward_BulletResist"						"Spirit Damage"
 		//"Citadel_HUD_LevelReward_WeaponRange"						"Spirit Damage"
 		"Citadel_HUD_LevelReward_NextRewardsLabel"					"Следующие награды:"
-		
+
 		"Citadel_Hud_KillFeedNone"									"<None>"
 		"Citadel_Hud_KillFeedTrooper"								"Солдат #{i:unit_num}"
 		"Citadel_Hud_KillFeedSuperNeutral"							"Страж храма"
@@ -855,7 +879,7 @@
 		"Objective_Enemy_ShieldGenerator"							"Вражеское святилище"
 		"Objective_Team1_ShieldGenerator"							"Янтарное святилище"
 		"Objective_Team2_ShieldGenerator"							"Сапфировое святилище"
-		
+
 		"Objective_Friendly_Final"						"Союзный покровитель (ослаблен)"
 		"Objective_Enemy_Final"							"Вражеский покровитель (ослаблен)"
 		"Objective_Team1_Final"							"Янтарный покровитель (ослаблен)"
@@ -866,8 +890,8 @@
 
 		"Citadel_Team1_Name"							"Янтарная рука"
 		"Citadel_Team2_Name"							"Сапфировое пламя"
-		"Citadel_Team1_Name_Uppercase"					"ЯНТАРНАЯ РУКА"
-		"Citadel_Team2_Name_Uppercase"					"САПФИРОВОЕ ПЛАМЯ"
+		"Citadel_Team1_Name_Uppercase:n"					"#|f|#ЯНТАРНАЯ РУКА"
+		"Citadel_Team2_Name_Uppercase:n"					"#|n|#САПФИРОВОЕ ПЛАМЯ"
 
 		"Citadel_Mod_Tooltip_Passive"									"Пассивное"
 		"Citadel_Mod_Tooltip_Active"									"Активное"
@@ -882,6 +906,7 @@
 
 
 		"Citadel_HUD_Damage_TooFar"									"Слишком далеко"
+		"Citadel_HUD_Damage_TooLow"									"Слишком низко"
 		"Citadel_HUD_Damage_Invulnerable"							"Неуязвимость"
 		"Citadel_HUD_Damage_NoTroopers"								"Нужны солдаты"
 		"Citadel_HUD_Damage_Resistant"								"Сопротивление"
@@ -908,7 +933,7 @@
 		"Citadel_HUD_DamageReport_DamageDealt"						"Исходящий урон"
 		"Citadel_HUD_DamageReport_TopDamageSources:p{num_damage_rows}"	"Главный источник урона#|#{i:num_damage_rows} главных источника урона#|#{i:num_damage_rows} главных источников урона#|#{i:num_damage_rows} главных источников урона#|#{i:num_damage_rows} главного источника урона"
 		"Citadel_HUD_DamageReport_ShowMore"							"Подробнее"
-		
+
 		"Citadel_HUD_DamageReport_LastRespawn"						"Текущая жизнь"
 		"Citadel_HUD_DamageReport_Time600"							"10 минут"
 		"Citadel_HUD_DamageReport_Time300"							"5 минут"
@@ -927,7 +952,7 @@
 		"Citadel_HUD_DamageReport_DamagePercentAbility"				"{i:ability_damage_percent}%"
 
 		"Citadel_HUD_Impact_Kill"									"Убийство"
-		"Citadel_HUD_Impact_Assist"									"Помощь<br>в убийстве"		
+		"Citadel_HUD_Impact_Assist"									"Помощь<br>в убийстве"
 
 		"Citadel_PartyChat_Title"									"Чат группы"
 		"Citadel_PartyChat_VoiceAndText"							"Голосовой и текстовый чат"
@@ -936,7 +961,7 @@
 		"Citadel_ChatType_Disabled"									"Выключить"
 		"Citadel_ChatType_AllTeam"									"Вся команда"
 		"Citadel_ChatType_PartyOnly"								"Только группа"
-		
+
 		"Citadel_HUD_DamageRows_DamageName"							"{s:damage_name}"
 		"Citadel_HUD_DamageRows_DamageValue"						"{i:damage_done}"
 		"Citadel_HUD_DamageRows_Hits:p{hit_count}"					"({i:hit_count} попадание)#|#({i:hit_count} попадания)#|#({i:hit_count} попаданий)#|#({i:hit_count} попаданий)#|#({i:hit_count} попадания)"
@@ -986,6 +1011,9 @@
 		"Citadel_PlayerContextMenu_AudioVolume"						"Громкость звука"
 		"Citadel_PlayerContextMenu_EmptyMenu"						"--"
 
+		"Citadel_PostGame_CopyMatchID"								"Скопировать ID матча"
+		"Citadel_PostGame_CopyMatchIDSuccess"						"Готово"
+
 		"Citadel_PlayerCard_FavoriteHero"							"Любимый герой"
 
 		"Citadel_Party_Context_Invite"								"Пригласить друзей"
@@ -998,6 +1026,9 @@
 		"Citadel_Party_Leave"										"Покинуть группу"
 		"Citadel_Party_Report"										"Жалоба"
 		"Citadel_Party_Reported"									"Жалоба отправлена"
+
+		"Citadel_Party_Commend"										"Похвалить"
+		"Citadel_Party_Commended"									"Похвала отправлена"
 
 		"Citadel_PlayerList_Teammates"								"Союзники"
 		"Citadel_PlayerList_Enemy"									"Противники"
@@ -1047,24 +1078,28 @@
 		"Citadel_StartMatchmaking_TooManySpectators"				"В группе слишком много зрителей, чтобы начать подбор матча в этом режиме"
 		"Citadel_StartMatchmaking_TooFewPlayers"					"В группе недостаточно участников, чтобы начать подбор матча в этом режиме"
 		"Citadel_StartMatchmaking_InvalidPartyMatchMode"			"В этом режиме нельзя играть с группой"
-		"Citadel_StartMatchmaking_NotAllPlayersCanPlayRanked"		"Не все участники группы имеют право на участие в рейтинговых матчах, поэтому вы не можете сыграть в этом режиме"
+		"Citadel_StartMatchmaking_NotAllPlayersCanPlayRanked"		"Не все участники группы имеют право на участие в ранговых матчах, поэтому вы не можете сыграть в этом режиме"
 		"Citadel_StartMatchmaking_PlayerBannedFromMode"				"Участник вашей группы заблокирован в этом режиме."
 		"Citadel_StartMatchmaking_ModeLocked"						"Вы ещё не разблокировали этот режим"
 		"Citadel_StartMatchmaking_ModeBanned"						"Вам нельзя играть в этом режиме до {t:t:time_stamp} {t:s:time_stamp}"
 		"Citadel_StartMatchmaking_PermanentBan"						"Вы навсегда заблокированы в этом режиме"
-		"Citadel_StartMatchmaking_RankedMMNotOpen"					"Подбор рейтинговых матчей ещё не доступен в выбранный вами период"
-		"Citadel_StartMatchmaking_RankedNotUnlocked"				"Вам ещё не доступен подбор рейтинговых матчей"
-		"Citadel_StartMatchmaking_NoRankedWhileInLowPri"			"Игрокам с низким приоритетом недоступны рейтинговые матчи"
-		"Citadel_StartMatchmaking_NoRankedWhileCommsBanned"			"Игрокам, заблокированным в системе обмена сообщениями, недоступны рейтинговые матчи"
+		"Citadel_StartMatchmaking_RankedMMNotOpen"					"Подбор ранговых матчей ещё не доступен в выбранный вами период"
+		"Citadel_StartMatchmaking_RankedNotUnlocked"				"Вам ещё не доступен подбор ранговых матчей"
+		"Citadel_StartMatchmaking_NoRankedWhileInLowPri"			"Игрокам с низким приоритетом недоступны ранговые матчи"
+		"Citadel_StartMatchmaking_NoRankedWhileCommsBanned"			"Игрокам, заблокированным в системе обмена сообщениями, недоступны ранговые матчи"
+		"Citadel_StartMatchmaking_NoRankedWhileReportBanned"		"Игрокам, отключённым от функции подачи жалоб, недоступны ранговые матчи"
 		"Citadel_StartMatchmaking_TooManyPlayersOnTeam"				"Слишком много игроков в одной команде"
 		"Citadel_StartMatchmaking_UnableToFillTeam"					"Не удаётся создать подходящие команды на основе текущих"
 		"Citadel_StartMatchmaking_InvalidTeam"						"У пользователя выбрана неверная команда для этого режима игры"
-		"Citadel_StartMatchmaking_RankedLocked1"					"Сыграйте ещё один матч в обычном многопользовательском режиме, чтобы разблокировать рейтинговые матчи."
-		"Citadel_StartMatchmaking_RankedLockedPlural"				"Сыграйте ещё несколько матчей ({i:games_needed_to_unlock_ranked}) в обычном многопользовательском режиме, чтобы разблокировать рейтинговые матчи."
+		"Citadel_StartMatchmaking_RankedLocked1"					"Сыграйте ещё один матч в обычном многопользовательском режиме, чтобы разблокировать ранговые матчи."
+		"Citadel_StartMatchmaking_RankedLockedPlural"				"Сыграйте ещё несколько матчей ({i:games_needed_to_unlock_ranked}) в обычном многопользовательском режиме, чтобы разблокировать ранговые матчи."
 		"Citadel_StartMatchmaking_InParty"							"Вы не можете начать подбор матча в одиночку, поскольку состоите в группе."
 		"Citadel_StartMatchmaking_InvalidHeroSelection"				"Вы не выбрали подходящих героев, чтобы начать подбор матча."
 		"Citadel_StartMatchmaking_HeroRosterTooPopular"				"Всех героев в вашем составе уже выбрали другие игроки"
 		"Citadel_StartMatchmaking_NoRegionPings"					"Не удалось связаться с ни с одним ретранслятором сети SDR. Если вы подключены к интернету, причиной может быть неполадка брандмауэра или значение MTU (максимальной единицы передачи) вашего интернет-соединения."
+		"Citadel_StartMatchmaking_HeroLabsMMNotOpen"				"Подбор матчей в режиме «Лаборатория героев» сейчас недоступен."
+		"Citadel_StartMatchmaking_HeroLabsNotUnlocked"				"Вам ещё не доступен подбор матчей в режиме «Лаборатория героев»."
+		"Citadel_StartMatchmaking_NoHeroLabsWhileInLowPri"			"Игрокам с низким приоритетом недоступен подбор матчей в режиме «Лаборатория героев»."
 		"Citadel_StopMatchMaking_FailedToGetResponse"				"Подбор матча остановлен. Не удалось получить ответ от координатора игры."
 		"Citadel_StopMatchMaking_GeneralError"						"Сбой подбора матча. Повторите попытку позже."
 		"Citadel_LeaveLobby_FailedToGetResponse"					"Не удалось остановить подбор матча. Повторите попытку."
@@ -1081,7 +1116,7 @@
 		"Citadel_IdleMatchmaking_IdleTimerExpired_Body"				"Вы слишком долго бездействовали при подборе матча. Подвигайте мышью, чтобы мы убедились, что вы на месте!"
 		"Citadel_IdleMatchmaking_Dialog_Title"						"Бездействие при подборе матча"
 		"Citadel_IdleMatchmaking_Dialog_Body"						"Похоже, вы запустили подбор матча, но отошли от компьютера. Подвигайте мышью, иначе подбор матча остановится."
-		
+
 		"Citadel_Dashboard_EnterMatchmaking"						"Начать\nподбор матча"
 		"Citadel_Dashboard_Roster_HeroTooPopular"					"Все выбранные герои уже есть в подборе"
 		"Citadel_Dashboard_Roster_MissingHeroes"					"<span class=\"rosterErrorText\">Чтобы начать подбор матча, нужно выбрать трёх героев</span>"
@@ -1110,10 +1145,19 @@
 		"Citadel_Dashboard_ShowAnnounceTooltip"						"Показать объявления"
 		"Citadel_Dashboard_CloseAnnounceTooltip"					"Закрыть объявления"
 		"Citadel_Dashboard_ViewLibrary"								"Библиотека"
-
+		"Citadel_Dashboard_ReloadPageTooltip"						"Перезагрузить страницу"
+		"Citadel_Dashboard_Status_Mode_Unranked"					"Обычный матч"
+		"Citadel_Dashboard_Status_Mode_Ranked"						"Ранговый матч"
+		"Citadel_Dashboard_Status_Mode_HeroLabs"					"Матч в режиме «Лаборатория героев»"
+		"Citadel_Dashboard_Status_Mode_Private"						"Закрытый матч"
+		"Citadel_Dashboard_Status_Mode_Coop"						"Совместный матч с ботами"
+		
+		"Citadel_Dashboard_ShowHeroLabHeroes"						"Показать экспериментальных героев"
+		
 		"Citadel_Watch_Title"										"Смотреть матчи"
 		"Citadel_Watch_Featured"									"Избранные матчи"
 		"Citadel_Watch_Loading"										"Загрузка..."
+
 
 		"Citadel_Watch_Page_Spectators:p{spectators}"				"{d:spectators} зритель#|#{d:spectators} зрителя#|#{d:spectators} зрителей#|#{d:spectators} зрителей#|#{d:spectators} зрителя"
 		"Citadel_Watch_Page_FriendInMatch"							"Друг из Steam в матче"
@@ -1196,7 +1240,7 @@
 		"Citadel_PartyAction_TooBusy"							"Сеть Deadlock перегружена и не может обработать ваш запрос. Повторите попытку через несколько минут."
 		"Citadel_PartyAction_RateLimited"						"Вы выполнили слишком много операций за короткий период. Повторите попытку через некоторое время."
 		"Citadel_PartyAction_AlreadyDrafting"					"Группа уже начала матч. Вам нужно остановить текущий матч, прежде чем начинать новый."
-		
+
 		"Citadel_PartySetMode_ErrorTitle"						"Ошибка"
 		"Citadel_PartySetMode_FailedToGetResponse"				"Не удаётся связаться с сетью Deadlock. Повторите попытку через несколько минут."
 		"Citadel_PartySetMode_InternalError"					"Произошла неожиданная внутренняя ошибка. Повторите попытку через несколько минут."
@@ -1210,10 +1254,14 @@
 		"Citadel_PartySetMode_RateLimited"						"Вы выполнили слишком много операций за короткий период. Повторите попытку через некоторое время."
 		"Citadel_PartySetMode_AlreadyDrafting"					"Группа уже начала матч. Вам нужно остановить текущий матч, прежде чем начинать новый."
 		"Citadel_PartySetMode_PlayerBanned"						"{g:citadel_persona:nl:account_id} из вашей группы заблокирован(а) в этом режиме до {t:t:time_stamp} {t:s:time_stamp}"
-		"Citadel_PartySetMode_TooManyHighMMR"					"В вашей группе слишком много игроков с очень высоким рейтингом. Такие группы временно не могут участвовать в подборе во избежание несбалансированных матчей."
+		"Citadel_PartySetMode_TooManyHighMMR"					"В вашей группе слишком много игроков с очень высоким рангом. Такие группы временно не могут участвовать в подборе во избежание несбалансированных матчей."
 		"Citadel_PartySetMode_PlayerPermaBanned"				"{g:citadel_persona:nl:account_id} из вашей группы навсегда заблокирован(а) в этом режиме"
 		"Citadel_PartySetMode_CannotLeavePrivate"				"В настоящее время в закрытых лобби нельзя менять режимы"
 		"Citadel_PartySetMode_FiveStacksNotAllowed"				"В настоящее время команды из пяти игроков не допускаются в систему подбора. Попробуйте ещё раз с группой другого размера."
+		"Citadel_PartySetMode_HeroLabsMMNotOpen"				"Подбор матчей в режиме «Лаборатория героев» сейчас недоступен."
+		"Citadel_PartySetMode_HeroLabsNotUnlocked"				"Члену вашей группы ({g:citadel_persona:nl:account_id}) ещё не доступны матчи режима «Лаборатория героев»."
+		"Citadel_PartySetMode_NoHeroLabsWhileInLowPri"			"У члена вашей группы ({g:citadel_persona:nl:account_id}) низкий приоритет, поэтому ему недоступен подбор матчей в режиме «Лаборатория героев»."
+		"Citadel_PartySetMode_NoHighRangeFiveStack"				"У членов вашей группы слишком сильно различается уровень мастерства. Если разрыв между уровнями мастерства в группе больше обычного, мы подбираем для неё похожие группы. Поскольку в вашей группе 5 участников, мы не смогли подобрать для неё подходящего соперника. Измените состав или количество участников группы."
 
 		"Citadel_PartyInvite_ErrorTitle"						"Не удаётся отправить приглашение"
 		"Citadel_PartyInvite_FailedToGetResponse"				"Не удаётся связаться с сетью Deadlock и пригласить этого пользователя. Повторите попытку через несколько минут."
@@ -1275,17 +1323,19 @@
 		"Citadel_Profile_Win_Short"								"ПОБ"
 		"Citadel_Profile_Loss_Short"							"ПОР"
 		"Citadel_Profile_Statistics"							"Статистика"
+		"Citadel_Profile_RankHistory"							"История ранга"
 		"Citadel_Profile_Stats_All"								"Все герои"
 		"Citadel_Profile_Stats_TitleSection"					"Статистика за всё время"
 		"Citadel_Profile_Stats_GamesPlayed"						"Сыграно матчей"
-		"Citadel_Profile_Stats_GamesWon"						"Выиграно матчей"		
+		"Citadel_Profile_Stats_GamesWon"						"Выиграно матчей"
 		"Citadel_Profile_Stats_Kills"							"Убийства"
 		"Citadel_Profile_Stats_Assists"							"Помощь"
-		"Citadel_Profile_Stats_HeroDamage"						"Урон героям"		
-		"Citadel_Profile_Stats_ObjDamage"						"Урон ключ. целям"		
-		"Citadel_Profile_Stats_LastHits"						"Добивания"		
-		"Citadel_Profile_Stats_Denies"							"Укр. шаров"		
-		"Citadel_Profile_Stats_Healing"							"Лечение"		
+		"Citadel_Profile_Stats_HeroDamage"						"Урон героям"
+		"Citadel_Profile_Stats_ObjDamage"						"Урон ключ. целям"
+		"Citadel_Profile_Stats_LastHits"						"Добивания"
+		"Citadel_Profile_Stats_Denies"							"Укр. шаров"
+		"Citadel_Profile_Stats_Healing"							"Лечение"
+		"Citadel_Profile_Stats_Commends"						"Похвалы"
 		"Citadel_Profile_Stats_Networth"						"Собрано душ"
 
 
@@ -1307,6 +1357,7 @@
 		"Citadel_MatchDetails_Report"							"П"
 		"Citadel_MatchDetails_ReportTooltip"					"Нажмите, чтобы пожаловаться"
 		"Citadel_MatchDetails_Reported"							"Жалоба отправлена!"
+		"Citadel_MatchDetails_CommendTooltip"					"Нажмите, чтобы похвалить игрока"
 
 		"Citadel_MatchDetails_Stats"							"Статистика"
 		"Citadel_MatchDetails_NetWorth"							"Всего душ"
@@ -1351,6 +1402,7 @@
 		"Citadel_ProfileCard_StatTitle_Wins"					"Победы"
 		"Citadel_ProfileCard_StatTitle_Kills"					"Убийства"
 		"Citadel_ProfileCard_StatTitle_GamesPlayed"				"Матчи"
+		"Citadel_ProfileCard_StatTitle_Commends"				"Похвалы"
 
 		"Citadel_ProfileCard_StatValue_Int"						"{d:stat_value}"
 		"Citadel_ProfileCard_StatValue_Date"					"{t:s:stat_value}"
@@ -1376,7 +1428,7 @@
 		"Citadel_Replay_DownloadingPct"							"Загрузка: {d:replay_progress}%"
 		"Citadel_Replay_DecompressPct"							"Распаковка: {d:replay_progress}%"
 		"Citadel_Replay_Delete"									"Удалить запись"
-		
+
 		"Citadel_Graph_Team1"							"Янтарные"
 		"Citadel_Graph_Team2"							"Сапфировые"
 		"Citadel_Graph_WeaponDamage"					"Урон от пуль"
@@ -1451,8 +1503,8 @@
 		"CitadelHeroStats_SpiritPower_Impact"				"Влияние спирит. мощи"
 		"CitadelHeroStats_SpiritPower_Desc"					"Спиритическая мощь повышает эффективность ваших умений и предметов"
 		"CitadelHeroStats_Weapon_Falloff"					"Эффективная дальность"
-	
-		// Hero Builds UI	
+
+		// Hero Builds UI
 		"Citadel_HeroBuilds_Title"						"Сборки героев"
 		"Citadel_HeroBuilds_SelectedBuild_Title"		"Текущая сборка:"
 		"Citadel_HeroBuilds_Browse_button"				"Просмотреть или изменить сборку"
@@ -1500,9 +1552,9 @@
 
 		"Citadel_HeroBuilds_CurrenclyActive"			"Выбрана"
 		"Citadel_HeroBuilds_AbilityBuildTitle"			"Порядок улучшения умений"
-		"Citadel_HeroBuilds_AbilityBuildReset"			"Изменить"	
-		"Citadel_HeroBuilds_AbilityBuildInstructions"	"Чтобы задать рекомендуемый порядок улучшения умений, нажмите «Изменить» и изучите способности в порядке, который должен отображаться в сборке."	
-		
+		"Citadel_HeroBuilds_AbilityBuildReset"			"Изменить"
+		"Citadel_HeroBuilds_AbilityBuildInstructions"	"Чтобы задать рекомендуемый порядок улучшения умений, нажмите «Изменить» и изучите способности в порядке, который должен отображаться в сборке."
+
 		"Citadel_HeroBuilds_PublishBuildTitle"			"Опубликовать сборку героя"
 		"Citadel_HeroBuilds_PublishBuildDesc"			"Эта сборка станет доступна другим игрокам."
 		"Citadel_HeroBuilds_BuildNameTitle"				"Название сборки"
@@ -1523,10 +1575,10 @@
 		"Citadel_HeroBuilds_ErrorTitle"					"Ошибка"
 		"Citadel_HeroBuilds_ValidateErrorTitle"			"Ошибка при сохранении сборки"
 		"Citadel_HeroBuilds_ValidateErrorBody"			"Убедитесь, что у сборки есть название, описание и как минимум один рекомендованный предмет."
-		"Citadel_HeroBuilds_FavoriteCount"				"{i:favorite_count}"		
-		"Citadel_HeroBuilds_DailyFavorite"				"Актуальная"		
-		"Citadel_HeroBuilds_WeeklyFavorite"				"Популярная"		
-		"Citadel_HeroBuilds_AllTimeFavorite"			"Проверенная временем"		
+		"Citadel_HeroBuilds_FavoriteCount"				"{i:favorite_count}"
+		"Citadel_HeroBuilds_DailyFavorite"				"Актуальная"
+		"Citadel_HeroBuilds_WeeklyFavorite"				"Популярная"
+		"Citadel_HeroBuilds_AllTimeFavorite"			"Проверенная временем"
 		"Citadel_HeroBuilds_New"						"Новая"
 		"Citadel_HeroBuilds_Old"						"Старая"
 		"Citadel_HeroBuilds_NameLabel"					"Название сборки"
@@ -1572,6 +1624,11 @@
 		"EShopFilterMovement"					"Движение"
 		"EShopFilterDisruption"					"Препятствие"
 		"EShopFilterNone"						"Нет"
+
+		"CitadelCategoryWeapon"					"Оружие"
+		"CitadelCategoryArmor"					"Живучесть"
+		"CitadelCategoryTech"					"Спиритизм"
+		"CitadelCategoryFlex"					"Универсальные"
 		"CitadelCategoryBuilds"					"Сборка"
 		"CitadelCategorySuggested"				"Рекомендованное"
 		"CitadelCategoryCustom"					"Пользовательская сборка"
@@ -1590,7 +1647,7 @@
 		// Item and Upgrade Modifiers
 
 
-			
+
 		"citadel_ability_sprint_roll"			"Бег"
 		"modifier_citadel_sprint_start"			"Убирает оружие..."
 		"modifier_citadel_sprint_end"			"Достаёт оружие..."
@@ -1608,7 +1665,7 @@
 
 		"citadel_ability_drone_boss_laser_beam"		"Лазер босса"
 
-		
+
 		"citadel_ability_dash"						"Рывок"
 		"citadel_ability_jump"						"Прыжок"
 		"citadel_ability_teleport"					"Телепортация"
@@ -1621,8 +1678,10 @@
 		"modifier_neutral_gold_pickup_aura/aura_target/timer"	"Вы забираете теряемые души"
 		"modifier_rejuv_pickup_aura/aura_target/timer"			"Подбирает реконструктор команды"
 		"modifier_early_gold_pickup_aura/aura_target/timer"		"Захват душ команды"
-		"modifier_citadel_holding_golden_idol"  				"Вас видят враги! Принесите урну к алтарю"							
+		"modifier_citadel_holding_golden_idol"  				"Принесите урну к алтарю"
+		"modifier_citadel_holding_golden_idol_revealed"			"Вас видят враги! Принесите урну к алтарю"
 		"modifier_citadel_returning_golden_idol"  				"Вы возвращаете урну"
+		"modifier_citadel_idol_pickup_disabled"					"Нельзя подобрать урну душ"
 		"modifier_knocked_off_zipline_slow"						"Сброшен(а) с зиплайна"
 		"modifier_citadel_respawn_credit" 						"Награда за реконструктор"
 
@@ -1685,7 +1744,7 @@
 		"CITADEL_ABILITY_INVALID_NO_DAMAGE_TO_CLEAR"	"Нет отложенного урона"
 
 		"citadel_ability_interrupted"					"— прервано умением"
-		
+
 		"citadel_ability_quick_melee" "Ближний бой"
 		"citadel_hint_zoom"			"Удерживайте <span class=\"hintTextEmphasis\">[{s:iv_attack2}]</span>, чтобы приблизить камеру для прицеливания."
 		"citadel_hint_slide"		"Удерживайте <span class=\"hintTextEmphasis\">[{s:duck}]</span>, двигаясь вниз по рампе, чтобы скользить."
@@ -1699,7 +1758,7 @@
 		"citadel_hint_upgrade_ability"	"Удерживайте <span class=\"hintTextEmphasis\">[{s:show_scoreboard}]</span>, чтобы улучшить умения."
 		"citadel_hint_hero_testing_shop"	"Нажмите <span class=\"hintTextEmphasis\">[{s:citadel_open_hero_sheet}]</span>, чтобы зайти в лавку и задать опции тестирования."
 		"citadel_hint_teleport"				"Вашего босса на втором рубеже атакуют! Нажмите <span class=\"hintTextEmphasis\">[{s:key_teleport}]</span>, чтобы телепортироваться к нему!"
-		
+
 		// Ability Hints
 		"citadel_hint_flamedash_boost" "Для ускорения нажмите <span class=\"hintTextEmphasis\">[{s:key_innate_1}]</span>. Необходима выносливость."
 		"citadel_hint_activate_wall" "Нажмите <span class=\"hintTextEmphasis\">[{s:iv_attack}]</span>, чтобы создать стену заранее."
@@ -1732,7 +1791,7 @@
 		"survival_powerup_pickup"							"Выживаемость"
 		"casting_powerup_pickup"							"Умения"
 		"movement_powerup_pickup"							"Передвижение"
-		
+
 		"spirit_permanent_pickup_label"					"+2 ед. к спирит. мощи"
 		"firerate_permanent_pickup_label"				"+1,5% к скорострельности"
 		"ammo_permanent_pickup_label"					"+4% к боезапасу"
@@ -1780,7 +1839,7 @@
 		"citadel_settings_per_unit_hotkeys"				"Отдельные клавиши для разных героев"
 		"citadel_Hotkeys_Tooltip_PerUnitHotkeys"		"Включить или выключить отдельные клавиши для разных героев"
 		"citadel_settings_defaultkeybinds"				"По умолчанию"
-		"citadel_ClearHeroHotkeyBindings"				"Сбросить"		
+		"citadel_ClearHeroHotkeyBindings"				"Сбросить"
 		"citadel_settings_chatwheel"					"Колесо чата"
 		"chat_wheel_options"							"НАСТРОЙКИ КОЛЕСА"
 		"citadel_settings_volume"						"Громкость"
@@ -1794,7 +1853,7 @@
 		"citadel_settings_musicvolume"					"Громкость музыки в меню"
 		"citadel_settings_musicvolume_desc"				"Регулирует громкость музыки в главном меню"
 		"citadel_settings_voicevolume"					"Громкость голосового чата (других игроков)"
-		"citadel_settings_voicevolume_desc"				"Регулирует громкость того, что говорят в голосовой чат другие игроки"	
+		"citadel_settings_voicevolume_desc"				"Регулирует громкость того, что говорят в голосовой чат другие игроки"
 		"citadel_settings_gamevoicevolume"				"Громкость звукового ввода (ваша)"
 		"citadel_settings_gamevoicevolume_desc"			"Регулирует громкость ввода с вашего микрофона"
 		"citadel_settings_playsoundinbackground" 		"Звук в фоновом режиме"
@@ -1926,12 +1985,12 @@
 		"citadel_settings_crosshair_pip_width"				"Ширина"
 		"citadel_settings_crosshair_pip_height"				"Высота"
 		"citadel_settings_crosshair_pip_border"				"Обводка линий"
-		
+
 		"citadel_settings_crosshair_color"					"Цвет"
 		"citadel_settings_crosshair_color_r"				"Красный"
 		"citadel_settings_crosshair_color_g"				"Зелёный"
 		"citadel_settings_crosshair_color_b"				"Синий"
-		
+
 		"citadel_settings_crosshair_visibility"				"Точка"
 		"citadel_settings_crosshair_pip_opacity"			"Прозрачность линий"
 		"citadel_settings_crosshair_dot_opacity"			"Прозрачность точки"
@@ -2085,6 +2144,8 @@
 		"citadel_keybind_backwards"						"Идти назад"
 		"citadel_keybind_left"							"Идти влево"
 		"citadel_keybind_right"							"Идти вправо"
+		"citadel_keybind_up"							"Подняться"
+		"citadel_keybind_down"							"Опуститься"
 		"citadel_keybind_mantle"						"Подпрыгнуть/забраться"
 		"citadel_keybind_attack"						"Выстрел"
 		"citadel_keybind_ads"							"Приближение"
@@ -2314,10 +2375,9 @@
 		"kill_hype_FirstBlood"	"первая кровь"
 
 		"team_msg_Idol_Desc"	"Урна душ"
-		
-		//"team_msg_Winner_SubText"	"The Patrons favor you"
-		"Citadel_GameOver_Victory"	"побеждает"
-		"Citadel_GameOver_Defeat"	"проигрывает"
+
+		"Citadel_GameOver_Victory:g"	"#|m|#победил#|f|#победила#|n|#победило"
+		"Citadel_GameOver_Defeat:g"		"#|m|#проиграл#|f|#проиграла#|n|#проиграло"
 
 
 		"Citadel_LaneColorPurple"						"Фиолетовая"
@@ -2332,8 +2392,8 @@
 		"Citadel_TeamMsg_TitanKilledTitle"				"Ваш покровитель"
 
 		"Citadel_FlexSlot_Title"						"Разблокирована универсальная ячейка"
-		"Citadel_FlexSlotUnlockedAllTier1"				"Вы разблокировали универсальную ячейку за уничтожение всех <span class=\"FlexSlotObjectiveName\">вражеских стражей</span>"
-		"Citadel_FlexSlotUnlockedGenerator"				"Вы разблокировали универсальную ячейку за уничтожение первого <span class=\"FlexSlotObjectiveName\">святилища</span>"
+		"Citadel_FlexSlotUnlockedAllTier1"				"Вы разблокировали универсальную ячейку за уничтожение трёх <span class=\"FlexSlotObjectiveName\">вражеских стражей</span>"
+		"Citadel_FlexSlotUnlockedGenerator"				"Вы разблокировали универсальную ячейку за уничтожение обоих <span class=\"FlexSlotObjectiveName\">вражеских святилищ</span>"
 		"Citadel_FlexSlotUnlockedAllTier2"				"Вы разблокировали универсальную ячейку за уничтожение всех <span class=\"FlexSlotObjectiveName\">вражеских шагоходов</span>"
 		"Citadel_FlexSlotUnlockedKill2Tier2"			"Вы разблокировали универсальную ячейку за уничтожение двух <span class=\"FlexSlotObjectiveName\">вражеских шагоходов</span>"
 
@@ -2375,6 +2435,7 @@
 		"menu_getstarted"							"Основы"
 		"menu_bot_practice"							"Закрытый матч с ботами"
 		"menu_bot_custom"							"Пользовательский матч"
+		"menu_bot_hero_labs"						"Лаборатория героев"
 		"menu_learn"								"Обучение"
 		"menu_resources"							"База знаний"
 		"menu_training"								"Обучение"
@@ -2390,7 +2451,11 @@
 		"Citadel_Confirm_Discord_InMatch_Body"		"Чтобы получить ссылку на Discord, нужно выйти из группы или подбора матча"
 		"Citadel_Dashboard_Recommended"				"Рекомендованное"
 
-		"Citadel_Commend_Toast"						"{s:commender} ({s:commender_hero}) хвалит вас!"
+		"Citadel_Commend_Toast_NoHero_Generic"		"Игрок {s:commender} похвалил вас"
+		"Citadel_Commend_Toast_Generic"				"Игрок {s:commender} ({s:commender_hero}) похвалил вас"
+		"Citadel_Commend_Toast_Friendly"			"Игрок {s:commender} ({s:commender_hero}) похвалил вас за дружелюбие и весёлость."
+		"Citadel_Commend_Toast_Teamwork"			"Игрок {s:commender} ({s:commender_hero}) похвалил вас за работу в команде."
+		"Citadel_Commend_Toast_Skilled"				"Игрок {s:commender} ({s:commender_hero}) похвалил вас за искусную игру."
 
 		"menu_exit_db_page"							"Назад"
 		"menu_settings"								"Настройки"
@@ -2418,6 +2483,8 @@
 		"menu_play_lane_training_desc"				"Освойте ранний этап игры под руководством союзного героя."
 		"menu_play_bots_easy_desc"					"Сыграйте закрытый матч против ботов"
 		"menu_play_custom_game_desc"				"Присоединитесь к пользовательскому матчу или создайте новый (до 12 игроков)"
+		"menu_play_hero_labs_desc"					"Помогите в тестировании новых экспериментальных героев"
+		"menu_play_hero_labs_locked_desc"			"Помогите в тестировании новых экспериментальных героев. Режим разблокируется после 50 сыгранных матчей."
 		
 		"menu_play_get_started_time_est"			"4 минуты"
 		"menu_play_sandbox_time_est"				"5 минут"
@@ -2434,14 +2501,17 @@
 		"menu_learn_incomplete"						"Не пройдено"
 		"menu_learn_completed"						"Пройдено"
 
-		"menu_play_ranked"							"Рейтинговый матч"
+		"menu_hero_labs_unavailable"				"Недоступно"
+		"menu_hero_labs_schedule_title"				"Расписание:"
+		"menu_hero_labs_schedule_times"				"{t:t:start_time} — {t:t:end_time}"
+		"menu_play_ranked"							"Ранговый матч"
 		"menu_play_ranked_desc"						"Сыграйте матч в более соревновательной среде против игроков со схожим уровнем мастерства."
-		"menu_ranked_title"							"Рейтинговый режим:"
+		"menu_ranked_title"							"Ранговый режим:"
 		"menu_ranked_schedule_title"				"Расписание:"
 		"menu_ranked_unavailable"					"Недоступно"
-		"menu_ranked_unavailable_desc"				"Подбор рейтинговых матчей станет доступен только после 50 обычных"
-		"menu_ranked_schedule_weekdays"				"Пн — Чт:"
-		"menu_ranked_schedule_weekends"				"Пт — Вс:"
+		"menu_ranked_unavailable_desc"				"Подбор ранговых матчей станет доступен только после 50 обычных"
+		"menu_ranked_schedule_weekdays_monfri"		"Пн. – Пт.:"
+		"menu_ranked_schedule_weekends_satsun"		"Сб. – Вс.:"
 		"menu_ranked_schedule_alldays"				"Расписание на все дни:"
 		"menu_ranked_schedule_timeplaceholder"		"{t:t:start_time} — {t:t:end_time}"
 		"menu_ranked_select_schedule"				"Выбрать расписание"
@@ -2456,20 +2526,29 @@
 		"Citadel_SetSchedule_RegionWithIndex"		"{s:region_name} {d:region_index}"
 		"Citadel_SetSchedule_Selected"				"Выбрано"
 		"Citadel_SetSchedule_SetSuccessfully"		"Расписание выбрано"
-		"Citadel_ranked_scheduleModal_title"		"Расписания рейтингового режима"
-		"Citadel_ranked_scheduleModal_desc"			"Выберите рейтинговые периоды, которые больше всего подходят вашему времени игры.<br><br>Вы всегда будете играть на ближайшем доступном сервере независимо от выбранного периода."
-		"Citadel_ranked_scheduleModal_warning"		"Обратите внимание: выбрав расписание для текущей рейтинговой сессии, вы не сможете сменить его до следующей."
+		"Citadel_ranked_scheduleModal_title"		"Расписания рангового режима"
+		"Citadel_ranked_scheduleModal_desc"			"Выберите ранговые периоды, которые больше всего подходят вашему времени игры.<br><br>Вы всегда будете играть на ближайшем доступном сервере независимо от выбранного периода."
+		"Citadel_ranked_scheduleModal_warning"		"Обратите внимание: выбрав расписание, вы не сможете сменить его в течение семи дней."
 		"Citadel_ranked_open"						"Открыто"
-		"Citadel_ranked_closed"						"Рейтинговый режим закрыт"
-		"Citadel_ranked_comingsoon"					"Первые рейтинговые матчи начнутся во вторник, 15 октября, в 23:00 МСК"
-		"Citadel_ranked_schedule_explainer"			"Рейтинговые матчи будут доступны только в определённые часы. Прежде чем в них играть, выберите подходящее для себя время."
+		"Citadel_ranked_closed"						"Ранговый режим закрыт"
+		"Citadel_ranked_comingsoon"					"Первые ранговые матчи начнутся во вторник, 15 октября, в 23:00 МСК"
+		"Citadel_ranked_schedule_explainer"			"Ранговые матчи будут доступны только в определённые часы. Прежде чем в них играть, выберите подходящее для себя время."
 
-		"Citadel_ranked_explainer_button"				"Что такое рейтинговый режим?"
-		"Citadel_ranked_explainer_title"				"Подбор рейтингового матча"
-		"Citadel_ranked_explainer_desc"					"[Рейтинговый режим] — это матчи в более соревновательной среде для игроков одинакового уровня мастерства, позволяющий им определить своё положение во всемирном сообществе игры.<br><br>К этому соревнованию можно присоединиться каждую неделю, играя в [рейтинговом режиме] в отведённые вашему региону периоды, чтобы продемонстрировать свои индивидуальные навыки."
-		"Citadel_ranked_howitworks_title"				"Как это работает?"
-		"Citadel_ranked_howitworks_desc"				"Все игроки начинают с временного ранга «Обскурус». Чтобы получить ранг за текущую неделю, в течение неё нужно сыграть семь [рейтинговых] матчей. В конце недели вы получите ранг, который будет отображаться в виде медали в вашем профиле.<br><br>Если к концу недели вы сыграете меньше семи [рейтинговых] матчей, ваша медаль сменится на «Обскуруса» и будет скрыта, пока вы не получите ранг за другую неделю. Показатели, влияющие на ваш ранг, сохранятся и будут учитываться для подбора [рейтинговых] матчей, но медаль отображаться не будет.<br><br>Всего существует одиннадцать рангов, каждый из которых делится на подранги от I до VI, более точно указывающие на ваш уровень игры."
-		"Citadel_ranked_rankedmedals"					"Ранги:"
+		"Citadel_ranked_explainer_button"			"Что такое ранговый режим?"
+		"Citadel_ranked_explainer_title"			"Подбор рангового матча"
+		"Citadel_ranked_explainer_desc"				"Ранговый режим — это матчи в более соревновательной среде для игроков одинакового уровня мастерства, позволяющие им определить своё положение во всемирном сообществе игры.<br><br>К этому соревнованию можно присоединиться каждую неделю, играя в ранговом режиме в отведённые вашему региону периоды, чтобы продемонстрировать свои индивидуальные навыки."
+		"Citadel_ranked_howitworks_title"			"Как это работает?"
+		"Citadel_ranked_howitworks_desc"			"Все игроки начинают с временного ранга «Обскурус». Чтобы получить ранг за текущую неделю, в течение неё нужно сыграть семь ранговых матчей. В конце недели вы получите ранг, который будет отображаться в виде медали в вашем профиле.<br><br>Если к концу недели вы сыграете меньше семи ранговых матчей, ваша медаль сменится на «Обскуруса» и будет скрыта, пока вы не получите ранг за другую неделю. Показатели, влияющие на ваш ранг, сохранятся и будут учитываться для подбора ранговых матчей, но медаль отображаться не будет.<br><br>Всего существует одиннадцать рангов, каждый из которых делится на подранги от I до <Panel class=\"starIcon\"></Panel>, более точно указывающие на ваш уровень игры."
+		"Citadel_ranked_rankedmedals"				"Ранги:"
+		"Citadel_ranked_subranks_explainer"			"Подранги: I, II, III, IV, V, <Panel class=\"starIcon\"></Panel>"
+
+		"Citadel_ranked_explainer_note"				"Дизайны медалей будут представлены 22 октября, когда будут выданы первые ранги."
+
+		"Citadel_ranked_result_title"				"Отчёт о ранге"
+		"Citadel_ranked_result_rankup"				"Повышение ранга!"
+		"Citadel_ranked_result_adjustment"			"Изменение ранга"
+		"Citadel_ranked_numGamesPlayed"				"Сыграно матчей: {s:games_played}"
+		"Citadel_ranked_match_history"				"История матчей:"
 
 		"Citadel_ranks_rank0"						"Обскурус"
 		"Citadel_ranks_rank1"						"Послушник"
@@ -2478,8 +2557,8 @@
 		"Citadel_ranks_rank4"						"Чародей"
 		"Citadel_ranks_rank5"						"Ритуалист"
 		"Citadel_ranks_rank6"						"Эмиссар"
-		"Citadel_ranks_rank7"						"Оракул"
-		"Citadel_ranks_rank8"						"Архонт"
+		"Citadel_ranks_rank7"						"Архонт"
+		"Citadel_ranks_rank8"						"Оракул"
 		"Citadel_ranks_rank9"						"Фантом"
 		"Citadel_ranks_rank10"						"Владыка"
 		"Citadel_ranks_rank11"						"Этернус"
@@ -2491,7 +2570,7 @@
 		"Citadel_subranks_5"						"V"
 		"Citadel_subranks_6"						"VI"
 
-		"Citadel_rank_phase_example"				"15–21 октября | 2024 г."
+		"Citadel_rank_phase_example"				"{t:s:popup_start_day} — {t:s:popup_end_day}"
 
 
 		"item_info_abilities"						"Умения"
@@ -2517,10 +2596,10 @@
 		"SafeToAbandon_Text"						"Вы не будете наказаны за выход из этого матча."
 
 		"ModIconTooltip_UnlockTier2"				"Разблокируется, когда ваша команда уничтожит двух вражеских шагоходов"
-		"ModIconTooltip_UnlockGuardians"			"Разблокируется, когда ваша команда уничтожит стражей вражеской базы на одной из веток"	
-		"ModIconTooltip_UnlockGenerators"			"Разблокируется, когда ваша команда уничтожит вражеское святилище"	
+		"ModIconTooltip_UnlockGuardians"			"Разблокируется, когда ваша команда уничтожит стражей вражеской базы на одной из веток"
+		"ModIconTooltip_UnlockGenerators"			"Разблокируется, когда ваша команда уничтожит оба вражеских святилища"
 		//"ModIconTooltip_UnlockTier3"				"Unlocked after your team destroys the enemy Patron's first form"
-		"ModIconTooltip_UnlockAllTier1"				"Разблокируется, когда ваша команда уничтожит всех вражеских стражей"
+		"ModIconTooltip_UnlockAllTier1"				"Разблокируется, когда ваша команда уничтожит трёх вражеских стражей"
 		"ModIconTooltip_UnlockAllTier2"				"Разблокируется, когда ваша команда уничтожит всех вражеских шагоходов"
 
 		"HeroesPageTitle"							"Герои"
@@ -2547,6 +2626,7 @@
 		"MyRosterNumHeroesInRoster"					"ГЕРОЕВ В СОСТАВЕ: {i:num_heroes_in_roster}"
 		"MyRosterNumHeroesInRosterSingular"			"{i:num_heroes_in_roster} ГЕРОЙ В СОСТАВЕ"
 		"MyRosterGreatForNewPlayers"				"Подходит для новичков"
+		"MyRosterHeroLabsHero"						"Лаборатория героев"
 		"MyRosterAssignedTesting"					"Назначенное тестирование"
 		"MyRosterAssignedOpenTesting"				"Открытое тестирование"
 		"MyRosterChangeHero"						"Сменить героя"
@@ -2556,11 +2636,15 @@
 		"MyRosterWaitForParty"						"Ожидание участников группы..."
 		"MyRosterExit"								"Выйти из состава"
 		"MyRosterExitRosterConfirm"					"Вы уверены, что хотите выйти из состава? В этом случае выйдет вся ваша группа."
-		"MyRosterPartyHighSkillRange"				"В вашей группе есть игроки с разнообразными навыками. Поэтому для неё будет найден БОЛЕЕ СЛОЖНЫЙ матч."
+		"MyRosterPartyHighSkillRangeTitle"			"Разный уровень мастерства среди участников"		
+		"MyRosterPartyHighSkillRange"				"Разрыв между уровнями мастерства участников группы больше стандартного. Из-за этого ваша группа сможет сыграть ТОЛЬКО против группы с похожим разрывом.<br><br>Тем участникам, у которых уровень мастерства ниже, будет трудно поспевать за остальными."
+		"PartyWarningPostGame"						"Матч с напарниками разных уровней мастерства"
+
 
 		"MyRosterPartyReadyCount"					"Готовы: {d:party_ready_count}/{d:party_player_count}"
 		"MyRosterPartyMemberRoster"					"Этого героя добавили в состав:"
 
+		"MyRosterRosterDesc_HeroLabs"				"В составе должно быть хотя бы 3 героя, 2 из которых — обычные, не тестируемые."
 
 		//-----------------------------------------------------------------------------
 		// SANDBOX - DEMO CONTROLS
@@ -2613,7 +2697,7 @@
 		//-----------------------------------------------------------------------------
 		// TUTORIAL - LANE TRAINING
 		//-----------------------------------------------------------------------------
-		
+
 		"LaneTraining_Intro_Title"					"Добро пожаловать на <b>обучение игре на ветках</b>!"
 		"LaneTraining_Intro_Desc"					"Основная цель в начале игры — набрать силу для прорыва вражеской обороны.<br><br>После <span class=\"introHighlight\">выполнения заданий, перечисленных справа</span>, вы получите <span class=\"introHighlight\">невообразимую мощь</span> и сможете уничтожить стража."
 		"LaneTraining_Intro_Button"					"Начать"
@@ -2621,7 +2705,7 @@
 		"LaneTraining_Outro_Title"					"<b>Обучение игре на ветках</b> завершено"
 
 		//"ReportCard_PlayerDamage"					"Player Damage"
-		//"ReportCard_PlayerDamage_Desc"				"Damage you’ve dealt to enemy heroes"	
+		//"ReportCard_PlayerDamage_Desc"				"Damage you’ve dealt to enemy heroes"
 		//"ReportCard_PlayerDamage_Progress"			"<span class=\"yourscore\">{i:playerDamage}</span> / {i:playerDamageNextGoal}"
 
 		"ReportCard_LastHits"						"Смертельные удары"
@@ -2666,9 +2750,9 @@
 		"ReportCard_KillGuardian"					"Уничтожьте вражеского стража"
 		"ReportCard_KillGuardian_Desc"				"Уничтожьте всех, кто стоит на пути к вашей победе!"
 
-		//"NewPlayer_NewPlayerFlow"					"Learn to Play"				
+		//"NewPlayer_NewPlayerFlow"					"Learn to Play"
 		"NewPlayer_Skip"							"Пропустить обучение"
-		//"NewPlayer_NewPlayerFlow_Desc"				"To get started, check out the tasks within <span class=\"introText\">Learn</span>."	
+		//"NewPlayer_NewPlayerFlow_Desc"				"To get started, check out the tasks within <span class=\"introText\">Learn</span>."
 		//"NewPlayer_GetStarted"						"Review <span class='TaskHighlight'>Get Started</span>"
 		//"NewPlayer_GetStarted_Time"					"4 mins"
 		//"NewPlayer_HeroSandbox"						"Try out your moves in <span class='TaskHighlight'>Hero Training</span>"
@@ -2676,7 +2760,7 @@
 		//"NewPlayer_LaneTraining"					"Learn the early game in <span class='TaskHighlight'>Lane Training</span>"
 		//"NewPlayer_LaneTraining_Time"				"8 mins"
 		//"NewPlayer_YouAreFinished"					"You're ready! Try a bot match within Practice or Play your first game!"
-		//"NewPlayer_Finish"							"End Tutorial"				
+		//"NewPlayer_Finish"							"End Tutorial"
 
 		"HeroTraining_Intro_Title"					"Добро пожаловать на <b>обучение с героем</b>!"
 		"HeroTraining_Intro_Desc"					"Здесь вы сможете ознакомиться с основными движениями и умениями героя. Овладение ими — ключ к успешному завершению ритуала."
@@ -2688,10 +2772,10 @@
 		"NPE_Heroes_Modal_Title"					"Рекомендованные герои"
 		"NPE_Heroes_Modal_Desc"						"<span class=\"introText\">Похоже, вы играете впервые!</span><br><br>Мы выделили нескольких героев, которые подойдут новичкам. Выбирайте кого-то из них, если ещё не определились с героем."
 		"NPE_Heroes_Modal_Button"					"Ясно!"
-		
+
 		"NPE_Bots_Modal_Desc"						"<span class=\"introText\">Это ваш первый матч с ботами!</span><br><br>Такие матчи отлично подходят для знакомства с героем, но не воссоздают в точности процесс игры и взаимодействие с другими игроками в многопользовательском режиме.<br><br>Вы можете покинуть матч с ботами и начать процесс подбора матча, когда будете готовы."
 		"NPE_Bots_Modal_Button"						"Ясно!"
-		
+
 
 		"Sandbox_Tutorial_Movement"					"Протестируйте управление"
 		"Sandbox_Tutorial_Movement_desc"			"Здесь вы можете протестировать управление"
@@ -2717,7 +2801,7 @@
 		"Sandbox_Tutorial_Step_1"					"Шаг 1 из 6"
 		"Sandbox_Tutorial_Step_2"					"Шаг 2 из 6"
 		"Sandbox_Tutorial_Step_3"					"Шаг 3 из 6"
-		"Sandbox_Tutorial_Step_4"					"Шаг 4 из 6"		
+		"Sandbox_Tutorial_Step_4"					"Шаг 4 из 6"
 		"Sandbox_Tutorial_Step_5"					"Шаг 5 из 6"
 		"Sandbox_Tutorial_Step_6"					"Шаг 6 из 6"
 
@@ -2741,7 +2825,7 @@
 
 		"BrowseItems_Title"							"Каталог предметов"
 		"BrowseItems_Desc"							"Ознакомьтесь с ассортиментом лавки, чтобы подготовиться к следующему матчу!"
-		
+
 		"CreateBuilds_Title"						"Создать сборку для {s:hero_name}"
 		"CreateBuilds_Desc"							"Выберите предметы в лавке, чтобы добавить их в список рекомендованных в сборке"
 
@@ -2792,7 +2876,7 @@
 		"AbilityButtonHint_CastIceDome"				"Применить «Ледяное укрытие»"
 		"AbilityButtonHint_CastLifeDrain"			"Высосать жизнь у врага"
 		"AbilityButtonHint_AlotCastLifeDrain"				"Исцелить союзника"
-		
+
 		//-----------------------------------------------------------------------------
 		// Guided Bot Match
 		//-----------------------------------------------------------------------------
@@ -2813,7 +2897,7 @@
 		"citadel_bot_name_prefix"				"[Бот]"
 		"citadel_purchasemessage"				"<span class=\"ChatTarget\">{s:target} <span class=\"ChatPersona\"><span class=\"{s:player_color_class}\">{s:persona}</span></span></span> <span class=\"{s:purchaseText}\">{s:soldOrPurchasedText}</span> <span class=\"{s:message_color_class}\">{s:message}</span>"
 		"citadel_ping_wheel_message"			"{s:message}"
-	
+
 		"citadel_ping_wheel_disabled_while_dead"				"Недоступно во время смерти"
 		"citadel_all_chat_label_prefix"							"[ВСЕМ] "
 		"citadel_chatwheel_label_Care"							"Осторожно"
@@ -2919,6 +3003,9 @@
 		//"citadel_quick_response_respond_onmyway"					"Respond 'On my Way'"
 
 		// These are loc strings for ping response rules. Good for if we don't have VO for a response rule to show what the player would've said.
+		"ping_message"											"{s:pre_punctuation}{s:ping}{s:post_punctuation}"
+		"ping_pre_exclamation"									""
+		"ping_post_exclamation"									"!"
 		"ping_headed_yellow"									"Иду на жёлтую"
 		"ping_headed_blue"										"Иду на синюю"
 		"ping_headed_green"										"Иду на зелёную"

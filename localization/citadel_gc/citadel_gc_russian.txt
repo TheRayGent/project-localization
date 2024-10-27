@@ -182,17 +182,19 @@
 		"Steam_Citadel_RP_FindingMatch"							"Поиск матча"
 		
 		// These Match Mode ("MM_") tokens are for the %param0% below.
-		"Steam_Citadel_RP_MM_Unranked"							"Матч"
-		"Steam_Citadel_RP_MM_Ranked"							"Матч"
-		"Steam_Citadel_RP_MM_PrivateLobby"						"Закрытый матч"
-		"Steam_Citadel_RP_MM_CoopBot"							"Совместный матч с ботами"
-		"Steam_Citadel_RP_MM_Tutorial"							"Обучение"
-		"Steam_Citadel_RP_MM_Sandbox"							"Песочница"
+		"Steam_Citadel_RP_MM_Unranked"							"Deadlock:"
+		"Steam_Citadel_RP_MM_Ranked"							"Ранговый режим:"
+		"Steam_Citadel_RP_MM_HeroLabs"							"Лаборатория героев:"
+		"Steam_Citadel_RP_MM_PrivateLobby"						"Лобби:"
+		"Steam_Citadel_RP_MM_CoopBot"							"Боты:"
+		"Steam_Citadel_RP_MM_Tutorial"							"Обучение:"
+		"Steam_Citadel_RP_MM_Sandbox"							"Песочница:"
 		
 		"Steam_Citadel_InGame_Sandbox"		"Песочница: {%param2%}"
-		"Steam_Citadel_InGame_Hero"			"{%param1%}: {%param2%}, %param0% мин."
-		"Steam_Citadel_InGame"				"{%param1%}: %param0% мин."
-		"Steam_Citadel_Spectating"			"Наблюдение: {%param1%}, %param0% мин."
+		"Steam_Citadel_InGame_Hero"			"{%param1%} {%param2%} (%param0% мин.)"
+		"Steam_Citadel_InGame"				"{%param1%}  (%param0% мин.)"
+		"Steam_Citadel_Spectating"			"Смотрит матч"
 		"Steam_Citadel_RP_Online"			"В сети"
-	}
+
+		}
 }

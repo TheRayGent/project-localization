@@ -182,17 +182,18 @@
 		"Steam_Citadel_RP_FindingMatch"							"寻找比赛中"
 		
 		// These Match Mode ("MM_") tokens are for the %param0% below.
-		"Steam_Citadel_RP_MM_Unranked"							"比赛"
-		"Steam_Citadel_RP_MM_Ranked"							"比赛"
-		"Steam_Citadel_RP_MM_PrivateLobby"						"私人比赛"
-		"Steam_Citadel_RP_MM_CoopBot"							"合作人机对战"
-		"Steam_Citadel_RP_MM_Tutorial"							"新手教程"
-		"Steam_Citadel_RP_MM_Sandbox"							"沙盒"
+		"Steam_Citadel_RP_MM_Unranked"							"Deadlock："
+		"Steam_Citadel_RP_MM_Ranked"							"段位："
+		"Steam_Citadel_RP_MM_HeroLabs"							"英雄实验室："
+		"Steam_Citadel_RP_MM_PrivateLobby"						"大厅："
+		"Steam_Citadel_RP_MM_CoopBot"							"机器人："
+		"Steam_Citadel_RP_MM_Tutorial"							"教程："
+		"Steam_Citadel_RP_MM_Sandbox"							"沙盒："
 		
 		"Steam_Citadel_InGame_Sandbox"		"在沙盒模式中测试{%param2%}"
-		"Steam_Citadel_InGame_Hero"			"在{%param1%}中，角色为{%param2%}，持续 %param0% 分钟"
-		"Steam_Citadel_InGame"				"在{%param1%}中，持续 %param0% 分钟"
-		"Steam_Citadel_Spectating"			"观看{%param1%}，持续 %param0% 分钟"
+		"Steam_Citadel_InGame_Hero"			"{%param1%} {%param2%}（%param0% 分钟）"
+		"Steam_Citadel_InGame"				"{%param1%}（%param0% 分钟）"
+		"Steam_Citadel_Spectating"			"观看比赛"
 		"Steam_Citadel_RP_Online"			"在线"
 
 		"Steam_RP_hero_vampire"			"Vampire"

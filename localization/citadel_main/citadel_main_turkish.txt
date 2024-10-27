@@ -1,7 +1,7 @@
-﻿"lang" 
-{ 
-	"Language" "turkish" 
-	"Tokens" 
+﻿"lang"
+{
+	"Language" "turkish"
+	"Tokens"
 	{
 		"Citadel_Dashboard_BuildVersion"	"Derleme {d:buildNumber} - {s:buildTime}"
 
@@ -83,7 +83,7 @@
 		"GameUI_Disconnect_ConnectionTimedout"		"Oyun sunucusu ile bağlantı kurulamadı."
 		"GameUI_Disconnect_ServerIncompatible"		"Sunucu sürümü uyumlu değil."
 		"Player_DisconnectReason_Idle"				"Oyun sunucusuyla bağlantı kesildi. Çok uzun süre hareketsiz kaldınız."
-		
+
 
 		"GameUI_Disconnect_LocalProblem_ManyRelays"	"Farklı coğrafik konumlarda bulunan birkaç rölenin de denenmesine rağmen bağlantı kesildi. Büyük olasılıkla internet bağlantınızdaki bir problem buna sebep oluyor."
 		"GameUI_Disconnect_LocalProblem_HostedServerPrimaryRelay"	"Oyun sunucusu istemcinin kullandığı birincil röleyle bağlantıyı kaybetti."
@@ -151,7 +151,7 @@
 		"Citadel_ViewMatchID_Loading_Error"					"Maç İzlenemiyor"
 		"Citadel_ViewMatchID_InFlight_Title"				"Maç hâlâ devam ediyor"
 		"Citadel_ViewMatchID_InFlight_Body"					"Bu maç hâlâ devam ediyor. Maçı izlemek ister misiniz?"
-		
+
 		//Playtest User
 		"Citadel_PlaytestUser_SubmitProcessing"				"Lütfen bekleyin"
 		"Citadel_PlaytestUser_SubmitProcessingTitle"		"Kullanıcı Önerisi Gönderiliyor"
@@ -240,6 +240,12 @@
 		"Citadel_ReportPlayer_Reason_Comments"				"Yorum:"
 		"Citadel_ReportPlayer_CommentPlaceholder"			"Bu oyuncuyla yaşadığınız sorunu anlatın"
 
+		"Citadel_CommendPlayer_PopupTitle"					"Oyuncuyu Öv"
+		"Citadel_CommendPlayer_PopupDesc"					"Birini iyi oynadığı için tebrik edin ve eşleştirme sistemine o kişiyle tekrar oynamak istediğinizi bildirin."
+		"Citadel_CommendPlayer_Friendly"					"Arkadaş Canlısı ve Eğlenceli"
+		"Citadel_CommendPlayer_Teamwork"					"Takım Oyuncusu"
+		"Citadel_CommendPlayer_Skilled"						"Yetenekli Oyuncu"
+
 		"Citadel_SkipTutorial_Title"						"Eğitimi Atla"
 		"Citadel_SkipTutorial_Body"							"Eğitimi atlamak istediğinizden emin misiniz? Bu oyunu henüz oynamadıysanız atlamamanızı tavsiye ederiz."
 
@@ -285,6 +291,8 @@
 		"Citadel_Notification_Paused_Message"						"Oyun duraklatıldı"
 		"Citadel_Notification_Unpaused_Title"						"Başlatıldı"
 		"Citadel_Notification_Unpaused_Message"						"Oyun devam edecek..."
+		"Citadel_Notification_About_To_Respawn_Title"				"Canlanma Süresi"
+		"Citadel_Notification_About_To_Respawn_Message"				"Canlanmak üzeresin..."
 		"Citadel_Hud_PreGame_Countdown"								"Oyun Başlıyor..."
 		"Citadel_Hud_CantPause"										"Oyunu {i:pause_cooldown} saniye sonra duraklatabilirsiniz."
 		"Citadel_Hud_CantUnpause"									"Oyuna {i:pause_cooldown} saniye sonra devam edebilirsiniz."
@@ -321,6 +329,11 @@
 
 		"Citadel_InvalidCast_NoFullClips"							"DOLU ŞARJÖR YOK"
 
+		"Citadel_MatchInfo_Mode_Ranked"								"Dereceli"
+		"Citadel_MatchInfo_Mode_Standard"							"Standart"
+		"Citadel_MatchInfo_Mode_HeroLabs"							"Kahraman Laboratuvarı"
+		"Citadel_MatchInfo_Mode_CoopBot"							"Eşli"
+		"Citadel_MatchInfo_Mode_Private"							"Özel"
 
 		"Citadel_Reconnect_IncompatibleVersionTitle"				"Uyumsuz Sürüm"
 		"Citadel_Reconnect_IncompatibleVersionBody"					"İstemci sürümünüz artık bu sunucuyla uyumlu değil."
@@ -336,7 +349,7 @@
 		"Citadel_Item_Tooltip_CantAfford"							"Yetersiz ruh"
 		//"Citadel_Player_Level_AbilityPoints"						"<span class=\"boldText\">1 Ability Point</span> gained at levels 2, 3, 5, 7, and each level after"
 		//"Citadel_Player_Level_AbilityUnlocks"						"<span class=\"boldText\">1 Ability Unlock</span> gained at levels 1, 2, 4, and 6"
-		//"Citadel_Player_Level_WeaponPower"							"<span class=\"boldText\">+{s:weapon_bonus}% Base Bullet Damage</span>, <span class=\"boldText\">+{s:melee_bonus}% Base Melee damage</span> and <span class=\"boldText\">+{s:health_bonus} Max Health </span>"		
+		//"Citadel_Player_Level_WeaponPower"							"<span class=\"boldText\">+{s:weapon_bonus}% Base Bullet Damage</span>, <span class=\"boldText\">+{s:melee_bonus}% Base Melee damage</span> and <span class=\"boldText\">+{s:health_bonus} Max Health </span>"
 		"Citadel_Player_Level_APShort"								"YP"
 		"Citadel_Player_Level_AbilityUnlocksShort"					"Yetenek Açma"
 		"Citadel_Player_Level_PowerIncreases"						"Güç Artırımları"
@@ -350,6 +363,7 @@
 		"Citadel_Player_Level_BaseHealth"							"Temel Sağlık"
 		"Citadel_Player_Level_SpiritAmp"							"Büyü Hasarı Artırımı"
 		"Citadel_Player_Level_BulletResist"							"Mermi Direnci"
+		"Citadel_Player_Level_TechResist"							"Büyü Direnci"
 		"Citadel_Player_Level_WeaponRange"							"Silah Menzili"
 		"Citadel_Hero_Stats_Tooltip_WeaponPower"					"Silah bölümündeki eşyaları satın alarak elde ettiğiniz silah hasarı ve yakın dövüş hasarınız için toplam bonus"
 		"Citadel_Hero_Stats_Tooltip_HealthMult"						"Can bölümündeki eşyaları satın alarak elde ettiğiniz temel sağlık için toplam bonus."
@@ -386,10 +400,10 @@
 
 		"Citadel_Shop_ImbueTooltip_Title"							"Güçlendirilecek bir yetenek seçin."
 		"Citadel_Shop_ActivePlacementTooltip_Title"					"Satın almayı tamamlamak için bir yetenek yuvası seçin."
-		"Citadel_Shop_ActivePlacementTooltip_Drag"					"Etkin yetenekleri değiştirmek için sürükleyip bırakın."	
+		"Citadel_Shop_ActivePlacementTooltip_Drag"					"Etkin yetenekleri değiştirmek için sürükleyip bırakın."
 
-		"Citadel_Shop_SellMaxItems_Title"							"Tüm yuvalar dolu!"	
-		"Citadel_Shop_SellMaxItems_Desc"							"Bu satın almayı tamamlamak için bir mod seçin ve eşyaları <span class='highlight'>yarı fiyatına satıp değiştirin.</span>"	
+		"Citadel_Shop_SellMaxItems_Title"							"Tüm yuvalar dolu!"
+		"Citadel_Shop_SellMaxItems_Desc"							"Bu satın almayı tamamlamak için bir mod seçin ve eşyaları <span class='highlight'>yarı fiyatına satıp değiştirin.</span>"
 		"Citadel_Shop_SellMaxItems_SellButton"						"Sat"
 
 		"Citadel_Shop_AbilityisImbued"								"Yetenek güçlendirildi"
@@ -472,7 +486,10 @@
 		"Citadel_Play_RankedNoScheduleDesc"					"Dereceli oynamak için bir takvim seçmelisiniz."
 
 		"Citadel_RankedGames_Played"						"{i:ranked_games_played}/{i:ranked_games_required} Oyun Oynandı"
-		"Citadel_RankedGames_PlayedQualified"				"Dereceli eşleştirme açıldı"
+		"Citadel_RankedGame_Played_desc"					"Dereceli modu açmak için oynanacak oyunlar."
+		"Citadel_RankedGames_PlayedQualified"				"Dereceniz, oynayacağınız ek oyunlara göre hesaplanacak."
+		"Citadel_RankedGames_Qualified1"						"Oynayacağınız ek oyunlar derecenizin belirlenmesine etki edecek."
+		"Citadel_RankedGames_Qualified2"						"Nihai derece {t:s:end_day} tarihinde verilecek."
 
 		"Citadel_Play_BotsOfflineTitle"				"Botlar Geçici Olarak Çevrimdışı"
 		"Citadel_Play_BotsOfflineText"				"Botlar geçici olarak devre dışı bırakıldı, lütfen daha sonra tekrar kontrol edin."
@@ -561,7 +578,7 @@
 		"Citadel_PrivateLobby_SwapTeamsTooltip"						"Bulundukları kulvarı koruyarak iki takım arasında üye değişimi yapın."
 		"Citadel_PrivateLobby_RandomizeTeams"						"Tüm Oyuncuları Rastgele Seç"
 		"Citadel_PrivateLobby_ShuffleTeamsTooltip"					"Lobideki oyuncuları iki farklı takıma rastgele atayın."
-		"Citadel_PrivateLobby_ShuffleTeams"							"Takım Oyuncularını Karıştır"		
+		"Citadel_PrivateLobby_ShuffleTeams"							"Takım Oyuncularını Karıştır"
 		"Citadel_PrivateLobby_ShuffleLanesTooltip"					"Takımlardaki oyuncuları rastgele farklı kulvarlara atayın."
 
 		"Citadel_ServerRegion_0"									"Otomatik Bölge Seçimi"
@@ -600,11 +617,11 @@
 		"Citadel_Party_CancelMM"									"İptal Et"
 		"Citadel_Party_NotConnectedToGC"							"Deadlock ağına bağlı değil"
 		"Citadel_Party_PlayerLabel"									"Oyuncu"
-		"Citadel_Party_SpectatorLabel"								"İzleyici"	
+		"Citadel_Party_SpectatorLabel"								"İzleyici"
 		"Citadel_Party_Or"											"Veya"
 		"Citadel_Party_ReadyUp"										"Hazır"
 		"Citadel_Party_RolePlayer"									"Oyuncu"
-		"Citadel_Party_RoleSpectator"								"İzleyici"	
+		"Citadel_Party_RoleSpectator"								"İzleyici"
 		"Citadel_Party_CreatePartyTitle"							"Parti Oluşturuluyor"
 		"Citadel_Party_CreatePartyText"								"Lütfen bekleyin"
 		"Citadel_Party_JoinPartyTitle"								"Partiye Katılıyorsunuz"
@@ -637,7 +654,7 @@
 		"Citadel_AcceptedInvitation_Title"							"Davet Kabul Edildi"
 		"Citadel_Party_SetMatchModeTitle"							"Parti Modu Ayarlanıyor"
 		"Citadel_Party_SetMatchModeText"							"Partiniz kurulurken lütfen bekleyin."
-		"Citadel_AcceptedInvitation_Name"							"{g:citadel_persona:accepted_invitation} davetinizi kabul etti."		 
+		"Citadel_AcceptedInvitation_Name"							"{g:citadel_persona:accepted_invitation} davetinizi kabul etti."
 		"Citadel_Party_KickedByTitle"								"Partiden Atıldı"
 		"Citadel_Party_KickedByText"								"{g:citadel_persona:kicked_by_account} sizi partiden attı."
 		"Citadel_Party_DraftEndedByTitle"							"Maç İptal Edildi"
@@ -659,8 +676,8 @@
 		"Citadel_PartyInviteFriend_InvitesFull"						"Maks. üye"
 		"Citadel_JoinParty_Title"									"Partiye Katıl"
 		"Citadel_JoinParty_Desc"									"Parti kodu aldıysanız lütfen kodu aşağıya girin."
-		"Citadel_JoinParty_Prompt"									"Parti ID"	
-		"Citadel_Party_Invites"										"Parti Davetleri"
+		"Citadel_JoinParty_Prompt"									"Parti ID"
+		"Citadel_Party_Invites:p{party_invites}"					"<span class=\"InviteCount\">{d:party_invites} </span><span class=\"InviteHeaderText\">Parti Daveti</span>#|#<span class=\"InviteCount\">{d:party_invites} </span><span class=\"InviteHeaderText\">Parti Daveti</span>"
 		"Citadel_PartyStartMatch"									"Maçı Başlat"
 		"Citadel_PartyFindMatch"									"Maç Bul"
 		"Citadel_Party_CreateEasyBot"								"Arkadaşlarınızı davet edip kolay botlara karşı birlikte oynayabilmek için bir parti oluşturun."
@@ -686,6 +703,7 @@
 
 		"Citadel_RosterMode_Party_Matchmaking"						"Deadlock Oyna"
 		"Citadel_RosterMode_Party_RankedMatchmaking"				"Dereceli Oyna"
+		"Citadel_RosterMode_Party_HeroLabsMatchmake"					"Kahraman Laboratuvarı Oyna"
 		"Citadel_RosterMode_Party_CoopBotMM"						"Botlara Karşı Oyna"
 		"Citadel_RosterMode_Party_PrivateBotEasy"					"Özel Bot Maçı (Parti) - Kolay"
 		"Citadel_RosterMode_Party_PrivateBotMedium"					"Özel Bot Maçı (Parti) - Orta"
@@ -697,6 +715,7 @@
 
 		"Citadel_RosterMode_Matchmaking"							"Deadlock Oyna"
 		"Citadel_RosterMode_RankedMatchmaking"						"Dereceli Oyna"
+		"Citadel_RosterMode_HeroLabsMatchmaking"					"Kahraman Laboratuvarı Oyna"
 		"Citadel_RosterMode_CoopBotMM"								"Botlara Karşı Oyna"
 		"Citadel_RosterMode_PrivateBotEasy"							"Özel Bot Maçı - Kolay"
 		"Citadel_RosterMode_PrivateBotMedium"						"Özel Bot Maçı - Orta"
@@ -726,6 +745,9 @@
 		"Citadel_Roster_Instructions_Desc"							"En az üç kahraman seçin. Maç başladığında otomatik olarak bu kahramanlardan biriyle oynayacaksınız.<br><br>Belirli bir kahramanla oynama şansınızı artırmak için kahramanları <span class='selected'><b>seçili</b></span>, <span class='priority'><b>öncelikli</b></span> veya <span class='high_priority'><b>yüksek öncelikli</b></span> olarak işaretleyebilirsiniz."
 		"Citadel_Roster_Instructions_Select"						"<span class='keybind'>{s:iv_attack}</span> Bir kahramanı seçili olarak işaretler."
 		"Citadel_Roster_Instructions_Prefer"						"<span class='keybind'>{s:iv_attack2}</span> <b>Öncelikli</b> veya <b>yüksek öncelikli</b> arasında geçiş yapar."
+
+		"Citadel_Roster_Instructions_Title_HeroLabs"				"Kahraman Laboratuvarı"
+		"Citadel_Roster_Instructions_Desc_HeroLabs"					"Yeni deneysel kahramanlarla veya onlara karşı oynayın.<br><br>En az üç kahraman seçin. <b>Seçilen kahramanlardan ikisi standart, test dışı kahramanlar olmalıdır.</b> Oyuncuların kadrolarındaki deneysel bir kahramanı alma ihtimali, herhangi bir deneysel kahramanla oynamalarının üzerinden ne kadar zaman geçtiğine bağlı olarak değişir."
 
 		"Citadel_ViewMatchID_Title"									"Maç ID'yi Göster"
 		"Citadel_ViewMatchID_Desc"									"Maç detaylarını görüntülemek için bir Maç ID girin"
@@ -805,7 +827,7 @@
 		//"Citadel_HUD_LevelReward_BulletResist"						"Spirit Damage"
 		//"Citadel_HUD_LevelReward_WeaponRange"						"Spirit Damage"
 		"Citadel_HUD_LevelReward_NextRewardsLabel"					"Sonraki Ödüller:"
-		
+
 		"Citadel_Hud_KillFeedNone"									"<Hiçbiri>"
 		"Citadel_Hud_KillFeedTrooper"								"Asker No. {i:unit_num}"
 		"Citadel_Hud_KillFeedSuperNeutral"							"Tapınak Muhafızı"
@@ -857,7 +879,7 @@
 		"Objective_Enemy_ShieldGenerator"							"Düşman Tapınağı"
 		"Objective_Team1_ShieldGenerator"							"Kehribar Tapınağı"
 		"Objective_Team2_ShieldGenerator"							"Safir Tapınağı"
-		
+
 		"Objective_Friendly_Final"						"Dost Koruyucu (zayıf)"
 		"Objective_Enemy_Final"							"Düşman Koruyucu (zayıf)"
 		"Objective_Team1_Final"							"Kehribar Koruyucu (zayıf)"
@@ -868,8 +890,8 @@
 
 		"Citadel_Team1_Name"							"Kehribar El"
 		"Citadel_Team2_Name"							"Safir Alev"
-		"Citadel_Team1_Name_Uppercase"					"KEHRİBAR EL"
-		"Citadel_Team2_Name_Uppercase"					"SAFİR ALEV"
+		"Citadel_Team1_Name_Uppercase:n"					"KEHRİBAR EL"
+		"Citadel_Team2_Name_Uppercase:n"					"SAFİR ALEV"
 
 		"Citadel_Mod_Tooltip_Passive"									"Pasif"
 		"Citadel_Mod_Tooltip_Active"									"Aktif"
@@ -889,6 +911,7 @@
 
 
 		"Citadel_HUD_Damage_TooFar"									"Çok Uzak"
+		"Citadel_HUD_Damage_TooLow"									"Çok Aşağıda"
 		"Citadel_HUD_Damage_Invulnerable"							"Korumalı"
 		"Citadel_HUD_Damage_NoTroopers"								"Asker Gerekli"
 		"Citadel_HUD_Damage_Resistant"								"Dirençli"
@@ -915,7 +938,7 @@
 		"Citadel_HUD_DamageReport_DamageDealt"						"Verilen Hasar"
 		"Citadel_HUD_DamageReport_TopDamageSources:p{num_damage_rows}"	"En Fazla Hasar Veren Kaynak#|#En Fazla Hasar Veren {i:num_damage_rows} Kaynak"
 		"Citadel_HUD_DamageReport_ShowMore"							"Daha Fazla Göster"
-		
+
 		"Citadel_HUD_DamageReport_LastRespawn"						"Mevcut Can"
 		"Citadel_HUD_DamageReport_Time600"							"10 dakika"
 		"Citadel_HUD_DamageReport_Time300"							"5 dakika"
@@ -934,7 +957,7 @@
 		"Citadel_HUD_DamageReport_DamagePercentAbility"				"%{i:ability_damage_percent}"
 
 		"Citadel_HUD_Impact_Kill"									"Leş"
-		"Citadel_HUD_Impact_Assist"									"Leş<br>Asist"		
+		"Citadel_HUD_Impact_Assist"									"Leş<br>Asist"
 
 		"Citadel_PartyChat_Title"									"Parti Sohbeti"
 		"Citadel_PartyChat_VoiceAndText"							"Sesli ve Yazılı Sohbet"
@@ -943,7 +966,7 @@
 		"Citadel_ChatType_Disabled"									"Devre dışı"
 		"Citadel_ChatType_AllTeam"									"Tüm takım"
 		"Citadel_ChatType_PartyOnly"								"Yalnızca parti"
-		
+
 		"Citadel_HUD_DamageRows_DamageName"							"{s:damage_name}"
 		"Citadel_HUD_DamageRows_DamageValue"						"{i:damage_done}"
 		"Citadel_HUD_DamageRows_Hits:p{hit_count}"					"({i:hit_count} vuruş)#|#({i:hit_count} vuruş)"
@@ -993,6 +1016,9 @@
 		"Citadel_PlayerContextMenu_AudioVolume"						"Ses Seviyesi"
 		"Citadel_PlayerContextMenu_EmptyMenu"						"--"
 
+		"Citadel_PostGame_CopyMatchID"								"Maç ID'yi Kopyala"
+		"Citadel_PostGame_CopyMatchIDSuccess"						"Kopyalandı"
+
 		"Citadel_PlayerCard_FavoriteHero"							"Favori Kahraman"
 
 		"Citadel_Party_Context_Invite"								"Arkadaş Davet Et"
@@ -1005,6 +1031,9 @@
 		"Citadel_Party_Leave"										"Partiden Ayrıl"
 		"Citadel_Party_Report"										"Rapor"
 		"Citadel_Party_Reported"									"Bildirildi"
+
+		"Citadel_Party_Commend"										"Öv"
+		"Citadel_Party_Commended"									"Övüldü"
 
 		"Citadel_PlayerList_Teammates"								"Takım Arkadaşları"
 		"Citadel_PlayerList_Enemy"									"Düşman Takımı"
@@ -1073,6 +1102,9 @@
 		"Citadel_StartMatchmaking_InvalidHeroSelection"				"Eşleştirmeye katılmak için geçerli kahramanlar seçmediniz."
 		"Citadel_StartMatchmaking_HeroRosterTooPopular"				"Kahraman kadronuzdaki tüm kahramanlar şu anda kullanımda."
 		"Citadel_StartMatchmaking_NoRegionPings"					"Steam Datagram Relay ile iletişim kurulamıyor. İnternete bağlıysanız, bu sorun genellikle güvenlik duvarınız, MTU'nuz (maksimum iletim birimi) veya internet bağlantınızdaki bir sorundan kaynaklanır."
+		"Citadel_StartMatchmaking_HeroLabsMMNotOpen"				"Kahraman Laboratuvarı eşleştirmesi şu anda etkin değil."
+		"Citadel_StartMatchmaking_HeroLabsNotUnlocked"				"Henüz Kahraman Laboratuvarı eşleştirmesini açmadınız."
+		"Citadel_StartMatchmaking_NoHeroLabsWhileInLowPri"			"Düşük öncelikteyken Kahraman Laboratuvarı eşleştirmesine izin verilmez."
 		"Citadel_StopMatchMaking_FailedToGetResponse"				"Eşleştirme durduruldu. Oyun koordinatöründen yanıt alınamadı."
 		"Citadel_StopMatchMaking_GeneralError"						"Eşleştirme başarısız. Lütfen tekrar deneyin."
 		"Citadel_LeaveLobby_FailedToGetResponse"					"Eşleştirme durdurulamadı. Lütfen tekrar deneyin."
@@ -1089,7 +1121,7 @@
 		"Citadel_IdleMatchmaking_IdleTimerExpired_Body"				"Eşleştirmede çok uzun süredir hareketsiz bekliyorsunuz, lütfen beklemeye devam ettiğinizi göstermek için fareyi hareket ettirin!"
 		"Citadel_IdleMatchmaking_Dialog_Title"						"Eşleştirmede Hareketsiz Bekleme"
 		"Citadel_IdleMatchmaking_Dialog_Body"						"Şu anda eşleştirmedesiniz ancak bilgisayarınızın başında olmadığınız görülüyor. Lütfen farenizi hareket ettirin, aksi takdirde eşleştirmeden çıkarılacaksınız."
-		
+
 		"Citadel_Dashboard_EnterMatchmaking"						"Eşleştirmeye\nGir"
 		"Citadel_Dashboard_Roster_HeroTooPopular"					"Seçili tüm kahramanlar zaten kuyrukta"
 		"Citadel_Dashboard_Roster_MissingHeroes"					"<span class=\"rosterErrorText\">Eşleştirmeye girmek için kadroya 3 kahraman seçmelisiniz</span>"
@@ -1118,7 +1150,15 @@
 		"Citadel_Dashboard_ShowAnnounceTooltip"						"Duyuruları Görüntüle"
 		"Citadel_Dashboard_CloseAnnounceTooltip"					"Duyuruları Kapat"
 		"Citadel_Dashboard_ViewLibrary"								"Kütüphaneyi Görüntüle"
-
+		"Citadel_Dashboard_ReloadPageTooltip"						"Mevcut sayfayı yeniden yükleyin."
+		"Citadel_Dashboard_Status_Mode_Unranked"					"Standart Maç"
+		"Citadel_Dashboard_Status_Mode_Ranked"						"Dereceli Maç"
+		"Citadel_Dashboard_Status_Mode_HeroLabs"					"Kahraman Laboratuvarı Maçı"
+		"Citadel_Dashboard_Status_Mode_Private"						"Özel Maç"
+		"Citadel_Dashboard_Status_Mode_Coop"						"Eşli Bot Maçı"
+		
+		"Citadel_Dashboard_ShowHeroLabHeroes"						"Deneysel Kahramanları Göster"
+		
 		"Citadel_Watch_Title"										"Maçları İzleyin"
 		"Citadel_Watch_Featured"									"Öne Çıkan Maçlar"
 		"Citadel_Watch_Loading"										"Yükleniyor..."
@@ -1206,7 +1246,7 @@
 		"Citadel_PartyAction_TooBusy"							"Deadlock ağı şu anda çok yoğun olduğu için işlem gerçekleştirilemiyor. Lütfen daha sonra tekrar deneyin."
 		"Citadel_PartyAction_RateLimited"						"Kısa sürede çok fazla işlem gerçekleştirdiniz. Lütfen daha sonra tekrar deneyin."
 		"Citadel_PartyAction_AlreadyDrafting"					"Parti maça başladı. Başka bir maça başlamadan önce mevcut maçı durdurmalısınız."
-		
+
 		"Citadel_PartySetMode_ErrorTitle"						"Hata"
 		"Citadel_PartySetMode_FailedToGetResponse"				"Şu anda Deadlock ağıyla iletişim kurulamıyor. Lütfen daha sonra tekrar deneyin."
 		"Citadel_PartySetMode_InternalError"					"Beklenmeyen dahili bir hata oluştu. Lütfen daha sonra tekrar deneyin."
@@ -1224,6 +1264,10 @@
 		"Citadel_PartySetMode_PlayerPermaBanned"				"Partinizin üyesi {g:citadel_persona:nl:account_id}, kalıcı olarak bu moddan yasaklandı."
 		"Citadel_PartySetMode_CannotLeavePrivate"				"Özel lobilerin mod değiştirmesine şu anda izin verilmiyor."
 		"Citadel_PartySetMode_FiveStacksNotAllowed"				"Beş oyunculu partilerin eşleştirmeye katılmasına şu anda izin verilmiyor. Lütfen daha büyük veya daha küçük bir partiyle tekrar deneyin."
+		"Citadel_PartySetMode_HeroLabsMMNotOpen"				"Kahraman Laboratuvarı eşleştirmesi şu anda etkin değil."
+		"Citadel_PartySetMode_HeroLabsNotUnlocked"				"Partinizin üyesi {g:citadel_persona:nl:account_id}, Kahraman Laboratuvarı eşleştirmesi için henüz uygun değil."
+		"Citadel_PartySetMode_NoHeroLabsWhileInLowPri"			"Partinizin üyesi {g:citadel_persona:nl:account_id}, düşük öncelikli olduğundan Kahraman Laboratuvarı eşleştirmesine katılamaz."
+		"Citadel_PartySetMode_NoHighRangeFiveStack"				"Partinizde 5 oyuncu var ve yetenek seviyeleri çok farklı. Parti üyeleriniz arasındaki yetenek farkı normalde izin verilenden daha fazla olduğunda, benzer yetenek farkına sahip partilerle eşleştiririz. Partinizde 5 üye olduğu için şu anda sizi eşleştirecek geçerli bir parti kombinasyonu yok. Eşleştirmeye girebilmek için partinizin üyelerini veya üye sayısını değiştirin."
 
 		"Citadel_PartyInvite_ErrorTitle"						"Davet Gönderilemedi"
 		"Citadel_PartyInvite_FailedToGetResponse"				"Şu anda Deadlock ağıyla iletişim kurulamadığı için kullanıcı davet edilemiyor. Lütfen daha sonra tekrar deneyin."
@@ -1285,17 +1329,19 @@
 		"Citadel_Profile_Win_Short"								"G"
 		"Citadel_Profile_Loss_Short"							"M"
 		"Citadel_Profile_Statistics"							"İstatistikler"
+		"Citadel_Profile_RankHistory"							"Derece Geçmişi"
 		"Citadel_Profile_Stats_All"								"Tüm Kahramanlar"
 		"Citadel_Profile_Stats_TitleSection"					"Tüm Zamanların İstatistikleri"
 		"Citadel_Profile_Stats_GamesPlayed"						"Oynanan Oyun"
-		"Citadel_Profile_Stats_GamesWon"						"Kazanılan Oyun"		
+		"Citadel_Profile_Stats_GamesWon"						"Kazanılan Oyun"
 		"Citadel_Profile_Stats_Kills"							"Leş"
 		"Citadel_Profile_Stats_Assists"							"Asist"
-		"Citadel_Profile_Stats_HeroDamage"						"Kahraman Hasarı"		
-		"Citadel_Profile_Stats_ObjDamage"						"Hedef Hasarı"		
-		"Citadel_Profile_Stats_LastHits"						"Son Vuruş"		
-		"Citadel_Profile_Stats_Denies"							"Reddetme"		
-		"Citadel_Profile_Stats_Healing"							"İyileştirme"		
+		"Citadel_Profile_Stats_HeroDamage"						"Kahraman Hasarı"
+		"Citadel_Profile_Stats_ObjDamage"						"Hedef Hasarı"
+		"Citadel_Profile_Stats_LastHits"						"Son Vuruş"
+		"Citadel_Profile_Stats_Denies"							"Reddetme"
+		"Citadel_Profile_Stats_Healing"							"İyileştirme"
+		"Citadel_Profile_Stats_Commends"						"Övgüler"
 		"Citadel_Profile_Stats_Networth"						"Toplanan Ruh"
 		"Citadel_Profile_Stats_Value_Networth_Low"				"{i:game_networth}"
 		"Citadel_Profile_Stats_Value_Networth_High"				"{i:game_networth} bin"
@@ -1318,6 +1364,7 @@
 		"Citadel_MatchDetails_Report"							"R"
 		"Citadel_MatchDetails_ReportTooltip"					"Oyuncuyu Bildirmek İçin Tıkla"
 		"Citadel_MatchDetails_Reported"							"Oyuncu Bildirildi!"
+		"Citadel_MatchDetails_CommendTooltip"					"Oyuncuyu övmek için tıklayın."
 		"Citadel_MatchDetails_Team1NetWorth"					"{i:team1_networth} Bin"
 		"Citadel_MatchDetails_Team2NetWorth"					"{i:team2_networth} Bin"
 		"Citadel_MatchDetails_Team1Name"						"{i:team2_networth} Bin"
@@ -1364,6 +1411,7 @@
 		"Citadel_ProfileCard_StatTitle_Wins"					"Galibiyet"
 		"Citadel_ProfileCard_StatTitle_Kills"					"Leş"
 		"Citadel_ProfileCard_StatTitle_GamesPlayed"				"Maç"
+		"Citadel_ProfileCard_StatTitle_Commends"				"Övgüler"
 
 		"Citadel_ProfileCard_StatValue_Int"						"{d:stat_value}"
 		"Citadel_ProfileCard_StatValue_Date"					"{t:s:stat_value}"
@@ -1389,7 +1437,7 @@
 		"Citadel_Replay_DownloadingPct"							"İndiriliyor - %{d:replay_progress}"
 		"Citadel_Replay_DecompressPct"							"Açılıyor - %{d:replay_progress}"
 		"Citadel_Replay_Delete"									"Tekrarı Sil"
-		
+
 		"Citadel_Graph_Team1"							"Amber"
 		"Citadel_Graph_Team2"							"Safir"
 		"Citadel_Graph_WeaponDamage"					"Silah Hasarı"
@@ -1464,8 +1512,8 @@
 		"CitadelHeroStats_SpiritPower_Impact"				"Büyü Gücü Etkisi"
 		"CitadelHeroStats_SpiritPower_Desc"					"Büyü gücü, yeteneklerinizin ve eşyalarınızın etkisini artırır."
 		"CitadelHeroStats_Weapon_Falloff"					"Hasar Azalması Mesafesi"
-	
-		// Hero Builds UI	
+
+		// Hero Builds UI
 		"Citadel_HeroBuilds_Title"						"Kahraman Planları"
 		"Citadel_HeroBuilds_SelectedBuild_Title"		"Mevcut Planım:"
 		"Citadel_HeroBuilds_Browse_button"				"Planı Görüntüle veya Değiştir"
@@ -1513,9 +1561,9 @@
 
 		"Citadel_HeroBuilds_CurrenclyActive"			"Şu Anda Etkin"
 		"Citadel_HeroBuilds_AbilityBuildTitle"			"Yetenek Puanı Sırası"
-		"Citadel_HeroBuilds_AbilityBuildReset"			"Düzenle"	
-		"Citadel_HeroBuilds_AbilityBuildInstructions"	"Önerilen yetenek geliştirme sırasını belirlemek için düzenle butonuna basın ve yetenekleri, planınızın kullanıcılarına görünmesini istediğiniz sıraya göre geliştirin."	
-		
+		"Citadel_HeroBuilds_AbilityBuildReset"			"Düzenle"
+		"Citadel_HeroBuilds_AbilityBuildInstructions"	"Önerilen yetenek geliştirme sırasını belirlemek için düzenle butonuna basın ve yetenekleri, planınızın kullanıcılarına görünmesini istediğiniz sıraya göre geliştirin."
+
 		"Citadel_HeroBuilds_PublishBuildTitle"			"Kahraman Planını Yayınla"
 		"Citadel_HeroBuilds_PublishBuildDesc"			"Bu plan diğer oyuncularla paylaşılmak üzere herkese açık olacak."
 		"Citadel_HeroBuilds_BuildNameTitle"				"Plan Adı"
@@ -1536,10 +1584,10 @@
 		"Citadel_HeroBuilds_ErrorTitle"					"Hata"
 		"Citadel_HeroBuilds_ValidateErrorTitle"			"Plan Kaydedilemedi"
 		"Citadel_HeroBuilds_ValidateErrorBody"			"Planın bir açıklamaya ve isme ve en az 1 önerilen eşyaya sahip olduğundan emin olun."
-		"Citadel_HeroBuilds_FavoriteCount"				"{i:favorite_count}"		
-		"Citadel_HeroBuilds_DailyFavorite"				"Yükselişte"		
-		"Citadel_HeroBuilds_WeeklyFavorite"				"Popüler"		
-		"Citadel_HeroBuilds_AllTimeFavorite"			"Tüm Zamanlar"		
+		"Citadel_HeroBuilds_FavoriteCount"				"{i:favorite_count}"
+		"Citadel_HeroBuilds_DailyFavorite"				"Yükselişte"
+		"Citadel_HeroBuilds_WeeklyFavorite"				"Popüler"
+		"Citadel_HeroBuilds_AllTimeFavorite"			"Tüm Zamanlar"
 		"Citadel_HeroBuilds_New"						"Yeni"
 		"Citadel_HeroBuilds_Old"						"Eski"
 		"Citadel_HeroBuilds_NameLabel"					"Plan Adı"
@@ -1608,7 +1656,7 @@
 		// Item and Upgrade Modifiers
 
 
-			
+
 		"citadel_ability_sprint_roll"			"Koşma"
 		"modifier_citadel_sprint_start"			"Silah Kılıfa Konuluyor..."
 		"modifier_citadel_sprint_end"			"Silah Çekiliyor..."
@@ -1626,7 +1674,7 @@
 
 		"citadel_ability_drone_boss_laser_beam"		"Liderin Lazeri"
 
-		
+
 		"citadel_ability_dash"						"Atılma"
 		"citadel_ability_jump"						"Zıplama"
 		"citadel_ability_teleport"					"Işınlanma"
@@ -1639,8 +1687,10 @@
 		"modifier_neutral_gold_pickup_aura/aura_target/timer"	"Geçici Ruhlar Toplanıyor"
 		"modifier_rejuv_pickup_aura/aura_target/timer"			"Takım canlandırıcı alınıyor"
 		"modifier_early_gold_pickup_aura/aura_target/timer"		"Takım ruhları toplanıyor"
-		"modifier_citadel_holding_golden_idol"  				"Düşmanlar sizi görüyor! Vazoyu bir sunağa götürün."							
+		"modifier_citadel_holding_golden_idol"  				"Vazoyu bir sunağa götürün"
+		"modifier_citadel_holding_golden_idol_revealed"			"Düşmanlar sizi görüyor! Vazoyu bir sunağa götürün."
 		"modifier_citadel_returning_golden_idol"  				"Vazo bırakılıyor"
+		"modifier_citadel_idol_pickup_disabled"					"Ruh Vazosu Alma Devre Dışı"
 		"modifier_knocked_off_zipline_slow"						"Halattan düşürüldün"
 		"modifier_citadel_respawn_credit" 						"Canlandırma Kredisi"
 
@@ -1703,7 +1753,7 @@
 		"CITADEL_ABILITY_INVALID_NO_DAMAGE_TO_CLEAR"	"Silinecek hasar yok"
 
 		"citadel_ability_interrupted"					"Kesintiye uğratıldı:"
-		
+
 		"citadel_ability_quick_melee" "Yakın Dövüş"
 		"citadel_hint_zoom"			"Silahınızla yakınlaştırma yapmak için <span class=\"hintTextEmphasis\">[{s:iv_attack2}]</span> tuşuna basın."
 		"citadel_hint_slide"		"Yokuş aşağı koşarken kaymak için <span class=\"hintTextEmphasis\">[{s:duck}]</span> tuşuna basılı tutun."
@@ -1717,7 +1767,7 @@
 		"citadel_hint_upgrade_ability"	"Yeteneklerinizi geliştirmek için <span class=\"hintTextEmphasis\">[{s:show_scoreboard}]</span> tuşuna basılı tutun."
 		"citadel_hint_hero_testing_shop"	"Dükkânı açmak ve seçenekleri test etmek için <span class=\"hintTextEmphasis\">[{s:citadel_open_hero_sheet}]</span> tuşuna basın."
 		"citadel_hint_teleport"				"2. kademe lideriniz saldırı altında. <span class=\"hintTextEmphasis\">[{s:key_teleport}]</span> tuşuyla ışınlanın ve yardım edin!"
-		
+
 		// Ability Hints
 		"citadel_hint_flamedash_boost" "Hızlanmak için <span class=\"hintTextEmphasis\">[{s:key_innate_1}]</span> tuşuna basın. Kuvvet gerektirir."
 		"citadel_hint_activate_wall" "Duvarı erken oluşturmak için <span class=\"hintTextEmphasis\">[{s:iv_attack}]</span> tuşuna basın."
@@ -1750,7 +1800,7 @@
 		"survival_powerup_pickup"							"Hayatta Kalma"
 		"casting_powerup_pickup"							"Kullanma"
 		"movement_powerup_pickup"							"Hareket"
-		
+
 		"spirit_permanent_pickup_label"					"+2 Büyü"
 		"firerate_permanent_pickup_label"				"+%1,5 Atış Hızı"
 		"ammo_permanent_pickup_label"					"+%4 Cephane"
@@ -1798,7 +1848,7 @@
 		"citadel_settings_per_unit_hotkeys"				"Kahramana Özel Kısayol Tuşları"
 		"citadel_Hotkeys_Tooltip_PerUnitHotkeys"		"Kahramana Özel Kısayol Tuşlarını Aç/Kapa"
 		"citadel_settings_defaultkeybinds"				"Varsayılan"
-		"citadel_ClearHeroHotkeyBindings"				"Varsayılana Sıfırla"		
+		"citadel_ClearHeroHotkeyBindings"				"Varsayılana Sıfırla"
 		"citadel_settings_chatwheel"					"Sohbet Çarkı"
 		"chat_wheel_options"							"ÇARK SEÇENEKLERİ"
 		"citadel_settings_volume"						"Ses Seviyeleri"
@@ -1812,7 +1862,7 @@
 		"citadel_settings_musicvolume"					"Menü Müziği"
 		"citadel_settings_musicvolume_desc"				"Ana menü müziğinin ses seviyesini ayarlar."
 		"citadel_settings_voicevolume"					"Sesli Sohbet (Diğer Oyuncular)"
-		"citadel_settings_voicevolume_desc"				"Diğer oyuncuların mikrofonlarının ses seviyesini ayarlar."	
+		"citadel_settings_voicevolume_desc"				"Diğer oyuncuların mikrofonlarının ses seviyesini ayarlar."
 		"citadel_settings_gamevoicevolume"				"Ses Girdisi Düzeyi (Sizin)"
 		"citadel_settings_gamevoicevolume_desc"			"Mikrofonunuzun girdi ses seviyesini kontrol eder."
 		"citadel_settings_playsoundinbackground" 		"Sesleri Arka Planda Çal"
@@ -1905,6 +1955,7 @@
 		"citadel_settings_streamlined_mic"				"Kolay Mikrofon"
 		"citadel_settings_chat_invert_ping"				"Pingi Ters Çevir"
 		"citadel_settings_mousesensitivity"				"Fare Hassasiyeti"
+		"citadel_settings_mousesensitivity_y_scale"		"Fare Hassasiyeti: Dikey Ölçekleme"
 		"citadel_settings_mousezoomsensitivity"			"Yakınlaştırma Hassasiyet Oranı"
 		"citadel_settings_keybinddefaults"				"VARSAYILAN TUŞ ATAMALARINI GERİ YÜKLE"
 		"citadel_settings_pingwheeldefaults"			"VARSAYILAN PİNG ÇARKINI GERİ YÜKLE"
@@ -1943,12 +1994,12 @@
 		"citadel_settings_crosshair_pip_width"				"Genişlik"
 		"citadel_settings_crosshair_pip_height"				"Yükseklik"
 		"citadel_settings_crosshair_pip_border"				"Gösterge Sınırlarını Göster"
-		
+
 		"citadel_settings_crosshair_color"					"Renk"
 		"citadel_settings_crosshair_color_r"				"Kırmızı"
 		"citadel_settings_crosshair_color_g"				"Yeşil"
 		"citadel_settings_crosshair_color_b"				"Mavi"
-		
+
 		"citadel_settings_crosshair_visibility"				"Nokta"
 		"citadel_settings_crosshair_pip_opacity"			"Gösterge Şeffaflığı"
 		"citadel_settings_crosshair_dot_opacity"			"Nokta Şeffaflığı"
@@ -2102,9 +2153,12 @@
 		"citadel_keybind_backwards"						"Geri"
 		"citadel_keybind_left"							"Sol (Yanal)"
 		"citadel_keybind_right"							"Sağ (Yanal)"
+		"citadel_keybind_up"							"Yüksel"
+		"citadel_keybind_down"							"Alçal"
 		"citadel_keybind_mantle"						"Zıplama/Tırmanma"
 		"citadel_keybind_attack"						"Ateş Et"
 		"citadel_keybind_ads"							"Yakınlaştır"
+		"citadel_keybind_reset_camera"					"Kamerayı Sıfırla"
 		"citadel_keybind_ping"							"Ping"
 		"citadel_keybind_quick_response"				"Hızlı Yanıt"
 		"citadel_keybind_extra_info"					"Ek Bilgi"
@@ -2330,10 +2384,9 @@
 		"kill_hype_FirstBlood"	"İlk Kan"
 
 		"team_msg_Idol_Desc"	"Ruh Vazosu"
-		
-		//"team_msg_Winner_SubText"	"The Patrons favor you"
-		"Citadel_GameOver_Victory"	"Zafer"
-		"Citadel_GameOver_Defeat"	"Yenilgi"
+
+		"Citadel_GameOver_Victory:g"	"Zafer"
+		"Citadel_GameOver_Defeat:g"		"Yenilgi"
 
 
 		"Citadel_LaneColorPurple"						"Mor"
@@ -2348,8 +2401,8 @@
 		"Citadel_TeamMsg_TitanKilledTitle"				"Sizin Koruyucunuz"
 
 		"Citadel_FlexSlot_Title"						"Esnek Yuva Açıldı"
-		"Citadel_FlexSlotUnlockedAllTier1"				"<span class=\"FlexSlotObjectiveName\">Düşman muhafızların</span> tamamını öldürerek bir esnek yuvayı açtınız."
-		"Citadel_FlexSlotUnlockedGenerator"				"İlk <span class=\"FlexSlotObjectiveName\">tapınağı</span> yok ederek bir esnek yuvayı açtınız."
+		"Citadel_FlexSlotUnlockedAllTier1"				"<span class=\"FlexSlotObjectiveName\">Düşman muhafızların</span> üçünü öldürerek bir esnek yuvayı açtınız."
+		"Citadel_FlexSlotUnlockedGenerator"				"<span class=\"FlexSlotObjectiveName\">Düşman tapınaklarının</span> ikisini öldürerek bir esnek yuvayı açtınız."
 		"Citadel_FlexSlotUnlockedAllTier2"				"<span class=\"FlexSlotObjectiveName\">Düşman dörtayakların</span> tamamını öldürerek bir esnek yuvayı açtınız."
 		"Citadel_FlexSlotUnlockedKill2Tier2"			"<span class=\"FlexSlotObjectiveName\">Düşman dörtayakların</span> ikisini öldürerek bir esnek yuvayı açtınız."
 
@@ -2391,6 +2444,7 @@
 		"menu_getstarted"							"Başlangıç"
 		"menu_bot_practice"							"Özel Bot Maçı"
 		"menu_bot_custom"							"Özel Maç"
+		"menu_bot_hero_labs"						"Kahraman Laboratuvarı"
 		"menu_learn"								"Öğren"
 		"menu_resources"							"Kaynaklar"
 		"menu_training"								"Eğitim"
@@ -2406,7 +2460,11 @@
 		"Citadel_Confirm_Discord_InMatch_Body"		"Lütfen Discord bağlantınızı bir partide veya eşleştirmede değilken alın."
 		"Citadel_Dashboard_Recommended"				"Önerilen"
 
-		"Citadel_Commend_Toast"						"{s:commender} ({s:commender_hero}) sizi övdü!"
+		"Citadel_Commend_Toast_NoHero_Generic"		"{s:commender} sizi övdü."
+		"Citadel_Commend_Toast_Generic"				"{s:commender} ({s:commender_hero}) sizi övdü."
+		"Citadel_Commend_Toast_Friendly"			"{s:commender} ({s:commender_hero}) sizi arkadaş canlısı ve eğlenceli olduğunuz için övdü."
+		"Citadel_Commend_Toast_Teamwork"			"{s:commender} ({s:commender_hero}) sizi takım oyuncusu olduğunuz için övdü."
+		"Citadel_Commend_Toast_Skilled"				"{s:commender} ({s:commender_hero}) sizi yetenekli oyuncu olduğunuz için övdü."
 
 		"menu_exit_db_page"							"Geri"
 		"menu_settings"								"Ayarlar"
@@ -2434,6 +2492,8 @@
 		"menu_play_lane_training_desc"				"Oyunun ilk aşamalarını yol gösterici dost bir kahramanla öğrenin."
 		"menu_play_bots_easy_desc"					"Botlara karşı özel bir maç oynayın."
 		"menu_play_custom_game_desc"				"En fazla 12 oyuncu için özel bir maç oluşturun veya bir maça katılın."
+		"menu_play_hero_labs_desc"					"Yeni deneysel kahramanları test etmemize yardımcı olun."
+		"menu_play_hero_labs_locked_desc"			"Yeni deneysel kahramanları test etmemize yardımcı olun. 50 oyun oynadıktan sonra açılır."
 		
 		"menu_play_get_started_time_est"			"4 Dakika"
 		"menu_play_sandbox_time_est"				"5 Dakika"
@@ -2450,19 +2510,23 @@
 		"menu_learn_incomplete"						"Tamamlanmadı"
 		"menu_learn_completed"						"Tamamlandı"
 
+		"menu_hero_labs_unavailable"				"Kilitli"
+		"menu_hero_labs_schedule_title"				"Saatler:"
+		"menu_hero_labs_schedule_times"				"{t:t:start_time} - {t:t:end_time}"
 		"menu_play_ranked"							"Dereceli Oyna"
 		"menu_play_ranked_desc"						"Benzer seviyedeki oyunculara karşı daha rekabetçi bir maç oynayın."
 		"menu_ranked_title"							"Dereceli:"
 		"menu_ranked_schedule_title"				"Saatler:"
 		"menu_ranked_unavailable"					"Kilitli"
 		"menu_ranked_unavailable_desc"				"Dereceli eşleştirmeye katılmak için 50 standart oyun oynamalısınız."
-		"menu_ranked_schedule_weekdays"				"Pazartesi - Perşembe:"
-		"menu_ranked_schedule_weekends"				"Cuma - Pazar:"
+		"menu_ranked_schedule_weekdays_monfri"		"Pzt - Cum:"
+		"menu_ranked_schedule_weekends_satsun"		"Cmt - Paz:"
 		"menu_ranked_schedule_alldays"				"Günlük Program:"
 		"menu_ranked_schedule_timeplaceholder"		"{t:t:start_time} - {t:t:end_time}"
 		"menu_ranked_select_schedule"				"Takvim Seç"
 		"menu_ranked_view_schedules"				"Tüm Takvimleri Görüntüle"
 		"menu_ranked_set_schedule"					"Takvim Ayarla"
+		"menu_ranked_week_dates"					"{t:s:start_day} - {t:s:end_day}"
 		"Citadel_SetSchedule_Failed"				"Takvim Ayarlarken Hata Oluştu"
 		"Citadel_SetSchedule_FailedToSetSchedule"	"Takviminiz ayarlanamadı. Lütfen tekrar deneyin."
 		"Citadel_SetSchedule_AlreadySet"			"Takviminiz zaten ayarlanmış."
@@ -2473,24 +2537,37 @@
 		"Citadel_SetSchedule_SetSuccessfully"		"Takvim Başarıyla Ayarlandı"
 		"Citadel_ranked_scheduleModal_title"		"Dereceli Maç Takvimleri"
 		"Citadel_ranked_scheduleModal_desc"			"Dereceli maç için tercih ettiğiniz zamana en uygun takvimi seçin.<br><br>Seçtiğiniz zamana bakılmaksızın her zaman mevcut en yakın sunucuda oynarsınız."
-		"Citadel_ranked_scheduleModal_warning"		"Not: Bu dereceli maç için bir takvim seçtikten sonra, bir sonraki maça kadar değiştiremezsiniz."
+		"Citadel_ranked_scheduleModal_warning"		"Not: Bir takvim seçtikten sonra seçtiğiniz takvimi değiştirmek için yedi gün beklemeniz gerekir."
 		"Citadel_ranked_open"						"Açık"
+		"Citadel_ranked_closed"						"Dereceli Kapalı"
 		"Citadel_ranked_comingsoon"					"İlk dereceli maçlar, 15 Ekim Salı günü TSİ 23.00'te başlayacak."
 		"Citadel_ranked_schedule_explainer"			"Dereceli eşleştirme yalnızca belirli saatlerde oynanabilir. Oynamadan önce sizin için en uygun zaman ayarını seçmelisiniz."
 
-		"Citadel_ranked_explainer_button"				"Dereceli eşleştirme nedir?"
-		"Citadel_ranked_explainer_title"				"Dereceli Eşleştirme"
-		"Citadel_ranked_explainer_desc"					"[Dereceli], küresel yetenek seviyenizi belirlemek için benzer yetenek seviyesine sahip oyuncularla eşleştirileceğiniz daha rekabetçi bir Deadlock deneyimi sunan bir mücadele modudur.<br><br>Her hafta oyuncular bireysel yeteneklerini göstermek için bölgelerinin açık zaman dilimlerinde [Dereceli] maçlar oynayarak bu rekabete katılabilirler."
-		"Citadel_ranked_howitworks_title"				"Çalışma Şekli"
-		"Citadel_ranked_howitworks_desc"				"Tüm oyuncular Acemi geçici rütbesiyle başlar. Bir haftanın derecesini almaya hak kazanmak için o hafta yedi [Dereceli] maç tamamlamalısınız. Haftanın sonunda, profilinizde bir rozet olarak gösterilecek dereceniz verilir.<br><br>Bir haftanın sonunda yedi [Dereceli] maç oynamadıysanız, dereceniz tekrar Acemi olur ve daha sonraki bir haftada derece kazanmayı başarana kadar gizli kalır. Yetenek ölçümleri geçerli olmaya devam eder ve gelecekteki [Dereceli] oyunlarınız için kullanılır ancak bir derece kazanana kadar rozet gösterilmez.<br><br>On bir farklı derece vardır ve her derecede oyunculara ayrıca I'den VI'ya kadar bir alt derece atanır, bu da belirli bir derecedeki sıralamanızı daha da belirgin hâle getirir."
+		"Citadel_ranked_explainer_button"			"Dereceli eşleştirme nedir?"
+		"Citadel_ranked_explainer_title"			"Dereceli Eşleştirme"
+		"Citadel_ranked_explainer_desc"				"Dereceli, küresel yetenek seviyenizi belirlemek için benzer yetenek seviyesine sahip oyuncularla eşleştirileceğiniz daha rekabetçi bir Deadlock deneyimi sunan bir mücadele modudur.<br><br>Her hafta oyuncular bireysel yeteneklerini göstermek için bölgelerinin açık zaman dilimlerinde [Dereceli] maçlar oynayarak bu rekabete katılabilirler."
+		"Citadel_ranked_howitworks_title"			"Çalışma Şekli"
+		"Citadel_ranked_howitworks_desc"			"Tüm oyuncular Acemi geçici rütbesiyle başlar. Bir haftanın derecesini almaya hak kazanmak için o hafta yedi Dereceli maç tamamlamalısınız. Haftanın sonunda, profilinizde bir rozet olarak gösterilecek dereceniz verilir.<br><br>Bir haftanın sonunda yedi Dereceli maç oynamadıysanız, dereceniz tekrar Acemi olur ve daha sonraki bir haftada derece kazanmayı başarana kadar gizli kalır. Yetenek ölçümleri geçerli olmaya devam eder ve gelecekteki Dereceli oyunlarınız için kullanılır ancak bir derece kazanana kadar rozet gösterilmez.<br><br>On bir farklı derece vardır ve her derecede oyunculara ayrıca I ve <Panel class=\"starIcon\"></Panel> arasında bir alt derece atanır, bu da belirli bir derecedeki sıralamanızı daha da belirgin hâle getirir."
+		"Citadel_ranked_rankedmedals"				"Dereceler:"
+		"Citadel_ranked_subranks_explainer"			"Alt Dereceler: I, II, III, IV, V ve <Panel class=\"starIcon\"></Panel>"
+
+		"Citadel_ranked_explainer_note"				"Rozet tasarımları, ilk derecelerin verileceği 22 Ekim Salı günü açıklanacak."
+
+		"Citadel_ranked_result_title"				"Derece Raporu"
+		"Citadel_ranked_result_rankup"				"Derece Yükseldi!"
+		"Citadel_ranked_result_adjustment"			"Derece Değişti"
+		"Citadel_ranked_numGamesPlayed"				"{s:games_played} Oyun Oynandı"
+		"Citadel_ranked_match_history"				"MAÇ GEÇMİŞİ:"
+
+		"Citadel_ranks_rank0"						"Acemi"
 		"Citadel_ranks_rank1"						"Öğrenci"
 		"Citadel_ranks_rank2"						"Usta"
 		"Citadel_ranks_rank3"						"Simyacı"
 		"Citadel_ranks_rank4"						"Büyücü"
 		"Citadel_ranks_rank5"						"Ayin Üstadı"
 		"Citadel_ranks_rank6"						"Elçi"
-		"Citadel_ranks_rank7"						"Kâhin"
-		"Citadel_ranks_rank8"						"Baş Büyücü"
+		"Citadel_ranks_rank7"						"Baş Büyücü"
+		"Citadel_ranks_rank8"						"Kâhin"
 		"Citadel_ranks_rank9"						"Hayalet"
 		"Citadel_ranks_rank10"						"Hükümdar"
 		"Citadel_ranks_rank11"						"Ebedî"
@@ -2502,7 +2579,7 @@
 		"Citadel_subranks_5"						"V"
 		"Citadel_subranks_6"						"VI"
 
-		"Citadel_rank_phase_example"				"15 - 21 Ekim | 2024"
+		"Citadel_rank_phase_example"				"{t:s:popup_start_day} - {t:s:popup_end_day}"
 
 
 		"item_info_abilities"						"Yetenekler"
@@ -2528,10 +2605,10 @@
 		"SafeToAbandon_Text"						"Şimdi bu maçı ceza almadan terk edebilirsiniz."
 
 		"ModIconTooltip_UnlockTier2"				"Takımınız iki düşman dörtayağını yok ettikten sonra açılır."
-		"ModIconTooltip_UnlockGuardians"			"Takımınız düşman üs muhafızlarını yok ettikten sonra açılır."	
-		"ModIconTooltip_UnlockGenerators"			"Takımınız bir düşman tapınağını yok ettikten sonra açılır."	
+		"ModIconTooltip_UnlockGuardians"			"Takımınız düşman üs muhafızlarını yok ettikten sonra açılır."
+		"ModIconTooltip_UnlockGenerators"			"Takımınız her iki düşman tapınağını yok ettikten sonra açılır."
 		//"ModIconTooltip_UnlockTier3"				"Unlocked after your team destroys the enemy Patron's first form"
-		"ModIconTooltip_UnlockAllTier1"				"Takımınız tüm düşman muhafızlarını yok ettikten sonra açılır."
+		"ModIconTooltip_UnlockAllTier1"				"Takımınız üç düşman muhafızı yok ettikten sonra açılır."
 		"ModIconTooltip_UnlockAllTier2"				"Takımınız tüm düşman dörtayaklarını yok ettikten sonra açılır."
 
 		"HeroesPageTitle"							"Kahramanlar"
@@ -2558,6 +2635,7 @@
 		"MyRosterNumHeroesInRoster"					"KADRODA {i:num_heroes_in_roster} KAHRAMAN VAR"
 		"MyRosterNumHeroesInRosterSingular"			"KADRODA {i:num_heroes_in_roster} KAHRAMAN VAR"
 		"MyRosterGreatForNewPlayers"				"Yeni başlayanlara önerilir"
+		"MyRosterHeroLabsHero"						"Kahraman Laboratuvarı"
 		"MyRosterAssignedTesting"					"Atanmış Test"
 		"MyRosterAssignedOpenTesting"				"Açık Test"
 		"MyRosterChangeHero"						"Kahramanı Değiştir"
@@ -2567,11 +2645,12 @@
 		"MyRosterWaitForParty"						"Parti üyeleri bekleniyor..."
 		"MyRosterExit"								"Kadrodan Çık"
 		"MyRosterExitRosterConfirm"					"Kadrodan çıkmak istediğinizden emin misiniz? Tüm partiniz kadrodan çıkacaktır."
-		"MyRosterPartyHighSkillRange"				"Partinizdeki üyelerin yetenek seviyeleri birbirinden çok farklı. Bu, partiniz için DAHA ZOR bir eşleşmeyle sonuçlanacaktır."
-
+		"MyRosterPartyHighSkillRangeTitle"			"Partinizdeki Yetenek Seviyeleri Çok Farklı"		
+		"MyRosterPartyHighSkillRange"				"Parti üyeleriniz arasındaki yetenek seviyesi farkı normalde izin verilenden daha fazla. Bu yüzden SADECE benzer yetenek farkına sahip partilerle eşleştirileceksiniz.<br><br>Bu aynı zamanda maçınızdaki düşük seviyeli oyuncuların daha çok zorlanacağı anlamına gelir."
 		"MyRosterPartyReadyCount"					"{d:party_ready_count}/{d:party_player_count} Hazır"
 		"MyRosterPartyMemberRoster"					"Kahraman zaten şu kadrolarda:"
 
+		"MyRosterRosterDesc_HeroLabs"				"Kadronuzda en az 3 kahraman olmalı ve bunlardan 2'si standart, test dışı kahramanlar olmalıdır."
 
 		//-----------------------------------------------------------------------------
 		// SANDBOX - DEMO CONTROLS
@@ -2624,7 +2703,7 @@
 		//-----------------------------------------------------------------------------
 		// TUTORIAL - LANE TRAINING
 		//-----------------------------------------------------------------------------
-		
+
 		"LaneTraining_Intro_Title"					"<b>Kulvar eğitimine</b> hoş geldiniz"
 		"LaneTraining_Intro_Desc"					"Oyunun ilk aşamasındaki amacınız, hedefleri yok edebilmek için güç kazanmaktır.<br><br><span class=\"introHighlight\">Sağ tarafta listelenen amaçları tamamladığınızda</span>, Muhafız'ı alt edebilmeniz için size <span class=\"introHighlight\">inanılmaz bir güç</span> vereceğiz."
 		"LaneTraining_Intro_Button"					"Başla"
@@ -2632,7 +2711,7 @@
 		"LaneTraining_Outro_Title"					"<b>Kulvar Eğitimi</b> tamamlandı"
 
 		//"ReportCard_PlayerDamage"					"Player Damage"
-		//"ReportCard_PlayerDamage_Desc"				"Damage you’ve dealt to enemy heroes"	
+		//"ReportCard_PlayerDamage_Desc"				"Damage you’ve dealt to enemy heroes"
 		//"ReportCard_PlayerDamage_Progress"			"<span class=\"yourscore\">{i:playerDamage}</span> / {i:playerDamageNextGoal}"
 
 		"ReportCard_LastHits"						"Öldürücü Vuruşlar"
@@ -2677,9 +2756,9 @@
 		"ReportCard_KillGuardian"					"Düşman Muhafızını Yok Edin"
 		"ReportCard_KillGuardian_Desc"				"Zafere giden yolda önünüze çıkan herkesi yok edin!"
 
-		//"NewPlayer_NewPlayerFlow"					"Learn to Play"				
+		//"NewPlayer_NewPlayerFlow"					"Learn to Play"
 		"NewPlayer_Skip"							"Eğitimi Atla"
-		//"NewPlayer_NewPlayerFlow_Desc"				"To get started, check out the tasks within <span class=\"introText\">Learn</span>."	
+		//"NewPlayer_NewPlayerFlow_Desc"				"To get started, check out the tasks within <span class=\"introText\">Learn</span>."
 		//"NewPlayer_GetStarted"						"Review <span class='TaskHighlight'>Get Started</span>"
 		//"NewPlayer_GetStarted_Time"					"4 mins"
 		//"NewPlayer_HeroSandbox"						"Try out your moves in <span class='TaskHighlight'>Hero Training</span>"
@@ -2687,7 +2766,7 @@
 		//"NewPlayer_LaneTraining"					"Learn the early game in <span class='TaskHighlight'>Lane Training</span>"
 		//"NewPlayer_LaneTraining_Time"				"8 mins"
 		//"NewPlayer_YouAreFinished"					"You're ready! Try a bot match within Practice or Play your first game!"
-		//"NewPlayer_Finish"							"End Tutorial"				
+		//"NewPlayer_Finish"							"End Tutorial"
 
 		"HeroTraining_Intro_Title"					"<b>Kahraman Alıştırmasına</b> Hoş Geldiniz"
 		"HeroTraining_Intro_Desc"					"Burada kahramanınızın hareketlerini ve yeteneklerini test edebilirsiniz. Bu konseptlere hâkim olmak ritüeli tamamlamak için önemlidir."
@@ -2699,10 +2778,10 @@
 		"NPE_Heroes_Modal_Title"					"Önerilen Kahramanlar"
 		"NPE_Heroes_Modal_Desc"						"<span class=\"introText\">Görünüşe göre bu ilk oyununuz olacak!</span><br><br>Yeni oyunculara uygun bazı kahramanları işaretledik. Nereden başlayacağınızdan emin değilseniz bunlardan birini denemenizi öneririz."
 		"NPE_Heroes_Modal_Button"					"Anladım!"
-		
+
 		"NPE_Bots_Modal_Desc"						"<span class=\"introText\">İlk bot maçınız!</span><br><br>Bot maçları bir kahramanla tanışmak için harikadır ancak bir PvP maçının akışını ve takım çalışmasını tam olarak yansıtmaz.<br><br>Hazır hissettiğinizde bot maçından çıkıp eşleştirmeye geçebilirsiniz."
 		"NPE_Bots_Modal_Button"						"Anladım!"
-		
+
 
 		"Sandbox_Tutorial_Movement"					"Kontrolleri Deneyin"
 		"Sandbox_Tutorial_Movement_desc"			"Kontrollerinizi denemek için bu alanı kullanın."
@@ -2728,7 +2807,7 @@
 		"Sandbox_Tutorial_Step_1"					"Adım 1/6"
 		"Sandbox_Tutorial_Step_2"					"Adım 2/6"
 		"Sandbox_Tutorial_Step_3"					"Adım 3/6"
-		"Sandbox_Tutorial_Step_4"					"Adım 4/6"		
+		"Sandbox_Tutorial_Step_4"					"Adım 4/6"
 		"Sandbox_Tutorial_Step_5"					"Adım 5/6"
 		"Sandbox_Tutorial_Step_6"					"Adım 6/6"
 
@@ -2752,7 +2831,7 @@
 
 		"BrowseItems_Title"							"Eşyalara Göz At"
 		"BrowseItems_Desc"							"Dükkândaki tüm ürün kataloğuna göz atın ve bir sonraki maçınıza hazırlanın!"
-		
+
 		"CreateBuilds_Title"						"{s:hero_name} için Bir Plan Oluştur"
 		"CreateBuilds_Desc"							"Dükkândaki eşyaları seçin ve plan için önerilen listeye ekleyin."
 
@@ -2783,7 +2862,7 @@
 		"AbilityButtonHint_Deselect"				"Seçimi Kaldır"
 		"AbilityButtonHint_CastOnTarget"			"Hedefe Kullan"
 		"AbilityButtonHint_CastOnSelf"				"Kendine Kullan"
-		"AbilityButtonHint_ZipLineBoost"			"<span class=\"AbilityName\">Ulaşım Halatı Hızlanması</span><span class=\"Countdown\">{s:ability_cooldown}</span>"
+		"AbilityButtonHint_ZipLineBoost"			"<span class=\"AbilityName\">Ulaşım Halatı Hızlanması</span> <span class=\"Countdown\">{s:ability_cooldown}</span>"
 		"AbilityButtonHint_LightningCrashDive"		"Erken İn"
 		"AbilityButtonHint_CancelIceDome"				"Kubbeyi Kaldır"
 		"AbilityButtonHint_GrabTarget"				"Hedefi Yakala"
@@ -2803,7 +2882,7 @@
 		"AbilityButtonHint_CastIceDome"				"Buz Kubbe Kullan"
 		"AbilityButtonHint_CastLifeDrain"			"Düşman Canını Çek"
 		"AbilityButtonHint_AlotCastLifeDrain"				"Dostu İyileştir"
-		
+
 		//-----------------------------------------------------------------------------
 		// Guided Bot Match
 		//-----------------------------------------------------------------------------
@@ -2824,7 +2903,7 @@
 		"citadel_bot_name_prefix"				"[Bot]"
 		"citadel_purchasemessage"				"<span class=\"ChatTarget\">{s:target} <span class=\"ChatPersona\"><span class=\"{s:player_color_class}\">{s:persona}</span></span></span> <span class=\"{s:purchaseText}\">{s:soldOrPurchasedText}</span> <span class=\"{s:message_color_class}\">{s:message}</span>"
 		"citadel_ping_wheel_message"			"{s:message}"
-	
+
 		"citadel_ping_wheel_disabled_while_dead"				"Ölüyken Devre Dışı"
 		"citadel_all_chat_label_prefix"							"[HERKES] "
 		"citadel_chatwheel_label_Care"							"Dikkat"
@@ -2930,6 +3009,9 @@
 		//"citadel_quick_response_respond_onmyway"					"Respond 'On my Way'"
 
 		// These are loc strings for ping response rules. Good for if we don't have VO for a response rule to show what the player would've said.
+		"ping_message"											"{s:pre_punctuation}{s:ping}{s:post_punctuation}"
+		"ping_pre_exclamation"									""
+		"ping_post_exclamation"									"!"
 		"ping_headed_yellow"									"Sarıya gidiyorum"
 		"ping_headed_blue"										"Maviye gidiyorum"
 		"ping_headed_green"										"Yeşile gidiyorum"

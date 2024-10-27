@@ -144,7 +144,7 @@
 		"MagicShockDamage_postfix"	" %"
 
 		//Mystic Reverb
-		"upgrade_tech_bleed_desc" "Umožňuje prodchnout schopnost, takže nepřátelům kolem cíle redukuje <span class=\"highlight\">rychlost pohybu</span> a po krátké prodlevě jim udělí <span class=\"highlight\">bonusové poškození ve výši určitého procenta uděleného touto schopností</span>."
+		"upgrade_tech_bleed_desc" "Umožňuje prodchnout schopnost, takže na cíl aplikuje <span class=\"highlight\">zpomalení</span> a po krátké prodlevě udělí nepřátelům kolem něj <span class=\"highlight\">bonusové poškození ve výši určitého procenta uděleného touto schopností</span>."
 		//"upgrade_tech_bleed/modifier_tech_bleed_proc/modifier_tech_bleed"			"Spirit Echo"	
 
 		//Toxic Bullets
@@ -274,7 +274,7 @@
 
 		//Siphon Bullets
 		//"upgrade_siphon_bullets_desc_passive1"	"When in <span class=\"highlight\">close range</span> of your target, deal additional <span class=\"highlight\">Weapon Damage</span>."
-		"upgrade_siphon_bullets_desc_passive2"	"Vlastníkovy střely dočasně <span class=\"highlight\">kradou maximální zdraví</span> nepřátel. Ukradené zdraví je vráceno vždy s vypršením debuffu, nicméně pokud nepřítel pod vlivem debuffu zemře, vlastník jedno sečtení zdraví permanentně ukradne. Pokud vlastník zemře, o {s:StackLostPerDeath} sečtení přijde."
+		"upgrade_siphon_bullets_desc_passive2"	"Vlastníkovy střely dočasně <span class=\"highlight\">kradou maximální zdraví</span> nepřátel. Ukradené zdraví je vráceno vždy s vypršením debuffu, nicméně pokud nepřítel pod vlivem debuffu zemře, vlastník {s:StealPerKill} sečtení zdraví permanentně ukradne. Pokud vlastník zemře, o {s:StackLostPerDeath} sečtení přijde."
 		"modifier_siphon_bullets_health_gain"		"Transfúzní náboje"
 		"modifier_siphon_bullets_health_loss"		"Transfúzní náboje"
 		"HealthSteal_label"						"Max. zdraví ukradené za střelu"
@@ -488,13 +488,13 @@
 		"SpiritPower_prefix"					"+"
 
 		//Ethereal Shift
-		"upgrade_self_bubble_desc"			"Vlastník se obklopí prázdnotou a na krátkou dobu se stane <span class=\"highlight\">nezaměřitelným a nezranitelným</span>, nicméně během této doby se nemůže hýbat ani provádět jiné akce. Poté <span class=\"highlight\">okamžitě přebije</span> svoji zbraň a získá bonus ke <span class=\"highlight\">spirituální síle</span>."
+		"upgrade_self_bubble_desc"			"Vlastník se obklopí prázdnotou a na krátkou dobu se stane <span class=\"highlight\">nezaměřitelným a nezranitelným</span>, nicméně během této doby se nemůže hýbat ani provádět jiné akce. Poté získá <span class=\"highlight\">bonus k rychlosti pohybu a spirituální odolnosti</span>."
 		"ShiftingVeilDuration_label"			"Trvání"
 		"ShiftingVeilDuration_postfix"		" s"
 		"BonusSpiritDuration_label"			"Trvání bonusu ke spirituální síle"
 		"BonusSpiritDuration_postfix"			" s"
 		"modifier_shifting_veil_buff"			"Éterický plášť"
-		"shifting_veil_bonus_spirit"			"Bonus ke spirituální síle"
+		"shifting_veil_bonus"			"Bonus k rychlosti pohybu a spirituální odolnosti"
 		"modifier_citadel_bubble"				"Éterický plášť"
 
 		//Stasis Bomb
@@ -533,7 +533,7 @@
 		//"upgrade_aoe_tech_shield/modifier_duration" "Spirit Barrier Pulse"
 		
 		//Cold Front
-		"upgrade_cold_front_desc"			"Vlastník na své pozici vypustí rozšiřující se výbuch ledu, který zasaženým nepřátelům <span class=\"highlight\">udělí spirituální poškození</span> a <span class=\"highlight\">sníží rychlost jejich pohybu</span>."
+		"upgrade_cold_front_desc"			"Vlastník na své pozici vypustí rozšiřující se výbuch ledu, který zasaženým nepřátelům <span class=\"highlight\">udělí spirituální poškození</span> a <span class=\"highlight\">sníží rychlost jejich pohybu</span>. Poškození nehrdinů je {s:NPCDamageMult}×."
 		
 		//Knockdown
 		"upgrade_target_stun_desc"			"Cíl je po <span class=\"highlight\">{s:StunDelay} sekundy dlouhé prodlevě</span> <span class=\"highlight\">sražen na kolena</span> a <span class=\"highlight\">omráčen</span>, takže dojde k jeho přerušení a dočasně nebude moci provádět žádné akce."
@@ -615,7 +615,7 @@
 		//"ClarityBonusSpirit_label"				"Next Ability Bonus Spirit Power"
 
 		//Surge of Power
-		"upgrade_magic_storm_desc"				"Umožňuje prodchnout schopnost <span class=\"highlight\">bonusem ke spirituální síle</span>. Sesláním schopnosti vlastník zároveň získá <span class=\"highlight\">bonus k rychlosti pohybu</span>."
+		"upgrade_magic_storm_desc"				"Umožňuje prodchnout schopnost <span class=\"highlight\">bonusem ke spirituální síle</span>. Sesláním schopnosti vlastník zároveň získá <span class=\"highlight\">bonus k rychlosti pohybu</span> a při útočení si zachová plnou rychlost."
 		"modifier_upgrade_magic_storm"			"Nával síly"
 
 		//Suppressor
@@ -662,9 +662,7 @@
 		"upgrade_savior_desc"				"Vlastník poskytne cíli <span class=\"highlight\">balistický štít, spirituální štít a bonus k rychlosti pohybu</span>. Vlastník může schopnost seslat sám na sebe."
 		"SaviorBulletShieldHealth_label"		"Balistický štít"
 		"SaviorMagicShieldHealth_label"		"Spirituální štít"
-		"BuffDuration_label"					"Trvání"
-		"BuffDuration_postfix"				" s"
-
+	
 		//Restorative Locket
 		"upgrade_restorative_locket_passive_desc"		"Kdykoli nepřítel sešle schopnost v okruhu do {s:Radius} metrů od vlastníka, předmět získá <span class=\"highlight\">jedno sečtení</span>."
 		"upgrade_restorative_locket_active_desc"		"Vlastník spotřebuje všechna sečtení předmětu, <span class=\"highlight\">vyléčí zacíleného spojence</span> a také mu obnoví <span class=\"highlight\">jeden dílek výdrže</span>. Vlastník může schopnost seslat sám na sebe."
@@ -934,10 +932,10 @@
 		"HealOnlevelHealAmount_label"	"Hodnota léčení"
 		"upgrade_heal_on_level/heal_on_level_buff"			"Léčivý dar"
 
+		//crow_mask_936_comment
+		//crow_mask_937_comment
 		//crow_mask_938_comment
 		//crow_mask_939_comment
 		//crow_mask_940_comment
-		//crow_mask_941_comment
-		//crow_mask_942_comment
 	}
 }

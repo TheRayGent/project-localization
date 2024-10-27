@@ -43,6 +43,7 @@
 		"Citadel_StatusEffectImmobilize" 		"Znehybnění"
 		"Citadel_StatusEffectDisarmed"			"Odzbrojení"
 		"Citadel_StatusEffectInvisible"			"Neviditelnost"
+		"Citadel_StatusEffectPetrify"				"Zkamenění"
 		//"Citadel_StatusEffectStacks"			"Stacks "
 		//"Citadel_StatusEffectInfiniteClip"		"Infinite Ammo"
 		//"Citadel_StatusEffectBulletDebuff"		"Bullet Debuff"
@@ -204,6 +205,8 @@
 		"StatDesc_HealingOutput_postfix"				" %"
 		"StatDesc_CritDamageBonusScale"					"Modifikátor kritického bonusu"
 		"StatDesc_CritDamageBonusScale_postfix"			" %"
+		"StatDesc_MeleeResist"							"Odolnost vůči úderům"
+		"StatDesc_MeleeResist_postfix"					" %"
 
 		"StatDesc_BulletSpeed"							"Rychlost střel"
 		"StatDesc_BulletSpeed_postfix"					" m/s"
@@ -694,6 +697,9 @@
 
 		"HealAmpReceivePenaltyPercent_label"		"Redukce léčení"
 		"HealAmpReceivePenaltyPercent_postfix"			" %"
+		
+		"HealAmpRegenPenaltyPercent_label"		"Redukce léčení"
+		"HealAmpRegenPenaltyPercent_postfix"	" %"
 
 		"DegenResistance_label"						"Odolnost vůči redukci léčení"
 		"DegenResistance_postfix"					" %"
@@ -1793,9 +1799,16 @@
 		"StaminaRegenPercent_label"			"Regenerace výdrže"
 		"StaminaRegenPercent_postfix"		" %"
 
-		//crow_mask_1827_comment
-		// crow_mask_1828_comment
-		//crow_mask_1829_comment
+		"MeleeResistPercent_prefix"			"{s:sign}"
+		"MeleeResistPercent_label"			"Odolnost vůči úderům"
+		"MeleeResistPercent_postfix"		" %"
+		
+		"BuffDuration_label"				"Trvání buffu"
+		"BuffDuration_postfix"				" s"
+
+		//crow_mask_1840_comment
+		// crow_mask_1841_comment
+		//crow_mask_1842_comment
 
 
 

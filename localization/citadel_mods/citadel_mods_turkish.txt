@@ -144,7 +144,7 @@
 		"MagicShockDamage_postfix"	"%"
 
 		//Mystic Reverb
-		"upgrade_tech_bleed_desc" "Hedefin etrafındaki yarıçapta <span class=\"highlight\">yavaşlatma</span> uygulamak ve kısa bir gecikme sonrasında <span class=\"highlight\">verilmiş hasarın bir bölümünü ilave olarak</span> vermek için bir yeteneği güçlendirin."
+		"upgrade_tech_bleed_desc" "Vurulan hedefe <span class=\"highlight\">yavaşlatma</span> uygulamak ve kısa bir gecikme sonrasında <span class=\"highlight\">verilmiş hasarın bir bölümünü ilave olarak</span> hedefin etrafındaki düşmanlara vermek için bir yeteneği güçlendirin."
 		//"upgrade_tech_bleed/modifier_tech_bleed_proc/modifier_tech_bleed"			"Spirit Echo"	
 
 		//Toxic Bullets
@@ -274,7 +274,7 @@
 
 		//Siphon Bullets
 		//"upgrade_siphon_bullets_desc_passive1"	"When in <span class=\"highlight\">close range</span> of your target, deal additional <span class=\"highlight\">Weapon Damage</span>."
-		"upgrade_siphon_bullets_desc_passive2"	"Mermileriniz geçici olarak düşmanların <span class=\"highlight\">maksimum sağlığını çalar</span>. Zayıflatma sona erdikten sonra düşman çalınan sağlığını geri kazanır. Hedefiniz ölürse kalıcı olarak bir sağlık istifi çalarsınız, ölürseniz {s:StackLostPerDeath} istif kaybedersiniz."
+		"upgrade_siphon_bullets_desc_passive2"	"Mermileriniz geçici olarak düşmanların <span class=\"highlight\">maksimum sağlığını çalar</span>. Zayıflatma sona erdikten sonra düşman çalınan sağlığını geri kazanır. Hedefiniz ölürse kalıcı olarak {s:StealPerKill} sağlık istifi çalarsınız, ölürseniz {s:StackLostPerDeath} istif kaybedersiniz."
 		"modifier_siphon_bullets_health_gain"		"Can Çalma Mermileri"
 		"modifier_siphon_bullets_health_loss"		"Can Çalma Mermileri"
 		"HealthSteal_label"						"Mermi Başına Maksimum Sağlık Çalma"
@@ -488,13 +488,13 @@
 		"SpiritPower_prefix"					"+"
 
 		//Ethereal Shift
-		"upgrade_self_bubble_desc"			"Hiçlik durumuna girersiniz. Bu kısa süre zarfında hareket edemez ve herhangi bir eylemde bulunamazsınız, ayrıca <span class=\"highlight\">hedeflenemez ve dokunulmaz</span> olursunuz. Bu durum sona erdikten sonra <span class=\"highlight\">şarjörünüz anında değişir</span> ve bonus <span class=\"highlight\">büyü gücü</span> kazanırsınız."
+		"upgrade_self_bubble_desc"			"Hiçlik durumuna girersiniz. Bu kısa süre zarfında hareket edemez ve herhangi bir eylemde bulunamazsınız, ayrıca <span class=\"highlight\">hedeflenemez ve dokunulmaz</span> olursunuz. Bu durum sona erdikten sonra <span class=\"highlight\">hareket hızı ve büyü direnci</span> kazanırsınız."
 		"ShiftingVeilDuration_label"			"Süre"
 		"ShiftingVeilDuration_postfix"		" sn"
 		"BonusSpiritDuration_label"			"Bonus Büyü Süresi"
 		"BonusSpiritDuration_postfix"			" sn"
 		"modifier_shifting_veil_buff"			"Ruhani Değişim"
-		"shifting_veil_bonus_spirit"			"Bonus Büyü Gücü"
+		"shifting_veil_bonus"			"Hız ve Büyü Direnci"
 		"modifier_citadel_bubble"				"Ruhani Değişim"
 
 		//Stasis Bomb
@@ -533,7 +533,7 @@
 		//"upgrade_aoe_tech_shield/modifier_duration" "Spirit Barrier Pulse"
 		
 		//Cold Front
-		"upgrade_cold_front_desc"			"Vurduğu hedeflere <span class=\"highlight\">büyü hasarı</span> veren ve <span class=\"highlight\">yavaşlatma</span> uygulayan, genişleyen bir buz patlamasına neden olun."
+		"upgrade_cold_front_desc"			"Vurduğu hedeflere <span class=\"highlight\">büyü hasarı</span> veren ve <span class=\"highlight\">yavaşlatma</span> uygulayan, genişleyen bir buz patlamasına neden olun. Kahraman olmayan birimlere {s:NPCDamageMult} kat daha fazla hasar verir."
 		
 		//Knockdown
 		"upgrade_target_stun_desc"			"Hedef <span class=\"highlight\">{s:StunDelay} saniyelik bir gecikmeden</span> sonra <span class=\"highlight\">yere düşer</span> ve <span class=\"highlight\">sersemler</span>. Ayrıca kullandığı yetenek veya eşya eylemi sekteye uğrar ve geçici olarak yeni bir eylemde bulunamaz hâle gelir."
@@ -615,7 +615,7 @@
 		//"ClarityBonusSpirit_label"				"Next Ability Bonus Spirit Power"
 
 		//Surge of Power
-		"upgrade_magic_storm_desc"				"Bir yeteneği <span class=\"highlight\">kalıcı büyü gücüyle</span> güçlendirin. Güçlendirilmiş yetenek kullanıldığında bonus <span class=\"highlight\">hareket hızı</span> kazanırsınız."
+		"upgrade_magic_storm_desc"				"Bir yeteneği <span class=\"highlight\">kalıcı büyü gücüyle</span> güçlendirin. Güçlendirilmiş yetenek kullanıldığında bonus <span class=\"highlight\">hareket hızı</span> kazanırsınız ve saldırırken tam hızınızı korursunuz."
 		"modifier_upgrade_magic_storm"			"Güç Artışı"
 
 		//Suppressor
@@ -662,9 +662,7 @@
 		"upgrade_savior_desc"				"Hedefe <span class=\"highlight\">mermi kalkanı, büyü kalkanı ve hareket hızı</span> verir. Kendi üzerinizde kullanabilirsiniz."
 		"SaviorBulletShieldHealth_label"		"Mermi Kalkanı"
 		"SaviorMagicShieldHealth_label"		"Büyü Kalkanı"
-		"BuffDuration_label"					"Süre"
-		"BuffDuration_postfix"				" sn"
-
+	
 		//Restorative Locket
 		"upgrade_restorative_locket_passive_desc"		"Bir düşman sizin {s:Radius} m menzilinizde bir yetenek kullanırsa bir <span class=\"highlight\">şifa istifi</span> depolarsınız."
 		"upgrade_restorative_locket_active_desc"		"<span class=\"highlight\">Dost bir hedefi iyileştirmek</span> ve bir <span class=\"highlight\">kuvvet puanı</span> yenilemek için tüm istifleri tüketin. Kendi üzerinizde kullanabilirsiniz."
@@ -936,10 +934,10 @@
 		"HealOnlevelHealAmount_label"	"İyileştirme Miktarı"
 		"upgrade_heal_on_level/heal_on_level_buff"			"Seviye Atlama İyileştirmesi"
 
+		//crow_mask_936_comment
+		//crow_mask_937_comment
 		//crow_mask_938_comment
 		//crow_mask_939_comment
 		//crow_mask_940_comment
-		//crow_mask_941_comment
-		//crow_mask_942_comment
 	}
 }

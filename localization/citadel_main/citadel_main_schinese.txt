@@ -1,7 +1,7 @@
-﻿"lang" 
-{ 
-	"Language" "schinese" 
-	"Tokens" 
+﻿"lang"
+{
+	"Language" "schinese"
+	"Tokens"
 	{
 		"Citadel_Dashboard_BuildVersion"	"生成版本 {d:buildNumber} - {s:buildTime}"
 
@@ -83,7 +83,7 @@
 		"GameUI_Disconnect_ConnectionTimedout"		"无法与游戏服务器建立连接。"
 		"GameUI_Disconnect_ServerIncompatible"		"服务器版本不兼容。"
 		"Player_DisconnectReason_Idle"				"与服务器断开连接。你的挂机时间太长。"
-		
+
 
 		"GameUI_Disconnect_LocalProblem_ManyRelays"	"已失去连接，此前已尝试与不同地区的多个中继服务器连接。最有可能的原因是你的网络连接出现问题。"
 		"GameUI_Disconnect_LocalProblem_HostedServerPrimaryRelay"	"游戏服务器已与客户端使用的主中继服务器失去连接。"
@@ -151,7 +151,7 @@
 		"Citadel_ViewMatchID_Loading_Error"					"无法观看比赛"
 		"Citadel_ViewMatchID_InFlight_Title"				"比赛仍在进行中"
 		"Citadel_ViewMatchID_InFlight_Body"					"这场比赛仍在进行中。你想观看这场比赛吗？"
-		
+
 		//Playtest User
 		"Citadel_PlaytestUser_SubmitProcessing"				"请稍等"
 		"Citadel_PlaytestUser_SubmitProcessingTitle"		"正在提交用户"
@@ -240,6 +240,12 @@
 		"Citadel_ReportPlayer_Reason_Comments"				"留言："
 		"Citadel_ReportPlayer_CommentPlaceholder"			"描述你发现这名玩家有什么问题"
 
+		"Citadel_CommendPlayer_PopupTitle"					"称赞玩家"
+		"Citadel_CommendPlayer_PopupDesc"					"祝贺某位玩家在游戏中的表现，并告知匹配系统你会很高兴在未来的比赛中看到相关玩家。"
+		"Citadel_CommendPlayer_Friendly"					"友好有趣"
+		"Citadel_CommendPlayer_Teamwork"					"团队至上"
+		"Citadel_CommendPlayer_Skilled"						"技术高超"
+
 		"Citadel_SkipTutorial_Title"						"跳过教程"
 		"Citadel_SkipTutorial_Body"							"你确定要跳过教程吗？强烈建议你仅在已经玩过此游戏的情况下跳过教程。"
 
@@ -285,6 +291,8 @@
 		"Citadel_Notification_Paused_Message"						"游戏已暂停"
 		"Citadel_Notification_Unpaused_Title"						"结束暂停"
 		"Citadel_Notification_Unpaused_Message"						"游戏即将结束暂停…"
+		"Citadel_Notification_About_To_Respawn_Title"				"重生时间"
+		"Citadel_Notification_About_To_Respawn_Message"				"你即将重生…"
 		"Citadel_Hud_PreGame_Countdown"								"游戏即将开始…"
 		"Citadel_Hud_CantPause"										"{i:pause_cooldown} 秒后才能暂停"
 		"Citadel_Hud_CantUnpause"									"{i:pause_cooldown} 秒后才能结束暂停"
@@ -321,6 +329,11 @@
 
 		"Citadel_InvalidCast_NoFullClips"							"无完整剪辑可重载"
 
+		"Citadel_MatchInfo_Mode_Ranked"								"段位"
+		"Citadel_MatchInfo_Mode_Standard"							"标准"
+		"Citadel_MatchInfo_Mode_HeroLabs"							"英雄实验室"
+		"Citadel_MatchInfo_Mode_CoopBot"							"合作"
+		"Citadel_MatchInfo_Mode_Private"							"私密"
 
 		"Citadel_Reconnect_IncompatibleVersionTitle"				"不兼容版本"
 		"Citadel_Reconnect_IncompatibleVersionBody"					"你的客户端不再是连接此服务器的有效版本"
@@ -336,7 +349,7 @@
 		"Citadel_Item_Tooltip_CantAfford"							"买不起道具"
 		//"Citadel_Player_Level_AbilityPoints"						"<span class=\"boldText\">1 Ability Point</span> gained at levels 2, 3, 5, 7, and each level after"
 		//"Citadel_Player_Level_AbilityUnlocks"						"<span class=\"boldText\">1 Ability Unlock</span> gained at levels 1, 2, 4, and 6"
-		//"Citadel_Player_Level_WeaponPower"							"<span class=\"boldText\">+{s:weapon_bonus}% Base Bullet Damage</span>, <span class=\"boldText\">+{s:melee_bonus}% Base Melee damage</span> and <span class=\"boldText\">+{s:health_bonus} Max Health </span>"		
+		//"Citadel_Player_Level_WeaponPower"							"<span class=\"boldText\">+{s:weapon_bonus}% Base Bullet Damage</span>, <span class=\"boldText\">+{s:melee_bonus}% Base Melee damage</span> and <span class=\"boldText\">+{s:health_bonus} Max Health </span>"
 		"Citadel_Player_Level_APShort"								"技能点"
 		"Citadel_Player_Level_AbilityUnlocksShort"					"技能解锁"
 		"Citadel_Player_Level_PowerIncreases"						"力量提升"
@@ -350,6 +363,7 @@
 		"Citadel_Player_Level_BaseHealth"							"基础生命值"
 		"Citadel_Player_Level_SpiritAmp"							"元灵伤害增幅"
 		"Citadel_Player_Level_BulletResist"							"子弹抗性"
+		"Citadel_Player_Level_TechResist"							"元灵抗性"
 		"Citadel_Player_Level_WeaponRange"							"武器射程"
 		"Citadel_Hero_Stats_Tooltip_WeaponPower"					"在武器树中购买物品所获得的武器和近战伤害总加成"
 		"Citadel_Hero_Stats_Tooltip_HealthMult"						"在活力树中购买物品所获得的基础生命值总加成"
@@ -386,10 +400,10 @@
 
 		"Citadel_Shop_ImbueTooltip_Title"							"选择要加强的技能"
 		"Citadel_Shop_ActivePlacementTooltip_Title"					"选择技能槽位以完成购买"
-		"Citadel_Shop_ActivePlacementTooltip_Drag"					"拖放以重新分配当前已激活技能"	
+		"Citadel_Shop_ActivePlacementTooltip_Drag"					"拖放以重新分配当前已激活技能"
 
-		"Citadel_Shop_SellMaxItems_Title"							"所有栏位已满！"	
-		"Citadel_Shop_SellMaxItems_Desc"							"要完成此次购买，选择一个道具<span class='highlight'>以半价出售并替换为新道具</span>"	
+		"Citadel_Shop_SellMaxItems_Title"							"所有栏位已满！"
+		"Citadel_Shop_SellMaxItems_Desc"							"要完成此次购买，选择一个道具<span class='highlight'>以半价出售并替换为新道具</span>"
 		"Citadel_Shop_SellMaxItems_SellButton"						"出售"
 
 		"Citadel_Shop_AbilityisImbued"								"技能已加强"
@@ -471,7 +485,11 @@
 		"Citadel_Play_RankedNoSchedule"						"未选择日程"
 		"Citadel_Play_RankedNoScheduleDesc"					"你必须选择一个已安排的时间才能进行段位比赛。"
 
-		"Citadel_RankedGames_PlayedQualified"				"获得排名资格"
+		"Citadel_RankedGames_Played"						"已玩 {i:ranked_games_required} 场比赛中的 {i:ranked_games_played} 场"
+		"Citadel_RankedGame_Played_desc"					"为获得段位资格而进行的比赛"
+		"Citadel_RankedGames_PlayedQualified"				"你的段位将根据额外比赛计算"
+		"Citadel_RankedGames_Qualified1"						"所进行的额外比赛将计入你最终的段位中"
+		"Citadel_RankedGames_Qualified2"						"最终段位授予时间：{t:s:end_day}"
 
 		"Citadel_Play_BotsOfflineTitle"				"机器人暂时离线"
 		"Citadel_Play_BotsOfflineText"				"机器人暂时禁用，请稍后再试。"
@@ -560,7 +578,7 @@
 		"Citadel_PrivateLobby_SwapTeamsTooltip"						"两支队伍之间交换成员，保持分路不变"
 		"Citadel_PrivateLobby_RandomizeTeams"						"随机分配所有玩家"
 		"Citadel_PrivateLobby_ShuffleTeamsTooltip"					"将大厅内的玩家随机分配到两支不同队伍"
-		"Citadel_PrivateLobby_ShuffleTeams"							"队伍内随机分配"		
+		"Citadel_PrivateLobby_ShuffleTeams"							"队伍内随机分配"
 		"Citadel_PrivateLobby_ShuffleLanesTooltip"					"将队伍中的玩家随机分配到不同分路"
 
 		"Citadel_ServerRegion_0"									"自动选择地区"
@@ -599,11 +617,11 @@
 		"Citadel_Party_CancelMM"									"取消"
 		"Citadel_Party_NotConnectedToGC"							"未连接至 Deadlock 网络"
 		"Citadel_Party_PlayerLabel"									"玩家"
-		"Citadel_Party_SpectatorLabel"								"观众"	
+		"Citadel_Party_SpectatorLabel"								"观众"
 		"Citadel_Party_Or"											"或"
 		"Citadel_Party_ReadyUp"										"就绪"
 		"Citadel_Party_RolePlayer"									"玩家"
-		"Citadel_Party_RoleSpectator"								"观众"	
+		"Citadel_Party_RoleSpectator"								"观众"
 		"Citadel_Party_CreatePartyTitle"							"正在创建队伍"
 		"Citadel_Party_CreatePartyText"								"请稍等"
 		"Citadel_Party_JoinPartyTitle"								"正在加入队伍"
@@ -636,7 +654,7 @@
 		"Citadel_AcceptedInvitation_Title"							"已接受的邀请"
 		"Citadel_Party_SetMatchModeTitle"							"正在设置队伍模式"
 		"Citadel_Party_SetMatchModeText"							"正在设置你的队伍，请稍等"
-		"Citadel_AcceptedInvitation_Name"							"{g:citadel_persona:accepted_invitation} 已接受你的邀请"		 
+		"Citadel_AcceptedInvitation_Name"							"{g:citadel_persona:accepted_invitation} 已接受你的邀请"
 		"Citadel_Party_KickedByTitle"								"被踢出队伍"
 		"Citadel_Party_KickedByText"								"你被 {g:citadel_persona:kicked_by_account} 踢出了队伍"
 		"Citadel_Party_DraftEndedByTitle"							"匹配已取消"
@@ -658,8 +676,8 @@
 		"Citadel_PartyInviteFriend_InvitesFull"						"成员过多"
 		"Citadel_JoinParty_Title"									"加入队伍"
 		"Citadel_JoinParty_Desc"									"如果你已收到队伍代码，请在下方输入代码。"
-		"Citadel_JoinParty_Prompt"									"队伍 ID"	
-		"Citadel_Party_Invites"										"个组队邀请"
+		"Citadel_JoinParty_Prompt"									"队伍 ID"
+		"Citadel_Party_Invites:p{party_invites}"					"<span class=\"InviteCount\">{d:party_invites} </span><span class=\"InviteHeaderText\">个队伍邀请</span>#|#<span class=\"InviteCount\">{d:party_invites} </span><span class=\"InviteHeaderText\">个队伍邀请</span>"
 		"Citadel_PartyStartMatch"									"开始比赛"
 		"Citadel_PartyFindMatch"									"寻找比赛"
 		"Citadel_Party_CreateEasyBot"								"创建一支队伍以邀请好友加入，一同与机器人进行简单水平对战"
@@ -669,7 +687,7 @@
 		"Citadel_Party_InviteFriends"								"邀请好友"
 		"Citadel_Party_LeaveParty"									"离开队伍"
 		"Citadel_Party_PlayWithFriends"								"与好友同玩"
-		"Citadel_Party_MatchHistory"								"查看比赛历史"
+		"Citadel_Party_MatchHistory"								"查看比赛历史记录"
 		"Citadel_Party_InviteFriendTooltip"							"邀请好友加入队伍"
 		"Citadel_Party_InviteFriendToParty"							"邀请至队伍"
 		"Citadel_Party_InviteFriendToGameTooltip"					"邀请这名好友加入游戏"
@@ -685,6 +703,7 @@
 
 		"Citadel_RosterMode_Party_Matchmaking"						"玩 Deadlock"
 		"Citadel_RosterMode_Party_RankedMatchmaking"				"玩段位比赛"
+		"Citadel_RosterMode_Party_HeroLabsMatchmake"					"玩英雄实验室"
 		"Citadel_RosterMode_Party_CoopBotMM"						"与机器人对战"
 		"Citadel_RosterMode_Party_PrivateBotEasy"					"私人组队人机对战 - 简单"
 		"Citadel_RosterMode_Party_PrivateBotMedium"					"私人组队人机对战 - 中等"
@@ -696,6 +715,7 @@
 
 		"Citadel_RosterMode_Matchmaking"							"玩 Deadlock"
 		"Citadel_RosterMode_RankedMatchmaking"						"玩段位比赛"
+		"Citadel_RosterMode_HeroLabsMatchmaking"					"玩英雄实验室"
 		"Citadel_RosterMode_CoopBotMM"								"与机器人对战"
 		"Citadel_RosterMode_PrivateBotEasy"							"私人人机对战 - 简单"
 		"Citadel_RosterMode_PrivateBotMedium"						"私人人机对战 - 中等"
@@ -804,7 +824,7 @@
 		//"Citadel_HUD_LevelReward_BulletResist"						"Spirit Damage"
 		//"Citadel_HUD_LevelReward_WeaponRange"						"Spirit Damage"
 		"Citadel_HUD_LevelReward_NextRewardsLabel"					"下一个奖励："
-		
+
 		"Citadel_Hud_KillFeedNone"									"<None>"
 		"Citadel_Hud_KillFeedTrooper"								"步兵 #{i:unit_num}"
 		"Citadel_Hud_KillFeedSuperNeutral"							"圣殿卫士"
@@ -856,7 +876,7 @@
 		"Objective_Enemy_ShieldGenerator"							"敌方圣坛"
 		"Objective_Team1_ShieldGenerator"							"琥珀圣坛"
 		"Objective_Team2_ShieldGenerator"							"蓝宝石圣坛"
-		
+
 		"Objective_Friendly_Final"						"友方守护神（已削弱）"
 		"Objective_Enemy_Final"							"敌方守护神（已削弱）"
 		"Objective_Team1_Final"							"琥珀守护神（已削弱）"
@@ -867,8 +887,8 @@
 
 		"Citadel_Team1_Name"							"琥珀之手"
 		"Citadel_Team2_Name"							"蓝宝石之焰"
-		"Citadel_Team1_Name_Uppercase"					"琥珀之手"
-		"Citadel_Team2_Name_Uppercase"					"蓝宝石火焰"
+		"Citadel_Team1_Name_Uppercase:n"					"琥珀之手"
+		"Citadel_Team2_Name_Uppercase:n"					"蓝宝石火焰"
 
 		"Citadel_Mod_Tooltip_Passive"									"被动"
 		"Citadel_Mod_Tooltip_Active"									"主动"
@@ -888,6 +908,7 @@
 
 
 		"Citadel_HUD_Damage_TooFar"									"太远"
+		"Citadel_HUD_Damage_TooLow"									"太低"
 		"Citadel_HUD_Damage_Invulnerable"							"获得护盾"
 		"Citadel_HUD_Damage_NoTroopers"								"需要步兵"
 		"Citadel_HUD_Damage_Resistant"								"抗性"
@@ -914,7 +935,7 @@
 		"Citadel_HUD_DamageReport_DamageDealt"						"输出伤害"
 		"Citadel_HUD_DamageReport_TopDamageSources:p{num_damage_rows}"	"头号伤害来源 #|# 头 {i:num_damage_rows} 个伤害来源"
 		"Citadel_HUD_DamageReport_ShowMore"							"显示更多"
-		
+
 		"Citadel_HUD_DamageReport_LastRespawn"						"当前生命"
 		"Citadel_HUD_DamageReport_Time600"							"10 分钟"
 		"Citadel_HUD_DamageReport_Time300"							"5 分钟"
@@ -933,7 +954,7 @@
 		"Citadel_HUD_DamageReport_DamagePercentAbility"				"{i:ability_damage_percent}%"
 
 		"Citadel_HUD_Impact_Kill"									"击杀"
-		"Citadel_HUD_Impact_Assist"									"助攻"		
+		"Citadel_HUD_Impact_Assist"									"助攻"
 
 		"Citadel_PartyChat_Title"									"队伍聊天"
 		"Citadel_PartyChat_VoiceAndText"							"语音和文字聊天"
@@ -942,7 +963,7 @@
 		"Citadel_ChatType_Disabled"									"已禁用"
 		"Citadel_ChatType_AllTeam"									"所有队伍"
 		"Citadel_ChatType_PartyOnly"								"仅本队"
-		
+
 		"Citadel_HUD_DamageRows_DamageName"							"{s:damage_name}"
 		"Citadel_HUD_DamageRows_DamageValue"						"{i:damage_done}"
 		"Citadel_HUD_DamageRows_Hits:p{hit_count}"					"（{i:hit_count} 次命中）#|#（{i:hit_count} 次命中）"
@@ -992,6 +1013,9 @@
 		"Citadel_PlayerContextMenu_AudioVolume"						"音量"
 		"Citadel_PlayerContextMenu_EmptyMenu"						"--"
 
+		"Citadel_PostGame_CopyMatchID"								"复制比赛 ID"
+		"Citadel_PostGame_CopyMatchIDSuccess"						"成功"
+
 		"Citadel_PlayerCard_FavoriteHero"							"最爱英雄"
 
 		"Citadel_Party_Context_Invite"								"邀请好友"
@@ -1004,6 +1028,9 @@
 		"Citadel_Party_Leave"										"离开队伍"
 		"Citadel_Party_Report"										"举报"
 		"Citadel_Party_Reported"									"已举报"
+
+		"Citadel_Party_Commend"										"称赞"
+		"Citadel_Party_Commended"									"已称赞"
 
 		"Citadel_PlayerList_Teammates"								"队友"
 		"Citadel_PlayerList_Enemy"									"敌方队伍"
@@ -1072,6 +1099,9 @@
 		"Citadel_StartMatchmaking_InvalidHeroSelection"				"你尚未选择有效的英雄来进入匹配。"
 		"Citadel_StartMatchmaking_HeroRosterTooPopular"				"你英雄阵容中的所有英雄都已有人使用"
 		"Citadel_StartMatchmaking_NoRegionPings"					"无法与任何 Steam 数据报中继通信。如果你已连接至互联网，这通常是由防火墙、MTU（最大传输单元）或互联网连接问题引起的。"
+		"Citadel_StartMatchmaking_HeroLabsMMNotOpen"				"英雄实验室匹配目前不可用。"
+		"Citadel_StartMatchmaking_HeroLabsNotUnlocked"				"你尚未解锁英雄实验室匹配。"
+		"Citadel_StartMatchmaking_NoHeroLabsWhileInLowPri"			"处于低优先级时不允许进行英雄实验室匹配。"
 		"Citadel_StopMatchMaking_FailedToGetResponse"				"匹配已停止。无法从 GC 获得响应。"
 		"Citadel_StopMatchMaking_GeneralError"						"匹配失败。请重试"
 		"Citadel_LeaveLobby_FailedToGetResponse"					"停止匹配失败。请重试。"
@@ -1088,7 +1118,7 @@
 		"Citadel_IdleMatchmaking_IdleTimerExpired_Body"				"你在匹配队列中挂机时间过长，请移动鼠标确认你仍在游戏中！"
 		"Citadel_IdleMatchmaking_Dialog_Title"						"挂机匹配"
 		"Citadel_IdleMatchmaking_Dialog_Body"						"你当前正在进行匹配，但似乎不在计算机前。请移动鼠标，否则将会被从匹配中移除。"
-		
+
 		"Citadel_Dashboard_EnterMatchmaking"						"进入\n匹配"
 		"Citadel_Dashboard_Roster_HeroTooPopular"					"选择的所有英雄都已在队列中"
 		"Citadel_Dashboard_Roster_MissingHeroes"					"<span class=\"rosterErrorText\">必须在阵容中选择 3 名英雄才能进入匹配</span>"
@@ -1117,7 +1147,13 @@
 		"Citadel_Dashboard_ShowAnnounceTooltip"						"显示公告"
 		"Citadel_Dashboard_CloseAnnounceTooltip"					"关闭公告"
 		"Citadel_Dashboard_ViewLibrary"								"查看图书馆"
-
+		"Citadel_Dashboard_ReloadPageTooltip"						"重新载入当前页面"
+		"Citadel_Dashboard_Status_Mode_Unranked"					"标准比赛"
+		"Citadel_Dashboard_Status_Mode_Ranked"						"段位比赛"
+		"Citadel_Dashboard_Status_Mode_HeroLabs"					"英雄实验室比赛"
+		"Citadel_Dashboard_Status_Mode_Private"						"私人比赛"
+		"Citadel_Dashboard_Status_Mode_Coop"						"合作人机对战"
+		
 		"Citadel_Watch_Title"										"观看比赛"
 		"Citadel_Watch_Featured"									"精选比赛"
 		"Citadel_Watch_Loading"										"正在载入…"
@@ -1205,7 +1241,7 @@
 		"Citadel_PartyAction_TooBusy"							"Deadlock 网络当前过于繁忙，无法处理此操作。请几分钟后重试。"
 		"Citadel_PartyAction_RateLimited"						"你在短时间内进行了太多操作。请稍等，然后重试。"
 		"Citadel_PartyAction_AlreadyDrafting"					"队伍已经开始了一场比赛。你必须停止当前比赛才能开始另一场。"
-		
+
 		"Citadel_PartySetMode_ErrorTitle"						"错误"
 		"Citadel_PartySetMode_FailedToGetResponse"				"当前无法与 Deadlock 网络通信。请几分钟后重试。"
 		"Citadel_PartySetMode_InternalError"					"发生了意外的内部错误。请几分钟后重试。"
@@ -1223,7 +1259,9 @@
 		"Citadel_PartySetMode_PlayerPermaBanned"				"你的队伍中有成员（{g:citadel_persona:nl:account_id}）永久性被禁止玩此模式"
 		"Citadel_PartySetMode_CannotLeavePrivate"				"私人大厅当前不允许更改模式"
 		"Citadel_PartySetMode_FiveStacksNotAllowed"				"五人队伍当前不允许进行匹配。请尝试组建人数更多或更少的队伍。"
-
+		"Citadel_PartySetMode_HeroLabsMMNotOpen"				"英雄实验室匹配目前不可用。"
+		"Citadel_PartySetMode_HeroLabsNotUnlocked"				"你的队伍中有成员（{g:citadel_persona:nl:account_id}）尚未获得英雄实验室匹配资格。"
+		"Citadel_PartySetMode_NoHeroLabsWhileInLowPri"			"你的队伍中有成员（{g:citadel_persona:nl:account_id}）处于低优先级，目前无法加入英雄实验室匹配队列。"
 		"Citadel_PartyInvite_ErrorTitle"						"无法发送邀请"
 		"Citadel_PartyInvite_FailedToGetResponse"				"当前无法与 Deadlock 网络通信并邀请指定用户。请几分钟后重试。"
 		"Citadel_PartyInvite_InternalError"						"尝试邀请用户加入队伍时发生了内部错误"
@@ -1274,7 +1312,7 @@
 		"Citadel_SpectateUser_InvalidRegion"					"此比赛在另一地区进行，当前无法观看。"
 
 		"Citadel_Profile_Title"									"个人资料"
-		"Citadel_Profile_MatchHistory"							"比赛历史"
+		"Citadel_Profile_MatchHistory"							"比赛历史记录"
 		"Citadel_Profile_MatchHistory_ViewAll"					"查看所有比赛历史记录"
 		"Citadel_Profile_MatchHistory_ViewDetails"				"查看详情"
 		"Citadel_Profile_Loading"								"正在载入…"
@@ -1284,17 +1322,19 @@
 		"Citadel_Profile_Win_Short"								"胜"
 		"Citadel_Profile_Loss_Short"							"败"
 		"Citadel_Profile_Statistics"							"统计数据"
+		"Citadel_Profile_RankHistory"							"段位历史记录"
 		"Citadel_Profile_Stats_All"								"所有英雄"
 		"Citadel_Profile_Stats_TitleSection"					"全期数据"
 		"Citadel_Profile_Stats_GamesPlayed"						"参赛次数"
-		"Citadel_Profile_Stats_GamesWon"						"获胜次数"		
+		"Citadel_Profile_Stats_GamesWon"						"获胜次数"
 		"Citadel_Profile_Stats_Kills"							"击杀次数"
 		"Citadel_Profile_Stats_Assists"							"助攻次数"
-		"Citadel_Profile_Stats_HeroDamage"						"英雄伤害"		
-		"Citadel_Profile_Stats_ObjDamage"						"目标伤害"		
-		"Citadel_Profile_Stats_LastHits"						"正补数"		
-		"Citadel_Profile_Stats_Denies"							"反补数"		
-		"Citadel_Profile_Stats_Healing"							"治疗量"		
+		"Citadel_Profile_Stats_HeroDamage"						"英雄伤害"
+		"Citadel_Profile_Stats_ObjDamage"						"目标伤害"
+		"Citadel_Profile_Stats_LastHits"						"正补数"
+		"Citadel_Profile_Stats_Denies"							"反补数"
+		"Citadel_Profile_Stats_Healing"							"治疗量"
+		"Citadel_Profile_Stats_Commends"						"称赞"
 		"Citadel_Profile_Stats_Networth"						"收集的魂魄"
 		"Citadel_Profile_Stats_Value_Networth_Low"				"{i:game_networth}"
 		"Citadel_Profile_Stats_Value_Networth_High"				"{i:game_networth}k"
@@ -1317,6 +1357,7 @@
 		"Citadel_MatchDetails_Report"							"举报"
 		"Citadel_MatchDetails_ReportTooltip"					"点击举报玩家"
 		"Citadel_MatchDetails_Reported"							"已举报玩家！"
+		"Citadel_MatchDetails_CommendTooltip"					"点击以称赞玩家"
 		"Citadel_MatchDetails_Team1NetWorth"					"{i:team1_networth}k"
 		"Citadel_MatchDetails_Team2NetWorth"					"{i:team2_networth}k"
 		"Citadel_MatchDetails_Team1Name"						"{i:team2_networth}k"
@@ -1363,6 +1404,7 @@
 		"Citadel_ProfileCard_StatTitle_Wins"					"获胜次数"
 		"Citadel_ProfileCard_StatTitle_Kills"					"击杀次数"
 		"Citadel_ProfileCard_StatTitle_GamesPlayed"				"比赛数"
+		"Citadel_ProfileCard_StatTitle_Commends"				"称赞"
 
 		"Citadel_ProfileCard_StatValue_Int"						"{d:stat_value}"
 		"Citadel_ProfileCard_StatValue_Date"					"{t:s:stat_value}"
@@ -1388,7 +1430,7 @@
 		"Citadel_Replay_DownloadingPct"							"正在下载 - {d:replay_progress}%"
 		"Citadel_Replay_DecompressPct"							"正在解压缩 - {d:replay_progress}%"
 		"Citadel_Replay_Delete"									"删除回放"
-		
+
 		"Citadel_Graph_Team1"							"琥珀"
 		"Citadel_Graph_Team2"							"蓝宝石"
 		"Citadel_Graph_WeaponDamage"					"武器伤害"
@@ -1463,8 +1505,8 @@
 		"CitadelHeroStats_SpiritPower_Impact"				"元灵力量影响"
 		"CitadelHeroStats_SpiritPower_Desc"					"元灵力量会增加技能和物品的效果。"
 		"CitadelHeroStats_Weapon_Falloff"					"衰减距离"
-	
-		// Hero Builds UI	
+
+		// Hero Builds UI
 		"Citadel_HeroBuilds_Title"						"英雄出装"
 		"Citadel_HeroBuilds_SelectedBuild_Title"		"我当前的出装："
 		"Citadel_HeroBuilds_Browse_button"				"查看或修改出装"
@@ -1512,9 +1554,9 @@
 
 		"Citadel_HeroBuilds_CurrenclyActive"			"当前使用中"
 		"Citadel_HeroBuilds_AbilityBuildTitle"			"技能点分配顺序"
-		"Citadel_HeroBuilds_AbilityBuildReset"			"编辑"	
-		"Citadel_HeroBuilds_AbilityBuildInstructions"	"要设置推荐的技能升级顺序，点击编辑按钮，然后按照希望为你出装用户显示的顺序对每项技能进行升级。"	
-		
+		"Citadel_HeroBuilds_AbilityBuildReset"			"编辑"
+		"Citadel_HeroBuilds_AbilityBuildInstructions"	"要设置推荐的技能升级顺序，点击编辑按钮，然后按照希望为你出装用户显示的顺序对每项技能进行升级。"
+
 		"Citadel_HeroBuilds_PublishBuildTitle"			"发布英雄出装"
 		"Citadel_HeroBuilds_PublishBuildDesc"			"此出装将公开与其他玩家分享。"
 		"Citadel_HeroBuilds_BuildNameTitle"				"出装名称"
@@ -1535,10 +1577,10 @@
 		"Citadel_HeroBuilds_ErrorTitle"					"错误"
 		"Citadel_HeroBuilds_ValidateErrorTitle"			"保存出装时出错"
 		"Citadel_HeroBuilds_ValidateErrorBody"			"请确保出装有描述和名称，以及至少 1 个推荐物品。"
-		"Citadel_HeroBuilds_FavoriteCount"				"{i:favorite_count}"		
-		"Citadel_HeroBuilds_DailyFavorite"				"流行"		
-		"Citadel_HeroBuilds_WeeklyFavorite"				"热门"		
-		"Citadel_HeroBuilds_AllTimeFavorite"			"史佳"		
+		"Citadel_HeroBuilds_FavoriteCount"				"{i:favorite_count}"
+		"Citadel_HeroBuilds_DailyFavorite"				"流行"
+		"Citadel_HeroBuilds_WeeklyFavorite"				"热门"
+		"Citadel_HeroBuilds_AllTimeFavorite"			"史佳"
 		"Citadel_HeroBuilds_New"						"全新"
 		"Citadel_HeroBuilds_Old"						"旧"
 		"Citadel_HeroBuilds_NameLabel"					"出装名称"
@@ -1607,7 +1649,7 @@
 		// Item and Upgrade Modifiers
 
 
-			
+
 		"citadel_ability_sprint_roll"			"疾跑"
 		"modifier_citadel_sprint_start"			"收起武器…"
 		"modifier_citadel_sprint_end"			"拔出武器…"
@@ -1625,7 +1667,7 @@
 
 		"citadel_ability_drone_boss_laser_beam"		"Boss 激光"
 
-		
+
 		"citadel_ability_dash"						"冲刺"
 		"citadel_ability_jump"						"跳跃"
 		"citadel_ability_teleport"					"传送动作"
@@ -1638,8 +1680,10 @@
 		"modifier_neutral_gold_pickup_aura/aura_target/timer"	"拾起未稳获的魂魄"
 		"modifier_rejuv_pickup_aura/aura_target/timer"			"拾起队伍复生石"
 		"modifier_early_gold_pickup_aura/aura_target/timer"		"捕获队伍魂魄"
-		"modifier_citadel_holding_golden_idol"  				"敌方可见！将灵瓮带至圣坛"							
+		"modifier_citadel_holding_golden_idol"  				"将灵瓮带至圣坛"
+		"modifier_citadel_holding_golden_idol_revealed"			"敌方可见！将灵瓮带至圣坛"
 		"modifier_citadel_returning_golden_idol"  				"存放灵瓮"
+		"modifier_citadel_idol_pickup_disabled"					"拾起灵瓮已禁用"
 		"modifier_knocked_off_zipline_slow"						"被撞下滑索"
 		"modifier_citadel_respawn_credit" 						"回春积分"
 
@@ -1702,7 +1746,7 @@
 		"CITADEL_ABILITY_INVALID_NO_DAMAGE_TO_CLEAR"	"没有要清除的伤害"
 
 		"citadel_ability_interrupted"					"打断者："
-		
+
 		"citadel_ability_quick_melee" "近战"
 		"citadel_hint_zoom"			"按住 <span class=\"hintTextEmphasis\">[{s:iv_attack2}]</span> 即可用武器放大。"
 		"citadel_hint_slide"		"跑下斜坡时按住 <span class=\"hintTextEmphasis\">[{s:duck}]</span> 即可滑行。"
@@ -1716,7 +1760,7 @@
 		"citadel_hint_upgrade_ability"	"按住 <span class=\"hintTextEmphasis\">[{s:show_scoreboard}]</span> 即可升级技能"
 		"citadel_hint_hero_testing_shop"	"按下 <span class=\"hintTextEmphasis\">[{s:citadel_open_hero_sheet}]</span> 即可打开商店，设置测试选项。"
 		"citadel_hint_teleport"				"你的 2 级 Boss 正在遭受攻击，按下 <span class=\"hintTextEmphasis\">[{s:key_teleport}]</span> 即可传送提供帮助！"
-		
+
 		// Ability Hints
 		"citadel_hint_flamedash_boost" "按下 <span class=\"hintTextEmphasis\">[{s:key_innate_1}]</span> 即可加速。需要耐力。"
 		"citadel_hint_activate_wall" "按下 <span class=\"hintTextEmphasis\">[{s:iv_attack}]</span> 即可提前创建墙壁。"
@@ -1749,7 +1793,7 @@
 		"survival_powerup_pickup"							"战场存活"
 		"casting_powerup_pickup"							"技能施放"
 		"movement_powerup_pickup"							"移动能力"
-		
+
 		"spirit_permanent_pickup_label"					"+2 元灵"
 		"firerate_permanent_pickup_label"				"+1.5% 射速"
 		"ammo_permanent_pickup_label"					"+4% 弹药"
@@ -1797,7 +1841,7 @@
 		"citadel_settings_per_unit_hotkeys"				"英雄特定热键"
 		"citadel_Hotkeys_Tooltip_PerUnitHotkeys"		"启用/禁用英雄特定的按键绑定"
 		"citadel_settings_defaultkeybinds"				"默认"
-		"citadel_ClearHeroHotkeyBindings"				"重置为默认"		
+		"citadel_ClearHeroHotkeyBindings"				"重置为默认"
 		"citadel_settings_chatwheel"					"聊天轮盘"
 		"chat_wheel_options"							"轮盘选项"
 		"citadel_settings_volume"						"音量"
@@ -1811,7 +1855,7 @@
 		"citadel_settings_musicvolume"					"菜单音乐音量"
 		"citadel_settings_musicvolume_desc"				"调整主菜单内音乐的音量"
 		"citadel_settings_voicevolume"					"语音聊天音量（其他玩家）"
-		"citadel_settings_voicevolume_desc"				"调整其他玩家麦克风的音量"	
+		"citadel_settings_voicevolume_desc"				"调整其他玩家麦克风的音量"
 		"citadel_settings_gamevoicevolume"				"语音输入音量（你的）"
 		"citadel_settings_gamevoicevolume_desc"			"控制你麦克风的输入音量"
 		"citadel_settings_playsoundinbackground" 		"在后台播放声音"
@@ -1904,6 +1948,7 @@
 		"citadel_settings_streamlined_mic"				"优化麦克风"
 		"citadel_settings_chat_invert_ping"				"反转信号"
 		"citadel_settings_mousesensitivity"				"鼠标灵敏度"
+		"citadel_settings_mousesensitivity_y_scale"		"鼠标灵敏度：垂直缩放"
 		"citadel_settings_mousezoomsensitivity"			"缩放灵敏度比例"
 		"citadel_settings_keybinddefaults"				"恢复所有按键绑定默认设置"
 		"citadel_settings_pingwheeldefaults"			"恢复信号轮盘默认设置"
@@ -1942,12 +1987,12 @@
 		"citadel_settings_crosshair_pip_width"				"宽度"
 		"citadel_settings_crosshair_pip_height"				"高度"
 		"citadel_settings_crosshair_pip_border"				"显示准星线边框"
-		
+
 		"citadel_settings_crosshair_color"					"颜色"
 		"citadel_settings_crosshair_color_r"				"红色"
 		"citadel_settings_crosshair_color_g"				"绿色"
 		"citadel_settings_crosshair_color_b"				"蓝色"
-		
+
 		"citadel_settings_crosshair_visibility"				"准星点"
 		"citadel_settings_crosshair_pip_opacity"			"线不透明度"
 		"citadel_settings_crosshair_dot_opacity"			"点不透明度"
@@ -2101,6 +2146,8 @@
 		"citadel_keybind_backwards"						"向后移动"
 		"citadel_keybind_left"							"向左移动（平移）"
 		"citadel_keybind_right"							"向右移动（平移）"
+		"citadel_keybind_up"							"飞升"
+		"citadel_keybind_down"							"飞降"
 		"citadel_keybind_mantle"						"跳跃/攀爬"
 		"citadel_keybind_attack"						"开火"
 		"citadel_keybind_ads"							"缩放"
@@ -2330,10 +2377,9 @@
 		"kill_hype_FirstBlood"	"第一滴血"
 
 		"team_msg_Idol_Desc"	"灵瓮"
-		
-		//"team_msg_Winner_SubText"	"The Patrons favor you"
-		"Citadel_GameOver_Victory"	"获胜"
-		"Citadel_GameOver_Defeat"	"战败"
+
+		"Citadel_GameOver_Victory:g"	"获胜"
+		"Citadel_GameOver_Defeat:g"		"战败"
 
 
 		"Citadel_LaneColorPurple"						"紫色"
@@ -2348,8 +2394,8 @@
 		"Citadel_TeamMsg_TitanKilledTitle"				"你的守护神"
 
 		"Citadel_FlexSlot_Title"						"弹性栏位已解锁"
-		"Citadel_FlexSlotUnlockedAllTier1"				"你解锁了一个弹性栏位，因为你杀死了所有<span class=\"FlexSlotObjectiveName\">敌方卫士</span>"
-		"Citadel_FlexSlotUnlockedGenerator"				"你解锁了一个弹性栏位，因为你消灭了第一个<span class=\"FlexSlotObjectiveName\">圣坛</span>"
+		"Citadel_FlexSlotUnlockedAllTier1"				"你解锁了一个弹性栏位，因为你杀死了 3 名<span class=\"FlexSlotObjectiveName\">敌方卫士</span>"
+		"Citadel_FlexSlotUnlockedGenerator"				"你解锁了一个弹性栏位，因为你摧毁了 2 个<span class=\"FlexSlotObjectiveName\">敌方圣坛</span>"
 		"Citadel_FlexSlotUnlockedAllTier2"				"你解锁了一个弹性栏位，因为你杀死了所有<span class=\"FlexSlotObjectiveName\">敌方四足机甲</span>"
 		"Citadel_FlexSlotUnlockedKill2Tier2"			"你解锁了一个弹性栏位，因为你杀死了 2 个<span class=\"FlexSlotObjectiveName\">敌方四足机甲</span>"
 
@@ -2391,6 +2437,7 @@
 		"menu_getstarted"							"游戏入门"
 		"menu_bot_practice"							"私人人机对战"
 		"menu_bot_custom"							"自定义比赛"
+		"menu_bot_hero_labs"						"英雄实验室"
 		"menu_learn"								"了解游戏"
 		"menu_resources"							"资源"
 		"menu_training"								"训练"
@@ -2406,7 +2453,10 @@
 		"Citadel_Confirm_Discord_InMatch_Body"		"请于不在队伍中及不在匹配中时领取你的 Discord 链接"
 		"Citadel_Dashboard_Recommended"				"推荐"
 
-		"Citadel_Commend_Toast"						"{s:commender}（{s:commender_hero}）称赞了你！"
+		"Citadel_Commend_Toast_Generic"				"{s:commender}（{s:commender_hero}）称赞了你"
+		"Citadel_Commend_Toast_Friendly"			"{s:commender}（{s:commender_hero}）刚刚称赞你玩游戏时友好有趣！"
+		"Citadel_Commend_Toast_Teamwork"			"{s:commender}（{s:commender_hero}）刚刚称赞你是个团队至上的玩家！"
+		"Citadel_Commend_Toast_Skilled"				"{s:commender}（{s:commender_hero}）刚刚称赞你技术高超！"
 
 		"menu_exit_db_page"							"返回"
 		"menu_settings"								"设置"
@@ -2434,7 +2484,6 @@
 		"menu_play_lane_training_desc"				"在友方英雄的指引下了解初期游戏。"
 		"menu_play_bots_easy_desc"					"与机器人进行私人比赛"
 		"menu_play_custom_game_desc"				"创建或加入最多 12 名玩家的自定义比赛"
-		
 		"menu_play_get_started_time_est"			"4 分钟"
 		"menu_play_sandbox_time_est"				"5分钟"
 		"menu_play_lane_training_time_est"			"8 分钟"
@@ -2450,14 +2499,16 @@
 		"menu_learn_incomplete"						"未完成"
 		"menu_learn_completed"						"已完成"
 
+		"menu_hero_labs_unavailable"				"已锁定"
+		"menu_hero_labs_schedule_title"				"可用时段："
 		"menu_play_ranked"							"玩段位比赛"
 		"menu_play_ranked_desc"						"与技术水平相近的玩家进行更具竞争力的比赛。"
 		"menu_ranked_title"							"段位："
 		"menu_ranked_schedule_title"				"可用时段："
 		"menu_ranked_unavailable"					"已锁定"
 		"menu_ranked_unavailable_desc"				"你必需进行 50 场标准比赛才能加入段位队列"
-		"menu_ranked_schedule_weekdays"				"周一 - 周四："
-		"menu_ranked_schedule_weekends"				"周五 - 周日："
+		"menu_ranked_schedule_weekdays_monfri"		"周一 - 周五："
+		"menu_ranked_schedule_weekends_satsun"		"周六 - 周日："
 		"menu_ranked_schedule_alldays"				"每日日程："
 		"menu_ranked_schedule_timeplaceholder"		"{t:t:start_time} - {t:t:end_time}"
 		"menu_ranked_select_schedule"				"选择日程"
@@ -2474,15 +2525,27 @@
 		"Citadel_SetSchedule_SetSuccessfully"		"日程设置成功"
 		"Citadel_ranked_scheduleModal_title"		"段位日程"
 		"Citadel_ranked_scheduleModal_desc"			"选择最适合你首选游戏时间的段位窗口。<br><br>无论你选择了什么时间窗口，都始终会在最近的可用服务器上进行游戏。"
-		"Citadel_ranked_scheduleModal_warning"		"注意：你选择此段位会话的日程后，在下一个会话前将无法对其进行更改。"
+		"Citadel_ranked_scheduleModal_warning"		"注意：选择日程后，你需要等待 7 天才能更改为其他日程。"
 		"Citadel_ranked_open"						"现已开放"
+		"Citadel_ranked_closed"						"段位赛已关闭"
 		"Citadel_ranked_comingsoon"					"首次段位比赛将于 10 月 15 日周二晚上 8 时（GMT）开始"
 		"Citadel_ranked_schedule_explainer"			"段位只在某些时段内可用，在开始游戏前，你必须选择最适合你日程的时间设置。"
 
-		"Citadel_ranked_explainer_button"				"什么是段位比赛？"
-		"Citadel_ranked_explainer_title"				"段位匹配"
-		"Citadel_ranked_howitworks_title"				"运作机制是什么？"
-		"Citadel_ranked_rankedmedals"					"段位："
+		"Citadel_ranked_explainer_button"			"什么是段位比赛？"
+		"Citadel_ranked_explainer_title"			"段位匹配"
+		"Citadel_ranked_explainer_desc"				"段位赛是一种挑战模式，提供更具竞争性的 Deadlock 体验。你将在此模式中与技术水平相近的玩家进行匹配，以确定你在全球玩家中的技术段位。<br><br>每周，玩家可以选择在自己所在地区的开放时间段内参加段位赛，一展各自的技术水平。"
+		"Citadel_ranked_howitworks_title"			"运作机制是什么？"
+		"Citadel_ranked_howitworks_desc"			"所有玩家都从临时段位“无名者”开始，每周必须完成 7 场段位赛才能参与当周的段位排名。在该周结束时，你将获得正式的段位，且段位会以徽章的形式显示在你的个人资料上。<br><br>如果在一周结束时你并未完成 7 场段位赛，则你的可见段位会回退至“无名者”并将隐藏，直到之后的某周成功获得资格为止。虽然在这之前段位徽章不会显示，但你段位背后的技能参数仍会保留，并用于未来的段位赛。<br><br>游戏中共有 11 种不同的段位，每个段位内，你还会被分配一个从 I 到 <Panel class=\"starIcon\"></Panel> 的子段位，以进一步区分你在该段位中的具体水平。"
+		"Citadel_ranked_rankedmedals"				"段位："
+		"Citadel_ranked_subranks_explainer"			"子段位：I、II、III、IV、V、<Panel class=\"starIcon\"></Panel>"
+
+		"Citadel_ranked_explainer_note"				"徽章设计将于 10 月 22 日周二（PT）首次授予段位时揭晓。"
+
+		"Citadel_ranked_result_title"				"段位报告"
+		"Citadel_ranked_result_rankup"				"段位提升！"
+		"Citadel_ranked_result_adjustment"			"段位调整"
+		"Citadel_ranked_numGamesPlayed"				"已进行 {s:games_played} 场比赛"
+		"Citadel_ranked_match_history"				"比赛历史记录："
 
 		"Citadel_ranks_rank0"						"无名者"
 		"Citadel_ranks_rank1"						"启灵者"
@@ -2491,8 +2554,8 @@
 		"Citadel_ranks_rank4"						"奥术宗师"
 		"Citadel_ranks_rank5"						"法祭圣徒"
 		"Citadel_ranks_rank6"						"神域密使"
-		"Citadel_ranks_rank7"						"天命先知"
-		"Citadel_ranks_rank8"						"苍穹统御"
+		"Citadel_ranks_rank7"						"苍穹统御"
+		"Citadel_ranks_rank8"						"天命先知"
 		"Citadel_ranks_rank9"						"幽虚圣主"
 		"Citadel_ranks_rank10"						"凌世帝君"
 		"Citadel_ranks_rank11"						"不朽至尊"
@@ -2504,7 +2567,7 @@
 		"Citadel_subranks_5"						"V"
 		"Citadel_subranks_6"						"VI"
 
-		"Citadel_rank_phase_example"				"10 月 15 - 21 日 | 2024"
+		"Citadel_rank_phase_example"				"{t:s:popup_start_day} - {t:s:popup_end_day}"
 
 
 		"item_info_abilities"						"技能"
@@ -2530,10 +2593,10 @@
 		"SafeToAbandon_Text"						"现在可以安全放弃这场比赛，不会受到惩罚。"
 
 		"ModIconTooltip_UnlockTier2"				"在你的队伍摧毁两个敌方四足机甲后解锁"
-		"ModIconTooltip_UnlockGuardians"			"在你的队伍摧毁一组敌方基地卫士后解锁"	
-		"ModIconTooltip_UnlockGenerators"			"在你的队伍摧毁一个敌方圣坛后解锁"	
+		"ModIconTooltip_UnlockGuardians"			"在你的队伍摧毁一组敌方基地卫士后解锁"
+		"ModIconTooltip_UnlockGenerators"			"在你的队伍摧毁 2 个敌方圣坛后解锁"
 		//"ModIconTooltip_UnlockTier3"				"Unlocked after your team destroys the enemy Patron's first form"
-		"ModIconTooltip_UnlockAllTier1"				"在你的队伍摧毁所有敌方卫士后解锁"
+		"ModIconTooltip_UnlockAllTier1"				"在你的队伍摧毁 3 名敌方卫士后解锁"
 		"ModIconTooltip_UnlockAllTier2"				"在你的队伍摧毁所有敌方四足机甲后解锁"
 
 		"HeroesPageTitle"							"英雄"
@@ -2560,6 +2623,7 @@
 		"MyRosterNumHeroesInRoster"					"阵容中有 {i:num_heroes_in_roster} 名英雄"
 		"MyRosterNumHeroesInRosterSingular"			"阵容中有 {i:num_heroes_in_roster} 名英雄"
 		"MyRosterGreatForNewPlayers"				"非常适合新玩家"
+		"MyRosterHeroLabsHero"						"英雄实验室"
 		"MyRosterAssignedTesting"					"分配测试"
 		"MyRosterAssignedOpenTesting"				"开放测试"
 		"MyRosterChangeHero"						"更换英雄"
@@ -2569,11 +2633,10 @@
 		"MyRosterWaitForParty"						"正在等待队伍成员…"
 		"MyRosterExit"								"退出阵容"
 		"MyRosterExitRosterConfirm"					"确定要退出阵容吗？这将为整个队伍退出阵容。"
-		"MyRosterPartyHighSkillRange"				"你队伍的玩家技能段位差别过大。这会导致你的队伍比赛难度更高。"
-
 		"MyRosterPartyReadyCount"					"{d:party_ready_count}/{d:party_player_count} 就绪"
 		"MyRosterPartyMemberRoster"					"英雄已在阵容中："
 
+		"MyRosterRosterDesc_HeroLabs"				"你的阵容至少需要 3 名英雄，其中 2 名必须是标准的非测试英雄。"
 
 		//-----------------------------------------------------------------------------
 		// SANDBOX - DEMO CONTROLS
@@ -2626,7 +2689,7 @@
 		//-----------------------------------------------------------------------------
 		// TUTORIAL - LANE TRAINING
 		//-----------------------------------------------------------------------------
-		
+
 		"LaneTraining_Intro_Title"					"欢迎来到<b>分路训练</b>"
 		"LaneTraining_Intro_Desc"					"游戏初期的目标是获取力量，实现目标。<br><br>你<span class=\"introHighlight\">完成右侧列出的目标后</span>，我们会给予你<span class=\"introHighlight\">难以想象的力量</span>，你就可以拿下卫士了。"
 		"LaneTraining_Intro_Button"					"开始"
@@ -2634,7 +2697,7 @@
 		"LaneTraining_Outro_Title"					"<b>分路训练</b>已完成"
 
 		//"ReportCard_PlayerDamage"					"Player Damage"
-		//"ReportCard_PlayerDamage_Desc"				"Damage you’ve dealt to enemy heroes"	
+		//"ReportCard_PlayerDamage_Desc"				"Damage you’ve dealt to enemy heroes"
 		//"ReportCard_PlayerDamage_Progress"			"<span class=\"yourscore\">{i:playerDamage}</span> / {i:playerDamageNextGoal}"
 
 		"ReportCard_LastHits"						"致命一击"
@@ -2679,9 +2742,9 @@
 		"ReportCard_KillGuardian"					"拿下敌方卫士"
 		"ReportCard_KillGuardian_Desc"				"打倒拦路者，胜利属于我！"
 
-		//"NewPlayer_NewPlayerFlow"					"Learn to Play"				
+		//"NewPlayer_NewPlayerFlow"					"Learn to Play"
 		"NewPlayer_Skip"							"跳过教程"
-		//"NewPlayer_NewPlayerFlow_Desc"				"To get started, check out the tasks within <span class=\"introText\">Learn</span>."	
+		//"NewPlayer_NewPlayerFlow_Desc"				"To get started, check out the tasks within <span class=\"introText\">Learn</span>."
 		//"NewPlayer_GetStarted"						"Review <span class='TaskHighlight'>Get Started</span>"
 		//"NewPlayer_GetStarted_Time"					"4 mins"
 		//"NewPlayer_HeroSandbox"						"Try out your moves in <span class='TaskHighlight'>Hero Training</span>"
@@ -2689,7 +2752,7 @@
 		//"NewPlayer_LaneTraining"					"Learn the early game in <span class='TaskHighlight'>Lane Training</span>"
 		//"NewPlayer_LaneTraining_Time"				"8 mins"
 		//"NewPlayer_YouAreFinished"					"You're ready! Try a bot match within Practice or Play your first game!"
-		//"NewPlayer_Finish"							"End Tutorial"				
+		//"NewPlayer_Finish"							"End Tutorial"
 
 		"HeroTraining_Intro_Title"					"欢迎来到<b>英雄训练</b>"
 		"HeroTraining_Intro_Desc"					"在这里，你可以测试英雄的动作和技能。掌握这些概念是完成训练的关键。"
@@ -2701,10 +2764,10 @@
 		"NPE_Heroes_Modal_Title"					"推荐的英雄"
 		"NPE_Heroes_Modal_Desc"						"<span class=\"introText\">看来这是你第一次玩这个游戏！</span><br><br>我们着重显示了非常适合新玩家的几名英雄。如果你不知道该从哪里开始，建议先试试其中一个。"
 		"NPE_Heroes_Modal_Button"					"知道了！"
-		
+
 		"NPE_Bots_Modal_Desc"						"<span class=\"introText\">这是你的第一场人机比赛！</span><br><br>人机比赛非常适合用来熟悉英雄，但不能准确地重现 PvP 比赛的过程和团队合作。<br><br>你随时可以在觉得合适的时候离开人机比赛，加入真人匹配。"
 		"NPE_Bots_Modal_Button"						"知道了！"
-		
+
 
 		"Sandbox_Tutorial_Movement"					"测试控制"
 		"Sandbox_Tutorial_Movement_desc"			"使用此区域来测试你的控制"
@@ -2730,7 +2793,7 @@
 		"Sandbox_Tutorial_Step_1"					"第 1 步（共 6 步）"
 		"Sandbox_Tutorial_Step_2"					"第 2 步（共 6 步）"
 		"Sandbox_Tutorial_Step_3"					"第 3 步（共 6 步）"
-		"Sandbox_Tutorial_Step_4"					"第 4 步（共 6 步）"		
+		"Sandbox_Tutorial_Step_4"					"第 4 步（共 6 步）"
 		"Sandbox_Tutorial_Step_5"					"第 5 步（共 6 步）"
 		"Sandbox_Tutorial_Step_6"					"第 6 步（共 6 步）"
 
@@ -2754,7 +2817,7 @@
 
 		"BrowseItems_Title"							"浏览物品"
 		"BrowseItems_Desc"							"浏览物品目录，为下一场比赛做好准备！"
-		
+
 		"CreateBuilds_Title"						"为{s:hero_name}打造出装"
 		"CreateBuilds_Desc"							"选择商店中的物品，并将物品添加到建议出装列表中"
 
@@ -2805,7 +2868,7 @@
 		"AbilityButtonHint_CastIceDome"				"施放冰冻庇护"
 		"AbilityButtonHint_CastLifeDrain"			"吸取敌人生命值"
 		"AbilityButtonHint_AlotCastLifeDrain"				"治疗友军"
-		
+
 		//-----------------------------------------------------------------------------
 		// Guided Bot Match
 		//-----------------------------------------------------------------------------
@@ -2826,7 +2889,7 @@
 		"citadel_bot_name_prefix"				"[机器人]"
 		"citadel_purchasemessage"				"<span class=\"ChatTarget\">{s:target} <span class=\"ChatPersona\"><span class=\"{s:player_color_class}\">{s:persona}</span></span></span> <span class=\"{s:purchaseText}\">{s:soldOrPurchasedText}</span> <span class=\"{s:message_color_class}\">{s:message}</span>"
 		"citadel_ping_wheel_message"			"{s:message}"
-	
+
 		"citadel_ping_wheel_disabled_while_dead"				"死亡时禁用"
 		"citadel_all_chat_label_prefix"							"[所有人] "
 		"citadel_chatwheel_label_Care"							"小心"
@@ -2932,6 +2995,8 @@
 		//"citadel_quick_response_respond_onmyway"					"Respond 'On my Way'"
 
 		// These are loc strings for ping response rules. Good for if we don't have VO for a response rule to show what the player would've said.
+		"ping_message"											"{s:pre_punctuation}{s:ping}{s:post_punctuation}"
+		"ping_post_exclamation"									"！"
 		"ping_headed_yellow"									"往黄路走了"
 		"ping_headed_blue"										"往蓝路走了"
 		"ping_headed_green"										"往绿路走了"

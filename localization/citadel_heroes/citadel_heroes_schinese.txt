@@ -486,7 +486,9 @@
 		"MinSlowDuration_label"						"最小停止持续时间"
 		"MinSlowDuration_postfix"						"s"
 		"citadel_ability_chrono_kinetic_carbine/modifier_chrono_kinetic_carbine"  "动力卡宾枪"
-
+		"CarbineHeadshotBonus_prefix"				"+"
+		"CarbineHeadshotBonus_label"				"爆头额外伤害"
+		"CarbineHeadshotBonus_postfix"				"%"
 
 		//-----------------------------------------------------------------------------
 		// Revenant
@@ -890,7 +892,7 @@
 		"WeaponPowerGainPercent_postfix"			"%"
 
 		//-----------------------------------------------------------------------------
-		// Hero Warden
+		// Warden 
 		//-----------------------------------------------------------------------------
 		"ability_warden_lock_down"				"束缚之言"
 		"ability_warden_lock_down_quip"			"诅咒目标，若其未逃脱，则会被定身"
@@ -919,19 +921,23 @@
 
 		"ability_warden_crowd_control"			"炼金瓶"
 		"ability_warden_crowd_control_quip"		"对附近的敌人造成伤害和负面效果"
-		"ability_warden_crowd_control_desc"		"投掷一个瓶子，击中敌人后会对敌人<span class=\"highlight\">造成伤害并降低其移动速度</span>，还会减少其<span class=\"highlight\">武器伤害</span>和<span class=\"highlight\">耐力</span>。"
-		"ability_warden_crowd_control_t3_desc"		"<span class=\"highlight\">{s:AbilityCooldown}s</span> 冷却时间并令射速降低 <span class=\"highlight\">{s:FireRateSlow}%</span>"
+		"ability_warden_crowd_control_desc"		"投掷一个瓶子，击中敌人后会对敌人<span class=\"highlight\">造成伤害并施加移动减速效果</span>，还会减少其<span class=\"highlight\">武器伤害</span>。"
+		"ability_warden_crowd_control_t1_desc"	"击中的敌人会失去 <span class=\"highlight\">{s:StaminaReduction} 耐力</span>"
+		"ability_warden_crowd_control_t3_desc"		"<span class=\"highlight\">{s:AbilityCooldown}s</span> 冷却时间，并施加武器减益效果，令射速降低 <span class=\"highlight\">{s:FireRateSlow}%</span>"
 		"MoveSpeedSlowPct_label"					"移动减速"
 		"MoveSpeedSlowPct_postfix"				"%"
 		"WeaponPowerDebuff_label"					"武器伤害"
 		"WeaponPowerDebuff_postfix"				"%"
 		"modifier_warden_crowd_control_debuff"	"炼金瓶"
+		"FlaskDebuffDuration_label"				"武器减益效果持续时间"
+		"FlaskDebuffDuration_postfix"			"s"
 
 		"ability_warden_riot_protocol"			"屹立不倒"
 		"ability_warden_riot_protocol_quip"		"发出脉冲，从敌人身上吸血"
-		"ability_warden_riot_protocol_desc"		"充能 {s:AbilityCastDelay}s 后，<span class=\"highlight\">发出脉冲，对敌人造成伤害，并基于造成的伤害值治疗自己</span>。<br>施放屹立不倒期间，你的<span class=\"highlight\">子弹抗性</span>会极大提高。"
 		"modifier_warden_riot_protocol"			"屹立不倒"
 		"modifier_warden_riot_protocol_enemy_debuff"	"被减速"
+
+		//UnstoppableCastDelay
 		"HealthStealPctHero_label"				"英雄吸血"
 		"HealthStealPctHero_postfix"				"%"
 
@@ -987,7 +993,7 @@
 		"ability_scrap_blast/modifier_scrap_blast_debuff"		"被减速"
 
 		"ability_wrecker_ultimate"			"磁力流"
-		"ability_wrecker_ultimate_desc"		"<span class=\"highlight\">抓住</span> Wrecker 注视的任何敌人，将他们置于<span class=\"highlight\">静止状态</span>并举在头顶。完成后，所有被捕获的敌人将被<span class=\"highlight\">眩晕</span>并<span class=\"highlight\">受到伤害</span>。任何被抓住的 NPC 都会被<span class=\"highlight\">修复</span>。"
+		"ability_wrecker_ultimate_desc"		"<span class=\"highlight\">抓住</span>破坏王注视的任何敌人，将他们置于<span class=\"highlight\">静止状态</span>并举在头顶。完成后，所有被捕获的敌人将被<span class=\"highlight\">眩晕</span>并<span class=\"highlight\">受到伤害</span>。任何被抓住的 NPC 都会被<span class=\"highlight\">修复</span>。"
 		//"ThrowDamage_label"					"Throw Damage"
 		//"GrabRange_label"						"Grab Range"
 		"GrabRange_postfix"					"m"
@@ -1163,7 +1169,7 @@
 
 		"citadel_ability_sticky_bomb"			"粘性炸弹"
 		"citadel_ability_sticky_bomb_quip"		"在目标身上放置炸弹"
-		"citadel_ability_sticky_bomb_desc"		"将粘性炸弹附着到附近目标身上，在短暂的引爆时间后造成<span class=\"highlight\">爆炸伤害</span>。<br>每命中一个敌人，获得会造成 <span class=\"highlight\">+{s:BonusDamagePctPerPlayerHit}% 炸弹伤害</span>的炸弹叠加。死亡时会失去 {s:BonusLossPerDeath} 层叠加。<br>按住 [{s:key_alt_cast}] 可将粘性炸弹施放到自己身上。"
+		"citadel_ability_sticky_bomb_desc"		"将粘性炸弹附着到附近目标身上，在短暂的引爆时间后造成<span class=\"highlight\">爆炸伤害</span>。<br>每命中一个敌人，获得会造成 <span class=\"highlight\">+{s:BonusDamagePctPerPlayerHit}% 炸弹伤害</span>的炸弹叠加。死亡时会失去 {s:BonusLossPerDeath}% 的叠加层（计算结果取整）。<br>按住 [{s:key_alt_cast}] 可将粘性炸弹施放到自己身上。"
 		"modifier_citadel_sticky_bomb_attached"	"炸弹附身"
 		"citadel_ability_sticky_bomb_t3_desc"	"附着后，对目标<span class=\"highlight\">缴械</span>，持续 <span class=\"highlight\">{s:DebuffDuration}s</span>"
 		"StunTargetOnExplode_label"				"持续时间"
@@ -1256,6 +1262,13 @@
 		//"MinAirTimeForStomp_postfix"				"s"
 		"ability_bounce_pad/speed_on_land""移动速度"
 
+		"ability_crackshot"						"致命神枪"
+		"ability_crackshot_quip"				"造成额外伤害，并在爆头时施加移动减速效果"
+		"ability_crackshot_desc"				"爆头会造成额外的<span class=\"highlight\">武器伤害</span>，并施加<span class=\"highlight\">逐渐衰退的减速</span>效果。此效果只能在冷却结束时触发。<br><br><span class=\"diminish\">致命神枪无视远程伤害衰减。</span>"
+		"FadingSlowPercent_label" "逐渐衰退的移动减速"
+		"FadingSlowPercent_postfix" "%"
+		"AbilityCooldownPerHeadshot_label" "每次爆头冷却时间"
+		"AbilityCooldownPerHeadshot_postfix" "s"
 
 		//"citadel_ability_running_decoy"					"Decoy"
 		//"citadel_ability_running_decoy_desc"			"{s:hero_name} creates a temporary decoy that will run towards the target location and shoot at any nearby enemies."
@@ -1305,7 +1318,7 @@
 
 		"ability_gravity_lasso"				"元灵套索"
 		"ability_gravity_lasso_quip"		"抓住一个敌人并将其拖到身后"
-		"ability_gravity_lasso_desc"		"用套索<span class=\"highlight\">抓住一个敌人</span>并将其拖到身后。<span class=\"highlight\">敌人被眩晕</span>，而 Astro 在使用套索过程中会轻微减速。<br><br>第一次使用弹跳垫时，套索持续时间暂停 {s:BouncePadExtendDuration}s。"
+		"ability_gravity_lasso_desc"		"用套索<span class=\"highlight\">抓住一个敌人</span>并将其拖到身后。<span class=\"highlight\">敌人被眩晕</span>，而哈雷黛在使用套索过程中会轻微减速。<br><br>第一次使用弹跳垫时，套索持续时间暂停 {s:BouncePadExtendDuration}s。"
 		"modifier_astro_lasso_tether"		"受到套索束缚"
 		"ability_gravity_lasso_t3_desc"		"可以额外套住目标区域内的另一个敌人"
 		"ability_gravity_lasso/modifier_citadel_gravity_lasso_enemy"	"元灵套索"
@@ -1350,9 +1363,9 @@
 		"PounceFriendlyTargetCD_postfix"			"s"
 		"pounce_double_notify"					"二段飞扑"
 
-		"ability_nano_proximity_ritual"			"艾娃"
-		"ability_nano_proximity_ritual_quip"	"部署同伴以攻击敌人"
-		"ability_nano_proximity_ritual_desc"	"部署<span class=\"highlight\">艾娃</span>，<span class=\"highlight\">使其专注于</span>一名附近的敌人。目标敌人的治疗会减少，并且在受伤时会<span class=\"highlight\">为艾娃和{s:hero_name}提供治疗</span>。<span class=\"highlight\">艾娃只有在{s:hero_name}附近时才会激活</span>。<br>按下<span class=\"highlight\"> [3] </span>召回艾娃。<br>按下<span class=\"highlight\">[副施放]</span>召回并传送到艾娃的位置。<br>距离艾娃越远，召回/传送时间越长。艾娃在召回期间会恢复生命值。"
+		"ability_nano_proximity_ritual"			"猫又守卫"
+		"ability_nano_proximity_ritual_quip"	"部署会勘察一个区域的雕像"
+		"ability_nano_proximity_ritual_desc"	"部署一个<span class=\"highlight\">雕像</span>来追踪区域内的敌人。该守卫还会攻击最近被{s:hero_name}伤害的敌人。目标敌人将减少治疗，并在受到伤害时<span class=\"highlight\">为{s:hero_name}治疗</span>。"
 		"StatueLifetime_label"					"自动召回时间"
 		"StatueLifetime_postfix"				"s"
 		"StatueHeldRegen_label"						"召回艾娃恢复"
@@ -1360,16 +1373,16 @@
 		"StatueLifesteal_postfix"				"%"
 		"StatueLifestealNonHero_label"			"对非英雄单位吸血"
 		"StatueLifestealNonHero_postfix"		"%"
-		"StatueActivateRange_label"				"激活范围"
+		"StatueActivateRange_label"				"勘察范围"
 		"StatueActivateRange_postfix"			"m"
 		"StatueHealth_label"					"艾娃（正常化）"
 		"StatueHealth_postfix"					"生命值"
 		"StatueVictimDamageReduction_label"					"伤害降幅"
 		"StatueVictimDamageReduction_postfix"				"%"
 
-		"ability_nano_proximity_ritual_t1_desc"  "<span class=\"highlight\">+{s:StatueLifesteal}%</span> 吸血"
-		"ability_nano_proximity_ritual_t2_desc"  "<span class=\"highlight\">+{s:DPS}</span> DPS，且受害者对{s:hero_name}造成的伤害减少 <span class=\"highlight\">{s:StatueVictimDamageReduction}%</span>。"
-		"ability_nano_proximity_ritual_t3_desc"  "伤害增强 <span class=\"highlight\">+{s:DamageAmplification}%</span> 且受害者治疗减少 {s:HealAmpReceivePenaltyPercent}% 。"
+		"ability_nano_proximity_ritual_t1_desc"  "雕像在不攻击时获得<span class=\"highlight\">隐身</span> 。"
+		"ability_nano_proximity_ritual_t2_desc"  "<span class=\"highlight\">+{s:AbilityCharges}</span> 技能充能并 <span class=\"highlight\">+{s:DPS}</span> DPS"
+		"ability_nano_proximity_ritual_t3_desc"  "伤害减少 <span class=\"highlight\">{s:StatueVictimDamageReduction}%</span> 且目标治疗减少 {s:HealAmpReceivePenaltyPercent}%。"
 		"ability_nano_proximity_ritual_trigger"		"召回艾娃"
 
 		"AvaRecallCooldown_label"				"召回冷却时间"
@@ -1378,8 +1391,8 @@
 		"AbilityButtonHint_AvaWarp"			"传送至艾娃"
 		"CITADEL_ABILITY_NO_HEALTH_RESOURCE"	"不可用"
 
-		"ability_nano_shadow_step"				"幽影瞬步"
-		"ability_nano_shadow_step_desc"			"将自己笼罩在阴影中，增强你的攻击并使你的冲刺进入<span class=\"highlight\">隐身</span>状态。使用<span class=\"highlight\">近战伤害</span>击中敌人时会降低他们的子弹抗性（可叠加）。"
+		"ability_nano_shadow_step"				"幽冥女王"
+		"ability_nano_shadow_step_desc"			"标记敌人并将自己笼罩在阴影中，增强你的攻击并使你进入<span class=\"highlight\">隐身</span>状态。攻击仅会暂时暴露你。使用<span class=\"highlight\">近战伤害</span>击中敌人时会降低他们的子弹抗性（可叠加）。"
 		"modifier_nano_shadow_step"			"幽影瞬步"
 		"NanoShadowBulletArmorReductionLight_prefix"	"-"
 		"NanoShadowBulletArmorReductionLight_label"	"子弹抗性（轻）"
@@ -1498,7 +1511,6 @@
 		"ability_blood_shards"				"恶念"
 		"ability_blood_shards_quip"			"对敌人叠加伤害增强"
 		"ability_blood_shards_desc"			"<span class=\"highlight\">牺牲自己的部分生命</span> 发射会施加一层恶念的血晶。每层恶念会将目标<span class=\"highlight\">减速</span> 并<span class=\"highlight\">增加你对其造成的伤害</span>。减速效果随时间衰退。"
-		"ability_blood_shards_t2_desc"		"+{s:HealthToDamage} 生命转换伤害"
 		"ability_blood_shards_t3_desc"		"+{s:NumBloodShards} 血晶数量"
 		"NumBloodShards_label"				"血晶"
 		"MoveSpeedPenaltyPerStack_label"		"移动减速"
@@ -1609,8 +1621,6 @@
 		"HeadshotBonus_prefix"					"+"
 		"HeadshotBonus_label"					"爆头伤害"
 		"HeadshotBonus_postfix"					"%"
-
-
 		//-----------------------------------------------------------------------------
 		// Digger (Formally Pouncer and Driller) Mo and Krill
 		//-----------------------------------------------------------------------------
@@ -1852,7 +1862,6 @@
 		//"TornadoDuration_postfix"			"s"
 		"modifier_mirage_tornado_lift"	"龙卷风"
 		"modifier_mirage_tornado_slow"	"龙卷风 - 减速"
-
 		"mirage_fire_beetles"			"烈焰圣甲虫"
 		"mirage_fire_beetles_quip"		"发出圣甲虫，从敌人身上吸走生命值"
 		"mirage_fire_beetles_desc"		"开始发射烈焰圣甲虫。每只圣甲虫都可以<span class=\"highlight\">单独发射</span>，从击中的敌人身上<span class=\"highlight\">窃取最大生命值</span>并对其施加<span class=\"highlight\">子弹抗性降低</span>。无法对同一个敌人施加多只圣甲虫效果。从击中的英雄身上获得的生命值是非英雄的 3 倍。"
@@ -1871,6 +1880,7 @@
 		"mirage_teleport_desc"	"施法技能。选择小地图上的一个友方或可见敌方英雄作为目标，然后<span class=\"highlight\">传送</span>到你开始施法时他们所在的位置。传送后，你的<span class=\"highlight\">移动速度</span>会增加，此外<span class=\"highlight\">射速也会提升，直到下次装填为止</span>。"
 		"MirageTeleportMoveSpeed_conditional"	"传送后"
 		"mirage_teleport_movespeed"		"旅行者 - 额外移动速度"
+		"mirage_teleport_t3_desc"	"到达时，变得对眩晕、沉默、睡眠、缠绕和缴械<span class=\"highlight\">免疫</span>，持续 <span class=\"highlight\">{s:ImmunityDuration}s</span>。"
 
 		"mirage_sand_phantom"			"镇尼之印"
 		"mirage_sand_phantom_quip"		"施加不断增加伤害的效果"
@@ -2135,12 +2145,7 @@
 		//"slork_chomp_desc"			"<span class=\"highlight\">Dash forward and grab onto an enemy</span>, biting them repeatedly. The enemy is slowed, disarmed, and silenced while grappled. When the target is <span class=\"highlight\">below half health</span>, deal an additional <span class=\"highlight_tech\">{s:DamagePercentHealth}%</span> of their max health in damage."
 		"HobbledMovementSlow_Label" "移动减速"
 		"HobbledMovementSlow_postfix" "%"
-		//"slork_chomp_t2_desc"		"+{s:ChompHealPercent}% Lifesteal from Chomp damage"
-//		"slork_chomp_t3_desc"		"Chomp deals <span class=\"highlight\">{s:DamageMissingPercentHealth}%</span> of the enemies missing health each second."
-		//"modifier_slork_chomp_grapple"	"Chomping an Enemy"
-		//"modifier_slork_chomp_hobbled" "Getting Chomped"
-
-
+"fathom_defer_damage"		"细血长流"
 		//"slork_ability_4"		"Torrent"
 		//"slork_ability_4_desc"	"Slork creates a Jet of water that errupts from the ground damaging all nearby enemies and knocking them into the air."
 
@@ -2546,7 +2551,6 @@
 		"viscous_restorative_goo_desc"					"将目标包裹在具有修复力量的黏液立方之中，<span class=\"highlight\">抵御伤害，并增加生命值恢复</span>。目标在立方体中时<span class=\"highlight\">无法采取任何新行动</span>。可用于自身。按下<span class=\"highlight\">{s:in_mantle}</span>提前脱离立方体。"
 		"viscous_restorative_goo_quip"					"立方体是安全庇护所"
 		"viscous_restorative_goo_t1_desc"				"增加移动速度和耐力恢复"
-		"viscous_restorative_goo_t2_desc"				"<span class=\"highlight\">移除所有减益</span>及 <span class=\"highlight\">{s:AbilityCooldown}s</span> 技能冷却时间"
 		"viscous_restorative_goo_buff_desc"				"脱离立方体后，目标在短时间内拥有更高的<span class=\"highlight\">移动速度和耐力恢复率</span>。"
 		"PostCubeBuffDuration_label"					"增益持续时间"
 		"PostCubeBuffDuration_postfix"					"s"
@@ -2717,30 +2721,35 @@
 		//"SummonCount_label"		"Gangsters Summoned"
 		//"SummonLifetime_label"	"Gangster Lifetime"
 		"SummonLifetime_postfix"	"s"
-		//"SummonCasterHealthPct_prefix" "Gangster Health"
-		//"SummonCasterHealthPct_label" "to Gangster Health"
-		//"SummonCasterHealthPct_postfix" "% of The Boss' health"
+"ability_viper_snakedash" "蛇影疾行"
+		"ability_viper_snakedash_t3_desc"	"在滑行时 <span class=\"highlight\">+{s:SlideBulletEvasion}% 子弹闪避</span>"
+		"OutgoingDamage_label" "初始伤害"
+		"OutgoingProjectileLifetime_postfix" "s"
 
-		//"yakuza_protection_racket"		"Protection Racket"
-		//"yakuza_protection_racket_desc"	"Create a protective force shield to protect an ally and increase their crit damage. Purges negative effects on the target when cast."
-		 
-		//"yakuza_protection_racket_t1_desc" "-{s:WeaponRecoilReduction}% Weapon Recoil, -{s:MoveWhileShootingSpeedPenaltyReductionPercent}% move speed reduction when shooting."
+		"ability_viper_venom" "致命毒液"
+		"ability_viper_venom_desc" "向目标注入致命毒液。经过一段时间后毒液触发，造成<span class=\"highlight_spirit\">元灵伤害</span>。目标失去的生命值会变成伤害增加。<br><br><span class=\"diminish\">重新施加毒液会刷新持续时间。</span>"
+		"VenomMinDamage_label"			"最小毒液伤害"
+		"VenomMaxDamage_label"			"最大毒液伤害"
+		"VenomDuration_label"			"毒液累积持续时间"
+		"VenomDuration_postfix"		"s"
+		"VenomMaxDamageHealthPercentage_postfix"	"%"
+		"ability_viper_ult" "石化"
+		"ability_viper_ult_desc" "在地面创建一个被诅咒的区域。经过延迟后，圆柱形区域内的所有单位将被<span id=\"TestID\"/></span><span class=\"highlight\">石化</span>。敌人同时受到<span class=\"highlight_spirit\">元灵伤害</span>。<br><br><span class=\"diminish\">石化单位将阻挡所有伤害，但无法采取行动。<br>石化单位在阻挡足够的伤害后会解除石化状态。</span>"
+		"PetrifyDuration_label"			"石化持续时间"
+		"PetrifyDuration_postfix"		"s"
+		"PetrifyDamageBreakThreshold_label"	"石化最大伤害阻挡"
+		"ability_viper_ult/viper_ult_petrify" "已石化"
+		"HalfHeight_postfix"	"m"
+"ProjectileRedirectCount_label" "最大重定向次数"
+		"ability_magician_magicbolt_t3_desc" "+{s:ProjectileRedirectCount} 最大重定向次数及 +{s:Damage} 伤害"
+		"MageTime_label" "无法成为目标的持续时间"
+		"MageTime_postfix" "s"
+		"ability_magician_cloneturret" "鬼影随从"
+		"ability_magician_cloneturret_desc" "召唤一个<span class=\"highlight\">随从</span>到目标位置。随从会模仿你的攻击，扔出造成<span class=\"highlight_spirit\">元灵伤害</span>的卡牌。 <br><br>按下<span class=\"highlight\">[{s:in_ability2}]</span>来与你的随从交换位置。"
+		"ability_magician_cloneturret_t3_desc" "随从还会模仿乱心雷矢"
+		"ability_magician_cloneturret_quip" "召唤你忠实的随从"
 
-		//"MoveWhileShootingSpeedPenaltyReductionPercent_label" "Movement speed penalty while shooting reduction"
-
-		//"yakuza_setting_sun"		"Setting Sun"
-		//"yakuza_setting_sun_desc"	"Call down a precision Gamma Ray blast from orbit, hitting all units in the radius at every height regardless of cover. Units near the center of the beam take more damage."
-		//"CenterDamage_label"		"Damage at the center"
-		//"OuterDamage_label"			"Damage at the edge"
-		//"SecondHit_label"			"Double Strike a random hero in range."
-
-		//-----------------------------------------------------------------------------
-		// Hero Bomber
-		//-----------------------------------------------------------------------------
-
-		//"modifier_charged_bomb"	"Charged Bomb"
-
-
+		"ability_magician_animalcurse" "诡兔邪咒"
 		//-----------------------------------------------------------------------------
 		// END HERO ABILITIES
 		//-----------------------------------------------------------------------------
@@ -2775,36 +2784,12 @@
 		"citadel_weapon_hero_astro_set"				"秘术 45"
 		"citadel_weapon_hero_chrono_set"			"行业机密"
 		"citadel_weapon_hero_shiv_set"				"落空王牌"		
-		"citadel_weapon_hero_tengu_set"				"猫爹迷梦"
 		"citadel_weapon_hero_krill_set"				"金黄丝雀"
 		"citadel_weapon_hero_lash_set"				"长索传奇"
 		"citadel_weapon_hero_warden_set"			"自由之价"
 		"citadel_weapon_hero_mirage_set"			"一诺千金"
 		"citadel_weapon_hero_synth_set"				"不羁真我"
-		
-		//"citadel_weapon_hero_duo_set"				"Duo Gun"
-		//"citadel_weapon_hero_heavy_set"				"Heavy Gun"
-		//"citadel_weapon_hero_akimbo_set"			"Akimbo Gun"
-		//"citadel_weapon_hero_gunslinger_set"		"Gunslinger Gun"
-		//"citadel_weapon_hero_yakuza_set"			"Yakuza Boss Gun"
-		//"citadel_weapon_hero_phalanx_set"			"Phalanx Gun"
-		//"citadel_weapon_hero_kali_set"				"Kali Gun"
-		//"citadel_weapon_hero_revenant_set"			"Revenant Gun"
-		//"citadel_weapon_hero_demoman_set"			"Demoman Gun"
-		//"citadel_weapon_hero_hijack_set"			"Hijack Gun"
-		//"citadel_weapon_hero_mechaguy_set"			"Mechaguy Gun"
-		//"citadel_weapon_hero_zealot_set"			"Zealotry Gun"
-		//"citadel_weapon_hero_ballista_set"			"Ballista Gun"
-		//"citadel_weapon_hero_apocalypse_set"		"Apocalypse Gun"
-		//"citadel_weapon_hero_clawdril_set"			"Clawdril Gun"
-		//"citadel_weapon_hero_coldmetal_set"			"Cold Metal Gun"
-		//"citadel_weapon_hero_spade_set"				"Spade Dice Launcher"
-		//"citadel_weapon_hero_rutger_set"			"Rutger Gun"
-		//"citadel_weapon_hero_tokamak_set"			"Curie-ous Times"
-		//"citadel_weapon_hero_tempest_set"			"Tempest Gun"
-		"citadel_weapon_hero_wrecker_set"			"爆破颂歌"
-		
-		// Melee names
+// Melee names
 		"ability_melee_ghost"	"近战"
 		"citadel_ability_melee_bull"			"近战"
 		"citadel_ability_melee_gigawatt"		"近战"
@@ -2868,10 +2853,7 @@
 		"hero_tengu_role"				"和一名幸运的队友组成强力搭档"
 		"hero_mirage_role"				"掌控射击时机，捕捉逃跑目标"
 		"hero_synth_role"				"潜入敌军后方，乱其阵脚"
-
-        //"hero_akimbo_playstyle"         "Akimbo excels at close range combat, where he relies on speed, cone attacks, and a whole lot of bullets to hit as many targets as possible." 
-        "hero_astro_playstyle"          "Astro 凭借其一手好枪法，射击被自己弹到空中的东西。瞄准了目标之后她能给对方造成严重伤害。她的移动技巧能让她孤立敌人，或是降伏仓惶撤退的对手。"
-        "hero_atlas_playstyle"          "亚伯拉姆斯身形壮硕、稳如泰山，适合打头阵。他常常闯进敌人中央，看着他们四散奔逃。要是敌人在他身上浪费子弹，他后头的队友们就可以无所顾忌地大举杀敌。"
+"hero_atlas_playstyle"          "亚伯拉姆斯身形壮硕、稳如泰山，适合打头阵。他常常闯进敌人中央，看着他们四散奔逃。要是敌人在他身上浪费子弹，他后头的队友们就可以无所顾忌地大举杀敌。"
         //"hero_ballista_playstyle"       "You know what people hate?  Being knocked back by a shotgun.  You know what they hate even more?  Being knocked back into a mine field.  Do you know what they hate even more than that?  Being atomized by a fusion bomb.  Ballista turns the battlefield into an explosive Rube Goldberg device."
         "hero_bebop_playstyle"          "比波普能以多种方式串联起他的技能，从而打乱敌人位置、拯救队友、在短时间内连连伤敌。当战斗形势不讲究精细技巧时，他巨大的激光炮仍能解决不少问题。"
 		"hero_wrecker_playstyle"		"破坏王喜欢搜集利用废零件，他能将步兵大卸八块，用他的破坏球碾压对手，还能将所有敌人困在他的静止陷阱中。"
@@ -2887,7 +2869,6 @@
         "hero_kelvin_playstyle"         "是轻松取胜还是仓皇落败，全看能不能及时治疗队友、适时分裂对手。凯尔文四处游走，拖慢敌人，让自己的队伍能够掌控局面、占据优势，从而实现目标。"
         "hero_lash_playstyle"           "神鞭不给敌人留下多少喘息空间，他要么从远处飞来，向毫无戒心的敌人宣战，要么在这些敌人狼狈奔逃时穷追不舍。"
         "hero_krill_playstyle"			"隧底双煞在地下钻来钻去，几乎总能占得先机；一旦他们朝着敌人袭来，后果可是毁灭性的。"
-        //"hero_nano_playstyle"           "(in flux) Like any good politician, Nano turns people against each other and lets them do her dirty work before swooping in and claiming credit for everything."
         "hero_orion_playstyle"    		"灰爪是精明的捕猎者，他既拥有致命的精准度，又善于布置陷阱，还懂得找准巧妙的位置，因此他能拿下最难对付的敌手。"
         "hero_shiv_playstyle"           "西弗对公平对抗没兴趣，因此他偏好先以速攻速撤的战术来削弱敌人，然后再埋头作战，大举杀敌。"
         //"hero_tempest_playstyle"        "Much like how a child has no idea how a TV works, no one knows exactly HOW Tempest kills you.  Was it a tesla coil?  You didn't see a tesla coil.  Either way, you're dead and Tempest is laughing."
@@ -2900,10 +2881,7 @@
 		//"hero_rutger_playstyle"		"Rocket Launcher gives him some rocket-jumping capabilities, Force Field allows him to close off movement options, Cheat Death lets him turn bad fights around, and a Pulse released in the middle of a teamfight can dictate the outcome."
 		"hero_synth_playstyle"		"提箱客身材轻佻，配有一把强大的霰弹枪。提箱客能够短暂地躲进一个神秘的旅行箱中，并通过飞行斗篷进行远距离传送，以此逃离近在眼前的敌人。"
 		"hero_mirage_playstyle"		"蜃景可以将自己笼罩在狂暴的龙卷风中，迅速追击敌人并将其卷到空中。他的圣甲虫帮助他抵御多个敌人，无论是援助友军还是惩罚敌人，他总是随时准备出击。"
-		//"hero_slork_playstyle"		"Slork's weapon poisons all it hits. Primary fire hits all in a cone, and aimed fire shoots a dart which crits when hitting a poisoned target."
 		"hero_tengu_playstyle"		"青藤具有能够拖慢和眩晕敌人的干扰性作战招数。和一名队友强强联手能使她发挥最大的杀敌效率，让她和搭档的武器得到强化，还能让两人共享治疗。"
-
-	
 		//"hero_akimbo_lore"				"Though he was built by a lonely gunslinger, Akimbo was taught that he couldn't use a gun to solve all his problems.  This frustrated the robot outlaw immensely, but as time passed Akimbo realized that his human father was right.  A gun only solved about 75% of his problems.  To solve ALL his problems, he would need at least 2 guns." 
 		"hero_astro_lore"				"有的人终其一生都梦想着能够搬去纽约。哈雷黛却不是这样的人。她满足地做着一名小镇警长，唯一一次动枪还是在县集市上表演射击。对于这样的职业生涯她乐在其中。接着谋杀案就发生了。\n\n作案手法可怖而残忍：受害者的胸腔被撕扯开，内脏好像被鸟琢过一样散乱一摊。哈雷黛追查到了凶手——一名四处游荡的民乐手，被媒体冠以“游吟杀手”的称号。但是当她与凶手对峙时，那人却砰然化作一团乌鸦飞走了。\n\n一晃 6 个月已过，虽然这座位于伊利诺伊州中部的小镇已不再被谋杀案所笼罩，但哈雷黛对案件的调查并没有停止。她相信游吟杀手正逃往纽约。等她抓到了凶手，她一定要亲手送那个王八蛋上西天。"
 		"hero_atlas_lore"				"办事则雷利风行、处世则沉着冷静、喝酒则开怀痛饮，亚伯拉姆斯侦探多年来一直是纽约刑侦界的的大人物。从艺术品盗窃到人口失踪再到杀人献祭，亚伯拉姆斯可不是什么案子都接，他是什么案子都破。\n\n但他跟踪花心萝卜揭开隐秘情事的日子终于走到了尽头。一天他打开办公室大门，发现桌子上赫然放着宝书。\n\n一张字条上用黑玛瑙血写道“别让他们夺走宝书”，除此之外再无其他指示。亚伯拉姆斯还没搞清楚宝书是从哪来的，但有鉴于他的居所已遭闯入、他的办公室三次被人翻遍、他的车爆炸起火，他有足够多的理由将整件事查个水落石出。"
@@ -2930,8 +2908,5 @@
 		"hero_tengu_lore"				"当屋顶上的那只石兽突然活过来时，它都不知道究竟是怎么回事……它只知道一个成年的人类和一个小小的人类正受到伤害。所以它飞速赶去营救，把攻击者打了个落荒而逃。那个小小的人类向它说了声谢谢，还问它叫什么名字，但它没有名字。于是小小人类就说：“那我就叫你‘青藤’吧！”石兽当时身上爬满了常青藤，它觉得这名字有点太直白了，但为了小小人类，还是决定接受它。\n\n那两个人类问青藤是否原因跟他们回家，好让他们答谢它，于是青藤跟着他们走了。那天晚上青藤了解到了很多事情。那一家人姓阿若悠。那个小小人类叫索菲亚。他们管一盘美味佳肴叫“磨丰果”。不过最重要的是，她了解到袭击那两个人类的家伙们叫“门多萨集团”，他们到处害人，像阿若悠一家那样的好人。\n\n自阿若悠一家收留青藤那天起已经过了 18 年。这些年里，她视捣毁门多萨集团、解放东哈勒姆区为己任。不过，把将近 20 年的时间全都花在一桩事业上的问题在于，达成目标后就无所适从了。生平第一次，青藤准备好要走出东哈勒姆区，看看世间除了做义警之外还有什么。"
 		"hero_synth_lore"				"艾伦·菲尔法克斯是菲尔法克斯实业的头号继承人。艾伦 18 岁生日当天惨遭枪击，倒地不起。自那之后的五年里这家伙就一直隐姓埋名地活着。艾伦不知道是谁在试图阻止自己继承父母的公司……但是在菲尔法克斯实业这个利欲横流的贼窝里，谁都有嫌疑。\n\n艾伦改称自己为“提箱客”，并竭力隐藏自己的真实身份。这么做不仅仅是为了保护自己，也是为了寻找脱离父母的、只属于自己的认同感。"
 		"hero_mirage_lore"				"镇尼是当代世界较为奇异的族群之一。他们拥有强大的法力，但施展有度。他们没法保持人形超过 48 分钟，这之后就不得不回到容器里。正因如此，大多数镇尼会雇佣人类守卫，负责接送、保护、陪伴他们。\n\n蜃景就是这样一个守卫。他受雇于镇尼大使那沙拉·迪昂，目前在纽约参与外交任务。镇尼们希望能通过跟美国政府协商买下怀俄明州一部分土地，好让镇尼族建立属于自己的主权国家。"
-
-
-
-	}
+		}
 }
